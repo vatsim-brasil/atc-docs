@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: VATBRZ Standard Operating Procedures
+theme:
+  name: material
+  language: pt
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - social
+    - toc.follow
+copyright: The content on this website is intended for Flight Simulation use only.
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com
+      name: Youtube
+
+plugins:
+  - search:
+      lang:
+        - en
+        - pt
+  - awesome-pages
+  - table-reader
+  - i18n:
+      default_language: pt
+      docs_structure: folder
+      languages:
+        pt:
+          name: Português
+          build: true
+          site_name: VATBRZ Procedimentos Operacionais
+        en:
+          name: English
+          build: true
+          site_name: VATBRZ Operational Procedures
+      material_alternate: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - minify:
+      minify_html: true
