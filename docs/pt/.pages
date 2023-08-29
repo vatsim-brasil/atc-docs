@@ -1,5 +1,5 @@
 nav:
-   - index.md
+   - ... | index*
    - aerodromos
    - terminais
    - euroscope
