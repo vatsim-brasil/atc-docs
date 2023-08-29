@@ -1,9 +1,11 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: VATBRZ Standard Operating Procedures
+site_name: Portal ATC
+site_url: https://atc.vatsim.com.br
 theme:
   name: material
   language: pt
+  logo: images/vatbrz-branca.png
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -26,6 +28,7 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.indexes
+    - navigation.prune
     - search.suggest
     - social
     - toc.follow
@@ -42,8 +45,15 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/youtube
-      link: https://youtube.com
+      link: https://www.youtube.com/@VATSIMBrasil
       name: Youtube
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/vatsimbrasil/
+      name: Instagram
+
+extra_css:
+  - stylesheets/nav.css
+  - stylesheets/theme.css
 
 plugins:
   - search:
@@ -59,11 +69,11 @@ plugins:
         pt:
           name: Português
           build: true
-          site_name: VATBRZ Procedimentos Operacionais
+          site_name: Portal ATC
         en:
           name: English
           build: true
-          site_name: VATBRZ Operational Procedures
+          site_name: ATC Portal
       material_alternate: true
   - git-revision-date-localized:
       enable_creation_date: true
