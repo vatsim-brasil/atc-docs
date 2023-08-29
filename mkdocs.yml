@@ -63,18 +63,21 @@ plugins:
   - awesome-pages
   - table-reader
   - i18n:
-      default_language: pt
       docs_structure: folder
+      fallback_to_default: true
       languages:
-        pt:
+        - build: true
+          default: true
+          locale: pt
           name: Português
-          build: true
           site_name: Portal ATC
-        en:
+        - build: true
+          default: false
+          locale: en
           name: English
-          build: true
           site_name: ATC Portal
-      material_alternate: true
+      reconfigure_material: true
+      reconfigure_search: true
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
