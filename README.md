@@ -4,9 +4,13 @@ Após instalar o python, execute o comando a seguir para instalar as dependênci
 
 `pip install -r requirements.txt`
 
+No windows, talvez seja necessário utilizar `python -m pip install -r requirements.txt`
+
 Para desenvolvimento local e testes, basta utilizar:
 
 `mkdocs serve`
+
+No windows, talvez seja necessário utilizar `python -m mkdocs serve`
 
 Após executar, será exibida a url de acesso local.
 
