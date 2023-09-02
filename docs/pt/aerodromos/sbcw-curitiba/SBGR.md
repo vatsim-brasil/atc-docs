@@ -13,6 +13,7 @@ title: SBGR - Guarulhos
 | **Regras de voo**     | IFR/VFR                          |
 | **Elevação**          | 2461 pés, 750 metros             |
 
+
 ### Pistas
 
 | Pistas | Preferencial                                  | ILS                                      | Circuito            |
@@ -21,6 +22,14 @@ title: SBGR - Guarulhos
 | `10R`  | Preferencial para **pousos**                  | :fontawesome-solid-circle-check:{.corok} | Circuito não padrão | 
 | `28L`  | Preferencial para **pousos** quando em uso    | :fontawesome-solid-circle-check:{.corok} | Padrão              |
 | `28R`  | Preferencial para **decolagem** quando em uso | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+
+???+ note "Aviso"
+
+    Em condições meteorológicas com componente de
+    vento de cauda menor que 6 nós, o sistema preferencial de
+    pista de pouso e decolagem será o 10R/10L. Tal sistema
+    será normalmente utilizado em preferência ao sistema 28L/28R, 
+    desde que a superfície das pistas esteja seca.
 
 ### Operações
 
