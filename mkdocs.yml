@@ -41,6 +41,19 @@ markdown_extensions:
   - md_in_html
   - tables
   - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
 
 extra:
   social:
@@ -54,6 +67,7 @@ extra:
 extra_css:
   - stylesheets/nav.css
   - stylesheets/theme.css
+  - stylesheets/extra.css
 
 plugins:
   - search:
@@ -69,7 +83,7 @@ plugins:
         - build: true
           default: true
           locale: pt
-          name: Português
+          name: PortuguÃªs
           site_name: Portal ATC
         - build: true
           default: false

@@ -18,4 +18,3 @@ Após executar, será exibida a url de acesso local.
 
 - Documentação do mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 - Referência rápida: https://squidfunk.github.io/mkdocs-material/reference/
-- 
