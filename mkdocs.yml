@@ -83,7 +83,7 @@ plugins:
         - build: true
           default: true
           locale: pt
-          name: PortuguÃªs
+          name: Português
           site_name: Portal ATC
         - build: true
           default: false
