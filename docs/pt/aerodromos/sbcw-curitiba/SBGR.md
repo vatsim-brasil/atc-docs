@@ -13,7 +13,6 @@ title: SBGR - Guarulhos
 | **Regras de voo**     | IFR/VFR                          |
 | **Elevação**          | 2461 pés, 750 metros             |
 
-
 ### Pistas
 
 | Pistas | Preferencial                                  | ILS                                      | Circuito            |
