@@ -23,7 +23,7 @@ title: SBGR - Guarulhos
 | `28L`  | Preferencial para **pousos** quando em uso    | :fontawesome-solid-circle-check:{.corok} | Padrão              |
 | `28R`  | Preferencial para **decolagem** quando em uso | :fontawesome-solid-circle-check:{.corok} | Padrão              |
 
-???+ note "Aviso"
+!!! info "Aviso"
 
     Em condições meteorológicas com componente de
     vento de cauda menor que 6 nós, o sistema preferencial de
@@ -39,7 +39,6 @@ title: SBGR - Guarulhos
 | **DEL**        | TRÁFEGO GUARULHOS (Guarulhos Clearance)        | 121.000        |
 | **GND**        | SOLO GUARULHOS (Guarulhos Ground)              | 121.700        |
 | **TWR**        | TORRE GUARULHOS (Guarulhos Tower)              | 132.750        |
-| **APP**        | CONTROLE SÃO PAULO (São Paulo Control)         | 129.500        |
 
 ### Operações
 
@@ -50,17 +49,17 @@ ou travamento.
 * A TWR-GR **não** informará horários de pouso e decolagem.
 * **Não** estão autorizadas operações VFR de aeronaves de
 asas fixas com destino ou origem neste aeródromo, exceto
-para aeronaves militares brasileiras.
+para aeronaves militares brasileiras.[^1]
 
 #### Decolagens
 
 * As aeronaves **devem** estar prontas para decolagem ao chegarem no ponto de espera. Aeronaves que não podem cumprir com essa solicitação deverão avisar o Controle de Solo.
-* Aeronaves categorias A, B e C deverão estar preparadas
+* Aeronaves categorias **A, B e C deverão** estar **preparadas
 para decolar da RWY 10L a partir da intersecção com a TWY
-Hotel quando requeridas. Distância disponível: **3400m**.
-* Aeronaves categorias A, B e C deverão estar preparadas
+Hotel** quando requeridas. Distância disponível: **3400m**.
+* Aeronaves categorias **A, B e C deverão** estar **preparadas
 para decolar da RWY 28R a partir da intersecção com a TWY
-Papa quando requeridas. Distância disponível: **3460m**.
+Papa** quando requeridas. Distância disponível: **3460m**.
 
 #### Pousos
 
@@ -78,19 +77,14 @@ na frequência da TWR.
 
 ### Operações especiais
 
-#### Separação entre aeronaves
-
-*  A separação mínima de vigilância ATS na aproximação
-final será de 3NM.
-
 #### Operações segregadas sobre VMC
 
 * Poderão ser empregadas operações segregadas no
 conjunto de pistas 10/28, com a aplicação da separação
 visual.
 * Os mínimos operacionais do aeródromo para operações
-segregadas sob VMC são teto de 1000 ft e visibilidade de
-5000 m.
+segregadas sob VMC são **teto de 1000 ft e visibilidade de
+5000 m**.
 * A informação de operação segregada em andamento e o
 procedimento de aproximação (IAC) a ser utilizado nesta
 operação **deverá estar disponível no ATIS/D-ATIS**.
@@ -104,26 +98,24 @@ aproximação final não seja classificada como PESADA**;
 categoria de esteira de turbulência da **aeronave decolando
 da RWY 28 não seja classificada como PESADA**.
 
-#### Fraseologia a ser aplicada nas operações segregadas sob VMC em caso de arremetida
+### Fraseologia a ser aplicada nas operações segregadas sob VMC em caso de arremetida
 
 === "Português"
 
 1. Informação a ser provida à aeronave **executando arremetida**:  
 
-    (Ident. do Tráfego) tráfego, (Tipo), decolando da pista (10L/28R), mantenha separação visual, atento esteira de turbulência (quando cabível).  
+    (Ident. do Tráfego), tráfego, (Tipo), decolando da pista (10L/28R), mantenha separação visual, atento esteira de turbulência (quando cabível).  
 
      Exemplo:  
-        PTATC, tráfego, B757 decolando da pista 10L, mantenha separação visual, atento à esteira de turbulência.
+       ```PTATC, tráfego, B757 decolando da pista 10L, mantenha separação visual, atento à esteira de turbulência.```  
+
 
 2. Informação a ser provida à **aeronave decolando**:  
 
-    (Ident. do Tráfego) tráfego, (Tipo), iniciando arremetida (10L/ 28R), mantenha separação visual, atento esteira de turbulência (quando cabível).  
+    (Ident. do Tráfego), tráfego, (Tipo), iniciando arremetida (10L/28R), mantenha separação visual, atento esteira de turbulência (quando cabível).  
 
-     Exemplo:
-
-       PTATC, tráfego, B757 arremetendo da pista 28L, mantenha separação visual, atento à esteira de turbulência.
-        
-
+     Exemplo:  
+       ```PTATC, tráfego, B757 arremetendo da pista 28L, mantenha separação visual, atento à esteira de turbulência.```  
 
 === "Ordered list"
 
@@ -131,5 +123,7 @@ da RWY 28 não seja classificada como PESADA**.
     2. Donec vitae suscipit est
     3. Nulla tempor lobortis orci
 
-
+[^1]: [AIC 20/21 - 4.4.11](https://publicacoes.decea.mil.br/publicacao/aic-n-2021)  
+[^2]: [AIP Brasil](https://aisweb.decea.mil.br/?i=publicacoes&p=aip)  
+[^3]: []()
 
