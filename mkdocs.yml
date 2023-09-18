@@ -41,6 +41,11 @@ markdown_extensions:
   - md_in_html
   - tables
   - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

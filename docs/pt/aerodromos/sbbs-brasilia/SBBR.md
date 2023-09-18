@@ -2,26 +2,13 @@
 
 ## Dados Gerais
 
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Nome do Aeródromo</strong></td>
-            <td>Presidente Juscelino Kubitschek</td>
-        </tr>
-        <tr>
-            <td><strong>Classificação</strong></td>
-            <td>Internacional Público e Militar</td>
-        </tr>
-        <tr>
-            <td><strong>Regras de Voo</strong></td>
-            <td>IFR/VFR</td>
-        </tr>
-        <tr>
-            <td><strong>Elevação</strong></td>
-            <td>3498 pés / 1066,19 m</td>
-        </tr>
-    </tbody>
-</table>
+|                           | Informações                      |
+|---------------------------|----------------------------------|
+| **Nome do aeródromo**     | Presidente Juscelino Kubitschek  |
+| **Tipo de Operação**      | Internacional, Público e Militar |
+| **Regras de voo**         | IFR/VFR                          |
+| **Altitude de transição** | 7000 pés                         |
+| **Elevação**              | 3498 pés (1066m)                 |
 
 ## Pistas
 
@@ -34,12 +21,21 @@
 | `11R` | :fontawesome-solid-circle-check:{ .corok }  | :fontawesome-solid-right-long: Não-padrão (`VAC`) |
 | `29L` | :fontawesome-solid-circle-check:{ .corok }  | :fontawesome-solid-left-long: Padrão (`VAC`)      |
 
+| Pistas | Preferencial                                  | ILS                                      | Circuito            |
+|--------|-----------------------------------------------|------------------------------------------|---------------------|
+| `10L`  | Preferencial para **decolagem**               | :fontawesome-solid-circle-check:{.corok} | Circuito não padrão |
+| `10R`  | Preferencial para **pousos**                  | :fontawesome-solid-circle-check:{.corok} | Circuito não padrão | 
+| `28L`  | Preferencial para **pousos** quando em uso    | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+| `28R`  | Preferencial para **decolagem** quando em uso | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+
+<!--
 ### Configurações
 
 | Configuração | Decolagem   | Pouso       | Observações                                                                                     |
 | ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
 | **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
 | **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
+-->
 
 ## Órgãos ATC
 
