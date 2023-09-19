@@ -77,7 +77,7 @@ na frequência da TWR.
 
 ### Operações especiais
 
-#### Operações segregadas sobre VMC
+#### Operações segregadas sobre VMC[^2]
 
 * Poderão ser empregadas operações segregadas no
 conjunto de pistas 10/28, com a aplicação da separação
@@ -104,11 +104,11 @@ da RWY 28 não seja classificada como PESADA**.
 
 1. Informação a ser provida à aeronave **executando arremetida**:  
 
-    (Ident. do Tráfego), tráfego, (Tipo), decolando da pista (10L/28R), mantenha separação visual, atento esteira de turbulência (quando cabível).  
+    (Ident. do Tráfego), tráfego, (Tipo), decolando da pista (10L/28R), mantenha separação visual, atento esteira de turbulência (quando cabível).    
 
      Exemplo:  
        ```PTATC, tráfego, B757 decolando da pista 10L, mantenha separação visual, atento à esteira de turbulência.```  
-
+  
 
 2. Informação a ser provida à **aeronave decolando**:  
 
@@ -117,13 +117,34 @@ da RWY 28 não seja classificada como PESADA**.
      Exemplo:  
        ```PTATC, tráfego, B757 arremetendo da pista 28L, mantenha separação visual, atento à esteira de turbulência.```  
 
-=== "Ordered list"
 
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
+3. Informação de **referências visuais com a pista e aeronave na pista adjacente a ser provida pela aeronave em aproximação**:  
+    
+    Torre Guarulhos, (Ident. do Tráfego), final pista (10R/28L), visual.  
+
+     Exemplo:  
+       ```Torre Guarulhos, PTATC, final pista 10R, visual.```
+ 
+=== "Inglês"
+    
+1. Informação a ser provida à **aeronave executando arremetida**:  
+
+    (Ident. do tráfego), traffic, (Tipo), departing on runway (10L/28R), maintain visual separation, caution wake turbulence (quando cabível).  
+        Exemplo:  
+          ```PTATC, traffic, B757 departing onrunway 10L, maintain visual separation, caution wake turbulence.```
+
+2. Informação a ser provida à **aeronave decolando**:
+
+    (Ident. do tráfego), traffic, (Tipo), going around on runway (10L/28R), maintain visual separation, caution wake turbulence (quando cabível).
+        Exemplo:
+        ```PTATC, traffic, B757 going around on runway 28L, maintain visual separation, caution wake turbulence.```
+
+3. Informação de **referências visuais com a pista e aeronave na pista adjacente a ser provida pela aeronave em aproximação**:
+     
+     Guarulhos Tower, (Ident. do Tráfego), final approach runway (10R/28L), visual.
+       Exemplo:
+         ```Guarulhos Tower, PTATC, final approach runway 10R, visual.```  
 
 [^1]: [AIC 20/21 - 4.4.11](https://publicacoes.decea.mil.br/publicacao/aic-n-2021)  
-[^2]: [AIP Brasil](https://aisweb.decea.mil.br/?i=publicacoes&p=aip)  
-[^3]: []()
+[^2]: [AIP Brasil](https://aisweb.decea.mil.br/?i=publicacoes&p=aip)
 
