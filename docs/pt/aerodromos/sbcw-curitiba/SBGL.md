@@ -15,11 +15,11 @@
 
 ### Descrição
 
-| Pista | Preferencial                                  | ILS                                      | Circuito            |
-|--------|-----------------------------------------------|------------------------------------------|---------------------|
-| `10`  | Preferencial para **decolagens**               | :fontawesome-solid-circle-check:{.corok} | Padrão |
-| `28`  | Preferencial para **pousos**                  | :fontawesome-solid-circle-check:{.corok} | Não-padrão | 
-| `15`  | Preferencial para **pousos** quando em uso    | :fontawesome-solid-circle-check:{.corok} | Não-padrão              |
+| Pista | Preferencial                                   | ILS                                         | Circuito            |
+|-------|------------------------------------------------|---------------------------------------------|---------------------|
+| `10`  | Preferencial para **decolagens**               | :fontawesome-solid-circle-check:{.corok}    | Padrão              |
+| `28`  | Preferencial para **pousos** quando em uso     | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          | 
+| `15`  | Preferencial para **pousos**                   | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          |
 | `33`  | Preferencial para **decolagens** quando em uso | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
 
 !!! info "Informação importante!"
@@ -37,16 +37,13 @@
 
 ## Órgãos ATC
 
-| Código     | Abrev. | Indicativo de Chamada | Frequência              | Observações |
-| ---------- | ------ | --------------------- | ----------------------- | ----------- |
-| SBGL_ATIS  | `AGL`  | ATIS Galeão           | 127.600                 |             |
-| SBGL_DEL   | `DGL`  | Tráfego Galeão        | 121.000[^1] 135.100[^2] | `DCL`       |
-| SBGL_RMP   | `RGL`  | Pátio Galeão          | 121.950[^1] 130.675[^2] | Apenas durante eventos |
-| SBGL_GND   | `GGL`  | Solo Galeão           | 121.650[^1] 128.350[^2] |             |
-| SBGL_TWR   | `TGL`  | Torre Galeão          | 118.000[^1] 118.200[^2] |             |
-
-[^1]: Frequência Primária (vide [ROTAER](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBGL))
-[^2]: Frequência Secundária (vide [ROTAER](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBGL))
+| Código     | Abrev. | Indicativo de Chamada | Frequência              | Observações            |
+| ---------- | ------ | --------------------- | ----------------------- | ---------------------- |
+| SBGL_ATIS  | `AGL`  | ATIS Galeão           | 127.600                 |                        |
+| SBGL_DEL   | `DGL`  | Tráfego Galeão        | 121.000 | `DCL`                  |
+| SBGL_RMP   | `RGL`  | Pátio Galeão          | 121.950 | Apenas durante eventos |
+| SBGL_GND   | `GGL`  | Solo Galeão           | 121.650 |                        |
+| SBGL_TWR   | `TGL`  | Torre Galeão          | 118.000 |                        |
 
 ## Operações
 
@@ -127,6 +124,8 @@ excepcionais, trecho da TWY `M` entre a TWY `S` e TWY `V`.
 
 A Torre Galeão poderá empregar as operações descritas acima[^3] em **duas** situações distintas, variando apenas o ponto de corte, estando satisfeitas as seguintes restrições:
 
+[^3]: [AIP Brasil, AD 2 SBGL](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
+
 === "IMC"
 
     !!! info "Nesse caso, o ponto de corte é de **3 nm**."
@@ -153,9 +152,28 @@ A Torre Galeão poderá empregar as operações descritas acima[^3] em **duas** 
     - Em condições IMC, enquanto uma ACFT em aproximação para a RWY 28 não tiver passado 3 nm antes da cabeceira, uma ACFT pode receber autorização para TKOF da RWY 33. Se ela tiver passado esse ponto, nenhuma ACFT pode receber autorização para a TKOF enquanto a aeronave em aproximação não tiver pousado ou arremetido, sem haver violado a RDL limite do procedimento.
     - Em condições VMC esse ponto limite diminui para 1,4 nm da cabeceira da RWY 28.
 
+##### Fraseologia específica
 
+Em uma eventual arremetida após o MAPT na pista 28 é possível que a separação com as aeronaves decolando da pista 33 seja reduzida, de forma que, estando VMC, a aplicação de separação visual pode ser viável. Neste caso, uma informação de tráfego essencial deve ser detalhada e fornecida o quanto antes aos pilotos.
 
-[^3]: [AIP Brasil, AD 2 SBGL](https://aisweb.decea.mil.br/?i=publicacoes&p=aip)  
+=== "Informação a ser provida para a aeronave aproximando"
+
+    Exemplos de fraseologia a ser aplicada pelo controlador:
+
+    | Estrutura | Exemplo |
+    |-----------|---------|
+    | (Ident. do Tráfego) curve a direita, para procedimento de aproximação perdida, tráfego essencial local, (Tipo), iniciando a decolagem da pista 33. | PTATC, curve a direita, para o procedimento de aproximação perdida, tráfego essencial local, B737 iniciando a decolagem da pista 33. |
+    | (Ident. do Tráfego), curve a direita para o procedimento de aproximação perdida, tráfego essencial local, (Tipo), decolando da pista 33, passando o ponto médio da pista. | PTATC, curve a direita, para o procedimento de aproximação perdida, tráfego essencial local, B737 decolando da pista 33, passando o ponto médio da pista. |
+    | (Ident. do Tráfego), curve a direita para o procedimento de aproximação perdida, tráfego essencial local, (Tipo), decolando da pista 33, cruzando a cabeceira 15. | PTATC, curve a direita, para o procedimento de aproximação perdida, tráfego essencial local, B737 decolando da pista 33, cruzando a cabeceira 15. |
+
+=== "Informação a ser provida para a aeronave decolando"
+
+    Exemplos de fraseologia a ser aplicada pelo controlador:
+
+    | Estrutura | Exemplo |
+    |-----------|---------|
+    | (Ident. do Tráfego) tráfego, (Tipo), iniciando arremetida pista (28), atenção tráfego essencial local, passando a cabeceira 28. | PTATC, tráfego, B737 iniciando arremetida da pista 28, atenção tráfego essencial local, passando a cabeceira 28. |
+    | (Ident. do Tráfego) tráfego, (Tipo), iniciando arremetida pista (28), atenção tráfego essencial local, passando o ponto médio da pista. | PTATC, tráfego, B737 iniciando arremetida da pista 28, atenção tráfego essencial local, passando o ponto médio da pista. |
 
 #### Locais
 
