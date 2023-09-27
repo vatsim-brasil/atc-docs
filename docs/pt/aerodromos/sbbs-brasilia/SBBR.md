@@ -2,44 +2,35 @@
 
 ## Dados Gerais
 
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Nome do Aeródromo</strong></td>
-            <td>Presidente Juscelino Kubitschek</td>
-        </tr>
-        <tr>
-            <td><strong>Classificação</strong></td>
-            <td>Internacional Público e Militar</td>
-        </tr>
-        <tr>
-            <td><strong>Regras de Voo</strong></td>
-            <td>IFR/VFR</td>
-        </tr>
-        <tr>
-            <td><strong>Elevação</strong></td>
-            <td>3498 pés / 1066,19 m</td>
-        </tr>
-    </tbody>
-</table>
+|                           | Informações                      |
+|---------------------------|----------------------------------|
+| **Nome do aeródromo**     | Presidente Juscelino Kubitschek  |
+| **Tipo de Operação**      | Internacional, Público e Militar |
+| **Regras de voo**         | IFR/VFR                          |
+| **Altitude de transição** | 7000 pés                         |
+| **Elevação**              | 3498 pés (1066m)                 |
 
 ## Pistas
 
 ### Descrição
 
-| Pista | ILS                                         | Circuito                                          |
-| ----- | ------------------------------------------- | ------------------------------------------------- |
-| `11L` | :fontawesome-solid-circle-check:{ .corok }  | :fontawesome-solid-left-long: Padrão (`VAC`)      |
-| `29R` | :fontawesome-solid-circle-xmark:{ .cornot } | :fontawesome-solid-right-long: Não-padrão (`VAC`) |
-| `11R` | :fontawesome-solid-circle-check:{ .corok }  | :fontawesome-solid-right-long: Não-padrão (`VAC`) |
-| `29L` | :fontawesome-solid-circle-check:{ .corok }  | :fontawesome-solid-left-long: Padrão (`VAC`)      |
 
+
+| Pistas | Preferencial                                  | ILS                                      | Circuito            |
+|--------|-----------------------------------------------|------------------------------------------|---------------------|
+| `11L`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília | :fontawesome-solid-circle-check:{.corok} | Padrão |
+| `29R`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília | :fontawesome-solid-circle-xmark:{.cornot} | Não-padrão              |
+| `11R`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília | :fontawesome-solid-circle-check:{.corok} | Não-padrão | 
+| `29L`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+
+<!--
 ### Configurações
 
 | Configuração | Decolagem   | Pouso       | Observações                                                                                     |
 | ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
 | **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
 | **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
+-->
 
 ## Órgãos ATC
 
@@ -47,9 +38,9 @@
 | ---------- | ------ | --------------------- | ----------------------- | ----------- |
 | SBBR_ATIS  | `ABR`  | ATIS Brasília         | 127.800                 |             |
 | SBBR_DEL   | `DBR`  | Tráfego Brasília      | 121.000                 | `DCL`       |
-| SBBR_GND   | `GBR`  | Solo Brasília         | 121.800 121.950         |             |
-| SBBR_TWR   | `TBR`  | Torre Brasília        | 118.100 118.450 118.750 |             |
-| SBBR_M_TWR | `OBR`  | Operações Brasília    | 122.500 135.850         |             |
+| SBBR_GND   | `GBR`  | Solo Brasília         | 121.800 |             |
+| SBBR_TWR   | `TBR`  | Torre Brasília        | 118.100 |             |
+| SBBR_M_TWR | `OBR`  | Operações Brasília    | 122.500 |             |
 
 ## Operações
 
@@ -82,14 +73,15 @@
 
 ## Posições de Parada
 
-| Posições | Classificação                    |
-| :------: | -------------------------------- |
-|  1 - 4   | Voos Internacionais              |
-|  5 - 16  | Gol                              |
-| 17 - 24  | Azul                             |
-| 25 - 41  | Latam                            |
-| 47 - 51  | Cargas de Grande Porte / Remotas |
-| 52 - 66  | Cargas de Grande Porte / Remotas |
+| Pátio       | Posições | Classificação                    |
+|:-----------:| :------: | -------------------------------- |
+|     `1`     |  1 - 4   | Internacionais                   |
+|     `1`     |  5 - 41  | Domésticos                       |
+|     `2`     | 52 - 66  | Cargas / Remotas                 |
+|     `3`     | 67 - 70  | Cargas de Grande Porte / Remotas |
+|  `MILITAR`  |   ANY    | Militar - Operacional            |
+
+<!--
 
 ## Fluxos de Solo
 
@@ -97,11 +89,16 @@
 
     Selecione a pista em uso no canto superior direito do mapa para visualizar o respectivo fluxo de solo.
 
+
 <div id="mapa1" class="mapa"></div>
+
+-->
 
 <!--
 Daqui pra baixo, são os mapas.
 -->
+
+<!--
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -400,3 +397,5 @@ var opcoesDeFluxo = {
 var layerControl = L.control.layers(opcoesDeMapa, opcoesDeFluxo).addTo(mapa1);
 
 </script>
+
+-->
