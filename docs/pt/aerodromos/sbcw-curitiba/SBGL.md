@@ -37,13 +37,13 @@
 
 ## Órgãos ATC
 
-| Código     | Abrev. | Indicativo de Chamada | Frequência              | Observações            |
-| ---------- | ------ | --------------------- | ----------------------- | ---------------------- |
-| SBGL_ATIS  | `AGL`  | ATIS Galeão           | 127.600                 |                        |
-| SBGL_DEL   | `DGL`  | Tráfego Galeão        | 121.000 | `DCL`                  |
-| SBGL_RMP   | `RGL`  | Pátio Galeão          | 121.950 | Apenas durante eventos |
-| SBGL_GND   | `GGL`  | Solo Galeão           | 121.650 |                        |
-| SBGL_TWR   | `TGL`  | Torre Galeão          | 118.000 |                        |
+| Código     | Abrev. | Indicativo de Chamada | Frequência | Observações            |
+| ---------- | ------ | --------------------- | ---------- | ---------------------- |
+| SBGL_ATIS  | `AGL`  | ATIS Galeão           | 127.600    |                        |
+| SBGL_DEL   | `DGL`  | Tráfego Galeão        | 121.000    | `DCL`                  |
+| SBGL_RMP   | `RGL`  | Pátio Galeão          | 121.950    | Apenas durante eventos |
+| SBGL_GND   | `GGL`  | Solo Galeão           | 121.650    |                        |
+| SBGL_TWR   | `TGL`  | Torre Galeão          | 118.000    |                        |
 
 ## Operações
 
@@ -78,7 +78,7 @@
 #### Controle de Pátio
 
 - Essa posição deverá ser aberta apenas durante eventos da Vatsim Brasil, sendo vedada a operação no dia a dia.
-- Com RMP em serviço, ACFT DEST pátios 1, 2, 3 e 5 devem estabelecer CTC com o Controle de Pátio antes de ingressar.
+- Com RMP em serviço, ACFT DEST pátios `1`, `2`, `3` e `5` devem estabelecer CTC com o Controle de Pátio antes de ingressar.
 
 ??? info "Clique aqui para ver a área de atuação do Pátio Galeão"
     ![Área de atuação do Pátio Galeão](SBGL-Apron.png){ loading=lazy }
