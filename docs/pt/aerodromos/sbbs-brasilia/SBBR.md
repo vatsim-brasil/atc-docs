@@ -18,10 +18,22 @@
 
 | Pistas | Preferencial                                  | ILS                                      | Circuito            |
 |--------|-----------------------------------------------|------------------------------------------|---------------------|
-| `11L`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília | :fontawesome-solid-circle-check:{.corok} | Padrão |
-| `29R`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília | :fontawesome-solid-circle-xmark:{.cornot} | Não-padrão              |
-| `11R`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília | :fontawesome-solid-circle-check:{.corok} | Não-padrão | 
-| `29L`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+| `11L`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**.[^1] / Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Padrão |
+| `29R`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília.[^1]  | :fontawesome-solid-circle-xmark:{.cornot} | Não-padrão              |
+| `11R`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**.[^1] / Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Não-padrão | 
+| `29L`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+
+[^1]: [AIP Brasil, AD 2 SBBR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
+
+!!! warning "Operação Preferencial de Pista"
+
+    Em condições meteorológicas com {==**componente de vento de cauda menor ou igual a 7KT**==}, a pista preferencial de pouso e decolagem será a RWY 11L/11R. Tal configuração será normalmente utilizada em preferência à utilização das RWYS 29R/29L, desde que a superfície da pista **esteja seca**. Quando a pista de pouso e decolagem em uso for RWY 11L/11R com componente de vento de cauda, os pilotos que solicitarem autorização para utilizar a RWY 29R/29L devem considerar que seu pouso ou decolagem {==**pode sofrer atraso**==}.
+
+!!! warning "Operação em Horário de Pico de Decolagem"
+
+    Nos momentos de pico de decolagem para os Setores N/NE/NW, a pista RWY 11L/29R será utilizada somente para DEP. As aproximações de todos os setores e as decolagens para o Setor S serão realizadas na RWY 11R/29L.
+
+
 
 <!--
 ### Configurações
@@ -46,9 +58,43 @@
 
 ### Gerais
 
-- A TWR Brasília não informará a hora de decolagem às ACFT. A instrução quanto à FREQ do próximo órgão a ser chamado AFT TKOF e, se necessárias, instruções complementares, serão emitidas juntamente com a AUTH de TKOF.
-- Nas OPS de LDG, os pilotos não reportarão para TWR Brasília a COND de trem de pouso, EXC nas situações de EMERG com referência ao seu baixamento e/ou travamento.
+#### Comunicação
+
+- Copiada a autorização, as ACFT informarão ao DEL quando realmente estiverem prontas para o acionamento de motores.
+- As ACFT serão instruídas pelo DEL a monitorarem
+(manter-se na escuta) a frequência do GND, para autorização de acionamento, sendo *desnecessária chamada inicial*.
+- Na transferência de comunicações para a TWR, o GND instruirá às ACFT a monitorarem (manter-se na escuta) a frequência da TWR, não sendo necessária a chamada inicial. Nesse caso, as ACFT deverão aguardar a chamada da TWR, preparando-se para possível decolagem imediata.
+
+#### Procedimentos
+
+- Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
+- Alinhamento deve ser imediato assim que autorizado.
+- Espera-se que ao receber autorização de TKOF, o piloto inicie a corrida imediatamente (o tempo de reação esperado é de até 10 segundos).
+- A TWR não informará a hora de TKOF às ACFT. A instrução quanto à FREQ do próximo órgão a ser chamado AFT TKOF e, se necessárias, instruções complementares, serão emitidas juntamente com a AUTH de TKOF.
 - Todas as decolagens deverão empregar procedimento de abatimento de ruído, conforme manual de cada aeronave.
+- Nas OPS de LDG, os pilotos não reportarão para a TWR a COND de trem de pouso, EXC nas situações de EMERG com referência ao seu baixamento e/ou travamento.
+- Efetuar imediatamente a chamada inicial ao APP após a decolagem, a fim de obter instruções para livrar o eixo de pista de decolagem;
+- A chamada inicial ao APP após a decolagem deverá ser imediata e observar somente o seguinte padrão: *CONTROLE BRASÍLIA [CALLSIGN]*. Não incluir qualquer informação adicional ao mencionado padrão.
+- Aguardar vetoração ou autorização direto a um waypoint publicado logo após a decolagem.
+- As aeronaves código de referência A e B **deverão** ser configuradas para decolar das interseções abaixo:
+    - *RWY 11L:*
+        * Aeronaves código de referência A e B
+            * TWY `C`
+            * Distância da Pista de Táxi `C` até a cabeceira 29R: TORA Disponível: 2193 m
+    - *RWY 11R:*
+        * Aeronaves código de referência A e B
+            * TWY `BB`
+            * Distância da Pista de Táxi `BB` até a cabeceira 29L: TORA Disponível: 2188 m
+    - *RWY 29R:*
+        * Aeronaves código de referência A e B
+            * TWY `F`
+            * Distância da Pista de Táxi `F` até a cabeceira 29R: TORA Disponível: 1956 m
+    - *RWY 29L:*
+        * Aeronaves código de referência A e B
+            * TWY `EE`
+            * Distância da Pista de Táxi `EE` até a cabeceira 11R: TORA Disponível: 2161 m
+- As aeronaves código de referência C ou acima também poderão ser autorizadas a decolar das interseções acima, a partir de solicitação da aeronave.
+- Os pilotos devem livrar a pista na velocidade mais rápida permitida pelos procedimentos operacionais padronizados e em conformidade com a segurança operacional, permitindo que o ATC aplique a separação mínima na aproximação final.
 - Nas operações de decolagem, as aeronaves devem utilizar, em condições normais de operação, as pistas `11L` ou `29R` com destino a localidades situadas ao **Norte** e **Nordeste** de Brasília. E, aquelas com destino a localidades ao **Sul** e **Sudeste** utilizem `11R` ou `29L`.
 - Nas operações de pouso, as aeronaves devem utilizar, em condições normais de operação, as pistas `11L` ou `29R` procedentes de localidades situadas ao **Norte** e **Nordeste** de Brasília. E, aquelas procedentes de localidades ao **Sul** e **Sudeste** utilizem `11R` ou `29L`.
 
