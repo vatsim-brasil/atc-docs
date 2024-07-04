@@ -1,5 +1,3 @@
 # Home 
 
-
-
 Em desenvolvimento
