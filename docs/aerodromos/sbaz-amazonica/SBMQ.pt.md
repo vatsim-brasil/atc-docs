@@ -1,4 +1,9 @@
-# SBMQ - Macapá
+---
+  title: SBMQ - Macapá
+
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -50,7 +55,7 @@
 #### Pátios e Pistas de Taxi
 
 - Compulsória a utilização de push-back para ACFT acima de 20t, para saída do PRKG.
-- Giro de 180° de ACFT do porte de AIRBUS, BOEING 737, ou maiores, nas THR e no ponto intermediário entre a THR 08 e TWY `B`.
+- Giro de 180 graus de ACFT do porte de AIRBUS, BOEING 737, ou maiores, nas THR e no ponto intermediário entre a THR 08 e TWY `B`.
 
 #### Locais
 

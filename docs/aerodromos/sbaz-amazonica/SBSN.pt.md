@@ -1,4 +1,8 @@
-# SBSN - Santarém
+---
+  title: SBSN - Santarém
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -39,7 +43,7 @@
 
 ### Gerais
 
-- RWY 28 PRB OPS LDG de ACFT CIVIL com motor a reação.
+- RWY 28 PRB OPS LDG de ACFT civil com motor a reação.
 - O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 4C ou inferior.
 
 ### Específicas
@@ -50,10 +54,7 @@
 
 #### Pátios e Pistas de Taxi
 
-- ACFT com peso igual ou superior a 5700kg devem fazer os giros de 180DEG sobre as pistas apenas sobre as partes concretadas.
-- ACFT com peso acima de 20t, quando ocupando as posições de estacionamento número 4 ou 5, somente deverão acionar motores após conclusão de operação de pushback.
-- RWY 06/24 - AUTH giro 180DEG para ACFT com envergadura igual ou superior 28,7m somente nas THR.
-- É obrigatória a utilização de pushback para ACFT acima de 20t nos procedimentos de saída do estacionamento.
+`NIL`
 
 #### Locais
 

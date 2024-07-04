@@ -1,0 +1,67 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> Olá! </h1>
+                    <p>Bem-vindo ao Portal ATC da Vatsim Brasil. Aqui você encontrará instruções e padronizações locais para aeródromos, terminais e centros, bem como outras informações relevantes ao controle de tráfego aéreo.</p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                    Vamos!
+                </a>
+                <a href="http://www.vatsim.com.br" title="VATBRZ Website" class="md-button">
+                    Voltar ao site da Vatbrz
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+
+<div class="lowerSection">
+    <div class="md-grid md-typeset">
+        <div class="feature">
+					<h2>Mudanças Recentes</h2>
+
+					<div class="cards">
+                        <div class="card">
+                            <a href="">
+                                <h3>Novas Setorizações</h3>
+
+                                <p>
+                                    Publicados detalhes das novas setorizações das FIR do Brasil, com instruções específicas quanto ao seu acionamento, operação e coordenação.
+                                </p>
+                            </a>
+                        </div>
+                        
+                        <div class="card">
+                            <a href="">
+                                <h3>Operação dos Aeródromos</h3>
+
+                                <p>
+                                    Publicados procedimentos padronizados e específicos para cada aeródromo, no intuito de reunir diversas informações espalhadas em diversos regulamentos.
+                                </p>
+                            </a>
+						</div>
+						
+						<div class="card">
+							<a href="">
+								<h3>Euroscope</h3>
+
+								<p>
+									Criada seção específica para publicação de informação referente ao Euroscope, como configuração inicial e personalização.
+								</p>
+							</a>
+						</div>
+					</div>
+
+				</div>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}

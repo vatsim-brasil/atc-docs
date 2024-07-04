@@ -1,4 +1,8 @@
-# SBRB - Rio Branco
+---
+  title: SBRB - Rio Branco
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -49,8 +53,8 @@
 
 #### Pátios e Pistas de Taxi
 
-- Compulsória a utilização de push-back para ACFT acima de 20t, para saída do PRKG.
-- Aeronave de médio e grande porte deverão realizar giro de 180DEG somente na área de giro das THR.
+- Compulsória a utilização de *pushback* para ACFT acima de 20 toneladas, para saída do PRKG.
+- Aeronave de médio e grande porte deverão realizar giro de 180 graus somente na área de giro das THR.
 
 #### Locais
 

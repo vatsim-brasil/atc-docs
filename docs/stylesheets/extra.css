@@ -1,9 +1,12 @@
-.corok {
-    color: #03ba5f;
-  }
-.cornot {
-    color: #dc2c57;
-}
-.corparc {
-  color: #e98c12;
-}
+.corok { color: #03ba5f; }
+.cornot { color: #dc2c57; }
+.corparc { color: #e98c12; }
+.corVatsimIndigo { color: #2b3990; }
+.corVatsimBlue { color: #2483c5; }
+.corVatsimGreen {  color: #29b473; }
+.corVatbrzIndigo { color: #182061; }
+.corVatbrzVermelho { color: #e36f6f; }
+.corVatbrzAmarelo { color: #ffd816; }
+.corVatbrzVerde { color: #5cbd9e; }
+.corVatbrzCiano { color: #3db2ff; }
+.corVatbrzVerdeMusgo { color: #52a77e; }

@@ -1,4 +1,9 @@
-# SBCY - Cuiabá
+---
+  title: SBCY - Cuiabá
+
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -11,23 +16,20 @@
 | **Altitude de transição**    | 4000 pés                 |
 | **Elevação**                 | 617 pés (188 m)          |
 
-## Pistas
+<table><tr><td><strong>METAR</strong></td><td><code>
+  --8<-- "https://metar.vatsim.net/metar.php?id=SBCY"
+</code></td></tr></table>
+<a href="https://metar-taf.com/pt/SBCY" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: -20px 0px;">METAR Aeroporto Internacional Marechal Rondon</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCY?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBCY" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: -20px 0px;">METAR Aeroporto Internacional Marechal Rondon</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCY?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
-### Descrição
+## Pistas
 
 | Pista | Preferencial  | ILS                                         | Circuito   |
 |-------|---------------|---------------------------------------------|------------|
 | `17`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão | 
 | `35`  | -             | :fontawesome-solid-circle-check:{.corok}    | Padrão     |
-
-<!--
-### Configurações
-
-| Configuração | Decolagem   | Pouso       | Observações                                                                                     |
-| ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
-| **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
--->
 
 ## Órgãos ATC
 
@@ -52,9 +54,9 @@
 #### Pátios e Pistas de Taxi
 
 - TWY `F` disponível operações diurnas.
-- Proibido o giro de 180DEG na RWY 17/35 de ACFT médio e grande parte. AUTH somente na área de giro da THR (turn-around) devido degradação da RWY.
-- Em condições meteorológicas de Voo por Instrumento (IMC), PRB OPS de ACFT na TWY `E`, enquanto houver operação de pouso ou decolagem de aeronaves classificadas com número de código de referência 3 ou 4.
-- Em condições meteorológicas de Voo por Instrumento (IMC), PRB OPS de pushback de ACFT enquanto houver operação de LDG ou TKOF de aeronaves classificadas com número de código de referência 4C ou 4D.
+- Proibido o giro de 180 graus na RWY 17/35 de ACFT médio e grande parte. AUTH somente na área de giro da THR (turn-around) devido degradação da RWY.
+- Em condições meteorológicas de Voo por Instrumento (IMC), PRB OPS de ACFT na TWY `E`, enquanto houver operação de pouso ou decolagem de aeronaves classificadas com RCD 3 ou 4.
+- Em condições meteorológicas de Voo por Instrumento (IMC), PRB OPS de pushback de ACFT enquanto houver operação de LDG ou TKOF de aeronaves classificadas com RCD 4C ou 4D.
 
 #### Locais
 
