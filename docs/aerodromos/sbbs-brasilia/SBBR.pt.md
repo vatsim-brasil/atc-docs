@@ -1,4 +1,8 @@
-# SBBR - Brasília
+---
+  title: SBBR - Brasília
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -101,6 +105,8 @@
 ### Específicas
 
 #### Operações Paralelas Simultâneas
+
+Em construção.
 
 #### Tráfego VFR
 

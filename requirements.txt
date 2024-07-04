@@ -6,5 +6,6 @@ mkdocs-minify-plugin==0.7.1
 mkdocs-redirects==1.2.1
 mkdocs-static-i18n==1.2.3
 mkdocs-table-reader-plugin==2.2.2
+mkdocs-glightbox==0.4.0
 pillow==10.4.0
 cairosvg==2.7.1

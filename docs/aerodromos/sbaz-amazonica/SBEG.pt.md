@@ -1,4 +1,9 @@
-# SBEG - Eduardo Gomes
+---
+  title: SBEG - Eduardo Gomes
+
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -41,7 +46,7 @@
 
 ### Gerais
 
-- O aeroporto pode ser utilizado regularmente por quaisquer aeronaves compatíveis com o código de referência 4E ou inferior.
+- O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com RCD 4E ou inferior.
 
 ### Específicas
 
@@ -61,8 +66,8 @@
 
 #### Pátios e Pistas de Taxi
 
-- - O aeródromo possui apenas duas taxiways: `A`, ligando o pátio à cabeceira `11`, e `B`, ligando o pátio à cabeceira `B`. Os pilotos devem planejar o pouso para livrar a pista no fim, acessando uma das taxiways, evitando a frenagem exagerada e o taxi sobre a pista.
-- Atenção às vias de serviço próximas às cabeceiras que não podem ser usadas como taxiways.
+- O aeródromo possui apenas duas TWY: `A`, ligando o pátio à THR `11`, e `B`, ligando o pátio à THR `29`. Os pilotos devem planejar o LDG para livrar a RWY no fim, acessando uma das TWY, evitando a frenagem exagerada e o taxi sobre a RWY.
+- Atenção às vias de serviço próximas às THR que não podem ser usadas como TWY.
 
 #### Locais
 

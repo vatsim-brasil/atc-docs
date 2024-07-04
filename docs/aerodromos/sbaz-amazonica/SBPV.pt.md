@@ -1,4 +1,8 @@
-# SBPV - Porto Velho
+---
+  title: SBPV - Porto Velho
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -12,14 +16,10 @@
 | **Elevação**                 | 295 pés (90 m)                                      |
 
 ## Pistas
-
-### Descrição
-
 | Pista | Preferencial  | ILS                                         | Circuito   |
 |-------|---------------|---------------------------------------------|------------|
 | `01`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     | 
 | `19`  | -             | :fontawesome-solid-circle-check:{ .corok }  | Padrão     |
-
 <!--
 ### Configurações
 
@@ -28,7 +28,6 @@
 | **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
 | **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
 -->
-
 ## Órgãos ATC
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
@@ -50,8 +49,8 @@
 
 #### Pátios e Pistas de Taxi
 
-- ACFT CAT C saída condicionada a pushback.
-- Não confundir a RWY com a Av. Lauro Sodré, no seu alinhamento, DIST 300m da THR 01.
+- ACFT CAT C saída condicionada a *pushback*.
+- Não confundir a RWY com a Av. Lauro Sodré, no seu alinhamento, distante 300m da THR 01.
 
 #### Locais
 

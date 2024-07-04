@@ -1,15 +1,19 @@
-# SBTT - Tabatinga
+---
+  title: SBTT - Tabatinga
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
-|                              | Informações                         |
-|------------------------------|-------------------------------------|
-| **Nome do aeródromo**        | Tabatinga                           |
-| **Tipo de Operação**         | Internacional e Público             |
-| **Regras de voo**            | IFR/VFR                             |
-| **Horário de Funcionamento** | H24                                 |
-| **Altitude de transição**    | 18000 pés                           |
-| **Elevação**                 | 263 pés (80 m)                      |
+|                              | Informações                          |
+|------------------------------|--------------------------------------|
+| **Nome do aeródromo**        | Aeroporto Internacional de Tabatinga |
+| **Tipo de Operação**         | Internacional e Público              |
+| **Regras de voo**            | IFR/VFR                              |
+| **Horário de Funcionamento** | H24                                  |
+| **Altitude de transição**    | 18000 pés                            |
+| **Elevação**                 | 263 pés (80 m)                       |
 
 ## Pistas
 

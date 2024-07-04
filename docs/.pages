@@ -1,5 +1,7 @@
 nav:
-   - ... | index*
    - aerodromos
    - terminais
-   - euroscope
+   - centros
+   - oceanico
+   - especiais
+   - softwares
