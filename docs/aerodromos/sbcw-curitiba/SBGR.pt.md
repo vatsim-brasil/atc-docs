@@ -2,17 +2,25 @@
 title: SBGR - Guarulhos
 ---
 
-# SBGR - Guarulhos
+--8<-- "includes/abreviacoes.md"
 
-### Dados gerais
+## Dados Gerais
 
-|                           | Informações                      |
-|---------------------------|----------------------------------|
-| **Nome do aeródromo**     | Governador André Franco Montoro  |
-| **Tipo de Operação**      | Internacional, Público e Militar |
-| **Regras de voo**         | IFR/VFR                          |
-| **Altitude de transição** | 8000 pés                         |
-| **Elevação**              | 2461 pés (750m)                  |
+|                              | Informações                      |
+|------------------------------|----------------------------------|
+| **Nome do aeródromo**        | Governador André Franco Montoro  |
+| **Tipo de Operação**         | Internacional, Público e Militar |
+| **Regras de voo**            | IFR/VFR                          |
+| **Horário de Funcionamento** | H24                              |
+| **Altitude de transição**    | 8000 pés                         |
+| **Elevação**                 | 2461 pés (750m)                  |
+
+## Meteorologia Atual
+
+<a href="https://metar-taf.com/pt/SBGR" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional de Guarulhos</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBGR?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBGR" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional de Guarulhos</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBGR?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ### Pistas
 
@@ -24,7 +32,6 @@ title: SBGR - Guarulhos
 | `28R`  | Preferencial para **decolagem** quando em uso | :fontawesome-solid-circle-check:{.corok} | Padrão              |
 
 !!! info "Aviso"
-
     Em condições meteorológicas com componente de
     vento de cauda menor que 6 nós, o sistema preferencial de
     pista de pouso e decolagem será o 10R/10L. Tal sistema

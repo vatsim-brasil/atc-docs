@@ -32,6 +32,20 @@ Seguem algumas informações referentes ao ACC, aplicáveis à Vatsim:
 - **Frequência:** 134.500 MHz (emulando a frequência 13450 kHz)
 - **Qualificação Mínima:** Aprovação no Curso de Controle do Atlântico (CCA).
 
+- Centro Atlântico / Atlântico Center
+- CPDLC AVBL IN [SBAO] / ADS-C SIMUL / RADAR NOT AVBL / Oceanic Clearance not required
+- When ADC-C is not available, position reports are mandatory and shall include: waypoint you're passing now, time when you passed it, flight level and mach speed, next waypoint and ETA and the following waypoint.
+
+- Hello. You're bound to enter SBAO FIR. Please, on initial contact, perform a position report. If you'd like to simulate ADS-C, login to SBAO on CPDLC. Thanks a lot.
+
+<AEA122>
+DAKAP ----- 2208Z FL390 .84
+VAMUS 2232Z 2232Z FL390 .84
+MOTBU 2256Z 2256Z FL390 .84
+MOVGA 2312Z
+AMDOL
+
+
 ### Setorizações
 
 Atualmente, a FIR é dividida em dois setores: Setor Norte e Setor Sul.

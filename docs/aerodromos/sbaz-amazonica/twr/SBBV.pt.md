@@ -1,5 +1,10 @@
 ---
-  title: SBBV - Boa Vista
+title: SBBV - Boa Vista
+tags:
+  - Aeródromo
+  - Militar
+  - Controlado
+  - SBAZ
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,17 +15,14 @@
 |------------------------------|-------------------------------------|
 | **Nome do aeródromo**        | Boa Vista - Atlas Brasil Cantanhede |
 | **Tipo de Operação**         | Internacional, Público e Militar    |
-| **Regras de voo**            | IFR/VFR                             |
-| **Horário de Funcionamento** | H24                                 |
 | **Altitude de transição**    | 4000 pés                            |
 | **Elevação**                 | 276 pés (84 m)                      |
 
-<table><tr><td><strong>METAR</strong></td><td><code>
-  --8<-- "https://metar.vatsim.net/metar.php?id=SBBV"
-</code></td></tr></table>
-<a href="https://metar-taf.com/pt/SBBV" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: -20px 0px;">METAR Atlas Brasil Cantanhede Airport</a>
+## Meteorologia Atual
+
+<a href="https://metar-taf.com/pt/SBBV" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: -20px 0px;">METAR Atlas Brasil Cantanhede Airport</a>
 <script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBV?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBBV" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: -20px 0px;">METAR Atlas Brasil Cantanhede Airport</a>
+<a href="https://metar-taf.com/pt/SBBV" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: -20px 0px;">METAR Atlas Brasil Cantanhede Airport</a>
 <script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBV?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ## Pistas
@@ -35,6 +37,10 @@
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
 | SBBV_TWR   | `TBV`  | Torre Boa Vista       | 118.100    | `DCL`       |
+
+### DCL/CPDLC
+
+- [x] Há disponível serviço de DCL no aeródromo. O controlador deve usar o código <span class="badge corVatbrzVermelho">SBBV</span> ao conectar.
 
 ## Operações
 

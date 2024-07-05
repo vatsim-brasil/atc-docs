@@ -1,4 +1,8 @@
-# SBCF - Confins
+---
+  title: SBCF - Confins
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -10,6 +14,14 @@
 | **Horário de Funcionamento** | H24                              |
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 2721 pés (829 m)                 |
+
+<table><tr><td><strong>METAR</strong></td><td><code>
+  --8<-- "https://metar.vatsim.net/metar.php?id=SBCF"
+</code></td></tr></table>
+<a href="https://metar-taf.com/pt/SBCF" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Confins</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCF?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBCF" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Confins</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCF?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ## Pistas
 
@@ -25,15 +37,6 @@
 !!! warning "Operação Preferencial de Pista"
 
     Em condições meteorológicas com {==**componente de vento de cauda menor ou igual a 7KT**==}, a pista preferencial de pouso e decolagem será a RWY 16. Tal configuração será normalmente utilizado em preferência à utilização da RWY 34, desde que a superfície da pista **esteja seca**. Quando a pista de pouso e decolagem em uso for RWY 16 com componente de vento de cauda, os pilotos que solicitarem autorização para utilizar a RWY 34 devem considerar que seu pouso ou decolagem {==**pode sofrer atraso**==}.
-
-<!--
-### Configurações
-
-| Configuração | Decolagem   | Pouso       | Observações                                                                                     |
-| ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
-| **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
--->
 
 ## Órgãos ATC
 

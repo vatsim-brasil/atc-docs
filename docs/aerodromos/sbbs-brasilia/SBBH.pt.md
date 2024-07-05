@@ -1,4 +1,8 @@
-# SBBH - Pampulha
+---
+  title: SBBH - Pampulha
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -11,23 +15,19 @@
 | **Altitude de transição**    | 8000 pés                              |
 | **Elevação**                 | 2589 pés (789 m)                      |
 
-## Pistas
+## Meteorologia Atual
 
-### Descrição
+<a href="https://metar-taf.com/pt/SBBH" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto da Pampulha</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBH?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBBH" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto da Pampulha</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBH?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+
+## Pistas
 
 | Pista | Preferencial  | ILS                              | Circuito   |
 |-------|---------------|----------------------------------|------------|
 | `13`  | - | :fontawesome-solid-circle-xmark:{ .cornot }  | Padrão     |
 | `31`  | - | :fontawesome-solid-circle-minus:{ .corparc } | Padrão     |
-
-<!--
-### Configurações
-
-| Configuração | Decolagem   | Pouso       | Observações                                                                                     |
-| ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
-| **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
--->
 
 ## Órgãos ATC
 

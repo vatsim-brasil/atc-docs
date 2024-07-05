@@ -90,6 +90,8 @@ plugins:
   - awesome-pages
   - glightbox
   - table-reader
+  - tags:
+      tags_file: tags.md
   - i18n:
       docs_structure: suffix
       fallback_to_default: true

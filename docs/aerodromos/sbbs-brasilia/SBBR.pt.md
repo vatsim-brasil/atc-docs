@@ -14,11 +14,17 @@
 | **Altitude de transição** | 7000 pés                         |
 | **Elevação**              | 3498 pés (1066m)                 |
 
+<table><tr><td><strong>METAR</strong></td><td><code>
+  --8<-- "https://metar.vatsim.net/metar.php?id=SBBR"
+</code></td></tr></table>
+<a href="https://metar-taf.com/pt/SBBR" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Brasilia Aeroporto</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBR?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBBR" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Brasilia Aeroporto</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBR?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+
 ## Pistas
 
 ### Descrição
-
-
 
 | Pistas | Preferencial                                  | ILS                                      | Circuito            |
 |--------|-----------------------------------------------|------------------------------------------|---------------------|
