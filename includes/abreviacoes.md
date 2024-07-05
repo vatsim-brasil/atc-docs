@@ -50,6 +50,7 @@
 *[THR]: Cabeceira / Threshold
 *[PRB]: Proibido / Prohibited
 *[PRKG]: Posição de Estacionamento / Parking Spot
+*[AFIS]: Serviço de Informação de Voo de Aeródromo / Aerodrome Flight Information Service
 *[CAT]: Categoria / Category
 *[BFR]: Antes / Before
 *[CTC]: Contato / Contact
@@ -58,3 +59,5 @@
 *[OPR]: Operação / Operation
 *[CTN]: Cautela / Caution
 *[LGTD]: Iluminado / Lighted
+*[DCL]: Autorização por Enlace de Dados / Datalink Clearance
+*[CPDLC]: Comunicação por Enlace de Dados entre Controlador e Piloto / Controller-Pilot Data Link Communication

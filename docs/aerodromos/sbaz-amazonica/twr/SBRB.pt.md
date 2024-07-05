@@ -1,5 +1,9 @@
 ---
-  title: SBRB - Rio Branco
+title: SBRB - Rio Branco
+tags:
+  - Aeródromo
+  - Controlado
+  - SBAZ
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,34 +14,32 @@
 |------------------------------|-------------------------------------|
 | **Nome do aeródromo**        | Rio Branco - Plácido de Castro      |
 | **Tipo de Operação**         | Internacional e Público             |
-| **Regras de voo**            | IFR/VFR                             |
-| **Horário de Funcionamento** | H24                                 |
 | **Altitude de transição**    | 3000 pés                            |
 | **Elevação**                 | 633 pés (193 m)                     |
 
-## Pistas
+## Meteorologia Atual
 
-### Descrição
+<a href="https://metar-taf.com/pt/SBRB" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Rio Branco-Plácido de Castro International Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBRB?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBRB" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Rio Branco-Plácido de Castro International Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBRB?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+
+## Pistas
 
 | Pista | Preferencial  | ILS                                         | Circuito   |
 |-------|---------------|---------------------------------------------|------------|
 | `06`  | -             | :fontawesome-solid-circle-check:{.corok}    | Padrão     |
 | `24`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     | 
 
-<!--
-### Configurações
-
-| Configuração | Decolagem   | Pouso       | Observações                                                                                     |
-| ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
-| **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
--->
-
 ## Órgãos ATC
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
 | SBRB_TWR   | `TRB`  | Torre Rio Branco      | 118.700    | `DCL`       |
+
+### DCL/CPDLC
+
+- [x] Há disponível serviço de DCL no aeródromo. O controlador deve usar o código <span class="badge corVatbrzVermelho">SBRB</span> ao conectar.
 
 ## Operações
 

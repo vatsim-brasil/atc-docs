@@ -1,4 +1,8 @@
-# SBPJ - Palmas
+---
+  title: SBPJ - Palmas
+---
+
+--8<-- "includes/abreviacoes.md"
 
 ## Dados Gerais
 
@@ -11,23 +15,20 @@
 | **Altitude de transição**    | 4000 pés                             |
 | **Elevação**                 | 774 pés (236 m)                      |
 
-## Pistas
+<table><tr><td><strong>METAR</strong></td><td><code>
+  --8<-- "https://metar.vatsim.net/metar.php?id=SBPJ"
+</code></td></tr></table>
+<a href="https://metar-taf.com/pt/SBPJ" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Palmas–Brigadeiro Lysias Rodrigues</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBPJ?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBPJ" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Palmas–Brigadeiro Lysias Rodrigues</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBPJ?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
-### Descrição
+## Pistas
 
 | Pista | Preferencial  | ILS                                         | Circuito   |
 |-------|---------------|---------------------------------------------|------------|
-| `14`  | -             | :fontawesome-solid-circle-xmark:{.cornot}    | Padrão     |
+| `14`  | -             | :fontawesome-solid-circle-xmark:{.cornot}   | Padrão     |
 | `32`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     | 
-
-<!--
-### Configurações
-
-| Configuração | Decolagem   | Pouso       | Observações                                                                                     |
-| ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **LESTE**    | `11L` `11R` | `11L` `11R` | Prioriza-se a `11L` nas saídas para o setor **NORTE** e a `11R` nas saídas para o setor **SUL** |
-| **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
--->
 
 ## Órgãos ATC
 
