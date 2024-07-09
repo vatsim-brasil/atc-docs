@@ -81,6 +81,7 @@ extra_css:
   - stylesheets/theme.css
   - stylesheets/extra.css
   - stylesheets/font/font.css
+  - assets/stylesheets/home.css
 
 plugins:
   - search:
