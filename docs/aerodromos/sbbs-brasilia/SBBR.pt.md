@@ -10,7 +10,6 @@
 |---------------------------|----------------------------------|
 | **Nome do aeródromo**     | Presidente Juscelino Kubitschek  |
 | **Tipo de Operação**      | Internacional, Público e Militar |
-| **Regras de voo**         | IFR/VFR                          |
 | **Altitude de transição** | 7000 pés                         |
 | **Elevação**              | 3498 pés (1066m)                 |
 

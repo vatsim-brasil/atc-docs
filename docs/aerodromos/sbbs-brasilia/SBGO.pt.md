@@ -10,8 +10,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Goiânia - Santa Genoveva             |
 | **Tipo de Operação**         | Internacional e Público              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 7000 pés                             |
 | **Elevação**                 | 2453 pés (748 m)                     |
 

@@ -10,8 +10,6 @@
 |------------------------------|---------------------------------------|
 | **Nome do aeródromo**        | Pampulha - Carlos Drummond de Andrade |
 | **Tipo de Operação**         | Internacional e Público               |
-| **Regras de voo**            | IFR/VFR                               |
-| **Horário de Funcionamento** | H24                                   |
 | **Altitude de transição**    | 8000 pés                              |
 | **Elevação**                 | 2589 pés (789 m)                      |
 

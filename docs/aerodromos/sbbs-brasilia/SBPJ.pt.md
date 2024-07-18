@@ -10,8 +10,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Palmas - Brigadeiro Lysias Rodrigues |
 | **Tipo de Operação**         | Público                              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 4000 pés                             |
 | **Elevação**                 | 774 pés (236 m)                      |
 

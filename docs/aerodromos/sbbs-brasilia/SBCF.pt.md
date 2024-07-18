@@ -10,8 +10,6 @@
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Confins - Tancredo Neves         |
 | **Tipo de Operação**         | Internacional, Público e Militar |
-| **Regras de voo**            | IFR/VFR                          |
-| **Horário de Funcionamento** | H24                              |
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 2721 pés (829 m)                 |
 
