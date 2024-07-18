@@ -15,9 +15,8 @@
 | **Altitude de transição**    | 4000 pés                             |
 | **Elevação**                 | 774 pés (236 m)                      |
 
-<table><tr><td><strong>METAR</strong></td><td><code>
-  --8<-- "https://metar.vatsim.net/metar.php?id=SBPJ"
-</code></td></tr></table>
+## Meteorologia Atual
+
 <a href="https://metar-taf.com/pt/SBPJ" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Palmas–Brigadeiro Lysias Rodrigues</a>
 <script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBPJ?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
 <a href="https://metar-taf.com/pt/SBPJ" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Palmas–Brigadeiro Lysias Rodrigues</a>

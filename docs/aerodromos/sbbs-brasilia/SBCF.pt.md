@@ -15,9 +15,8 @@
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 2721 pés (829 m)                 |
 
-<table><tr><td><strong>METAR</strong></td><td><code>
-  --8<-- "https://metar.vatsim.net/metar.php?id=SBCF"
-</code></td></tr></table>
+## Meteorologia Atual
+
 <a href="https://metar-taf.com/pt/SBCF" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Confins</a>
 <script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCF?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
 <a href="https://metar-taf.com/pt/SBCF" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Confins</a>
