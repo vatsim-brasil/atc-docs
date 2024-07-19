@@ -1,5 +1,9 @@
 ---
 title: SBGR - Guarulhos
+tags:
+    - Aeródromo
+    - Controlado
+    - SBCW
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@ title: SBGR - Guarulhos
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Governador André Franco Montoro  |
 | **Tipo de Operação**         | Internacional, Público e Militar |
-| **Regras de voo**            | IFR/VFR                          |
-| **Horário de Funcionamento** | H24                              |
 | **Altitude de transição**    | 8000 pés                         |
 | **Elevação**                 | 2461 pés (750m)                  |
 

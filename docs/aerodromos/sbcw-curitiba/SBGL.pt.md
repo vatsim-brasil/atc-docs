@@ -1,5 +1,9 @@
 ---
   title: SBGL - Galeão
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBCW
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Galeão - Antônio Carlos Jobim    |
 | **Tipo de Operação**         | Internacional, Público e Militar |
-| **Regras de voo**            | IFR/VFR                          |
-| **Horário de Funcionamento** | H24                              |
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 28 pés (8,51m)                   |
 

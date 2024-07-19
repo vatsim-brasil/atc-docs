@@ -1,5 +1,9 @@
 ---
-  title: SBPJ - Palmas
+title: SBPJ - Palmas
+tags:
+  - Aeródromo
+  - Controlado
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"

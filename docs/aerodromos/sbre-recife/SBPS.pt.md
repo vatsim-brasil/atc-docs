@@ -1,5 +1,9 @@
 ---
   title: SBPS - Porto Seguro
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Porto Seguro                         |
 | **Tipo de Operação**         | Internacional e Público              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 4000 pés                             |
 | **Elevação**                 | 169 pés (52 m)                       |
 

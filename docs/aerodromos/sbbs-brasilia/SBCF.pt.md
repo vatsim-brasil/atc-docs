@@ -1,5 +1,9 @@
 ---
-  title: SBCF - Confins
+title: SBCF - Confins
+tags:
+  - Aeródromo
+  - Controlado
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"

@@ -1,5 +1,9 @@
 ---
-  title: SBBR - Brasília
+title: SBBR - Brasília
+tags:
+  - Aeródromo
+  - Controlado
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"

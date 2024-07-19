@@ -1,5 +1,9 @@
 ---
-  title: SBBH - Pampulha
+title: SBBH - Pampulha
+tags:
+  - Aeródromo
+  - Controlado
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"

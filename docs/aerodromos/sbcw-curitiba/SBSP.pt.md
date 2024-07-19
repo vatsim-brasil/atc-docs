@@ -1,5 +1,9 @@
 ---
 title: SBSP - São Paulo / Congonhas
+tags:
+    - Aeródromo
+    - Controlado
+    - SBCW
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@ title: SBSP - São Paulo / Congonhas
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | São Paulo - Congonhas            |
 | **Tipo de Operação**         | Nacional, Público e Militar      |
-| **Regras de voo**            | IFR/VFR                          |
-| **Horário de Funcionamento** | 0900Z-0200Z                      |
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 2634 pés (803 m)                 |
 

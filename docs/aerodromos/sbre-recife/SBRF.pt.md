@@ -1,5 +1,9 @@
 ---
   title: SBRF - Recife
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|---------------------------------------|
 | **Nome do aeródromo**        | Recife - Guararapes / Gilberto Freyre |
 | **Tipo de Operação**         | Internacional, Público e Militar      |
-| **Regras de voo**            | IFR/VFR                               |
-| **Horário de Funcionamento** | H24                                   |
 | **Altitude de transição**    | 4000 pés                              |
 | **Elevação**                 | 33 pés (10 m)                         |
 

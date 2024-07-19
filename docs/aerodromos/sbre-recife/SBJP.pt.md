@@ -1,5 +1,9 @@
 ---
   title: SBJP - João Pessoa
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|---------------------------------------|
 | **Nome do aeródromo**        | João Pessoa - Presidente Castro Pinto |
 | **Tipo de Operação**         | Internacional e Público               |
-| **Regras de voo**            | IFR/VFR                               |
-| **Horário de Funcionamento** | H24                                   |
 | **Altitude de transição**    | 4000 pés                              |
 | **Elevação**                 | 217 pés (66 m)                        |
 

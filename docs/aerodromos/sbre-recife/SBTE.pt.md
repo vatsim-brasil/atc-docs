@@ -1,5 +1,9 @@
 ---
   title: SBTE - Teresina
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Teresina - Senador Petrônio Portella |
 | **Tipo de Operação**         | Público                              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 4000 pés                             |
 | **Elevação**                 | 220 pés (60 m)                       |
 

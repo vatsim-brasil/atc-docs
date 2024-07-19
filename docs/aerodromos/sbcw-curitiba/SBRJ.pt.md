@@ -1,5 +1,9 @@
 ---
 title: SBRJ - Rio / Santos-Dumont
+tags:
+    - Aeródromo
+    - Controlado
+    - SBCW
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@ title: SBRJ - Rio / Santos-Dumont
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Rio de Janeiro - Santos-Dumont   |
 | **Tipo de Operação**         | Nacional, Público e Militar      |
-| **Regras de voo**            | IFR/VFR                          |
-| **Horário de Funcionamento** | 0900Z-0200Z                      |
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 10 pés (3m)                      |
 

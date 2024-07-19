@@ -1,5 +1,9 @@
 ---
-  title: SBGO - Goiânia
+title: SBGO - Goiânia
+tags:
+  - Aeródromo
+  - Controlado
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"

@@ -1,5 +1,9 @@
 ---
   title: SBSV - Salvador
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|--------------------------------------------|
 | **Nome do aeródromo**        | Salvador - Deputado Luís Eduardo Magalhães |
 | **Tipo de Operação**         | Internacional, Público e Militar           |
-| **Regras de voo**            | IFR/VFR                                    |
-| **Horário de Funcionamento** | H24                                        |
 | **Altitude de transição**    | 7000 pés                                   |
 | **Elevação**                 | 66 pés (20 m)                              |
 
