@@ -1,5 +1,9 @@
 ---
-  title: SBGO - Goiânia
+title: SBGO - Goiânia
+tags:
+  - Aeródromo
+  - Controlado
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,14 +14,11 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Goiânia - Santa Genoveva             |
 | **Tipo de Operação**         | Internacional e Público              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 7000 pés                             |
 | **Elevação**                 | 2453 pés (748 m)                     |
 
-<table><tr><td><strong>METAR</strong></td><td><code>
-  --8<-- "https://metar.vatsim.net/metar.php?id=SBGO"
-</code></td></tr></table>
+## Meteorologia Atual
+
 <a href="https://metar-taf.com/pt/SBGO" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Santa Genoveva / Goiânia</a>
 <script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBGO?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
 <a href="https://metar-taf.com/pt/SBGO" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Santa Genoveva / Goiânia</a>

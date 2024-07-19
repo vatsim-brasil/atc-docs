@@ -1,5 +1,9 @@
 ---
   title: SBSG - São Gonçalo do Amarante
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | São Gonçalo do Amarante - Governador Aluizio Alves |
 | **Tipo de Operação**         | Internacional e Público              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 4000 pés                             |
 | **Elevação**                 | 273 pés (83 m)                       |
 

@@ -1,5 +1,9 @@
 ---
   title: SBFZ - Fortaleza
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Fortaleza - Pinto Martins            |
 | **Tipo de Operação**         | Internacional, Público e Militar     |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 5000 pés                             |
 | **Elevação**                 | 83 pés (25 m)                       |
 

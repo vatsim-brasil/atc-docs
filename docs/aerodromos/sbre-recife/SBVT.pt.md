@@ -1,5 +1,9 @@
 ---
   title: SBVT - Vitória
+  tags:
+    - Aeródromo
+    - Controlado
+    - SBRE
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -10,8 +14,6 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Vitória - Eurico de Aguiar Salles    |
 | **Tipo de Operação**         | Internacional e Público              |
-| **Regras de voo**            | IFR/VFR                              |
-| **Horário de Funcionamento** | H24                                  |
 | **Altitude de transição**    | 5000 pés                             |
 | **Elevação**                 | 34 pés (10 m)                        |
 
