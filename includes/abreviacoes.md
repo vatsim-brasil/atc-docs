@@ -25,6 +25,7 @@
 *[MROT]: Tempo Mínimo de Ocupação da Pista / Minimum Runway Occupancy Time
 *[TORA]: Distância Disponível para Corrida de Decolagem / Takeoff Run Available
 *[TKOF]: Decolagem / Takeoff
+*[PAX]: Passageiros / Passengers
 *[AD]: Aeródromo / Aerodrome
 *[RCD]: Código de Referência de Aeródromo / Aerodrome Reference Code
 *[RWY]: Pista / Runway
@@ -61,3 +62,4 @@
 *[LGTD]: Iluminado / Lighted
 *[DCL]: Autorização por Enlace de Dados / Datalink Clearance
 *[CPDLC]: Comunicação por Enlace de Dados entre Controlador e Piloto / Controller-Pilot Data Link Communication
+*[SECT]: Setor / Sector

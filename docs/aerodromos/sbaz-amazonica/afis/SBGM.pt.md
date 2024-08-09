@@ -65,6 +65,6 @@ tags:
 
 ## Posições de Parada
 
-| Pátio     | Posições  | Classificação                     |
-|:---------:|:---------:|-----------------------------------|
-| `1`       | ANY       | Doméstico / Internacional / Carga / Aviação Geral e Executiva |
+| Pátio     | Posições  | Classificação                         |
+|:---------:|:---------:|---------------------------------------|
+| `1`       | ANY       | Doméstico / Aviação Geral e Executiva |

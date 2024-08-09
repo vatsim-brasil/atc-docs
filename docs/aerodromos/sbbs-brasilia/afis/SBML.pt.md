@@ -1,9 +1,9 @@
 ---
-title: SBVH - Vilhena
+title: SBML - Marília
 tags:
   - Aeródromo
   - Não-Controlado
-  - SBAZ
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -12,17 +12,17 @@ tags:
 
 |                              | Informações                                 |
 |------------------------------|---------------------------------------------|
-| **Nome do aeródromo**        | Vilhena                                     |
+| **Nome do aeródromo**        | Marília - Frank Miloye Milenkovich          |
 | **Tipo de Operação**         | Nacional e Público                          |
 | **Altitude de transição**    | 6000 pés                                    |
-| **Elevação**                 | 2018 pés (615 m)                            |
+| **Elevação**                 | 2134 pés (650 m)                            |
 
 ## Meteorologia Atual
 
-<a href="https://metar-taf.com/pt/SBVH" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Brigadeiro Camarão Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBVH?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBVH" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Brigadeiro Camarão Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBVH?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<a href="https://metar-taf.com/pt/SBML" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Frank Miloye Milenkowichi–Marília State Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBML?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBML" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Frank Miloye Milenkowichi–Marília State Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBML?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ## Pistas
 
@@ -35,7 +35,7 @@ tags:
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBVH_R_TWR | `RVH`  | Rádio Vilhena         | 125.900    |             |
+| SBML_R_TWR | `RML`  | Rádio Marília         | 130.450    |             |
 
 ### DCL/CPDLC
 
@@ -59,7 +59,8 @@ tags:
 
 #### Locais
 
-- O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 3C ou inferior.
+- Circulação aérea e circuito de TFC para helicópteros deverão ser efetuados pelo SECT NE do AD.
+- Circuito de TFC deverá ser realizada somente SECT SE do AD.
 
 ## Posições de Parada
 

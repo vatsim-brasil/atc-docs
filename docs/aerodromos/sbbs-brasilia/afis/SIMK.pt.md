@@ -1,9 +1,9 @@
 ---
-title: SBIH - Itaituba
+title: SIMK - Franca
 tags:
   - Aeródromo
   - Não-Controlado
-  - SBAZ
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -12,17 +12,17 @@ tags:
 
 |                              | Informações                                 |
 |------------------------------|---------------------------------------------|
-| **Nome do aeródromo**        | Itaituba                                    |
+| **Nome do aeródromo**        | Franca - Tenente Lund Pressoto              |
 | **Tipo de Operação**         | Nacional e Público                          |
-| **Altitude de transição**    | 3000 pés                                    |
-| **Elevação**                 | 479 pés (146 m)                             |
+| **Altitude de transição**    | 7000 pés                                    |
+| **Elevação**                 | 3291 pés (1003 m)                           |
 
 ## Meteorologia Atual
 
-<a href="https://metar-taf.com/pt/SBIH" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Itaituba Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBIH?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBIH" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Itaituba Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBIH?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<a href="https://metar-taf.com/pt/SIMK" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Tenente Lund Pressoto Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SIMK?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SIMK" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Tenente Lund Pressoto Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SIMK?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ## Pistas
 
@@ -35,7 +35,7 @@ tags:
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBIH_R_TWR | `RIH`  | Rádio Itaituba        | 125.500    |             |
+| SIMK_R_TWR | `RIK`  | Rádio Franca          | 118.175    |             |
 
 ### DCL/CPDLC
 
@@ -55,7 +55,7 @@ tags:
 
 #### Pátios e Pistas de Taxi
 
-- Proibido check de motores em frente à TWR e estação de passageiros.
+`NIL`
 
 #### Locais
 

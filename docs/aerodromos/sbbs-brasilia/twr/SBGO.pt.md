@@ -26,10 +26,10 @@ tags:
 
 ## Pistas
 
-| Pista | Preferencial  | ILS                             | Circuito   |
-|-------|---------------|---------------------------------|------------|
-| `14`  | - | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
-| `32`  | - | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| Pista | Preferencial  | ILS                                         | Circuito   |
+|-------|---------------|---------------------------------------------|------------|
+| `14`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| `32`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
 
 ## Órgãos ATC
 
@@ -39,6 +39,10 @@ tags:
 | SBGO_DEL   | `DGO`  | Tráfego Goiânia       | 121.050    |             |
 | SBGO_GND   | `GGO`  | Solo Goiânia          | 121.700    |             |
 | SBGO_TWR   | `TGO`  | Torre Goiânia         | 118.700    |             |
+
+### DCL/CPDLC
+
+- [ ] Não há disponível serviço de DCL no aeródromo.
 
 ## Operações
 

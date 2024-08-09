@@ -13,7 +13,7 @@ tags:
 |                              | Informações                      |
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Confins - Tancredo Neves         |
-| **Tipo de Operação**         | Internacional, Público e Militar |
+| **Tipo de Operação**         | Internacional e Público          |
 | **Altitude de transição**    | 7000 pés                         |
 | **Elevação**                 | 2721 pés (829 m)                 |
 
@@ -29,8 +29,8 @@ tags:
 ### Descrição
 
 | Pista | Preferencial                                                                       | ILS                                         | Circuito            |
-|-------|------------------------------------------------------------------------------------|--------------------------------------------|---------------------|
-| `16`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**[^1] | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          |
+|-------|------------------------------------------------------------------------------------|---------------------------------------------|---------------------|
+| `16`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**[^1] | :fontawesome-solid-circle-check:{.corok}    | Não Padrão          |
 | `34`  | -                                                                                  | :fontawesome-solid-circle-check:{.corok}    | Padrão              | 
 
 [^1]: [AIP Brasil, AD 2 SBCF 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
@@ -47,6 +47,10 @@ tags:
 | SBCF_DEL   | `DCF`  | Tráfego Confins       | 121.000    | `DCL`       |
 | SBCF_GND   | `GCF`  | Solo Confins          | 121.900    |             |
 | SBCF_TWR   | `TCF`  | Torre Confins         | 118.200    |             |
+
+### DCL/CPDLC
+
+- [x] Há disponível serviço de DCL no aeródromo. O controlador deve usar o código <span class="badge corVatbrzVermelho">SBCF</span> ao conectar.
 
 ## Operações
 
