@@ -65,4 +65,4 @@ tags:
 
 | Pátio     | Posições  | Classificação                     |
 |:---------:|:---------:|-----------------------------------|
-| `1`       | ANY       | Doméstico / Internacional / Carga / Aviação Geral e Executiva |
+| `1`       | ANY       | Doméstico / Internacional / Aviação Geral e Executiva |

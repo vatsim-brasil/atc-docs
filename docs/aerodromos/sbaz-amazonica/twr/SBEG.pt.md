@@ -29,7 +29,7 @@ tags:
 | Pista | Preferencial  | ILS                                         | Circuito   |
 |-------|---------------|---------------------------------------------|------------|
 | `11`  | -             | :fontawesome-solid-circle-check:{.corok}    | Padrão     |
-| `29`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Não-padrão | 
+| `29`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Não Padrão | 
 
 ## Órgãos ATC
 

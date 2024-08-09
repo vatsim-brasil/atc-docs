@@ -1,9 +1,9 @@
 ---
-title: SBAT - Alta Floresta
+title: SBVG - Varginha
 tags:
   - Aeródromo
   - Não-Controlado
-  - SBAZ
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -12,17 +12,17 @@ tags:
 
 |                              | Informações                                 |
 |------------------------------|---------------------------------------------|
-| **Nome do aeródromo**        | Alta Floresta - Piloto Osvaldo Marques Dias |
+| **Nome do aeródromo**        | Varginha - Major Brigadeiro Trompowsky      |
 | **Tipo de Operação**         | Nacional e Público                          |
-| **Altitude de transição**    | 4000 pés                                    |
-| **Elevação**                 | 948 pés (289 m)                             |
+| **Altitude de transição**    | 7000 pés                                    |
+| **Elevação**                 | 3025 pés (922 m)                            |
 
 ## Meteorologia Atual
 
-<a href="https://metar-taf.com/pt/SBAT" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Piloto Osvaldo Marques Dias Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBAT?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBAT" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Piloto Osvaldo Marques Dias Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBAT?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<a href="https://metar-taf.com/pt/SBVG" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Major Brigadeiro Trompowsky Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBVG?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBVG" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Major Brigadeiro Trompowsky Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBVG?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ## Pistas
 
@@ -35,7 +35,7 @@ tags:
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBAT_R_TWR | `RAT`  | Rádio Floresta        | 126.600    |             |
+| SBVG_R_TWR | `RVG`  | Rádio Varginha        | 130.800    |             |
 
 ### DCL/CPDLC
 

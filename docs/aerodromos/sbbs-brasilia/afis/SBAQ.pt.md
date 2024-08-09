@@ -1,9 +1,9 @@
 ---
-title: SSKW - Cacoal
+title: SBAQ - Araraquara
 tags:
   - Aeródromo
   - Não-Controlado
-  - SBAZ
+  - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -12,17 +12,17 @@ tags:
 
 |                              | Informações                                 |
 |------------------------------|---------------------------------------------|
-| **Nome do aeródromo**        | Cacoal                                      |
+| **Nome do aeródromo**        | Araraquara - Bartolomeu de Gusmão           |
 | **Tipo de Operação**         | Nacional e Público                          |
-| **Altitude de transição**    | 4000 pés                                    |
-| **Elevação**                 | 817 pés (249 m)                             |
+| **Altitude de transição**    | 7000 pés                                    |
+| **Elevação**                 | 2334 pés (711 m)                            |
 
 ## Meteorologia Atual
 
-<a href="https://metar-taf.com/pt/SSKW" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Cacoal Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SSKW?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SSKW" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Cacoal Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SSKW?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<a href="https://metar-taf.com/pt/SBAQ" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Araraquara Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBAQ?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
+<a href="https://metar-taf.com/pt/SBAQ" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Araraquara Airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBAQ?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
 
 ## Pistas
 
@@ -35,7 +35,7 @@ tags:
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SSKW_R_TWR | `RKW`  | Rádio Cacoal          | 131.100    |             |
+| SBAQ_R_TWR | `RAQ`  | Rádio Araraquara      | 125.925    |             |
 
 ### DCL/CPDLC
 
@@ -59,7 +59,7 @@ tags:
 
 #### Locais
 
-- O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 3C ou inferior.
+`NIL`
 
 ## Posições de Parada
 
