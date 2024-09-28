@@ -63,3 +63,4 @@
 *[DCL]: Autorização por Enlace de Dados / Datalink Clearance
 *[CPDLC]: Comunicação por Enlace de Dados entre Controlador e Piloto / Controller-Pilot Data Link Communication
 *[SECT]: Setor / Sector
+*[UNL]: Ilimitado / Unlimited
