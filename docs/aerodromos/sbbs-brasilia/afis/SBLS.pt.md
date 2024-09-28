@@ -36,7 +36,7 @@ tags:
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBLS_R_TWR | `RLS`  | Rádio Lagoa Santa     | 122.800    |             |
+| SBLS_R_TWR | `RLS`  | Rádio Lagoa Santa     | 122.850    |             |
 
 ### DCL/CPDLC
 
