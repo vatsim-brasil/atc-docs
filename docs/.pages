@@ -1,7 +1,4 @@
 nav:
-   - aerodromos
-   - terminais
-   - centros
-   - oceanico
-   - especiais
-   - softwares
+  - documentos
+  - SOP
+  - softwares

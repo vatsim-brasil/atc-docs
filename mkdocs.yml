@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: Portal ATC
+site_name: Knowledge Base
 site_url: https://atc.vatsim.com.br
 theme:
   name: material
@@ -101,13 +101,13 @@ plugins:
           locale: pt
           name: Português
           copyright: O conteúdo deste site deve ser utilizado apenas em um ambiente de simulação de voo.
-          site_name: Portal ATC
+          site_name: Knowledge Base
         - build: true
           default: false
           locale: en
           name: English
           copyright: The content on this website is intended for Flight Simulation use only.
-          site_name: ATC Portal
+          site_name: Knowledge Base
       reconfigure_material: true
       reconfigure_search: true
   # - git-revision-date-localized:
