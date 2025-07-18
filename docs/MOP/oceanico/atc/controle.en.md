@@ -29,13 +29,13 @@ Check the aircraft’s flight plan, especially item 10b, for the presence of the
 <tr>
 <td>
 <figure markdown="span">
-    <img src="../../adsc1.png"/>
+    <img src="../adsc1.png"/>
     <figcaption>Aircraft enabled to operate ADS-C in the Atlantic (presence of the <b>D1</b> group in item 10b).</figcaption>
 </figure>
 </td>
 <td>
 <figure markdown="span">
-    <img src="../../adsc2.png"/>
+    <img src="../adsc2.png"/>
     <figcaption>Aircraft not enabled to operate ADS-C in the Atlantic (absence of the <b>D1</b> group in item 10b).</figcaption>
 </figure>
 </td>
@@ -52,14 +52,14 @@ To do this, when using [TopSky](https://forum.vatsim-scandinavia.org/d/34-topsky
  2. In TopSky, make your connection, using one of the official codes in *Login* and your key in Logon Code, checking the boxes as shown in the image below.
 
     <figure markdown="span">
-        ![CPDLC Connection Prompt](../../cpdlclogin.png){ height=100% }
+        ![CPDLC Connection Prompt](../cpdlclogin.png){ height=100% }
         <figcaption>CPDLC connection screen in TopSky.</figcaption>
     </figure>
 
  3. Monitor the content of the *CPDLC Current Message Window* *(Menu Tools > CPDLC > Current Messages...)* to handle connection requests and message exchanges.
     
     <figure markdown="span">
-        ![CPDLC Current Messages](../../cpdlccurrent.png){ width=100% }
+        ![CPDLC Current Messages](../cpdlccurrent.png){ width=100% }
         <figcaption>Message Screen in TopSky.</figcaption>
     </figure>
 
