@@ -14,14 +14,14 @@ A ferramenta principal é o [Euroscope](https://www.euroscope.hu). Nela são rea
 
 ![Euroscope na TMA São Paulo](euroscope/img/euroscope.png){ loading=lazy }
 
-## AFV
+## TrackAudio
 
-O Audio For Vatsim, também conhecido como [AFV](https://audio.vatsim.net), é a plataforma de comunicação via voz da Vatsim. Trata-se de uma simulação avançada de antenas e frequências que permitem a comunicação entre todos os pilotos e controladores.
+O [TrackAudio](https://github.com/pierr3/TrackAudio), é uma plataforma de comunicação via voz da Vatsim, sendo a recomendada pela Vatsim Brasil. Trata-se de uma simulação avançada de antenas e frequências que permitem a comunicação entre todos os pilotos e controladores.
 
-![AFV](afv/img/afv.jpeg){ loading=lazy }
+![TrackAudio](trackaudio/img/trackaudio.png){ loading=lazy }
 
 ## vATIS
 
-O [vATIS](https://docs.vatis.clowd.io) é o programa onde são criadas e difundidas as informações ATIS dos aeroportos onde o controlador se conectar.
+O [vATIS](https://vatis.app/) é o programa onde são criadas e difundidas as informações ATIS dos aeroportos onde o controlador se conectar.
 
 ![vATIS](vatis/img/vatis.png){ loading=lazy }

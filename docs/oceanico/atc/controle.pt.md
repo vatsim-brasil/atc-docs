@@ -54,14 +54,14 @@ Para tal, ao usar o [TopSky](https://forum.vatsim-scandinavia.org/d/34-topsky-pl
  2. No TopSky, faça sua conexão, usando um dos códigos oficiais em *Login* e sua chave em *Logon Code*, marcando as caixas conforme a imagem abaixo.
 
     <figure markdown="span">
-        ![CPDLC Connection Prompt](../../cpdlclogin.png){ height=100% }
+        ![CPDLC Connection Prompt](../cpdlclogin.png){ height=100% }
         <figcaption>Tela de conexão do CPDLC no TopSky.</figcaption>
     </figure>
 
  3. Monitore o conteúdo da tela *CPDLC Current Message Window* *(Menu Tools > CPDLC > Current Messages...)*, para lidar com os pedidos de conexão e troca de mensagens.
     
     <figure markdown="span">
-        ![CPDLC Current Messages](../../cpdlccurrent.png){ width=100% }
+        ![CPDLC Current Messages](../cpdlccurrent.png){ width=100% }
         <figcaption>Tela de Mensagens no TopSky.</figcaption>
     </figure>
 
