@@ -31,13 +31,13 @@ Confira no plano de voo da aeronave, especialmente no item 10b, a existência do
 <tr>
 <td>
 <figure markdown="span">
-    <img src="../../adsc1.png"/>
+    <img src="../adsc1.png"/>
     <figcaption>Aeronave habilitada a operar ADS-C no Atlântico (presença do grupo <b>D1</b> no item 10b).</figcaption>
 </figure>
 </td>
 <td>
 <figure markdown="span">
-    <img src="../../adsc2.png"/>
+    <img src="../adsc2.png"/>
     <figcaption>Aeronave não-habilitada a operar ADS-C no Atlântico (ausência do grupo <b>D1</b> no item 10b).</figcaption>
 </figure>
 </td>

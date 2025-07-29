@@ -29,13 +29,13 @@ Check the aircraft’s flight plan, especially item 10b, for the presence of the
 <tr>
 <td>
 <figure markdown="span">
-    <img src="../../adsc1.png"/>
+    <img src="../adsc1.png"/>
     <figcaption>Aircraft enabled to operate ADS-C in the Atlantic (presence of the <b>D1</b> group in item 10b).</figcaption>
 </figure>
 </td>
 <td>
 <figure markdown="span">
-    <img src="../../adsc2.png"/>
+    <img src="../adsc2.png"/>
     <figcaption>Aircraft not enabled to operate ADS-C in the Atlantic (absence of the <b>D1</b> group in item 10b).</figcaption>
 </figure>
 </td>
