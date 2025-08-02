@@ -84,7 +84,7 @@ fi
 # Use jq to update the JSON file with the updateSerial information
 # '--arg' is used to safely pass the bash variable to jq without escaping issues
 # '.updateSerial = $version' sets/updates the 'updateSerial' key to the value of the 'version' argument
-if ! jq --arg version "$GIT_VERSION" '.updateSerial = $version' "$JSON_FILE" > "$TEMP_FILE"; then
+if ! jq --argjson version $GIT_VERSION '.updateSerial = $version' "$JSON_FILE" > "$TEMP_FILE"; then
     echo "Error: Failed to process JSON file with jq. Check if the file is valid JSON."
     exit 1
 fi
