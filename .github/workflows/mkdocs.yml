@@ -29,6 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required for vATIS profile versioning to work properly
       - name: Install Dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y jq
