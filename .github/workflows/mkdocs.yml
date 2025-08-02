@@ -1,5 +1,8 @@
 name: Deploy MkDocs site to Pages
 
+env:
+  VATIS_BASE_PROFILE_URL: https://atc.vatsim.com.br/files/vatis/
+
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -28,10 +31,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install Dependencies
         run: |
+          sudo apt-get update && sudo apt-get install -y jq
           pip install -r requirements.txt
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Setup automatic profile updates for vATIS
+        id: vATIS-profile-updates
+        run: |
+          bash add_vatis_update_information.sh "$VATIS_BASE_PROFILE_URL" docs/files/vatis/vATIS-Profile-SBAZ.json
+          bash add_vatis_update_information.sh "$VATIS_BASE_PROFILE_URL" docs/files/vatis/vATIS-Profile-SBBS.json
+          bash add_vatis_update_information.sh "$VATIS_BASE_PROFILE_URL" docs/files/vatis/vATIS-Profile-SBCW.json
+          bash add_vatis_update_information.sh "$VATIS_BASE_PROFILE_URL" docs/files/vatis/vATIS-Profile-SBRE.json
+        shell: bash
       - name: Build with MkDocs
         run: mkdocs build --clean
       - name: Upload artifact
