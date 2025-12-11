@@ -77,16 +77,18 @@ Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviatura
 <div class="page-navigation">
 
 <div class="nav-prev">
-<a href="conceituacao.pt.md">
+<a href="../conceituacao/">
 <span class="nav-arrow">←</span>
 <span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Conceituação</span>
 </a>
 </div>
 
 <div class="nav-next">
-<a href="algarismos.pt.md">
+<a href="../algarismos/">
 <span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Algarismos</span>
 <span class="nav-arrow">→</span>
 </a>

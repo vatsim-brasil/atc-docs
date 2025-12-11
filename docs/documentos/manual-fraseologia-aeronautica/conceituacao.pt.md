@@ -68,16 +68,18 @@ c) pista em uso, ajuste de altímetro, código SSR, instruções de nível, inst
 <div class="page-navigation">
 
 <div class="nav-prev">
-<a href="index.pt.md">
+<a href="../">
 <span class="nav-arrow">←</span>
 <span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Início</span>
 </a>
 </div>
 
 <div class="nav-next">
-<a href="alfabeto-fonetico.pt.md">
+<a href="../alfabeto-fonetico/">
 <span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Alfabeto Fonético</span>
 <span class="nav-arrow">→</span>
 </a>

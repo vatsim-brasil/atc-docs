@@ -668,16 +668,18 @@ GOL UNO CUATRO UNO NUEVE recibido, autorizado rodaje para Plataforma CUATRO vía
 <div class="page-navigation">
 
 <div class="nav-prev">
-<a href="algarismos.pt.md">
+<a href="../algarismos/">
 <span class="nav-arrow">←</span>
 <span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Algarismos</span>
 </a>
 </div>
 
 <div class="nav-next">
-<a href="dicas.pt.md">
+<a href="../dicas/">
 <span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Dicas</span>
 <span class="nav-arrow">→</span>
 </a>

@@ -53,16 +53,18 @@ Todos os números devem ser transmitidos com a pronúncia de cada dígito separa
 <div class="page-navigation">
 
 <div class="nav-prev">
-<a href="alfabeto-fonetico.pt.md">
+<a href="../alfabeto-fonetico/">
 <span class="nav-arrow">←</span>
 <span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Alfabeto Fonético</span>
 </a>
 </div>
 
 <div class="nav-next">
-<a href="exemplos-comunicacao.pt.md">
+<a href="../exemplos-comunicacao/">
 <span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Exemplos de Comunicação</span>
 <span class="nav-arrow">→</span>
 </a>

@@ -69,9 +69,10 @@ Evite termos desnecessários que fogem da fraseologia padrão, além de tornar a
 <div class="page-navigation">
 
 <div class="nav-prev">
-<a href="exemplos-comunicacao.pt.md">
+<a href="../exemplos-comunicacao/">
 <span class="nav-arrow">←</span>
 <span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Exemplos de Comunicação</span>
 </a>
 </div>

@@ -1,10 +1,10 @@
 title: Manual de Fraseologia Aeronáutica
 collapse: false
-children:
-  - index.pt.md
-  - conceituacao.pt.md
-  - alfabeto-fonetico.pt.md
-  - algarismos.pt.md
-  - exemplos-comunicacao.pt.md
-  - dicas.pt.md
+nav:
+  - Manual de Fraseologia Aeronáutica: index.pt.md
+  - Conceituação: conceituacao.pt.md
+  - Alfabeto Fonético: alfabeto-fonetico.pt.md
+  - Algarismos: algarismos.pt.md
+  - Exemplos de Comunicação: exemplos-comunicacao.pt.md
+  - Dicas Importantes: dicas.pt.md
 

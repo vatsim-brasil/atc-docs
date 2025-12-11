@@ -2,18 +2,20 @@
 title: Manual de Fraseologia Aeronáutica
 hide:
   - toc
+toc:
+  depth: 0
 ---
 
 # Manual de Fraseologia Aeronáutica
 
-## Apresentação
+### Apresentação
 
 Bem-vindo ao Manual de Fraseologia Aeronáutica, um guia prático e objetivo desenvolvido para auxiliar profissionais da aviação e entusiastas na comunicação radiotelefônica padronizada.
 Este manual foi elaborado com foco na clareza e objetividade, apresentando os padrões estabelecidos pelas normas brasileiras e internacionais de fraseologia aeronáutica.
 
 **ATUALIZAÇÃO 12/2025**
 
-## Sobre este Manual
+### Sobre este Manual
 
 Após a leitura deste manual, perceberá que a fraseologia ficou mais enxuta e mais clara, consequentemente mais objetiva.
 
@@ -33,21 +35,22 @@ Este manual também adiciona como exemplo, a fraseologia padrão em espanhol em 
 MCA-100-21 [Link para publicação](https://publicacoes.decea.mil.br/publicacao/MCA-100-21)
 
 
-## Escopo
+### Escopo
 
 A fraseologia contida aqui refere-se apenas ao básico de um voo instrumentos sem situações adversas, que caso ocorram devem procurar na MCA-100-16.
 
 ---
 
-## Conhecimento não ocupa espaço
+### Conhecimento não ocupa espaço
 
 ---
 
 <div class="page-navigation">
 
 <div class="nav-next">
-<a href="conceituacao.pt.md">
+<a href="conceituacao/">
 <span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
 <span class="nav-title">Conceituação</span>
 <span class="nav-arrow">→</span>
 </a>
