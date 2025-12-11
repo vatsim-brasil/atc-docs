@@ -64,3 +64,6 @@
 *[CPDLC]: Comunicação por Enlace de Dados entre Controlador e Piloto / Controller-Pilot Data Link Communication
 *[SECT]: Setor / Sector
 *[UNL]: Ilimitado / Unlimited
+*[TVCP]: Política de Transferência e Controladores Visitantes / Transfer and Visiting Controller Policy
+*[VACC]: Centro de Controle de Área Virtual / Virtual Area Control Center
+*[ARTCC]: Centro de Controle de Rotas Aéreas / Air Route Traffic Control Center

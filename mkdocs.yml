@@ -1,12 +1,15 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: Knowledge Base
+site_name: Portal ATC
 site_url: https://atc.vatsim.com.br
 theme:
   name: material
   language: pt-BR
   custom_dir: overrides
   logo: images/vatbrz-branca.png
+  font:
+    text: "Ubuntu Sans"
+    code: "Ubuntu Mono"
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -80,7 +83,6 @@ extra_css:
   - stylesheets/nav.css
   - stylesheets/theme.css
   - stylesheets/extra.css
-  - stylesheets/font/font.css
 
 plugins:
   - search:
@@ -101,19 +103,19 @@ plugins:
           locale: pt
           name: Português
           copyright: O conteúdo deste site deve ser utilizado apenas em um ambiente de simulação de voo.
-          site_name: Knowledge Base
+          site_name: Portal ATC
         - build: true
           default: false
           locale: en
           name: English
           copyright: The content on this website is intended for Flight Simulation use only.
-          site_name: Knowledge Base
+          site_name: ATC Portal
       reconfigure_material: true
       reconfigure_search: true
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: date
-  #     locale: pt
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      locale: pt
   - minify:
       minify_html: true
 
