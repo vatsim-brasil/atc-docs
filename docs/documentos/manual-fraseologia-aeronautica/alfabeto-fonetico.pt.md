@@ -15,31 +15,31 @@ Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviatura
 | Letra | Palavra | Convenção Fonética Internacional | Pronúncia |
 |:-----:|:-------:|:----------------------------------:|:----------:|
 | A | Alfa | 'ælfa | AL <u>FA</u> |
-| B | Bravo | 'bra:'vo | BRA <u>VOU</u> |
+| B | Bravo | 'braːvo | BRA <u>VOU</u> |
 | C | Charlie | 'tʃɑːli ou 'ʃɑːli | <u>CHAR</u> LI |
 | D | Delta | 'deltɑ | <u>DEL</u> TA |
 | E | Echo | 'eko | <u>E</u> COU |
 | F | Foxtrot | 'fɔkstrɔt | <u>FOX</u> TROT |
 | G | Golf | gʌlf | <u>GOLF</u> |
-| H | Hotel | ho:'tel | HOU <u>TEL</u> |
+| H | Hotel | hoː'tel | HOU <u>TEL</u> |
 | I | India | 'indi∙ɑ | <u>IN</u> DIA |
-| J | Juliett | 'dƷu:li∙'et | DJU <u>LIET</u> |
-| K | Kilo | 'ki:lo | <u>KI</u> LOU |
+| J | Juliett | 'dƷuːli∙'et | DJU <u>LIET</u> |
+| K | Kilo | 'kiːlo | <u>KI</u> LOU |
 | L | Lima | 'liːmɑ | <u>LI</u> MA |
 | M | Mike | mɑik | <u>MAIK</u> |
 | N | November | no'vembə | NO <u>VEM</u> BER |
 | O | Oscar | 'ɔskɑ | <u>OS</u> CAR |
 | P | Papa | pə'pɑ | <u>PA</u> PA |
 | Q | Quebec | ke'bek | QUE <u>BEC</u> |
-| R | Romeo | 'ro:mi∙o | ROU <u>MI</u> OU |
+| R | Romeo | 'roːmi∙o | ROU <u>MI</u> OU |
 | S | Sierra | si'erɑ | SI <u>E</u> RRA |
 | T | Tango | 'tængo | <u>TAN</u> GOU |
-| U | Uniform | 'ju:nifɔ:m ou 'u:nifɔrm | IU NI <u>FORM</u> |
+| U | Uniform | 'juːnifɔːm ou 'uːnifɔrm | IU NI <u>FORM</u> |
 | V | Victor | 'viktɑ | <u>VIC</u> TOR |
 | W | Whiskey | 'wiski | <u>UIS</u> QUI |
 | X | X-Ray | 'eks'rei | <u>EKS</u> REY |
 | Y | Yankee | 'jænki | <u>IAN</u> QUI |
-| Z | Zulu | 'zu:lu: | <u>ZU</u> LU |
+| Z | Zulu | 'zuːluː | <u>ZU</u> LU |
 
 ### Tabela 1 – Alfabeto fonético (Pronúncia em Espanhol)
 

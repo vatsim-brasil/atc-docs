@@ -9,6 +9,7 @@ hide:
 ## Exemplos Práticos de Fraseologia
 
 ### Exemplo de Voo Completo
+
 Abaixo disponibilizamos um exemplo de voo completo, desde o contato inicial com o órgão de Tráfego (para autorização de plano), até o contato com o Solo no destino final em uma situação normal sem adversidades.
 
 #### 1. TRÁFEGO (DELIVERY)
@@ -78,7 +79,9 @@ GOL UNO CUATRO UNO NUEVE, llamará Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO
 </div>
 
 #### 2. SOLO (Para acionamento, push back)
+
 ##### 2.1 SOLO (Acionamento e push back)
+
 <div class="comms-block">
 
 <div class="comms-pilot">
@@ -459,7 +462,6 @@ GOL ONE FOUR ONE NINE I will call São Paulo Control on ONE TWO NINE, decimal FO
 <strong>Piloto (Espanhol):</strong>
 GOL UNO CUATRO UNO NUEVE llamará Control São Paulo en UNO DOS NUEVE, decimal CUATRO CINCO.
 </div>
-<br>
 </div>
 
 #### 6. CONTROLE DE APROXIMAÇÃO
@@ -601,6 +603,7 @@ GOL UNO CUATRO UNO NUEVE pista UNO CERO DERECHA, aterrizaje autorizado.
 </div>
 
 ##### 7.1 TORRE DE CONTROLE (Transferência para o Solo)
+
 <div class="comms-block">
 
 <div class="comms-atc">
