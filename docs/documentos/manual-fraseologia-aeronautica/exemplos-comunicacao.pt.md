@@ -14,69 +14,56 @@ Abaixo disponibilizamos um exemplo de voo completo, desde o contato inicial com 
 
 #### 1. TRÁFEGO (DELIVERY)
 
-<div class="comms-block">
+=== "Português"
+    <div class="comms-pilot">
+      Tráfego Brasília, GOL UNO QUATRO UNO NOVE, solicita autorização ATC, informação BRAVO.
+    </div>
+    <div class="comms-atc">
+      GOL UNO QUATRO UNO NOVE, autorizado até o aeroporto de Guarulhos; Rota do plano de voo, decola da pista DOIS NOVE ESQUERDA; Saída GAXO DOIS ALFA, transição ENRUR, Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO. Coteje. 
+    </div>
+    <div class="comms-pilot">
+      GOL UNO QUATRO UNO NOVE, autorizado até o aeroporto de Guarulhos; Rota do plano de voo, decola da pista DOIS NOVE ESQUERDA; Saída GAXO DOIS ALFA, transição ENRUR, Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO.
+    </div>
+    <div class="comms-atc">
+      GOL UNO QUATRO UNO NOVE, cotejamento correto, chame Solo Brasília em UNO DOIS UNO, DECIMAL OITO ZERO.
+    </div>
+    <div class="comms-pilot">
+      GOL UNO QUATRO UNO NOVE, chamará o solo Brasília em UNO DOIS UNO, DECIMAL OITO ZERO.
+    </div>
 
-<div class="comms-pilot">
-<strong>Piloto (Português):</strong>
-Tráfego Brasília, GOL UNO QUATRO UNO NOVE, solicita autorização ATC, informação BRAVO.
-<br>
+=== "Inglês"
+    <div class="comms-pilot">
+      Brasília Delivery, GOL ONE FOUR ONE NINE, request ATC clearance, information BRAVO.
+    </div>
+    <div class="comms-atc">
+      GOL ONE FOUR ONE NINE. Cleared to Guarulhos Airport, flight plan route, runway TWO NINE LEFT for departure; Climb via GAXO TWO ALFA, ENRUR transition; Squawk 4035, Brasília control on ONE TWO NINE, DECIMAL ONE FIVE, Read back. 
+    </div>
+    <div class="comms-pilot">
+      GOL ONE FOUR ONE NINE, Cleared to Guarulhos Airport, flight plan route, runway TWO NINE LEFT for departure; Climb via GAXO TWO ALFA, ENRUR transition, squawk 4035, Brasília control on ONE TWO NINE, DECIMAL ONE FIVE. 
+    </div>
+    <div class="comms-atc">
+      GOL ONE FOUR ONE NINE. your read back is correct, call Brasília Ground on ONE TWO ONE, DECIMAL EIGHT ZERO.
+    </div>
+    <div class="comms-pilot">
+      GOL ONE FOUR ONE NINE, I will call Brasília Ground on ONE TWO ONE, DECIMAL EIGHT ZERO.
+    </div>
 
-<strong>Piloto (Inglês):</strong>
-Brasília Delivery, GOL ONE FOUR ONE NINE, request ATC clearance, information BRAVO.
-<br>
-
-<strong>Piloto (Espanhol):</strong>
-Tráfico Brasília, GOL UNO CUATRO UNO NUEVE, solicita autorización ATC, información BRAVO.
-</div>
-
-<div class="comms-atc">
-<strong>Controlador (Português):</strong>
-GOL UNO QUATRO UNO NOVE, autorizado até o aeroporto de Guarulhos; Rota do plano de voo, decola da pista DOIS NOVE ESQUERDA; Saída GAXO DOIS ALFA, transição ENRUR, Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO. Coteje. 
-<br>
-<strong>Controlador (Inglês):</strong>
-GOL ONE FOUR ONE NINE. Cleared to Guarulhos Airport, flight plan route, runway TWO NINE LEFT for departure; Climb via GAXO TWO ALFA, ENRUR transition; Squawk 4035, Brasília control on ONE TWO NINE, DECIMAL ONE FIVE, Read back. 
-<br>
-<strong>Controlador (Espanhol):</strong>
-GOL UNO CUATRO UNO NUEVE, autorizado hasta el aeropuerto de Guarulhos; Ruta del plan de vuelo, despegue pista DOS NUEVE IZQUIERDA; Salida GAXO DOS ALFA, transición ENRUR, Transpondedor 4035, Control Brasília en UNO DOS NUEVE, DECIMAL UNO CINCO. Confirme.
-</div>
-<br>
-<div class="comms-pilot">
-<strong>Piloto (Português):</strong>
-GOL UNO QUATRO UNO NOVE, autorizado até o aeroporto de Guarulhos; Rota do plano de voo, decola da pista DOIS NOVE ESQUERDA; Saída GAXO DOIS ALFA, transição ENRUR, Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO.
-<br>
-
-<strong>Piloto (Inglês):</strong>
-GOL ONE FOUR ONE NINE, Cleared to Guarulhos Airport, flight plan route, runway TWO NINE LEFT for departure; Climb via GAXO TWO ALFA, ENRUR transition, squawk 4035, Brasília control on ONE TWO NINE, DECIMAL ONE FIVE. 
-<br>
-
-<strong>Piloto (Espanhol):</strong>
-GOL UNO CUATRO UNO NUEVE, autorizado hasta el aeropuerto de Guarulhos; Ruta del plan de vuelo, despegue pista DOS NUEVE IZQUIERDA; Salida GAXO DOS ALFA, transición ENRUR, Transpondedor 4035, Control Brasília en UNO DOS NUEVE, DECIMAL UNO CINCO.
-</div>
-
-<div class="comms-atc">
-<strong>Controlador (Português):</strong>
-GOL UNO QUATRO UNO NOVE, cotejamento correto, chame Solo Brasília em UNO DOIS UNO, DECIMAL OITO ZERO.
-<br>
-<strong>Controlador (Inglês):</strong>
-GOL ONE FOUR ONE NINE. your read back is correct, call Brasília Ground on ONE TWO ONE, DECIMAL EIGHT ZERO.
-<br>
-<strong>Controlador (Espanhol):</strong>
-GOL UNO CUATRO UNO NUEVE, confirmación correcta, llame Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO CERO.
-</div>
-
-<div class="comms-pilot">
-<strong>Piloto (Português):</strong>
-GOL UNO QUATRO UNO NOVE, chamará o solo Brasília em UNO DOIS UNO, DECIMAL OITO ZERO.
-<br>
-
-<strong>Piloto (Inglês):</strong>
-GOL ONE FOUR ONE NINE, I will call Brasília Ground on ONE TWO ONE, DECIMAL EIGHT ZERO.
-<br>
-
-<strong>Piloto (Espanhol):</strong>
-GOL UNO CUATRO UNO NUEVE, llamará Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO CERO.
-</div>
-</div>
+=== "Espanhol"
+    <div class="comms-pilot">
+      Tráfico Brasília, GOL UNO CUATRO UNO NUEVE, solicita autorización ATC, información BRAVO.
+    </div>
+    <div class="comms-atc">
+      GOL UNO CUATRO UNO NUEVE, autorizado hasta el aeropuerto de Guarulhos; Ruta del plan de vuelo, despegue pista DOS NUEVE IZQUIERDA; Salida GAXO DOS ALFA, transición ENRUR, Transpondedor 4035, Control Brasília en UNO DOS NUEVE, DECIMAL UNO CINCO. Confirme.
+    </div>
+    <div class="comms-pilot">
+      GOL UNO CUATRO UNO NUEVE, autorizado hasta el aeropuerto de Guarulhos; Ruta del plan de vuelo, despegue pista DOS NUEVE IZQUIERDA; Salida GAXO DOS ALFA, transición ENRUR, Transpondedor 4035, Control Brasília en UNO DOS NUEVE, DECIMAL UNO CINCO.
+    </div>
+    <div class="comms-atc">
+      GOL UNO CUATRO UNO NUEVE, confirmación correcta, llame Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO CERO.
+    </div>
+    <div class="comms-pilot">
+      GOL UNO CUATRO UNO NUEVE, llamará Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO CERO.
+    </div>
 
 #### 2. SOLO (Para acionamento, push back)
 

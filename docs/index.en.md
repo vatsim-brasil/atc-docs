@@ -1,5 +1,5 @@
 ---
-template: home2.html
+template: home-en.html
 hide:
     - navigation
     - toc
