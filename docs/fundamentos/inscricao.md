@@ -1,5 +1,6 @@
 ---
-  title: Inscrição
+  title: Entrando na Vatbrz
+  description: Guia passo a passo para novos membros que desejam ingressar na Vatsim Brasil
   hide:
     - toc
 ---
@@ -44,3 +45,24 @@ Todos os membros, sejam transferindo para a Vatsim Brasil ou se candidatando par
 <!--Se você está apenas interessado em se tornar um controlador visitante (sem se transferir), consulte diretamente a Política de Transferência e Controladores Visitantes em nossa Biblioteca no lado esquerdo para obter instruções e requisitos detalhados.-->
 
 [^1]: [Transfer and Visiting Controller Policy - TVCP](https://vatsim.net/docs/policy/transfer-and-visiting-controller-policy)
+
+## vACC/Divisão/Região Atribuída
+
+Para continuar com as próximas seções deste documento, você deve primeiro determinar sua atribuição atual em termos de vACC, Divisão e Região. Você pode encontrar essas informações verificando seu perfil no [myVATSIM](https://my.vatsim.net) e olhando o campo "Region - Division - Subdivision".
+
+![Perfil](img/inscricao-perfil.png)
+
+## Atribuição de Região e Divisão
+Depois de conferir seu perfil no myVATSIM, se você não estiver atualmente na Região América (AMAS), siga estes passos:
+
+1. Visite a [página de transferência de Região do myVATSIM](https://my.vatsim.net/user/region).
+2. Selecione "Americas" como sua nova Região.
+3. Selecione "Brasil (VATBRZ)" como sua nova Divisão.
+
+!!! info
+    Transferências regionais não são gerenciadas pela divisão e estão fora do nosso controle. Por favor, evite nos enviar mensagens sobre o status de sua transferência, pois não somos responsáveis por esses processos.
+    Lembre-se que a Política de Transferência e Controladores Visitantes da VATSIM se aplica e quaisquer transferências aprovadas estarão sujeitas a um período de espera de 90 dias antes que você possa enviar outra solicitação de transferência.
+
+
+
+#

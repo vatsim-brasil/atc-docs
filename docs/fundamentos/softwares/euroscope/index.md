@@ -12,6 +12,8 @@ A ferramenta principal é o [Euroscope](https://www.euroscope.hu). Nela são rea
 
 ![Euroscope na TMA São Paulo](img/euroscope.png){ loading=lazy }
 
+#
+
 ---
 
 <div class="page-navigation">

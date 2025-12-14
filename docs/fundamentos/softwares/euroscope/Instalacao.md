@@ -39,6 +39,9 @@ Os arquivos de setor são baixados e instalados **pelo [Aeronav GNG](https://fil
 !!! info "Uma informação importante"
     Se desejar mudar de posição e esta se encontrar em uma FIR diferente, você deverá reiniciar o Euroscope e abrir o perfil correto para a nova posição. Simplesmente carregar o novo setor/ASR não é suficiente.
 
+
+#
+
 ---
 
 <div class="page-navigation">
