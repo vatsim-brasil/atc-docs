@@ -1,7 +1,6 @@
 ---
 title: Dicas Importantes
-hide:
-  - toc
+icon: material/lightbulb-on
 ---
 
 # Dicas Importantes

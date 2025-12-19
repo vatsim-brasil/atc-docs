@@ -56,7 +56,7 @@
     border-left: 1px solid rgba(0, 0, 0, 0.12);
     border-right: 1px solid rgba(0, 0, 0, 0.12);
     padding: 0.75rem 1.25rem;
-    font-size: 0.9375rem;
+    font-size: 0.8rem;
 }
 
 /* Tabelas maiores para melhor legibilidade - target tables after h3 headings */
@@ -116,38 +116,114 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.comms-pilot {
+/* .comms-pilot {
     background-color: #e8f5e9;
     padding: 1rem 1.25rem;
     border-left: 4px solid #4caf50;
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
+} */
+
+.comms-pilot {
+    position: relative;
+    background: #e8f5e9;
+    color: #005c0c;
+    border-radius: 24px;
+    border: 2px solid #005c0c;
+    padding: 16px;
+    margin: 20px 0px 20px calc(50px + 12px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.comms-atc {
+.comms-pilot::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("account-tie-hat.svg");
+    color: #005c0c;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: calc(50% - 25px);
+    margin-left: calc(-12px - 50px);
+}
+
+.comms-pilot::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: calc(50% - 12px);
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-right-color: #005c0c;
+    border-left: 0;
+    margin-left: -12px;
+}
+
+/* .comms-atc {
     background-color: #e3f2fd;
     padding: 1rem 1.25rem;
     border-left: 4px solid #2196f3;
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
+} */
+
+.comms-atc {
+    position: relative;
+    background: #e3f2fd;
+    color: #2196f3;
+    border-radius: 24px;
+    border: 2px solid #2196f3;
+    padding: 16px;
+    margin: 20px calc(50px + 12px) 20px 0px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.comms-pilot strong,
+.comms-atc::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("headset.svg");
+    color: #2196f3;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: calc(50% - 25px);
+    margin-left: calc(100% + 12px);
+}
+
+.comms-atc::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: calc(50% - 12px);
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-left-color: #2196f3;
+    border-right: 0;
+    margin-left: calc(100%);
+}
+
+/* .comms-pilot strong,
 .comms-atc strong {
     display: block;
     margin-bottom: 0.5rem;
     color: #333;
-}
+} */
 
-.comms-pilot br + strong {
+/* .comms-pilot br + strong {
     margin-top: 1rem;
-}
+} */
 
-.comms-atc br + strong {
+/* .comms-atc br + strong {
     margin-top: 1rem;
-}
+} */
 
 /* Para modo escuro */
 [data-md-color-scheme="slate"] .comms-pilot {
@@ -160,10 +236,10 @@
     border-left-color: #2196f3;
 }
 
-[data-md-color-scheme="slate"] .comms-pilot strong,
+/* [data-md-color-scheme="slate"] .comms-pilot strong,
 [data-md-color-scheme="slate"] .comms-atc strong {
     color: #e0e0e0;
-}
+} */
 
 /* Estilos para navegação de páginas */
 .page-navigation {

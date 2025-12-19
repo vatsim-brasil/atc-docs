@@ -1,6 +1,7 @@
 ---
   title: Começando o Treinamento ATC
   description: Guia passo a passo para novos controladores que desejam iniciar o treinamento ATC na Vatsim Brasil
+  icon: fontawesome/solid/graduation-cap
   hide:
     - toc
 ---
@@ -110,3 +111,27 @@ Depois de concluir todas as sessões de treinamento prático, o mentor ATC avali
 Após obter seu rating S1, você pode continuar seu desenvolvimento como controlador ATC, buscando ratings mais avançados e participando de eventos na rede VATSIM.
 
 #
+
+<!-- ---
+
+<div class="page-navigation">
+
+<div class="nav-prev">
+<a href="../inscricao/">
+<span class="nav-arrow">←</span>
+<span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
+<span class="nav-title">Entrando na Vatbrz</span>
+</a>
+</div>
+
+<div class="nav-next">
+<a href="../softwares/euroscope/">
+<span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
+<span class="nav-title">Euroscope | Visão Geral</span>
+<span class="nav-arrow">→</span>
+</a>
+</div>
+
+</div> -->

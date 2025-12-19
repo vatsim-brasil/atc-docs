@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 site_name: Portal ATC
+site_description: Informações e recursos para controladores na Vatsim Brasil.
 site_url: https://atc.vatsim.com.br
 theme:
   name: material
@@ -31,9 +32,14 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
+    - content.code.copy
+    - content.tooltips
     - social
     - toc.follow
     - toc.integrate
@@ -69,6 +75,8 @@ markdown_extensions:
       auto_append:
         - "includes/abreviacoes.md"
       url_download: true
+  - toc:
+      toc_depth: 2
 
 extra:
   social:
@@ -78,6 +86,9 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/vatsimbrasil/
       name: Instagram
+    - icon: fontawesome/brands/discord
+      link: https://community.vatsim.net/
+      name: Discord
 
 extra_css:
   - stylesheets/nav.css
@@ -112,10 +123,10 @@ plugins:
           site_name: ATC Portal
       reconfigure_material: true
       reconfigure_search: true
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-      locale: pt
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+  #     locale: pt
   - minify:
       minify_html: true
 

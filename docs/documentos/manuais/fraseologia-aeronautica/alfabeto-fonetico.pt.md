@@ -1,18 +1,17 @@
 ---
 title: Alfabeto Fonético
-hide:
-  - toc
+icon: material/alphabetical
 ---
 
-# Alfabeto Fonético
+--8<-- "includes/abreviacoes.md"
 
-## 2.5 Alfabeto Fonético
+![Manual de Fraseologia - Alfabeto Fonético](img/manual-fraseologia-alfabeto.png)
+
+#
 
 Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviaturas de serviços e palavras de pronúncia duvidosa, usa-se o alfabeto fonético que se apresenta a seguir:
 
-### Tabela 1 – Alfabeto fonético
-
-| Letra | Palavra | Convenção Fonética Internacional | Pronúncia |
+| Letra | Palavra | Fonética | Pronúncia |
 |:-----:|:-------:|:----------------------------------:|:----------:|
 | A | Alfa | 'ælfa | AL <u>FA</u> |
 | B | Bravo | 'braːvo | BRA <u>VOU</u> |
@@ -41,38 +40,7 @@ Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviatura
 | Y | Yankee | 'jænki | <u>IAN</u> QUI |
 | Z | Zulu | 'zuːluː | <u>ZU</u> LU |
 
-### Tabela 1 – Alfabeto fonético (Pronúncia em Espanhol)
-
-| Letra | Pronúncia em Espanhol |
-|:-----:|:---------------------:|
-| A | <u>A</u> |
-| B | <u>BÊ</u> |
-| C | <u>CÊ</u> |
-| D | <u>DÊ</u> |
-| E | <u>Ê</u> |
-| F | <u>É</u> <u>FE</u> |
-| G | <u>RÊ</u> |
-| H | <u>A</u> <u>TCHE</u> |
-| I | <u>I</u> |
-| J | <u>RRO</u> <u>TA</u> |
-| K | <u>KA</u> |
-| L | <u>É</u> <u>LE</u> |
-| M | <u>E</u> <u>ME</u> |
-| N | <u>E</u> <u>NE</u> |
-| O | <u>Ô</u> |
-| P | <u>PÊ</u> |
-| Q | <u>CU</u> |
-| R | <u>ÉR</u> <u>RE</u> |
-| S | <u>É</u> <u>SE</u> |
-| T | <u>TÊ</u> |
-| U | <u>U</u> |
-| V | <u>U</u> <u>BE</u> |
-| W | <u>U</u> <u>VE</u> <u>DO</u> <u>BLE</u> |
-| X | <u>É</u> <u>QUIS</u> |
-| Y | <u>IÊ</u> |
-| Z | <u>ZÊ</u> <u>TA</u> |
-
----
+<!-- ---
 
 <div class="page-navigation">
 
@@ -94,5 +62,5 @@ Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviatura
 </a>
 </div>
 
-</div>
+</div> -->
 

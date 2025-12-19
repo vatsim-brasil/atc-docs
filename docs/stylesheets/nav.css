@@ -1,5 +1,11 @@
-.md-header {
+.md-header[data-md-color-scheme="default"] {
   background: #182061;
+  color: #fff;
+  box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+}
+
+.md-header[data-md-color-scheme="slate"] {
+  background: #111317;
   color: #fff;
   box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
 }

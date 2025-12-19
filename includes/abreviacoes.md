@@ -67,3 +67,7 @@
 *[TVCP]: Política de Transferência e Controladores Visitantes / Transfer and Visiting Controller Policy
 *[VACC]: Centro de Controle de Área Virtual / Virtual Area Control Center
 *[ARTCC]: Centro de Controle de Rotas Aéreas / Air Route Traffic Control Center
+*[ICAO]: Organização de Aviação Civil Internacional / International Civil Aviation Organization
+*[MCA]: Manual do Comando da Aeronáutica / Air Force Cabinet Manual
+*[DECEA]: Departamento de Controle do Espaço Aéreo / Department of Airspace Control
+*[CAOP]: Carta de Acordo Operacional / Letter of Agreement

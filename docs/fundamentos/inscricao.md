@@ -1,6 +1,7 @@
 ---
   title: Entrando na Vatbrz
   description: Guia passo a passo para novos membros que desejam ingressar na Vatsim Brasil
+  icon: fontawesome/solid/door-open
   hide:
     - toc
 ---
@@ -66,3 +67,27 @@ Depois de conferir seu perfil no myVATSIM, se você não estiver atualmente na R
 
 
 #
+
+<!-- ---
+
+<div class="page-navigation">
+
+<div class="nav-prev">
+<a href="../">
+<span class="nav-arrow">←</span>
+<span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
+<span class="nav-title">Visão Geral</span>
+</a>
+</div>
+
+<div class="nav-next">
+<a href="../treinamentoatc/">
+<span class="nav-label">Próxima página</span>
+<span class="nav-separator">|</span>
+<span class="nav-title">Treinamento ATC</span>
+<span class="nav-arrow">→</span>
+</a>
+</div>
+
+</div> -->
