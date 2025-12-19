@@ -1,99 +1,164 @@
 ---
 title: Exemplos de Comunicação
-hide:
-  - toc
+icon: material/microphone
 ---
 
-# Exemplos de Comunicação
+--8<-- "includes/abreviacoes.md"
 
-## Exemplos Práticos de Fraseologia
+![Manual de Fraseologia - Exemplos de Comunicação](img/manual-fraseologia-exemplo.png)
 
-### Exemplo de Voo Completo
+#
 
-Abaixo disponibilizamos um exemplo de voo completo, desde o contato inicial com o órgão de Tráfego (para autorização de plano), até o contato com o Solo no destino final em uma situação normal sem adversidades.
+Para fins práticos, disponibilizamos abaixo um exemplo de voo completo, desde o contato inicial com o Tráfego, órgão ATC que realiza autorização de plano, até o contato com o Solo no destino. Considere esse exemplo em uma situação normal, sem adversidades.
 
-#### 1. TRÁFEGO (DELIVERY)
+## :material-numeric-0-box: Preliminares
 
-=== "Português"
-    <div class="comms-pilot">
-      Tráfego Brasília, GOL UNO QUATRO UNO NOVE, solicita autorização ATC, informação BRAVO.
-    </div>
-    <div class="comms-atc">
-      GOL UNO QUATRO UNO NOVE, autorizado até o aeroporto de Guarulhos; Rota do plano de voo, decola da pista DOIS NOVE ESQUERDA; Saída GAXO DOIS ALFA, transição ENRUR, Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO. Coteje. 
-    </div>
-    <div class="comms-pilot">
-      GOL UNO QUATRO UNO NOVE, autorizado até o aeroporto de Guarulhos; Rota do plano de voo, decola da pista DOIS NOVE ESQUERDA; Saída GAXO DOIS ALFA, transição ENRUR, Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO.
-    </div>
-    <div class="comms-atc">
-      GOL UNO QUATRO UNO NOVE, cotejamento correto, chame Solo Brasília em UNO DOIS UNO, DECIMAL OITO ZERO.
-    </div>
-    <div class="comms-pilot">
-      GOL UNO QUATRO UNO NOVE, chamará o solo Brasília em UNO DOIS UNO, DECIMAL OITO ZERO.
-    </div>
+<section markdown style="display: grid; grid-template-columns: 5fr 1fr">
 
-=== "Inglês"
-    <div class="comms-pilot">
-      Brasília Delivery, GOL ONE FOUR ONE NINE, request ATC clearance, information BRAVO.
-    </div>
-    <div class="comms-atc">
-      GOL ONE FOUR ONE NINE. Cleared to Guarulhos Airport, flight plan route, runway TWO NINE LEFT for departure; Climb via GAXO TWO ALFA, ENRUR transition; Squawk 4035, Brasília control on ONE TWO NINE, DECIMAL ONE FIVE, Read back. 
-    </div>
-    <div class="comms-pilot">
-      GOL ONE FOUR ONE NINE, Cleared to Guarulhos Airport, flight plan route, runway TWO NINE LEFT for departure; Climb via GAXO TWO ALFA, ENRUR transition, squawk 4035, Brasília control on ONE TWO NINE, DECIMAL ONE FIVE. 
-    </div>
-    <div class="comms-atc">
-      GOL ONE FOUR ONE NINE. your read back is correct, call Brasília Ground on ONE TWO ONE, DECIMAL EIGHT ZERO.
-    </div>
-    <div class="comms-pilot">
-      GOL ONE FOUR ONE NINE, I will call Brasília Ground on ONE TWO ONE, DECIMAL EIGHT ZERO.
-    </div>
+<div markdown>
+O fluxograma ao lado apresenta a sequência de órgãos ATC envolvidos em um voo típico. A comunicação inicia-se no Tráfego (**DEL**), que realiza a autorização do plano de voo. Em seguida, o piloto contata o Solo (**GND**) para solicitar o acionamento e push back, além do táxi até a pista de decolagem. Após isso, o contato é transferido para a Torre (**TWR**), que autoriza a decolagem. Uma vez no ar, o piloto contata o Controle (**APP**) para receber instruções durante o voo. Dependendo da rota, pode haver transferência para o Centro (**CTR**). Na aproximação ao destino, o piloto retorna ao **APP**, depois à **TWR** para autorização de pouso, e finalmente ao **GND** para o táxi até o portão.
 
-=== "Espanhol"
-    <div class="comms-pilot">
-      Tráfico Brasília, GOL UNO CUATRO UNO NUEVE, solicita autorización ATC, información BRAVO.
-    </div>
-    <div class="comms-atc">
-      GOL UNO CUATRO UNO NUEVE, autorizado hasta el aeropuerto de Guarulhos; Ruta del plan de vuelo, despegue pista DOS NUEVE IZQUIERDA; Salida GAXO DOS ALFA, transición ENRUR, Transpondedor 4035, Control Brasília en UNO DOS NUEVE, DECIMAL UNO CINCO. Confirme.
-    </div>
-    <div class="comms-pilot">
-      GOL UNO CUATRO UNO NUEVE, autorizado hasta el aeropuerto de Guarulhos; Ruta del plan de vuelo, despegue pista DOS NUEVE IZQUIERDA; Salida GAXO DOS ALFA, transición ENRUR, Transpondedor 4035, Control Brasília en UNO DOS NUEVE, DECIMAL UNO CINCO.
-    </div>
-    <div class="comms-atc">
-      GOL UNO CUATRO UNO NUEVE, confirmación correcta, llame Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO CERO.
-    </div>
-    <div class="comms-pilot">
-      GOL UNO CUATRO UNO NUEVE, llamará Rodaje Brasília en UNO DOS UNO, DECIMAL OCHO CERO.
-    </div>
+Para efeito prático, simularemos a realização do voo **GLO1489** entre os aeroportos de Brasília (SBBR) e Guarulhos (SBGR). As comunicações serão apresentadas em Português, Inglês e Espanhol, refletindo a prática comum, sem fraseologias específicas para situações de emergência ou outras não rotineiras.
 
-#### 2. SOLO (Para acionamento, push back)
+??? info "Utilização do Espanhol na fraseologia"
+    A utilização do Espanhol somente deve ser realizada nos espaços aéreos autorizados, tanto pelo DECEA quanto pelas CAOP oficialmente definidas entre a Vatsim Brasil e outras divisões. Por padrão, o uso indiscriminado deste idioma na comunicação aeronáutica habitual é vedado, mesmo que piloto e ATC sejam aptos a utilizá-lo.
 
-##### 2.1 SOLO (Acionamento e push back)
-
-<div class="comms-block">
-
-<div class="comms-pilot">
-<strong>Piloto (Português):</strong>
-Solo Brasília, GOL UNO QUATRO UNO NOVE, posição pátio UNO, Box UNO QUATRO, pronto para acionamento e push back.
-<br>
-
-<strong>Piloto (Inglês):</strong>
-BRASÍLIA Ground, GOL ONE FOUR ONE NINE, position Box ONE FOUR, request start up and push back.
-<br>
-
-<strong>Piloto (Espanhol):</strong>
-Rodaje Brasília, GOL UNO CUATRO UNO NUEVE, posición plataforma UNO, Box UNO CUATRO, listo para arranque y retroceso.
 </div>
 
-<div class="comms-atc">
-<strong>Controlador (Português):</strong>
-GOL UNO QUATRO UNO NOVE, Solo Brasília, autorizado acionamento e push back, chame pronto para o táxi.
-<br>
-<strong>Controlador (Inglês):</strong>
-GOL ONE FOUR ONE NINE, Brasília Ground, start up and push back approved, report ready for taxi.
-<br>
-<strong>Controlador (Espanhol):</strong>
-GOL UNO CUATRO UNO NUEVE, Rodaje Brasília, autorizado arranque y retroceso, llame listo para rodaje.
+<div style="text-align: center;">
+``` mermaid
+flowchart TD
+  DEL(DEL);
+  DEL --> GND(GND);
+  GND --> TWR(TWR);
+  TWR --> APP(APP);
+  APP --> CTR(CTR);
+  CTR --> APP;
+  APP --> TWR;
+  TWR --> GND;
+```
 </div>
+
+</section>
+
+## :material-numeric-1-box: :flag_br: Tráfego / :flag_gb: Delivery / :flag_es: Autorización
+
+### Autorização de Plano de Voo
+
+=== ":flag_br: Português"
+    <div class="comms-pilot">
+      Tráfego Brasília, bom dia/boa tarde/boa noite. **GOL UNO QUATRO UNO NOVE**.
+    </div>
+    <div class="comms-atc" markdown>
+      **GOL UNO QUATRO UNO NOVE**, Tráfego Brasília. Bom dia/Boa tarde/Boa noite. :material-information-outline:{ title="<em>Art. 52. A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem.</em>" }
+    </div>
+    <div class="comms-pilot">
+      Tráfego Brasília, **GOL UNO QUATRO UNO NOVE**, solicita autorização ATC, informação ATIS BRAVO.
+    </div>
+    <div class="comms-atc">
+      **GOL UNO QUATRO UNO NOVE**, autorizado para o aeroporto de Guarulhos :material-information-outline:{ title="<em>Ou SBGR, lido letra por letra</em>" }. Rota do plano de voo. Nível de Voo TRÊS QUATRO ZERO. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder 4035. Controle Brasília em UNO DOIS NOVE DECIMAL UNO CINCO. Coteje. :material-information-outline:{ title="<em>Vide item 3.2 da CIRCEA 100-53/2022.</em>" }
+    </div>
+    <div class="comms-pilot">
+      Autorizado até o aeroporto de Guarulhos. Rota do plano de voo. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO. **GOL UNO QUATRO UNO NOVE**.
+    </div>
+    <div class="comms-atc">
+      **GOL UNO QUATRO UNO NOVE**, cotejamento correto. Chame Solo Brasília em UNO DOIS UNO DECIMAL OITO ZERO.
+    </div>
+    <div class="comms-pilot">
+      Chamará o solo Brasília em UNO DOIS UNO DECIMAL OITO ZERO, **GOL UNO QUATRO UNO NOVE**.
+    </div>
+
+=== ":flag_gb: Inglês"
+    <div class="comms-pilot">
+      Brasília Delivery, good morning/afternoon/evening. **GOL ONE FOUR ONE NINE**.
+    </div>
+    <div class="comms-atc">
+      **GOL ONE FOUR ONE NINE**, Brasília Delivery. Good Morning/Afternoon/Evening. :material-information-outline:{ title="<em>Art. 52. A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem.</em>" }
+    </div>
+    <div class="comms-pilot">
+      Brasília Delivery, **GOL ONE FOUR ONE NINE**, request ATC clearance, information BRAVO.
+    </div>
+    <div class="comms-atc">
+      **GOL ONE FOUR ONE NINE**, cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk 4035. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. Read back. 
+    </div>
+    <div class="comms-pilot">
+      Cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk 4035. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. **GOL ONE FOUR ONE NINE**.
+    </div>
+    <div class="comms-atc">
+      **GOL ONE FOUR ONE NINE**, read back is correct. Call Brasília Ground on ONE TWO ONE DECIMAL EIGHT ZERO.
+    </div>
+    <div class="comms-pilot">
+      Will call Brasília Ground on ONE TWO ONE DECIMAL EIGHT ZERO, **GOL ONE FOUR ONE NINE**.
+    </div>
+
+=== ":flag_es: Espanhol"
+    <div class="comms-pilot">
+      Brasília Autorización, buenos días/buenas tardes/buenas noches. **GOL UNO CUATRO UNO NUEVE**.
+    </div>
+    <div class="comms-atc">
+      **GOL UNO CUATRO UNO NUEVE**, Brasília Autorización. Buenos Días/Buenas Tardes/Buenas Noches. :material-information-outline:{ title="<em>Art. 52. A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem.</em>" }
+    </div>
+    <div class="comms-pilot">
+      Brasília Autorización, **GOL UNO CUATRO UNO NUEVE**, solicita autorización ATC, información BRAVO.
+    </div>
+    <div class="comms-atc">
+      **GOL UNO CUATRO UNO NUEVE**, autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder 4035. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. Colacione.
+    </div>
+    <div class="comms-pilot">
+      Autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder 4035. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. **GOL UNO CUATRO UNO NUEVE**
+    </div>
+    <div class="comms-atc">
+      **GOL UNO CUATRO UNO NUEVE**, colación correctal Llame Brasília Tierra en UNO DOS UNO DECIMAL OCHO CERO.
+    </div>
+    <div class="comms-pilot">
+      Llamará Brasília Tierra en UNO DOS UNO DECIMAL OCHO CERO, **GOL UNO CUATRO UNO NUEVE**.
+    </div>
+
+!!! note "Algumas observações"
+
+    1. A aeronave da categoria de esteira de turbulência **SUPER (J)** ou **PESADA (H)** deverá incluir a palavra **SUPER** ou **PESADA / HEAVY** imediatamente após o indicativo de chamada no contato inicial com o órgão ATS.
+
+        > :flag_br: Tráfego Brasília, bom dia. TAM OITO UNO TRÊS SETE **PESADA**. <br/>
+        > :flag_gb: Brasília Delivery, good morning. TAM EIGHT ONE THREE SEVEN **HEAVY**. <br/>
+        > :flag_es: Brasília Autorización, buenos días. TAM OCHO UNO TRES SIETE **PESADA**. <br/>
+
+        Não é necessário repetir a palavra **SUPER** ou **PESADA / HEAVY** nas comunicações subsequentes.
+
+    2. Caso você precise instruir uma saída **OMNI**, você pode adicionar instruções para a subida inicial durante a autorização ATC.
+
+        > :flag_br: PAPA SIERRA CHARLIE NOVEMBER X-RAY, autorizado para Salvador. Rota do plano de voo. Pista em uso, UNO CINCO. **Subida via saída OMNI, mantenha proa da pista até CINCO MIL pés, após voe direto KONVI.** Transponder 4035. Controle São Paulo em UNO TRÊS DOIS DECIMAL UNO. Coteje.  <br/>
+        > :flag_gb: Brasília Delivery, good morning. TAM EIGHT ONE THREE SEVEN **HEAVY**. <br/>
+        > :flag_es: Brasília Autorización, buenos días. TAM OCHO UNO TRES SIETE **PESADA**.<br/>
+
+
+## :material-numeric-2-box: :flag_br: Solo / :flag_gb: Ground / :flag_es: Tierra
+
+### Pushback e Acionamento
+
+=== ":flag_br: Português"
+    <div class="comms-pilot">
+      Solo Brasília, GOL UNO QUATRO UNO NOVE, posição pátio UNO, Box UNO QUATRO, pronto para acionamento e push back.
+    </div>
+    <div class="comms-atc">
+      GOL UNO QUATRO UNO NOVE, Solo Brasília, autorizado acionamento e push back, chame pronto para o táxi.
+    </div>
+
+=== ":flag_gb: Inglês"
+    <div class="comms-pilot">
+      Brasília Ground, GOL ONE FOUR ONE NINE, position Box ONE FOUR, request start up and push back.
+    </div>
+    <div class="comms-atc">
+      GOL ONE FOUR ONE NINE, Brasília Ground, start up and push back approved, report ready for taxi.
+    </div>
+
+=== ":flag_es: Espanhol"
+    <div class="comms-pilot">
+      Rodaje Brasília, GOL UNO CUATRO UNO NUEVE, posición plataforma UNO, Box UNO CUATRO, listo para arranque y retroceso.
+    </div>
+    <div class="comms-atc">
+      GOL UNO CUATRO UNO NUEVE, Rodaje Brasília, autorizado arranque y retroceso, llame listo para rodaje.
+    </div>
+
 
 <div class="comms-pilot">
 <strong>Piloto (Português):</strong>
@@ -107,10 +172,8 @@ GOL ONE FOUR ONE NINE, start up and push back approved, I will call when ready f
 <strong>Piloto (Espanhol):</strong>
 GOL UNO CUATRO UNO NUEVE, arranque y retroceso aprobado, llamará listo para rodaje.
 </div>
-</div>
 
-##### 2.2 SOLO (Taxi)
-<div class="comms-block">
+### Táxi
 
 <div class="comms-pilot">
 <strong>Piloto (Português):</strong>
@@ -144,10 +207,8 @@ GOL ONE FOUR ONE NINE taxi to holding point, runway TWO NINE LEFT, via taxiway L
 <strong>Piloto (Espanhol):</strong>
 GOL UNO CUATRO UNO NUEVE autorizado rodaje al punto de espera pista DOS NUEVE IZQUIERDA vía calle de rodaje LIMA CUATRO, KILO, UNIFORM y ZULU, ajuste de altímetro 1013 (uno cero uno tres).
 </div>
-</div>
 
-##### 2.3 SOLO (Transferindo para a Torre)
-<div class="comms-block">
+### Transferência para a Torre
 
 <div class="comms-pilot">
 <strong>Piloto (Português):</strong>
@@ -181,9 +242,10 @@ GOL ONE FOUR ONE NINE I will call Brasília Tower on ONE ONE EIGHT, DECIMAL ONE.
 <strong>Piloto (Espanhol):</strong>
 GOL UNO CUATRO UNO NUEVE llamará Torre Brasília en UNO UNO OCHO, DECIMAL UNO.
 </div>
-</div>
 
-#### 3. TORRE DE CONTROLE (Ingresso na pista e Decolagem)
+## :material-numeric-3-box: :flag_br: Torre / :flag_gb: Tower / :flag_es: Torre
+
+### Autorização para Decolagem
 
 <div class="comms-block">
 
@@ -245,7 +307,9 @@ GOL UNO CUATRO UNO NUEVE; llamará Control Brasília en UNO UNO NUEVE, DECIMAL D
 </div>
 </div>
 
-#### 4. CONTROLE (Partida/Departure)
+## :material-numeric-4-box: :flag_br: Controle / :flag_gb: Control / :flag_es: Control
+
+### Contato inicial após decolagem
 
 <div class="comms-block">
 
@@ -283,7 +347,8 @@ GOL UNO CUATRO UNO NUEVE recibido, sube vía salida GAXO DOS ALFA, hasta nivel T
 </div>
 </div>
 
-##### 4.1 CONTROLE (Transferindo para o Centro)
+### Transferência para o próximo órgão
+
 <div class="comms-block">
 
 <div class="comms-atc">
@@ -308,7 +373,9 @@ GOL UNO CUATRO UNO NUEVE, llamará Centro BRASÍLIA, UNO DOS SEIS, decimal SIETE
 </div>
 </div>
 
-#### 5. CENTRO (Subindo, cruzeiro e descida)
+## :material-numeric-5-box: :flag_br: Centro / :flag_gb: Center / :flag_es: Centro
+
+### Chamada Inicial
 
 <div class="comms-block">
 
@@ -346,7 +413,8 @@ GOL UNO CUATRO UNO NUEVE, recibido, sube y mantiene nivel TRES SEIS CERO.
 </div>
 </div>
 
-##### 4.1 CENTRO (Nivelando)
+### Atingindo o nível de cruzeiro
+
 <div class="comms-block">
 
 <div class="comms-pilot">
@@ -381,7 +449,8 @@ GOL UNO CUATRO UNO NUEVE informará cuando esté listo para descenso.
 </div>
 </div>
 
-##### 4.1 CENTRO (Ideal de descida)
+### Para a descida
+
 <div class="comms-block">
 
 <div class="comms-pilot">
@@ -416,7 +485,8 @@ GOL UNO CUATRO UNO NUEVE recibido, desciende vía SANPA UNO ALFA, reportará pas
 </div>
 </div>
 
-##### 4.2 CENTRO (Transferindo para o controle de aproximação)
+### Transferência para o próximo órgão
+
 <div class="comms-block">
 
 <div class="comms-pilot">
@@ -451,7 +521,9 @@ GOL UNO CUATRO UNO NUEVE llamará Control São Paulo en UNO DOS NUEVE, decimal C
 </div>
 </div>
 
-#### 6. CONTROLE DE APROXIMAÇÃO
+## :material-numeric-6-box: :flag_br: Controle / :flag_gb: Control / :flag_es: Control
+
+### Contato Inicial
 
 <div class="comms-block">
 
@@ -489,7 +561,8 @@ GOL UNO CUATRO UNO NUEVE Recibido, desciende vía SANPA UNO ALFA, prevista aprox
 </div>
 </div>
 
-##### 6.1 CONTROLE DE APROXIMAÇÃO (Autorização ILS)
+### Autorização do Procedimento
+
 <div class="comms-block">
 
 <div class="comms-atc">
@@ -515,7 +588,8 @@ GOL UNO CUATRO UNO NUEVE autorizado ILS YANKEE para pista UNO CERO DERECHA, ajus
 </div>
 </div>
 
-##### 6.2 CONTROLE DE APROXIMAÇÃO (Transferência para a Torre)
+### Transferência para a Torre
+
 <div class="comms-block">
 
 <div class="comms-pilot">
@@ -552,7 +626,9 @@ GOL UNO CUATRO UNO NUEVE llamará la Torre Guarulhos en UNO UNO OCHO, decimal CU
 
 </div>
 
-#### 7. TORRE DE CONTROLE (Pouso)
+## :material-numeric-7-box: :flag_br: Torre / :flag_gb: Tower / :flag_es: Torre
+
+### Contato Inicial
 
 <div class="comms-block">
 
@@ -589,7 +665,7 @@ GOL UNO CUATRO UNO NUEVE pista UNO CERO DERECHA, aterrizaje autorizado.
 </div>
 </div>
 
-##### 7.1 TORRE DE CONTROLE (Transferência para o Solo)
+### Após o pouso - Cruzamento de pista
 
 <div class="comms-block">
 
@@ -615,7 +691,7 @@ GOL UNO CUATRO UNO NUEVE, saliendo de pista en calle de rodaje BRAVO BRAVO, auto
 </div>
 </div>
 
-#### 8. SOLO (Após livrar a pista)
+### Transferência para o Solo
 
 <div class="comms-block">
 
@@ -653,7 +729,7 @@ GOL UNO CUATRO UNO NUEVE recibido, autorizado rodaje para Plataforma CUATRO vía
 </div>
 </div>
 
----
+<!-- ---
 
 <div class="page-navigation">
 
@@ -675,5 +751,5 @@ GOL UNO CUATRO UNO NUEVE recibido, autorizado rodaje para Plataforma CUATRO vía
 </a>
 </div>
 
-</div>
+</div> -->
 

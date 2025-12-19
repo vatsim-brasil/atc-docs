@@ -12,9 +12,20 @@ A ferramenta principal é o [Euroscope](https://www.euroscope.hu). Nela são rea
 
 ![Euroscope na TMA São Paulo](img/euroscope.png){ loading=lazy }
 
+#
+
 ---
 
 <div class="page-navigation">
+
+<div class="nav-prev">
+<a href="../../treinamentoatc">
+<span class="nav-arrow">←</span>
+<span class="nav-label">Página anterior</span>
+<span class="nav-separator">|</span>
+<span class="nav-title">Visão Geral | Treinamento ATC</span>
+</a>
+</div>
 
 <div class="nav-next">
 <a href="instalacao/">

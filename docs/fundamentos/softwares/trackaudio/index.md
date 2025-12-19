@@ -6,9 +6,14 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentos - TrackAudio - Visão Geral](img/head-trackaudio-visaogeral.png)
+![Fundamentos - TrackAudio](img/head-trackaudio-visaogeral.png)
 
-A ferramenta principal é o [Euroscope](https://www.euroscope.hu). Nela são realizadas todas as atividades de controle de tráfego aéreo, seja em operação radar ou convencional, bem como informações meteorológicas, canais de coordenação com outros órgãos de controle e emissão de relatórios operacionais.
+TrackAudio é o mais novo cliente de áudio para controle de tráfego aéreo na rede VATSIM, compatível com macOS, Linux e Windows. Ele substitui completamente o cliente AFV (Audio For Vatsim), mas requer alguns passos extras para ser utilizado corretamente.
+
+![](img/trackaudio.png){ : style="display:block; margin:auto; height:300px; border:2px solid #999" }
+
+
+#
 
 ---
 
