@@ -11,6 +11,9 @@ icon: material/alphabetical
 
 Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviaturas de serviços e palavras de pronúncia duvidosa, usa-se o alfabeto fonético que se apresenta a seguir:
 
+!!! note "Nota sobre pronúncia do alfabeto fonético"
+    A pronúncia do alfabeto fonético é a mesma para todos os idiomas.
+
 | Letra | Palavra | Fonética | Pronúncia |
 |:-----:|:-------:|:----------------------------------:|:----------:|
 | A | Alfa | 'ælfa | AL <u>FA</u> |
@@ -39,28 +42,3 @@ Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviatura
 | X | X-Ray | 'eks'rei | <u>EKS</u> REY |
 | Y | Yankee | 'jænki | <u>IAN</u> QUI |
 | Z | Zulu | 'zuːluː | <u>ZU</u> LU |
-
-<!-- ---
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../conceituacao/">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Conceituação</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../algarismos/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Algarismos</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
-</div> -->
-

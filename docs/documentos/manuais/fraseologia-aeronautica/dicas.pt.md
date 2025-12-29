@@ -11,17 +11,20 @@ icon: material/lightbulb-on
 
 Quando **NÃO HOUVER** controle adjacente para transferência do tráfego ou quando o Controle adjacente for Controle Convencional (Não radar), o correto é dizer:
 
-<div class="comms-block">
+=== ":flag_br: Português"
+    <div class="comms-atc">
+      **GOL UNO QUATRO UNO NOVE**, serviço radar encerrado aos "XX", autorizado troca de frequência.
+    </div>
 
-<div class="comms-atc">
-<strong>Controlador (Português):</strong>
-GLO1419, serviço radar encerrado aos "XX", autorizado troca de frequência, UNO DOIS DOIS, decimal OITO.
-<br>
-<strong>Controlador (Inglês):</strong>
-GLO1419, radar service terminated at "XX", frequency change approved, ONE TWO TWO, decimal EIGHT.
-</div>
+=== ":flag_gb: Inglês"
+    <div class="comms-atc">
+      **GOL ONE FOUR ONE NINE**, radar service terminated at "XX", frequency change approved.
+    </div>
 
-</div>
+=== ":flag_es: Espanhol"
+    <div class="comms-atc">
+      **GOL UNO CUATRO UNO NUEVE.**, servicio radar terminado a los "XX", autorizado cambio de frecuencia.
+    </div>
 
 ### 2. Pronúncia da Palavra "VIA"
 !!! tip "Dica"
@@ -52,7 +55,7 @@ e foram criados por pilotos que não levam a aviação à sério.
 ### Não solicitar reporte desnecessário
 
 !!! important "Importante"
-    **NÃO É NECESSÁRIO** solicitar o reporte de "CALÇADO, SOLICITA CORTE E DESEMBARQUE" ou "PARA O CORTE E DESEMBARQUE".
+    **NÃO É NECESSÁRIO** solicitar o reporte de **"CALÇADO, SOLICITA CORTE E DESEMBARQUE"** ou **"PARA O CORTE E DESEMBARQUE"**.
 
 !!! warning "Importante"
     SOMENTE é solicitado na aviação real em situações como exemplo de um aeródromo onde a torre não tenha contato visual por condições meteorológicas (neblina, cerração e chuva) com a aeronave no solo e solicita para a mesma informar apenas: **"AERONAVE CALÇADA"**
@@ -64,17 +67,3 @@ Caso você esteja controlando, **NÃO É NECESSÁRIO** solicitar que a aeronave 
 Evite termos desnecessários que fogem da fraseologia padrão, além de tornar a fraseologia mais agradável e objetiva, a fonia vai ficar mais limpa e dinâmica.
 
 ---
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../exemplos-comunicacao/">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Exemplos de Comunicação</span>
-</a>
-</div>
-
-</div>
-
