@@ -228,12 +228,12 @@
 /* Para modo escuro */
 [data-md-color-scheme="slate"] .comms-pilot {
     background-color: rgba(76, 175, 80, 0.15);
-    border-left-color: #4caf50;
+    color: white;
 }
 
 [data-md-color-scheme="slate"] .comms-atc {
     background-color: rgba(33, 150, 243, 0.15);
-    border-left-color: #2196f3;
+    color: white;
 }
 
 /* [data-md-color-scheme="slate"] .comms-pilot strong,
