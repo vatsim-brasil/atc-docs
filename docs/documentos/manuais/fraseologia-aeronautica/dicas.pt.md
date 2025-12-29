@@ -13,29 +13,20 @@ Quando **não houver** controle adjacente para transferência do tráfego ou qua
 
 === ":flag_br: Português"
     <div class="comms-atc">
-<<<<<<< Updated upstream
       **GOL UNO QUATRO UNO NOVE**, serviço radar encerrado aos "XX", autorizado troca de frequência.
-=======
         GLO1419, serviço radar terminado aos **XX**. Autorizada a troca de frequência, *próxima frequência*.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-atc">
-<<<<<<< Updated upstream
       **GOL ONE FOUR ONE NINE**, radar service terminated at "XX", frequency change approved.
-=======
         GLO1419, radar service terminated at **XX**. Frequency change approved, *next frequency*.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-atc">
-<<<<<<< Updated upstream
       **GOL UNO CUATRO UNO NUEVE.**, servicio radar terminado a los "XX", autorizado cambio de frecuencia.
-=======
         GLO1419, servicio radar terminado a las **XX**. Autorizado el cambio de frecuencia, *próxima frecuencia*.
->>>>>>> Stashed changes
     </div>
 
 !!! warning "Importante!"
@@ -84,23 +75,3 @@ e foram criados por pilotos que não levam a aviação à sério.
 Caso você esteja controlando, **NÃO É NECESSÁRIO** solicitar que a aeronave mantenha na sua escuta até o corte.
 
 Evite termos desnecessários que fogem da fraseologia padrão, além de tornar a fraseologia mais agradável e objetiva, a fonia vai ficar mais limpa e dinâmica.
-
-<<<<<<< Updated upstream
----
-=======
-<!-- ---
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../exemplos-comunicacao/">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Exemplos de Comunicação</span>
-</a>
-</div>
-
-</div> -->
-
->>>>>>> Stashed changes
