@@ -1,0 +1,11 @@
+title: Manual de Meteorologia Aeronáutica
+collapse: false
+nav:
+  - Introdução: index.pt.md
+  - METAR e SPECI: metar-speci.pt.md
+  - TAF: taf.pt.md
+  - NOTAM: notam.pt.md
+  - Checklist: checklist.pt.md
+  - Glossário: glossario.pt.md
+  - Referências: referencias.pt.md
+
