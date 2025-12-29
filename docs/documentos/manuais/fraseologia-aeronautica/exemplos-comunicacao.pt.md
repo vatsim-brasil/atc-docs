@@ -51,28 +51,23 @@ O piloto inicia o contato com o órgão Tráfego para solicitar a autorização 
     <div class="comms-pilot">
       Tráfego Brasília, bom dia/boa tarde/boa noite. **GOL UNO QUATRO UNO NOVE**.
     </div>
-<<<<<<< Updated upstream
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, Tráfego Brasília. Bom dia/Boa tarde/Boa noite. :material-information-outline:{ title="<em>Art. 52. A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem.</em>" }
-=======
     <div class="comms-atc" markdown>
       **GOL UNO QUATRO UNO NOVE**, Tráfego Brasília. Bom dia/Boa tarde/Boa noite. :material-information-outline:{ title="<em>A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem. (Art. 52, MCA 100-16)</em>" }
->>>>>>> Stashed changes
     </div>
     <div class="comms-pilot">
-      Tráfego Brasília, **GOL UNO QUATRO UNO NOVE**, solicita autorização **ATC**, informação **ATIS BRAVO**.
+      Tráfego Brasília, **GOL UNO QUATRO UNO NOVE**, solicita autorização ATC, informação ATIS BRAVO.
     </div>
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, autorizado para o aeroporto de Guarulhos :material-information-outline:{ title="<em>Ou SBGR, lido letra por letra</em>" }. Rota do plano de voo. Nível de Voo **TRÊS QUATRO ZERO**. Pista em uso, **DOIS NOVE ESQUERDA**. Subida via saída **GAXON DOIS ALFA**, transição **ENRUR**. Transponder 4035. Controle Brasília em **UNO DOIS NOVE DECIMAL UNO CINCO**. Coteje. :material-information-outline:{ title="<em>Vide item 3.2 da CIRCEA 100-53/2022.</em>" }
+      **GOL UNO QUATRO UNO NOVE**, autorizado para o aeroporto de Guarulhos :material-information-outline:{ title="<em>Ou SBGR, lido letra por letra</em>" }. Rota do plano de voo. Nível de Voo TRÊS QUATRO ZERO. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder 4035. Controle Brasília em UNO DOIS NOVE DECIMAL UNO CINCO. Coteje. :material-information-outline:{ title="<em>Vide item 3.2 da CIRCEA 100-53/2022.</em>" }
     </div>
     <div class="comms-pilot">
-      Autorizado até o aeroporto de Guarulhos. Rota do plano de voo. Pista em uso, **DOIS NOVE ESQUERDA**. Subida via saída **GAXON DOIS ALFA**, transição **ENRUR**. Transponder 4035, Controle Brasília em **UNO DOIS NOVE**, **DECIMAL UNO CINCO**. **GOL UNO QUATRO UNO NOVE**.
+      Autorizado até o aeroporto de Guarulhos. Rota do plano de voo. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder 4035, Controle Brasília em UNO DOIS NOVE, DECIMAL UNO CINCO. **GOL UNO QUATRO UNO NOVE**.
     </div>
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, cotejamento correto. Chame Solo Brasília em **UNO DOIS UNO DECIMAL OITO ZERO**.
+      **GOL UNO QUATRO UNO NOVE**, cotejamento correto. Chame Solo Brasília em UNO DOIS UNO DECIMAL OITO ZERO.
     </div>
     <div class="comms-pilot">
-      Chamará o solo Brasília em **UNO DOIS UNO DECIMAL OITO ZERO**, **GOL UNO QUATRO UNO NOVE**.
+      Chamará o solo Brasília em UNO DOIS UNO DECIMAL OITO ZERO, **GOL UNO QUATRO UNO NOVE**.
     </div>
 
 === ":flag_gb: Inglês"
@@ -83,19 +78,19 @@ O piloto inicia o contato com o órgão Tráfego para solicitar a autorização 
       **GOL ONE FOUR ONE NINE**, Brasília Delivery. Good Morning/Afternoon/Evening. :material-information-outline:{ title="<em>Art. 52. A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem.</em>" }
     </div>
     <div class="comms-pilot">
-      Brasília Delivery, **GOL ONE FOUR ONE NINE**, request **ATC** clearance, information **BRAVO**.
+      Brasília Delivery, **GOL ONE FOUR ONE NINE**, request ATC clearance, information BRAVO.
     </div>
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, cleared to Guarulhos Airport. Flight plan route. Runway in use, **TWO NINE LEFT**. Climb via **GAXON TWO ALFA** departure, **ENRUR** transition. Squawk 4035. Brasília Control on **ONE TWO NINE DECIMAL ONE FIVE**. Read back. 
+      **GOL ONE FOUR ONE NINE**, cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk 4035. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. Read back. 
     </div>
     <div class="comms-pilot">
-      Cleared to Guarulhos Airport. Flight plan route. Runway in use, **TWO NINE LEFT**. Climb via **GAXON TWO ALFA** departure, **ENRUR** transition. Squawk 4035. Brasília Control on **ONE TWO NINE DECIMAL ONE FIVE**. **GOL ONE FOUR ONE NINE**.
+      Cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk 4035. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. **GOL ONE FOUR ONE NINE**.
     </div>
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, read back is correct. Call Brasília Ground on **ONE TWO ONE DECIMAL EIGHT ZERO**.
+      **GOL ONE FOUR ONE NINE**, read back is correct. Call Brasília Ground on ONE TWO ONE DECIMAL EIGHT ZERO.
     </div>
     <div class="comms-pilot">
-      Will call Brasília Ground on **ONE TWO ONE DECIMAL EIGHT ZERO**, **GOL ONE FOUR ONE NINE**.
+      Will call Brasília Ground on ONE TWO ONE DECIMAL EIGHT ZERO, **GOL ONE FOUR ONE NINE**.
     </div>
 
 === ":flag_es: Espanhol"
@@ -106,23 +101,19 @@ O piloto inicia o contato com o órgão Tráfego para solicitar a autorização 
       **GOL UNO CUATRO UNO NUEVE**, Brasília Autorización. Buenos Días/Buenas Tardes/Buenas Noches. :material-information-outline:{ title="<em>Art. 52. A resposta à chamada inicial, contendo o indicativo de chamada da aeronave seguido do nome do órgão ATS, já será considerado um convite para que a aeronave em questão prossiga com a sua mensagem.</em>" }
     </div>
     <div class="comms-pilot">
-      Brasília Autorización, **GOL UNO CUATRO UNO NUEVE**, solicita autorización **ATC**, información **BRAVO**.
+      Brasília Autorización, **GOL UNO CUATRO UNO NUEVE**, solicita autorización ATC, información BRAVO.
     </div>
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL UNO CUATRO UNO NUEVE**, autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, **DOS NUEVE IZQUIERDA**. Salida normalizada **GAXON DOS ALFA**, transición **ENRUR**. Transponder 4035. Brasília Control en **UNO DOS NUEVE DECIMAL UNO CINCO**. Colacione.
-=======
       **GOL UNO CUATRO UNO NUEVE**, autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Ascienda vía salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder 4035. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. Colacione.
->>>>>>> Stashed changes
     </div>
     <div class="comms-pilot">
-      Autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, **DOS NUEVE IZQUIERDA**. Salida normalizada **GAXON DOS ALFA**, transición **ENRUR**. Transponder 4035. Brasília Control en **UNO DOS NUEVE DECIMAL UNO CINCO**. **GOL UNO CUATRO UNO NUEVE**
+      Autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder 4035. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. **GOL UNO CUATRO UNO NUEVE**
     </div>
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, colación correctal Llame Brasília Tierra en **UNO DOS UNO DECIMAL OCHO CERO**.
+      **GOL UNO CUATRO UNO NUEVE**, colación correctal Llame Brasília Tierra en UNO DOS UNO DECIMAL OCHO CERO.
     </div>
     <div class="comms-pilot">
-      Llamará Brasília Tierra en **UNO DOS UNO DECIMAL OCHO CERO**, **GOL UNO CUATRO UNO NUEVE**.
+      Llamará Brasília Tierra en UNO DOS UNO DECIMAL OCHO CERO, **GOL UNO CUATRO UNO NUEVE**.
     </div>
 
 ??? abstract "Algumas observações..."
@@ -137,16 +128,9 @@ O piloto inicia o contato com o órgão Tráfego para solicitar a autorização 
 
     2. Caso você precise instruir uma saída **OMNI**, você pode adicionar instruções para a subida inicial durante a autorização ATC.
 
-<<<<<<< Updated upstream
-        > :flag_br: PAPA SIERRA CHARLIE NOVEMBER X-RAY, autorizado para Salvador. Rota do plano de voo. Pista em uso, **UNO CINCO**. **Subida via saída OMNI, mantenha proa da pista até CINCO MIL pés, após voe direto KONVI.** Transponder 4035. Controle São Paulo em **UNO TRÊS DOIS DECIMAL UNO**. Coteje.  <br/>
-        > :flag_gb: PAPA SIERRA CHARLIE NOVEMBER X-RAY, cleared to Salvador. Flight plan route. Runway in use, **ONE FIVE**. **Climb via OMNI departure, maintain runway heading until FIVE THOUSAND FEET, then proceed direct KONVI.** Squawk 4035. São Paulo Control on **ONE THREE TWO DECIMAL ONE**. Read back. <br/>
-        > :flag_es: PAPA SIERRA CHARLIE NOVEMBER X-RAY, autorizado hasta Salvador. Ruta plan de vuelo. Pista en uso, **UNO CINCO**. **Subida vía salida OMNI, mantenga proa de pista hasta CINCO MIL pies, después proceda directo KONVI.** Transponder 4035. Control São Paulo en **UNO TRES DOS DECIMAL UNO**. Colacione.<br/>
-
-=======
         > :flag_br: PAPA SIERRA CHARLIE NOVEMBER X-RAY, autorizado para Salvador. Rota do plano de voo. Pista em uso, UNO CINCO. **Subida via saída OMNI, mantenha proa da pista até CINCO MIL pés, após voe direto KONVI.** Transponder 4035. Controle São Paulo em UNO TRÊS DOIS DECIMAL UNO. Coteje. <br/>
         > :flag_gb: PAPA SIERRA CHARLIE NOVEMBER X-RAY, cleared to Salvador. Flight plan route. Runway in use, ONE FIVE. **Climb via OMNI departure, fly runway heading until FIVE THOUSAND feet, then fly direct KONVI.** Squawk 4035. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. Read back. <br/>
         > :flag_es: PAPA SIERRA CHARILE NOVEMBER X-RAY, autorizado para Salvador. Ruta plan de vuelo. Pista en uso, UNO CINCO. **Ascienda vía salida OMNI, mantenga rumbo de la pista hasta CINCO MIL pies, después vuele directo KONVI.** Transponder 4035. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. Colacione. <br/>
->>>>>>> Stashed changes
 
 ## :material-numeric-2-box: :flag_br: Solo / :flag_gb: Ground / :flag_es: Tierra
 
@@ -158,15 +142,6 @@ Pushback é o reboque da aeronave para fora do portão ou posição de estaciona
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Solo Brasília, **GOL UNO QUATRO UNO NOVE**, posição pátio **UNO**, Box **UNO QUATRO**, pronto para acionamento e push back.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, Solo Brasília, autorizado acionamento e push back, chame pronto para o táxi.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE**, acionamento e push back aprovado, chamará pronto para o táxi.
-=======
       Solo Brasília, GOL UNO QUATRO UNO NOVE, pátio UNO, posição UNO QUATRO, IFR para Guarulhos, solicita autorização para pushback e acionamento.
     </div>
     <div class="comms-atc">
@@ -174,20 +149,10 @@ Pushback é o reboque da aeronave para fora do portão ou posição de estaciona
     </div>
     <div class="comms-pilot">
       GOL UNO QUATRO UNO NOVE, autorizado pushback e acionamento, chamará pronto para o táxi.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Brasília Ground, **GOL ONE FOUR ONE NINE**, position Box **ONE FOUR**, request start up and push back.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, Brasília Ground, start up and push back approved, report ready for taxi.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**, start up and push back approved, I will call when ready for taxi.
-=======
       Brasília Ground, GOL ONE FOUR ONE NINE, apron ONE, position ONE FOUR, IFR to Guarulhos, request clearance for pushback and startup.
     </div>
     <div class="comms-atc">
@@ -195,91 +160,10 @@ Pushback é o reboque da aeronave para fora do portão ou posição de estaciona
     </div>
     <div class="comms-pilot">
       Cleared to pushback and startup, I will call when ready for taxi, GOL ONE FOUR ONE NINE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Rodaje Brasília, **GOL UNO CUATRO UNO NUEVE**, posición plataforma **UNO**, Box **UNO CUATRO**, listo para arranque y retroceso.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, Rodaje Brasília, autorizado arranque y retroceso, llame listo para rodaje.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE**, arranque y retroceso aprobado, llamará listo para rodaje.
-    </div>
-
-### Táxi
-
-=== ":flag_br: Português"
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** pronto para o táxi.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, Solo Brasília, autorizado táxi autorizado para o ponto de espera pista **DOIS NOVE ESQUERDA** via taxiways **LIMA QUATRO**, **KILO**, **UNIFORM** e **ZULU**, ajuste de altímetro 1013.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** autorizado táxi autorizado para o ponto de espera pista **DOIS NOVE ESQUERDA** via taxiways **LIMA QUATRO**, **KILO**, **UNIFORM** e **ZULU**, ajuste de altímetro 1013.
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** ready for taxi.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, Brasília Ground, taxi to holding point, runway **TWO NINE LEFT**, via taxiway **LIMA FOUR**, **KILO**, **UNIFORM** and **ZULU**, QNH **ONE ZERO ONE THREE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** taxi to holding point, runway **TWO NINE LEFT**, via taxiway **LIMA FOUR**, **KILO**, **UNIFORM** and **ZULU**, QNH **ONE ZERO ONE THREE**.
-    </div>
-
-=== ":flag_es: Espanhol"
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** listo para rodaje.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, Rodaje Brasília, autorizado rodaje al punto de espera pista **DOS NUEVE IZQUIERDA** vía calle de rodaje **LIMA CUATRO**, **KILO**, **UNIFORM** y **ZULU**, ajuste de altímetro 1013 (uno cero uno tres).
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** autorizado rodaje al punto de espera pista **DOS NUEVE IZQUIERDA** vía calle de rodaje **LIMA CUATRO**, **KILO**, **UNIFORM** y **ZULU**, ajuste de altímetro 1013 (uno cero uno tres).
-    </div>
-
-### Transferência para a Torre
-
-=== ":flag_br: Português"
-    <div class="comms-pilot">
-      Solo Brasília; **GOL UNO QUATRO UNO NOVE** no ponto de espera da pista **DOIS NOVE ESQUERDA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, Solo Brasília, chame Torre Brasília em **UNO UNO OITO**, **DECIMAL UNO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** chamará Torre Brasília em **UNO UNO OITO**, **DECIMAL UNO**.
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-pilot">
-      Brasília Ground, **GOL ONE FOUR ONE NINE** holding point runway **TWO NINE LEFT**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, Brasília Ground, call Brasília Tower on **ONE ONE EIGHT**, **DECIMAL ONE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** I will call Brasília Tower on **ONE ONE EIGHT**, **DECIMAL ONE**.
-    </div>
-
-=== ":flag_es: Espanhol"
-    <div class="comms-pilot">
-      Rodaje Brasília; **GOL UNO CUATRO UNO NUEVE** en el punto de espera pista **DOS NUEVE IZQUIERDA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, Rodaje Brasília, llame Torre Brasília en **UNO UNO OCHO**, **DECIMAL UNO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** llamará Torre Brasília en **UNO UNO OCHO**, **DECIMAL UNO**.
-    </div>
-=======
       Brasília Tierra, GOL UNO CUATRO UNO NUEVE, plataforma UNO, posición UNO CUATRO, IFR para Guarulhos, listo para remolque y puesto en marcha.
     </div>
     <div class="comms-atc">
@@ -408,64 +292,11 @@ Ao atingir o ponto de espera, o piloto será transferido para a Torre para receb
         > :flag_br: Solo Brasília, GOL UNO QUATRO UNO NOVE, no ponto de espera da pista DOIS NOVE ESQUERDA, **interseção ZULU**. <br/>
         > :flag_gb: Brasília Ground, GOL ONE FOUR ONE NINE, on holding point of runway TWO NINE LEFT, **ZULU intersection**. <br/>
         > :flag_es: Brasília Tierra, GOL UNO CUATRO UNO NUEVE, en el punto de espera de la pista DOS NUEVE IZQUIERDA, **intersección ZULU**. <br/>
->>>>>>> Stashed changes
 
 ## :material-numeric-3-box: :flag_br: Torre / :flag_gb: Tower / :flag_es: Torre
 
 ### Autorização para Decolagem
 
-<<<<<<< Updated upstream
-=== ":flag_br: Português"
-    <div class="comms-pilot">
-      Torre Brasília; **GOL UNO QUATRO UNO NOVE**, ponto de espera pista **DOIS NOVE ESQUERDA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**; Torre Brasília, pista **DOIS NOVE ESQUERDA**, autorizada decolagem, vento **DOIS OITO ZERO GRAUS**, **ZERO NOVE NÓS**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE**; pista **DOIS NOVE ESQUERDA**, autorizada decolagem.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**; decolado aos **ZERO CINCO**; chame o Controle Brasília em **UNO UNO NOVE**, **DECIMAL DOIS**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE**; chamará Controle Brasília em **UNO UNO NOVE**, **DECIMAL DOIS**.
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-pilot">
-      Brasília Tower; **GOL ONE FOUR ONE NINE**, holding point runway **TWO NINE LEFT**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, Brasília Tower, runway **TWO NINE LEFT**, cleared for take-off, wind **TWO EIGHT ZERO DEGREES**, **ZERO NINE KNOTS**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**; runway **TWO NINE LEFT**, cleared for take-off.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**; airborne at **ZERO FIVE**, call Brasília Control on **ONE ONE NINE**, **DECIMAL TWO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**; I will call Brasília Control on **ONE ONE NINE**, **DECIMAL TWO**.
-    </div>
-
-=== ":flag_es: Espanhol"
-    <div class="comms-pilot">
-      Torre Brasília; **GOL UNO CUATRO UNO NUEVE**, punto de espera pista **DOS NUEVE IZQUIERDA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**; Torre Brasília, pista **DOS NUEVE IZQUIERDA**, autorizado despegue, viento **DOS OCHO CERO** grados, **CERO NUEVE** nudos.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE**; pista **DOS NUEVE IZQUIERDA**, autorizado despegue.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**; en el aire a los **CERO CINCO**; llame el Control Brasília en **UNO UNO NUEVE**, **DECIMAL DOS**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE**; llamará Control Brasília en **UNO UNO NUEVE**, **DECIMAL DOS**.
-    </div>
-=======
 A autorização para a decolagem é concedida pela Torre após o piloto informar que está no ponto de espera da pista. A autorização inclui a pista em uso, condições de vento e quaisquer instruções adicionais necessárias.
 
 === ":flag_br: Português"
@@ -542,7 +373,6 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
     4. Algumas torres fazem a transferência para o Controle junto com a autorização de decolagem (como no exemplo acima), eliminando a necessidade do contato após a decolagem. Confira o MOP do aeródromo para mais detalhes.
 
     5. Vento com intensidade de zero nó (00000KT) deve ser informado como **vento calmo**.
->>>>>>> Stashed changes
 
 ## :material-numeric-4-box: :flag_br: Controle / :flag_gb: Control / :flag_es: Control
 
@@ -550,15 +380,6 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Controle **BRASÍLIA**, **GOL UNO QUATRO UNO NOVE**, decolando pista **DOIS NOVE ESQUERDA**; passando **CINCO MIL PÉS**, saída **GAXO DOIS ALFA**, transição **ENRUR**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** Controle Brasília ciente, contato radar na decolagem, suba via **GAXO DOIS ALFA** para o nível **TRÊS MEIA ZERO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** ciente, sobe via saída **GAXO DOIS ALFA**, para o nível **TRÊS MEIA ZERO**.
-=======
       Controle Brasília, GOL UNO QUATRO UNO NOVE, decolando pista DOIS NOVE ESQUERDA, passando CINCO MIL PÉS, saída GAXON DOIS ALFA, transição ENRUR.
     </div>
     <div class="comms-atc">
@@ -566,20 +387,10 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
     </div>
     <div class="comms-pilot">
       Sobe via saída para o nível TRÊS MEIA ZERO, GOL UNO QUATRO UNO NOVE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Brasília Control, **GOL ONE FOUR ONE NINE**, airborne runway **TWO NINE LEFT**; passing **FIVE THOUSAND FEET**, **GAXO TWO ALFA** departure, **ENRUR** transition.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** Brasília Control roger, radar contact on departure, climb via **GAXO TWO ALFA** to flight level **THREE SIX ZERO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**, roger, climb via **GAXO TWO ALFA** to flight level **THREE SIX ZERO**.
-=======
       Brasília Control, GOL ONE FOUR ONE NINE, airborne runway TWO NINE LEFT, passing FIVE THOUSAND FEET, GAXON TWO ALFA departure, ENRUR transition.
     </div>
     <div class="comms-atc">
@@ -587,20 +398,10 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
     </div>
     <div class="comms-pilot">
       Climb via departure to flight level THREE SIX ZERO, GOL ONE FOUR ONE NINE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Control **BRASÍLIA**, **GOL UNO CUATRO UNO NUEVE**, despegando pista **DOS NUEVE IZQUIERDA**; pasando **CINCO MIL** pies, salida **GAXO DOS ALFA**, transición **ENRUR**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE** Control Brasília recibido, contacto radar en el despegue, suba vía **GAXO DOS ALFA** hasta nivel **TRES SEIS CERO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** recibido, sube vía salida **GAXO DOS ALFA**, hasta nivel **TRES SEIS CERO**.
-=======
       Brasília Control, GOL UNO CUATRO UNO NUEVE, despegado de la pista DOS NUEVE IZQUIERDA, pasando CINCO MIL PIES, salida normalizada GAXON DOS ALFA, transición ENRUR.
     </div>
     <div class="comms-atc">
@@ -685,27 +486,10 @@ Durante a subida para o nível de cruzeiro, o Controle pode emitir instruções 
     </div>
     <div class="comms-pilot">
       Continúa ascenso al nivel de vuelo TRES SEIS CERO, manteniendo DOS CINCO CERO NUDOS hasta el nivel de vuelo UNO SIETE CERO, GOL UNO CUATRO UNO NUEVE.
->>>>>>> Stashed changes
     </div>
 
 ### Transferência para o próximo órgão
 
-<<<<<<< Updated upstream
-=== ":flag_br: Português"
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, chame Centro **BRASÍLIA**, **UNO DOIS MEIA**, decimal **SETE CINCO**;
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE**, chamará Centro **BRASÍLIA**, **UNO DOIS MEIA**, decimal **SETE CINCO**;
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, call Brasília Center, **UNE TWO SIX**, decimal **SEVEN FIVE**;
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**, I will call Brasília Center, **UNE TWO SIX**, decimal **SEVEN FIVE**;
-=======
 Saindo do Controle de Aproximação, o piloto será transferido para o próximo órgão ATC responsável pela gestão do voo naquela fase da rota, que é o Centro.
 
 !!! note
@@ -727,22 +511,14 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
     </div>
     <div class="comms-pilot">
       Call Brasília Center, ONE TWO SIX DECIMAL SEVEN FIVE, GOL ONE FOUR ONE NINE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL UNO CUATRO UNO NUEVE**, llame Centro **BRASÍLIA**, **UNO DOS SEIS**, decimal **SIETE CINCO**;
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE**, llamará Centro **BRASÍLIA**, **UNO DOS SEIS**, decimal **SIETE CINCO**;
-=======
       GOL UNO CUATRO UNO NUEVE, llame Centro Brasília en UNO DOS SEIS DECIMAL SIETE CINCO.
     </div>
     <div class="comms-pilot">
       Llamará Centro Brasília en UNO DOS SEIS DECIMAL SIETE CINCO, GOL UNO CUATRO UNO NUEVE.
->>>>>>> Stashed changes
     </div>
 
 ## :material-numeric-5-box: :flag_br: Centro / :flag_gb: Center / :flag_es: Centro
@@ -751,15 +527,6 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Centro Brasília, **GOL UNO QUATRO UNO NOVE**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, Centro Brasília ciente, contato radar, suba e mantenha nível **TRÊS MEIA ZERO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE**, ciente, sobe e mantém nível **TRÊS MEIA ZERO**.
-=======
       Centro Brasília, GOL UNO QUATRO UNO NOVE.
     </div>
     <div class="comms-atc">
@@ -767,20 +534,10 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
     </div>
     <div class="comms-pilot">
       Acionou identificação, sobe e mantém o nível TRÊS MEIA ZERO. GOL UNO QUATRO UNO NOVE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Brasília Center, **GOL ONE FOUR ONE NINE**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, Brasília Center roger, radar contact, climb and maintain flight level **THREE SIX ZERO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**, roger, climb and maintain flight level **THREE SIX ZERO**.
-=======
       Brasília Center, GOL ONE FOUR ONE NINE.
     </div>
     <div class="comms-atc">
@@ -788,20 +545,10 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
     </div>
     <div class="comms-pilot">
       Squawk ident, climb and maintain flight level THREE SIX ZERO. GOL ONE FOUR ONE NINE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Centro Brasília, **GOL UNO CUATRO UNO NUEVE**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, Centro Brasília recibido, contacto radar, suba y mantenga nivel **TRES SEIS CERO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE**, recibido, sube y mantiene nivel **TRES SEIS CERO**.
-=======
       Brasília Centro, GOL UNO CUATRO UNO NUEVE.
     </div>
     <div class="comms-atc">
@@ -809,22 +556,12 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
     </div>
     <div class="comms-pilot">
       Identificado, asciende y mantiene nivel TRES SEIS CERO. GOL UNO CUATRO UNO NUEVE.
->>>>>>> Stashed changes
     </div>
 
 ### Atingindo o nível de cruzeiro
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Centro Brasília, **GOL UNO QUATRO UNO NOVE** nível de voo **TRÊS MEIA ZERO**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** Centro Brasília ciente, informe no ideal de descida.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** informará no ideal de descida.
-=======
       Centro Brasília, GOL UNO QUATRO UNO NOVE, nível de voo TRÊS MEIA ZERO.
     </div>
     <div class="comms-atc">
@@ -832,20 +569,10 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
     </div>
     <div class="comms-pilot">
       Mantém a navegação, GOL UNO QUATRO UNO NOVE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Brasília Center, **GOL ONE FOUR ONE NINE** reaching flight level **THREE SIX ZERO**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** Brasília Center roger, inform when ready for descend.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** I will inform when ready for descend.
-=======
       Brasília Center, GOL ONE FOUR ONE NINE, flight level THREE SIX ZERO.
     </div>
     <div class="comms-atc">
@@ -853,20 +580,10 @@ Saindo do Controle de Aproximação, o piloto será transferido para o próximo 
     </div>
     <div class="comms-pilot">
       Maintain own navigation, GOL ONE FOUR ONE NINE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Centro Brasília, **GOL UNO CUATRO UNO NUEVE** nivel de vuelo **TRES SEIS CERO**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE** Centro Brasília recibido, informe cuando esté listo para descenso.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** informará cuando esté listo para descenso.
-=======
       Brasília Centro, GOL UNO CUATRO UNO NUEVE, nivel de vuelo TRES SEIS CERO.
     </div>
     <div class="comms-atc">
@@ -902,33 +619,10 @@ Como o início da STAR geralmente se dá no espaço aéreo do Centro, este é re
     </div>
     <div class="comms-pilot">
       Prepara la llegada SANPA UNO ALFA, esperando aproximación ILS YANKEE para pista UNO CERO DERECHA en Guarulhos, GOL UNO CUATRO UNO NUEVE.
->>>>>>> Stashed changes
     </div>
 
 ### Para a descida
 
-<<<<<<< Updated upstream
-=== ":flag_br: Português"
-    <div class="comms-pilot">
-      Centro Brasília, **GOL UNO QUATRO UNO NOVE** no ponto ideal de descida.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** Centro Brasília ciente, desça via **SANPA UNO ALFA**, reporte passando o nível **UNO QUATRO CINCO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** ciente, desce via **SANPA UNO ALFA**, reportará passando o nível **UNO QUATRO CINCO**.
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-pilot">
-      Brasília Center, **GOL ONE FOUR ONE NINE** ready for descend.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** Brasília Center roger, descent via **SANPA UNO ALFA**, report passing flight **ONE FOUR FIVE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** roger, descent via **SANPA UNO ALFA**, I will report passing flight **ONE FOUR FIVE**.
-=======
 Toda alteração de altitude em espaço aéreo controlado exige autorização prévia do ATC. O piloto deve informar quando estiver no ponto ideal para iniciar a descida a fim de receber a autorização necessária.
 
 === ":flag_br: Português"
@@ -951,44 +645,10 @@ Toda alteração de altitude em espaço aéreo controlado exige autorização pr
     </div>
     <div class="comms-pilot">
       Descend via SANPA UNO ALFA to flight level TWO FIVE ZERO. GOL ONE FOUR ONE NINE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Centro Brasília, **GOL UNO CUATRO UNO NUEVE** listo para descenso.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE** Centro Brasília recibido, descienda vía **SANPA UNO ALFA**, reporte pasando nivel **UNO CUATRO CINCO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** recibido, desciende vía **SANPA UNO ALFA**, reportará pasando nivel **UNO CUATRO CINCO**.
-    </div>
-
-### Transferência para o próximo órgão
-
-=== ":flag_br: Português"
-    <div class="comms-pilot">
-      Centro Brasília, **GOL UNO QUATRO UNO NOVE** passando o nível **UNO QUATRO CINCO**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, Centro Brasília ciente, chame agora o controle São Paulo em **UNO DOIS NOVE**, decimal **QUATRO CINCO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** chamará Controle São Paulo em **UNO DOIS NOVE**, decimal **QUATRO CINCO**.
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-pilot">
-      Brasília Center, **GOL ONE FOUR ONE NINE** passing flight level **ONE FOUR FIVE**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, Brasília center roger, contact now São Paulo Control on **ONE TWO NINE**, decimal **FOUR FIVE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** I will call São Paulo Control on **ONE TWO NINE**, decimal **FOUR FIVE**.
-=======
       Centro Brasília, GOL UNO CUATRO UNO NUEVE, listo para descenso.
     </div>
     <div class="comms-atc">
@@ -1024,20 +684,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL ONE FOUR ONE NINE I will call São Paulo Control on ONE TWO NINE, decimal FOUR FIVE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Centro Brasília, **GOL UNO CUATRO UNO NUEVE** pasando nivel **UNO CUATRO CINCO**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, Centro Brasília recibido, llame ahora el control São Paulo en **UNO DOS NUEVE**, decimal **CUATRO CINCO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** llamará Control São Paulo en **UNO DOS NUEVE**, decimal **CUATRO CINCO**.
-=======
       Centro Brasília, GOL UNO CUATRO UNO NUEVE pasando nivel UNO CUATRO CINCO.
     </div>
     <div class="comms-atc">
@@ -1045,7 +695,6 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO CUATRO UNO NUEVE llamará Control São Paulo en UNO DOS NUEVE, decimal CUATRO CINCO.
->>>>>>> Stashed changes
     </div>
 
 ## :material-numeric-6-box: :flag_br: Controle / :flag_gb: Control / :flag_es: Control
@@ -1054,15 +703,6 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Controle São Paulo, **GOL UNO QUATRO UNO NOVE** procedente de Brasília, passando nível **UNO QUATRO CINCO** para Guarulhos.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** Controle São Paulo ciente, contato radar, desça via **SANPA UNO ALFA**, prevista aproximação **ILS YANKEE** para pista **UNO ZERO DIREITA**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** Ciente, desce via **SANPA UNO ALFA**, prevista aproximação **ILS YANKEE** para pista **UNO ZERO DIREITA**.
-=======
       Controle São Paulo, GOL UNO QUATRO UNO NOVE procedente de Brasília, passando nível UNO QUATRO CINCO para Guarulhos.
     </div>
     <div class="comms-atc">
@@ -1070,20 +710,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO QUATRO UNO NOVE Ciente, desce via SANPA UNO ALFA, prevista aproximação ILS YANKEE para pista UNO ZERO DIREITA.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      São Paulo Control, **GOL ONE FOUR ONE NINE** traffic from Brasília, passing flight level **ONE FOUR FIVE** to Guarulhos. 
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** São Paulo Control roger, radar contact, descend via **SANPA UNO ALFA**, expect **ILS YANKEE** approach for runway **ONE ZERO RIGHT**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** Roger, descend via **SANPA ONE ALFA**, expect **ILS YANKEE** approach for runway **ONE ZERO RIGHT**.
-=======
       São Paulo Control, GOL ONE FOUR ONE NINE traffic from Brasília, passing flight level ONE FOUR FIVE to Guarulhos.
     </div>
     <div class="comms-atc">
@@ -1091,20 +721,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL ONE FOUR ONE NINE Roger, descend via SANPA ONE ALFA, expect ILS YANKEE approach for runway ONE ZERO RIGHT.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Control São Paulo, **GOL UNO CUATRO UNO NUEVE** procedente de Brasília, pasando nivel **UNO CUATRO CINCO** para Guarulhos.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE** Control São Paulo recibido, contacto radar, descienda vía **SANPA UNO ALFA**, prevista aproximación **ILS YANKEE** para pista **UNO CERO DERECHA**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** Recibido, desciende vía **SANPA UNO ALFA**, prevista aproximación **ILS YANKEE** para pista **UNO CERO DERECHA**.
-=======
       Control São Paulo, GOL UNO CUATRO UNO NUEVE procedente de Brasília, pasando nivel UNO CUATRO CINCO para Guarulhos.
     </div>
     <div class="comms-atc">
@@ -1112,69 +732,38 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO CUATRO UNO NUEVE Recibido, desciende vía SANPA UNO ALFA, prevista aproximación ILS YANKEE para pista UNO CERO DERECHA.
->>>>>>> Stashed changes
     </div>
 
 ### Autorização do Procedimento
 
 === ":flag_br: Português"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL UNO QUATRO UNO NOVE** autorizado **ILS YANKEE** para pista **UNO ZERO DIREITA**, ajuste de altímetro (ou QNH) 1014, reporte estabilizado.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** autorizado **ILS YANKEE** para pista **UNO ZERO DIREITA**, ajuste de altímetro (ou QNH) 1014, reportará estabilizado.
-=======
       GOL UNO QUATRO UNO NOVE autorizado ILS YANKEE para pista UNO ZERO DIREITA, ajuste de altímetro (ou QNH) 1014, reporte estabilizado.
     </div>
     <div class="comms-pilot">
       GOL UNO QUATRO UNO NOVE autorizado ILS YANKEE para pista UNO ZERO DIREITA, ajuste de altímetro (ou QNH) 1014, reportará estabilizado.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL ONE FOUR ONE NINE** cleared **ILS YANKEE** approach for runway **ONE ZERO RIGHT**, QNH **ONE ZERO ONE FOUR**, report established.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** cleared **ILS YANKEE** approach for runway **ONE ZERO RIGHT**, QNH **ONE ZERO ONE FOUR**, I will report established.
-=======
       GOL ONE FOUR ONE NINE cleared ILS YANKEE approach for runway ONE ZERO RIGHT, QNH ONE ZERO ONE FOUR, report established.
     </div>
     <div class="comms-pilot">
       GOL ONE FOUR ONE NINE cleared ILS YANKEE approach for runway ONE ZERO RIGHT, QNH ONE ZERO ONE FOUR, I will report established.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL UNO CUATRO UNO NUEVE** autorizado **ILS YANKEE** para pista **UNO CERO DERECHA**, ajuste de altímetro (o QNH) 1014 (uno cero uno cuatro), reporte establecido.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** autorizado **ILS YANKEE** para pista **UNO CERO DERECHA**, ajuste de altímetro (o QNH) 1014 (uno cero uno cuatro), reportará establecido.
-=======
       GOL UNO CUATRO UNO NUEVE autorizado ILS YANKEE para pista UNO CERO DERECHA, ajuste de altímetro (o QNH) 1014 (uno cero uno cuatro), reporte establecido.
     </div>
     <div class="comms-pilot">
       GOL UNO CUATRO UNO NUEVE autorizado ILS YANKEE para pista UNO CERO DERECHA, ajuste de altímetro (o QNH) 1014 (uno cero uno cuatro), reportará establecido.
->>>>>>> Stashed changes
     </div>
 
 ### Transferência para a Torre
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Controle São Paulo, **GOL UNO QUATRO UNO NOVE** estabilizado no **ILZ** pista **UNO ZERO DIREITA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** chame a Torre Guarulhos em **UNO UNO OITO**, decimal **QUATRO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** chamará a Torre Guarulhos em **UNO UNO OITO**, decimal **QUATRO**.
-=======
       Controle São Paulo, GOL UNO QUATRO UNO NOVE estabilizado no ILZ pista UNO ZERO DIREITA.
     </div>
     <div class="comms-atc">
@@ -1182,20 +771,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO QUATRO UNO NOVE chamará a Torre Guarulhos em UNO UNO OITO, decimal QUATRO.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      São Paulo Control, **GOL ONE FOUR ONE NINE** established on **ILS** runway **ONE ZERO RIGHT**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** call Guarulhos Tower on **ONE ONE EIGHT**, decimal **FOUR**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** I will call Guarulhos Tower on **ONE ONE EIGHT**, decimal **FOUR**.
-=======
       São Paulo Control, GOL ONE FOUR ONE NINE established on ILS runway ONE ZERO RIGHT.
     </div>
     <div class="comms-atc">
@@ -1203,20 +782,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL ONE FOUR ONE NINE I will call Guarulhos Tower on ONE ONE EIGHT, decimal FOUR.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Control São Paulo, **GOL UNO CUATRO UNO NUEVE** establecido en **ILS** pista **UNO CERO DERECHA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE** llame la Torre Guarulhos en **UNO UNO OCHO**, decimal **CUATRO**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** llamará la Torre Guarulhos en **UNO UNO OCHO**, decimal **CUATRO**.
-=======
       Control São Paulo, GOL UNO CUATRO UNO NUEVE establecido en ILS pista UNO CERO DERECHA.
     </div>
     <div class="comms-atc">
@@ -1224,7 +793,6 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO CUATRO UNO NUEVE llamará la Torre Guarulhos en UNO UNO OCHO, decimal CUATRO.
->>>>>>> Stashed changes
     </div>
 
 ## :material-numeric-7-box: :flag_br: Torre / :flag_gb: Tower / :flag_es: Torre
@@ -1233,15 +801,6 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
 
 === ":flag_br: Português"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Torre Guarulhos, **GOL UNO QUATRO UNO NOVE** na final pista **UNO ZERO DIREITA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, pista **UNO ZERO DIREITA**, pouso autorizado, vento **ZERO NOVE ZERO** graus, **ZERO OITO** nós.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** pista **UNO ZERO DIREITA**, pouso autorizado.
-=======
       Torre Guarulhos, GOL UNO QUATRO UNO NOVE na final pista UNO ZERO DIREITA.
     </div>
     <div class="comms-atc">
@@ -1249,20 +808,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO QUATRO UNO NOVE pista UNO ZERO DIREITA, pouso autorizado.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Guarulhos Tower, **GOL ONE FOUR ONE NINE** on final runway **ONE ZERO RIGHT**.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, runway **ONE ZERO RIGHT**, cleared to land, wind **ZERO NINE ZERO** degrees, **ZERO EIGHT** knots.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** runway **ONE ZERO RIGHT**, cleared to land.
-=======
       Guarulhos Tower, GOL ONE FOUR ONE NINE on final runway ONE ZERO RIGHT.
     </div>
     <div class="comms-atc">
@@ -1270,20 +819,10 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL ONE FOUR ONE NINE runway ONE ZERO RIGHT, cleared to land.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-pilot">
-<<<<<<< Updated upstream
-      Torre Guarulhos, **GOL UNO CUATRO UNO NUEVE** en final pista **UNO CERO DERECHA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, pista **UNO CERO DERECHA**, aterrizaje autorizado, viento **CERO NUEVE CERO** grados, **CERO OCHO** nudos.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** pista **UNO CERO DERECHA**, aterrizaje autorizado.
-=======
       Torre Guarulhos, GOL UNO CUATRO UNO NUEVE en final pista UNO CERO DERECHA.
     </div>
     <div class="comms-atc">
@@ -1291,92 +830,36 @@ Ao chegar no limite do espaço aéreo do Centro, o piloto será transferido para
     </div>
     <div class="comms-pilot">
       GOL UNO CUATRO UNO NUEVE pista UNO CERO DERECHA, aterrizaje autorizado.
->>>>>>> Stashed changes
     </div>
 
 ### Após o pouso - Cruzamento de pista
 
 === ":flag_br: Português"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL UNO QUATRO UNO NOVE**, no solo aos **CINCO UNO**, livra na taxiway **BRAVO BRAVO**, autorizado cruzamento da pista **UNO ZERO ESQUERDA**, após livrar o cruzamento, chame o Solo Guarulhos em **UNO DOIS NOVE**, decimal **SETE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE**, livra na taxiway **BRAVO BRAVO**, autorizado cruzamento da pista **UNO ZERO ESQUERDA**, após livrar o cruzamento, chamará o Solo Guarulhos em **UNO DOIS NOVE**, decimal **SETE**.
-=======
       GOL UNO QUATRO UNO NOVE, no solo aos FIVE ONE, livra na taxiway BRAVO BRAVO, autorizado cruzamento da pista UNO ZERO ESQUERDA, após livrar o cruzamento, chame o Solo Guarulhos em UNO DOIS NOVE, decimal SETE.
     </div>
     <div class="comms-pilot">
       GOL UNO QUATRO UNO NOVE, livra na taxiway BRAVO BRAVO, autorizado cruzamento da pista UNO ZERO ESQUERDA, após livrar o cruzamento, chamará o Solo Guarulhos em UNO DOIS NOVE, decimal SETE.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_gb: Inglês"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL ONE FOUR ONE NINE**, on the ground at **FIVE ONE**, vacating runway on taxiway **BRAVO BRAVO**, cleared crossing runway **ONE ZERO LEFT**, after vacating runway contact Guarulhos Ground one **UNO TWO ONE**, decimal **SEVEN**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE**, vacating runway on taxiway **BRAVO BRAVO**, cleared crossing runway **ONE ZERO LEFT**, after vacating runway I will contact Guarulhos Ground one **UNO TWO ONE**, decimal **SEVEN**.
-=======
       GOL ONE FOUR ONE NINE, on the ground at FIVE ONE, vacating runway on taxiway BRAVO BRAVO, cleared crossing runway ONE ZERO LEFT, after vacating runway contact Guarulhos Ground one UNO TWO ONE, decimal SEVEN.
     </div>
     <div class="comms-pilot">
       GOL ONE FOUR ONE NINE, vacating runway on taxiway BRAVO BRAVO, cleared crossing runway ONE ZERO LEFT, after vacating runway I will contact Guarulhos Ground one UNO TWO ONE, decimal SEVEN.
->>>>>>> Stashed changes
     </div>
 
 === ":flag_es: Espanhol"
     <div class="comms-atc">
-<<<<<<< Updated upstream
-      **GOL UNO CUATRO UNO NUEVE**, en tierra a los **CINCO UNO**, saliendo de pista en calle de rodaje **BRAVO BRAVO**, autorizado cruce de pista **UNO CERO IZQUIERDA**, después de salir del cruce, llame Rodaje Guarulhos en **UNO DOS NUEVE**, decimal **SIETE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE**, saliendo de pista en calle de rodaje **BRAVO BRAVO**, autorizado cruce de pista **UNO CERO IZQUIERDA**, después de salir del cruce, llamará Rodaje Guarulhos en **UNO DOS NUEVE**, decimal **SIETE**.
-=======
       GOL UNO CUATRO UNO NUEVE, en tierra a los CINCO UNO, saliendo de pista en calle de rodaje BRAVO BRAVO, autorizado cruce de pista UNO CERO IZQUIERDA, después de salir del cruce, llame Rodaje Guarulhos en UNO DOS NUEVE, decimal SIETE.
     </div>
     <div class="comms-pilot">
       GOL UNO CUATRO UNO NUEVE, saliendo de pista en calle de rodaje BRAVO BRAVO, autorizado cruce de pista UNO CERO IZQUIERDA, después de salir del cruce, llamará Rodaje Guarulhos en UNO DOS NUEVE, decimal SIETE.
->>>>>>> Stashed changes
     </div>
 
 ### Transferência para o Solo
 
-<<<<<<< Updated upstream
-=== ":flag_br: Português"
-    <div class="comms-pilot">
-      Solo Guarulhos **GOL UNO QUATRO UNO NOVE** livrando a pista **UNO ZERO ESQUERDA** na interseção **LIMA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** autorizado táxi para o Pátio **QUATRO** via taxiway **ALFA**, **INDIA**, **YANKEE QUATRO**, **YANKEE QUATRO WISKEY**, posição **QUATRO ZERO TRÊS**. 
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO QUATRO UNO NOVE** ciente, autorizado táxi para o Pátio **QUATRO** via taxiway **ALFA**, **INDIA**, **YANKEE QUATRO**, **YANKEE QUATRO WISKEY**, posição **QUATRO ZERO TRÊS**. 
-    </div>
-
-=== ":flag_gb: Inglês"
-    <div class="comms-pilot">
-      Guarulhos Ground, **GOL ONE FOUR ONE NINE** vacating runway, **LIMA** intersection.
-    </div>
-    <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** cleared taxi to appron **FOUR**, via taxiway **ALFA**, **INDIA**, **YANKEE FOUR**, **YANKEE FOUR WISKEY**, stand **FOUR ZERO THREE**.
-    </div>
-    <div class="comms-pilot">
-      **GOL ONE FOUR ONE NINE** roger, cleared taxi to appron **FOUR**, via taxiway **ALFA**, **INDIA**, **YANKEE FOUR**, **YANKEE FOUR WISKEY**, stand **FOUR ZERO THREE**.
-    </div>
-
-=== ":flag_es: Espanhol"
-    <div class="comms-pilot">
-      Rodaje Guarulhos **GOL UNO CUATRO UNO NUEVE** saliendo de pista **UNO CERO IZQUIERDA** en intersección **LIMA**.
-    </div>
-    <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE** autorizado rodaje para Plataforma **CUATRO** vía calle de rodaje **ALFA**, **INDIA**, **YANKEE CUATRO**, **YANKEE CUATRO WISKEY**, posición **CUATRO CERO TRES**.
-    </div>
-    <div class="comms-pilot">
-      **GOL UNO CUATRO UNO NUEVE** recibido, autorizado rodaje para Plataforma **CUATRO** vía calle de rodaje **ALFA**, **INDIA**, **YANKEE CUATRO**, **YANKEE CUATRO WISKEY**, posición **CUATRO CERO TRES**.
-    </div>
-=======
 === ":flag_br: Portugu?s"
     <div class="comms-pilot">
       Solo Guarulhos GOL UNO QUATRO UNO NOVE livrando a pista UNO ZERO ESQUERDA na interse??o LIMA.
@@ -1422,29 +905,4 @@ GOL ONE FOUR ONE NINE roger, cleared taxi to appron FOUR, via taxiway ALFA, INDI
 GOL UNO CUATRO UNO NUEVE recibido, autorizado rodaje para Plataforma CUATRO vía calle de rodaje ALFA, INDIA, YANKEE CUATRO, YANKEE CUATRO WISKEY, posición CUATRO CERO TRES.
 </div>
 </div>
->>>>>>> Stashed changes
-
-<!-- ---
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../algarismos/">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Algarismos</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../dicas/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Dicas</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
-</div> -->
 
