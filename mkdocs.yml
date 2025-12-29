@@ -132,3 +132,7 @@ plugins:
 
 validation:
   unrecognized_links: ignore
+
+watch:
+  - includes
+  - overrides

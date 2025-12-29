@@ -63,25 +63,5 @@ O piloto em comando deverá cotejar (repetir) as seguintes autorizações e inst
 
 ---
 
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Início</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../alfabeto-fonetico/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Alfabeto Fonético</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
 </div>
 
