@@ -1,0 +1,9 @@
+title: Manual de Plano de Voo
+collapse: false
+nav:
+  - Introdução: index.pt.md
+  - Formulários Oficiais (DECEA): formularios.pt.md
+  - Preenchimento do FPL (Campos principais): preenchimento.pt.md
+  - Item 18 (Outros Dados): item-18.pt.md
+  - Exemplos práticos: exemplos.pt.md
+  - Checklist rápido: checklist.pt.md
