@@ -5,7 +5,9 @@ icon: material/format-list-checks
 
 --8<-- "includes/abreviacoes.md"
 
-# Checklist operacional (briefing)
+![Manual de Fraseologia - Checklist](img/manual-fraseologia-checklist.png)
+
+#
 
 ## Pré-briefing (5 minutos)
 

@@ -5,7 +5,9 @@ icon: material/book-multiple
 
 --8<-- "includes/abreviacoes.md"
 
-# Referências oficiais (DECEA)
+![Manual de Fraseologia - Referências](img/manual-fraseologia-referencias.png)
+
+#
 
 ## AISWEB (NOTAM e informação aeronáutica)
 

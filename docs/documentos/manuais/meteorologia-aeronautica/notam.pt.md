@@ -5,9 +5,11 @@ icon: material/alert-circle
 
 --8<-- "includes/abreviacoes.md"
 
-# NOTAM (AISWEB) — leitura e interpretação
+![Manual de Fraseologia - NOTAM](img/manual-fraseologia-notam.png)
 
-## O que é (operacional)
+#
+
+## O que é NOTAM?
 
 NOTAM é um aviso oficial para informar **mudanças temporárias** ou **informações críticas** que afetem a operação, como:
 

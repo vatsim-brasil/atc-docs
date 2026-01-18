@@ -5,7 +5,9 @@ icon: material/book-open-variant
 
 --8<-- "includes/abreviacoes.md"
 
-# Glossário (seleção operacional)
+![Manual de Fraseologia - Glossário](img/manual-fraseologia-glossario.png)
+
+#
 
 ## Nuvens (quantidade)
 
