@@ -5,7 +5,7 @@ icon: material/weather-rainy
 
 --8<-- "includes/abreviacoes.md"
 
-# TAF (previsão terminal) — leitura operacional
+![Manual de Meteorologia - TAF](img/manual-fraseologia-taf.png)
 
 ## Estrutura (essência)
 

@@ -5,7 +5,9 @@ icon: material/weather-sunny
 
 --8<-- "includes/abreviacoes.md"
 
-# METAR e SPECI (leitura operacional)
+![Manual de Meteorologia - METAR e SPECI](img/manual-fraseologia-metar-speci.png)
+
+#
 
 ## Estrutura (mapa mental)
 
