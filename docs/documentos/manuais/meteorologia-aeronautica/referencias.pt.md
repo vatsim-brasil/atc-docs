@@ -5,7 +5,7 @@ icon: material/book-multiple
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Referências](img/manual-fraseologia-referencias.png)
+![Manual de Fraseologia - Referências](img/manual-meteorologia-referencias.png)
 
 #
 

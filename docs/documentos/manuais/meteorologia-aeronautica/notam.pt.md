@@ -5,7 +5,7 @@ icon: material/alert-circle
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - NOTAM](img/manual-fraseologia-notam.png)
+![Manual de Fraseologia - NOTAM](img/manual-meteorologia-notam.png)
 
 #
 

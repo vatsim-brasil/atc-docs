@@ -5,7 +5,7 @@ icon: material/book-open-variant
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Glossário](img/manual-fraseologia-glossario.png)
+![Manual de Fraseologia - Glossário](img/manual-meteorologia-glossario.png)
 
 #
 

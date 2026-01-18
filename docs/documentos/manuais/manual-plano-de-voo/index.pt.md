@@ -9,7 +9,7 @@ toc:
 
 ![Manual de Plano de Voo (FPL) - Introdução](img/manual-plano-de-voo-intro.png)
 
-# Manual de Plano de Voo (FPL)
+#
 
 ### Apresentação
 
