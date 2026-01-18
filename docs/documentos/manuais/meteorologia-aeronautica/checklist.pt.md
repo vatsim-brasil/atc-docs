@@ -5,7 +5,7 @@ icon: material/format-list-checks
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Checklist](img/manual-fraseologia-checklist.png)
+![Manual de Fraseologia - Checklist](img/manual-meteorologia-checklist.png)
 
 #
 

@@ -3,7 +3,9 @@ title: Checklist rápido
 icon: material/format-list-checks
 ---
 
-# Checklist rápido (FPL)
+![Manual de Plano de Voo (FPL) - Checklist](img/manual-plano-de-voo-checklist.png)
+
+#
 
 Use esta lista para evitar os erros que mais travam o fluxo (tanto em ATS real quanto em redes).
 

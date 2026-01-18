@@ -5,7 +5,9 @@ icon: material/weather-rainy
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Meteorologia - TAF](img/manual-fraseologia-taf.png)
+![Manual de Meteorologia - TAF](img/manual-meteorologia-taf.png)
+
+#
 
 ## Estrutura (essência)
 
