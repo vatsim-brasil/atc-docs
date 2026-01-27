@@ -21,7 +21,7 @@ Este manual resume a operação do **circuito de tráfego padrão (retangular)**
 
 ## Sobre este Manual
 
-Este manual foi criado de acordo com os tópicos relacionados á fraseologia padrão no **MCA 100-16** [^1] e demais documentos oficiais do DECEA que tratam sobre procedimentos de circuito de tráfego e operações em aeródromos.
+Este manual foi criado de acordo com os tópicos relacionados à fraseologia padrão no **MCA 100-16** [^1] e demais documentos oficiais do DECEA que tratam sobre procedimentos de circuito de tráfego e operações em aeródromos.
 
 É importantíssimo a leitura constante dos documentos oficiais e a consulta às fontes primárias (AIP, cartas aeronáuticas e publicações do DECEA).
 

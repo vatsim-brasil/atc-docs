@@ -19,13 +19,13 @@ Sem restrições publicadas, use um retângulo simples ao redor da pista:
 
 ## Direção padrão por pista (sem publicação)
 
-- **Curvas à direita** para a pista em uso.
+- **Curvas à esquerda** para a pista em uso.
 - Se houver motivo operacional (obstáculos, cidade, ruído, heliponto, etc.), **isso é restrição local** e deve ser tratado como procedimento específico (publicação/instrução).
 
 ## Lado do circuito (noção prática)
 
-- "Circuito à direita RWY XX": o piloto faz todas as curvas para a direita.
-- "Circuito à direita RWY XX": curvas para a direita.
+- "Circuito à esquerda RWY XX": o piloto faz todas as curvas para a esquerda.
+- "Circuito à esquerda RWY XX": curvas para a esquerda.
 
 ## Pista em uso (sem VAC)
 
