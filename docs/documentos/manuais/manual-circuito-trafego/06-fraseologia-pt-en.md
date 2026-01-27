@@ -13,21 +13,21 @@ Abaixo um conjunto prático de chamadas comuns no circuito, em formato de "catá
     - Pista: RWY 16
     - Ajuste para sua realidade (nome do órgão, pista, QNH, etc.)
 
-## 1) Informar pista/circuito e integrar na Perna do vento
+## 1) Informar pista/circuito e ingressar na Perna do vento
 
 === ":flag_br: Português"
 
     | Situação | Fraseologia (TWR) | Observação |
     |---|---|---|
-    | Ingresso no circuito via vento | "PT-ABC, pista 16, circuito à direita, ingresse na perna do vento, reporte vento." | Se houver tráfego, incluir informação |
-    | Tráfego à vista e seguir | "PT-ABC, tráfego à sua frente na perna do vento, confirme à vista e siga." | Se negativo, sequencie novamente |
+    | Ingresso no circuito na perna do vento | "PT-ABC, pista 16, circuito à direita, ingresse na perna do vento, reporte vento." | Se houver tráfego, incluir informação |
+    | Tráfego à vista e seguir | "PT-ABC, tráfego à sua frente na perna do vento, confirme visual com o tráfego e siga o mesmo." | Se negativo, sequencie novamente |
 
 === ":flag_gb: English"
 
     | Situation | Phraseology (TWR) | Observation |
     |---|---|---|
-    | Circuit entry via downwind | "PT-ABC, runway 16, right-hand circuit, join downwind, report downwind." | If traffic present, include information |
-    | Traffic in sight and follow | "PT-ABC, traffic ahead on downwind, report in sight and follow." | If negative, sequence again |
+    | Circuit entry via downwind leg | "PT-ABC, runway 16, right-hand circuit, join downwind leg, report downwind leg." | If traffic present, include information |
+    | Traffic in sight and follow | "PT-ABC, traffic ahead on downwind leg, report in sight and follow." | If negative, sequence again |
 
 ## 2) Alongar perna do vento / órbita / manter
 
