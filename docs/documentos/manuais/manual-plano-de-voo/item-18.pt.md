@@ -22,7 +22,7 @@ O ITEM 18 é onde você “fecha o contrato” do plano: detalhes de performance
 | `REG/` | Matrícula (quando necessário) | `REG/PTRBA` |
 | `DOF/` | Data do voo (formato YYMMDD) | `DOF/260117` |
 | `EET/` | Estimativas até FIR/pontos relevantes (quando aplicável) | `EET/SBAO0130` |
-| `RMK/` | Observações em linguagem clara ou códigos exigidos | `RMK/500FT AAL` |
+| `RMK/` | Observações em linguagem clara ou códigos exigidos | `RMK/500FT AGL` |
 
 ## STS/ (tratamento especial)
 
@@ -48,7 +48,7 @@ Em simulação, mantenha simples e coerente com a aeronave e a rota. Se você n�
 | Campo | Valor |
 |---|---|
 | ITEM 15 | `VFR` |
-| ITEM 18 | `RMK/500FT AAL` |
+| ITEM 18 | `RMK/500FT AGL` |
 
 ### Aeródromo sem ICAO (ZZZZ)
 
