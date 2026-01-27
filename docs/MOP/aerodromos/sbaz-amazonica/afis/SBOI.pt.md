@@ -52,8 +52,8 @@ tags:
 #### Tráfego VFR
 
 - As ACFT em OPS VFR deverão cumprir os seguintes procedimentos:
-    1. TFC de chegada para a RWY 03 executar circuito de TFC pela direita e para RWY 21 pela esquerda;
-    2. TFC decolando da RWY 03 executar curva pela direita e da RWY 21 pela esquerda;
+    1. TFC de chegada para a RWY 03 executar circuito de TFC pela direita e para RWY 16 pela esquerda;
+    2. TFC decolando da RWY 03 executar curva pela direita e da RWY 16 pela esquerda;
     3. ACFT no circuito de TFC não deverá ultrapassar as margens do rio Oiapoque.
 - Observar VAC para entrada ou saída do circuito de tráfego.
 

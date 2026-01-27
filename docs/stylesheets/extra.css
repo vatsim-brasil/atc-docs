@@ -379,6 +379,23 @@
     color: #ffffff !important;
 }
 
+/* Ajuste de hover para links da sidebar no dark mode */
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+    color: #448aff !important;
+    background-color: rgba(68, 138, 255, 0.1) !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:focus,
+[data-md-color-scheme="slate"] .md-nav__link:focus-within {
+    color: #448aff !important;
+    background-color: rgba(68, 138, 255, 0.15) !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active {
+    color: #448aff !important;
+    background-color: rgba(68, 138, 255, 0.2) !important;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .page-navigation {

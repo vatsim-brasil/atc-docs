@@ -20,7 +20,7 @@ Os exemplos abaixo são pensados para **simulação** (VATSIM) e servem como ref
 | 13 | `SBSP 1400` | Partida + EOBT (UTC) |
 | 15 | `VFR` | Fora da tabela → detalhar em RMK |
 | 16 | `SBSP 0045` | Local + duração total |
-| 18 | `RMK/1500FT AGL LOCAL` | Ajuste de altura/localidade |
+| 18 | `RMK/1500FT AAL LOCAL` | Ajuste de altura/localidade |
 | 19 | (quando exigido) | Em simulação, normalmente omitido |
 
 ## Exemplo 2 — IFR doméstico (com aerovias)

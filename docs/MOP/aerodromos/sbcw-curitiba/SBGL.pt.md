@@ -41,7 +41,7 @@
 
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações            |
 | ---------- | ------ | --------------------- | ---------- | ---------------------- |
-| SBGL_ATIS  | `AGL`  | ATIS Galeão           | 127.600    |                        |
+| SBGL_ATIS  | `AAL`  | ATIS Galeão           | 127.600    |                        |
 | SBGL_DEL   | `DGL`  | Tráfego Galeão        | 121.000    | `DCL`                  |
 | SBGL_RMP   | `RGL`  | Pátio Galeão          | 121.950    | Apenas durante eventos |
 | SBGL_GND   | `GGL`  | Solo Galeão           | 121.650    |                        |
