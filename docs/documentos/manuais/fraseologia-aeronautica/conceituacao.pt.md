@@ -58,10 +58,3 @@ O piloto em comando deverá cotejar (repetir) as seguintes autorizações e inst
 !!! warning "Importante"
     A fraseologia não deve ser utilizada com misturas de idiomas.
 
-
-
-
----
-
-</div>
-

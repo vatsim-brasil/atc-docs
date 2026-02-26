@@ -93,7 +93,7 @@
   margin: 0.5em 0;
 }
 .md-typeset h4 {
-  padding-top: 1em;
+  /*padding-top: 1em;*/
   color: var(--md-typeset-color);
 }
 .md-typeset h5 {
@@ -144,4 +144,9 @@
   padding: 0 .2941176471em;
   word-break: break-word;
   font-family: var(--md-code-font-family);
+}
+
+/*Code*/
+.md-typeset code {
+  font-size: .8rem;
 }

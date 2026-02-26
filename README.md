@@ -1,3 +1,5 @@
+![Header Image](.github/docs/img/readme_banner.svg)
+
 # Instalação
 
 Após instalar o python, execute o comando a seguir para instalar as dependências:

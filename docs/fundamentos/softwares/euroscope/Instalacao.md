@@ -4,6 +4,8 @@
 
 --8<-- "includes/abreviacoes.md"
 
+#
+
 ![Fundamentos - Euroscope - Visão Geral](img/head-euroscope-instalacao.png)
 
 ## Download
@@ -18,6 +20,9 @@
 2. Clique no link disponível na seção "Download" para baixar o EuroScope. Após o download, siga as etapas do instalador normalmente.
 
 ![](img/es2.png){ : style="border:2px solid #999" }
+
+!!! danger "Atenção!"
+    Recomendamos que seja instalada a versão **3.2.3.2** que pode ser encontrada [nesse link](https://www.euroscope.hu/wp/2024/06/09/v3-2-2-3-and-v3-2-3-2-with-token-authentication-update/).
 
 !!! warning "Uma dica!"
     Recomendamos fortemente a leitura do manual do Euroscope, que pode ser facilmente encontrado no site em `Documentation` > `Download User's Guide`.
@@ -38,30 +43,3 @@ Os arquivos de setor são baixados e instalados **pelo [Aeronav GNG](https://fil
 
 !!! info "Uma informação importante"
     Se desejar mudar de posição e esta se encontrar em uma FIR diferente, você deverá reiniciar o Euroscope e abrir o perfil correto para a nova posição. Simplesmente carregar o novo setor/ASR não é suficiente.
-
-
-#
-
----
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Euroscope | Visão Geral</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../utilizacao/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Euroscope | Utilização</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
-</div>

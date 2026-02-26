@@ -71,3 +71,7 @@
 *[MCA]: Manual do Comando da Aeronáutica / Air Force Cabinet Manual
 *[DECEA]: Departamento de Controle do Espaço Aéreo / Department of Airspace Control
 *[CAOP]: Carta de Acordo Operacional / Letter of Agreement
+*[RVR]: Alcance Visual de Pista / Runway Visual Range
+*[METAR]: Relatório Meteorológico Terminal de Aeródromo / Aerodrome Terminal Meteorological Report
+*[TAF]: Previsão Meteorológica Terminal de Aeródromo / Terminal Aerodrome Forecast
+*[SIGMET]: Informação Meteorológica Significativa para Aviação / Significant Meteorological Information
