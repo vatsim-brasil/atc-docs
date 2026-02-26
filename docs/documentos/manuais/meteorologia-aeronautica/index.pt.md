@@ -11,14 +11,15 @@ icon: material/weather-cloudy
 
 ## Apresentação
 
-Este manual está consolidado de forma **operacional, informativo e completo**, com foco em **leitura e interpretação de METAR, SPECI, TAF e NOTAM** a partir de fontes oficiais do DECEA (principalmente **AISWEB** e **REDEMET**).
+Este manual está consolidado de forma **descritiva e operacional, informativo e completo**, com foco em **leitura e interpretação de METAR, SPECI, TAF e SIGMET** a partir de fontes oficiais do DECEA (principalmente **AISWEB** e **REDEMET**).
 
 | Revisão | Data       | Descrição                      | Revisor             |
 | ------- | ---------- | ------------------------------ | ------------------- |
-| 12/2025 | 29/12/2025 | Adaptação ao Portal ATC        | 930847              |
+| 01/2026 | 19/1/2025  | Adaptação ao Portal ATC        | 930847              |
 
-!!! note "Objetivo operacional"
-    Padronizar a interpretação de mensagens meteorológicas e avisos aeronáuticos, reduzindo ambiguidade, melhorando consciência situacional e suportando tomada de decisão (planejamento, alternados, mínimos, tendência e risco convectivo).
+## Objetivo
+
+Este manual visa padronizar a interpretação de mensagens meteorológicas e avisos aeronáuticos, reduzindo ambiguidade, melhorando consciência situacional e suportando tomada de decisão (planejamento, alternados, mínimos, tendência e risco convectivo).
 
 ## Sobre este Manual
 
@@ -26,19 +27,7 @@ Este manual foi criado de acordo com os tópicos relacionados nos documentos ofi
 
 É importantíssimo a leitura constante dos documentos oficiais e a consulta às fontes primárias (AISWEB e REDEMET).
 
-### Documentos de Referência
-
-Este manual baseia-se nos seguintes documentos oficiais:
-
-- **ICAO Annex 3 - Meteorological Service for International Air Navigation**: estabelece os padrões e práticas recomendadas para serviços meteorológicos aeronáuticos.
-- **DECEA - Publicações Meteorológicas**: documentos oficiais do DECEA sobre meteorologia aeronáutica e mensagens OPMET.
-- **AISWEB**: sistema oficial de informações aeronáuticas do DECEA para consulta de NOTAM e informações publicadas.
-- **REDEMET**: rede de meteorologia do DECEA para consulta de mensagens OPMET (METAR, SPECI, TAF).
-
-!!! tip "Dica"
-    Consulte sempre as fontes oficiais (AISWEB e REDEMET) para informações atualizadas e precisas.
-
-## Visão geral (fluxo operacional)
+<!-- ## Visão geral (fluxo operacional)
 
 ### Fontes e papéis (visão prática)
 
@@ -97,4 +86,4 @@ Este manual refere-se à interpretação operacional de mensagens meteorológica
 !!! warning "Importante"
     Este manual não substitui regulamentos, AIP, cartas, RBAC/ICA/ICAO, nem instruções do operador. É um guia de apoio operacional.
 
----
+--- -->

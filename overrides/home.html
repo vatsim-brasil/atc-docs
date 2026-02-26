@@ -1,4 +1,5 @@
 {% extends "main.html" %}
+
 {% block tabs %}
 {{ super() }}
 <link rel="stylesheet" href="assets/stylesheets/home.css">
@@ -25,42 +26,40 @@
 <div class="lowerSection">
     <div class="md-grid md-typeset">
         <div class="feature">
-					<h2>Mudanças Recentes</h2>
-					<div class="cards">
-                        <div class="card">
-                            <a href="">
-                                <h3>Atualização no Processo de Instalação do EuroScope</h3>
+            <h2>Mudanças Recentes</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="">
+                        <h3>Atualização no Processo de Instalação do EuroScope</h3>
+                        <p>
+                            O procedimento de instalação do EuroScope foi atualizado.
+                        </p>
+                    </a>
+                </div>
 
-                                <p>
-                                    O procedimento de instalação do EuroScope foi atualizado.
-                                </p>
-                            </a>
-                        </div>
-
-                        <div class="card">
-                            <a href="">
-                                <h3>Novas Setorizações</h3>
-
-                                <p>
-                                    Publicados detalhes das novas setorizações das FIR do Brasil, com instruções específicas quanto ao seu acionamento, operação e coordenação.
-                                </p>
-                            </a>
-                        </div>
-                        
-                        <div class="card">
-                            <a href="">
-                                <h3>Operação dos Aeródromos</h3>
-
-                                <p>
-                                    Publicados procedimentos padronizados e específicos para cada aeródromo, no intuito de reunir diversas informações espalhadas em diversos regulamentos.
-                                </p>
-                            </a>
-						</div>
-					</div>
-
-				</div>
+                <div class="card">
+                    <a href="">
+                        <h3>Novas Setorizações</h3>
+                        <p>
+                            Publicados detalhes das novas setorizações das FIR do Brasil, com instruções específicas quanto ao seu acionamento, operação e coordenação.
+                        </p>
+                    </a>
+                </div>
+                
+                <div class="card">
+                    <a href="">
+                        <h3>Operação dos Aeródromos</h3>
+                        <p>
+                            Publicados procedimentos padronizados e específicos para cada aeródromo, no intuito de reunir diversas informações espalhadas em diversos regulamentos.
+                        </p>
+                    </a>
+                </div>
+            </div>
+		</div>
     </div>
 </div>
 
 {% endblock %}
-{% block content %}{% endblock %}
+
+{% block content %}
+{% endblock %}

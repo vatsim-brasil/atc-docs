@@ -3,11 +3,16 @@
 site_name: Portal ATC
 site_description: Informações e recursos para controladores na Vatsim Brasil.
 site_url: https://atc.vatsim.com.br
+repo_name: vatsim-brasil/atc-docs
+repo_url: https://github.com/vatsim-brasil/atc-docs
+
 theme:
   name: material
   language: pt-BR
   custom_dir: overrides
   logo: images/vatbrz-branca.png
+  icon:
+    repo: fontawesome/brands/github
   font:
     text: "Ubuntu Sans"
     code: "Ubuntu Mono"
@@ -56,9 +61,16 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.details
+  - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -90,10 +102,16 @@ extra:
       link: https://community.vatsim.net/
       name: Discord
 
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
 extra_css:
   - stylesheets/nav.css
   - stylesheets/theme.css
   - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 plugins:
   - search:
