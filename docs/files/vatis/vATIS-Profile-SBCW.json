@@ -2,7 +2,7 @@
   "name": "FIR Curitiba (SBCW)",
   "id": "238d9115-b0e9-4d33-af79-c37fe18de8cd",
   "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBCW.json",
-  "updateSerial": 2025080203,
+  "updateSerial": 2026060301,
   "stations": [
     {
       "id": "878c9cfc-c86e-48b6-82a3-ca367ab8424a",
@@ -2004,7 +2004,7 @@
         {
           "id": "774b13ae-18df-4a82-9ca6-c2167ef3f435",
           "name": "17",
-          "airportConditions": "EXPECT ILS *X RWY 17R\r\nLDG RWY 17R\r\nDEP RWY 17R",
+          "airportConditions": "EXPECT ILS *X RWY 17R\r\nLDG RWY 17R\r\nTKOF RWY 17R",
           "notams": "",
           "template": "SBSP ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
@@ -2020,7 +2020,7 @@
         {
           "id": "186cfd53-5c2b-463a-a48e-326ce3055e9f",
           "name": "35",
-          "airportConditions": "EXPECT ILS *V RWY 35L\r\nLDG RWY 35L\r\nDEP RWY 35L",
+          "airportConditions": "EXPECT ILS *V RWY 35L\r\nLDG RWY 35L\r\nTKOF RWY 35L",
           "template": "SBSP ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
