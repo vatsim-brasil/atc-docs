@@ -63,31 +63,3 @@ Depois de conferir seu perfil no myVATSIM, se você não estiver atualmente na R
 !!! info
     Transferências regionais não são gerenciadas pela divisão e estão fora do nosso controle. Por favor, evite nos enviar mensagens sobre o status de sua transferência, pois não somos responsáveis por esses processos.
     Lembre-se que a Política de Transferência e Controladores Visitantes da VATSIM se aplica e quaisquer transferências aprovadas estarão sujeitas a um período de espera de 90 dias antes que você possa enviar outra solicitação de transferência.
-
-
-
-#
-
-<!-- ---
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Visão Geral</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../treinamentoatc/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">Treinamento ATC</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
-</div> -->

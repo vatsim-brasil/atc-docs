@@ -8,32 +8,27 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                           | Informações                      |
 |---------------------------|----------------------------------|
 | **Nome do aeródromo**     | Presidente Juscelino Kubitschek  |
 | **Tipo de Operação**      | Internacional, Público e Militar |
-| **Altitude de transição** | 7000 pés                         |
-| **Elevação**              | 3498 pés (1066m)                 |
+| **Altitude de transição** | `7000 pés` |
+| **Elevação** | `3498 pés (1066m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBBR" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Brasilia Aeroporto</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBR?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBBR" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Brasilia Aeroporto</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBBR?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 ### Descrição
 
 | Pistas | Preferencial                                  | ILS                                      | Circuito            |
 |--------|-----------------------------------------------|------------------------------------------|---------------------|
-| `11L`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**.[^1] / Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Padrão |
-| `29R`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília.[^1]  | :fontawesome-solid-circle-xmark:{.cornot} | Não-padrão              |
-| `11R`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**.[^1] / Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Não-padrão | 
-| `29L`  | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Padrão              |
+| **11L** | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**.[^1] / Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Padrão |
+| **29R** | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Norte** e **Nordeste** de Brasília.[^1]  | :fontawesome-solid-circle-xmark:{ .cornot } | Não-padrão              |
+| **11R** | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**.[^1] / Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Não-padrão |
+| **29L** | Preferencial para **operações** originadas de ou destinadas a localidades situadas ao **Sul** e **Sudeste** de Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Padrão              |
 
 [^1]: [AIP Brasil, AD 2 SBBR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
 
@@ -45,8 +40,6 @@ tags:
 
     Nos momentos de pico de decolagem para os Setores N/NE/NW, a pista RWY 11L/29R será utilizada somente para DEP. As aproximações de todos os setores e as decolagens para o Setor S serão realizadas na RWY 11R/29L.
 
-
-
 <!--
 ### Configurações
 
@@ -56,18 +49,16 @@ tags:
 | **OESTE**    | `29L` `29R` | `29L` `29R` | Prioriza-se a `29R` nas saídas para o setor **NORTE** e a `29L` nas saídas para o setor **SUL** |
 -->
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência              | Observações |
 | ---------- | ------ | --------------------- | ----------------------- | ----------- |
-| SBBR_ATIS  | `ABR`  | ATIS Brasília         | 127.800                 |             |
-| SBBR_DEL   | `DBR`  | Tráfego Brasília      | 121.000                 | `DCL`       |
-| SBBR_GND   | `GBR`  | Solo Brasília         | 121.800 |             |
-| SBBR_TWR   | `TBR`  | Torre Brasília        | 118.100 |             |
-| SBBR_M_TWR | `OBR`  | Operações Brasília    | 122.500 |             |
+| **SBBR_ATIS** | `ABR` | ATIS Brasília | **127.800** |  |
+| **SBBR_DEL** | `DBR` | Tráfego Brasília | **121.000** | `DCL` |
+| **SBBR_GND** | `GBR` | Solo Brasília | **121.800** |  |
+| **SBBR_TWR** | `TBR` | Torre Brasília | **118.100** |  |
+| **SBBR_M_TWR** | `OBR` | Operações Brasília | **122.500** |  |
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 #### Comunicação
@@ -131,15 +122,14 @@ Em construção.
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio       | Posições | Classificação                    |
-|:-----------:| :------: | -------------------------------- |
+| :---: | :---: | :--- |
 |     `1`     |  1 - 4   | Internacionais                   |
 |     `1`     |  5 - 41  | Domésticos                       |
 |     `2`     | 52 - 66  | Cargas / Remotas                 |
 |     `3`     | 67 - 70  | Cargas de Grande Porte / Remotas |
-|  `MILITAR`  |   ANY    | Militar - Operacional            |
+| ******MILITAR****** | ANY    | Militar - Operacional            |
 
 <!--
 
@@ -148,7 +138,6 @@ Em construção.
 !!! info "Uma informação..."
 
     Selecione a pista em uso no canto superior direito do mapa para visualizar o respectivo fluxo de solo.
-
 
 <div id="mapa1" class="mapa"></div>
 
@@ -236,9 +225,6 @@ const oesteKiloCoords = [
     [-15.876957, -47.915498]
 ]
 
-
-
-
 const CharlieSaida11LCoords = [
     [-15.865054, -47.923476],
     [-15.863859, -47.921680]
@@ -321,7 +307,6 @@ var oesteKilo = L.polyline(oesteKiloCoords, {
     weight: 3
 }).arrowheads(configSeta8);
 
-
 var CharlieSaida11L = L.polyline(CharlieSaida11LCoords, {
     color: cores.amarelo,
     weight: 3
@@ -399,9 +384,6 @@ var TangoSaida11L = L.polyline(TangoSaida11LCoords, {
 var fluxoPista11Ldep = L.layerGroup([CharlieSaida11L,HotelSaida11L,KiloSaida11L,Lima3Saida11L,Lima4Saida11L,Lima5Saida11L,Lima6Saida11L,Lima7Saida11L,Lima8Saida11L,NovemberSaida11L,OscarSaida11L,QuebecSaida11L,QuebecQuebecSaida11L,TangoSaida11L]);
 var fluxoPista29Ldep = L.layerGroup([oesteKilo,oesteHotel]);
 
-
-
-
 var tileMapaSatelite = L.tileLayer(configMapa.tileMapaUrlSatelite, {
     minZoom: configMapa.zoomMin,
     maxZoom: configMapa.zoomMax,
@@ -432,14 +414,11 @@ var tileMapaOPNV = L.tileLayer(configMapa.tileMapaUrlOPNV, {
     attribution: '&copy; memomaps'
 });
 
-
-
 var mapa1 = L.map('mapa1', {
     minZoom: configMapa.zoomMin,
     maxZoom: configMapa.zoomMax,
     layers: [ tileMapaSatelite ]
 }).setView(configMapa.pontoCentral, configMapa.zoomPadrao);
-
 
 var opcoesDeMapa = {
     "Satélite": tileMapaSatelite,

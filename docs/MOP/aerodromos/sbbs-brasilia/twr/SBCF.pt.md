@@ -8,30 +8,25 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                      |
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Confins - Tancredo Neves         |
 | **Tipo de Operação**         | Internacional e Público          |
-| **Altitude de transição**    | 7000 pés                         |
-| **Elevação**                 | 2721 pés (829 m)                 |
+| **Altitude de transição** | `7000 pés` |
+| **Elevação** | `2721 pés (829 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBCF" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Confins</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCF?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBCF" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Confins</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBCF?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBCF){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBCF){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBCF){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 ### Descrição
 
 | Pista | Preferencial                                                                       | ILS                                         | Circuito            |
-|-------|------------------------------------------------------------------------------------|---------------------------------------------|---------------------|
-| `16`  | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**[^1] | :fontawesome-solid-circle-check:{.corok}    | Não Padrão          |
-| `34`  | -                                                                                  | :fontawesome-solid-circle-check:{.corok}    | Padrão              | 
+| :---: | :--- | :---: | :---: |
+| **16** | Preferencial com **componente de vento de cauda até 7 nós** com **pista seca**[^1] | :fontawesome-solid-circle-check:{.corok}    | Não Padrão          |
+| **34** | -                                                                                  | :fontawesome-solid-circle-check:{.corok}    | Padrão              |
 
 [^1]: [AIP Brasil, AD 2 SBCF 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
 
@@ -39,21 +34,18 @@ tags:
 
     Em condições meteorológicas com {==**componente de vento de cauda menor ou igual a 7KT**==}, a pista preferencial de pouso e decolagem será a RWY 16. Tal configuração será normalmente utilizado em preferência à utilização da RWY 34, desde que a superfície da pista **esteja seca**. Quando a pista de pouso e decolagem em uso for RWY 16 com componente de vento de cauda, os pilotos que solicitarem autorização para utilizar a RWY 34 devem considerar que seu pouso ou decolagem {==**pode sofrer atraso**==}.
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBCF_ATIS  | `ACF`  | ATIS                  | 127.850    |             |
-| SBCF_DEL   | `DCF`  | Tráfego Confins       | 121.000    | `DCL`       |
-| SBCF_GND   | `GCF`  | Solo Confins          | 121.900    |             |
-| SBCF_TWR   | `TCF`  | Torre Confins         | 118.200    |             |
+| **SBCF_ATIS** | `ACF` | ATIS | **127.850** |  |
+| **SBCF_DEL** | `DCF` | Tráfego Confins | **121.000** | `DCL` |
+| **SBCF_GND** | `GCF` | Solo Confins | **121.900** |  |
+| **SBCF_TWR** | `TCF` | Torre Confins | **118.200** |  |
 
-### DCL/CPDLC
-
+### DCL / CPDLC
 - [x] Há disponível serviço de DCL no aeródromo. O controlador deve usar o código <span class="badge corVatbrzVermelho">SBCF</span> ao conectar.
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
@@ -101,11 +93,10 @@ tags:
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação             |
-|:---------:|:---------:|---------------------------|
-| `1`       | ANY       | Doméstico                 |
-| `2`       | ANY       | Doméstico / Internacional |
-| `3`       | ANY       | Carga                     |
-| `4`       | ANY       | Manutenção - Gol          |
+| :---: | :---: | :--- |
+| ******1****** | ANY       | Doméstico                 |
+| ******2****** | ANY       | Doméstico / Internacional |
+| ******3****** | ANY       | Carga                     |
+| ******4****** | ANY       | Manutenção - Gol          |

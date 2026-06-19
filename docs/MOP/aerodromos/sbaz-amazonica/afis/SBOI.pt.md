@@ -8,41 +8,33 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                                 |
 |------------------------------|---------------------------------------------|
 | **Nome do aeródromo**        | Oiapoque                                    |
 | **Tipo de Operação**         | Nacional e Público                          |
-| **Altitude de transição**    | 4000 pés                                    |
-| **Elevação**                 | 52 pés (16 m)                               |
+| **Altitude de transição** | `4000 pés` |
+| **Elevação** | `52 pés (16 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBOI" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Oiapoque Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBOI?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBOI" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Oiapoque Airport</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBOI?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBOI){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBOI){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBOI){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial  | ILS                                         | Circuito   |
-|-------|---------------|---------------------------------------------|------------|
-| `03`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Não-Padrão |
-| `21`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     | 
+| :---: | :--- | :---: | :---: |
+| **03** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Não-Padrão |
+| **21** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBOI_R_TWR | `ROI`  | Rádio Oiapoque        | 125.900    |             |
+| **SBOI_R_TWR** | `ROI` | Rádio Oiapoque | **125.900** |  |
 
-### DCL/CPDLC
-
+### DCL / CPDLC
 - [ ] Não há disponível serviço de DCL no aeródromo.
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 `NIL`
@@ -67,8 +59,7 @@ tags:
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação                         |
-|:---------:|:---------:|---------------------------------------|
-| `1`       | ANY       | Doméstico / Aviação Geral e Executiva |
+| :---: | :---: | :--- |
+| ******1****** | ANY       | Doméstico / Aviação Geral e Executiva |

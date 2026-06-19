@@ -6,40 +6,93 @@
 
 ## Setorização
 
-### Combinados
-- **SBRE_N_CTR**
-    - Composto pela combinação (união) dos setores 1, 2, 3 e 6 da FIR Recife.
-    - Frequência: 134.800 MHz
-- **SBRE_W_CTR**
-    - Composto pela combinação (união) dos setores 4, 5, 8 e 9 da FIR Recife.
-    - Frequência: 124.550 MHz
-- **SBRE_S_CTR**
-    - Composto pela combinação (união) dos setores 7, 10, 11, 12, 13, 14 e 15 da FIR Recife.
-    - Frequência: 125.100 MHz
-### Supercombinados
-- **SBRE_NS_CTR**
-    - Composto pela combinação (união) dos combinados N e S da FIR Recife.
-    - Frequência: 125.150 MHz
-- **SBRE_NW_CTR**
-    - Composto pela combinação (união) dos combinados N e W da FIR Recife.
-    - Frequência: 126.100 MHz
-- **SBRE_SW_CTR**
-    - Composto pela combinação (união) dos combinados S e W da FIR Recife.
-    - Frequência: 124.250 MHz
-### Posição Geral
-- **SBRE_CTR**
-    - Composto pela combinação (união) de todos os combinados da FIR Recife.
-    - Frequência: 125.400 MHz
+!!! info "Interatividade do Mapa"
 
- <!-- ![](sbre.png){ : style="height:800px" } -->
+    Clique em qualquer um dos setores abaixo para destacá-lo diretamente no mapa. Você também pode alterar o mapa de fundo e ligar/desligar setores no controle de camadas no canto superior direito do mapa.
 
+<div class="sbre-container">
+    <div class="sbre-cards-column">
+        <div class="sbre-cards-section-title">Combinados</div>
+        
+        <div class="sector-card" id="card-SBRE_N_CTR" onclick="selecionarSetor('SBRE_N_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge n-ctr">SBRE_N_CTR</span>
+                <span class="sector-freq">134.800 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) dos setores 1, 2, 3 e 6 da FIR Recife.
+            </div>
+        </div>
 
-!!! info "Uma informação"
+        <div class="sector-card" id="card-SBRE_W_CTR" onclick="selecionarSetor('SBRE_W_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge w-ctr">SBRE_W_CTR</span>
+                <span class="sector-freq">124.550 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) dos setores 4, 5, 8 e 9 da FIR Recife.
+            </div>
+        </div>
 
-    Selecione o combinado no canto superior direito do mapa para visualizar o limite lateral no mapa.
+        <div class="sector-card" id="card-SBRE_S_CTR" onclick="selecionarSetor('SBRE_S_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge s-ctr">SBRE_S_CTR</span>
+                <span class="sector-freq">125.100 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) dos setores 7, 10, 11, 12, 13, 14 e 15 da FIR Recife.
+            </div>
+        </div>
 
+        <div class="sbre-cards-section-title">Supercombinados</div>
 
-<div id="mapa1" class="mapa"></div>
+        <div class="sector-card" id="card-SBRE_NS_CTR" onclick="selecionarSetor('SBRE_NS_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge ns-ctr">SBRE_NS_CTR</span>
+                <span class="sector-freq">125.150 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) dos combinados N e S da FIR Recife.
+            </div>
+        </div>
+
+        <div class="sector-card" id="card-SBRE_NW_CTR" onclick="selecionarSetor('SBRE_NW_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge nw-ctr">SBRE_NW_CTR</span>
+                <span class="sector-freq">126.100 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) dos combinados N e W da FIR Recife.
+            </div>
+        </div>
+
+        <div class="sector-card" id="card-SBRE_SW_CTR" onclick="selecionarSetor('SBRE_SW_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge sw-ctr">SBRE_SW_CTR</span>
+                <span class="sector-freq">124.250 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) dos combinados S e W da FIR Recife.
+            </div>
+        </div>
+
+        <div class="sbre-cards-section-title">Posição Geral</div>
+
+        <div class="sector-card" id="card-SBRE_CTR" onclick="selecionarSetor('SBRE_CTR')">
+            <div class="sector-header">
+                <span class="sector-badge ctr">SBRE_CTR</span>
+                <span class="sector-freq">125.400 MHz</span>
+            </div>
+            <div class="sector-body">
+                Composto pela combinação (união) de todos os combinados da FIR Recife.
+            </div>
+        </div>
+    </div>
+    
+    <div class="sbre-map-column">
+        <div id="mapa1" class="mapa"></div>
+    </div>
+</div>
 
 <!--
 Daqui pra baixo, são os mapas.
@@ -180,7 +233,7 @@ var tileMapaOsm = L.tileLayer(configMapa.tileMapaUrlOsm, {
 var mapa1 = L.map('mapa1', {
     minZoom: configMapa.zoomMin,
     maxZoom: configMapa.zoomMax,
-    layers: [ tileMapaStadia ]
+    layers: [ tileMapaStadia, firInteiraGrupo ]
 }).setView(configMapa.pontoCentral, configMapa.zoomPadrao);
 
 
@@ -200,5 +253,88 @@ var opcoesDeFluxo = {
 };
 
 var layerControl = L.control.layers(opcoesDeMapa, opcoesDeFluxo).addTo(mapa1);
+
+// Mapeamento dos setores para suas respectivas camadas e polígonos
+const gruposDeSetor = {
+    'SBRE_CTR': firInteiraGrupo,
+    'SBRE_N_CTR': combinadosGrupo,
+    'SBRE_W_CTR': combinadosGrupo,
+    'SBRE_S_CTR': combinadosGrupo,
+    'SBRE_NS_CTR': superCombinadoNS,
+    'SBRE_NW_CTR': superCombinadoNW,
+    'SBRE_SW_CTR': superCombinadoSW
+};
+
+const poligonosDeSetor = {
+    'SBRE_CTR': sbrePolygon,
+    'SBRE_N_CTR': sbrenPolygon,
+    'SBRE_W_CTR': sbrewPolygon,
+    'SBRE_S_CTR': sbresPolygon,
+    'SBRE_NS_CTR': sbrensPolygon,
+    'SBRE_NW_CTR': sbrenwPolygon,
+    'SBRE_SW_CTR': sbreswPolygon
+};
+
+// Função global para selecionar um setor ao clicar no card correspondente
+window.selecionarSetor = function(nomeSetor) {
+    // 1. Remove all other overlay groups from the map
+    Object.values(gruposDeSetor).forEach(function(grupo) {
+        if (mapa1.hasLayer(grupo)) {
+            mapa1.removeLayer(grupo);
+        }
+    });
+
+    // 2. Add the correct overlay group
+    const grupo = gruposDeSetor[nomeSetor];
+    if (grupo) {
+        mapa1.addLayer(grupo);
+    }
+
+    // 3. Highlight the polygon, zoom to bounds, and open popup
+    const poligono = poligonosDeSetor[nomeSetor];
+    if (poligono) {
+        mapa1.fitBounds(poligono.getBounds(), { padding: [30, 30] });
+        poligono.openPopup();
+    }
+
+    // 4. Update the active visual state on the cards
+    document.querySelectorAll('.sector-card').forEach(function(card) {
+        card.classList.remove('active');
+    });
+    const cardAtivo = document.getElementById('card-' + nomeSetor);
+    if (cardAtivo) {
+        cardAtivo.classList.add('active');
+    }
+};
+
+// Selecionar o setor geral como ativo na carga inicial
+document.addEventListener("DOMContentLoaded", function() {
+    const cardAtivo = document.getElementById('card-SBRE_CTR');
+    if (cardAtivo) {
+        cardAtivo.classList.add('active');
+    }
+});
+
+// Registrar eventos no Leaflet para sincronizar a interface se o usuário interagir
+// diretamente com o painel de controle de camadas do Leaflet
+mapa1.on('overlayadd', function(event) {
+    let setorAtivo = null;
+    for (const [setor, grupo] of Object.entries(gruposDeSetor)) {
+        if (grupo === event.layer) {
+            setorAtivo = setor;
+            break;
+        }
+    }
+    
+    if (setorAtivo) {
+        document.querySelectorAll('.sector-card').forEach(function(card) {
+            card.classList.remove('active');
+        });
+        const cardAtivo = document.getElementById('card-' + setorAtivo);
+        if (cardAtivo) {
+            cardAtivo.classList.add('active');
+        }
+    }
+});
 
 </script>

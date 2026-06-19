@@ -8,39 +8,32 @@
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                          |
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Fortaleza - Pinto Martins            |
 | **Tipo de Operação**         | Internacional, Público e Militar     |
-| **Altitude de transição**    | 5000 pés                             |
-| **Elevação**                 | 83 pés (25 m)                       |
+| **Altitude de transição** | `5000 pés` |
+| **Elevação** | `83 pés (25 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBFZ" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional de Fortaleza</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBFZ?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBFZ" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional de Fortaleza</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBFZ?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBFZ){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBFZ){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBFZ){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial  | ILS                                         | Circuito   |
-|-------|---------------|---------------------------------------------|------------|
-| `13`  | -             | :fontawesome-solid-circle-check:{ .corok }    | Padrão     |
-| `31`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Não-padrão     |
+| :---: | :--- | :---: | :---: |
+| **13** | -             | :fontawesome-solid-circle-check:{.corok}    | Padrão     |
+| **31** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Não-padrão     |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBFZ_ATIS  | `AFZ`  | ATIS                  | 127.700    |             |
-| SBFZ_GND   | `GND`  | Solo Fortaleza        | 121.950    |             |
-| SBFZ_TWR   | `TWR`  | Torre Fortaleza       | 129.000    | `DCL`       |
+| **SBFZ_ATIS** | `AFZ` | ATIS | **127.700** |  |
+| **SBFZ_GND** | `GND` | Solo Fortaleza | **121.950** |  |
+| **SBFZ_TWR** | `TWR` | Torre Fortaleza | **129.000** | `DCL` |
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
@@ -83,7 +76,6 @@
     - Lançamento de paraquedas;
     - FLT acrobático.
 
-
 #### Pátios e Pistas de Taxi
 
 - Saída de ACFT a jato e/ou turboélice, com envergadura superior a 24M exclusive, do pátio 2 e 3, somente através de pushback.
@@ -94,11 +86,10 @@
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação             |
-|:---------:|:---------:|---------------------------|
-| `1`       | ANY       | Aviação Geral e Executiva |
-| `2`       | ANY       | Doméstico / Internacional |
-| `3`       | ANY       | Carga                     |
-| `4`       | ANY       | Militar                   |
+| :---: | :---: | :--- |
+| ******1****** | ANY       | Aviação Geral e Executiva |
+| ******2****** | ANY       | Doméstico / Internacional |
+| ******3****** | ANY       | Carga                     |
+| ******4****** | ANY       | Militar                   |

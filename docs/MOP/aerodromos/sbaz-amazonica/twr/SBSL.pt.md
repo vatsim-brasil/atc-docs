@@ -8,43 +8,35 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                          |
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | São Luis - Marechal Cunha Machado    |
 | **Tipo de Operação**         | Internacional e Público              |
-| **Altitude de transição**    | 4000 pés                             |
-| **Elevação**                 | 177 pés (54 m)                       |
+| **Altitude de transição** | `4000 pés` |
+| **Elevação** | `177 pés (54 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBSL" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional Marechal Cunha Machado</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBSL?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBSL" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional Marechal Cunha Machado</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBSL?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBSL){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBSL){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBSL){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial  | ILS                                         | Circuito   |
-|-------|---------------|---------------------------------------------|------------|
-| `06`  | Preferencial para **decolagens** e **pousos** | :fontawesome-solid-circle-check:{ .corok }    | Padrão     |
-| `24`  | Preferencial para **decolagens** e **pousos** | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
-| `09`  | -             | :fontawesome-solid-circle-xmark:{ .cornot }    | Padrão     |
-| `27`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     | 
+| :---: | :--- | :---: | :---: |
+| **06** | Preferencial para **decolagens** e **pousos** | :fontawesome-solid-circle-check:{.corok}    | Padrão     |
+| **24** | Preferencial para **decolagens** e **pousos** | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| **09** | -             | :fontawesome-solid-circle-xmark:{ .cornot }    | Padrão     |
+| **27** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBSL_TWR   | `TSL`  | Torre São Luis        | 118.900    | `DCL`       |
+| **SBSL_TWR** | `TSL` | Torre São Luis | **118.900** | `DCL` |
 
-### DCL/CPDLC
-
+### DCL / CPDLC
 - [x] Há disponível serviço de DCL no aeródromo. O controlador deve usar o código <span class="badge corVatbrzVermelho">SBSL</span> ao conectar.
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 4D ou inferior.
@@ -68,8 +60,7 @@ tags:
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação                     |
-|:---------:|:---------:|-----------------------------------|
-| `1` e `2` | ANY       | Internacional / Doméstico / Carga |
+| :---: | :---: | :--- |
+| ******1 e 2****** | ANY       | Internacional / Doméstico / Carga |

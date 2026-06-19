@@ -396,3 +396,157 @@
         justify-content: space-between;
     }
 }
+
+/* SBRE Center Layout and Interactive Cards */
+.sbre-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.sbre-cards-column {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sbre-map-column {
+    flex: 1.2;
+    min-width: 320px;
+    position: sticky;
+    top: 80px;
+    height: fit-content;
+}
+
+.sbre-cards-section-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 12px 0 6px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--md-typeset-color);
+    opacity: 0.8;
+    border-bottom: 2px solid var(--md-default-fg-color--lightest);
+    padding-bottom: 4px;
+}
+
+.sector-card {
+    background-color: var(--md-card-a);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sector-card:hover {
+    background-color: var(--md-card-a-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(36, 131, 197, 0.12);
+    border-color: var(--md-typeset-link);
+}
+
+.sector-card.active {
+    border-color: #2483C5;
+    background-color: var(--md-card-a-hover);
+    box-shadow: 0 4px 12px rgba(36, 131, 197, 0.25);
+    outline: 2px solid #2483C5;
+}
+
+[data-md-color-scheme="slate"] .sector-card.active {
+    border-color: #90caf9;
+    outline-color: #90caf9;
+}
+
+.sector-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sector-badge {
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--md-code-font-family);
+    letter-spacing: 0.02em;
+}
+
+/* Color codes matching Leaflet colors */
+.sector-badge.ctr { background-color: #f87171; color: #0f172a; }
+.sector-badge.n-ctr { background-color: #2dd4bf; color: #0f172a; }
+.sector-badge.w-ctr { background-color: #fbbf24; color: #0f172a; }
+.sector-badge.s-ctr { background-color: #a3e635; color: #0f172a; }
+.sector-badge.ns-ctr { background-color: #f472b6; color: #0f172a; }
+.sector-badge.nw-ctr { background-color: #5cbd9e; color: #0f172a; }
+.sector-badge.sw-ctr { background-color: #ffd816; color: #0f172a; }
+
+.sector-freq {
+    font-family: var(--md-code-font-family);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #2483C5;
+    background: rgba(36, 131, 197, 0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .sector-freq {
+    color: #90caf9;
+    background: rgba(144, 202, 249, 0.12);
+}
+
+.sector-card.active .sector-freq {
+    color: #fff;
+    background: #2483C5;
+}
+
+[data-md-color-scheme="slate"] .sector-card.active .sector-freq {
+    color: #0f172a;
+    background: #90caf9;
+}
+
+.sector-body {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--md-typeset-color);
+    opacity: 0.9;
+}
+
+@media (max-width: 960px) {
+    .sbre-container {
+        flex-direction: column-reverse;
+    }
+    .sbre-map-column {
+        position: static;
+    }
+    .mapa {
+        height: 480px;
+    }
+}
+
+/* Links Úteis Custom Button Hover */
+.btn-vatsim-custom {
+    background-color: #182061 !important;
+    color: white !important;
+    border-color: #182061 !important;
+    transition: background-color 0.25s, border-color 0.25s, color 0.25s !important;
+}
+
+.btn-vatsim-custom:hover {
+    background-color: #2483c5 !important;
+    border-color: #2483c5 !important;
+    color: white !important;
+}

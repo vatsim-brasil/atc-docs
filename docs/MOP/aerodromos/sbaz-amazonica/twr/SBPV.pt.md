@@ -9,42 +9,34 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                                         |
 |------------------------------|-----------------------------------------------------|
 | **Nome do aeródromo**        | Porto Velho - Governador Jorge Teixeira de Oliveira |
 | **Tipo de Operação**         | Internacional, Público e Militar                    |
-| **Altitude de transição**    | 3000 pés                                            |
-| **Elevação**                 | 295 pés (90 m)                                      |
+| **Altitude de transição** | `3000 pés` |
+| **Elevação** | `295 pés (90 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBPV" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional de Porto Velho - Governador Jorge Teixeira de Oliveira</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBPV?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBPV" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional de Porto Velho - Governador Jorge Teixeira de Oliveira</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBPV?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBPV){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBPV){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBPV){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial  | ILS                                         | Circuito   |
-|-------|---------------|---------------------------------------------|------------|
-| `01`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     | 
-| `19`  | -             | :fontawesome-solid-circle-check:{ .corok }  | Padrão     |
+| :---: | :--- | :---: | :---: |
+| **01** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| **19** | -             | :fontawesome-solid-circle-check:{.corok}  | Padrão     |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBPV_ATIS  | `APV`  | ATIS                  | 127.450    |             |
-| SBPV_TWR   | `TPV`  | Torre Porto Velho     | 118.200    | `DCL`       |
+| **SBPV_ATIS** | `APV` | ATIS | **127.450** |  |
+| **SBPV_TWR** | `TPV` | Torre Porto Velho | **118.200** | `DCL` |
 
-### DCL/CPDLC
-
+### DCL / CPDLC
 - [x] Há disponível serviço de DCL no aeródromo. O controlador deve usar o código <span class="badge corVatbrzVermelho">SBPV</span> ao conectar.
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 `NIL`
@@ -64,9 +56,8 @@ tags:
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação                                                 |
-|:---------:|:---------:|---------------------------------------------------------------|
-| `1`       | ANY       | Doméstico / Internacional / Carga / Aviação Geral e Executiva |
-| `2`       | ANY       | Militar                                                       |
+| :---: | :---: | :--- |
+| ******1****** | ANY       | Doméstico / Internacional / Carga / Aviação Geral e Executiva |
+| ******2****** | ANY       | Militar                                                       |

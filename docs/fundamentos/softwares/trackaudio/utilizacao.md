@@ -194,29 +194,3 @@ Caso você altere seu **callsign** durante uma sessão ativa ou perca a conexão
 
 ⚠️ Além disso, quedas de conexão com a internet ou o EuroScope também causarão o encerramento da sessão.  
 ✅ Fique atento aos **avisos sonoros** emitidos pelo software para identificar rapidamente qualquer perda de conexão.
-
-#
-
----
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../instalacao/">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">TrackAudio | Instalação</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../../vatis/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">vATIS |  Instalação</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
-</div>
