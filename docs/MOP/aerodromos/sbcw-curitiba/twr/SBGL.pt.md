@@ -8,47 +8,40 @@
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                      |
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Galeão - Antônio Carlos Jobim    |
 | **Tipo de Operação**         | Internacional, Público e Militar |
-| **Altitude de transição**    | 7000 pés                         |
-| **Elevação**                 | 28 pés (8,51m)                   |
+| **Altitude de transição** | `7000 pés` |
+| **Elevação** | `28 pés (8,51m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBGL" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional Rio de Janeiro-Galeão</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBGL?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBGL" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Internacional Rio de Janeiro-Galeão</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBGL?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBGL){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBGL){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBGL){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial                                   | ILS                                         | Circuito            |
-|-------|------------------------------------------------|---------------------------------------------|---------------------|
-| `10`  | Preferencial para **decolagens**               | :fontawesome-solid-circle-check:{.corok}    | Padrão              |
-| `28`  | Preferencial para **pousos** quando em uso     | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          | 
-| `15`  | Preferencial para **pousos**                   | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          |
-| `33`  | Preferencial para **decolagens** quando em uso | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
+| :---: | :--- | :---: | :---: |
+| **10** | Preferencial para **decolagens**               | :fontawesome-solid-circle-check:{.corok}    | Padrão              |
+| **28** | Preferencial para **pousos** quando em uso     | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          |
+| **15** | Preferencial para **pousos**                   | :fontawesome-solid-circle-check:{.corok}    | Não-padrão          |
+| **33** | Preferencial para **decolagens** quando em uso | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
 
 !!! info "Informação importante!"
 
     Por conta da baixa demanda de voos no aeroporto, a operação padrão é manter a pista 10/28 {==fechada==}, operando decolagens e pousos pela 15/33, exceto por condições meteorológicas e de circulação no APP Rio.
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações            |
 | ---------- | ------ | --------------------- | ---------- | ---------------------- |
-| SBGL_ATIS  | `AGL`  | ATIS Galeão           | 127.600    |                        |
-| SBGL_DEL   | `DGL`  | Tráfego Galeão        | 121.000    | `DCL`                  |
-| SBGL_RMP   | `RGL`  | Pátio Galeão          | 121.950    | Apenas durante eventos |
-| SBGL_GND   | `GGL`  | Solo Galeão           | 121.650    |                        |
-| SBGL_TWR   | `TGL`  | Torre Galeão          | 118.000    |                        |
+| **SBGL_ATIS** | `AGL` | ATIS Galeão | **127.600** |  |
+| **SBGL_DEL** | `DGL` | Tráfego Galeão | **121.000** | `DCL` |
+| **SBGL_RMP** | `RGL` | Pátio Galeão | **121.950** | Apenas durante eventos |
+| **SBGL_GND** | `GGL` | Solo Galeão | **121.650** |  |
+| **SBGL_TWR** | `TGL` | Torre Galeão | **118.000** |  |
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - O uso do transponder em modo *altitude reporting* (ALT RPTG) e ADS-B (se equipado) enquanto estiver nos pátios, taxiways e pista é necessário.
@@ -58,7 +51,6 @@
 - Nas OPS de LDG, os pilotos não reportarão para TWR Galeão a COND de trem de pouso, EXC nas situações de EMERG com referência ao seu baixamento e/ou travamento.
 - Todas as decolagens deverão empregar procedimento de abatimento de ruído, conforme manual de cada aeronave.
 - O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 4E ou inferior.
-
 
 ### Específicas
 
@@ -123,7 +115,6 @@ excepcionais, trecho da TWY `M` entre a TWY `S` e TWY `V`.
 - Os pilotos devem iniciar a decolagem do início da pista, sem a necessidade de taxiar até à cabeceira deslocada.
 - Os pilotos deverão ajustar o pouso e a decolagem de modo a garantir o Tempo Mínimo de Ocupação de Pista (MROT).
 
-
 A Torre Galeão poderá empregar as operações descritas acima[^3] em **duas** situações distintas, variando apenas o ponto de corte, estando satisfeitas as seguintes restrições:
 
 [^3]: [AIP Brasil, AD 2 SBGL](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
@@ -181,15 +172,14 @@ Em uma eventual arremetida após o MAPT na pista 28 é possível que a separaç�
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio       | Posições | Classificação                    |
-|:-----------:| :------: | -------------------------------- |
+| :---: | :---: | :--- |
 | `1` `2` `3` |  1 - 22  | Sem uso                          |
 | `1` `2` `3` | 23 - 45  | Domésticos                       |
 | `1` `2` `3` | 46 - 84  | Internacionais                   |
 | `1` `2` `3` | 85 - 149 | Remotas                          |
 |     `5`     |  1 - 31  | Cargas                           |
-|     `6`     |   ANY    | Manutenção - United              |
-|     `7`     |   ANY    | Militar - Operacional            |
-|     `8`     |   ANY    | Militar - Correio Aéreo Nacional |
+| ****6**** | ANY    | Manutenção - United              |
+| ****7**** | ANY    | Militar - Operacional            |
+| ****8**** | ANY    | Militar - Correio Aéreo Nacional |

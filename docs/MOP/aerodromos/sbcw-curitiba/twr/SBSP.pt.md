@@ -8,42 +8,35 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                      |
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | São Paulo - Congonhas            |
 | **Tipo de Operação**         | Nacional, Público e Militar      |
-| **Altitude de transição**    | 7000 pés                         |
-| **Elevação**                 | 2634 pés (803 m)                 |
+| **Altitude de transição** | `7000 pés` |
+| **Elevação** | `2634 pés (803 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBSP" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de São Paulo/Congonhas</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBSP?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBSP" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de São Paulo/Congonhas</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBSP?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBSP){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBSP){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBSP){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial   | ILS                                         | Circuito            |
-|-------|----------------|---------------------------------------------|---------------------|
-| `17R`  | Preferencial  | :fontawesome-solid-circle-check:{ .corok }  | Padrão              |
-| `35L`  | Preferencial  | :fontawesome-solid-circle-check:{ .corok }  | Padrão              | 
-| `17L`  | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
-| `35R`  | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
+| :---: | :--- | :---: | :---: |
+| **17R** | Preferencial  | :fontawesome-solid-circle-check:{.corok}  | Padrão              |
+| **35L** | Preferencial  | :fontawesome-solid-circle-check:{.corok}  | Padrão              |
+| **17L** | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
+| **35R** | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBSP_ATIS  | `ASP`  | ATIS                  | 127.650    |             |
-| SBSP_DEL   | `DSP`  | Tráfego São Paulo     | 120.600    | `DCL`       |
-| SBSP_GND   | `GSP`  | Solo São Paulo        | 121.900    |             |
-| SBSP_TWR   | `TSP`  | Torre São Paulo       | 118.050    |             |
+| **SBSP_ATIS** | `ASP` | ATIS | **127.650** |  |
+| **SBSP_DEL** | `DSP` | Tráfego São Paulo | **120.600** | `DCL` |
+| **SBSP_GND** | `GSP` | Solo São Paulo | **121.900** |  |
+| **SBSP_TWR** | `TSP` | Torre São Paulo | **118.050** |  |
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
@@ -81,11 +74,10 @@ tags:
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação         |
-|:---------:|:---------:|-----------------------|
-| `1` `2`   | ANY       | Aviação Geral         |
+| :---: | :---: | :--- |
+| ****1 2**** | ANY       | Aviação Geral         |
 | `3`       | 1 - 30    | Doméstico             |
-| `3 A300`  | ANY       | Manutenção            |
+| ****3 A300**** | ANY       | Manutenção            |
 | `3`       | 01A - 03A | Militar - Autoridades |

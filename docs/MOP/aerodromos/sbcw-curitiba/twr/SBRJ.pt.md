@@ -8,42 +8,35 @@ tags:
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                      |
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | Rio de Janeiro - Santos-Dumont   |
 | **Tipo de Operação**         | Nacional, Público e Militar      |
-| **Altitude de transição**    | 7000 pés                         |
-| **Elevação**                 | 10 pés (3m)                      |
+| **Altitude de transição** | `7000 pés` |
+| **Elevação** | `10 pés (3m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBRJ" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Santos Dumont</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBRJ?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBRJ" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto Santos Dumont</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBRJ?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBRJ){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBRJ){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBRJ){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial   | ILS                                         | Circuito            |
-|-------|----------------|---------------------------------------------|---------------------|
-| `02R`  | Preferencial  | :fontawesome-solid-circle-xmark:{.cornot }  | Padrão              |
-| `20L`  | Preferencial  | :fontawesome-solid-circle-xmark:{.cornot }  | Padrão              | 
-| `02L`  | Auxiliar      | :fontawesome-solid-circle-xmark:{.cornot }  | Padrão              |
-| `20R`  | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
+| :---: | :--- | :---: | :---: |
+| **02R** | Preferencial  | :fontawesome-solid-circle-xmark:{ .cornot }  | Padrão              |
+| **20L** | Preferencial  | :fontawesome-solid-circle-xmark:{ .cornot }  | Padrão              |
+| **02L** | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot }  | Padrão              |
+| **20R** | Auxiliar      | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão              |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBRJ_ATIS  | `ARJ`  | ATIS Rio              | 132.650    |             |
-| SBRJ_DEL   | `DRJ`  | Tráfego Rio           | 121.050    | `DCL`       |
-| SBRJ_GND   | `GRJ`  | Solo Rio              | 121.700    |             |
-| SBRJ_TWR   | `TRJ`  | Torre Rio             | 118.700    |             |
+| **SBRJ_ATIS** | `ARJ` | ATIS Rio | **132.650** |  |
+| **SBRJ_DEL** | `DRJ` | Tráfego Rio | **121.050** | `DCL` |
+| **SBRJ_GND** | `GRJ` | Solo Rio | **121.700** |  |
+| **SBRJ_TWR** | `TRJ` | Torre Rio | **118.700** |  |
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
@@ -69,17 +62,16 @@ tags:
 
 `NIL`
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação  |
-|:---------:|:---------:|----------------|
+| :---: | :---: | :--- |
 | `1A`      | 1 - 8     | Domésticos     |
 | `1A`      | R9 - R10  | Remota         |
 | `1A`      | R20 - R21 | Manutenção     |
 | `1B`      | R12 - R19 | Remotas        |
-| `2`[^1]   | ANY       | Aviação Geral  |
-| `DECEA 1` | ANY       | Militar        |
-| `DECEA 2` | ANY       | Militar        |
-| `GEIV`    | ANY       | Militar - GEIV |
+| ****2[^1]**** | ANY       | Aviação Geral  |
+| ****DECEA 1**** | ANY       | Militar        |
+| ****DECEA 2**** | ANY       | Militar        |
+| ****GEIV**** | ANY       | Militar - GEIV |
 
 [^1]: Esse pátio é conhecido como **canteiro**.

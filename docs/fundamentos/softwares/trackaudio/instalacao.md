@@ -32,29 +32,3 @@
 * Seta vermelha: botões para push-to-talk.
 
 ![](img/config.png){ : style="display:block; margin:auto; height:500px; border:2px solid #999" }
-
-#
-
----
-
-<div class="page-navigation">
-
-<div class="nav-prev">
-<a href="../">
-<span class="nav-arrow">←</span>
-<span class="nav-label">Página anterior</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">TrackAudio | Visão Geral</span>
-</a>
-</div>
-
-<div class="nav-next">
-<a href="../utilizacao/">
-<span class="nav-label">Próxima página</span>
-<span class="nav-separator">|</span>
-<span class="nav-title">TrackAudio | Utilização</span>
-<span class="nav-arrow">→</span>
-</a>
-</div>
-
-</div>

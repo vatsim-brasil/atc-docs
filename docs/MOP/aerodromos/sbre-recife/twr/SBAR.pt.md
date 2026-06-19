@@ -8,37 +8,30 @@
 
 --8<-- "includes/abreviacoes.md"
 
-## Dados Gerais
-
+## :material-information-outline: Dados Gerais
 |                              | Informações                           |
 |------------------------------|---------------------------------------|
 | **Nome do aeródromo**        | Aracaju - Santa Maria                 |
 | **Tipo de Operação**         | Internacional e Público               |
-| **Altitude de transição**    | 4000 pés                              |
-| **Elevação**                 | 23 pés (7 m)                          |
+| **Altitude de transição** | `4000 pés` |
+| **Elevação** | `23 pés (7 m)` |
 
-## Meteorologia Atual
+### Links Úteis
 
-<a href="https://metar-taf.com/pt/SBAR" target="_blank" id="metartaf-LkzIl7SM"  style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-dark); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Aracaju</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBAR?u=56997&bg_color=182061&qnh=hPa&rh=rh&target=LkzIl7SM"></script>
-<a href="https://metar-taf.com/pt/SBAR" target="_blank" id="metartaf-LkzIl7SN" style="font-size:18px; font-weight:500; color:#000; width:300px; height:435px; display:var(--show-light); background-color: var(--md-default-bg-color); padding: 10px; margin: 0 0px 0.5em;">METAR Aeroporto de Aracaju</a>
-<script async defer crossorigin="anonymous" src="https://metar-taf.com/pt/embed-js/SBAR?u=56997&qnh=hPa&rh=rh&target=LkzIl7SN"></script>
+<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBAR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBAR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBAR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
 
-## Pistas
-
+## :material-routes: Pistas
 | Pista | Preferencial  | ILS                                         | Circuito   |
-|-------|---------------|---------------------------------------------|------------|
-| `12`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
-| `30`  | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| :---: | :--- | :---: | :---: |
+| **12** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| **30** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
 
-## Órgãos ATC
-
+## :material-headset: Órgãos ATC
 | Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| SBAR_TWR   | `TAR`  | Torre Aracaju         | 118.800    |             |
+| **SBAR_TWR** | `TAR` | Torre Aracaju | **118.800** |  |
 
-## Operações
-
+## :material-airplane-takeoff: Operações
 ### Gerais
 
 - O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 4C ou inferior.
@@ -59,7 +52,6 @@
     - Lançamento de paraquedas;
     - FLT acrobático.
 
-
 #### Pátios e Pistas de Taxi
 
 - Giro de 180° de ACFT do porte de FOKKER 100, BOEING 737 ou maiores, somente nas THR.
@@ -69,8 +61,7 @@
 
 - Não confundir a RWY quando na APCH para THR 12 com uma Avenida no seu alinhamento DIST APRX 1300M à direita da THR 12.
 
-## Posições de Parada
-
+## :material-sign-direction: Posições de Parada
 | Pátio     | Posições  | Classificação             |
-|:---------:|:---------:|---------------------------|
-| `1`       | ANY       | Doméstico / Internacional / Carga / Aviação Geral e Executiva |
+| :---: | :---: | :--- |
+| ******1****** | ANY       | Doméstico / Internacional / Carga / Aviação Geral e Executiva |
