@@ -144,10 +144,10 @@ plugins:
           site_name: ATC Portal
       reconfigure_material: true
       reconfigure_search: true
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: date
-  #     locale: pt
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      locale: pt
   - minify:
       minify_html: true
 

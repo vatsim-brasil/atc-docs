@@ -890,3 +890,13 @@
     line-height: 1.4;
     word-break: break-all;
 }
+
+/* Remover fundo do link da barra lateral no modo escuro */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:focus,
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link:active {
+    background-color: transparent !important;
+    background: transparent !important;
+    color: var(--md-typeset-link-hover) !important;
+}

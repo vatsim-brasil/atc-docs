@@ -7,6 +7,8 @@ icon: octicons/number-16
 
 ![Manual de Fraseologia - Algarismos](img/manual-fraseologia-algarismos.png)
 
+#
+
 Todos os números devem ser transmitidos com a pronúncia de cada dígito separadamente, exceto nos casos previstos abaixo.
 
 | Numeral ou elemento numérico | Pronúncia em Português | Pronúncia em Inglês | Pronúncia em Espanhol |

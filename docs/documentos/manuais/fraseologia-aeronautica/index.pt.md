@@ -1,13 +1,15 @@
 ---
 title: Introdução
 icon: material/eye
+hide:
+    - toc
 ---
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Introdução](img/manual-fraseologia-intro.png)
-
 #
+
+![Manual de Fraseologia - Introdução](img/manual-fraseologia-intro.png)
 
 ## Apresentação
 
