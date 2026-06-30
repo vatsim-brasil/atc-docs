@@ -1,6 +1,6 @@
 ---
   title: Visão Geral
-  icon: material/eye
+  icon: fontawesome/solid/eye
   hide:
     - toc
 ---

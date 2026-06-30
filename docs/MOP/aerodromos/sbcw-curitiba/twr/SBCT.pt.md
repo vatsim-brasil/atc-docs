@@ -135,10 +135,10 @@ treinamento que interfiram no movimento do aeródromo podem ser restritos, a dep
 - RWY 15/33 e RWY 11/29: giro de 180 DEG (backtrack) para ACFT com PMD acima de 40 toneladas somente nas THR.
 
 ## :material-sign-direction: Posições de Parada
-| Pátio    | Posições  | Classificação  |
-| :------: | :-------: | :------------- |
-| `1`      | 1         | Cargueiros     |
-| `1`      | 2-4       | Internacional  |
-| `1`      | 5-14      | Doméstico      |
-| `1`      | 15-23     | Remotas        |
-| `2`      | ANY       | Aviação Geral  |
+| Pátio    | Posições  | Classificação                       |
+| :------: | :-------: | :---------------------------------- |
+| `1`      | 1         | Cargueiro Heavy                     |
+| `1`      | 2-3       | Internacional Passageiros           |
+| `1`      | 4-14      | Doméstico Passageiros               |
+| `1`      | 15-23     | Remotas                             |
+| `2`      | ANY       | Cargueiro Doméstico e Aviação Geral |
