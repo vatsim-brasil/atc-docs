@@ -1,6 +1,8 @@
 {
   "name": "FIR Brasília (SBBS)",
-  "id": "6c9f2dcd-6093-462d-a6ba-14d421827f7d",
+  "id": "ed5cec22-4a0a-4bf8-b90b-ee4d8b5455ee",
+  "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBBS.json",
+  "updateSerial": 2025080203,
   "stations": [
     {
       "id": "80b02530-c797-42e3-9d83-416c05ccf4dc",
@@ -30,38 +32,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -80,7 +82,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -1893,7 +1895,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -1901,7 +1903,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -1909,14 +1911,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -1939,31 +1941,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 90
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 95
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 85
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 80
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 75
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 70
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -1980,73 +2002,97 @@
       },
       "presets": [
         {
-          "id": "ddc90425-b98b-41df-bde6-682e4312b003",
-          "name": "11",
-          "airportConditions": "EXPT PROC ILS *Y RWY 11L OR ILS *Z RWY 11R. LDG RWY 11L AND RWY 11R. DEP RWY 11L AND RWY 11R",
-          "template": "BRASILIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "id": "eb8db239-4579-4586-817c-a3acc50a5386",
+          "ordinal": 1,
+          "name": "11 OPSI",
+          "airportConditions": "EXPECT ILS *Y RWY 11L\r\nLDG RWY 11L\r\nTKOF RWY 11L\r\nEXPECT ILS *V RWY 11R\r\nLDG RWY 11R\r\nTKOF RWY 11R",
+          "notams": "",
+          "template": "SBBR ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "46486519-437a-4c34-ade6-5bde61a9faac",
-          "name": "29",
-          "airportConditions": "EXPT PROC ILS *Z RWY 29L OR ILS *Z RWY 29R. LDG RWY 29L AND RWY 29R. DEP RWY 29L AND RWY 29R",
-          "template": "BRASILIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "79097c33-0eec-4412-a07a-d52c8c9c92cd",
-          "name": "11 OPSI",
-          "airportConditions": "EXPT PROC ILS *Y RWY 11L OR ILS *V RWY 11R. LDG RWY 11L AND RWY 11R. DEP RWY 11L AND RWY 11R",
-          "notams": "SIMULTANEOUS INDEPENDENT PARALLEL OPERATIONS IN PROGRESS.",
-          "template": "BRASILIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "52731fcd-e74d-4caa-bad7-1805ebf81ded",
+          "ordinal": 1,
           "name": "29 OPSI",
-          "airportConditions": "EXPT PROC ILS *U RWY 29L OR ILS *Z RWY 29R. LDG RWY 29L AND RWY 29R. DEP RWY 29L AND RWY 29R",
-          "notams": "SIMULTANEOUS INDEPENDENT PARALLEL OPERATIONS IN PROGRESS.",
-          "template": "BRASILIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT ILS *U RWY 29L\r\nLDG RWY 29L\r\nTKOF RWY 29L\r\nEXPECT ILS *T RWY 29R\r\nLDG RWY 29R\r\nTKOF RWY 29R",
+          "template": "SBBR ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
-          "id": "7b296775-575d-40ef-b5cb-6942ae45c63d",
-          "name": "11 DPSI",
-          "airportConditions": "EXPT PROC ILS *Y RWY 11L OR ILS *Z RWY 11R. LDG RWY 11L AND RWY 11R. DEP RWY 11L AND RWY 11R",
-          "notams": "SIMULTANEOUS INDEPENDENT PARALLEL DEPARTURES IN PROGRESS.",
-          "template": "BRASILIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "id": "ddc90425-b98b-41df-bde6-682e4312b003",
+          "ordinal": 3,
+          "name": "11 NAO OPSI",
+          "airportConditions": "EXPECT ILS *U RWY 11L\r\nLDG RWY 11L\r\nTKOF RWY 11L\r\nEXPECT ILS *Z RWY 11R\r\nLDG RWY 11R\r\nTKOF RWY 11R",
+          "notams": "",
+          "template": "SBBR ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
-          "id": "9009c4fb-f624-44df-9e1d-b956c29cb873",
-          "name": "29 DPSI",
-          "airportConditions": "EXPT PROC ILS *Z RWY 29L OR ILS *Z RWY 29R. LDG RWY 29L AND RWY 29R. DEP RWY 29L AND RWY 29R",
-          "notams": "SIMULTANEOUS INDEPENDENT PARALLEL DEPARTURES IN PROGRESS.",
-          "template": "BRASILIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "id": "f8bf6a72-de0e-4d11-9764-bb07e7192ac2",
+          "ordinal": 4,
+          "name": "29 NAO OPSI",
+          "airportConditions": "EXPECT ILS *Z RWY 29L\r\nLDG RWY 29L\r\nTKOF RWY 29L\r\nEXPECT VOR *Y RWY 29R\r\nLDG RWY 29R\r\nTKOF RWY 29R",
+          "template": "SBBR ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
       "contractions": [
         {
-          "variableName": "BRASILIA",
-          "text": "BRASÍLIA",
-          "voice": "BRASILI-A"
+          "variableName": "SBBR",
+          "text": "SBBR",
+          "voice": "BRASILI-A INTERNATIONAL"
+        },
+        {
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SIMULTANEOUS INDEPENDENT PARALLEL OPERATIONS IN PROGRESS.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "SIMULTANEOUS INDEPENDENT PARALLEL DEPARTURES IN PROGRESS.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "9e8281fd-e130-4146-ae26-fb3a9e1a35e1",
@@ -2076,38 +2122,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -2126,7 +2172,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -3939,7 +3985,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -3947,7 +3993,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -3955,14 +4001,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -3985,31 +4031,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 85
+              "low": 959,
+              "high": 976,
+              "altitude": 100
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 105
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 95
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 90
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 85
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 80
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -4028,27 +4094,44 @@
         {
           "id": "14968857-db33-4690-859a-fff01ed79620",
           "name": "16",
-          "airportConditions": "EXPT PROC ILS *K RWY 16. LDG RWY 16. DEP RWY 16",
-          "template": "CONFINS INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT ILS *K RWY 16\r\nLDG RWY 16\r\nTKOF RWY 16",
+          "template": "SBCF ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "ca0c90f7-f2e1-4a13-b854-86db48c83ed8",
           "name": "34",
-          "airportConditions": "EXPT PROC ILS *X RWY 34. LDG RWY 34. DEP RWY 34",
-          "template": "CONFINS INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT ILS *X RWY 34\r\nLDG RWY 34\r\nTKOF RWY 34",
+          "template": "SBCF ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
       "contractions": [
         {
-          "variableName": "CONFINS",
-          "text": "CONFINS",
+          "variableName": "SBCF",
+          "text": "SBCF",
           "voice": "CONFEENS"
+        },
+        {
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
         }
       ],
       "airportConditionDefinitions": [],
@@ -4082,38 +4165,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -4132,7 +4215,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -5945,7 +6028,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -5953,7 +6036,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -5961,14 +6044,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -5991,31 +6074,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 90
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 95
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 85
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 80
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 75
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 70
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -6034,27 +6137,44 @@
         {
           "id": "d95d5574-acf4-4603-aace-d7cb57fc9575",
           "name": "14",
-          "airportConditions": "EXPT PROC RNP *W RWY 14. LDG RWY 14. DEP RWY 14",
-          "template": "GOIANIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP *W RWY 14\r\nLDG RWY 14\r\nTKOF RWY 14",
+          "template": "SBGO ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "e19e9329-70f7-4368-87ff-cbb07078b8d8",
           "name": "32",
-          "airportConditions": "EXPT PROC RNP *Z RWY 32. LDG RWY 32. DEP RWY 32",
-          "template": "GOIANIA INTERNATIONAL AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP *Z RWY 32\r\nLDG RWY 32\r\nTKOF RWY 32",
+          "template": "SBGO ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
       "contractions": [
         {
-          "variableName": "GOIANIA",
-          "text": "GOIÂNIA",
+          "variableName": "SBGO",
+          "text": "SBGO",
           "voice": "GOY ANYA"
+        },
+        {
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
         }
       ],
       "airportConditionDefinitions": [],
@@ -6088,38 +6208,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -6138,7 +6258,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -7951,7 +8071,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -7959,7 +8079,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -7967,14 +8087,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -7997,31 +8117,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 90
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 95
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 85
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 80
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 75
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 70
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -8040,32 +8180,44 @@
         {
           "id": "a03869ec-b703-4bfe-af02-eff05ddd36e6",
           "name": "18",
-          "airportConditions": "EXPT PROC RNP RWY 18. LDG RWY 18. DEP RWY 18",
-          "template": "RIBEIRAO PRETO AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP RWY 18\r\nLDG RWY 18\r\nTKOF RWY 18",
+          "template": "SBRP ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "46e50e55-82f9-47a5-8031-9f5ee95d2070",
           "name": "36",
-          "airportConditions": "EXPT PROC RNP RWY 36. LDG RWY 36. DEP RWY 36",
-          "template": "RIBEIRAO PRETO AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP RWY 36\r\nLDG RWY 36\r\nTKOF RWY 36",
+          "template": "SBRP ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
       "contractions": [
         {
-          "variableName": "RIBEIRAO",
-          "text": "RIBEIRÃO",
-          "voice": "RIBAY RAWN"
+          "variableName": "SBRP",
+          "text": "SBRP",
+          "voice": "RIBAY RAWN PRETU"
         },
         {
-          "variableName": "PRETO",
-          "text": "PRETO",
-          "voice": "PRETU"
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
         }
       ],
       "airportConditionDefinitions": [],
@@ -8099,38 +8251,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -8149,7 +8301,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -9962,7 +10114,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -9970,7 +10122,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -9978,14 +10130,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -10008,31 +10160,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 90
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 95
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 85
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 80
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 75
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 70
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -10051,8 +10223,8 @@
         {
           "id": "9b5aec68-633f-4bd6-ba1f-6032ffe6b042",
           "name": "02C",
-          "airportConditions": "EXPT PROC ILS *W RWY 02C. LDG RWY 02C. DEP RWY 02C",
-          "template": "",
+          "airportConditions": "EXPECT ILS *W RWY 02C\r\nLDG RWY 02C\r\nTKOF RWY 02C",
+          "template": "SBYS ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10066,18 +10238,29 @@
         {
           "id": "2ef1a7be-e379-4cc2-b17d-b85cd3bc67b6",
           "name": "20C",
-          "airportConditions": "EXPT PROC RNP *Y RWY 20C. LDG RWY 20C. DEP RWY 20C",
-          "template": "ACADEMIA AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP *Y RWY 20C\r\nLDG RWY 20C\r\nTKOF RWY 20C",
+          "template": "",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
       "contractions": [
         {
-          "variableName": "ACADEMIA",
-          "text": "ACADEMIA",
+          "variableName": "SBYS",
+          "text": "SBYS",
           "voice": "ACAD MEA"
+        },
+        {
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
         }
       ],
       "airportConditionDefinitions": [],
@@ -10111,38 +10294,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -10161,7 +10344,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -11974,7 +12157,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -11982,7 +12165,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -11990,14 +12173,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -12020,31 +12203,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 55
+              "low": 959,
+              "high": 976,
+              "altitude": 80
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 75
             },
             {
               "low": 995,
               "high": 1012,
+              "altitude": 70
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 65
+            },
+            {
+              "low": 1032,
+              "high": 1099,
               "altitude": 60
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -12063,23 +12266,46 @@
         {
           "id": "149dc0bf-7a99-4a4f-82d3-f4a6f1656bad",
           "name": "14",
-          "airportConditions": "EXPT PROC RNP *Z RWY 14. LDG RWY 14. DEP RWY 14",
-          "template": "BAURU AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP *Z RWY 14\r\nLDG RWY 14\r\nTKOF RWY 14",
+          "template": "SBBU ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "1088976c-2501-4b80-be66-454f44229022",
           "name": "32",
-          "airportConditions": "EXPT PROC RNP *Z RWY 32. LDG RWY 32. DEP RWY 32",
-          "template": "BAURU AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING]. ",
+          "airportConditions": "EXPECT RNP *Z RWY 32\r\nLDG RWY 32\r\nTKOF RWY 32",
+          "template": "SBBU ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
-      "contractions": [],
+      "contractions": [
+        {
+          "variableName": "SBBU",
+          "text": "SBBU",
+          "voice": "BAU ROO"
+        },
+        {
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
@@ -12111,38 +12337,38 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES. {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB/{wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
+              "text": "VRB\r\nBTN {wind_vmin} AND {wind_vmax}",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} DEGREES AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
-              "text": "{wind}",
+              "text": "WIND CALM",
               "voice": "WIND CALM"
             }
           }
@@ -12161,7 +12387,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -13974,7 +14200,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -13982,7 +14208,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{temp}",
+            "text": "T {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -13990,14 +14216,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": true,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} HECTOPASCALS"
           }
         },
@@ -14020,31 +14246,51 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 85
+              "low": 959,
+              "high": 976,
+              "altitude": 100
+            },
+            {
+              "low": 901,
+              "high": 958,
+              "altitude": 105
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 95
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 90
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 85
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 80
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL F0{trl}",
-            "voice": "TRANSITION LEVEL 0{trl}."
+            "text": "TRL F{trl}",
+            "voice": ". TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "/{notams}",
             "voice": "{notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE YOU RECEIVED INFO {letter}.",
+            "text": "END OF ATIS {letter}",
             "voice": "ACKNOWLEDGE YOU RECEIVED INFORMATION {letter|word}."
           }
         }
@@ -14063,27 +14309,44 @@
         {
           "id": "846bf385-1842-420b-b29c-b97695ccf3ff",
           "name": "13",
-          "airportConditions": "EXPT PROC LOC RWY 13. LDG RWY 13. DEP RWY 13",
-          "template": "BELO HORIZONTE AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING].",
+          "airportConditions": "EXPECT LOC RWY 13\r\nLDG RWY 13\r\nTKOF RWY 13",
+          "template": "SBBH ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "ef8bf1d7-436b-41e7-8e3f-375410e80740",
           "name": "31",
-          "airportConditions": "EXPT PROC RNP *A RWY 31. LDG RWY 31. DEP RWY 31",
-          "template": "BELO HORIZONTE AIRPORT ATIS INFO [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [NOTAMS][FULL_WX_STRING].",
+          "airportConditions": "EXPECT RNP *A RWY 31\r\nLDG RWY 31\r\nTKOF RWY 31",
+          "template": "SBBH ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
       "contractions": [
         {
-          "variableName": "HORIZONTE",
-          "text": "HORIZONTE",
-          "voice": "ORIZONTAY"
+          "variableName": "SBBH",
+          "text": "SBBH",
+          "voice": "BELO ORIZONTAY"
+        },
+        {
+          "variableName": "TKOF",
+          "text": "TKOF",
+          "voice": "TAKEOFF"
         }
       ],
       "airportConditionDefinitions": [],
