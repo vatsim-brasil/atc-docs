@@ -13,12 +13,29 @@ tags:
 |---------------------------|----------------------------------|
 | **Nome do aeródromo**     | Presidente Juscelino Kubitschek  |
 | **Tipo de Operação**      | Internacional, Público e Militar |
-| **Altitude de transição** | `7000 pés` |
-| **Elevação** | `3498 pés (1066m)` |
+| **Altitude de transição** | 7000 pés |
+| **Elevação** | 3498 pés (1066m) |
 
-### Links Úteis
+## :material-monitor-dashboard: Informações Úteis
 
-<span style="display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0 16px 0; width: 100%;">[:material-file-document: Cartas](https://chartfox.org/SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-weather-partly-cloudy: Meteorologia](https://metar-taf.com/metar/SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }[:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" }</span>
+=== ":material-monitor-dashboard: Painel"
+    Selecione uma das ferramentas nas abas acima (Cartas, Meteorologia ou Tráfego) para acessar as informações do aeródromo.
+
+=== ":material-file-document: Cartas Aeronáuticas"
+    <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBBR?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-weather-partly-cloudy: Meteorologia"
+    <div id="metar-taf-container" data-airport="SBBR" class="weather-card-container">
+        <div class="weather-card metar" id="metar-content">
+            Carregando o METAR<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
+        </div>
+        <div class="weather-card taf" id="taf-content">
+            Carregando o TAF<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
+        </div>
+    </div>
+
+=== ":material-radar: Tráfego VATSIM"
+    [:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;align:center;" }
 
 ## :material-routes: Pistas
 ### Descrição
@@ -59,68 +76,57 @@ tags:
 | **SBBR_M_TWR** | `OBR` | Operações Brasília | **122.500** |  |
 
 ## :material-airplane-takeoff: Operações
-### Gerais
 
-#### Comunicação
+### Decolagens
 
-- Copiada a autorização, as ACFT informarão ao DEL quando realmente estiverem prontas para o acionamento de motores.
-- As ACFT serão instruídas pelo DEL a monitorarem
-(manter-se na escuta) a frequência do GND, para autorização de acionamento, sendo *desnecessária chamada inicial*.
+- As ACFT serão instruídas pelo DEL a monitorarem (manter-se na escuta) a frequência do GND, para autorização de acionamento, sendo *desnecessária chamada inicial*.
 - Na transferência de comunicações para a TWR, o GND instruirá às ACFT a monitorarem (manter-se na escuta) a frequência da TWR, não sendo necessária a chamada inicial. Nesse caso, as ACFT deverão aguardar a chamada da TWR, preparando-se para possível decolagem imediata.
-
-#### Procedimentos
-
 - Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
-- Alinhamento deve ser imediato assim que autorizado.
 - Espera-se que ao receber autorização de TKOF, o piloto inicie a corrida imediatamente (o tempo de reação esperado é de até 10 segundos).
 - A TWR não informará a hora de TKOF às ACFT. A instrução quanto à FREQ do próximo órgão a ser chamado AFT TKOF e, se necessárias, instruções complementares, serão emitidas juntamente com a AUTH de TKOF.
 - Todas as decolagens deverão empregar procedimento de abatimento de ruído, conforme manual de cada aeronave.
-- Nas OPS de LDG, os pilotos não reportarão para a TWR a COND de trem de pouso, EXC nas situações de EMERG com referência ao seu baixamento e/ou travamento.
 - Efetuar imediatamente a chamada inicial ao APP após a decolagem, a fim de obter instruções para livrar o eixo de pista de decolagem;
-- A chamada inicial ao APP após a decolagem deverá ser imediata e observar somente o seguinte padrão: *CONTROLE BRASÍLIA [CALLSIGN]*. Não incluir qualquer informação adicional ao mencionado padrão.
+- A chamada inicial ao APP após a decolagem deverá ser imediata e observar somente o seguinte padrão: *CONTROLE BRASÍLIA, [CALLSIGN]*. Não incluir qualquer informação adicional ao mencionado padrão.
 - Aguardar vetoração ou autorização direto a um waypoint publicado logo após a decolagem.
 - As aeronaves código de referência A e B **deverão** ser configuradas para decolar das interseções abaixo:
     - *RWY 11L:*
         * Aeronaves código de referência A e B
             * TWY `C`
-            * Distância da Pista de Táxi `C` até a cabeceira 29R: TORA Disponível: 2193 m
+            * Distância da TWY `C` até a THR 29R: TORA Disponível: 2193 m
     - *RWY 11R:*
         * Aeronaves código de referência A e B
             * TWY `BB`
-            * Distância da Pista de Táxi `BB` até a cabeceira 29L: TORA Disponível: 2188 m
+            * Distância da TWY `BB` até a THR 29L: TORA Disponível: 2188 m
     - *RWY 29R:*
         * Aeronaves código de referência A e B
             * TWY `F`
-            * Distância da Pista de Táxi `F` até a cabeceira 29R: TORA Disponível: 1956 m
+            * Distância da TWY `F` até a THR 29R: TORA Disponível: 1956 m
     - *RWY 29L:*
         * Aeronaves código de referência A e B
             * TWY `EE`
-            * Distância da Pista de Táxi `EE` até a cabeceira 11R: TORA Disponível: 2161 m
+            * Distância da TWY `EE` até a THR 11R: TORA Disponível: 2161 m
 - As aeronaves código de referência C ou acima também poderão ser autorizadas a decolar das interseções acima, a partir de solicitação da aeronave.
-- Os pilotos devem livrar a pista na velocidade mais rápida permitida pelos procedimentos operacionais padronizados e em conformidade com a segurança operacional, permitindo que o ATC aplique a separação mínima na aproximação final.
 - Nas operações de decolagem, as aeronaves devem utilizar, em condições normais de operação, as pistas `11L` ou `29R` com destino a localidades situadas ao **Norte** e **Nordeste** de Brasília. E, aquelas com destino a localidades ao **Sul** e **Sudeste** utilizem `11R` ou `29L`.
+
+### Aproximações e Pousos
+
+- Nas OPS de LDG, os pilotos não reportarão para a TWR a COND de trem de pouso, EXC nas situações de EMERG com referência ao seu baixamento e/ou travamento.
+- Os pilotos devem livrar a pista na velocidade mais rápida permitida pelos procedimentos operacionais padronizados e em conformidade com a segurança operacional, permitindo que o ATC aplique a separação mínima na aproximação final.
 - Nas operações de pouso, as aeronaves devem utilizar, em condições normais de operação, as pistas `11L` ou `29R` procedentes de localidades situadas ao **Norte** e **Nordeste** de Brasília. E, aquelas procedentes de localidades ao **Sul** e **Sudeste** utilizem `11R` ou `29L`.
 
-### Específicas
+### Regulamentos do Aeródromo
 
-#### Operações Paralelas Simultâneas
-
+- Copiada a autorização, as ACFT informarão ao DEL quando realmente estiverem prontas para o acionamento de motores.
+- Alinhamento deve ser imediato assim que autorizado.
 Em construção.
-
-#### Tráfego VFR
-
 - OBS VAC para entrada ou saída do circuito de TFC.
 
-#### Pátios e Pistas de Taxi
+### Pátios e Pistas de Taxi
 
 - BFR ingresso TWY `Q` a partir da TWY `QQ`, compulsório CTC com a TWR informando posicionamento da ACFT. Permitido taxi de ACFT com envergadura até 20m.
 - TWY `L4`, `L5`, `L6`, `L8` e `R` BTN `L3` e `L7`, envergadura MAX 36M.
 - ACFT aviação geral com DEST ao pátio 02 deverão utilizar obrigatoriamente TWY do pátio 02 (PSN 52 a 61). No período noturno OPR com CTN devido pátio LGTD, porém sem balizamento.
 - TWY `QQ`, operação diurna e noturna por responsabilidade do OPR da ACFT.
-
-#### Locais
-
-`NIL`
 
 ## :material-sign-direction: Posições de Parada
 | Pátio       | Posições | Classificação                    |
@@ -129,7 +135,7 @@ Em construção.
 |     `1`     |  5 - 41  | Domésticos                       |
 |     `2`     | 52 - 66  | Cargas / Remotas                 |
 |     `3`     | 67 - 70  | Cargas de Grande Porte / Remotas |
-| ******MILITAR****** | ANY    | Militar - Operacional            |
+| **MILITAR** | ANY    | Militar - Operacional            |
 
 <!--
 

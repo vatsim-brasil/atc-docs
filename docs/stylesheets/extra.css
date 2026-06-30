@@ -1,15 +1,50 @@
-.corok { color: #03ba5f; }
-.cornot { color: #dc2c57; }
-.corparc { color: #e98c12; }
-.corVatsimIndigo { color: #2b3990; }
-.corVatsimBlue { color: #2483c5; }
-.corVatsimGreen {  color: #29b473; }
-.corVatbrzIndigo { color: #182061; }
-.corVatbrzVermelho { color: #e36f6f; }
-.corVatbrzAmarelo { color: #ffd816; }
-.corVatbrzVerde { color: #5cbd9e; }
-.corVatbrzCiano { color: #3db2ff; }
-.corVatbrzVerdeMusgo { color: #52a77e; }
+.corok {
+    color: #03ba5f;
+}
+
+.cornot {
+    color: #dc2c57;
+}
+
+.corparc {
+    color: #e98c12;
+}
+
+.corVatsimIndigo {
+    color: #2b3990;
+}
+
+.corVatsimBlue {
+    color: #2483c5;
+}
+
+.corVatsimGreen {
+    color: #29b473;
+}
+
+.corVatbrzIndigo {
+    color: #182061;
+}
+
+.corVatbrzVermelho {
+    color: #e36f6f;
+}
+
+.corVatbrzAmarelo {
+    color: #ffd816;
+}
+
+.corVatbrzVerde {
+    color: #5cbd9e;
+}
+
+.corVatbrzCiano {
+    color: #3db2ff;
+}
+
+.corVatbrzVerdeMusgo {
+    color: #52a77e;
+}
 
 /* Estilo personalizado para Nota Importante - Fundo vermelho e texto branco */
 .md-typeset .admonition.danger {
@@ -60,17 +95,17 @@
 }
 
 /* Tabelas maiores para melhor legibilidade - target tables after h3 headings */
-.md-typeset h3 + table {
+.md-typeset h3+table {
     width: 100%;
 }
 
-.md-typeset h3 + table th,
-.md-typeset h3 + table td {
+.md-typeset h3+table th,
+.md-typeset h3+table td {
     padding: 1rem 1.5rem !important;
     font-size: 1rem !important;
 }
 
-.md-typeset h3 + table th {
+.md-typeset h3+table th {
     font-size: 1.0625rem !important;
     font-weight: 600;
 }
@@ -133,7 +168,7 @@
     border: 2px solid #005c0c;
     padding: 16px;
     margin: 20px 0px 20px calc(50px + 12px);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .comms-pilot::before {
@@ -180,7 +215,7 @@
     border: 2px solid #2196f3;
     padding: 16px;
     margin: 20px calc(50px + 12px) 20px 0px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .comms-atc::before {
@@ -401,12 +436,12 @@
     .page-navigation {
         flex-direction: column;
     }
-    
+
     .nav-prev,
     .nav-next {
         width: 100%;
     }
-    
+
     .nav-prev a,
     .nav-next a {
         width: 100%;
@@ -501,13 +536,40 @@
 }
 
 /* Color codes matching Leaflet colors */
-.sector-badge.ctr { background-color: #f87171; color: #0f172a; }
-.sector-badge.n-ctr { background-color: #2dd4bf; color: #0f172a; }
-.sector-badge.w-ctr { background-color: #fbbf24; color: #0f172a; }
-.sector-badge.s-ctr { background-color: #a3e635; color: #0f172a; }
-.sector-badge.ns-ctr { background-color: #f472b6; color: #0f172a; }
-.sector-badge.nw-ctr { background-color: #5cbd9e; color: #0f172a; }
-.sector-badge.sw-ctr { background-color: #ffd816; color: #0f172a; }
+.sector-badge.ctr {
+    background-color: #f87171;
+    color: #0f172a;
+}
+
+.sector-badge.n-ctr {
+    background-color: #2dd4bf;
+    color: #0f172a;
+}
+
+.sector-badge.w-ctr {
+    background-color: #fbbf24;
+    color: #0f172a;
+}
+
+.sector-badge.s-ctr {
+    background-color: #a3e635;
+    color: #0f172a;
+}
+
+.sector-badge.ns-ctr {
+    background-color: #f472b6;
+    color: #0f172a;
+}
+
+.sector-badge.nw-ctr {
+    background-color: #5cbd9e;
+    color: #0f172a;
+}
+
+.sector-badge.sw-ctr {
+    background-color: #ffd816;
+    color: #0f172a;
+}
 
 .sector-freq {
     font-family: var(--md-code-font-family);
@@ -546,9 +608,11 @@
     .sbre-container {
         flex-direction: column-reverse;
     }
+
     .sbre-map-column {
         position: static;
     }
+
     .mapa {
         height: 480px;
     }
@@ -566,4 +630,280 @@
     background-color: #2483c5 !important;
     border-color: #2483c5 !important;
     color: white !important;
+}
+
+/* Iframe de Cartas (Chartfox) */
+.chart-iframe {
+    width: 100%;
+    min-height: 60vh;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Painel de Meteorologia Premium */
+.weather-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.weather-card {
+    padding: 16px 0;
+}
+
+/* Reticências de carregamento animadas */
+@keyframes loadingBlink {
+    0% {
+        opacity: .2;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .2;
+    }
+}
+
+.loading-dots span {
+    animation: loadingBlink 1.4s infinite both;
+    font-weight: bold;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.loading-dots span:nth-child(3) {
+    animation-delay: .4s;
+}
+
+/* Estilos do Dashboard Interno */
+.weather-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--md-default-fg-color--lite, rgba(0, 0, 0, 0.08));
+    padding-bottom: 12px;
+}
+
+.weather-card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--md-typeset-color);
+}
+
+/* Pulsing dot indicando tempo real */
+.pulse-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #29b473;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(41, 180, 115, 0.7);
+    animation: pulse 1.6s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(41, 180, 115, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(41, 180, 115, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(41, 180, 115, 0);
+    }
+}
+
+.flight-category-badge {
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: white !important;
+}
+
+.flight-category-badge.vfr {
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+}
+
+.flight-category-badge.mvfr {
+    background: linear-gradient(135deg, #2196f3, #1565c0);
+}
+
+.flight-category-badge.ifr {
+    background: linear-gradient(135deg, #ff9800, #e65100);
+}
+
+.flight-category-badge.lifr {
+    background: linear-gradient(135deg, #f44336, #c62828);
+}
+
+.metar-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+@media (min-width: 480px) {
+    .metar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .metar-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.metar-grid-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--md-code-bg);
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.metar-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* Cores específicas para os wraps dos ícones */
+.metar-icon-wrapper.wind-wrap {
+    background-color: rgba(33, 150, 243, 0.1);
+    color: #2196f3;
+}
+
+.metar-icon-wrapper.vis-wrap {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #4caf50;
+}
+
+.metar-icon-wrapper.press-wrap {
+    background-color: rgba(255, 152, 0, 0.1);
+    color: #ff9800;
+}
+
+.metar-icon-wrapper.cloud-wrap {
+    background-color: rgba(156, 39, 176, 0.1);
+    color: #9c27b0;
+}
+
+.metar-icon-wrapper.temp-wrap {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #f44336;
+}
+
+.metar-icon-wrapper.rule-wrap {
+    background-color: rgba(0, 150, 136, 0.1);
+    color: #009688;
+}
+
+.metar-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.metar-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.55;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.metar-value {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--md-typeset-color);
+}
+
+.metar-raw-box {
+    margin-top: 15px;
+    padding: 12px 16px;
+    background: var(--md-code-bg);
+    border-radius: 8px;
+    border-left: 4px solid var(--md-typeset-color);
+    opacity: 0.85;
+}
+
+.metar-raw-box code {
+    font-size: 0.76rem !important;
+    line-height: 1.4 !important;
+    font-family: var(--md-code-font-family), monospace !important;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+.taf-content-box {
+    white-space: pre-wrap;
+    font-size: 0.76rem;
+    line-height: 1.6;
+    font-family: var(--md-code-font-family), monospace;
+    background: var(--md-code-bg);
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.taf-content-box code {
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Container do METAR Codificado Premium (Largura Total) */
+.metar-raw-box-premium {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--md-code-bg);
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    margin-top: 12px;
+    width: 100%;
+}
+
+.metar-icon-wrapper.raw-wrap {
+    background-color: rgba(96, 125, 139, 0.1);
+    color: #607d8b;
+    flex-shrink: 0;
+}
+
+.metar-raw-code {
+    font-size: 0.76rem !important;
+    font-family: var(--md-code-font-family), monospace !important;
+    background: transparent !important;
+    padding: 0 !important;
+    color: var(--md-typeset-color) !important;
+    display: block;
+    margin-top: 4px;
+    line-height: 1.4;
+    word-break: break-all;
 }
