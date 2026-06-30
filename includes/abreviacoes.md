@@ -75,3 +75,4 @@
 *[METAR]: Relatório Meteorológico Terminal de Aeródromo / Aerodrome Terminal Meteorological Report
 *[TAF]: Previsão Meteorológica Terminal de Aeródromo / Terminal Aerodrome Forecast
 *[SIGMET]: Informação Meteorológica Significativa para Aviação / Significant Meteorological Information
+*[PMD]: Peso Máximo de Decolagem / Maximum Takeoff Weight

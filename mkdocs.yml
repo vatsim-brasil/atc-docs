@@ -104,14 +104,17 @@ extra:
 
 extra_javascript:
   - javascripts/katex.js
+  - javascripts/metar.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 extra_css:
   - stylesheets/nav.css
   - stylesheets/theme.css
   - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 
 plugins:
   - search:
