@@ -1,8 +1,8 @@
 {
   "name": "FIR Amazônica (SBAZ)",
-  "id": "1171be47-a07b-4e98-83a3-23b3fc05ad90",
+  "id": "f7e404c4-0aa0-4a2e-bd41-bda041baa7e3",
   "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBAZ.json",
-  "updateSerial": 2025080203,
+  "updateSerial": 2026060401,
   "stations": [
     {
       "id": "3f990a84-9670-4632-93a5-a73ad01ef5cc",
@@ -1941,13 +1941,33 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 45
+              "low": 901,
+              "high": 958,
+              "altitude": 75
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 70
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 65
             },
             {
               "low": 995,
               "high": 1012,
+              "altitude": 60
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 55
+            },
+            {
+              "low": 1032,
+              "high": 1099,
               "altitude": 50
             }
           ],
@@ -3972,14 +3992,34 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 55
+              "low": 901,
+              "high": 958,
+              "altitude": 75
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 70
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 65
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 60
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 55
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 50
             }
           ],
           "template": {
@@ -4017,7 +4057,7 @@
           "name": "07",
           "airportConditions": "EXPECT ILS *W RWY 07\r\nLDG RWY 07\r\nTKOF RWY 07",
           "notams": "",
-          "template": "SBBE ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] / [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[WS]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6029,18 +6069,38 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 45
+              "low": 901,
+              "high": 958,
+              "altitude": 65
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 60
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 55
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 50
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 45
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 40
             }
           ],
           "template": {
-            "text": "TRL FL0{trl}",
+            "text": "TRL F0{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
@@ -8081,18 +8141,38 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 45
+              "low": 901,
+              "high": 958,
+              "altitude": 65
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 60
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 55
             },
             {
               "low": 995,
               "high": 1012,
               "altitude": 50
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 45
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 40
             }
           ],
           "template": {
-            "text": "TRL FL0{trl}",
+            "text": "TRL F0{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
@@ -10117,18 +10197,38 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
+              "low": 901,
+              "high": 958,
+              "altitude": 55
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 50
+            },
+            {
+              "low": 977,
+              "high": 994,
               "altitude": 45
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 50
+              "altitude": 40
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 35
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 30
             }
           ],
           "template": {
-            "text": "TRL FL0{trl}",
+            "text": "TRL F0{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
@@ -12153,18 +12253,38 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 45
+              "low": 901,
+              "high": 958,
+              "altitude": 125
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 120
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 50
+              "altitude": 110
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 105
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 100
             }
           ],
           "template": {
-            "text": "TRL FL0{trl}",
+            "text": "TRL F0{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
@@ -14184,18 +14304,38 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 45
+              "low": 901,
+              "high": 958,
+              "altitude": 125
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 120
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 50
+              "altitude": 110
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 105
+            },
+            {
+              "low": 1032,
+              "high": 1099,
+              "altitude": 100
             }
           ],
           "template": {
-            "text": "TRL FL0{trl}",
+            "text": "TRL F0{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
