@@ -56,6 +56,11 @@ Use esta tabela como regra prática **quando não houver VAC** ou quando não h�
 
 Objetivo: mostrar uma sequência realista de rádio com **organização, separação e mitigação de mistura**.
 
+!!! info "Foco deste script"
+    O que interessa aqui é a **decisão do controlador**: em que ordem colocar as aeronaves e como criar espaçamento. As falas estão escritas de forma abreviada para leitura rápida.
+
+    Na frequência, o órgão é sempre **TORRE seguido do nome da localidade**, a matrícula é lida letra por letra e os algarismos dígito a dígito. A fraseologia completa, em Português, Inglês e Espanhol, está no [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/index.pt.md).
+
 ---
 
 ### 1) Pistão ingressando e estabelecendo circuito
@@ -63,14 +68,14 @@ Objetivo: mostrar uma sequência realista de rádio com **organização, separa�
 === ":flag_br: Português"
 
     - **PILOTO**: "TORRE, PT-ABC, 5 milhas ao norte, 1500 pés, para pouso."
-    - **TWR**: "PT-ABC, pista 16, circuito à direita, QNH ___, autorizado ingresso na perna do vento, reporte na perna base"
-    - **PILOTO**: "Pista 16, circuito à direita, autorizado ingresso na perna do vento, reportarei na perna base, PT-ABC."
+    - **TWR**: "PT-ABC, autorizado para o circuito de tráfego, pista 16, circuito à esquerda, vento ___, QNH ___, reporte perna do vento."
+    - **PILOTO**: "Autorizado para o circuito de tráfego, pista 16, circuito à esquerda, QNH ___, reportará perna do vento, PT-ABC."
 
 === ":flag_gb: English"
 
     - **PILOT**: "TOWER, PT-ABC, 5 miles north, 1500 feet, inbound to land."
-    - **TWR**: "PT-ABC, runway 16, right-hand circuit, QNH ___, cleared to join downwind leg, report base leg."
-    - **PILOT**: "Runway 16, right-hand circuit, cleared downwind leg, will report base leg, PT-ABC."
+    - **TWR**: "PT-ABC, cleared to traffic pattern, runway 16, left-hand circuit, wind ___, QNH ___, report downwind leg."
+    - **PILOT**: "Cleared to traffic pattern, runway 16, left-hand circuit, QNH ___, will report downwind leg, PT-ABC."
 
 ---
 
@@ -79,14 +84,14 @@ Objetivo: mostrar uma sequência realista de rádio com **organização, separa�
 === ":flag_br: Português"
 
     - **PILOTO**: "TORRE, PR-JET, 8 milhas a leste, 2500 pés, para pouso."
-    - **TWR**: "PR-JET, pista 16, circuito à direita, mantenha 1500 pés <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, ingresse na perna do vento, reporte na perna base."
-    - **PILOTO**: "Circuito à direita, 1500 pés <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, reportarei na perna base, PR-JET."
+    - **TWR**: "PR-JET, pista 16, circuito à esquerda, mantenha 1500 pés <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, ingresse na perna do vento, reporte na perna base."
+    - **PILOTO**: "Circuito à esquerda, 1500 pés <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, reportarei na perna base, PR-JET."
 
 === ":flag_gb: English"
 
     - **PILOT**: "TOWER, PR-JET, 8 miles east, 2500 feet, inbound to land."
-    - **TWR**: "PR-JET, runway 16, right-hand circuit, maintain 1500 feet <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, join downwind leg 2 miles, report downwind leg."
-    - **PILOT**: "right-hand circuit, maintaining 1500 feet <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, joining downwind leg, will report downwind, PR-JET."
+    - **TWR**: "PR-JET, runway 16, left-hand circuit, maintain 1500 feet <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, join downwind leg 2 miles, report downwind leg."
+    - **PILOT**: "Left-hand circuit, maintaining 1500 feet <abbr title="Above Aerodrome Level/Altitude Acima do Aeródromo">AAL</abbr>, joining downwind leg, will report downwind, PR-JET."
 
 ---
 
@@ -106,16 +111,16 @@ Objetivo: mostrar uma sequência realista de rádio com **organização, separa�
 
 ---
 
-### 4) Sequenciamento de Aeronaves á pistão para pouso
+### 4) Sequenciamento do tráfego a pistão para pouso
 
 === ":flag_br: Português"
 
     - **PILOTO**: "PT-ABC, na perna do vento."
     - **TWR**: "PT-ABC, número 1, reporte na perna base."
     - **PILOTO**: "Número 1, reportarei base, PT-ABC."
-    - **PILOTO**: "PT-ABC, na perna base base."
-    - **TWR**: "PT-ABC, autorizado pouso pista 16, vento ___."
-    - **PILOTO**: "Autorizado pouso pista 16, PT-ABC."
+    - **PILOTO**: "PT-ABC, na perna base."
+    - **TWR**: "PT-ABC, pista 16, pouso autorizado, vento ___."
+    - **PILOTO**: "Pouso autorizado, pista 16, PT-ABC."
 
 === ":flag_gb: English"
 
@@ -123,8 +128,8 @@ Objetivo: mostrar uma sequência realista de rádio com **organização, separa�
     - **TWR**: "PT-ABC, number 1, report base leg."
     - **PILOT**: "Number 1, will report base leg, PT-ABC."
     - **PILOT**: "PT-ABC, on base leg."
-    - **TWR**: "PT-ABC, cleared to land runway 16, wind ___."
-    - **PILOT**: "Cleared to land runway 16, PT-ABC."
+    - **TWR**: "PT-ABC, runway 16, cleared to land, wind ___."
+    - **PILOT**: "Runway 16, cleared to land, PT-ABC."
 
 ---
 
@@ -135,22 +140,22 @@ Objetivo: mostrar uma sequência realista de rádio com **organização, separa�
     - **PILOTO**: "PR-JET, na perna do vento."
     - **TWR**: "PR-JET, número 2 após PT-ABC, mantenha tráfego à vista, alongue perna do vento, aguarde autorização para ingresso na perna base."
     - **PILOTO**: "Número 2 após PT-ABC, tráfego à vista, vai alongar a perna do vento, aguardará autorização para a perna base, PR-JET."
-    - **TWR**: (quando aplicado) PR-JET autorizado perna base, reporte na final pista 16"
-    - **PILOTO**: PR-JET autorizado perna base, reportará na final pista 16"
-    - **PILOTO**: "PR-JET na final pista 16"
-    - **TWR**: "PR-JET, autorizado pouso pista 16, vento ___."
-    - **PILOTO**: "Autorizado pouso pista 16, PR-JET."
+    - **TWR** (quando aplicável): "PR-JET, gire base, reporte na final pista 16."
+    - **PILOTO**: "Gira base, reportará na final pista 16, PR-JET."
+    - **PILOTO**: "PR-JET, na final pista 16."
+    - **TWR**: "PR-JET, pista 16, pouso autorizado, vento ___."
+    - **PILOTO**: "Pouso autorizado, pista 16, PR-JET."
 
 === ":flag_gb: English"
 
     - **PILOT**: "PR-JET, downwind leg."
-    - **TWR**: "PR-JET, number 2 after PT-ABC, report traffic in sight and follow, extend downwind leg, I will clearance for base leg."
+    - **TWR**: "PR-JET, number 2 after PT-ABC, report traffic in sight and follow, extend downwind leg, standby for further instructions for turning base."
     - **PILOT**: "Number 2 after PT-ABC, traffic in sight, extending downwind, waiting for base clearance, PR-JET."
     - **TWR** (when appropriate): "PR-JET, turn base and report on final runway 16."
     - **PILOT**: "Turning base and will report on final runway 16, PR-JET."
     - **PILOT**: "PR-JET on final runway 16"
-    - **TWR**: "PR-JET, cleared to land runway 16, wind ___."
-    - **PILOT**: "Cleared to land runway 16, PR-JET."
+    - **TWR**: "PR-JET, runway 16, cleared to land, wind ___."
+    - **PILOT**: "Runway 16, cleared to land, PR-JET."
 
 ---
 

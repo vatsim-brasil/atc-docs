@@ -49,7 +49,12 @@ Padronizar o fluxo de tráfego em torno do aeródromo, facilitando:
 
 ## Como usar este manual
 - Leia **Circuito padrão sem VAC** e **Altitudes/perfis** primeiro.
-- Use a seção **Fraseologia PT/EN** como “playbook” de comunicações.
+- Use a seção **Fraseologia PT/EN** como cartão de consulta rápida durante a sessão.
 - Use os **checklists** para padronizar decisões na TWR.
+
+!!! tip "Escopo e leitura complementar"
+    Este manual trata da **operação e da decisão na posição TWR**: geometria do circuito, altitudes por categoria, sequenciamento, mudança de pista e leitura de VAC.
+
+    A **fraseologia** tem manual próprio. Se o que você procura é como falar, do acionamento no pátio até o encerramento do plano, em Português, Inglês e Espanhol, vá para o [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/index.pt.md).
 
 ---

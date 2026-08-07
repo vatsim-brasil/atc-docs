@@ -1,0 +1,10 @@
+title: Manual de Fraseologia para Voo Visual
+collapse: false
+nav:
+  - Introdução: index.pt.md
+  - Conceitos do Voo Visual: conceitos.pt.md
+  - Circuito de Tráfego: circuito-de-trafego.pt.md
+  - Voo de Ida (Controlado para Não Controlado): voo-ida.pt.md
+  - Voo de Volta (Não Controlado para Controlado): voo-volta.pt.md
+  - Situações Específicas: situacoes-especificas.pt.md
+  - Checklist Rápido: checklist.pt.md
