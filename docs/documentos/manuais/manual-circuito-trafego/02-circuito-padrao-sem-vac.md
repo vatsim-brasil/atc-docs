@@ -11,11 +11,11 @@ Sem restrições publicadas, use um retângulo simples ao redor da pista:
 
 | Perna | Função | Ponto de atenção |
 |---|---|---|
-| Upwind (decolagem) | Após decolagem mantendo alinhamento | evitar cruzar/entrar no circuito oposto |
-| Crosswind | Transição para o lado do circuito | iniciar curva conforme altitude/perfil |
-| Downwind | Paralelo à pista, sentido oposto ao pouso | onde TWR organiza sequência |
-| Base | Curva final para alinhamento | ajustar separação com tráfego à frente |
-| Final | Aproximação e pouso | estabilização, autorização, arremetida |
+| Perna contra o vento (upwind) | Paralela à pista, deslocada do eixo, no sentido do pouso | evitar cruzar/entrar no circuito oposto |
+| Través (crosswind) | Transição para o lado do circuito | iniciar curva conforme altitude/perfil |
+| Perna do vento (downwind) | Paralela à pista, sentido oposto ao pouso | onde TWR organiza sequência |
+| Perna base (base) | Curva final para alinhamento | ajustar separação com tráfego à frente |
+| Final | Sobre o prolongamento do eixo, aproximação e pouso | estabilização, autorização, arremetida |
 
 ## Direção padrão por pista (sem publicação)
 
@@ -25,7 +25,7 @@ Sem restrições publicadas, use um retângulo simples ao redor da pista:
 ## Lado do circuito (noção prática)
 
 - "Circuito à esquerda RWY XX": o piloto faz todas as curvas para a esquerda.
-- "Circuito à esquerda RWY XX": curvas para a esquerda.
+- "Circuito à direita RWY XX": o piloto faz todas as curvas para a direita.
 
 ## Pista em uso (sem VAC)
 

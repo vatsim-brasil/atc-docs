@@ -9,11 +9,14 @@ icon: material/book-open-page-variant
 
 Fluxo **retangular** ao redor da pista em uso, normalmente composto por:
 
-- **Perna de decolagem (upwind leg)**
+- **Perna contra o vento (upwind leg)**, paralela à pista e deslocada lateralmente do eixo, no mesmo sentido do pouso
 - **Perna de través (crosswind leg)**
 - **Perna do vento (downwind leg)**
 - **Perna base (base leg)**
-- **Final**
+- **Final**, sobre o prolongamento do eixo da pista
+
+!!! tip "Detalhamento das pernas"
+    O traçado desenhado, a distinção entre a subida inicial sobre o eixo e a perna contra o vento, e os reportes de cada perna estão em [Circuito de Tráfego](../fraseologia-voo-visual/circuito-de-trafego.pt.md), no Manual de Fraseologia para Voo Visual.
 
 ## Direção do circuito
 
