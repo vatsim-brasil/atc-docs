@@ -16,7 +16,7 @@
 *[GNSS]: Sistema de Navegação Global por Satélite / Global Navigation Satellite System
 *[RNP]: Performance de Navegação Requerida / Required Navigation Performance
 *[ATS]: Serviços de Tráfego Aéreo / Air Traffic Services
-*[TMA]: Área de Manobras Terminais / Terminal Maneuvering Area
+*[TMA]: Área de Controle Terminal / Terminal Control Area
 *[FIR]: Região de Informação de Voo / Flight Information Region
 *[SSR]: Radar de Vigilância Secundário / Secondary Surveillance Radar
 *[SOPs]: Procedimentos Operacionais Padrão / Standard Operating Procedures
@@ -82,3 +82,4 @@
 *[QNE]: Ajuste de altímetro padrão, 1013,2 hPa / Standard altimeter setting, 1013.2 hPa
 *[RVSM]: Separação Vertical Mínima Reduzida / Reduced Vertical Separation Minimum
 *[IAS]: Velocidade Indicada / Indicated Airspeed
+*[OACI]: Organização de Aviação Civil Internacional / International Civil Aviation Organization
