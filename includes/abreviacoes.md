@@ -73,7 +73,6 @@
 *[CAOP]: Carta de Acordo Operacional / Letter of Agreement
 *[ATZ]: Zona de Tráfego de Aeródromo / Aerodrome Traffic Zone
 *[CTA]: Área de Controle / Control Area
-*[UTA]: Área de Controle Superior / Upper Control Area
 *[ACC]: Centro de Controle de Área / Area Control Centre
 *[AIS]: Serviço de Informação Aeronáutica / Aeronautical Information Service
 *[EAC]: Espaço Aéreo Condicionado / Conditional Airspace
@@ -83,3 +82,8 @@
 *[RVSM]: Separação Vertical Mínima Reduzida / Reduced Vertical Separation Minimum
 *[IAS]: Velocidade Indicada / Indicated Airspeed
 *[OACI]: Organização de Aviação Civil Internacional / International Civil Aviation Organization
+*[IAC]: Carta de Aproximação por Instrumentos / Instrument Approach Chart
+*[ARCC]: Centro de Coordenação de Salvamento Aeronáutico / Aeronautical Rescue Coordination Centre
+*[AIRAC]: Regulamentação e Controle da Informação Aeronáutica / Aeronautical Information Regulation And Control
+*[SIGMET]: Informação sobre fenômenos meteorológicos significativos em rota / Significant Meteorological Information
+*[AIRMET]: Informação meteorológica para voos a baixo nível / Airmen's Meteorological Information
