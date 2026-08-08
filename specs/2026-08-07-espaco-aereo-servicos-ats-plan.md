@@ -358,7 +358,7 @@ Cada afirmação normativa recebe footnote `[^1]` para ICA 100-37 e `[^2]` para 
 Colar no ponto indicado da seção. Renderiza em ambos os temas:
 
 ```html
-<figure markdown>
+<figure>
 <svg viewBox="0 0 640 380" role="img" aria-label="Corte vertical do espaço aéreo: solo, ATZ, CTR, TMA, CTA e UTA dentro de uma FIR" style="max-width:100%;height:auto">
   <style>
     .ea-bg   { fill: #ffffff; }
@@ -566,7 +566,7 @@ Este bloco é obrigatório: fecha a lacuna entre a norma, que está em mãos, e 
 Mesma estratégia de tema do SVG-1. Sete colunas (A–G) contra quatro linhas (voos permitidos, ATC prestado a, separação entre, informação de tráfego), com célula preenchida indicando presença:
 
 ```html
-<figure markdown>
+<figure>
 <svg viewBox="0 0 700 300" role="img" aria-label="Matriz das classes de espaço aéreo A a G contra voos permitidos, serviço de controle, separação e informação de tráfego" style="max-width:100%;height:auto">
   <style>
     .cl-bg   { fill: #ffffff; }
@@ -828,7 +828,7 @@ Seções obrigatórias:
 Cinco nós encadeados da esquerda para a direita — DEL, GND, TWR, APP, CTR — cada um rotulado com o espaço aéreo correspondente, ligados por setas, e uma faixa acima indicando a cobertura top-down no sentido inverso. Mesmo tratamento de tema dos SVG anteriores:
 
 ```html
-<figure markdown>
+<figure>
 <svg viewBox="0 0 720 240" role="img" aria-label="Cadeia de órgãos ATS de DEL a CTR com o espaço aéreo de cada elo e o sentido da cobertura top-down" style="max-width:100%;height:auto">
   <style>
     .or-bg  { fill: #ffffff; }
