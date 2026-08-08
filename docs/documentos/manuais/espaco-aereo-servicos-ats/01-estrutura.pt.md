@@ -17,6 +17,17 @@ Fora dessas áreas o espaço aéreo continua existindo — segue dentro da FIR �
 
 O próximo capítulo detalha as classes de espaço aéreo e o que muda em cada uma. Aqui, a distinção que importa é binária: há controle, ou não há.
 
+### Espaço aéreo controlado não é a mesma coisa que voo controlado
+
+São dois conceitos vizinhos e fáceis de confundir, e o restante deste manual usa os dois. **Espaço aéreo controlado** é um atributo do *espaço*: as classes A, B, C, D e E, onde se presta o Serviço de Controle de Tráfego Aéreo conforme a classificação[^2]. **Voo controlado** é um atributo do *voo*: o item CI do Anexo VII da ICA 100-12 define-o como "todo voo sujeito à autorização de controle de tráfego aéreo"[^2].
+
+O teste é diferente em cada caso — o primeiro pergunta onde a aeronave está; o segundo, se aquele voo depende de autorização ATC. Eles quase sempre coincidem, mas não sempre:
+
+- um voo VFR em espaço aéreo **Classe E** está dentro de espaço aéreo controlado e **não** é voo controlado: o Art. 115 da ICA 100-12 diz que, nas Classes E, F e G, "os voos VFR não estão sujeitos à autorização de controle de tráfego aéreo, recebendo dos órgãos ATS tão somente os serviços de informação de voo e de alerta"[^2];
+- um voo **VFR Especial** é voo controlado por definição, porque o Anexo VII da ICA 100-12 o descreve como o "voo VFR autorizado pelo controle de tráfego aéreo" dentro de CTR ou ATZ de aeródromo controlado[^2].
+
+É essa distinção que sustenta duas frases que aparecem adiante: a de que o voo VFR em Classe D continua sendo um voo controlado, e a do Art. 77 da ICA 100-12, que exige autorização "antes de realizar um voo controlado, ou uma parte de um voo controlado"[^2].
+
 ## FIR
 
 O Art. 15 da ICA 100-37 é direto: "Regiões de Informação de Voo são as partes do espaço aéreo onde são providos os Serviços de Informação de Voo e de Alerta."[^1] A ICA 100-12 define o mesmo conceito quase palavra por palavra: "espaço aéreo de dimensões definidas, dentro do qual são proporcionados serviços de informação de voo e de alerta"[^2].
@@ -69,7 +80,7 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
 <figure>
 <svg viewBox="0 0 640 380" role="img" aria-label="Corte vertical do espaço aéreo: solo, ATZ, CTR, TMA, CTA e UTA dentro de uma FIR" style="max-width:100%;height:auto">
   <style>
-    .ea-bg   { fill: #ffffff; }
+    .ea-bg   { fill: var(--md-default-bg-color); }
     .ea-band { stroke: #546e7a; stroke-width: 1.5; }
     .ea-fir  { fill: none; stroke: #37474f; stroke-width: 2; stroke-dasharray: 6 4; }
     .ea-lbl  { fill: #263238; font: 500 13px "Ubuntu Sans", sans-serif; }
@@ -81,7 +92,6 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
     .ea-atz  { fill: #ffccbc; }
     .ea-gnd  { fill: #bdbdbd; }
     @media (prefers-color-scheme: dark) {
-      .ea-bg  { fill: #1e2129; }
       .ea-lbl { fill: #eceff1; }
       .ea-sub { fill: #b0bec5; }
       .ea-fir { stroke: #cfd8dc; }
@@ -90,7 +100,6 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
       .ea-tma { fill: #827717; } .ea-ctr { fill: #e65100; }
       .ea-atz { fill: #bf360c; } .ea-gnd { fill: #424242; }
     }
-    [data-md-color-scheme="slate"] .ea-bg  { fill: #1e2129; }
     [data-md-color-scheme="slate"] .ea-lbl { fill: #eceff1; }
     [data-md-color-scheme="slate"] .ea-sub { fill: #b0bec5; }
     [data-md-color-scheme="slate"] .ea-fir { stroke: #cfd8dc; }
@@ -101,7 +110,6 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
     [data-md-color-scheme="slate"] .ea-ctr { fill: #e65100; }
     [data-md-color-scheme="slate"] .ea-atz { fill: #bf360c; }
     [data-md-color-scheme="slate"] .ea-gnd { fill: #424242; }
-    [data-md-color-scheme="default"] .ea-bg  { fill: #ffffff; }
     [data-md-color-scheme="default"] .ea-lbl { fill: #263238; }
     [data-md-color-scheme="default"] .ea-sub { fill: #546e7a; }
     [data-md-color-scheme="default"] .ea-fir { stroke: #37474f; }

@@ -118,9 +118,9 @@ Notas de leitura da tabela:
 - Na Classe G, o Anexo II registra o limite como "250 kt IAS abaixo de 3.050 m", sem a conversão em pés que acompanha as demais classes. São os mesmos 10.000 pés AMSL.
 - "Bilateral contínua", na coluna de radiocomunicação, significa comunicação bilateral contínua com o órgão ATC apropriado.
 
-### Limites de velocidade para o voo VFR
+## Limites de velocidade para o voo VFR
 
-A ICA 100-12 trata o mesmo assunto pelo lado das Regras do Ar. O Art. 127 remete à sua Tabela 2, que fixa, para o voo sob as regras de voo visual[^2]:
+Esta seção muda de fonte: a tabela abaixo é da **ICA 100-12**, não do Anexo II da ICA 100-37 tratado na seção anterior. A ICA 100-12 trata o mesmo assunto pelo lado das Regras do Ar. O Art. 127 remete à sua Tabela 2, que fixa, para o voo sob as regras de voo visual[^2]:
 
 | Classe de espaço aéreo | Limite de velocidade |
 | --- | --- |
@@ -156,34 +156,32 @@ Por isso o Art. 28 da ICA 100-37, ao listar os Serviços de Tráfego Aéreo, nã
 ## A matriz em um olhar
 
 <figure>
-<svg viewBox="0 0 700 300" role="img" aria-label="Matriz das classes de espaço aéreo A a G contra voos permitidos, serviço de controle, separação e informação de tráfego" style="max-width:100%;height:auto">
+<svg viewBox="0 0 700 300" role="img" aria-label="Matriz das classes de espaço aéreo A a G contra voos VFR permitidos, Serviço de Controle de Tráfego Aéreo, separação provida e informação de tráfego" style="max-width:100%;height:auto">
   <style>
-    .cl-bg   { fill: #ffffff; }
+    .cl-bg   { fill: var(--md-default-bg-color); }
     .cl-hd   { fill: #263238; font: 600 14px "Ubuntu Sans", sans-serif; text-anchor: middle; }
     .cl-rw   { fill: #263238; font: 400 12px "Ubuntu Sans", sans-serif; }
     .cl-cell { fill: #eceff1; stroke: #90a4ae; stroke-width: 1; }
     .cl-on   { fill: #2e7d32; }
     .cl-part { fill: #f9a825; }
-    .cl-off  { fill: #cfd8dc; }
+    .cl-off  { fill: #607d8b; }
     .cl-key  { fill: #546e7a; font: 400 11px "Ubuntu Sans", sans-serif; }
     @media (prefers-color-scheme: dark) {
-      .cl-bg { fill: #1e2129; } .cl-hd { fill: #eceff1; } .cl-rw { fill: #eceff1; }
-      .cl-cell { fill: #2b303b; stroke: #546e7a; } .cl-off { fill: #37474f; }
+      .cl-hd { fill: #eceff1; } .cl-rw { fill: #eceff1; }
+      .cl-cell { fill: #2b303b; stroke: #546e7a; } .cl-off { fill: #90a4ae; }
       .cl-on { fill: #66bb6a; } .cl-part { fill: #ffca28; } .cl-key { fill: #b0bec5; }
     }
-    [data-md-color-scheme="slate"] .cl-bg { fill: #1e2129; }
     [data-md-color-scheme="slate"] .cl-hd { fill: #eceff1; }
     [data-md-color-scheme="slate"] .cl-rw { fill: #eceff1; }
     [data-md-color-scheme="slate"] .cl-cell { fill: #2b303b; stroke: #546e7a; }
-    [data-md-color-scheme="slate"] .cl-off { fill: #37474f; }
+    [data-md-color-scheme="slate"] .cl-off { fill: #90a4ae; }
     [data-md-color-scheme="slate"] .cl-on { fill: #66bb6a; }
     [data-md-color-scheme="slate"] .cl-part { fill: #ffca28; }
     [data-md-color-scheme="slate"] .cl-key { fill: #b0bec5; }
-    [data-md-color-scheme="default"] .cl-bg { fill: #ffffff; }
     [data-md-color-scheme="default"] .cl-hd { fill: #263238; }
     [data-md-color-scheme="default"] .cl-rw { fill: #263238; }
     [data-md-color-scheme="default"] .cl-cell { fill: #eceff1; stroke: #90a4ae; }
-    [data-md-color-scheme="default"] .cl-off { fill: #cfd8dc; }
+    [data-md-color-scheme="default"] .cl-off { fill: #607d8b; }
     [data-md-color-scheme="default"] .cl-on { fill: #2e7d32; }
     [data-md-color-scheme="default"] .cl-part { fill: #f9a825; }
     [data-md-color-scheme="default"] .cl-key { fill: #546e7a; }
