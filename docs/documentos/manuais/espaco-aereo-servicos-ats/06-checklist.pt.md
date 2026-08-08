@@ -27,7 +27,7 @@ Tabela derivada da matriz de classes do Art. 21 da ICA 100-37 e do Anexo II, já
 | **A** | Somente IFR | Sim | Bilateral contínua | Todos os voos entre si | Não se aplica — a separação já cobre todo o tráfego |
 | **B** | IFR e VFR | Sim, do IFR e do VFR | Bilateral contínua, do IFR e do VFR | Todos os voos entre si — IFR de IFR, IFR de VFR e VFR de VFR | Não se aplica — a separação já cobre todo o tráfego |
 | **C** | IFR e VFR | Sim, do IFR e do VFR | Bilateral contínua, do IFR e do VFR | IFR de IFR e de VFR — não separo VFR de VFR | O VFR recebe informação de tráfego sobre outros VFR, e aviso para evitar tráfego se solicitado pelo piloto |
-| **D** | IFR e VFR | Sim, do IFR e do VFR | Bilateral contínua, do IFR e do VFR | Apenas IFR de IFR — o VFR não é separado de nada | Todos recebem informação de tráfego sobre os demais voos, e aviso para evitar tráfego se solicitado pelo piloto |
+| **D** | IFR e VFR | Sim, do IFR e do VFR | Bilateral contínua, do IFR e do VFR | Apenas IFR de IFR — o VFR não é separado de nada | O IFR recebe informação de tráfego sobre os voos VFR; o VFR, sobre todos os demais voos. Nos dois casos, aviso para evitar tráfego se solicitado pelo piloto |
 | **E** | IFR e VFR | Sim do IFR; **não** do VFR | Bilateral contínua do IFR; **não** exigida do VFR | Apenas IFR de IFR — o VFR não é separado | Todos recebem informação de tráfego quando possível; o VFR recebe também o Serviço de Informação de Voo |
 | **F** | IFR e VFR | Não, de nenhum dos dois | Bilateral contínua do IFR; **não** exigida do VFR | IFR de IFR, quando possível — é assessoramento, não separação plena | Serviço de Informação de Voo a todos os voos, quando solicitado pelo piloto* |
 | **G** | IFR e VFR | Não, de nenhum dos dois | Bilateral contínua do IFR; **não** exigida do VFR | Não aplicável — nenhuma separação | Serviço de Informação de Voo, quando possível e solicitado pelo piloto |
@@ -44,7 +44,7 @@ Versão condensada da Tabela 1 do Art. 104 da ICA 100-12, reproduzida no [capít
 | --- | --- | --- | --- |
 | 3.050 m (10.000 pés) AMSL ou acima | B, C, D, E, F, G | 8 km | 1.500 m horizontal / 300 m (1.000 pés) vertical |
 | Abaixo de 3.050 m (10.000 pés) e acima de 900 m (3.000 pés) AMSL, ou acima de 300 m (1.000 pés) sobre o terreno — o que for maior | B, C, D, E, F, G | 5 km | 1.500 m horizontal / 300 m (1.000 pés) vertical |
-| A 900 m (3.000 pés) AMSL ou abaixo, ou 300 m (1.000 pés) sobre o terreno — o que for maior | B, C, D, E | 5 km | 1.500 m horizontal / 300 m (1.000 pés) vertical |
+| A 900 m (3.000 pés) AMSL ou abaixo, ou 300 m (1.000 pés) acima do terreno — o que for maior | B, C, D, E | 5 km | 1.500 m horizontal / 300 m (1.000 pés) vertical |
 | Mesma faixa acima | F, G | 5 km | Livre de nuvens e avistando o solo |
 
 A Classe A não aparece nesta tabela: só admite voo IFR, logo não há mínimo VMC a cumprir ali. Quando a altitude de transição do aeródromo for inferior a 3.050 m (10.000 pés) AMSL, use o FL 100 em lugar de 10.000 pés como referência da primeira faixa.

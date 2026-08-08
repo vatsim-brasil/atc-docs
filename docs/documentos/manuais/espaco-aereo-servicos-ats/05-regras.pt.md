@@ -89,7 +89,7 @@ O Art. 104 da ICA 100-12 diz que "os mínimos de visibilidade e de distância de
 | --- | --- | --- | --- |
 | 3.050 m (10.000 pés) AMSL ou acima | B, C, D, E, F, G | 8 km | 1.500 m horizontalmente e 300 m (1.000 pés) verticalmente |
 | Abaixo de 3.050 m (10.000 pés) AMSL e acima de 900 m (3.000 pés) AMSL, ou acima de 300 m (1.000 pés) sobre o terreno, o que for maior | B, C, D, E, F, G | 5 km | 1.500 m horizontalmente e 300 m (1.000 pés) verticalmente |
-| A 900 m (3.000 pés) AMSL ou abaixo, ou 300 m (1.000 pés) sobre o terreno, o que for maior | B, C, D, E | 5 km | 1.500 m horizontalmente e 300 m (1.000 pés) verticalmente |
+| A 900 m (3.000 pés) AMSL ou abaixo, ou 300 m (1.000 pés) acima do terreno, o que for maior | B, C, D, E | 5 km | 1.500 m horizontalmente e 300 m (1.000 pés) verticalmente |
 | idem (mesma faixa) | F, G | 5 km | Livre de nuvens e avistando o solo |
 
 A Classe A não aparece nesta tabela. A alínea "a" do inciso I do Art. 21 da ICA 100-37 diz que na Classe A "são permitidos somente voos IFR"[^1] — não há voo VFR na Classe A, logo não há mínimo VMC a cumprir ali.

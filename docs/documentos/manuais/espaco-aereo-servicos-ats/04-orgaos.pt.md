@@ -35,7 +35,7 @@ As três são posições de um único órgão — a TWR —, não três órgãos
 
 ## Tabela de correspondência
 
-A tabela abaixo relaciona cada órgão à posição VATSIM correspondente e ao espaço aéreo em que ela tipicamente opera. Ela cobre os órgãos ATS que aparecem na operação da rede — os três de controle e os dois que **não** controlam. Quando um órgão se subdivide internamente, a coluna "Posição interna" registra qual função está em jogo, usando os mesmos três nomes do Art. 686 da ICA 100-37[^1]; a coluna fica vazia nas demais linhas porque a ICA 100-37 nomeia posições internas apenas para a TWR (Art. 509)[^1] — para os outros órgãos ela fala genericamente em "posições de controle" e em "setores de controle" de um mesmo órgão, sem nomeá-los (Art. 852)[^1]. Note que "Torre de Controle de Aeródromo (TWR)" se repete em três linhas: é o mesmo órgão nas três, não três órgãos diferentes.
+A tabela abaixo relaciona cada órgão ATS tratado neste capítulo — os três de controle e os dois que **não** controlam — ao espaço aéreo em que ele tipicamente opera e à posição da rede que lhe corresponde, quando há uma: o Centro de Informação de Voo não tem posição própria, e a coluna registra isso na sua linha. Quando um órgão se subdivide internamente, a coluna "Posição interna" indica qual função está em jogo, com os nomes que o Art. 686 da ICA 100-37 usa para as três posições que o Art. 509 da mesma Instrução institui: o Art. 509 as descreve — "posição controle TWR", "posição controle solo" e "posição autorização de tráfego" — e o Art. 686 as chama pelo nome, na ordem de precedência para a autorização do Plano de Voo: "Autorização de Tráfego", "Controle de Solo" e "Torre de Controle"[^1]. São as mesmas três posições em ambos os artigos. A coluna fica vazia nas demais linhas porque a ICA 100-37 nomeia posições internas apenas para a TWR — para os outros órgãos ela fala genericamente em "posições de controle" e em "setores de controle" de um mesmo órgão, sem nomeá-los (Art. 852)[^1]. Note que "Torre de Controle de Aeródromo (TWR)" se repete em três linhas: é o mesmo órgão nas três, não três órgãos diferentes.
 
 | Órgão ATS | Posição interna | Posição VATSIM | Espaço aéreo típico | Serviço prestado |
 | --- | --- | --- | --- | --- |
@@ -45,9 +45,11 @@ A tabela abaixo relaciona cada órgão à posição VATSIM correspondente e ao e
 | Torre de Controle de Aeródromo (TWR) | Controle de Solo | `_GND` | Área de manobras | Controle de aeródromo |
 | Torre de Controle de Aeródromo (TWR) | Autorização de Tráfego | `_DEL` | Pátio | Controle de aeródromo |
 | Órgão ATS identificado como "RÁDIO" (AFIS) | — | `_R_TWR` | FIZ, ou Classe G nas imediações do aeródromo | Informação de voo e alerta — **sem controle** |
-| Órgão de informação de voo (FIC) | — | sem posição própria na rede | FIR fora do espaço aéreo controlado | Informação de voo e alerta — **sem controle** |
+| Órgão de informação de voo (FIC) | — | sem posição própria na rede | FIR fora do espaço aéreo controlado† | Informação de voo e alerta — **sem controle** |
 
 \* **A CTR aparece em duas linhas de propósito.** Qual dos dois órgãos tem jurisdição sobre uma CTR varia por localidade: o Art. 34 da ICA 100-37 admite que o Serviço de Controle de Aproximação seja prestado por um APP ou por um ACC ou TWR ao qual tenha sido delegada a atribuição[^1] — e é essa delegação, publicada por aeródromo, que decide o caso. Isso não contraria o Art. 37, citado na seção seguinte: em cada CTR concreta, **um só** dos dois a tem. Qual deles, naquele aeródromo, está na AIP-Brasil e na seção **Manuais Operacionais** do portal.
+
+† **Esta célula é leitura deste manual, não texto de norma.** A ICA 100-37 nomeia o Centro de Informação de Voo – FIC (Arts. 758 e 856-A)[^1], mas em nenhum momento delimita o espaço aéreo sob sua responsabilidade, como faz para o ACC, o APP e a TWR. O valor da célula é inferência a partir de três dispositivos da própria Instrução: o Art. 15, para o qual "Regiões de Informação de Voo são as partes do espaço aéreo onde são providos os Serviços de Informação de Voo e de Alerta"[^1]; o Art. 38, que atribui esses dois serviços ao "órgão ATS que tenha jurisdição no espaço aéreo considerado"[^1]; e o Art. 37, segundo o qual "somente um órgão de controle de tráfego aéreo terá jurisdição sobre um determinado espaço aéreo"[^1] — donde a porção da FIR que sobra fora das áreas e zonas de controle. Onde há órgão de controle, é ele quem presta também informação de voo e alerta, pelo mesmo Art. 38.
 
 **As duas últimas linhas são os órgãos que não controlam**, e é por isso que estão aqui: um controlador que assume uma delas precisa saber que a autoridade que ela carrega é diferente.
 
@@ -78,7 +80,7 @@ Vale repetir: isso é conveniência operacional da simulação, não uma regra d
 
 ## Transferência entre órgãos
 
-Um voo completo passa, tipicamente, por todas as posições da tabela, na ordem em que a ICA 100-37 regula a coordenação entre elas — para a partida, da Autorização de Tráfego até o Centro de Controle de Área; para a chegada, o caminho inverso.
+Um voo completo passa, tipicamente, por todas as **posições de controle** da tabela — as cinco primeiras linhas —, na ordem em que a ICA 100-37 regula a coordenação entre elas: para a partida, da Autorização de Tráfego até o Centro de Controle de Área; para a chegada, o caminho inverso. As duas últimas linhas, que não controlam, ficam fora dessa cadeia.
 
 Na partida, o piloto chama a Autorização de Tráfego, o Controle de Solo ou a Torre de Controle "na ordem de precedência apresentada", para a autorização do Plano de Voo (Art. 686 da ICA 100-37)[^1]; obtida essa autorização, chama a posição Controle de Solo ou Torre de Controle, "nesta ordem de precedência", para as autorizações de push-back, acionamento dos motores e início do táxi (Art. 687 da ICA 100-37)[^1]. Depois da decolagem, o Art. 849 da ICA 100-37 manda transferir o controle da TWR ao APP "imediatamente após a decolagem" ou, quando isso não ocorrer antes, "antes que [as aeronaves] entrem em condições meteorológicas de voo por instrumentos"[^1]. Do APP para o ACC, o Art. 840 da ICA 100-37 fixa a transferência das aeronaves que partem ao cruzarem o limite lateral ou vertical da TMA, ou num ponto e horário previamente acordados entre os órgãos[^1].
 
@@ -146,7 +148,7 @@ Só na chegada, a própria ICA 100-37 prevê um atalho: voos VFR podem ser trans
   <path class="or-arw" d="M 420 120 L 438 120"/>
   <path class="or-arw" d="M 560 120 L 578 120"/>
 </svg>
-<figcaption>Encadeamento normal de um voo IFR entre os órgãos de <strong>controle</strong>. A cobertura <em>top-down</em> percorre o sentido inverso: a posição superior responde pelo espaço aéreo das inferiores que não estiverem conectadas. As posições que não controlam — RÁDIO (AFIS) e informação de voo — ficam fora do diagrama de propósito: elas não recebem nem transferem controle, porque não há controle a transferir. Um voo que sai de um aeródromo com AFIS entra na cadeia no elo do órgão de controle que tiver jurisdição sobre o espaço aéreo à frente, não na TWR.</figcaption>
+<figcaption>Encadeamento normal de um voo IFR entre os órgãos de <strong>controle</strong>. A cobertura <em>top-down</em> percorre o sentido inverso: a posição superior responde pelo espaço aéreo das inferiores que não estiverem conectadas. As posições que não controlam — RÁDIO (AFIS) e informação de voo — ficam fora do diagrama de propósito: elas não recebem nem transferem controle, porque não há controle a transferir. Segue-se daí, como leitura deste manual e não como texto de norma, que um voo saindo de um aeródromo com AFIS entra na cadeia no elo do órgão de controle que tiver jurisdição sobre o espaço aéreo à frente, e não na TWR — ali não há TWR, e o órgão RÁDIO nada tem a transferir.</figcaption>
 </figure>
 
 !!! tip "Na rede (Vatbrz)"
