@@ -31,7 +31,7 @@ Este manual cobre:
 
 - a estrutura vertical e horizontal do espaço aéreo brasileiro: FIR, UTA, CTA, TMA, CTR e ATZ;
 - as classes de espaço aéreo utilizadas no Brasil e as regras de serviço, separação e comunicação associadas a cada uma;
-- os serviços de tráfego aéreo — controle, informação de voo e alerta — e em que porção do espaço aéreo cada um se aplica;
+- os serviços de tráfego aéreo — controle, informação de voo, alerta e assessoramento de tráfego aéreo — e em que porção do espaço aéreo cada um se aplica;
 - os órgãos ATS e as posições operacionais correspondentes na Vatsim Brasil;
 - as regras de voo (VFR e IFR) e os níveis de voo utilizados na rede.
 
