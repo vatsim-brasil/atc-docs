@@ -35,17 +35,17 @@ As três são posições de um único órgão — a TWR —, não três órgãos
 
 ## Tabela de correspondência
 
-A tabela abaixo relaciona cada órgão — ou posição interna de um órgão, no caso de Controle de Solo e Autorização de Tráfego — à posição VATSIM correspondente e ao espaço aéreo em que ela tipicamente opera.
+A tabela abaixo relaciona cada órgão à posição VATSIM correspondente e ao espaço aéreo em que ela tipicamente opera. Quando um órgão se subdivide internamente — só a TWR faz isso, pelo Art. 509 da ICA 100-37 já citado[^1] —, a coluna "Posição interna" registra qual das três funções está em jogo, usando os mesmos três nomes do Art. 686 da ICA 100-37[^1]; ACC e APP, que a ICA 100-37 não subdivide, não preenchem essa coluna. Note que "Torre de Controle de Aeródromo (TWR)" se repete nas três últimas linhas: é o mesmo órgão nas três, não três órgãos diferentes.
 
-| Órgão ATS | Posição VATSIM | Espaço aéreo típico | Serviço prestado |
-| --- | --- | --- | --- |
-| Centro de Controle de Área (ACC) | `_CTR` | CTA, UTA e demais porções da FIR | Controle de área |
-| Controle de Aproximação (APP) | `_APP` | TMA e CTR | Controle de aproximação |
-| Torre de Controle (TWR) | `_TWR` | ATZ e CTR | Controle de aeródromo |
-| Controle de Solo | `_GND` | Área de manobras | Controle de aeródromo |
-| Autorização de Tráfego | `_DEL` | Pátio | Controle de aeródromo |
+| Órgão ATS | Posição interna | Posição VATSIM | Espaço aéreo típico | Serviço prestado |
+| --- | --- | --- | --- | --- |
+| Centro de Controle de Área (ACC) | — | `_CTR` | CTA, UTA e demais porções da FIR | Controle de área |
+| Controle de Aproximação (APP) | — | `_APP` | TMA e CTR | Controle de aproximação |
+| Torre de Controle de Aeródromo (TWR) | Torre de Controle | `_TWR` | ATZ e CTR | Controle de aeródromo |
+| Torre de Controle de Aeródromo (TWR) | Controle de Solo | `_GND` | Área de manobras | Controle de aeródromo |
+| Torre de Controle de Aeródromo (TWR) | Autorização de Tráfego | `_DEL` | Pátio | Controle de aeródromo |
 
-A coluna "espaço aéreo típico" mistura dois registros que vale separar. Para ACC, APP e TWR, ela indica jurisdição sobre espaço aéreo tal como a ICA 100-37 e a ICA 100-12 o definem: CTA e UTA são espécies de Área de Controle, na divisão que o Art. 17 da ICA 100-37 estabelece[^1]; CTR é, segundo o Anexo VII da ICA 100-12, o "espaço aéreo controlado que se estende do solo até um limite superior especificado"[^2]; e ATZ é o entorno de aeródromo com "requisitos especiais para proteção do tráfego", conforme o Art. 19 da ICA 100-37[^1] — todos já tratados no capítulo 1. Para Controle de Solo e Autorização de Tráfego, ela indica a área física do aeródromo onde essas duas posições da TWR costumam operar: a Área de Manobras, definida pelo Anexo VII da ICA 100-12 como "parte do aeródromo destinada ao pouso, decolagem e táxi de aeronaves, excluídos os pátios"[^2], é a jurisdição do Controle de Solo — mas somente "com exceção das pistas", segundo o Art. 509 da ICA 100-37[^1], que continuam com a posição TWR; e o Pátio, que o mesmo Anexo VII da ICA 100-12 define como "área definida (...) destinada a abrigar as aeronaves para fins de embarque ou desembarque de passageiros, carga ou descarga, reabastecimento, estacionamento ou manutenção"[^2], é onde a Autorização de Tráfego normalmente fala com a aeronave, antes de esta solicitar push-back ou táxi.
+A coluna "espaço aéreo típico" ainda mistura dois registros que vale separar. Para o ACC, o APP e a linha "Torre de Controle" da TWR, ela indica jurisdição sobre espaço aéreo tal como a ICA 100-37 e a ICA 100-12 o definem: CTA e UTA são espécies de Área de Controle, na divisão que o Art. 17 da ICA 100-37 estabelece[^1]; CTR é, segundo o Anexo VII da ICA 100-12, o "espaço aéreo controlado que se estende do solo até um limite superior especificado"[^2]; e ATZ é o entorno de aeródromo com "requisitos especiais para proteção do tráfego", conforme o Art. 19 da ICA 100-37[^1] — todos já tratados no capítulo 1. Para as linhas "Controle de Solo" e "Autorização de Tráfego" — as outras duas posições internas da mesma TWR —, ela indica a área física do aeródromo onde cada uma costuma operar: a Área de Manobras, definida pelo Anexo VII da ICA 100-12 como "parte do aeródromo destinada ao pouso, decolagem e táxi de aeronaves, excluídos os pátios"[^2], é a jurisdição do Controle de Solo — mas somente "com exceção das pistas", segundo o Art. 509 da ICA 100-37[^1], que continuam com a posição Torre de Controle; e o Pátio, que o mesmo Anexo VII da ICA 100-12 define como "área definida (...) destinada a abrigar as aeronaves para fins de embarque ou desembarque de passageiros, carga ou descarga, reabastecimento, estacionamento ou manutenção"[^2], é onde a Autorização de Tráfego normalmente fala com a aeronave, antes de esta solicitar push-back ou táxi.
 
 ## Jurisdição
 
@@ -71,7 +71,7 @@ Na partida, o piloto chama a Autorização de Tráfego, o Controle de Solo ou a 
 
 Na chegada, a cadeia se percorre ao contrário. O Art. 839 da ICA 100-37 fixa a transferência do ACC ao APP ao cruzar o limite lateral ou vertical da TMA, ou em ponto acordado entre os órgãos[^1]; o Art. 844 da ICA 100-37 mantém o controle com o APP "até que [as aeronaves] sejam transferidas à TWR e estejam em comunicação com a mesma"[^1], transferência que, pelo Art. 848 da ICA 100-37, ocorre quando a aeronave estiver "nas vizinhanças do aeródromo" em condições de completar a aproximação e o pouso por referência visual, ou já tiver pousado[^1]; e, dentro da própria TWR, o Art. 853 da ICA 100-37 passa a aeronave da posição Torre para o Controle de Solo depois de esta "receber da 'Torre' a hora de pouso, autorização para deixar a pista em uso"[^1]. A coordenação entre posições de um mesmo órgão segue regra própria, à parte da coordenação entre órgãos distintos, conforme o Art. 852 da ICA 100-37[^1].
 
-A cadeia tem um atalho previsto pela própria ICA 100-37: voos VFR podem ser transferidos diretamente entre ACC e TWR, sem passar pelo APP, desde que em coordenação com este (Art. 839, parágrafo único, e Art. 848, parágrafo único, ambos da ICA 100-37)[^1] — o encadeamento descrito acima é o percurso típico, não uma obrigação de passar por todo elo em toda circunstância.
+Só na chegada, a própria ICA 100-37 prevê um atalho: voos VFR podem ser transferidos diretamente entre ACC e TWR, sem passar pelo APP, desde que em coordenação com este — é o que dizem, cada um em sua Subseção, o parágrafo único do Art. 839 e o parágrafo único do Art. 848, ambos da ICA 100-37[^1]. Não há dispositivo equivalente para a partida: nem o Art. 840 nem o Art. 849 da ICA 100-37 trazem parágrafo com esse atalho[^1] — na partida, a cadeia completa, elo por elo, é a regra, sem a exceção que a chegada admite. O encadeamento descrito acima é, portanto, o percurso típico; o desvio documentado é só o da chegada VFR.
 
 ### Cadeia de transferência, em um olhar
 
