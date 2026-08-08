@@ -64,8 +64,6 @@ Não há voo VFR em Classe A. Como todos os voos ali são IFR e todos são separ
 - os **voos IFR são separados de outros voos IFR** e recebem informação de tráfego em relação aos voos VFR e, ainda, aviso para evitar tráfego, quando solicitado pelo piloto;
 - os **voos VFR recebem apenas informação de tráfego** em relação a todos os outros voos e aviso para evitar tráfego, quando solicitado pelo piloto.
 
-<!-- REVISAR: o "apenas" da alínea d do inciso IV do Art. 21 (ICA 100-37) admite leitura ambígua. Foi lido aqui como restringindo o que o voo VFR recebe em matéria de separação e informação — e não como afastando o Serviço de Controle de Tráfego Aéreo, que a alínea b do mesmo inciso proporciona a todos os voos, que o Art. 29, II da mesma ICA confirma para Classes B, C e D, e que o Anexo II lista expressamente na linha "D / VFR". Confirmar a leitura na revisão técnica. -->
-
 Ponto de atenção: em Classe D o voo VFR **continua sendo um voo controlado** — recebe o Serviço de Controle de Tráfego Aéreo (alínea b do inciso IV), consta assim no Anexo II e está entre os voos VFR listados no Art. 29, II da ICA 100-37[^1]. O que ele **não** recebe é separação: nem de IFR, nem de outro VFR. O "apenas" da alínea d se refere ao que ele recebe em matéria de separação e informação, não à existência do serviço de controle.
 
 ### Classe E
@@ -83,8 +81,6 @@ A Classe E é a fronteira: o IFR é controlado e separado de outros IFR; o VFR n
 - **todos os voos recebem Serviço de Informação de Voo, quando solicitado pelo piloto**.
 
 Não há Serviço de Controle de Tráfego Aéreo em Classe F. O Anexo II registra a separação da classe como "IFR de IFR, **quando possível**"[^1] — e o Art. 779 da ICA 100-37 explica por quê: o Serviço de Assessoramento de Tráfego Aéreo "não proporciona o mesmo grau de segurança nem pode assumir as mesmas responsabilidades que o Serviço de Controle de Tráfego Aéreo, com respeito à prevenção de colisões, haja vista que as informações relativas ao tráfego nessa área de que dispõe o órgão ATS podem ser incompletas"[^1]. O inciso I do Art. 780 acrescenta que, nesse serviço, o Plano de Voo e suas mudanças não estão sujeitos a autorizações, "uma vez que o órgão ATS só proporcionará assessoramento por meio de informações de tráfego e avisos para evitar tráfego"[^1].
-
-<!-- REVISAR: divergência de redação entre a alínea c do inciso VI do Art. 21 e o Anexo II, ambos da ICA 100-37. O Art. 21 condiciona o Serviço de Informação de Voo na Classe F a "quando solicitado pelo piloto" para todos os voos; o Anexo II repete a condição na linha "F / VFR" ("Serviço de Informação de Voo, quando solicitado"), mas a omite na linha "F / IFR" ("2) Serviço de Informação de Voo."). A tabela deste capítulo reproduz o Anexo II literalmente. Confirmar na revisão técnica qual redação prevalece para o voo IFR em Classe F. -->
 
 ### Classe G
 
@@ -118,6 +114,7 @@ Notas de leitura da tabela:
 
 - No Anexo II, várias células são unificadas entre as linhas IFR e VFR de uma mesma classe. Aqui elas foram repetidas nas duas linhas para leitura direta — é o caso, por exemplo, da separação e dos serviços nas Classes B e G, do limite de velocidade nas Classes E, F e G e da coluna de autorização ATC nas Classes B, C, F e G.
 - As colunas de radiocomunicação e autorização ATC da linha **D / VFR** são a continuação de células que o Anexo II encerra na quebra de página. A leitura adotada — bilateral contínua e sujeito a autorização ATC — é confirmada por duas normas independentes da ICA 100-12: o Art. 111, segundo o qual "para a realização de voos VFR nos espaços aéreos Classes B, C e D, as aeronaves devem dispor de meios para estabelecer comunicações em radiotelefonia com o órgão ATC apropriado"[^2]; e o Art. 115, que retira da sujeição à autorização ATC apenas os voos VFR nas Classes E, F e G[^2].
+- Na Classe F há uma divergência de redação dentro da própria ICA 100-37. Na linha **F / VFR** o Anexo II registra "Serviço de Informação de Voo, **quando solicitado**"; na linha **F / IFR** escreve apenas "Serviço de Informação de Voo", sem a condição. Já a alínea *c* do inciso VI do Art. 21 enuncia o serviço para **todos** os voos da classe "quando solicitado pelo piloto"[^1]. A tabela acima reproduz o Anexo II como está; a seção da Classe F, acima, segue o Art. 21.
 - Na Classe G, o Anexo II registra o limite como "250 kt IAS abaixo de 3.050 m", sem a conversão em pés que acompanha as demais classes. São os mesmos 10.000 pés AMSL.
 - "Bilateral contínua", na coluna de radiocomunicação, significa comunicação bilateral contínua com o órgão ATC apropriado.
 
@@ -257,7 +254,7 @@ Por isso o Art. 28 da ICA 100-37, ao listar os Serviços de Tráfego Aéreo, nã
   <rect class="cl-cell" x="320" y="210" width="34" height="34" rx="4"/>
   <rect class="cl-off" x="329" y="225" width="16" height="4" rx="2"/>
   <rect class="cl-cell" x="380" y="210" width="34" height="34" rx="4"/>
-  <circle class="cl-on" cx="397" cy="227" r="9"/>
+  <polygon class="cl-part" points="397,218 406,234 388,234"/>
   <rect class="cl-cell" x="440" y="210" width="34" height="34" rx="4"/>
   <circle class="cl-on" cx="457" cy="227" r="9"/>
   <rect class="cl-cell" x="500" y="210" width="34" height="34" rx="4"/>
@@ -269,13 +266,13 @@ Por isso o Art. 28 da ICA 100-37, ao listar os Serviços de Tráfego Aéreo, nã
 
   <circle class="cl-on" cx="26" cy="266" r="6"/>
   <text class="cl-key" x="38" y="270">Aplica-se integralmente</text>
-  <polygon class="cl-part" points="206,260 212,270 200,270"/>
-  <text class="cl-key" x="218" y="270">Aplica-se sob condição</text>
-  <rect class="cl-off" x="388" y="264" width="14" height="4" rx="2"/>
-  <text class="cl-key" x="408" y="270">Não se aplica</text>
+  <polygon class="cl-part" points="196,260 202,270 190,270"/>
+  <text class="cl-key" x="208" y="270">Aplica-se em parte ou sob condição</text>
+  <rect class="cl-off" x="452" y="264" width="14" height="4" rx="2"/>
+  <text class="cl-key" x="472" y="270">Não se aplica</text>
   <text class="cl-key" x="20" y="290">Voos IFR são permitidos nas sete classes.</text>
 </svg>
-<figcaption>Verde: aplica-se integralmente. Âmbar: aplica-se parcialmente ou sob condição. Cinza: não se aplica. A redação normativa completa está no Art. 21 da ICA 100-37. Nas Classes A e B o Art. 21 não prevê informação de tráfego como serviço da classe, porque todos os voos são separados entre si; nas Classes F e G ela chega de forma condicionada, pelo Serviço de Assessoramento de Tráfego Aéreo ou pelo Serviço de Informação de Voo.</figcaption>
+<figcaption>Verde: aplica-se integralmente, a todos os voos da classe. Âmbar: aplica-se apenas a parte dos voos, ou sob condição. Cinza: não se aplica. A redação normativa completa está no Art. 21 da ICA 100-37. Na linha de informação de tráfego: nas Classes A e B o Art. 21 não a prevê como serviço da classe, porque todos os voos são separados entre si; na Classe C ela alcança apenas os voos VFR, e apenas em relação a outros voos VFR; nas Classes F e G chega de forma condicionada, pelo Serviço de Assessoramento de Tráfego Aéreo ou pelo Serviço de Informação de Voo.</figcaption>
 </figure>
 
 !!! tip "Na rede (Vatbrz)"
