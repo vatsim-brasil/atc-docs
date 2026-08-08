@@ -1,7 +1,7 @@
 # Manual de Espaço Aéreo e Serviços ATS — Handoff
 
 **Data:** 08/08/2026
-**Branch:** `develop` · 30 commits a partir de `5a7a852`
+**Branch:** `develop` · 44 commits a partir de `5a7a852`
 **Status:** pronto para revisão técnica por controlador. **Não pronto para publicar.**
 
 ---
@@ -64,26 +64,24 @@ Ambas em conflitos internos do plano, onde o plano se contradizia. Nos dois caso
 
 ---
 
-## Achados deixados em aberto
+## Achados em aberto
 
-O processo permite uma única leva de correção após a revisão final. Estes dois entraram depois dela e são de baixo risco — correção de uma frase cada:
+**Nenhum.** Os dois que estavam aqui — a frase sobre "todas as posições da tabela" no cap. 04 e o estreitamento do Art. 29 no cap. 03 — foram corrigidos, junto com os demais achados diferidos ao longo do trabalho.
 
-- **`04-orgaos.pt.md:81`** — "Um voo completo passa, tipicamente, por todas as posições da tabela" não foi atualizado quando as linhas RÁDIO e FIC entraram na tabela. A legenda do diagrama, na mesma seção, já diz que essas unidades ficam fora da cadeia. Sugestão: "todas as posições **de controle** da tabela".
-- **`03-servicos.pt.md:99`** — estreita o Art. 29 para "apenas nas classes ali listadas", mas os incisos III e IV não são atrelados a classe, e uma ATZ não tem classe. Erra para o lado conservador: não autoriza instrução inválida.
-
-**Correção a um relatório interno:** o relatório da leva de correção afirma que ARCC, AIRAC, SIGMET e AIRMET aparecem literalmente nas fontes. **AIRAC não aparece em nenhuma das duas.** A expansão está correta (terminologia AIP/OACI) e não é contradita pelo manual, mas a evidência citada está errada para essa sigla.
+Uma ressalva de rastreabilidade: no glossário global, as expansões de **AIRAC, ARCC, SIGMET e AIRMET** não aparecem literalmente nas fontes admitidas. São terminologia AIP/OACI corrente, nenhuma é contradita pelo manual, e as siglas são de fato usadas no texto — mas, ao contrário de `IAC`, que sai do Art. 477 da ICA 100-37, essas quatro não têm respaldo citável. Uma expansão sem fonte foi removida por esse motivo (`UTA`), porque contradizia o próprio capítulo 01; estas quatro ficaram por não contradizerem nada. Se preferir o rigor estrito, remova as quatro.
 
 ---
 
 ## Correções colaterais no portal
 
-Três defeitos pré-existentes apareceram durante o trabalho e foram corrigidos:
+Quatro defeitos pré-existentes apareceram durante o trabalho e foram corrigidos:
 
 1. **`<figure markdown>` quebrava SVG inline.** O atributo `markdown` faz o Python-Markdown envolver a tag de abertura do SVG num `<p>`, e o elemento fecha cedo — diagrama some. Confirmado com zero filhos de `<svg>` no Chromium. Corrigido nos capítulos 01 e 02, e o padrão foi removido do plano. **Se outros manuais usarem `<figure markdown>` com SVG inline, têm o mesmo problema.**
 2. **Glossário definia TMA errado.** `includes/abreviacoes.md` expandia TMA como "Área de Manobras Terminais / Terminal Maneuvering Area" — a forma europeia. A ICA 100-12, Anexo VII, item L diz **"Área de Controle Terminal (Terminal Control Area)"**. O tooltip errado aparecia em toda página do portal que cita TMA. Corrigido.
 3. **Siglas ausentes.** Acrescentadas ao glossário global: ATZ, CTA, ACC, EAC, AMSL, QNH, QNE, RVSM, IAS, OACI, IAC, ARCC, AIRAC, SIGMET, AIRMET. Beneficia os manuais existentes também.
+4. **Erro de digitação no glossário.** `includes/abreviacoes.md` lia `*[AUTH]: Autorizdo / Cleared`. Corrigido.
 
-Também notado, **não corrigido** (pré-existente, fora do escopo): `includes/abreviacoes.md` linha 47 lê `*[AUTH]: Autorizdo / Cleared` — provável erro de digitação de "Autorizado".
+Os dois manuais irmãos ganharam um link de volta para cá — o de Fraseologia para Voo Visual aponta para o capítulo de serviços, o de Circuito de Tráfego para a definição de ATZ —, cada um no idioma de admonition que ele já usa.
 
 ---
 
