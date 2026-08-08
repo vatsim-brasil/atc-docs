@@ -28,18 +28,19 @@ Fontes normativas: **ICA 100-37** (em vigor 27/11/2025) e **ICA 100-12** (ed. 28
 
 ## Pendências antes do merge
 
-### 1. As sete imagens de cabeçalho não existem
+### 1. ~~As sete imagens de cabeçalho não existem~~ — resolvido, mas confira
 
-Não consigo reproduzir o template gráfico do portal. As referências já estão no lugar certo em cada capítulo — basta depositar os arquivos com estes nomes exatos em `docs/documentos/manuais/espaco-aereo-servicos-ats/img/`, sem editar Markdown:
+As sete imagens foram geradas e estão em `docs/documentos/manuais/espaco-aereo-servicos-ats/img/`. Os 14 warnings de build sumiram: de 20 warnings o build caiu para 6, todos pré-existentes e alheios a este trabalho.
 
-```
-manual-espaco-aereo-intro.png       manual-espaco-aereo-orgaos.png
-manual-espaco-aereo-estrutura.png   manual-espaco-aereo-regras.png
-manual-espaco-aereo-classes.png     manual-espaco-aereo-checklist.png
-manual-espaco-aereo-servicos.png
-```
+Foram reproduzidas a partir do próprio template, não desenhadas de novo:
 
-Os 14 warnings de build (7 imagens × 2 locales) somem quando os arquivos entrarem.
+- **Chapa de fundo** extraída dos sete banners do Manual de Fraseologia para Voo Visual — o manual mais recente e o único conjunto sem foto de fundo. Tirando o mínimo por pixel entre os sete, o texto branco desaparece e sobram o gradiente e o wordmark, este último idêntico nos sete (variação zero, conferida). A região onde todos os sete têm texto sobreposto foi reconstruída por inpainting harmônico; as descontinuidades nas bordas ficaram em 0,11–0,19 de 255, contra 0,03 da variação natural do gradiente — invisíveis.
+- **Tipografia:** Ubuntu Sans, a fonte declarada no `mkdocs.yml`. Sobretítulo em weight 700, corpo 42; título em weight 100, corpo 93. Os valores saíram de medir a caixa de tinta do banner original e casar a largura — no corpo 93 o título original bate em 1.088 px contra 1.094 medidos. O peso 100 foi confirmado por erro de pixel contra o original, depois de o Ubuntu Light clássico sair visivelmente mais pesado.
+- **Layout:** sobretítulo com topo de caixa alta em y=34, título em y=84, ambos a partir de x≈104, replicando o original.
+
+Convenção do portfólio, seguida aqui: na abertura o sobretítulo é "Manuais" e o título é o nome do manual; nos capítulos o sobretítulo é o nome do manual e o título é o nome do capítulo.
+
+**O que ainda quero que você olhe:** o conjunto de meteorologia usa fotografia de fundo temática, o de fraseologia VFR usa só gradiente. Segui o segundo por não ter foto licenciada para usar. Se o padrão da casa for foto, as sete precisam ser refeitas — o texto e o posicionamento continuam válidos, muda só a chapa.
 
 ### 2. Revisão técnica por controlador — obrigatória
 
@@ -108,7 +109,6 @@ Cada um é candidato a manual próprio. Na ordem que eu sugeriria: **vetoração
 
 - `specs/2026-08-07-espaco-aereo-servicos-ats-design.md` — spec de design
 - `specs/2026-08-07-espaco-aereo-servicos-ats-plan.md` — plano de implementação em 9 tarefas
-- `specs/2026-08-07-espaco-aereo-servicos-ats-imagens-pendentes.md` — registro das imagens pendentes
 - Este handoff
 
 Nenhum deles é servido pelo MkDocs: `specs/` está fora de `docs/`.
