@@ -55,7 +55,7 @@ O Serviço de Assessoramento de Tráfego Aéreo é o quarto serviço, e o capít
 
 O que este capítulo acrescenta é o que a Classe F já sinaliza: trata-se de uma medida transitória. O § 2° do Art. 21 da ICA 100-37 classifica a utilização do Serviço de Assessoramento de Tráfego Aéreo como "uma medida temporária até o momento em que puder ser substituída pelo Serviço de Controle de Tráfego Aéreo"[^1] — é por isso, inclusive, que o Art. 28, ao dividir os Serviços de Tráfego Aéreo na seção anterior deste capítulo, não o inclui.
 
-Para o detalhamento de a quem se presta, o que garante e a divergência de redação sobre a condição "quando solicitado" na Classe F, ver [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
+Para o detalhamento de a quem se presta, o que garante e a divergência de redação sobre a condição "quando solicitado" na Classe F — e como este manual a resolve —, ver [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
 
 ## Qual serviço em qual classe
 
@@ -68,10 +68,10 @@ A tabela abaixo cruza os quatro serviços com as sete classes de espaço aéreo.
 | **C** | Sim | Sim | Não | Sim |
 | **D** | Sim | Sim | Não | Sim |
 | **E** | Sim, somente para o IFR | Sim — e é o serviço que o Anexo II atribui ao voo VFR da classe | Não | Sim |
-| **F** | Não | Sim — o Anexo II o atribui aos dois tipos de voo, com a condição "quando solicitado" apenas na linha VFR\* | Sim, somente para o IFR | Sim |
+| **F** | Não | Sim — a todos os voos da classe, IFR e VFR, quando solicitado pelo piloto\* | Sim, somente para o IFR | Sim |
 | **G** | Não | Sim — o Anexo II o atribui aos dois tipos de voo, "quando possível e solicitado pelo piloto" | Não | Sim |
 
-\* Na Classe F, a alínea *c* do inciso VI do Art. 21 da ICA 100-37 enuncia o Serviço de Informação de Voo para **todos** os voos da classe "quando solicitado pelo piloto", enquanto o Anexo II registra a condição apenas na linha VFR[^1]. É uma divergência de redação dentro da própria Instrução, registrada e não resolvida em [Classes de Espaço Aéreo](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37) — esta tabela também não a resolve.
+\* Na Classe F, o Serviço de Informação de Voo é prestado a qualquer voo que o solicite, IFR ou VFR: a alínea *c* do inciso VI do Art. 21 da ICA 100-37 o enuncia para **todos** os voos da classe "quando solicitado pelo piloto"[^1]. O Anexo II da mesma Instrução registra essa condição apenas na linha VFR e a omite na linha IFR[^1] — divergência de redação que este manual resolve pelo Art. 21, com os fundamentos expostos em [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
 
 Notas de leitura da tabela:
 

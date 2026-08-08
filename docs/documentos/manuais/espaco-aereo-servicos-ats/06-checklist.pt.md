@@ -34,7 +34,7 @@ Tabela derivada da matriz de classes do Art. 21 da ICA 100-37 e do Anexo II, já
 
 As colunas "Exijo autorização ATC" e "Exijo radiocomunicação" reproduzem as duas últimas colunas do Anexo II da ICA 100-37, condensando as linhas IFR e VFR de cada classe em uma só. Onde as duas linhas divergem — Classes E, F e G —, a divergência está explicitada na célula. Ver as notas de leitura do [capítulo de Classes de Espaço Aéreo](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37), em especial a que trata da linha **D / VFR**.
 
-\* Na Classe F, o Anexo II da ICA 100-37 só registra a condição "quando solicitado" na linha do VFR; a linha do IFR aparece sem essa condição. O Art. 21, VI, *c*, da mesma Instrução estende a condição a todos os voos da classe. Ver [capítulo de Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
+\* Na Classe F vale para os dois tipos de voo: o Art. 21, VI, *c*, da ICA 100-37 enuncia o Serviço de Informação de Voo para **todos** os voos da classe, "quando solicitado pelo piloto". O Anexo II da mesma Instrução registra essa condição só na linha do VFR e a omite na linha do IFR; é divergência de redação, resolvida pelo Art. 21. Ver [capítulo de Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
 
 ## Mínimos VMC de bolso
 
