@@ -35,21 +35,34 @@ As três são posições de um único órgão — a TWR —, não três órgãos
 
 ## Tabela de correspondência
 
-A tabela abaixo relaciona cada órgão à posição VATSIM correspondente e ao espaço aéreo em que ela tipicamente opera. Quando um órgão se subdivide internamente — só a TWR faz isso, pelo Art. 509 da ICA 100-37 já citado[^1] —, a coluna "Posição interna" registra qual das três funções está em jogo, usando os mesmos três nomes do Art. 686 da ICA 100-37[^1]; ACC e APP, que a ICA 100-37 não subdivide, não preenchem essa coluna. Note que "Torre de Controle de Aeródromo (TWR)" se repete nas três últimas linhas: é o mesmo órgão nas três, não três órgãos diferentes.
+A tabela abaixo relaciona cada órgão à posição VATSIM correspondente e ao espaço aéreo em que ela tipicamente opera. Ela cobre os órgãos ATS que aparecem na operação da rede — os três de controle e os dois que **não** controlam. Quando um órgão se subdivide internamente, a coluna "Posição interna" registra qual função está em jogo, usando os mesmos três nomes do Art. 686 da ICA 100-37[^1]; a coluna fica vazia nas demais linhas porque a ICA 100-37 nomeia posições internas apenas para a TWR (Art. 509)[^1] — para os outros órgãos ela fala genericamente em "posições de controle" e em "setores de controle" de um mesmo órgão, sem nomeá-los (Art. 852)[^1]. Note que "Torre de Controle de Aeródromo (TWR)" se repete em três linhas: é o mesmo órgão nas três, não três órgãos diferentes.
 
 | Órgão ATS | Posição interna | Posição VATSIM | Espaço aéreo típico | Serviço prestado |
 | --- | --- | --- | --- | --- |
 | Centro de Controle de Área (ACC) | — | `_CTR` | CTA, UTA e demais porções da FIR | Controle de área |
-| Controle de Aproximação (APP) | — | `_APP` | TMA e CTR | Controle de aproximação |
-| Torre de Controle de Aeródromo (TWR) | Torre de Controle | `_TWR` | ATZ e CTR | Controle de aeródromo |
+| Controle de Aproximação (APP) | — | `_APP` | TMA e CTR\* | Controle de aproximação |
+| Torre de Controle de Aeródromo (TWR) | Torre de Controle | `_TWR` | ATZ e CTR\* | Controle de aeródromo |
 | Torre de Controle de Aeródromo (TWR) | Controle de Solo | `_GND` | Área de manobras | Controle de aeródromo |
 | Torre de Controle de Aeródromo (TWR) | Autorização de Tráfego | `_DEL` | Pátio | Controle de aeródromo |
+| Órgão ATS identificado como "RÁDIO" (AFIS) | — | `_R_TWR` | FIZ, ou Classe G nas imediações do aeródromo | Informação de voo e alerta — **sem controle** |
+| Órgão de informação de voo (FIC) | — | sem posição própria na rede | FIR fora do espaço aéreo controlado | Informação de voo e alerta — **sem controle** |
 
-A coluna "espaço aéreo típico" ainda mistura dois registros que vale separar. Para o ACC, o APP e a linha "Torre de Controle" da TWR, ela indica jurisdição sobre espaço aéreo tal como a ICA 100-37 e a ICA 100-12 o definem: CTA e UTA são espécies de Área de Controle, na divisão que o Art. 17 da ICA 100-37 estabelece[^1]; CTR é, segundo o Anexo VII da ICA 100-12, o "espaço aéreo controlado que se estende do solo até um limite superior especificado"[^2]; e ATZ é o entorno de aeródromo com "requisitos especiais para proteção do tráfego", conforme o Art. 19 da ICA 100-37[^1] — todos já tratados no capítulo 1. Para as linhas "Controle de Solo" e "Autorização de Tráfego" — as outras duas posições internas da mesma TWR —, ela indica a área física do aeródromo onde cada uma costuma operar: a Área de Manobras, definida pelo Anexo VII da ICA 100-12 como "parte do aeródromo destinada ao pouso, decolagem e táxi de aeronaves, excluídos os pátios"[^2], é a jurisdição do Controle de Solo — mas somente "com exceção das pistas", segundo o Art. 509 da ICA 100-37[^1], que continuam com a posição Torre de Controle; e o Pátio, que o mesmo Anexo VII da ICA 100-12 define como "área definida (...) destinada a abrigar as aeronaves para fins de embarque ou desembarque de passageiros, carga ou descarga, reabastecimento, estacionamento ou manutenção"[^2], é onde a Autorização de Tráfego normalmente fala com a aeronave, antes de esta solicitar push-back ou táxi.
+\* **A CTR aparece em duas linhas de propósito.** Qual dos dois órgãos tem jurisdição sobre uma CTR varia por localidade: o Art. 34 da ICA 100-37 admite que o Serviço de Controle de Aproximação seja prestado por um APP ou por um ACC ou TWR ao qual tenha sido delegada a atribuição[^1] — e é essa delegação, publicada por aeródromo, que decide o caso. Isso não contraria o Art. 37, citado na seção seguinte: em cada CTR concreta, **um só** dos dois a tem. Qual deles, naquele aeródromo, está na AIP-Brasil e na seção **Manuais Operacionais** do portal.
+
+**As duas últimas linhas são os órgãos que não controlam**, e é por isso que estão aqui: um controlador que assume uma delas precisa saber que a autoridade que ela carrega é diferente.
+
+- O órgão ATS identificado como **"RÁDIO"** é quem normalmente presta o AFIS — o Serviço de Informação de Voo de Aeródromo (Art. 783 da ICA 100-37)[^1]. O parágrafo único do mesmo artigo define exatamente o que ele presta: "Esse órgão ATS presta o Serviço de Informação de Voo e, adicionalmente, o Serviço de Alerta a todo o tráfego em operação na área de movimento do aeródromo e a todas as aeronaves em voo no espaço aéreo Classe G nas imediações do mesmo"[^1]. O AFIS é normalmente prestado dentro de uma Zona de Informação de Voo – FIZ, divulgada na AIP-Brasil (Art. 786)[^1]; onde não houver FIZ publicada, o Art. 787 estende o serviço à área de movimento e a todas as aeronaves em voo em Classe G abaixo do FL 145 e num raio de 27 NM (50 km) do aeródromo[^1]. Na FIZ "não há prestação de Serviço de Controle de Tráfego Aéreo e, por isso, não devem ser esperadas autorizações de controle de tráfego aéreo" (Art. 786, § 1°)[^1]. Na rede Vatbrz, essas posições usam o sufixo `_R_TWR` — o `_R_` é a marca de RÁDIO, e o sufixo `_TWR` é apenas o formato de conexão, não uma Torre de Controle; as páginas de cada aeródromo na seção **Manuais Operacionais** trazem o indicativo e a frequência.
+- O **órgão de informação de voo** é uma categoria própria, e não um tipo de órgão de controle: o Anexo VII da ICA 100-12 define órgão ATS como a "expressão genérica que se aplica, segundo o caso, a um órgão de controle de tráfego aéreo **ou a um órgão de informação de voo**"[^2]. A ICA 100-37 nomeia um desses órgãos ao lado do ACC — o Centro de Informação de Voo – FIC (Arts. 758 e 856-A)[^1]. Na rede Vatbrz não há posição própria para ele: em espaço aéreo fora das áreas de controle, quem responde é o órgão que tiver jurisdição, pelo Art. 38 da ICA 100-37[^1] — na prática, o `_CTR` conectado.
+
+Na fonia, esses dois órgãos são os que o [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/conceitos.pt.md) identifica como **INFORMAÇÃO** e **RÁDIO**, e cuja regra ele resume em uma linha: informam, transmitem condições e respondem com CIENTE — não controlam.
+
+A coluna "espaço aéreo típico" ainda mistura dois registros que vale separar. Para o ACC, o APP e a linha "Torre de Controle" da TWR, ela indica jurisdição sobre espaço aéreo tal como a ICA 100-37 e a ICA 100-12 o definem: UTA, CTA e TMA são as três espécies de Área de Controle, na divisão que os incisos I, II e III do Art. 17 da ICA 100-37 estabelecem[^1]; CTR é, segundo o Anexo VII da ICA 100-12, o "espaço aéreo controlado que se estende do solo até um limite superior especificado"[^2]; e ATZ é o entorno de aeródromo com "requisitos especiais para proteção do tráfego", conforme o Art. 19 da ICA 100-37[^1] — todos já tratados no capítulo 1. Para as linhas "Controle de Solo" e "Autorização de Tráfego" — as outras duas posições internas da mesma TWR —, ela indica a área física do aeródromo onde cada uma costuma operar: a Área de Manobras, definida pelo Anexo VII da ICA 100-12 como "parte do aeródromo destinada ao pouso, decolagem e táxi de aeronaves, excluídos os pátios"[^2], é a jurisdição do Controle de Solo — mas somente "com exceção das pistas", segundo o Art. 509 da ICA 100-37[^1], que continuam com a posição Torre de Controle; e o Pátio, que o mesmo Anexo VII da ICA 100-12 define como "área definida (...) destinada a abrigar as aeronaves para fins de embarque ou desembarque de passageiros, carga ou descarga, reabastecimento, estacionamento ou manutenção"[^2], é onde a Autorização de Tráfego normalmente fala com a aeronave, antes de esta solicitar push-back ou táxi.
 
 ## Jurisdição
 
-Duas regras da ICA 100-37 fecham a questão de até onde vai cada posição. O Art. 37 da ICA 100-37 é direto: "Somente um órgão de controle de tráfego aéreo terá jurisdição sobre um determinado espaço aéreo"[^1]. O Art. 36 da ICA 100-37 fecha o outro lado: "Uma aeronave controlada deverá estar sob controle de somente um órgão de controle de tráfego aéreo"[^1]. Não há sobreposição de autoridade: em qualquer ponto do espaço, e para qualquer aeronave controlada, existe exatamente um órgão responsável — nunca zero, nunca dois. O mesmo princípio vale para o Serviço de Informação de Voo e o Serviço de Alerta: o Art. 38 da ICA 100-37 atribui a sua prestação ao "órgão ATS que tenha jurisdição no espaço aéreo considerado"[^1].
+Duas regras da ICA 100-37 fecham a questão de até onde vai cada posição. O Art. 37 da ICA 100-37 é direto: "Somente um órgão de controle de tráfego aéreo terá jurisdição sobre um determinado espaço aéreo"[^1]. O Art. 36 da ICA 100-37 fecha o outro lado: "Uma aeronave controlada deverá estar sob controle de somente um órgão de controle de tráfego aéreo"[^1].
+
+Repare no que os dois artigos dizem e no que não dizem. Eles fixam um **teto**, não um piso: "somente um" é *no máximo* um, e não *pelo menos* um. Não há sobreposição de autoridade — nunca dois órgãos de controle sobre o mesmo espaço aéreo, nunca dois sobre a mesma aeronave controlada. Mas espaço aéreo sem nenhum órgão de controle de tráfego aéreo existe, e é a regra na [Classe G](02-classes.pt.md#classe-g), onde não se presta o Serviço de Controle de Tráfego Aéreo — como a seção *Cobertura top-down*, adiante, volta a tratar. O mesmo princípio de exclusividade vale para o Serviço de Informação de Voo e o Serviço de Alerta: o Art. 38 da ICA 100-37 atribui a sua prestação ao "órgão ATS que tenha jurisdição no espaço aéreo considerado"[^1] — e esses dois serviços, ao contrário do controle, existem em toda a FIR (Art. 32 da ICA 100-37)[^1].
 
 Essa jurisdição tem duas dimensões — lateral e vertical —, e o Art. 839 da ICA 100-37 as nomeia separadamente ao tratar da fronteira entre ACC e APP: a transferência de controle das aeronaves que chegam ocorre "ao cruzarem o limite lateral da TMA nos pontos de notificação estabelecidos" ou "ao cruzarem o limite vertical da TMA"[^1]. Lateral é a fronteira geográfica — onde uma TMA, uma CTR ou uma ATZ termina no mapa; vertical é o nível ou altitude em que a jurisdição de um órgão cede lugar à de outro. Os limites concretos de cada FIR, TMA, CTR e ATZ — os números — são publicados na AIP-Brasil e nas cartas, como já registrado no capítulo 1; a ICA 100-37 fixa o princípio, não a coordenada.
 
@@ -76,9 +89,9 @@ Só na chegada, a própria ICA 100-37 prevê um atalho: voos VFR podem ser trans
 ### Cadeia de transferência, em um olhar
 
 <figure>
-<svg viewBox="0 0 720 240" role="img" aria-label="Cadeia de órgãos ATS de DEL a CTR com o espaço aéreo de cada elo e o sentido da cobertura top-down" style="max-width:100%;height:auto">
+<svg viewBox="0 0 720 240" role="img" aria-label="Cadeia dos órgãos de controle, de DEL a CTR, com o espaço aéreo de cada elo e o sentido da cobertura top-down. As posições que não controlam, RÁDIO e informação de voo, não integram esta cadeia" style="max-width:100%;height:auto">
   <style>
-    .or-bg  { fill: #ffffff; }
+    .or-bg  { fill: var(--md-default-bg-color); }
     .or-box { fill: #e3f2fd; stroke: #1565c0; stroke-width: 1.5; }
     .or-ttl { fill: #0d47a1; font: 600 14px "Ubuntu Sans", sans-serif; text-anchor: middle; }
     .or-sub { fill: #37474f; font: 400 11px "Ubuntu Sans", sans-serif; text-anchor: middle; }
@@ -86,18 +99,16 @@ Só na chegada, a própria ICA 100-37 prevê um atalho: voos VFR podem ser trans
     .or-td  { fill: #546e7a; font: 400 11px "Ubuntu Sans", sans-serif; }
     .or-hd  { fill: #546e7a; }
     @media (prefers-color-scheme: dark) {
-      .or-bg { fill: #1e2129; } .or-box { fill: #102a43; stroke: #64b5f6; }
+      .or-box { fill: #102a43; stroke: #64b5f6; }
       .or-ttl { fill: #90caf9; } .or-sub { fill: #cfd8dc; }
       .or-arw { stroke: #b0bec5; } .or-td { fill: #b0bec5; } .or-hd { fill: #b0bec5; }
     }
-    [data-md-color-scheme="slate"] .or-bg  { fill: #1e2129; }
     [data-md-color-scheme="slate"] .or-box { fill: #102a43; stroke: #64b5f6; }
     [data-md-color-scheme="slate"] .or-ttl { fill: #90caf9; }
     [data-md-color-scheme="slate"] .or-sub { fill: #cfd8dc; }
     [data-md-color-scheme="slate"] .or-arw { stroke: #b0bec5; }
     [data-md-color-scheme="slate"] .or-td  { fill: #b0bec5; }
     [data-md-color-scheme="slate"] .or-hd  { fill: #b0bec5; }
-    [data-md-color-scheme="default"] .or-bg  { fill: #ffffff; }
     [data-md-color-scheme="default"] .or-box { fill: #e3f2fd; stroke: #1565c0; }
     [data-md-color-scheme="default"] .or-ttl { fill: #0d47a1; }
     [data-md-color-scheme="default"] .or-sub { fill: #37474f; }
@@ -135,7 +146,7 @@ Só na chegada, a própria ICA 100-37 prevê um atalho: voos VFR podem ser trans
   <path class="or-arw" d="M 420 120 L 438 120"/>
   <path class="or-arw" d="M 560 120 L 578 120"/>
 </svg>
-<figcaption>Encadeamento normal de um voo. A cobertura <em>top-down</em> percorre o sentido inverso: a posição superior responde pelo espaço aéreo das inferiores que não estiverem conectadas.</figcaption>
+<figcaption>Encadeamento normal de um voo IFR entre os órgãos de <strong>controle</strong>. A cobertura <em>top-down</em> percorre o sentido inverso: a posição superior responde pelo espaço aéreo das inferiores que não estiverem conectadas. As posições que não controlam — RÁDIO (AFIS) e informação de voo — ficam fora do diagrama de propósito: elas não recebem nem transferem controle, porque não há controle a transferir. Um voo que sai de um aeródromo com AFIS entra na cadeia no elo do órgão de controle que tiver jurisdição sobre o espaço aéreo à frente, não na TWR.</figcaption>
 </figure>
 
 !!! tip "Na rede (Vatbrz)"
