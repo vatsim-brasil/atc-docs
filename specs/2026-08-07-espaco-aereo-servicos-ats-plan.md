@@ -444,12 +444,13 @@ Para cada artigo citado no capítulo, confirmar que existe no texto oficial:
 ```bash
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/01-estrutura.pt.md
 for art in $(grep -oE 'Art\. [0-9]+' "$F" | sort -u | grep -oE '[0-9]+'); do
-  printf "Art. %s -> " "$art"
-  grep -c "Art. $art\." .sources/ica-100-37.txt
+  printf "Art. %s -> 100-37: %s | 100-12: %s\n" "$art" \
+    "$(grep -c "Art. $art\." .sources/ica-100-37.txt)" \
+    "$(grep -c "Art. $art\." .sources/ica-100-12.txt)"
 done
 ```
 
-Esperado: contagem maior que zero para todo artigo citado. Zero significa citação inventada — corrigir antes de seguir.
+Esperado: contagem maior que zero **na fonte para a qual a footnote daquele artigo aponta**. Zero nas duas fontes significa citação inventada — corrigir antes de seguir. Atenção: a numeração de artigos se repete entre a ICA 100-12 e a ICA 100-37, então uma contagem positiva na fonte errada não valida nada. Este check é um detector de citação inventada, não prova de procedência; a prova é a tabela claim-to-source do relatório.
 
 - [ ] **Step 5: Build e conferência de footnotes**
 
@@ -617,13 +618,14 @@ Erros nesta matriz se propagam para o checklist do capítulo 06 e para a formaç
 ```bash
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/02-classes.pt.md
 for art in $(grep -oE 'Art\. [0-9]+' "$F" | sort -u | grep -oE '[0-9]+'); do
-  printf "Art. %s -> ica-100-37: " "$art"
-  grep -c "Art. $art\." .sources/ica-100-37.txt
+  printf "Art. %s -> 100-37: %s | 100-12: %s\n" "$art" \
+    "$(grep -c "Art. $art\." .sources/ica-100-37.txt)" \
+    "$(grep -c "Art. $art\." .sources/ica-100-12.txt)"
 done
 grep -c "380 kt\|250 kt" .sources/ica-100-37.txt
 ```
 
-Esperado: contagens maiores que zero. Os limites de velocidade devem aparecer no Anexo II.
+Esperado: contagem maior que zero **na fonte para a qual a footnote daquele artigo aponta**. Zero nas duas fontes significa citação inventada — corrigir antes de seguir. Atenção: a numeração de artigos se repete entre a ICA 100-12 e a ICA 100-37, então uma contagem positiva na fonte errada não valida nada. Este check é um detector de citação inventada, não prova de procedência; a prova é a tabela claim-to-source do relatório. Os limites de velocidade devem aparecer no Anexo II.
 
 - [ ] **Step 6: Build e conferência de footnotes**
 
@@ -726,7 +728,7 @@ for art in $(grep -oE 'Art\. [0-9]+' "$F" | sort -u | grep -oE '[0-9]+'); do
 done
 ```
 
-Esperado: cada artigo citado aparece em ao menos uma das duas fontes, e a footnote correspondente aponta para a fonte certa.
+Esperado: contagem maior que zero **na fonte para a qual a footnote daquele artigo aponta**. Zero nas duas fontes significa citação inventada — corrigir antes de seguir. Atenção: a numeração de artigos se repete entre a ICA 100-12 e a ICA 100-37, então uma contagem positiva na fonte errada não valida nada. Este check é um detector de citação inventada, não prova de procedência; a prova é a tabela claim-to-source do relatório.
 
 - [ ] **Step 4: Build e conferência de footnotes**
 
@@ -875,11 +877,13 @@ Completar o corpo com cinco `<rect class="or-box">` de 120×64 em `y=88`, com `x
 ```bash
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/04-orgaos.pt.md
 for art in $(grep -oE 'Art\. [0-9]+' "$F" | sort -u | grep -oE '[0-9]+'); do
-  printf "Art. %s -> " "$art"; grep -c "Art. $art\." .sources/ica-100-37.txt
+  printf "Art. %s -> 100-37: %s | 100-12: %s\n" "$art" \
+    "$(grep -c "Art. $art\." .sources/ica-100-37.txt)" \
+    "$(grep -c "Art. $art\." .sources/ica-100-12.txt)"
 done
 ```
 
-Esperado: contagens maiores que zero.
+Esperado: contagem maior que zero **na fonte para a qual a footnote daquele artigo aponta**. Zero nas duas fontes significa citação inventada — corrigir antes de seguir. Atenção: a numeração de artigos se repete entre a ICA 100-12 e a ICA 100-37, então uma contagem positiva na fonte errada não valida nada. Este check é um detector de citação inventada, não prova de procedência; a prova é a tabela claim-to-source do relatório.
 
 Atenção: cobertura *top-down* é convenção da rede VATSIM, **não** norma DECEA. Ela vive no bloco "Na rede" e não recebe footnote normativa.
 
@@ -994,12 +998,14 @@ Reler a saída do Step 1 lado a lado com a tabela escrita. Conferir explicitamen
 ```bash
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/05-regras.pt.md
 for art in $(grep -oE 'Art\. [0-9]+' "$F" | sort -u | grep -oE '[0-9]+'); do
-  printf "Art. %s -> " "$art"; grep -c "Art. $art\." .sources/ica-100-12.txt
+  printf "Art. %s -> 100-37: %s | 100-12: %s\n" "$art" \
+    "$(grep -c "Art. $art\." .sources/ica-100-37.txt)" \
+    "$(grep -c "Art. $art\." .sources/ica-100-12.txt)"
 done
 grep -c "1.500 m\|8 km\|5 km" .sources/ica-100-12.txt
 ```
 
-Esperado: contagens maiores que zero.
+Esperado: contagem maior que zero **na fonte para a qual a footnote daquele artigo aponta**. Zero nas duas fontes significa citação inventada — corrigir antes de seguir. Atenção: a numeração de artigos se repete entre a ICA 100-12 e a ICA 100-37, então uma contagem positiva na fonte errada não valida nada. Este check é um detector de citação inventada, não prova de procedência; a prova é a tabela claim-to-source do relatório.
 
 - [ ] **Step 5: Build e conferência de footnotes**
 
