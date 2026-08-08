@@ -282,10 +282,12 @@ Por isso o Art. 28 da ICA 100-37, ao listar os Serviços de Tráfego Aéreo, nã
 </figure>
 
 !!! tip "Na rede (Vatbrz)"
-    A classe do espaço aéreo muda o que você deve ao piloto. Em Classe C você separa IFR de VFR; em Classe D você não separa VFR de ninguém, apenas informa tráfego. Antes de aceitar uma posição, saiba em qual classe ela opera — a informação está na AIP e na seção **Manuais Operacionais** do portal.
+    A classe do espaço aéreo muda o que você deve ao piloto. Em Classe C você separa IFR de VFR; em Classe D você não separa VFR de ninguém, apenas informa tráfego. Antes de aceitar uma posição, saiba em qual classe ela opera — a informação está na AIP e na seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md) do portal.
 
 !!! note "Qual classe vale onde"
     A ICA 100-37 define o que cada classe significa. **Qual** classe se aplica a cada porção do espaço aéreo brasileiro é publicado na AIP-Brasil, seção ENR 1.4, e pode mudar por AIRAC. Consulte sempre o [AISWEB](https://aisweb.decea.mil.br/) para o dado vigente.
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+
+---

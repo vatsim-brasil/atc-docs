@@ -73,7 +73,7 @@ Na prática: se uma TMA Classe D tiver uma CTA Classe C sobreposta acima dela, n
 | **CTR** | Zona de Controle | Espaço aéreo controlado do solo até um limite superior especificado[^2] | Serviço de Controle de Tráfego Aéreo[^1] |
 | **ATZ** | Zona de Tráfego de Aeródromo | Requisitos especiais para proteção do tráfego de aeródromo; sem classificação própria de espaço aéreo[^1] | Serviço de Controle de Tráfego Aéreo, quando o aeródromo for controlado[^1] |
 
-Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicados na AIP-Brasil e nas cartas aeronáuticas — variam por localidade e mudam por ciclo AIRAC. Para os limites vigentes de cada área, consulte a seção **Manuais Operacionais** do portal.
+Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicados na AIP-Brasil e nas cartas aeronáuticas — variam por localidade e mudam por ciclo AIRAC. Para os limites vigentes de cada área, consulte a seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md) do portal.
 
 ## Corte vertical do espaço aéreo
 
@@ -143,11 +143,11 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
   <text class="ea-lbl" x="212" y="272">CTR</text>
   <text class="ea-sub" x="212" y="290">Zona de Controle, do solo até um limite superior definido</text>
 
-  <rect class="ea-atz ea-band" x="262" y="318" width="116" height="34"/>
-  <text class="ea-lbl" x="274" y="340">ATZ</text>
+  <rect class="ea-atz ea-band" x="262" y="318" width="116" height="22"/>
+  <text class="ea-lbl" x="274" y="334">ATZ</text>
 
-  <rect class="ea-gnd" x="40" y="352" width="560" height="10"/>
-  <text class="ea-sub" x="404" y="340">Superfície</text>
+  <rect class="ea-gnd" x="40" y="344" width="560" height="10"/>
+  <text class="ea-sub" x="52" y="364">Superfície</text>
 </svg>
 <figcaption>Corte vertical esquemático. Limites laterais e verticais reais de cada divisão são publicados na AIP-Brasil e nas cartas.</figcaption>
 </figure>
@@ -160,3 +160,5 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+
+---

@@ -21,7 +21,7 @@ Este capítulo trata dos quatro, na ordem em que a ICA 100-37 os organiza: contr
 
 O Anexo VII da ICA 100-12 define o Serviço de Controle de Tráfego Aéreo pelo que ele existe para evitar: um serviço prestado com a finalidade de "prevenir colisões: entre aeronaves; e entre aeronaves e obstáculos na área de manobras" e de "acelerar e manter ordenado o fluxo de tráfego aéreo"[^2]. A ICA 100-37 detalha o mesmo objetivo do lado operacional — para proporcionar o serviço, um órgão ATC deverá "dispor de informação sobre o movimento intencional de cada aeronave, ou variações do mesmo, e de dados atuais sobre a progressão real de cada uma delas", determinar as posições relativas entre as aeronaves conhecidas, "emitir autorizações e informações com a finalidade de prevenir colisão entre aeronaves sob seu controle e de acelerar e manter um fluxo de tráfego ordenado" e coordenar essas autorizações com outros órgãos envolvidos (Art. 30)[^1].
 
-Esse objetivo tem um limite explícito. O Art. 93 da ICA 100-37 registra que "os objetivos do Serviço de Controle de Tráfego Aéreo não incluem a prevenção de colisão com o solo", e o parágrafo único do mesmo artigo acrescenta que isso não isenta o piloto de assegurar que a autorização recebida é segura nesse aspecto, exceto quando o voo IFR estiver sendo vetorado[^1]. Prevenir colisão entre aeronaves e organizar o fluxo — não prevenir colisão com o terreno — é o que o Serviço de Controle de Tráfego Aéreo promete.
+Esse objetivo tem um limite explícito. O Art. 93 da ICA 100-37 registra que "os objetivos do Serviço de Controle de Tráfego Aéreo não incluem a prevenção de colisão com o solo", e o parágrafo único do mesmo artigo acrescenta que isso não isenta o piloto de assegurar que a autorização recebida é segura nesse aspecto, exceto quando o voo IFR estiver sendo vetorado[^1] — isto é, quando, "sob vetoração", o controlador assume a responsabilidade pela navegação da aeronave e lhe transmite as orientações de proa e as mudanças de nível necessárias (Art. 921 da ICA 100-37)[^1]. A vetoração em si está fora do escopo deste manual, como o [índice](index.pt.md#fora-do-escopo) registra. Prevenir colisão entre aeronaves e organizar o fluxo — não prevenir colisão com o terreno — é o que o Serviço de Controle de Tráfego Aéreo promete.
 
 O Art. 28 da ICA 100-37 divide o serviço em três, cada um prestado por um órgão diferente[^1]:
 
@@ -29,7 +29,7 @@ O Art. 28 da ICA 100-37 divide o serviço em três, cada um prestado por um órg
 - **Serviço de Controle de Aproximação**, prestado por um APP ou por um ACC ou TWR ao qual tenha sido delegada a atribuição (Art. 34)[^1];
 - **Serviço de Controle de Aeródromo**, prestado por uma TWR à qual tenha sido delegada a atribuição de prestá-lo dentro de determinado espaço aéreo (Art. 35)[^1].
 
-Como esses três serviços se distribuem entre os órgãos ATS da rede Vatbrz — ACC, APP, TWR — é assunto do próximo capítulo.
+Como esses três serviços se distribuem entre os órgãos ATS da rede Vatsim Brasil — ACC, APP, TWR — é assunto do próximo capítulo.
 
 Do lado do piloto, a contrapartida do controle é a autorização. A ICA 100-12 exige que, "antes de realizar um voo controlado, ou uma parte de um voo controlado", seja obtida a autorização do órgão ATC, solicitada mediante a apresentação do Plano de Voo (Art. 77)[^2]. É esse par — autorização emitida de um lado, exigida do outro — que distingue o controle dos demais serviços tratados a seguir.
 
@@ -102,3 +102,5 @@ Este bloco reforça, com a base normativa, o que o [Manual de Fraseologia para V
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+
+---

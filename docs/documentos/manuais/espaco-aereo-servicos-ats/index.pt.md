@@ -61,8 +61,10 @@ Nesses casos, consulte a regulamentação específica ou o manual correspondente
 6. Guarde o **Checklist Rápido** para revisar antes de entrar na rede.
 
 !!! tip "Leitura complementar"
-    Este manual é a base conceitual dos demais. O [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/index.pt.md) e o [Manual de Fraseologia Aeronáutica](../fraseologia-aeronautica/index.pt.md) usam os órgãos e as classes definidos aqui. O [Manual de Circuito de Tráfego](../manual-circuito-trafego/index.md) depende da definição de ATZ e de aeródromo controlado. Os limites locais de cada TMA, CTR e ATZ estão na seção **Manuais Operacionais**.
+    Este manual é a base conceitual dos demais. O [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/index.pt.md) e o [Manual de Fraseologia Aeronáutica](../fraseologia-aeronautica/index.pt.md) usam os órgãos e as classes definidos aqui. O [Manual de Circuito de Tráfego](../manual-circuito-trafego/index.md) depende da definição de ATZ e de aeródromo controlado. Os limites locais de cada TMA, CTR e ATZ estão na seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md).
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
 [^3]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): estabelece os padrões de fraseologia de tráfego aéreo, em complemento ao disposto na **ICA 100-12**.
+
+---

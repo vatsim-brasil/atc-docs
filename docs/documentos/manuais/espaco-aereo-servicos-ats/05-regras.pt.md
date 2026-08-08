@@ -77,7 +77,7 @@ Mas *quando* se troca de um ajuste para o outro depende do sentido do voo, e a I
 
 A altitude de transição não é um número fixo nacional — é publicada por aeródromo. O Art. 477 da ICA 100-37 diz que "a altitude de transição de cada aeródromo é a constante nas Cartas de Aproximação por Instrumentos – IAC e/ou das Cartas de Saída por Instrumentos – SID"[^1]. O nível de transição, por sua vez, não é fixo nem por aeródromo: o Art. 479 da ICA 100-37 manda o órgão de controle de tráfego aéreo — ou o piloto, quando o órgão só presta Serviço de Informação de Voo — determiná-lo a cada momento, cruzando a altitude de transição do aeródromo com o QNH vigente na Tabela 7 daquele artigo[^1]; quanto menor o QNH, maior o nível de transição resultante (§ 3° do Art. 479)[^1].
 
-Nenhum desses dois valores — a altitude de transição de um aeródromo específico, ou o nível de transição do momento — está fixado neste manual: ambos variam por aeródromo e por condição meteorológica. Para o valor vigente, consulte a AIP-Brasil, a carta IAC ou SID do aeródromo e a seção **Manuais Operacionais** do portal.
+Nenhum desses dois valores — a altitude de transição de um aeródromo específico, ou o nível de transição do momento — está fixado neste manual: ambos variam por aeródromo e por condição meteorológica. Para o valor vigente, consulte a AIP-Brasil, a carta IAC ou SID do aeródromo e a seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md) do portal.
 
 É a mesma fronteira que o [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/conceitos.pt.md#altitudes-o-detalhe-que-mais-gera-erro-no-vfr) usa para decidir a leitura na fonia: abaixo do nível de transição, o designativo é **pés**; acima dele, **nível de voo**.
 
@@ -120,3 +120,5 @@ As regras deste capítulo — sobretudo os mínimos VMC e a correlação entre r
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+
+---

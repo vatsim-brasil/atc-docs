@@ -16,7 +16,7 @@ icon: material/checkbox-marked-circle-outline
 - [ ] Sei quem está online acima e abaixo de mim
 - [ ] Confirmei a **altitude de transição** do aeródromo na carta (IAC ou SID) — é a referência da **subida**
 - [ ] Determinei o **nível de transição** com o QNH do momento — é a referência da **descida**
-- [ ] Li as instruções locais na seção Manuais Operacionais
+- [ ] Li as instruções locais na seção [Manuais Operacionais](../../../MOP/aerodromos/index.pt.md)
 
 ## Estou nesta classe — o que devo?
 
@@ -53,7 +53,7 @@ A Classe A não aparece nesta tabela: só admite voo IFR, logo não há mínimo 
 
 Versão condensada da tabela de correspondência do [capítulo de Órgãos ATS e Posições](04-orgaos.pt.md#tabela-de-correspondencia).
 
-| Órgão ATS | Posição interna | Posição VATSIM | Espaço aéreo típico |
+| Órgão ATS | Posição interna | Posição Vatsim Brasil | Espaço aéreo típico |
 | --- | --- | --- | --- |
 | Centro de Controle de Área (ACC) | — | `_CTR` | CTA, UTA e demais porções da FIR |
 | Controle de Aproximação (APP) | — | `_APP` | TMA e CTR* |
@@ -62,11 +62,13 @@ Versão condensada da tabela de correspondência do [capítulo de Órgãos ATS e
 | Torre de Controle de Aeródromo (TWR) | Autorização de Tráfego | `_DEL` | Pátio |
 | Órgão ATS identificado como "RÁDIO" (AFIS) | — | `_R_TWR` | FIZ, ou Classe G nas imediações do aeródromo |
 
-\* A CTR aparece nas duas linhas porque a jurisdição sobre ela **varia por localidade**: em um aeródromo é do APP, em outro da TWR, conforme a delegação prevista no Art. 34 da ICA 100-37. Em cada CTR concreta ela é de um só dos dois, como manda o Art. 37 da mesma Instrução. Qual dos dois, naquele aeródromo, está na AIP-Brasil e na seção **Manuais Operacionais**.
+\* A CTR aparece nas duas linhas porque a jurisdição sobre ela **varia por localidade**: em um aeródromo é do APP, em outro da TWR, conforme a delegação prevista no Art. 34 da ICA 100-37. Em cada CTR concreta ela é de um só dos dois, como manda o Art. 37 da mesma Instrução. Qual dos dois, naquele aeródromo, está na AIP-Brasil e na seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md).
 
 As linhas 3 a 5 são posições internas de um único órgão — a TWR —, não três órgãos diferentes. A posição RÁDIO **não presta controle**: presta Serviço de Informação de Voo e Serviço de Alerta, e ali não se emitem autorizações de controle. Ver o capítulo de Órgãos ATS e Posições para o detalhamento da jurisdição de cada uma.
 
 ## Onde buscar o dado local
 
 !!! tip "Na rede (Vatbrz)"
-    Este checklist não substitui a carta. Limites laterais e verticais, altitude de transição e classe aplicada mudam por aeródromo e por ciclo AIRAC. A fonte é sempre a AIP, a carta e a seção **Manuais Operacionais** do portal.
+    Este checklist não substitui a carta. Limites laterais e verticais, altitude de transição e classe aplicada mudam por aeródromo e por ciclo AIRAC. A fonte é sempre a AIP, a carta e a seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md) do portal.
+
+---
