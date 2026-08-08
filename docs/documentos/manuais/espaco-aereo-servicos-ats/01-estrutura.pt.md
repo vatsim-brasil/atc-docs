@@ -66,7 +66,7 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
 
 ## Corte vertical do espaço aéreo
 
-<figure markdown>
+<figure>
 <svg viewBox="0 0 640 380" role="img" aria-label="Corte vertical do espaço aéreo: solo, ATZ, CTR, TMA, CTA e UTA dentro de uma FIR" style="max-width:100%;height:auto">
   <style>
     .ea-bg   { fill: #ffffff; }

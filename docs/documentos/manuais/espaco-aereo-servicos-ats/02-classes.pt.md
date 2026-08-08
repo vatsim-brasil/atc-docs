@@ -155,7 +155,7 @@ Por isso o Art. 28 da ICA 100-37, ao listar os Serviços de Tráfego Aéreo, nã
 
 ## A matriz em um olhar
 
-<figure markdown>
+<figure>
 <svg viewBox="0 0 700 300" role="img" aria-label="Matriz das classes de espaço aéreo A a G contra voos permitidos, serviço de controle, separação e informação de tráfego" style="max-width:100%;height:auto">
   <style>
     .cl-bg   { fill: #ffffff; }
