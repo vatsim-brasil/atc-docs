@@ -44,7 +44,7 @@
 *[RDO]: Rádio / Radio
 *[GLD]: Planador / Glider
 *[FLT]: Voo / Flight
-*[AUTH]: Autorizdo / Cleared
+*[AUTH]: Autorizado / Cleared
 *[ANY]: Qualquer / Anyone
 *[VAC]: Carta de Aproximação Visual / Visual Approach Chart
 *[MAX]: Máxima / Maximum
