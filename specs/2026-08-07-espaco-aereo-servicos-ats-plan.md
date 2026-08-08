@@ -1223,3 +1223,23 @@ Reportar ao mantenedor:
 **Sobre `mkdocs build` e links.** O `mkdocs.yml` define `validation: unrecognized_links: ignore`. Links internos quebrados **não** falham o build. Por isso cada tarefa que cria link relativo tem um passo explícito de conferência por `ls`/`test -f`.
 
 **Sobre o ambiente Python.** O repositório tem `venv/` com o MkDocs instalado. Os comandos usam `venv/bin/python -m mkdocs` diretamente para não depender de ativação de shell — o `dev.sh` assume bash e o shell da sessão é fish.
+
+---
+
+## Nota posterior — o registro das imagens
+
+Este é um documento histórico e não foi reescrito. Registra-se apenas o que
+mudou depois da execução, para quem o consultar:
+
+A Task 9 previa criar `docs/documentos/manuais/espaco-aereo-servicos-ats/img/README.md`
+com a pendência das sete imagens de cabeçalho. Esse caminho **não existe mais**.
+O arquivo ficava dentro de `docs/` e, como o `mkdocs.yml` não define
+`exclude_docs`, era publicado como página alcançável e indexada pela busca — um
+TODO de mantenedor entregue ao leitor. O registro foi movido para `specs/`, ao
+lado deste plano, e depois **incorporado ao handoff**
+(`specs/2026-08-07-espaco-aereo-servicos-ats-handoff.md`), que hoje é o único
+lugar onde a história das imagens está descrita.
+
+As sete imagens foram geradas e estão em
+`docs/documentos/manuais/espaco-aereo-servicos-ats/img/`. A pendência que a
+Task 9 registrava está, portanto, resolvida.
