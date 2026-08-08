@@ -71,3 +71,14 @@
 *[MCA]: Manual do Comando da Aeronáutica / Air Force Cabinet Manual
 *[DECEA]: Departamento de Controle do Espaço Aéreo / Department of Airspace Control
 *[CAOP]: Carta de Acordo Operacional / Letter of Agreement
+*[ATZ]: Zona de Tráfego de Aeródromo / Aerodrome Traffic Zone
+*[CTA]: Área de Controle / Control Area
+*[UTA]: Área de Controle Superior / Upper Control Area
+*[ACC]: Centro de Controle de Área / Area Control Centre
+*[AIS]: Serviço de Informação Aeronáutica / Aeronautical Information Service
+*[EAC]: Espaço Aéreo Condicionado / Conditional Airspace
+*[AMSL]: Acima do Nível Médio do Mar / Above Mean Sea Level
+*[QNH]: Ajuste de altímetro para indicar altitude / Altimeter setting to indicate altitude
+*[QNE]: Ajuste de altímetro padrão, 1013,2 hPa / Standard altimeter setting, 1013.2 hPa
+*[RVSM]: Separação Vertical Mínima Reduzida / Reduced Vertical Separation Minimum
+*[IAS]: Velocidade Indicada / Indicated Airspeed
