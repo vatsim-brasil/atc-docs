@@ -55,7 +55,7 @@ O Serviço de Assessoramento de Tráfego Aéreo é o quarto serviço, e o capít
 
 O que este capítulo acrescenta é o que a Classe F já sinaliza: trata-se de uma medida transitória. O § 2° do Art. 21 da ICA 100-37 classifica a utilização do Serviço de Assessoramento de Tráfego Aéreo como "uma medida temporária até o momento em que puder ser substituída pelo Serviço de Controle de Tráfego Aéreo"[^1] — é por isso, inclusive, que o Art. 28, ao dividir os Serviços de Tráfego Aéreo na seção anterior deste capítulo, não o inclui.
 
-Para o detalhamento de a quem se presta, o que garante e a divergência de redação sobre a condição "quando solicitado" na Classe F — e como este manual a resolve —, ver [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
+Para o detalhamento de a quem se presta, o que garante e por que o Serviço de Informação de Voo chega ao IFR e ao VFR de maneiras diferentes na Classe F, ver [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
 
 ## Qual serviço em qual classe
 
@@ -68,10 +68,10 @@ A tabela abaixo cruza os quatro serviços com as sete classes de espaço aéreo.
 | **C** | Sim | Sim | Não | Sim |
 | **D** | Sim | Sim | Não | Sim |
 | **E** | Sim, somente para o IFR | Sim — e é o serviço que o Anexo II atribui ao voo VFR da classe | Não | Sim |
-| **F** | Não | Sim — a todos os voos da classe, IFR e VFR, quando solicitado pelo piloto\* | Sim, somente para o IFR | Sim |
+| **F** | Não | Sim — ao voo IFR sem necessidade de solicitação; ao voo VFR, quando solicitado\* | Sim, somente para o IFR | Sim |
 | **G** | Não | Sim — o Anexo II o atribui aos dois tipos de voo, "quando possível e solicitado pelo piloto" | Não | Sim |
 
-\* Na Classe F, o Serviço de Informação de Voo é prestado a qualquer voo que o solicite, IFR ou VFR: a alínea *c* do inciso VI do Art. 21 da ICA 100-37 o enuncia para **todos** os voos da classe "quando solicitado pelo piloto"[^1]. O Anexo II da mesma Instrução registra essa condição apenas na linha VFR e a omite na linha IFR[^1] — divergência de redação que este manual resolve pelo Art. 21, com os fundamentos expostos em [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
+\* A assimetria na Classe F é a aplicação do Art. 741 da ICA 100-37, acima: o voo IFR é obrigado, pelo Anexo II, a manter comunicação bilateral contínua, e por isso recebe o Serviço de Informação de Voo pelo inciso I, sem precisar solicitar; o voo VFR não tem essa obrigação — a coluna de radiocomunicação da linha F / VFR registra "Não" — e o recebe pelo inciso II, mediante solicitação[^1]. A alínea *c* do inciso VI do Art. 21 da mesma Instrução garante o piso comum: qualquer voo da classe que solicitar recebe[^1]. Detalhamento em [Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
 
 Notas de leitura da tabela:
 
@@ -102,5 +102,3 @@ Este bloco reforça, com a base normativa, o que o [Manual de Fraseologia para V
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
-
----

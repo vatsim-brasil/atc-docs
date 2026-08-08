@@ -29,12 +29,12 @@ Tabela derivada da matriz de classes do Art. 21 da ICA 100-37 e do Anexo II, já
 | **C** | IFR e VFR | Sim, do IFR e do VFR | Bilateral contínua, do IFR e do VFR | IFR de IFR e de VFR — não separo VFR de VFR | O VFR recebe informação de tráfego sobre outros VFR, e aviso para evitar tráfego se solicitado pelo piloto |
 | **D** | IFR e VFR | Sim, do IFR e do VFR | Bilateral contínua, do IFR e do VFR | Apenas IFR de IFR — o VFR não é separado de nada | O IFR recebe informação de tráfego sobre os voos VFR; o VFR, sobre todos os demais voos. Nos dois casos, aviso para evitar tráfego se solicitado pelo piloto |
 | **E** | IFR e VFR | Sim do IFR; **não** do VFR | Bilateral contínua do IFR; **não** exigida do VFR | Apenas IFR de IFR — o VFR não é separado | Todos recebem informação de tráfego quando possível; o VFR recebe também o Serviço de Informação de Voo |
-| **F** | IFR e VFR | Não, de nenhum dos dois | Bilateral contínua do IFR; **não** exigida do VFR | IFR de IFR, quando possível — é assessoramento, não separação plena | Serviço de Informação de Voo a todos os voos, quando solicitado pelo piloto* |
+| **F** | IFR e VFR | Não, de nenhum dos dois | Bilateral contínua do IFR; **não** exigida do VFR | IFR de IFR, quando possível — é assessoramento, não separação plena | Serviço de Informação de Voo: ao IFR sem esperar que peça; ao VFR, quando solicitado* |
 | **G** | IFR e VFR | Não, de nenhum dos dois | Bilateral contínua do IFR; **não** exigida do VFR | Não aplicável — nenhuma separação | Serviço de Informação de Voo, quando possível e solicitado pelo piloto |
 
 As colunas "Exijo autorização ATC" e "Exijo radiocomunicação" reproduzem as duas últimas colunas do Anexo II da ICA 100-37, condensando as linhas IFR e VFR de cada classe em uma só. Onde as duas linhas divergem — Classes E, F e G —, a divergência está explicitada na célula. Ver as notas de leitura do [capítulo de Classes de Espaço Aéreo](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37), em especial a que trata da linha **D / VFR**.
 
-\* Na Classe F vale para os dois tipos de voo: o Art. 21, VI, *c*, da ICA 100-37 enuncia o Serviço de Informação de Voo para **todos** os voos da classe, "quando solicitado pelo piloto". O Anexo II da mesma Instrução registra essa condição só na linha do VFR e a omite na linha do IFR; é divergência de redação, resolvida pelo Art. 21. Ver [capítulo de Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
+\* Na Classe F o voo IFR é obrigado a manter comunicação bilateral contínua, e por isso recebe o Serviço de Informação de Voo pelo inciso I do Art. 741 da ICA 100-37, **sem precisar solicitar**. O voo VFR não tem essa obrigação e o recebe pelo inciso II, mediante solicitação. O Art. 21, VI, *c*, da mesma Instrução garante o piso: qualquer voo da classe que solicitar recebe. Ver [capítulo de Classes de Espaço Aéreo, seção Classe F](02-classes.pt.md#classe-f).
 
 ## Mínimos VMC de bolso
 
@@ -53,18 +53,18 @@ A Classe A não aparece nesta tabela: só admite voo IFR, logo não há mínimo 
 
 Versão condensada da tabela de correspondência do [capítulo de Órgãos ATS e Posições](04-orgaos.pt.md#tabela-de-correspondencia).
 
-| Órgão ATS | Posição interna | Posição Vatsim Brasil | Espaço aéreo típico |
+| Órgão ATS | Posição interna | Posição na rede | Espaço aéreo típico |
 | --- | --- | --- | --- |
 | Centro de Controle de Área (ACC) | — | `_CTR` | CTA, UTA e demais porções da FIR |
-| Controle de Aproximação (APP) | — | `_APP` | TMA e CTR* |
-| Torre de Controle de Aeródromo (TWR) | Torre de Controle | `_TWR` | ATZ e CTR* |
+| Controle de Aproximação (APP) | — | `_APP` | TMA e Zona de Controle* |
+| Torre de Controle de Aeródromo (TWR) | Torre de Controle | `_TWR` | ATZ e Zona de Controle* |
 | Torre de Controle de Aeródromo (TWR) | Controle de Solo | `_GND` | Área de manobras |
 | Torre de Controle de Aeródromo (TWR) | Autorização de Tráfego | `_DEL` | Pátio |
 | Órgão ATS identificado como "RÁDIO" (AFIS) | — | `_R_TWR` | FIZ, ou Classe G nas imediações do aeródromo |
 
-\* A CTR aparece nas duas linhas porque a jurisdição sobre ela **varia por localidade**: em um aeródromo é do APP, em outro da TWR, conforme a delegação prevista no Art. 34 da ICA 100-37. Em cada CTR concreta ela é de um só dos dois, como manda o Art. 37 da mesma Instrução. Qual dos dois, naquele aeródromo, está na AIP-Brasil e na seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md).
+\* A Zona de Controle aparece nas duas linhas porque a jurisdição sobre ela **varia por localidade**: em um aeródromo é do APP, em outro da TWR, conforme a delegação prevista no Art. 34 da ICA 100-37. Em cada CTR concreta ela é de um só dos dois, como manda o Art. 37 da mesma Instrução. Qual dos dois, naquele aeródromo, está na AIP-Brasil e na seção [**Manuais Operacionais**](../../../MOP/aerodromos/index.pt.md).
 
-As linhas 3 a 5 são posições internas de um único órgão — a TWR —, não três órgãos diferentes. A posição RÁDIO **não presta controle**: presta Serviço de Informação de Voo e Serviço de Alerta, e ali não se emitem autorizações de controle. Ver o capítulo de Órgãos ATS e Posições para o detalhamento da jurisdição de cada uma.
+As linhas 3 a 5 são posições internas de um único órgão — a TWR —, não três órgãos diferentes. A posição RÁDIO **não presta controle**: presta Serviço de Informação de Voo e Serviço de Alerta, e ali não se emitem autorizações de controle. Os sufixos `_CTR`, `_APP`, `_TWR`, `_GND` e `_DEL` são convenção de toda a rede VATSIM; o `_R_TWR` é da Vatsim Brasil. Ver o capítulo de Órgãos ATS e Posições para o detalhamento da jurisdição de cada uma.
 
 ## Onde buscar o dado local
 
