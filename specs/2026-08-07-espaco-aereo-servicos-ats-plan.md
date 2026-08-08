@@ -339,7 +339,9 @@ Seções obrigatórias:
 
 ```markdown
 !!! note "FIR Atlântico"
-    Nem toda regra vale igual em todas as FIR. A ICA 100-12 trata a FIR Atlântico separadamente das FIR continentais em alguns procedimentos, e há dispositivos com vigência escalonada até 1º de janeiro de 2027. Ao operar em espaço oceânico, confira sempre a regra aplicável àquela FIR.
+    Nem toda regra vale igual em todas as FIR. A ICA 100-12 trata a FIR Atlântico separadamente das FIR continentais em alguns procedimentos, e há dispositivos com vigência escalonada até 1º de janeiro de 2027.[^2] Ao operar em espaço oceânico, confira sempre a regra aplicável àquela FIR.
+
+A citação é obrigatória aqui, como em qualquer afirmação normativa: a regra dura das Global Constraints prevalece sobre o texto literal deste bloco. O respaldo está nos Art. 96 e Art. 97 da ICA 100-12.
 ```
 
 10. **Bloco "Na rede"**:
