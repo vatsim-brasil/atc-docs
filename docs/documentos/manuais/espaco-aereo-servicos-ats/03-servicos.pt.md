@@ -29,7 +29,7 @@ O Art. 28 da ICA 100-37 divide o serviço em três, cada um prestado por um órg
 - **Serviço de Controle de Aproximação**, prestado por um APP ou por um ACC ou TWR ao qual tenha sido delegada a atribuição (Art. 34)[^1];
 - **Serviço de Controle de Aeródromo**, prestado por uma TWR à qual tenha sido delegada a atribuição de prestá-lo dentro de determinado espaço aéreo (Art. 35)[^1].
 
-Como esses três serviços se distribuem entre os órgãos ATS da rede Vatsim Brasil — ACC, APP, TWR — é assunto do próximo capítulo.
+Como esses três serviços se distribuem entre os órgãos ATS da Vatsim Brasil — ACC, APP, TWR — é assunto do próximo capítulo.
 
 Do lado do piloto, a contrapartida do controle é a autorização. A ICA 100-12 exige que, "antes de realizar um voo controlado, ou uma parte de um voo controlado", seja obtida a autorização do órgão ATC, solicitada mediante a apresentação do Plano de Voo (Art. 77)[^2]. É esse par — autorização emitida de um lado, exigida do outro — que distingue o controle dos demais serviços tratados a seguir.
 
