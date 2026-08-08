@@ -159,4 +159,7 @@ A referência passa a ser o **nível de voo**, transmitido **dígito a dígito**
 | A seu critério | At your discretion | A su discreción |
 | Ciente | Roger | Recibido |
 
+!!! tip "Leitura complementar"
+    A base normativa dos serviços citados nesta página — o que é controle, o que é informação de voo e por que INFORMAÇÃO e RÁDIO não controlam — está no [Manual de Espaço Aéreo e Serviços ATS](../espaco-aereo-servicos-ats/03-servicos.pt.md).
+
 ---
