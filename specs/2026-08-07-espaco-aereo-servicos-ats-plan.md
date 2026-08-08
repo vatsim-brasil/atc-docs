@@ -158,7 +158,6 @@ Ao final de `includes/abreviacoes.md`, mantendo o formato `*[SIGLA]: Português 
 *[CTA]: Área de Controle / Control Area
 *[UTA]: Área de Controle Superior / Upper Control Area
 *[ACC]: Centro de Controle de Área / Area Control Centre
-*[AFIS]: Serviço de Informação de Voo de Aeródromo / Aerodrome Flight Information Service
 *[AIS]: Serviço de Informação Aeronáutica / Aeronautical Information Service
 *[EAC]: Espaço Aéreo Condicionado / Conditional Airspace
 *[AMSL]: Acima do Nível Médio do Mar / Above Mean Sea Level
@@ -168,7 +167,7 @@ Ao final de `includes/abreviacoes.md`, mantendo o formato `*[SIGLA]: Português 
 *[IAS]: Velocidade Indicada / Indicated Airspeed
 ```
 
-Não remover nem reordenar nada do que já existe. As siglas `ATC`, `ATS`, `TMA`, `FIR`, `CTR`, `VFR`, `IFR`, `VMC`, `IMC`, `AIP`, `SID`, `STAR`, `DEL`, `GND`, `TWR`, `APP`, `CTR`, `FSS`, `SSR` já estão no arquivo — não duplicar.
+Não remover nem reordenar nada do que já existe. As siglas `ATC`, `ATS`, `TMA`, `FIR`, `CTR`, `VFR`, `IFR`, `VMC`, `IMC`, `AIP`, `SID`, `STAR`, `DEL`, `GND`, `TWR`, `APP`, `CTR`, `FSS`, `SSR` e `AFIS` já estão no arquivo — não duplicar.
 
 - [ ] **Step 2: Verificar que não há sigla duplicada**
 
@@ -254,7 +253,7 @@ Footnotes ao final:
 - [ ] **Step 5: Build**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | tee /tmp/atcdocs-build.log
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | tee /tmp/atcdocs-build.log
 grep -iE "warning|error" /tmp/atcdocs-build.log || echo "sem avisos"
 ```
 
@@ -453,7 +452,7 @@ Esperado: contagem maior que zero para todo artigo citado. Zero significa citaç
 - [ ] **Step 5: Build e conferência de footnotes**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/01-estrutura.pt.md
 diff <(grep -oE '\[\^[0-9]+\]' "$F" | grep -v ':' | sort -u) \
      <(grep -oE '^\[\^[0-9]+\]:' "$F" | tr -d ':' | sort -u)
@@ -464,7 +463,7 @@ Esperado: sem avisos e diff vazio.
 - [ ] **Step 6: Conferência visual nos dois temas**
 
 ```bash
-venv/bin/mkdocs serve --dirtyreload
+venv/bin/python -m mkdocs serve --dirtyreload
 ```
 
 Abrir `http://127.0.0.1:8000/documentos/manuais/espaco-aereo-servicos-ats/01-estrutura/`, alternar o tema pelo botão do cabeçalho e confirmar que rótulos e faixas do SVG permanecem legíveis nos dois. Encerrar com `Ctrl+C`.
@@ -627,7 +626,7 @@ Esperado: contagens maiores que zero. Os limites de velocidade devem aparecer no
 - [ ] **Step 6: Build e conferência de footnotes**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/02-classes.pt.md
 diff <(grep -oE '\[\^[0-9]+\]' "$F" | grep -v ':' | sort -u) \
      <(grep -oE '^\[\^[0-9]+\]:' "$F" | tr -d ':' | sort -u)
@@ -639,7 +638,7 @@ Esperado: sem avisos, diff vazio. Se houver marcações `REVISAR`, listá-las no
 - [ ] **Step 7: Conferência visual nos dois temas**
 
 ```bash
-venv/bin/mkdocs serve --dirtyreload
+venv/bin/python -m mkdocs serve --dirtyreload
 ```
 
 Abrir `http://127.0.0.1:8000/documentos/manuais/espaco-aereo-servicos-ats/02-classes/`, alternar tema, conferir SVG-2 e a tabela consolidada. A tabela é larga — confirmar que não estoura no viewport estreito. Encerrar com `Ctrl+C`.
@@ -730,7 +729,7 @@ Esperado: cada artigo citado aparece em ao menos uma das duas fontes, e a footno
 - [ ] **Step 4: Build e conferência de footnotes**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/03-servicos.pt.md
 diff <(grep -oE '\[\^[0-9]+\]' "$F" | grep -v ':' | sort -u) \
      <(grep -oE '^\[\^[0-9]+\]:' "$F" | tr -d ':' | sort -u)
@@ -885,7 +884,7 @@ Atenção: cobertura *top-down* é convenção da rede VATSIM, **não** norma DE
 - [ ] **Step 5: Build, footnotes e links**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/04-orgaos.pt.md
 diff <(grep -oE '\[\^[0-9]+\]' "$F" | grep -v ':' | sort -u) \
      <(grep -oE '^\[\^[0-9]+\]:' "$F" | tr -d ':' | sort -u)
@@ -900,7 +899,7 @@ Esperado: sem avisos, diff vazio, nenhum `QUEBRADO`.
 - [ ] **Step 6: Conferência visual nos dois temas**
 
 ```bash
-venv/bin/mkdocs serve --dirtyreload
+venv/bin/python -m mkdocs serve --dirtyreload
 ```
 
 Abrir `http://127.0.0.1:8000/documentos/manuais/espaco-aereo-servicos-ats/04-orgaos/`, alternar tema, conferir que as setas e o marcador do SVG-3 aparecem nos dois. Encerrar com `Ctrl+C`.
@@ -1003,7 +1002,7 @@ Esperado: contagens maiores que zero.
 - [ ] **Step 5: Build e conferência de footnotes**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
 F=docs/documentos/manuais/espaco-aereo-servicos-ats/05-regras.pt.md
 diff <(grep -oE '\[\^[0-9]+\]' "$F" | grep -v ':' | sort -u) \
      <(grep -oE '^\[\^[0-9]+\]:' "$F" | tr -d ':' | sort -u)
@@ -1079,7 +1078,7 @@ Para cada linha das tabelas do checklist, localizar a afirmação equivalente no
 - [ ] **Step 3: Build e conferência de links internos**
 
 ```bash
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | grep -iE "warning|error" || echo "sem avisos"
 D=docs/documentos/manuais/espaco-aereo-servicos-ats
 for l in $(grep -oE '\]\(0[0-9]-[a-z]+\.pt\.md\)' "$D/06-checklist.pt.md" | sed 's/](//;s/)//'); do
   [ -f "$D/$l" ] && echo "ok $l" || echo "QUEBRADO $l"
@@ -1158,7 +1157,7 @@ Esperado: sete `.pt.md` mais `.pages` e `img/`; nenhum `FALHA`; nenhum `FALTA`.
 
 ```bash
 rm -rf /tmp/atcdocs-build
-venv/bin/mkdocs build -d /tmp/atcdocs-build 2>&1 | tee /tmp/atcdocs-final.log
+venv/bin/python -m mkdocs build -d /tmp/atcdocs-build 2>&1 | tee /tmp/atcdocs-final.log
 grep -iE "warning|error" /tmp/atcdocs-final.log || echo "sem avisos"
 ls /tmp/atcdocs-build/documentos/manuais/espaco-aereo-servicos-ats/
 ```
@@ -1176,7 +1175,7 @@ Esperado: as páginas aparecem também sob `/en/`, servidas em português por `f
 - [ ] **Step 5: Conferência visual final nos dois temas**
 
 ```bash
-venv/bin/mkdocs serve --dirtyreload
+venv/bin/python -m mkdocs serve --dirtyreload
 ```
 
 Percorrer os sete capítulos em `http://127.0.0.1:8000/documentos/manuais/espaco-aereo-servicos-ats/`, alternando o tema em cada um. Conferir: os três SVG legíveis nos dois temas; as tabelas largas sem estouro horizontal; a navegação lateral na ordem do `.pages`; os tooltips das siglas novas funcionando. Encerrar com `Ctrl+C`.
@@ -1215,4 +1214,4 @@ Reportar ao mantenedor:
 
 **Sobre `mkdocs build` e links.** O `mkdocs.yml` define `validation: unrecognized_links: ignore`. Links internos quebrados **não** falham o build. Por isso cada tarefa que cria link relativo tem um passo explícito de conferência por `ls`/`test -f`.
 
-**Sobre o ambiente Python.** O repositório tem `venv/` com o MkDocs instalado. Os comandos usam `venv/bin/mkdocs` diretamente para não depender de ativação de shell — o `dev.sh` assume bash e o shell da sessão é fish.
+**Sobre o ambiente Python.** O repositório tem `venv/` com o MkDocs instalado. Os comandos usam `venv/bin/python -m mkdocs` diretamente para não depender de ativação de shell — o `dev.sh` assume bash e o shell da sessão é fish.
