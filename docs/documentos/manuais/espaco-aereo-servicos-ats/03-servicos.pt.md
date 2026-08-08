@@ -59,22 +59,27 @@ Para o detalhamento de a quem se presta, o que garante e a divergência de reda�
 
 ## Qual serviço em qual classe
 
-A tabela abaixo cruza os quatro serviços com as sete classes de espaço aéreo, a partir da mesma matriz do Anexo II da ICA 100-37 já reproduzida no capítulo anterior[^1]. Ela responde apenas se o serviço existe naquela classe — o detalhamento por tipo de voo (IFR/VFR), a separação e a informação de tráfego que acompanham cada célula estão na [tabela consolidada do capítulo 02](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37).
+A tabela abaixo cruza os quatro serviços com as sete classes de espaço aéreo. As colunas de **Controle de Tráfego Aéreo** e de **Assessoramento de Tráfego Aéreo** seguem a matriz do Anexo II da ICA 100-37[^1], já reproduzida no capítulo anterior; as colunas de **Informação de Voo** e de **Alerta** seguem os artigos que fixam o alcance desses dois serviços, e não o Anexo II. A razão está na natureza do Anexo: ele lista os serviços que *definem* cada classe, não todos os que ali se prestam. Ler a matriz como se ela esgotasse os serviços prestados é o erro que esta tabela existe para evitar. O detalhamento por tipo de voo (IFR/VFR), a separação e a informação de tráfego que acompanham cada célula estão na [tabela consolidada do capítulo 02](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37).
 
 | Classe | Controle de Tráfego Aéreo | Informação de Voo | Assessoramento de Tráfego Aéreo | Alerta |
 | --- | --- | --- | --- | --- |
-| **A** | Sim | Não | Não | Sim |
-| **B** | Sim | Não | Não | Sim |
-| **C** | Sim | Não (VFR recebe informação de tráfego, à parte) | Não | Sim |
-| **D** | Sim | Não (VFR recebe informação de tráfego, à parte) | Não | Sim |
-| **E** | Sim, somente para o IFR | Sim, somente para o VFR | Não | Sim |
-| **F** | Não | Sim | Sim, somente para o IFR | Sim |
-| **G** | Não | Sim, quando possível | Não | Sim |
+| **A** | Sim | Sim | Não | Sim |
+| **B** | Sim | Sim | Não | Sim |
+| **C** | Sim | Sim | Não | Sim |
+| **D** | Sim | Sim | Não | Sim |
+| **E** | Sim, somente para o IFR | Sim — e é o serviço que o Anexo II atribui ao voo VFR da classe | Não | Sim |
+| **F** | Não | Sim — o Anexo II o atribui aos dois tipos de voo, com a condição "quando solicitado" apenas na linha VFR\* | Sim, somente para o IFR | Sim |
+| **G** | Não | Sim — o Anexo II o atribui aos dois tipos de voo, "quando possível e solicitado pelo piloto" | Não | Sim |
+
+\* Na Classe F, a alínea *c* do inciso VI do Art. 21 da ICA 100-37 enuncia o Serviço de Informação de Voo para **todos** os voos da classe "quando solicitado pelo piloto", enquanto o Anexo II registra a condição apenas na linha VFR[^1]. É uma divergência de redação dentro da própria Instrução, registrada e não resolvida em [Classes de Espaço Aéreo](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37) — esta tabela também não a resolve.
 
 Notas de leitura da tabela:
 
-- O Serviço de Alerta não é condicionado à classe do espaço aéreo: aplica-se sempre que se cumprir uma das três condições do Art. 795 da ICA 100-37[^1], tratadas na seção anterior — por isso a coluna é "Sim" em todas as linhas, ao contrário das demais colunas.
-- Nas Classes C e D, o Anexo II da ICA 100-37 lista "informação de tráfego" como item específico para o voo VFR — um elemento de informação embutido no próprio Serviço de Controle de Tráfego Aéreo da classe, e não o Serviço de Informação de Voo previsto, com esse nome, nas Classes E (VFR), F e G[^1]. Ver a tabela consolidada e as notas do capítulo 02 para o texto exato de cada classe.
+- **Por que a coluna de Informação de Voo é "Sim" em todas as classes.** O serviço não é privativo das classes em que o Anexo II o nomeia. O Art. 32 da ICA 100-37 determina que os Serviços de Informação de Voo e de Alerta sejam proporcionados "em todas as Regiões de Informação de Voo sob jurisdição do Brasil"[^1] — e, pelo Art. 19, parágrafo único, da mesma Instrução, as Áreas de Controle, as Zonas de Controle e as ATZ ficam *dentro* da FIR[^1]. O Art. 741 confirma pelo lado do destinatário: o serviço é proporcionado a todas as aeronaves no espaço aéreo sob jurisdição do Brasil que mantenham comunicação bilateral com um órgão ATS ou que o solicitem[^1]. E o Art. 743 pressupõe exatamente a coexistência: quando um órgão presta os dois ao mesmo tempo, o controle tem precedência sobre a informação de voo[^1] — precedência entre serviços simultâneos, não exclusão de um deles.
+- **O conteúdo confirma o alcance.** O inciso II do Art. 745 da ICA 100-37 inclui no Serviço de Informação de Voo a informação sobre risco de colisão para aeronaves que operem nas Classes C, D, E, F e G[^1]; e as informações do Art. 744 — SIGMET e AIRMET, cinzas vulcânicas, mudanças na condição dos auxílios à navegação e dos aeródromos, balões livres não tripulados — não têm recorte por classe[^1]. Um voo em Classe A recebe SIGMET pelo Serviço de Informação de Voo, não pelo Serviço de Controle de Tráfego Aéreo.
+- **O que muda entre as classes, então, não é a existência do serviço, e sim o seu papel.** Nas Classes A a D o serviço que define a classe é o controle, e a informação de voo o acompanha; nas Classes E (VFR), F e G a informação de voo é o que o piloto tem, porque não há controle a que recorrer. É essa diferença que a coluna de Controle de Tráfego Aéreo registra.
+- Nas Classes C e D, o Anexo II da ICA 100-37 lista "informação de tráfego" como item específico para o voo VFR — um elemento de informação embutido no próprio Serviço de Controle de Tráfego Aéreo da classe, e distinto do Serviço de Informação de Voo tratado nas notas acima[^1]. Ver a tabela consolidada e as notas do capítulo 02 para o texto exato de cada classe.
+- O Serviço de Alerta, como a informação de voo, não é condicionado à classe do espaço aéreo — mesmo Art. 32[^1] —, e é acionado sempre que se cumprir uma das três condições do Art. 795 da ICA 100-37[^1], tratadas na seção anterior.
 - Para o detalhamento por tipo de voo (IFR/VFR) dentro de cada classe — inclusive a separação provida —, ver a [tabela consolidada do capítulo 02](02-classes.pt.md#tabela-consolidada-anexo-ii-da-ica-100-37).
 
 ## O que informar não é controlar
@@ -84,14 +89,16 @@ Notas de leitura da tabela:
 
     Quando retransmite uma autorização emitida por um órgão ATC, deve deixar claro de quem partiu a autorização.
 
-A base dessa regra está na própria definição dos dois serviços, lado a lado no Anexo VII da ICA 100-12: o Serviço de Controle de Tráfego Aéreo existe para "prevenir colisões" e "acelerar e manter ordenado o fluxo de tráfego aéreo"[^2], o que ele faz emitindo autorizações e instruções (Art. 30, III, da ICA 100-37)[^1]; o Serviço de Informação de Voo existe para "proporcionar avisos e informações úteis"[^2]. Nenhum artigo da ICA 100-37 atribui ao Serviço de Informação de Voo o poder de emitir autorização ou de separar aeronaves — essa competência pertence ao Serviço de Controle de Tráfego Aéreo (Art. 30, III)[^1].
+A base dessa regra está na própria definição dos dois serviços, lado a lado no Anexo VII da ICA 100-12: o Serviço de Controle de Tráfego Aéreo existe para "prevenir colisões" e "acelerar e manter ordenado o fluxo de tráfego aéreo"[^2], o que ele faz emitindo "autorizações e informações com a finalidade de prevenir colisão entre aeronaves sob seu controle e de acelerar e manter um fluxo de tráfego ordenado" (Art. 30, III, da ICA 100-37)[^1]; o Serviço de Informação de Voo existe para "proporcionar avisos e informações úteis"[^2]. O contraste fica ainda mais claro na Seção IX da ICA 100-37, intitulada "Autorizações e instruções dos órgãos ATC": é por meio de autorizações **e instruções** que os órgãos ATC provêm a separação exigida em cada classe (Art. 39)[^1] — um instrumento que a norma reserva ao órgão de controle. Nenhum artigo da ICA 100-37 atribui ao Serviço de Informação de Voo o poder de emitir autorização ou de separar aeronaves — essa competência pertence ao Serviço de Controle de Tráfego Aéreo (Art. 30, III, e Art. 39, ambos da ICA 100-37)[^1].
 
 O caso mais concreto dessa fronteira é o AFIS, o Serviço de Informação de Voo de Aeródromo, normalmente prestado por um órgão ATS identificado como "RÁDIO" (Art. 783 da ICA 100-37)[^1]. A própria ICA 100-37 avisa: dentro da Zona de Informação de Voo (FIZ) onde o AFIS é prestado, "não há prestação de Serviço de Controle de Tráfego Aéreo e, por isso, não devem ser esperadas autorizações de controle de tráfego aéreo" (Art. 786, § 1°)[^1]. O que o órgão RÁDIO transmite às aeronaves inclui, entre os elementos básicos de informação, "mensagens, incluindo autorizações, recebidas de outros órgãos ATS para retransmissão à aeronave" (Art. 788, VII)[^1] — ou seja, a única autorização que passa pela frequência do RÁDIO é uma autorização de outro órgão, apenas retransmitida. É exatamente essa retransmissão que o bloco acima cobra: deixar claro de quem partiu a autorização, porque quem fala não é quem autorizou.
 
 Este bloco reforça, com a base normativa, o que o [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/conceitos.pt.md) já pratica na fonia.
 
 !!! tip "Na rede (Vatbrz)"
-    Toda posição conectada na rede presta Serviço de Controle de Tráfego Aéreo dentro do seu espaço aéreo. O que muda é o alcance: fora do espaço controlado, o que você presta ao piloto é informação, não controle. Reconhecer essa fronteira é o que separa uma instrução válida de uma instrução que você não tinha autoridade para emitir.
+    Nem toda posição conectada na rede presta Serviço de Controle de Tráfego Aéreo. As posições de controle — `_DEL`, `_GND`, `_TWR`, `_APP` e `_CTR` — prestam-no aos voos que o Art. 29 da ICA 100-37 relaciona, e apenas nas classes ali listadas[^1]. As posições **RÁDIO** (`_R_TWR`), que operam o AFIS, não prestam: na FIZ "não há prestação de Serviço de Controle de Tráfego Aéreo e, por isso, não devem ser esperadas autorizações de controle de tráfego aéreo" (Art. 786, § 1°)[^1].
+
+    E mesmo em uma posição de controle o alcance tem limite. Fora do espaço aéreo controlado — em Classe F ou G sob cobertura *top-down*, por exemplo — o que você presta ao piloto é informação, não controle. Reconhecer essa fronteira é o que separa uma instrução válida de uma instrução que você não tinha autoridade para emitir.
 
 [^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
 [^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
