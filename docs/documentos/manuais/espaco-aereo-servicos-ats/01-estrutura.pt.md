@@ -58,7 +58,7 @@ Na prática: se uma TMA Classe D tiver uma CTA Classe C sobreposta acima dela, n
 | **FIR** | Região de Informação de Voo | Todo o espaço aéreo da região; contém as demais divisões | Serviço de Informação de Voo e Serviço de Alerta[^1] |
 | **UTA** | *(sigla não expandida nas fontes consultadas)* | Aerovias superiores e outras partes do espaço aéreo superior, definidas na AIP-Brasil[^1] | Serviço de Controle de Tráfego Aéreo[^1] |
 | **CTA** | Área de Controle | Aerovias inferiores e outras partes do espaço aéreo inferior, definidas na AIP-Brasil[^1] | Serviço de Controle de Tráfego Aéreo[^1] |
-| **TMA** | Área de Controle Terminal | Partes do espaço aéreo inferior, geralmente na confluência de rotas ATS e nas imediações de um ou mais aeródromos[^1] [^2] | Serviço de Controle de Tráfego Aéreo[^1] |
+| **TMA** | Área de Controle Terminal | Partes do espaço aéreo inferior, geralmente na confluência de rotas ATS e nas imediações de um ou mais aeródromos[^1][^2] | Serviço de Controle de Tráfego Aéreo[^1] |
 | **CTR** | Zona de Controle | Espaço aéreo controlado do solo até um limite superior especificado[^2] | Serviço de Controle de Tráfego Aéreo[^1] |
 | **ATZ** | Zona de Tráfego de Aeródromo | Requisitos especiais para proteção do tráfego de aeródromo; sem classificação própria de espaço aéreo[^1] | Serviço de Controle de Tráfego Aéreo, quando o aeródromo for controlado[^1] |
 
@@ -145,7 +145,7 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
 </figure>
 
 !!! note "FIR Atlântico"
-    Nem toda regra vale igual em todas as FIR. A ICA 100-12 trata a FIR Atlântico separadamente das FIR continentais em alguns procedimentos, e há dispositivos com vigência escalonada até 1º de janeiro de 2027. Ao operar em espaço oceânico, confira sempre a regra aplicável àquela FIR.
+    Nem toda regra vale igual em todas as FIR. A ICA 100-12 trata a FIR Atlântico separadamente das FIR continentais em alguns procedimentos, e há dispositivos com vigência escalonada até 1º de janeiro de 2027 (Art. 96 e Art. 97)[^2]. Ao operar em espaço oceânico, confira sempre a regra aplicável àquela FIR.
 
 !!! tip "Na rede (Vatbrz)"
     No EuroScope, os limites de FIR, TMA, CTR e ATZ vêm do sector file. Antes de conectar, abra o setor e localize visualmente o limite lateral e vertical da sua posição — é ele que define até onde vai a sua responsabilidade.
