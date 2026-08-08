@@ -40,7 +40,7 @@ Foram reproduzidas a partir do próprio template, não desenhadas de novo:
 
 Convenção do portfólio, seguida aqui: na abertura o sobretítulo é "Manuais" e o título é o nome do manual; nos capítulos o sobretítulo é o nome do manual e o título é o nome do capítulo.
 
-**O que ainda quero que você olhe:** o conjunto de meteorologia usa fotografia de fundo temática, o de fraseologia VFR usa só gradiente. Segui o segundo por não ter foto licenciada para usar. Se o padrão da casa for foto, as sete precisam ser refeitas — o texto e o posicionamento continuam válidos, muda só a chapa.
+**Estilo de fundo — decidido.** O portfólio tem os dois: o conjunto de meteorologia usa fotografia temática, o de fraseologia VFR usa só gradiente. Ficou o gradiente, confirmado pelo mantenedor em 08/08/2026. As sete imagens estão finalizadas.
 
 ### 2. Revisão técnica por controlador — obrigatória
 
