@@ -87,3 +87,25 @@
 *[AIRAC]: Regulamentação e Controle da Informação Aeronáutica / Aeronautical Information Regulation And Control
 *[SIGMET]: Informação sobre fenômenos meteorológicos significativos em rota / Significant Meteorological Information
 *[AIRMET]: Informação meteorológica para voos a baixo nível / Airmen's Meteorological Information
+*[UIR]: Região Superior de Informação de Voo / Upper Flight Information Region
+*[ADS-C]: Vigilância Dependente Automática por Contrato / Automatic Dependent Surveillance - Contract
+*[ADS-B]: Vigilância Dependente Automática por Radiodifusão / Automatic Dependent Surveillance - Broadcast
+*[SELCAL]: Chamada Seletiva / Selective Calling
+*[SLOP]: Procedimento de Deslocamento Estratégico Lateral / Strategic Lateral Offset Procedure
+*[AORRA]: Área de Rotas Aleatórias RNAV do Oceano Atlântico / Atlantic Ocean Random RNAV Routes Area
+*[PBN]: Navegação Baseada em Performance / Performance-Based Navigation
+*[PBCS]: Comunicação e Vigilância Baseadas em Performance / Performance-Based Communication and Surveillance
+*[RCP]: Performance de Comunicação Requerida / Required Communication Performance
+*[RSP]: Performance de Vigilância Requerida / Required Surveillance Performance
+*[HF]: Frequência Alta / High Frequency
+*[VHF]: Frequência Muito Alta / Very High Frequency
+*[FANS]: Sistemas Futuros de Navegação Aérea / Future Air Navigation Systems
+*[SATCOM]: Comunicação por Satélite / Satellite Communication
+*[ACARS]: Sistema de Endereçamento e Reporte de Comunicações de Aeronaves / Aircraft Communications Addressing and Reporting System
+*[MASPS]: Especificações Mínimas de Performance dos Sistemas da Aeronave / Minimum Aircraft System Performance Specifications
+*[AIREP]: Informe de Aeronave / Air-Report
+*[INCERFA]: Fase de Incerteza / Uncertainty Phase
+*[ALERFA]: Fase de Alerta / Alert Phase
+*[DETRESFA]: Fase de Perigo / Distress Phase
+*[GCAP]: Política Global de Administração de Controladores / Global Controller Administration Policy
+*[CGNA]: Centro de Gerenciamento da Navegação Aérea / Air Navigation Management Center
