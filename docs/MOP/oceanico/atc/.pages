@@ -1,3 +1,13 @@
 title: ATC
 nav:
-   - ...
+  - Visão Geral Operacional: index.pt.md
+  - Estrutura e Setorização: estrutura.pt.md
+  - Preparação e Abertura da Posição: abertura.pt.md
+  - Plano de Voo e Capacidades: plano-de-voo.pt.md
+  - Comunicações e Vigilância: controle.pt.md
+  - Fluxo Operacional e Reportes: fluxo.pt.md
+  - Separação, Rotas e Desvios: separacao.pt.md
+  - Coordenação e Contingências: coordenacao.pt.md
+  - Fraseologia e Mensagens: fraseologia.pt.md
+  - Checklists: checklists.pt.md
+  - Referências: referencias.pt.md
