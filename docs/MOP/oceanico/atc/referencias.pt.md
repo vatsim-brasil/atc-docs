@@ -61,8 +61,8 @@ Todas verificadas em **19/08/2026**. Portal: <https://vatsim.net/docs/policy/>
 | Fonte                                                                                             | Observação                                                        |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Pacote de setor **SBAO**, distribuído pelo AeroNav GNG                                            | Autoridade sobre indicativos, frequências e logons                  |
-| [Fundamentos, Instalação do EuroScope](../../../fundamentos/softwares/euroscope/Instalacao.md)      | Perfis, instalação do setor e troca de FIR                          |
-| [Fundamentos, Utilização do TrackAudio](../../../fundamentos/softwares/trackaudio/utilizacao.md)    | Conexão, `RX`, `TX` e `XCA`                                         |
+| [Fundamentos, Instalação do EuroScope](../../../fundamentos/softwares/euroscope/instalacao.pt.md)   | Perfis, instalação do setor e troca de FIR                          |
+| [Fundamentos, Utilização do TrackAudio](../../../fundamentos/softwares/trackaudio/utilizacao.pt.md) | Conexão, `RX`, `TX` e `XCA`                                         |
 
 ## Leitura complementar
 

@@ -30,7 +30,7 @@ A versão para conferir na hora está em [Checklists](checklists.pt.md#abertura-
 3. Vindo de outra FIR, **reinicie o EuroScope**. Trocar só o setor ou o ASR não basta[^5].
 4. Distribua os pontos de visibilidade pela extensão do setor, com atenção às fronteiras de entrada: limite com o ACC Recife a oeste, meridiano 010° W a leste e portões da AORRA ao sul.
 
-A instalação está descrita em [Fundamentos, Instalação do EuroScope](../../../fundamentos/softwares/euroscope/Instalacao.md).
+A instalação está descrita em [Fundamentos, Instalação do EuroScope](../../../fundamentos/softwares/euroscope/instalacao.pt.md).
 
 ## Conexão e áudio
 
