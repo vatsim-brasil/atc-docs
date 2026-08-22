@@ -1,0 +1,112 @@
+# Manual de Espaço Aéreo e Serviços ATS — Handoff
+
+**Data:** 08/08/2026
+**Branch:** `develop` · 44 commits a partir de `5a7a852`
+**Status:** pronto para revisão técnica por controlador. **Não pronto para publicar.**
+
+---
+
+## O que foi entregue
+
+Sete capítulos em `docs/documentos/manuais/espaco-aereo-servicos-ats/`:
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `index.pt.md` | Apresentação, escopo, não-escopo, referências, links cruzados |
+| `01-estrutura.pt.md` | FIR, UTA, CTA, TMA, CTR, ATZ + corte vertical em SVG |
+| `02-classes.pt.md` | Matriz das classes A–G, Anexo II reproduzido + matriz em SVG |
+| `03-servicos.pt.md` | Controle, Informação de Voo, Alerta, Assessoramento |
+| `04-orgaos.pt.md` | Órgãos ATS ↔ posições da rede, jurisdição + cadeia de transferência em SVG |
+| `05-regras.pt.md` | Níveis de cruzeiro, RVSM, mínimos VMC, transição, VFR especial |
+| `06-checklist.pt.md` | Consulta rápida antes de conectar |
+
+O manual aparece sozinho na navegação — `docs/.pages` e `docs/documentos/.pages` não precisaram de edição. Build limpo: 0 erros.
+
+Fontes normativas: **ICA 100-37** (em vigor 27/11/2025) e **ICA 100-12** (ed. 28/11/2024), com apoio do MCA 100-16 e da AIP Brasil. Toda afirmação normativa cita artigo, inciso ou anexo em footnote.
+
+---
+
+## Pendências antes do merge
+
+### 1. ~~As sete imagens de cabeçalho não existem~~ — resolvido, mas confira
+
+As sete imagens foram geradas e estão em `docs/documentos/manuais/espaco-aereo-servicos-ats/img/`. Os 14 warnings de build sumiram: de 20 warnings o build caiu para 6, todos pré-existentes e alheios a este trabalho.
+
+Foram reproduzidas a partir do próprio template, não desenhadas de novo:
+
+- **Chapa de fundo** extraída dos sete banners do Manual de Fraseologia para Voo Visual — o manual mais recente e o único conjunto sem foto de fundo. Tirando o mínimo por pixel entre os sete, o texto branco desaparece e sobram o gradiente e o wordmark, este último idêntico nos sete (variação zero, conferida). A região onde todos os sete têm texto sobreposto foi reconstruída por inpainting harmônico; as descontinuidades nas bordas ficaram em 0,11–0,19 de 255, contra 0,03 da variação natural do gradiente — invisíveis.
+- **Tipografia:** Ubuntu Sans, a fonte declarada no `mkdocs.yml`. Sobretítulo em weight 700, corpo 42; título em weight 100, corpo 93. Os valores saíram de medir a caixa de tinta do banner original e casar a largura — no corpo 93 o título original bate em 1.088 px contra 1.094 medidos. O peso 100 foi confirmado por erro de pixel contra o original, depois de o Ubuntu Light clássico sair visivelmente mais pesado.
+- **Layout:** sobretítulo com topo de caixa alta em y=34, título em y=84, ambos a partir de x≈104, replicando o original.
+
+Convenção do portfólio, seguida aqui: na abertura o sobretítulo é "Manuais" e o título é o nome do manual; nos capítulos o sobretítulo é o nome do manual e o título é o nome do capítulo.
+
+**Estilo de fundo — decidido.** O portfólio tem os dois: o conjunto de meteorologia usa fotografia temática, o de fraseologia VFR usa só gradiente. Ficou o gradiente, confirmado pelo mantenedor em 08/08/2026. As sete imagens estão finalizadas.
+
+### 2. Revisão técnica por controlador — obrigatória
+
+O manual foi escrito inteiramente a partir das fontes oficiais, com verificação de citação artigo a artigo e revisão adversarial em cada capítulo. Ainda assim: **não sou autoridade aeronáutica.** Nada aqui deve ir ao ar sem um controlador ler.
+
+### 3. Passe visual nos dois temas — nunca foi feito
+
+Nenhum agente teve navegador. Os três SVG foram verificados **estruturalmente** (elementos dentro do `<svg>`, blocos de tema sobrevivendo ao build) e os contrastes foram **calculados** (todos acima do piso 3:1 da WCAG 1.4.11), mas ninguém olhou a página. Abra os capítulos 01, 02 e 04 e alterne o tema.
+
+---
+
+## Duas decisões que tomei sem poder perguntar
+
+Ambas em conflitos internos do plano, onde o plano se contradizia. Nos dois casos a "regra dura" do próprio plano — nenhuma afirmação normativa sem citação — decidiu. **Ambas são reversíveis; se discordar, é só dizer.**
+
+**1. Nota da FIR Atlântico (cap. 01).** O plano ditava o texto da admonition sem footnote, enquanto sua própria regra dura exige citação em toda afirmação normativa. Mandei citar. Respaldo: ICA 100-12 Art. 96 e Art. 97.
+
+**2. Cabeçalho da tabela de órgãos (cap. 04).** O plano mandava uma tabela com coluna "Órgão ATS" listando Controle de Solo e Autorização de Tráfego como pares de ACC/APP/TWR. O Art. 509 da ICA 100-37 trata os dois como **posições internas da TWR**, não como órgãos. Mandei separar em "Órgão ATS" + "Posição interna", usando os três nomes do Art. 686. Todos os cinco mapeamentos de posição sobreviveram.
+
+> O spec de design (`specs/2026-08-07-espaco-aereo-servicos-ats-design.md`) ainda mostra a tabela antiga de três colunas. O spec está desatualizado, não a entrega.
+
+---
+
+## Achados em aberto
+
+**Nenhum.** Os dois que estavam aqui — a frase sobre "todas as posições da tabela" no cap. 04 e o estreitamento do Art. 29 no cap. 03 — foram corrigidos, junto com os demais achados diferidos ao longo do trabalho.
+
+Uma ressalva de rastreabilidade: no glossário global, as expansões de **AIRAC, ARCC, SIGMET e AIRMET** não aparecem literalmente nas fontes admitidas. São terminologia AIP/OACI corrente, nenhuma é contradita pelo manual, e as siglas são de fato usadas no texto — mas, ao contrário de `IAC`, que sai do Art. 477 da ICA 100-37, essas quatro não têm respaldo citável. Uma expansão sem fonte foi removida por esse motivo (`UTA`), porque contradizia o próprio capítulo 01; estas quatro ficaram por não contradizerem nada. Se preferir o rigor estrito, remova as quatro.
+
+---
+
+## Correções colaterais no portal
+
+Quatro defeitos pré-existentes apareceram durante o trabalho e foram corrigidos:
+
+1. **`<figure markdown>` quebrava SVG inline.** O atributo `markdown` faz o Python-Markdown envolver a tag de abertura do SVG num `<p>`, e o elemento fecha cedo — diagrama some. Confirmado com zero filhos de `<svg>` no Chromium. Corrigido nos capítulos 01 e 02, e o padrão foi removido do plano. **Se outros manuais usarem `<figure markdown>` com SVG inline, têm o mesmo problema.**
+2. **Glossário definia TMA errado.** `includes/abreviacoes.md` expandia TMA como "Área de Manobras Terminais / Terminal Maneuvering Area" — a forma europeia. A ICA 100-12, Anexo VII, item L diz **"Área de Controle Terminal (Terminal Control Area)"**. O tooltip errado aparecia em toda página do portal que cita TMA. Corrigido.
+3. **Siglas ausentes.** Acrescentadas ao glossário global: ATZ, CTA, ACC, EAC, AMSL, QNH, QNE, RVSM, IAS, OACI, IAC, ARCC, AIRAC, SIGMET, AIRMET. Beneficia os manuais existentes também.
+4. **Erro de digitação no glossário.** `includes/abreviacoes.md` lia `*[AUTH]: Autorizdo / Cleared`. Corrigido.
+
+Os dois manuais irmãos ganharam um link de volta para cá — o de Fraseologia para Voo Visual aponta para o capítulo de serviços, o de Circuito de Tráfego para a definição de ATZ —, cada um no idioma de admonition que ele já usa.
+
+---
+
+## Descobertas normativas que valem registro
+
+- **O Anexo VII da ICA 100-37 foi revogado** (Portaria DECEA/DNOR1 nº 1.905, de 2025) e os Arts. 8º/9º remetem ao **MCA 100-27**, que não está entre as fontes admitidas. O manual usa o Anexo VII da ICA 100-12, que segue vigente, e nomeia a fonte em cada uso. Manuais futuros que precisem de definições enfrentam o mesmo.
+- **Divergência na Classe F — investigada e resolvida.** As próprias células do Anexo II mostram que os dois lançamentos da Classe F são células separadas, e o Art. 741 da ICA 100-37 presta o Serviço de Informação de Voo a toda aeronave que mantenha comunicação bilateral **ou** que o solicite. Como o Anexo exige bilateral contínua do F/IFR e nenhum rádio do F/VFR, as duas células são o Art. 741 aplicado a cada tipo de voo — não há divergência. O Art. 21, VI, "c" garante o serviço mediante solicitação como piso; o voo IFR o recebe sem precisar pedir. O manual já registra essa leitura nos capítulos 02, 03 e 06 — ainda assim, vale o olhar do controlador, como tudo o mais aqui.
+- **A numeração de artigos colide entre as duas ICAs.** Pelo menos Art. 21, 30, 32, 33, 34, 35, 38, 77, 93, 96, 97, 111, 114, 115, 116, 127 e 509 existem nas duas com significados diferentes. Toda citação do manual nomeia a ICA na própria frase por isso.
+- **Regime transitório na ICA 100-12:** o Art. 96 vale até 31/12/2026 e o Art. 97 já vale na FIR Atlântico, passando a valer nas demais FIR em 1º/01/2027. Registrado no capítulo 01.
+- **Qual classe se aplica a cada porção do espaço aéreo brasileiro** vem da AIP ENR 1.4 e muda por ciclo AIRAC. O manual não fixa esse dado — aponta para o AISWEB.
+
+---
+
+## Fora de escopo, por decisão
+
+Declarado no `index.pt.md`: emergências e contingências, falha de comunicação, interceptação, espaços aéreos condicionados (áreas proibidas, restritas e perigosas), rotas ATS e aerovias, vetoração e separação radar.
+
+Cada um é candidato a manual próprio. Na ordem que eu sugeriria: **vetoração e separação radar** (é a lacuna dos ratings S3 e C1, que hoje não têm material nenhum), depois **coordenação e transferência entre órgãos**, depois **contingências e emergências**.
+
+---
+
+## Documentos do projeto
+
+- `specs/2026-08-07-espaco-aereo-servicos-ats-design.md` — spec de design
+- `specs/2026-08-07-espaco-aereo-servicos-ats-plan.md` — plano de implementação em 9 tarefas
+- Este handoff
+
+Nenhum deles é servido pelo MkDocs: `specs/` está fora de `docs/`.
