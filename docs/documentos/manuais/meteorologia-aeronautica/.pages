@@ -1,11 +1,11 @@
 title: Manual de Meteorologia Aeronáutica
 collapse: false
 nav:
-  - Introdução: index.pt.md
-  - METAR/SPECI: metar-speci.pt.md
-  - TAF: taf.pt.md
-  - SIGMET: sigmet.pt.md
-  - Checklist: checklist.pt.md
-  - Glossário: glossario.pt.md
-  - Referências: referencias.pt.md
+  - ... | glob=index*.md
+  - ... | glob=metar-speci*.md
+  - ... | glob=taf*.md
+  - ... | glob=sigmet*.md
+  - ... | glob=checklist*.md
+  - ... | glob=glossario*.md
+  - ... | glob=referencias*.md
 

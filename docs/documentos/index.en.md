@@ -1,0 +1,32 @@
+---
+  title: Home
+  icon: fontawesome/solid/book
+  hide:
+    - toc
+---
+
+--8<-- "includes/abreviacoes.md"
+
+#
+
+![Documents](img/head-documentos.png)
+
+In this section, you will find the essential **Operational Manuals and Publications** for the training, standardisation and reference of air traffic controllers at Vatsim Brasil. 
+
+All documents have been structured based on official regulations (especially from DECEA and ICAO), adapted to the reality and dynamics of flight simulation on the VATSIM network.
+
+---
+
+## Available Manuals
+
+Explore the operational technical documentation through the links below:
+
+* [**Aeronautical Phraseology Manual**](manuais/fraseologia-aeronautica/index.en.md): Standardisation guide for clear, objective and concise radiotelephony communications between pilots and air traffic controllers, in accordance with **MCA 100-16** and **MCA 100-21**.
+* [**Flight Plan Manual (FPL)**](manuais/manual-plano-de-voo/index.en.md): Practical instructions for filling in, reviewing and correcting Flight Plans (FPL) based on the ICAO standard used in Brazil, detailing how to fill in the main fields and the critical **Item 18**.
+* [**Aeronautical Meteorology Manual**](manuais/meteorologia-aeronautica/index.en.md): Complete instructions for reading, interpreting and practically applying aeronautical weather messages and warnings (**METAR, SPECI, TAF and SIGMET**), which are fundamental to operational decision-making.
+
+
+## Disclaimer
+
+!!! warning "Important"
+    All documentation provided in this section is intended **exclusively for flight simulation** on the VATSIM network. This material does not replace up-to-date official publications (such as the AIP, charts and original DECEA/ICAO manuals) and **must not be used for real-world aviation**.
