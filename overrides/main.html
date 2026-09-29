@@ -1,1 +1,28 @@
 {% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    window.MAPBOX_TOKEN = {{ (config.extra.mapbox_token or "") | tojson }};
+    window.MAPBOX_ESTILOS = {{ (config.extra.mapbox_estilos or {}) | tojson }};
+
+    // Camada base clara/escura para mapas Leaflet: Mapbox (plano gratuito) quando
+    // houver token; caso contrário, Stadia Maps como alternativa.
+    window.camadaMapbox = function (estilo, opcoes) {
+      var escuro = estilo === 'escuro';
+      if (window.MAPBOX_TOKEN) {
+        return L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/512/{z}/{x}/{y}@2x?access_token={accessToken}', Object.assign({
+          id: (escuro ? window.MAPBOX_ESTILOS.escuro : window.MAPBOX_ESTILOS.claro) || (escuro ? 'mapbox/navigation-night-v1' : 'mapbox/outdoors-v12'),
+          accessToken: window.MAPBOX_TOKEN,
+          tileSize: 512,
+          zoomOffset: -1,
+          attribution: '&copy; <a href="https://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+        }, opcoes));
+      }
+      return L.tileLayer('https://tiles.stadiamaps.com/tiles/{id}/{z}/{x}/{y}{r}.png', Object.assign({
+        id: escuro ? 'alidade_smooth_dark' : 'outdoors',
+        attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+      }, opcoes));
+    };
+  </script>
+{% endblock %}

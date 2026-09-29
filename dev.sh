@@ -23,6 +23,13 @@ if [ -z "$VIRTUAL_ENV" ]; then
     fi
 fi
 
+# Carrega variáveis locais (ex.: MAPBOX_ACCESS_TOKEN) do .env, se existir
+if [ -f ".env" ]; then
+    set -a
+    source .env
+    set +a
+fi
+
 # Verifica se mkdocs está instalado
 if ! command -v mkdocs &> /dev/null; then
     echo -e "${BLUE}❌ MkDocs não encontrado. Instalando dependências...${NC}"
@@ -34,5 +41,4 @@ echo -e "${GREEN}✅ Servidor iniciado com --dirtyreload (fast reload)${NC}"
 echo -e "${GREEN}📝 Editando arquivos em docs/ para ver mudanças em tempo real${NC}"
 echo ""
 
-mkdocs serve --dirtyreload --watch-theme
-
+mkdocs serve --dirty --watch-theme --open

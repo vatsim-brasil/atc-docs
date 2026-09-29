@@ -91,6 +91,12 @@ markdown_extensions:
       toc_depth: 2
 
 extra:
+  # Token público do Mapbox (pk.*). Restrinja por URL no painel do Mapbox.
+  mapbox_token: !ENV [MAPBOX_ACCESS_TOKEN, ""]
+  # Estilos do Mapbox (usuario/id). Aceita estilos próprios do Mapbox Studio.
+  mapbox_estilos:
+    claro: mapbox/outdoors-v12
+    escuro: mapbox/navigation-night-v1
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@VATSIMBrasil
@@ -142,6 +148,24 @@ plugins:
           name: English
           copyright: The content on this website is intended for Flight Simulation use only.
           site_name: ATC Portal
+          nav_translations:
+            Aeródromos: Aerodromes
+            Centros: Centers
+            Controlados: Controlled
+            Documentos: Documents
+            Especiais: Special
+            Eventos Antigos: Past Events
+            Fundamentos: Fundamentals
+            Manuais: Manuals
+            Manuais Operacionais: Operational Manuals
+            Manual de Circuito de Tráfego: Traffic Circuit Manual
+            Manual de Fraseologia Aeronáutica: Aeronautical Phraseology Manual
+            Manual de Fraseologia para Voo Visual: VFR Phraseology Manual
+            Manual de Meteorologia Aeronáutica: Aeronautical Meteorology Manual
+            Manual de Plano de Voo: Flight Plan Manual
+            Não Controlados: Uncontrolled
+            Piloto: Pilot
+            Terminais: Terminals
       reconfigure_material: true
       reconfigure_search: true
   - git-revision-date-localized:

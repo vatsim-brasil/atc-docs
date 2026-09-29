@@ -47,6 +47,8 @@ jobs:
           bash add_vatis_update_information.sh "$VATIS_BASE_PROFILE_URL" docs/files/vatis/vATIS-Profile-SBRE.json
         shell: bash
       - name: Build with MkDocs
+        env:
+          MAPBOX_ACCESS_TOKEN: ${{ vars.MAPBOX_ACCESS_TOKEN }}
         run: mkdocs build --clean
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -129,13 +129,9 @@ A política de abertura de setores da VATSIM Brasil prevalece sobre esta orienta
     zoomMax: 14,
     zoomPadrao: 4,
     pontoCentral: [-15.382442, -30.714408],
-    tileStadia: "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
-    tileStadiaDark: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png",
     tileSatelite: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
     tileOsm: "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
   };
-
-  var atribuicaoStadia = '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
 
   // Os contornos estao em [longitude, latitude]; o Leaflet espera [latitude, longitude].
   var contornos = {
@@ -206,8 +202,8 @@ A política de abertura de setores da VATSIM Brasil prevalece sobre esta orienta
     });
 
     var bases = {
-      "Stadia": L.tileLayer(configMapa.tileStadia, { minZoom: configMapa.zoomMin, maxZoom: configMapa.zoomMax, attribution: atribuicaoStadia }),
-      "Stadia Dark": L.tileLayer(configMapa.tileStadiaDark, { minZoom: configMapa.zoomMin, maxZoom: configMapa.zoomMax, attribution: atribuicaoStadia }),
+      "Claro": camadaMapbox("claro", { minZoom: configMapa.zoomMin, maxZoom: configMapa.zoomMax }),
+      "Escuro": camadaMapbox("escuro", { minZoom: configMapa.zoomMin, maxZoom: configMapa.zoomMax }),
       "Arcgis Satelite": L.tileLayer(configMapa.tileSatelite, { minZoom: configMapa.zoomMin, maxZoom: configMapa.zoomMax, attribution: "&copy; Esri" }),
       "Open Street Map": L.tileLayer(configMapa.tileOsm, { minZoom: configMapa.zoomMin, maxZoom: configMapa.zoomMax, attribution: "&copy; OpenStreetMap" })
     };
@@ -222,7 +218,7 @@ A política de abertura de setores da VATSIM Brasil prevalece sobre esta orienta
     var mapa = L.map(elemento, {
       minZoom: configMapa.zoomMin,
       maxZoom: configMapa.zoomMax,
-      layers: [bases["Stadia"]]
+      layers: [bases["Claro"]]
     }).setView(configMapa.pontoCentral, configMapa.zoomPadrao);
 
     L.control.layers(bases, sobreposicoes).addTo(mapa);

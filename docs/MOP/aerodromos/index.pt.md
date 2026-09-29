@@ -24,12 +24,8 @@ Clique em qualquer ponto azul no mapa abaixo para abrir diretamente o manual do 
         // Inicializa o mapa focado no centro do Brasil
         var map = L.map('map').setView([-14.235, -51.9253], 4);
 
-        // Adiciona camada de mapa (carto light para visual limpo)
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-            subdomains: 'abcd',
-            maxZoom: 20
-        }).addTo(map);
+        // Camada base clara (Mapbox, ou Stadia sem token) — ver overrides/main.html
+        camadaMapbox('claro', { maxZoom: 20 }).addTo(map);
 
         // Dados dos aeródromos formatados
         var airports = [
