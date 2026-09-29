@@ -1,3 +1,3 @@
 title: Piloto
 nav:
-   - ...
+  - ... | glob=index*.md

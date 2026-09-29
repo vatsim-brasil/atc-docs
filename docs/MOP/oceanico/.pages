@@ -1,3 +1,5 @@
 title: Atlântico
 nav:
-   - ...
+  - ... | glob=index*.md
+  - atc
+  - piloto

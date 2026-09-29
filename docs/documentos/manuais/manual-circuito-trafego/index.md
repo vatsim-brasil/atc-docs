@@ -57,4 +57,6 @@ Padronizar o fluxo de tráfego em torno do aeródromo, facilitando:
 
     A **fraseologia** tem manual próprio. Se o que você procura é como falar, do acionamento no pátio até o encerramento do plano, em Português, Inglês e Espanhol, vá para o [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/index.pt.md).
 
+    Para o que é uma **ATZ** e o que significa um aeródromo ser controlado, veja [Manual de Espaço Aéreo e Serviços ATS, seção ATZ](../espaco-aereo-servicos-ats/01-estrutura.pt.md#atz).
+
 ---

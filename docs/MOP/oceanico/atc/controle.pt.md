@@ -1,99 +1,125 @@
 ---
-title: Técnicas de Controle
+title: Comunicações e Vigilância
+icon: material/satellite-uplink
 tags:
   - Centro
   - SBAO
 ---
 
-Pela cobertura extensa sobre o Oceano, o ACC Atlântico carece da existência de controle radar e de comunicação rádio de alta qualidade, pela impossibilidade de instalação de antenas. Por conta disso, controlar o Atlântico exige o conhecimento de procedimentos alternativos de controle e comunicação, que dependem da capacidade operacional da aeronave que voa no espaço aéreo.
+--8<-- "includes/abreviacoes.md"
 
-É necessário que o controlador conheça todos esses procedimentos e os utilize conforme a necessidade operacional.
+Aqui comunicação e vigilância são o mesmo assunto: você sabe onde a aeronave está porque ela informou, pelo mesmo meio que você usa para responder. **Perder o meio de comunicação é perder a vigilância.**
 
-## Procedimentos de Controle
+## Hierarquia dos meios
 
-O Atlântico não opera usando controle radar. A posição vertical e lateral da aeronave é estimada por meio de dois métodos: via **ADS-C** ou via **reporte de posição**.
+| Ordem | Meio   | Função                                                   |
+| ----- | ------ | -------------------------------------------------------- |
+| 1     | ADS-C  | Posição automática e conformidade de rota                |
+| 2     | CPDLC  | Autorizações, instruções e reportes por texto            |
+| 3     | Voz    | Meio secundário, e primário para quem não tem enlace     |
+| 4     | SELCAL | Chamada seletiva para recuperar aeronave silenciosa      |
 
-### ADS-C
+ADS-C e CPDLC são o **meio primário** do ACC Atlântico, com HF como secundário[^1].
 
-Está cada vez mais comum o uso da **Vigilância Dependente Automática por Contrato**[^1] (ADS-C) como suporte para o exercício do Controle no Atlântico. O ADS-C é um sistema em que o equipamento a bordo das aeronaves transmite, automaticamente, informações do sistema de navegação para o sistema instalado em terra por meio de um enlace de dados (datalink) e em conformidade com certas regras (contrato) quanto à periodicidade das transmissões e conteúdo das informações. Essas informações são apresentadas ao controlador de tráfego aéreo de forma semelhante aos dados obtidos pelo radar.
+## ADS-C
 
-[^1]: Tradução de *Automatic Dependent Surveillance - Contract*.
+!!! danger "ADS-C não é radar"
+    O dado é **dependente** e **automático**: vem da própria aeronave, com a precisão do sistema dela, em intervalos discretos. Não há eco independente, não há atualização contínua, não há vetoração. Tratar como tela radar leva a decisões de separação que a fonte do dado não sustenta.
 
-#### Pré-Requisitos
+Contratos estabelecidos na FIR Atlântico[^2]:
 
-Para confirmar a viabilidade do serviço via ADS-C a uma aeronave que irá voar no Atlãntico, o Controlador deve:
+| Tipo          | Gatilho                                                  |
+| ------------- | -------------------------------------------------------- |
+| **Periódico** | A cada 15 minutos                                        |
+| **Por evento** | Pontos de notificação                                   |
+| **Por evento** | Desvio lateral de 5 NM                                  |
+| **Por evento** | Desvio de altitude de 200 pés                           |
+| **Por evento** | Razão vertical de mais ou menos 2.000 pés por minuto    |
+| **Por demanda** | Necessidade operacional                                 |
 
-**1. Verificar a existência do equipamento a bordo da aeronave.**
+Os contratos por evento são o que transforma a ADS-C em ferramenta de conformidade: qualquer saída de rota, desvio de nível ou início de subida gera notificação sem você perguntar.
 
-Confira no plano de voo da aeronave, especialmente no item 10b, a existência do grupo `D1`.
+**Mesmo em ADS-C, o piloto deve enviar uma mensagem de posição em CPDLC na entrada da FIR**[^3]. Os estimados só precisam ser atualizados se variarem mais de 2 minutos[^4].
 
-<table>
-<tr>
-<td>
-<figure markdown="span">
-    <img src="../adsc1.png"/>
-    <figcaption>Aeronave habilitada a operar ADS-C no Atlântico (presença do grupo <b>D1</b> no item 10b).</figcaption>
-</figure>
-</td>
-<td>
-<figure markdown="span">
-    <img src="../adsc2.png"/>
-    <figcaption>Aeronave não-habilitada a operar ADS-C no Atlântico (ausência do grupo <b>D1</b> no item 10b).</figcaption>
-</figure>
-</td>
-</tr>
-</table>
+**Se a ADS-C falhar**, o piloto normalmente não é alertado pelo equipamento de bordo[^5]. Ao receber a notificação de falha: informe o piloto, exija reportes por CPDLC ou voz e restabeleça os mínimos aplicáveis[^6].
 
-**2. Confirmar a conexão do CPDLC da aeronave com o controle.**
+## CPDLC
 
-Como os dados são transmitidos via satélite mediante contrato, só é possível adotar esse método de controle quando a conexão CPDLC estiver ativa.
+### Logon
 
-Para tal, ao usar o [TopSky](https://forum.vatsim-scandinavia.org/d/34-topsky-plugin-241), certifique-se que:
+O identificador publicado é **`SBAO`**[^7]. Códigos dos desmembramentos em [Estrutura e setorização](estrutura.pt.md#posicoes-na-vatsim).
 
- 1. Crie seu código de login no [site do Hoppie](https://www.hoppie.nl/acars). 
- 2. No TopSky, faça sua conexão, usando um dos códigos oficiais em *Login* e sua chave em *Logon Code*, marcando as caixas conforme a imagem abaixo.
+| Situação                          | Regra                                                                       |
+| --------------------------------- | ---------------------------------------------------------------------------- |
+| Quando fazer                      | **Entre 10 e 25 minutos** antes de ingressar na FIR[^8]                      |
+| Decolando dentro do espaço aéreo  | Antes da decolagem[^8]                                                       |
+| Vindo de FIR com enlace           | Transferência automática; a tripulação confere ao cruzar o limite[^9]        |
+| Logon rejeitado                   | Indicativo e matrícula devem ser idênticos aos do plano de voo[^10]          |
 
-    <figure markdown="span">
-        ![CPDLC Connection Prompt](../cpdlclogin.png){ height=100% }
-        <figcaption>Tela de conexão do CPDLC no TopSky.</figcaption>
-    </figure>
+### Regras de uso
 
- 3. Monitore o conteúdo da tela *CPDLC Current Message Window* *(Menu Tools > CPDLC > Current Messages...)*, para lidar com os pedidos de conexão e troca de mensagens.
-    
-    <figure markdown="span">
-        ![CPDLC Current Messages](../cpdlccurrent.png){ width=100% }
-        <figcaption>Tela de Mensagens no TopSky.</figcaption>
-    </figure>
+| Regra                                                                    | Fonte  |
+| ------------------------------------------------------------------------- | ------ |
+| Quem fala por CPDLC recebe resposta por CPDLC; por voz, resposta por voz  | [^11]  |
+| Todo diálogo deve ser fechado                                             | [^11]  |
+| **Autorização por voz prevalece sobre a por CPDLC**                       | [^12]  |
+| Texto livre só quando não houver mensagem padronizada; evite mensagens longas | [^13] |
+| A CPDLC não é usada para vetorações                                       | [^14]  |
+| `MONITOR`: muda de frequência **sem** chamada inicial                    | [^15]  |
+| `CONTACT`: muda de frequência **e faz** chamada inicial                  | [^15]  |
 
-#### Operacionalização
+**Se a CPDLC falhar**, reverta para voz iniciando com `CPDLC FAILURE`, ou `ALL STATIONS CPDLC FAILURE` se a falha for do sistema de solo. Mensagens pendentes são consideradas não encaminhadas e os diálogos recomeçam[^16]. Fraseologia completa em [Fraseologia e mensagens](fraseologia.pt.md#cpdlc).
 
-???+ warning "Atenção!"
-    O pedido de conexão ao CPDLC deve vir de 5 a 20 minutos ANTES da entrada da FIR, a não ser se for feita uma transferência de outro ACC operando em CPDLC.
+## Voz
 
-1. Ao receber o pedido de login de CPDLC, **avalie** e **aceite**, aguardando a mensagem `CONNECTED`, confirmando a conexão.
-2. Verifique na tag se o callsign está entre colchetes (por exemplo, `[UAE262]`), confirmando a carga de dados via CPDLC.
-3. Execute um **Cheque de Selcal**.
+Na rede, a voz ocorre no canal VHF da posição, conforme [Estrutura e setorização](estrutura.pt.md#posicoes-na-vatsim). O contato inicial precisa estabelecer três coisas:
 
+1. **Identificação**: indicativo da aeronave e do órgão.
+2. **Situação**: posição, hora, nível e, se atribuída, a velocidade. A velocidade atribuída entra na chamada inicial após qualquer mudança de frequência[^17].
+3. **Capacidade**: se há enlace ativo e se há SELCAL.
 
-### Reportes de Posição
+!!! info "Real e simulação"
+    Este manual **não** afirma que o áudio da VATSIM reproduza propagação, cobertura ou degradação de HF. Trate o canal pelo que ele é: um canal de voz estável associado à posição.
 
-Em Construção
+## SELCAL
 
-## Procedimentos de Comunicação
+Código de quatro letras, obrigatório no item 18 precedido de `SEL/`[^18]. Duas regras práticas:
 
-Em Construção
+1. **Não faça cheque de SELCAL no primeiro contato de aeronave em CPDLC**, salvo se você solicitar[^19].
+2. **Use o SELCAL para recuperar quem não responde**, ao lado de 121.5 MHz, frequência da empresa, frequência ar-ar e outras tripulações[^20].
 
+!!! info "Real e simulação"
+    Não há decodificador de bordo na rede: o cheque é convenção de fonia. Se o piloto não reconhecer o procedimento, não insista; combine escuta permanente na frequência e siga.
 
+## Quando o meio primário falha
 
-<!-- - Centro Atlântico / Atlântico Center
-- CPDLC AVBL IN [SBAO] / ADS-C SIMUL / RADAR NOT AVBL / Oceanic Clearance not required
-- When ADC-C is not available, position reports are mandatory and shall include: waypoint you're passing now, time when you passed it, flight level and mach speed, next waypoint and ETA and the following waypoint.
+**A separação não pode depender de um meio que deixou de existir.**
 
-- Hello. You're bound to enter SBAO FIR. Please, on initial contact, perform a position report. If you'd like to simulate ADS-C, login to SBAO on CPDLC. Thanks a lot. -->
+| Perdeu  | O que fazer                                                                       |
+| ------- | ---------------------------------------------------------------------------------- |
+| ADS-C   | Exigir reportes por CPDLC ou voz e restabelecer os mínimos aplicáveis[^6]           |
+| CPDLC   | Reverter para voz com `CPDLC FAILURE` e recomeçar os diálogos pendentes[^16]        |
+| Voz     | Usar CPDLC para manter a segurança do voo até restabelecer[^21]                     |
+| Ambos   | Aplicar o fluxo de [contingências](coordenacao.pt.md#perda-completa-de-comunicacao) |
 
-<!-- <AEA122>
-DAKAP ----- 2208Z FL390 .84
-VAMUS 2232Z 2232Z FL390 .84
-MOTBU 2256Z 2256Z FL390 .84
-MOVGA 2312Z
-AMDOL -->
+[^1]: **AIP-Brasil, ENR 3.5, itens 8.3.1 e 9.5.1.3**.
+[^2]: **AIP-Brasil, ENR 3.5, item 9.5.2.3**.
+[^3]: **AIP-Brasil, ENR 3.5, item 9.5.2.1**.
+[^4]: **AIP-Brasil, ENR 3.5, item 9.5.2.5**.
+[^5]: **AIP-Brasil, ENR 3.5, item 9.5.2.6.1**.
+[^6]: **AIP-Brasil, ENR 3.5, item 9.5.2.6.2**.
+[^7]: **AIP-Brasil, ENR 3.5, item 9.2.1**.
+[^8]: **AIP-Brasil, ENR 3.5, item 9.2.2**.
+[^9]: **AIP-Brasil, ENR 3.5, item 9.2.3**.
+[^10]: **AIP-Brasil, ENR 3.5, itens 9.2.4 e 9.2.5**.
+[^11]: **AIP-Brasil, ENR 3.5, item 9.4.1.3**.
+[^12]: **AIP-Brasil, ENR 3.5, item 9.4.1.7**.
+[^13]: **AIP-Brasil, ENR 3.5, itens 9.4.1.1 e 9.4.1.2**.
+[^14]: **AIP-Brasil, ENR 3.5, item 9.1.6**.
+[^15]: **AIP-Brasil, ENR 3.5, itens 9.4.1.5 e 9.4.1.6**.
+[^16]: **AIP-Brasil, ENR 3.5, itens 9.4.4.2 a 9.4.4.5**.
+[^17]: **ICA 100-37, Art. 180**.
+[^18]: **MCA 100-11, item 2.2.8.1.12**, e **AIP-Brasil, ENR 3.5, item 9.4.3.2**.
+[^19]: **AIP-Brasil, ENR 3.5, item 9.5.1.2**.
+[^20]: **ICA 100-37, Art. 268**.
+[^21]: **AIP-Brasil, ENR 3.5, item 9.1.4**.

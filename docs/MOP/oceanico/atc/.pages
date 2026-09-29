@@ -1,3 +1,13 @@
 title: ATC
 nav:
-   - ...
+  - ... | glob=index*.md
+  - ... | glob=estrutura*.md
+  - ... | glob=abertura*.md
+  - ... | glob=plano-de-voo*.md
+  - ... | glob=controle*.md
+  - ... | glob=fluxo*.md
+  - ... | glob=separacao*.md
+  - ... | glob=coordenacao*.md
+  - ... | glob=fraseologia*.md
+  - ... | glob=checklists*.md
+  - ... | glob=referencias*.md

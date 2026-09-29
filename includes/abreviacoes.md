@@ -16,7 +16,7 @@
 *[GNSS]: Sistema de Navegação Global por Satélite / Global Navigation Satellite System
 *[RNP]: Performance de Navegação Requerida / Required Navigation Performance
 *[ATS]: Serviços de Tráfego Aéreo / Air Traffic Services
-*[TMA]: Área de Manobras Terminais / Terminal Maneuvering Area
+*[TMA]: Área de Controle Terminal / Terminal Control Area
 *[FIR]: Região de Informação de Voo / Flight Information Region
 *[SSR]: Radar de Vigilância Secundário / Secondary Surveillance Radar
 *[SOPs]: Procedimentos Operacionais Padrão / Standard Operating Procedures
@@ -44,7 +44,7 @@
 *[RDO]: Rádio / Radio
 *[GLD]: Planador / Glider
 *[FLT]: Voo / Flight
-*[AUTH]: Autorizdo / Cleared
+*[AUTH]: Autorizado / Cleared
 *[ANY]: Qualquer / Anyone
 *[VAC]: Carta de Aproximação Visual / Visual Approach Chart
 *[MAX]: Máxima / Maximum
@@ -74,5 +74,42 @@
 *[RVR]: Alcance Visual de Pista / Runway Visual Range
 *[METAR]: Relatório Meteorológico Terminal de Aeródromo / Aerodrome Terminal Meteorological Report
 *[TAF]: Previsão Meteorológica Terminal de Aeródromo / Terminal Aerodrome Forecast
-*[SIGMET]: Informação Meteorológica Significativa para Aviação / Significant Meteorological Information
+*[SIGMET]: Informação sobre fenômenos meteorológicos significativos em rota / Significant Meteorological Information
 *[PMD]: Peso Máximo de Decolagem / Maximum Takeoff Weight
+*[ATZ]: Zona de Tráfego de Aeródromo / Aerodrome Traffic Zone
+*[CTA]: Área de Controle / Control Area
+*[ACC]: Centro de Controle de Área / Area Control Centre
+*[AIS]: Serviço de Informação Aeronáutica / Aeronautical Information Service
+*[EAC]: Espaço Aéreo Condicionado / Conditional Airspace
+*[AMSL]: Acima do Nível Médio do Mar / Above Mean Sea Level
+*[QNH]: Ajuste de altímetro para indicar altitude / Altimeter setting to indicate altitude
+*[QNE]: Ajuste de altímetro padrão, 1013,2 hPa / Standard altimeter setting, 1013.2 hPa
+*[RVSM]: Separação Vertical Mínima Reduzida / Reduced Vertical Separation Minimum
+*[IAS]: Velocidade Indicada / Indicated Airspeed
+*[OACI]: Organização de Aviação Civil Internacional / International Civil Aviation Organization
+*[IAC]: Carta de Aproximação por Instrumentos / Instrument Approach Chart
+*[ARCC]: Centro de Coordenação de Salvamento Aeronáutico / Aeronautical Rescue Coordination Centre
+*[AIRAC]: Regulamentação e Controle da Informação Aeronáutica / Aeronautical Information Regulation And Control
+*[AIRMET]: Informação meteorológica para voos a baixo nível / Airmen's Meteorological Information
+*[UIR]: Região Superior de Informação de Voo / Upper Flight Information Region
+*[ADS-C]: Vigilância Dependente Automática por Contrato / Automatic Dependent Surveillance - Contract
+*[ADS-B]: Vigilância Dependente Automática por Radiodifusão / Automatic Dependent Surveillance - Broadcast
+*[SELCAL]: Chamada Seletiva / Selective Calling
+*[SLOP]: Procedimento de Deslocamento Estratégico Lateral / Strategic Lateral Offset Procedure
+*[AORRA]: Área de Rotas Aleatórias RNAV do Oceano Atlântico / Atlantic Ocean Random RNAV Routes Area
+*[PBN]: Navegação Baseada em Performance / Performance-Based Navigation
+*[PBCS]: Comunicação e Vigilância Baseadas em Performance / Performance-Based Communication and Surveillance
+*[RCP]: Performance de Comunicação Requerida / Required Communication Performance
+*[RSP]: Performance de Vigilância Requerida / Required Surveillance Performance
+*[HF]: Frequência Alta / High Frequency
+*[VHF]: Frequência Muito Alta / Very High Frequency
+*[FANS]: Sistemas Futuros de Navegação Aérea / Future Air Navigation Systems
+*[SATCOM]: Comunicação por Satélite / Satellite Communication
+*[ACARS]: Sistema de Endereçamento e Reporte de Comunicações de Aeronaves / Aircraft Communications Addressing and Reporting System
+*[MASPS]: Especificações Mínimas de Performance dos Sistemas da Aeronave / Minimum Aircraft System Performance Specifications
+*[AIREP]: Informe de Aeronave / Air-Report
+*[INCERFA]: Fase de Incerteza / Uncertainty Phase
+*[ALERFA]: Fase de Alerta / Alert Phase
+*[DETRESFA]: Fase de Perigo / Distress Phase
+*[GCAP]: Política Global de Administração de Controladores / Global Controller Administration Policy
+*[CGNA]: Centro de Gerenciamento da Navegação Aérea / Air Navigation Management Center

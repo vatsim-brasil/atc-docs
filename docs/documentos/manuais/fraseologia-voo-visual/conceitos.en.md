@@ -159,4 +159,7 @@ The reference becomes the **flight level**, transmitted **digit by digit** and a
 | A seu critério | At your discretion | A su discreción |
 | Ciente | Roger | Recibido |
 
+!!! tip "Further reading"
+    The regulatory basis for the services mentioned on this page (what control is, what flight information is, and why INFORMAÇÃO and RÁDIO stations do not control traffic) is in the [Airspace and ATS Services Manual](../espaco-aereo-servicos-ats/03-servicos.en.md).
+
 ---

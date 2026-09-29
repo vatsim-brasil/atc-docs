@@ -1,0 +1,10 @@
+title: Manual de Espaço Aéreo e Serviços ATS
+collapse: false
+nav:
+  - ... | glob=index*.md
+  - ... | glob=01-estrutura*.md
+  - ... | glob=02-classes*.md
+  - ... | glob=03-servicos*.md
+  - ... | glob=04-orgaos*.md
+  - ... | glob=05-regras*.md
+  - ... | glob=06-checklist*.md
