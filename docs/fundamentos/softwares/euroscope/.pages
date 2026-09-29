@@ -1,6 +1,6 @@
 title: Euroscope
 nav:
-   - index.pt.md
-   - instalacao.pt.md
-   - utilizacao.pt.md
-   - comandos.pt.md
+   - ... | glob=index*.md
+   - ... | glob=instalacao*.md
+   - ... | glob=utilizacao*.md
+   - ... | glob=comandos*.md
