@@ -84,10 +84,6 @@ const configMapa = {
     zoomPadrao: 4,
     pontoCentral: [-15.382442, -30.714408],
     tileMapaUrlSatelite: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    tileMapaUrlStadia: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
-    tileMapaUrlStadiaDark: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
-    tileMapaUrlEscuro: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    tileMapaUrlClaro: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
     tileMapaUrlOsm: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     tileMapaUrlOPNV: 'https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png',
 };
@@ -161,16 +157,14 @@ var combinadosGrupo = L.layerGroup([sbaonwPolygon,sbaonePolygon,sbaoswPolygon,sb
 var superCombinadoN = L.layerGroup([sbaonPolygon]);
 var superCombinadoS = L.layerGroup([sbaosPolygon]);
 
-var tileMapaStadia = L.tileLayer(configMapa.tileMapaUrlStadia, {
+var tileMapaClaro = camadaMapbox('claro', {
     minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+    maxZoom: configMapa.zoomMax
 });
 
-var tileMapaStadiaDark = L.tileLayer(configMapa.tileMapaUrlStadiaDark, {
+var tileMapaEscuro = camadaMapbox('escuro', {
     minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+    maxZoom: configMapa.zoomMax
 });
 
 var tileMapaSatelite = L.tileLayer(configMapa.tileMapaUrlSatelite, {
@@ -189,13 +183,13 @@ var tileMapaOsm = L.tileLayer(configMapa.tileMapaUrlOsm, {
 var mapa1 = L.map('mapa1', {
     minZoom: configMapa.zoomMin,
     maxZoom: configMapa.zoomMax,
-    layers: [ tileMapaStadia ]
+    layers: [ tileMapaClaro ]
 }).setView(configMapa.pontoCentral, configMapa.zoomPadrao);
 
 
 var opcoesDeMapa = {
-    "Stadia": tileMapaStadia,
-    "Stadia Dark": tileMapaStadiaDark,
+    "Claro": tileMapaClaro,
+    "Escuro": tileMapaEscuro,
     "Arcgis Satélite": tileMapaSatelite,
     "Open Street Map": tileMapaOsm,
 };

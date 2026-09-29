@@ -1,14 +1,14 @@
 ---
-  title: Visão Geral
+  title: Overview
   hide:
     - toc
 ---
 
 --8<-- "includes/abreviacoes.md"
 
-Aqui você encontra instruções locais para todos os aeródromos controlados do Brasil. Apenas para fins de simulação de voo.
+Here you will find local instructions for all controlled aerodromes in Brazil. For flight simulation purposes only.
 
-Clique em qualquer ponto azul no mapa abaixo para abrir diretamente o manual do aeródromo desejado.
+Click any blue dot on the map below to open the manual for the desired aerodrome directly.
 
 <div id="map" style="height: 750px; width: 100%; border-radius: 12px; border: 1px solid rgba(0,0,0,0.1); margin: 20px 0; z-index: 1;"></div>
 
@@ -563,7 +563,7 @@ Clique em qualquer ponto azul no mapa abaixo para abrir diretamente o manual do 
 </script>
 
 
-## Aeródromos por FIR
+## Aerodromes by FIR
 
 | SBAZ (Amazônica) | SBBS (Brasília) | SBCW (Curitiba) | SBRE (Recife) |
 | :--- | :--- | :--- | :--- |

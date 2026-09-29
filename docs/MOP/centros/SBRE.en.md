@@ -4,15 +4,15 @@
 
 --8<-- "includes/abreviacoes.md"
 
-## Setorização
+## Sectorization
 
-!!! info "Interatividade do Mapa"
+!!! info "Map Interactivity"
 
-    Clique em qualquer um dos setores abaixo para destacá-lo diretamente no mapa. Você também pode alterar o mapa de fundo e ligar/desligar setores no controle de camadas no canto superior direito do mapa.
+    Click any of the sectors below to highlight it directly on the map. You can also change the base map and toggle sectors on/off using the layer control in the upper right corner of the map.
 
 <div class="sbre-container">
     <div class="sbre-cards-column">
-        <div class="sbre-cards-section-title">Combinados</div>
+        <div class="sbre-cards-section-title">Combined Sectors</div>
         
         <div class="sector-card" id="card-SBRE_N_CTR" onclick="selecionarSetor('SBRE_N_CTR')">
             <div class="sector-header">
@@ -20,7 +20,7 @@
                 <span class="sector-freq">134.800 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) dos setores 1, 2, 3 e 6 da FIR Recife.
+                Composed of the combination (union) of sectors 1, 2, 3 and 6 of the Recife FIR.
             </div>
         </div>
 
@@ -30,7 +30,7 @@
                 <span class="sector-freq">124.550 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) dos setores 4, 5, 8 e 9 da FIR Recife.
+                Composed of the combination (union) of sectors 4, 5, 8 and 9 of the Recife FIR.
             </div>
         </div>
 
@@ -40,11 +40,11 @@
                 <span class="sector-freq">125.100 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) dos setores 7, 10, 11, 12, 13, 14 e 15 da FIR Recife.
+                Composed of the combination (union) of sectors 7, 10, 11, 12, 13, 14 and 15 of the Recife FIR.
             </div>
         </div>
 
-        <div class="sbre-cards-section-title">Supercombinados</div>
+        <div class="sbre-cards-section-title">Super-Combined Sectors</div>
 
         <div class="sector-card" id="card-SBRE_NS_CTR" onclick="selecionarSetor('SBRE_NS_CTR')">
             <div class="sector-header">
@@ -52,7 +52,7 @@
                 <span class="sector-freq">125.150 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) dos combinados N e S da FIR Recife.
+                Composed of the combination (union) of the N and S combined sectors of the Recife FIR.
             </div>
         </div>
 
@@ -62,7 +62,7 @@
                 <span class="sector-freq">126.100 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) dos combinados N e W da FIR Recife.
+                Composed of the combination (union) of the N and W combined sectors of the Recife FIR.
             </div>
         </div>
 
@@ -72,11 +72,11 @@
                 <span class="sector-freq">124.250 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) dos combinados S e W da FIR Recife.
+                Composed of the combination (union) of the S and W combined sectors of the Recife FIR.
             </div>
         </div>
 
-        <div class="sbre-cards-section-title">Posição Geral</div>
+        <div class="sbre-cards-section-title">General Position</div>
 
         <div class="sector-card" id="card-SBRE_CTR" onclick="selecionarSetor('SBRE_CTR')">
             <div class="sector-header">
@@ -84,7 +84,7 @@
                 <span class="sector-freq">125.400 MHz</span>
             </div>
             <div class="sector-body">
-                Composto pela combinação (união) de todos os combinados da FIR Recife.
+                Composed of the combination (union) of all combined sectors of the Recife FIR.
             </div>
         </div>
     </div>
@@ -95,7 +95,7 @@
 </div>
 
 <!--
-Daqui pra baixo, são os mapas.
+From here down are the maps.
 -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -232,9 +232,9 @@ var mapa1 = L.map('mapa1', {
 
 
 var opcoesDeMapa = {
-    "Claro": tileMapaClaro,
-    "Escuro": tileMapaEscuro,
-    "Arcgis Satélite": tileMapaSatelite,
+    "Light": tileMapaClaro,
+    "Dark": tileMapaEscuro,
+    "Arcgis Satellite": tileMapaSatelite,
     "Open Street Map": tileMapaOsm,
 };
 
@@ -243,7 +243,7 @@ var opcoesDeFluxo = {
     "SBRE_NS_CTR": superCombinadoNS,
     "SBRE_NW_CTR": superCombinadoNW,
     "SBRE_SW_CTR": superCombinadoSW,
-    "Combinados": combinadosGrupo
+    "Combined": combinadosGrupo
 };
 
 var layerControl = L.control.layers(opcoesDeMapa, opcoesDeFluxo).addTo(mapa1);

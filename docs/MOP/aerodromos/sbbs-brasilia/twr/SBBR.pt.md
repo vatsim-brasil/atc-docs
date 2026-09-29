@@ -184,8 +184,6 @@ const configMapa = {
     zoomPadrao: 14,
     pontoCentral: [-15.871111, -47.919611],
     tileMapaUrlSatelite: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    tileMapaUrlEscuro: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    tileMapaUrlClaro: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
     tileMapaUrlOsm: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     tileMapaUrlOPNV: 'https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png',
 };
@@ -396,16 +394,14 @@ var tileMapaSatelite = L.tileLayer(configMapa.tileMapaUrlSatelite, {
     attribution: '&copy; Esri'
 });
 
-var tileMapaClaro = L.tileLayer(configMapa.tileMapaUrlClaro, {
+var tileMapaClaro = camadaMapbox('claro', {
     minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; CartoDB'
+    maxZoom: configMapa.zoomMax
 });
 
-var tileMapaEscuro = L.tileLayer(configMapa.tileMapaUrlEscuro, {
+var tileMapaEscuro = camadaMapbox('escuro', {
     minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; CartoDB'
+    maxZoom: configMapa.zoomMax
 });
 
 var tileMapaOsm = L.tileLayer(configMapa.tileMapaUrlOsm, {
@@ -428,8 +424,8 @@ var mapa1 = L.map('mapa1', {
 
 var opcoesDeMapa = {
     "Satélite": tileMapaSatelite,
-    //"Claro": tileMapaClaro,
-    //"Escuro": tileMapaEscuro,
+    "Claro": tileMapaClaro,
+    "Escuro": tileMapaEscuro,
     "OSM": tileMapaOsm,
     "OPNV": tileMapaOPNV,
 };
