@@ -66,6 +66,6 @@ All checked on **19 Aug 2026**. Portal: <https://vatsim.net/docs/policy/>
 
 ## Further reading
 
-- [Airspace and ATS Services Manual](../../../documentos/manuais/espaco-aereo-servicos-ats/index.pt.md) (in Portuguese): conceptual basis for this manual.
+- [Airspace and ATS Services Manual](../../../documentos/manuais/espaco-aereo-servicos-ats/index.en.md): conceptual basis for this manual.
 - [Flight Plan Manual](../../../documentos/manuais/manual-plano-de-voo/index.en.md): completing the forms.
 - [Aeronautical Phraseology Manual](../../../documentos/manuais/fraseologia-aeronautica/index.en.md): general phraseology for the network.
