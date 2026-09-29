@@ -449,30 +449,7 @@
     }
 }
 
-/* SBRE Center Layout and Interactive Cards */
-.sbre-container {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin: 24px 0;
-}
-
-.sbre-cards-column {
-    flex: 1;
-    min-width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.sbre-map-column {
-    flex: 1.2;
-    min-width: 320px;
-    position: sticky;
-    top: 80px;
-    height: fit-content;
-}
-
+/* Center (FIR) pages: interactive sector cards */
 .sbre-cards-section-title {
     font-size: 0.9rem;
     font-weight: 700;
@@ -604,15 +581,139 @@
     opacity: 0.9;
 }
 
+/* FIR layout: full-width map on top, sector cards in responsive columns below */
+.fir-map-top {
+    margin: 24px 0;
+    /* Contém os z-index do Leaflet para o mapa não passar por cima do cabeçalho */
+    isolation: isolate;
+}
+
+.fir-cards-section {
+    margin-bottom: 16px;
+}
+
+.fir-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+}
+
+.sector-badge.az-e {
+    background-color: #2dd4bf;
+    color: #0f172a;
+}
+
+.sector-badge.az-c {
+    background-color: #fbbf24;
+    color: #0f172a;
+}
+
+.sector-badge.az-w {
+    background-color: #a3e635;
+    color: #0f172a;
+}
+
+.sector-badge.az-ce {
+    background-color: #f472b6;
+    color: #0f172a;
+}
+
+.sector-badge.az-cw {
+    background-color: #a78bfa;
+    color: #0f172a;
+}
+
+.sector-badge.bs-n {
+    background-color: #fbbf24;
+    color: #0f172a;
+}
+
+.sector-badge.bs-e {
+    background-color: #2dd4bf;
+    color: #0f172a;
+}
+
+.sector-badge.bs-s {
+    background-color: #a3e635;
+    color: #0f172a;
+}
+
+.sector-badge.bs-ne {
+    background-color: #f472b6;
+    color: #0f172a;
+}
+
+.sector-badge.bs-ns {
+    background-color: #a78bfa;
+    color: #0f172a;
+}
+
+.sector-badge.bs-se {
+    background-color: #fb923c;
+    color: #0f172a;
+}
+
+.sector-badge.cw-c {
+    background-color: #fbbf24;
+    color: #0f172a;
+}
+
+.sector-badge.cw-e {
+    background-color: #2dd4bf;
+    color: #0f172a;
+}
+
+.sector-badge.cw-s {
+    background-color: #a3e635;
+    color: #0f172a;
+}
+
+.sector-badge.cw-w {
+    background-color: #60a5fa;
+    color: #0f172a;
+}
+
+.sector-badge.cw-ce {
+    background-color: #818cf8;
+    color: #0f172a;
+}
+
+.sector-badge.cw-cs {
+    background-color: #f472b6;
+    color: #0f172a;
+}
+
+.sector-badge.cw-cw {
+    background-color: #34d399;
+    color: #0f172a;
+}
+
+.sector-badge.cw-se {
+    background-color: #fb923c;
+    color: #0f172a;
+}
+
+.sector-badge.cw-sw {
+    background-color: #a78bfa;
+    color: #0f172a;
+}
+
+.sector-badge.cw-cse {
+    background-color: #e879f9;
+    color: #0f172a;
+}
+
+.sector-badge.cw-csw {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.sector-badge.cw-cwe {
+    background-color: #fda4af;
+    color: #0f172a;
+}
+
 @media (max-width: 960px) {
-    .sbre-container {
-        flex-direction: column-reverse;
-    }
-
-    .sbre-map-column {
-        position: static;
-    }
-
     .mapa {
         height: 480px;
     }

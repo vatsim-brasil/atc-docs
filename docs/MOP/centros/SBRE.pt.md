@@ -8,12 +8,15 @@
 
 !!! info "Interatividade do Mapa"
 
-    Clique em qualquer um dos setores abaixo para destacá-lo diretamente no mapa. Você também pode alterar o mapa de fundo e ligar/desligar setores no controle de camadas no canto superior direito do mapa.
+    Clique em qualquer um dos setores abaixo do mapa para destacá-lo. Você também pode alterar o mapa de fundo e ligar/desligar setores no controle de camadas no canto superior direito do mapa.
 
-<div class="sbre-container">
-    <div class="sbre-cards-column">
-        <div class="sbre-cards-section-title">Combinados</div>
-        
+<div class="fir-map-top">
+    <div id="mapa1" class="mapa"></div>
+</div>
+
+<div class="fir-cards-section">
+    <div class="sbre-cards-section-title">Combinados</div>
+    <div class="fir-cards-grid">
         <div class="sector-card" id="card-SBRE_N_CTR" onclick="selecionarSetor('SBRE_N_CTR')">
             <div class="sector-header">
                 <span class="sector-badge n-ctr">SBRE_N_CTR</span>
@@ -23,7 +26,6 @@
                 Composto pela combinação (união) dos setores 1, 2, 3 e 6 da FIR Recife.
             </div>
         </div>
-
         <div class="sector-card" id="card-SBRE_W_CTR" onclick="selecionarSetor('SBRE_W_CTR')">
             <div class="sector-header">
                 <span class="sector-badge w-ctr">SBRE_W_CTR</span>
@@ -33,7 +35,6 @@
                 Composto pela combinação (união) dos setores 4, 5, 8 e 9 da FIR Recife.
             </div>
         </div>
-
         <div class="sector-card" id="card-SBRE_S_CTR" onclick="selecionarSetor('SBRE_S_CTR')">
             <div class="sector-header">
                 <span class="sector-badge s-ctr">SBRE_S_CTR</span>
@@ -43,9 +44,12 @@
                 Composto pela combinação (união) dos setores 7, 10, 11, 12, 13, 14 e 15 da FIR Recife.
             </div>
         </div>
+    </div>
+</div>
 
-        <div class="sbre-cards-section-title">Supercombinados</div>
-
+<div class="fir-cards-section">
+    <div class="sbre-cards-section-title">Supercombinados</div>
+    <div class="fir-cards-grid">
         <div class="sector-card" id="card-SBRE_NS_CTR" onclick="selecionarSetor('SBRE_NS_CTR')">
             <div class="sector-header">
                 <span class="sector-badge ns-ctr">SBRE_NS_CTR</span>
@@ -55,7 +59,6 @@
                 Composto pela combinação (união) dos combinados N e S da FIR Recife.
             </div>
         </div>
-
         <div class="sector-card" id="card-SBRE_NW_CTR" onclick="selecionarSetor('SBRE_NW_CTR')">
             <div class="sector-header">
                 <span class="sector-badge nw-ctr">SBRE_NW_CTR</span>
@@ -65,7 +68,6 @@
                 Composto pela combinação (união) dos combinados N e W da FIR Recife.
             </div>
         </div>
-
         <div class="sector-card" id="card-SBRE_SW_CTR" onclick="selecionarSetor('SBRE_SW_CTR')">
             <div class="sector-header">
                 <span class="sector-badge sw-ctr">SBRE_SW_CTR</span>
@@ -75,9 +77,12 @@
                 Composto pela combinação (união) dos combinados S e W da FIR Recife.
             </div>
         </div>
+    </div>
+</div>
 
-        <div class="sbre-cards-section-title">Posição Geral</div>
-
+<div class="fir-cards-section">
+    <div class="sbre-cards-section-title">Posição Geral</div>
+    <div class="fir-cards-grid">
         <div class="sector-card" id="card-SBRE_CTR" onclick="selecionarSetor('SBRE_CTR')">
             <div class="sector-header">
                 <span class="sector-badge ctr">SBRE_CTR</span>
@@ -87,10 +92,6 @@
                 Composto pela combinação (união) de todos os combinados da FIR Recife.
             </div>
         </div>
-    </div>
-    
-    <div class="sbre-map-column">
-        <div id="mapa1" class="mapa"></div>
     </div>
 </div>
 
@@ -107,10 +108,12 @@ Daqui pra baixo, são os mapas.
 <script src="https://cdn.jsdelivr.net/npm/leaflet-arrowheads@1.4.0/src/leaflet-arrowheads.min.js"></script>
 
 <style>
-    .mapa { height: 680px }
+    .mapa { height: 600px }
 </style>
 
 <script>
+// Escopo isolado: com a navegação instantânea, o script é reexecutado a cada troca de página
+(function () {
 
 const cores = {
     ciano: '#2dd4bf',
@@ -299,15 +302,18 @@ window.selecionarSetor = function(nomeSetor) {
     if (cardAtivo) {
         cardAtivo.classList.add('active');
     }
+
+    // 5. Scroll the page to the map
+    document.getElementById('mapa1').scrollIntoView({ behavior: 'smooth', block: 'center' });
 };
 
 // Selecionar o setor geral como ativo na carga inicial
-document.addEventListener("DOMContentLoaded", function() {
+(function() {
     const cardAtivo = document.getElementById('card-SBRE_CTR');
     if (cardAtivo) {
         cardAtivo.classList.add('active');
     }
-});
+})();
 
 // Registrar eventos no Leaflet para sincronizar a interface se o usuário interagir
 // diretamente com o painel de controle de camadas do Leaflet
@@ -331,4 +337,5 @@ mapa1.on('overlayadd', function(event) {
     }
 });
 
+})();
 </script>
