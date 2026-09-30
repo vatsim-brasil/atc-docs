@@ -713,6 +713,33 @@
     color: #0f172a;
 }
 
+/* Centers overview: FIR cards are links to each FIR page */
+.md-typeset a.sector-card.fir-card {
+    color: var(--md-typeset-color);
+    text-decoration: none;
+}
+
+.fir-card-nome {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fir-card-tipo,
+.fir-card-ctr {
+    font-size: 0.75rem;
+    opacity: 0.75;
+}
+
+.fir-rotulo {
+    font-family: var(--md-code-font-family);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #0f172a;
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
 @media (max-width: 960px) {
     .mapa {
         height: 480px;
@@ -1017,4 +1044,47 @@
     background-color: transparent !important;
     background: transparent !important;
     color: var(--md-typeset-link-hover) !important;
+}
+/* Terminal overview pages: airspace class badges and map legend */
+.classe-badge {
+    display: inline-block;
+    min-width: 1.6em;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: var(--md-code-font-family);
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #0f172a;
+}
+
+.classe-badge.classe-a {
+    background-color: #f87171;
+}
+
+.classe-badge.classe-c {
+    background-color: #fbbf24;
+}
+
+.classe-badge.classe-d {
+    background-color: #2dd4bf;
+}
+
+.mapa-legenda {
+    background: rgba(255, 255, 255, 0.9);
+    color: #0f172a;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mapa-legenda span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    border-radius: 2px;
+    vertical-align: middle;
 }
