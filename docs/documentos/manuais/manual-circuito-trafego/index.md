@@ -5,8 +5,6 @@ icon: material/airplane
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Circuito de Tráfego - Introdução](img/manual-circuito-trafego-intro.png)
-
 #
 
 ## Apresentação
