@@ -94,17 +94,55 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Rio de Janeiro:** `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Galeão:** `SBGL_TWR` → `SBWJ_GL_APP` → `SBWJ_N_APP` → `SBWJ_NE_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR Rio (SBRJ):** `SBRJ_TWR` → `SBWJ_RJ_APP` → `SBWJ_S_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR Santa Cruz:** `SBSC_TWR` → `SBWJ_RJ_APP` → `SBWJ_S_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR Afonsos:** `SBAF_R_TWR` → `SBWJ_GL_APP` → `SBWJ_N_APP` → `SBWJ_NE_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**ATZ Jacarepaguá:** `SBJR_TWR` → `SBWJ_RJ_APP` → `SBWJ_S_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBCW_CTR"]:::ctr
+        p1["SBCW_CSE_CTR"]:::ctr
+        p2["SBCW_CWE_CTR"]:::ctr
+        p3["SBCW_SE_CTR"]:::ctr
+        p4["SBCW_CE_CTR"]:::ctr
+        p5["SBCW_E_CTR"]:::ctr
+        p6["SBWJ_APP"]:::app
+        p7["SBWJ_NE_APP"]:::app
+        p8["SBWJ_N_APP"]:::app
+        p9["SBWJ_GL_APP"]:::app
+        p10["SBGL_TWR"]:::twr
+        p11["SBWJ_S_APP"]:::app
+        p12["SBWJ_RJ_APP"]:::app
+        p13["SBRJ_TWR"]:::twr
+        p14["SBSC_TWR"]:::twr
+        p15["SBAF_R_TWR"]:::twr
+        p16["SBJR_TWR"]:::twr
+        a0(["TMA Rio de Janeiro"]):::esp --> p6
+        a1(["CTR Galeão"]):::esp --> p10
+        a2(["CTR Rio (SBRJ)"]):::esp --> p13
+        a3(["CTR Santa Cruz"]):::esp --> p14
+        a4(["CTR Afonsos"]):::esp --> p15
+        a5(["ATZ Jacarepaguá"]):::esp --> p16
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p5
+        p7 --> p6
+        p8 --> p7
+        p9 --> p8
+        p10 --> p9
+        p11 --> p6
+        p12 --> p11
+        p13 --> p12
+        p14 --> p12
+        p15 --> p9
+        p16 --> p12
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

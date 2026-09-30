@@ -69,11 +69,32 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Manaus:** `SBWN_APP` → `SBAZ_C_CTR` → `SBAZ_CW_CTR` → `SBAZ_CE_CTR` → `SBAZ_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Manaus 1 (SBEG):** `SBEG_TWR` → `SBWN_APP` → `SBAZ_C_CTR` → `SBAZ_CW_CTR` → `SBAZ_CE_CTR` → `SBAZ_CTR`
-
-**CTR Manaus 2 (SBMN):** `SBMN_TWR` → `SBWN_APP` → `SBAZ_C_CTR` → `SBAZ_CW_CTR` → `SBAZ_CE_CTR` → `SBAZ_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBAZ_CTR"]:::ctr
+        p1["SBAZ_CE_CTR"]:::ctr
+        p2["SBAZ_CW_CTR"]:::ctr
+        p3["SBAZ_C_CTR"]:::ctr
+        p4["SBWN_APP"]:::app
+        p5["SBEG_TWR"]:::twr
+        p6["SBMN_TWR"]:::twr
+        a0(["TMA Manaus"]):::esp --> p4
+        a1(["CTR Manaus 1 (SBEG)"]):::esp --> p5
+        a2(["CTR Manaus 2 (SBMN)"]):::esp --> p6
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p4
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

@@ -70,13 +70,45 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
-**Macaé TMA:** `SBWE_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+Read from bottom to top: when a position is offline, the airspace falls to the next online position above.
 
-**Macaé CTR:** `SBME_TWR` → `SBWE_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**Aldeia 2 CTR:** `SBES_TWR` → `SBES_APP` → `SBWJ_E_APP` → `SBWJ_NE_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**Aldeia 1 CTR:** `SBES_APP` → `SBWJ_E_APP` → `SBWJ_NE_APP` → `SBWJ_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+??? info "Show coverage diagram"
+    ```mermaid
+    flowchart BT
+        p0["SBCW_CTR"]:::ctr
+        p1["SBCW_CSE_CTR"]:::ctr
+        p2["SBCW_CWE_CTR"]:::ctr
+        p3["SBCW_SE_CTR"]:::ctr
+        p4["SBCW_CE_CTR"]:::ctr
+        p5["SBCW_E_CTR"]:::ctr
+        p6["SBWE_APP"]:::app
+        p7["SBME_TWR"]:::twr
+        p8["SBWJ_APP"]:::app
+        p9["SBWJ_NE_APP"]:::app
+        p10["SBWJ_E_APP"]:::app
+        p11["SBES_APP"]:::app
+        p12["SBES_TWR"]:::twr
+        a0(["Macaé TMA"]):::esp --> p6
+        a1(["Macaé CTR"]):::esp --> p7
+        a2(["Aldeia 2 CTR"]):::esp --> p12
+        a3(["Aldeia 1 CTR"]):::esp --> p11
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p5
+        p7 --> p6
+        p8 --> p5
+        p9 --> p8
+        p10 --> p9
+        p11 --> p10
+        p12 --> p11
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: VFR circulation
 

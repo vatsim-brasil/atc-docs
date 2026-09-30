@@ -67,11 +67,32 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
-**Anápolis TMA:** `SBXN_APP` → `SBBS_N_CTR` → `SBBS_NS_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
+Read from bottom to top: when a position is offline, the airspace falls to the next online position above.
 
-**Anápolis 1 CTR (SBAN):** `SBAN_TWR` → `SBXN_APP` → `SBBS_N_CTR` → `SBBS_NS_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
-
-**Anápolis 2 CTR (SBGO):** `SBGO_TWR` → `SBXN_APP` → `SBBS_N_CTR` → `SBBS_NS_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
+??? info "Show coverage diagram"
+    ```mermaid
+    flowchart BT
+        p0["SBBS_CTR"]:::ctr
+        p1["SBBS_NE_CTR"]:::ctr
+        p2["SBBS_NS_CTR"]:::ctr
+        p3["SBBS_N_CTR"]:::ctr
+        p4["SBXN_APP"]:::app
+        p5["SBAN_TWR"]:::twr
+        p6["SBGO_TWR"]:::twr
+        a0(["Anápolis TMA"]):::esp --> p4
+        a1(["Anápolis 1 CTR (SBAN)"]):::esp --> p5
+        a2(["Anápolis 2 CTR (SBGO)"]):::esp --> p6
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p4
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: VFR circulation
 

@@ -67,11 +67,32 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Academia:** `SBXQ_APP` → `SBBS_S_CTR` → `SBBS_NS_CTR` → `SBBS_SE_CTR` → `SBBS_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Academia (SBYS):** `SBYS_TWR` → `SBXQ_APP` → `SBBS_S_CTR` → `SBBS_NS_CTR` → `SBBS_SE_CTR` → `SBBS_CTR`
-
-**CTR Ribeirão (SBRP):** `SBRP_TWR` → `SBXQ_APP` → `SBBS_S_CTR` → `SBBS_NS_CTR` → `SBBS_SE_CTR` → `SBBS_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBBS_CTR"]:::ctr
+        p1["SBBS_SE_CTR"]:::ctr
+        p2["SBBS_NS_CTR"]:::ctr
+        p3["SBBS_S_CTR"]:::ctr
+        p4["SBXQ_APP"]:::app
+        p5["SBYS_TWR"]:::twr
+        p6["SBRP_TWR"]:::twr
+        a0(["TMA Academia"]):::esp --> p4
+        a1(["CTR Academia (SBYS)"]):::esp --> p5
+        a2(["CTR Ribeirão (SBRP)"]):::esp --> p6
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p4
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

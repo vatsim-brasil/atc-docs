@@ -72,17 +72,43 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Belo Horizonte:** `SBWH_APP` → `SBBS_E_CTR` → `SBBS_NE_CTR` → `SBBS_SE_CTR` → `SBBS_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Belo Horizonte:** `SBBH_TWR` → `SBWH_APP` → `SBBS_E_CTR` → `SBBS_SE_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
-
-**CTR Confins:** `SBCF_TWR` → `SBWH_APP` → `SBBS_E_CTR` → `SBBS_SE_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
-
-**ATZ Belo Horizonte (Pampulha):** `SBBH_TWR` → `SBWH_APP` → `SBBS_E_CTR` → `SBBS_SE_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
-
-**ATZ Confins:** `SBCF_TWR` → `SBWH_APP` → `SBBS_E_CTR` → `SBBS_SE_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
-
-**ATZ Lagoa Santa:** `SBLS_R_TWR` → `SBWH_APP` → `SBBS_E_CTR` → `SBBS_SE_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBBS_CTR"]:::ctr
+        p1["SBBS_SE_CTR"]:::ctr
+        p2["SBBS_NE_CTR"]:::ctr
+        p3["SBBS_E_CTR"]:::ctr
+        p4["SBWH_APP"]:::app
+        p5["SBBS_NE_CTR"]:::ctr
+        p6["SBBS_SE_CTR"]:::ctr
+        p7["SBBS_E_CTR"]:::ctr
+        p8["SBWH_APP"]:::app
+        p9["SBBH_TWR"]:::twr
+        p10["SBCF_TWR"]:::twr
+        p11["SBLS_R_TWR"]:::twr
+        a0(["TMA Belo Horizonte"]):::esp --> p4
+        a1(["CTR Belo Horizonte<br>ATZ Belo Horizonte (Pampulha)"]):::esp --> p9
+        a2(["CTR Confins<br>ATZ Confins"]):::esp --> p10
+        a3(["ATZ Lagoa Santa"]):::esp --> p11
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p0
+        p6 --> p5
+        p7 --> p6
+        p8 --> p7
+        p9 --> p8
+        p10 --> p8
+        p11 --> p8
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

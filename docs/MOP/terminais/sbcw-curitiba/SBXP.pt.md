@@ -109,21 +109,51 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA São Paulo:** `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Guarulhos:** `SBGR_TWR` → `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR São Paulo (Congonhas):** `SBSP_TWR` → `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR Campinas:** `SBKP_TWR` → `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR São José:** `SBSJ_TWR` → `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR Jundiaí:** `SBJD_TWR` → `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**CTR Taubaté:** `SBTA_TWR` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
-
-**ATZ Marte:** `SBMT_TWR` → `SBXP_APP` → `SBCW_E_CTR` → `SBCW_CE_CTR` → `SBCW_SE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBCW_CTR"]:::ctr
+        p1["SBCW_CSE_CTR"]:::ctr
+        p2["SBCW_CWE_CTR"]:::ctr
+        p3["SBCW_SE_CTR"]:::ctr
+        p4["SBCW_CE_CTR"]:::ctr
+        p5["SBCW_E_CTR"]:::ctr
+        p6["SBXP_APP"]:::app
+        p7["SBGR_TWR"]:::twr
+        p8["SBSP_TWR"]:::twr
+        p9["SBKP_TWR"]:::twr
+        p10["SBSJ_TWR"]:::twr
+        p11["SBJD_TWR"]:::twr
+        p12["SBTA_TWR"]:::twr
+        p13["SBMT_TWR"]:::twr
+        a0(["TMA São Paulo"]):::esp --> p6
+        a1(["CTR Guarulhos"]):::esp --> p7
+        a2(["CTR São Paulo (Congonhas)"]):::esp --> p8
+        a3(["CTR Campinas"]):::esp --> p9
+        a4(["CTR São José"]):::esp --> p10
+        a5(["CTR Jundiaí"]):::esp --> p11
+        a6(["CTR Taubaté"]):::esp --> p12
+        a7(["ATZ Marte"]):::esp --> p13
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p5
+        p7 --> p6
+        p8 --> p6
+        p9 --> p6
+        p10 --> p6
+        p11 --> p6
+        p12 --> p5
+        p13 --> p6
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

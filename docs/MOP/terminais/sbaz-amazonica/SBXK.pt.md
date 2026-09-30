@@ -65,9 +65,27 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Macapá:** `SBXK_APP` → `SBAZ_E_CTR` → `SBAZ_CE_CTR` → `SBAZ_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Macapá:** `SBMQ_TWR` → `SBXK_APP` → `SBAZ_E_CTR` → `SBAZ_CE_CTR` → `SBAZ_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBAZ_CTR"]:::ctr
+        p1["SBAZ_CE_CTR"]:::ctr
+        p2["SBAZ_E_CTR"]:::ctr
+        p3["SBXK_APP"]:::app
+        p4["SBMQ_TWR"]:::twr
+        a0(["TMA Macapá"]):::esp --> p3
+        a1(["CTR Macapá"]):::esp --> p4
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

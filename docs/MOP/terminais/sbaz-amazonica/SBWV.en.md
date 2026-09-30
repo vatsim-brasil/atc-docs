@@ -65,9 +65,27 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
-**Porto Velho TMA:** `SBWV_APP` → `SBAZ_W_CTR` → `SBAZ_CW_CTR` → `SBAZ_CTR`
+Read from bottom to top: when a position is offline, the airspace falls to the next online position above.
 
-**Porto Velho CTR:** `SBPV_TWR` → `SBWV_APP` → `SBAZ_W_CTR` → `SBAZ_CW_CTR` → `SBAZ_CTR`
+??? info "Show coverage diagram"
+    ```mermaid
+    flowchart BT
+        p0["SBAZ_CTR"]:::ctr
+        p1["SBAZ_CW_CTR"]:::ctr
+        p2["SBAZ_W_CTR"]:::ctr
+        p3["SBWV_APP"]:::app
+        p4["SBPV_TWR"]:::twr
+        a0(["Porto Velho TMA"]):::esp --> p3
+        a1(["Porto Velho CTR"]):::esp --> p4
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: VFR circulation
 

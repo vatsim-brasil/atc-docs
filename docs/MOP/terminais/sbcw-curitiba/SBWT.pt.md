@@ -66,9 +66,37 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Curitiba:** `SBWT_APP` → `SBCW_C_CTR` → `SBCW_CW_CTR` → `SBCW_CS_CTR` → `SBCW_CE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSW_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Curitiba:** `SBCT_TWR` → `SBWT_APP` → `SBCW_C_CTR` → `SBCW_CW_CTR` → `SBCW_CS_CTR` → `SBCW_CE_CTR` → `SBCW_CWE_CTR` → `SBCW_CSW_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBCW_CTR"]:::ctr
+        p1["SBCW_CSE_CTR"]:::ctr
+        p2["SBCW_CSW_CTR"]:::ctr
+        p3["SBCW_CWE_CTR"]:::ctr
+        p4["SBCW_CE_CTR"]:::ctr
+        p5["SBCW_CS_CTR"]:::ctr
+        p6["SBCW_CW_CTR"]:::ctr
+        p7["SBCW_C_CTR"]:::ctr
+        p8["SBWT_APP"]:::app
+        p9["SBCT_TWR"]:::twr
+        a0(["TMA Curitiba"]):::esp --> p8
+        a1(["CTR Curitiba"]):::esp --> p9
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p5
+        p7 --> p6
+        p8 --> p7
+        p9 --> p8
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

@@ -65,9 +65,29 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
-**Fortaleza TMA:** `SBWZ_APP` → `SBRE_N_CTR` → `SBRE_NS_CTR` → `SBRE_NW_CTR` → `SBRE_CTR`
+Read from bottom to top: when a position is offline, the airspace falls to the next online position above.
 
-**Fortaleza CTR:** `SBFZ_TWR` → `SBWZ_APP` → `SBRE_N_CTR` → `SBRE_NS_CTR` → `SBRE_NW_CTR` → `SBRE_CTR`
+??? info "Show coverage diagram"
+    ```mermaid
+    flowchart BT
+        p0["SBRE_CTR"]:::ctr
+        p1["SBRE_NW_CTR"]:::ctr
+        p2["SBRE_NS_CTR"]:::ctr
+        p3["SBRE_N_CTR"]:::ctr
+        p4["SBWZ_APP"]:::app
+        p5["SBFZ_TWR"]:::twr
+        a0(["Fortaleza TMA"]):::esp --> p4
+        a1(["Fortaleza CTR"]):::esp --> p5
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: VFR circulation
 

@@ -65,9 +65,29 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
-**Palmas TMA:** `SBXD_APP` → `SBBS_N_CTR` → `SBBS_NS_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
+Read from bottom to top: when a position is offline, the airspace falls to the next online position above.
 
-**Palmas CTR:** `SBPJ_TWR` → `SBXD_APP` → `SBBS_N_CTR` → `SBBS_NS_CTR` → `SBBS_NE_CTR` → `SBBS_CTR`
+??? info "Show coverage diagram"
+    ```mermaid
+    flowchart BT
+        p0["SBBS_CTR"]:::ctr
+        p1["SBBS_NE_CTR"]:::ctr
+        p2["SBBS_NS_CTR"]:::ctr
+        p3["SBBS_N_CTR"]:::ctr
+        p4["SBXD_APP"]:::app
+        p5["SBPJ_TWR"]:::twr
+        a0(["Palmas TMA"]):::esp --> p4
+        a1(["Palmas CTR"]):::esp --> p5
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: VFR circulation
 

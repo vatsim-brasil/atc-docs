@@ -65,9 +65,35 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Santa Maria:** `SBWM_APP` → `SBCW_S_CTR` → `SBCW_CS_CTR` → `SBCW_SW_CTR` → `SBCW_SE_CTR` → `SBCW_CSW_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Santa Maria:** `SBSM_TWR` → `SBWM_APP` → `SBCW_S_CTR` → `SBCW_CS_CTR` → `SBCW_SW_CTR` → `SBCW_SE_CTR` → `SBCW_CSW_CTR` → `SBCW_CSE_CTR` → `SBCW_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBCW_CTR"]:::ctr
+        p1["SBCW_CSE_CTR"]:::ctr
+        p2["SBCW_CSW_CTR"]:::ctr
+        p3["SBCW_SE_CTR"]:::ctr
+        p4["SBCW_SW_CTR"]:::ctr
+        p5["SBCW_CS_CTR"]:::ctr
+        p6["SBCW_S_CTR"]:::ctr
+        p7["SBWM_APP"]:::app
+        p8["SBSM_TWR"]:::twr
+        a0(["TMA Santa Maria"]):::esp --> p7
+        a1(["CTR Santa Maria"]):::esp --> p8
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        p6 --> p5
+        p7 --> p6
+        p8 --> p7
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 

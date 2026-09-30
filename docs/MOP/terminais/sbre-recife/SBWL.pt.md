@@ -65,9 +65,29 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
-**TMA Ilhéus:** `SBWL_APP` → `SBRE_S_CTR` → `SBRE_NS_CTR` → `SBRE_SW_CTR` → `SBRE_CTR`
+Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa para a próxima posição on-line acima.
 
-**CTR Ilhéus:** `SBIL_R_TWR` → `SBWL_APP` → `SBRE_S_CTR` → `SBRE_NS_CTR` → `SBRE_SW_CTR` → `SBRE_CTR`
+??? info "Ver diagrama de cobertura"
+    ```mermaid
+    flowchart BT
+        p0["SBRE_CTR"]:::ctr
+        p1["SBRE_SW_CTR"]:::ctr
+        p2["SBRE_NS_CTR"]:::ctr
+        p3["SBRE_S_CTR"]:::ctr
+        p4["SBWL_APP"]:::app
+        p5["SBIL_R_TWR"]:::twr
+        a0(["TMA Ilhéus"]):::esp --> p4
+        a1(["CTR Ilhéus"]):::esp --> p5
+        p1 --> p0
+        p2 --> p1
+        p3 --> p2
+        p4 --> p3
+        p5 --> p4
+        classDef esp stroke-dasharray:4 3
+        classDef twr stroke:#2e9e5b,stroke-width:2px
+        classDef app stroke:#2f7fd1,stroke-width:2px
+        classDef ctr stroke:#8a56c9,stroke-width:2px
+    ```
 
 ## :material-airplane: Circulação VFR
 
