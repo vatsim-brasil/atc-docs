@@ -81,6 +81,25 @@ The APP is split into sectors, each with its own position and frequency in the p
 | `SBWJ_APP` | **119.000** | `SBWJ_S_APP`, `SBWJ_NE_APP` |
 | `SBWJ_NE_APP` | **120.550** | `SBWJ_N_APP`, `SBWJ_E_APP` |
 
+## :material-handshake-outline: Delegated and subordinate airspace
+
+### Tubulão (delegated by Curitiba ACC)
+
+The Tubulão is the Curitiba FIR corridor between the São Paulo and Rio de Janeiro TMAs, used by the Rio–São Paulo shuttle. In the package, Curitiba ACC (`SBCW_CTR`) delegates this airspace to Rio APP, split into two halves. Turn on the **Tubulão** layer on the map to see them.
+
+| Sector | Limits | Position | Coverage |
+| --- | --- | --- | --- |
+| Tubulão North (CTA T8N) | FL105 – FL245 | `SBWJ_N_APP` | `SBWJ_NE_APP` → `SBWJ_APP` |
+| Tubulão South (CTA T8S) | FL105 – FL245 | `SBWJ_S_APP` | `SBWJ_APP` |
+| Tubulão North (UTA T8N) | FL245 – FL600 | `SBWJ_N_APP` | `SBWJ_NE_APP` → `SBWJ_APP` |
+| Tubulão South (UTA T8S) | FL245 – FL600 | `SBWJ_S_APP` | `SBWJ_APP` |
+
+Above FL245, the UTA T8N and T8S sectors also cover the projection of the Rio de Janeiro TMA. With every Rio APP position offline, the Tubulão returns to Curitiba ACC, starting at `SBCW_E_CTR`.
+
+### Aldeia Control (`SBES_APP`)
+
+São Pedro da Aldeia APP (`SBES_APP`, Controle Aldeia, **119.450**) controls CTR Aldeia 1 (2000 FT – 6500 FT), inside the [Macaé TMA](SBWE.en.md). In the package it is subordinate to Rio APP, not to Macaé APP: when it is offline, CTR Aldeia 1 passes to `SBWJ_E_APP`, then `SBWJ_NE_APP` and `SBWJ_APP`. CTR Aldeia 2 (GND – 2000 FT) belongs to Aldeia Tower (`SBES_TWR`) and, without it, goes up to `SBES_APP`.
+
 ## :material-headset: ATC Units
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
@@ -91,6 +110,7 @@ The APP is split into sectors, each with its own position and frequency in the p
 | **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** |  |
 | **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** |  |
 | **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** |  |
+| **SBES_APP** | `XES` | Controle Aldeia | **119.450** | Subordinate to Rio APP |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -116,12 +136,17 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
         p14["SBSC_TWR"]:::twr
         p15["SBAF_R_TWR"]:::twr
         p16["SBJR_TWR"]:::twr
+        p17["SBWJ_E_APP"]:::app
+        p18["SBES_APP"]:::app
         a0(["Rio de Janeiro TMA"]):::esp --> p6
         a1(["Galeão CTR"]):::esp --> p10
         a2(["Rio CTR (SBRJ)"]):::esp --> p13
         a3(["Santa Cruz CTR"]):::esp --> p14
         a4(["Afonsos CTR"]):::esp --> p15
         a5(["Jacarepaguá ATZ"]):::esp --> p16
+        a6(["CTR Aldeia 1"]):::esp --> p18
+        a7(["Tubulão North"]):::esp --> p8
+        a8(["Tubulão South"]):::esp --> p11
         p1 --> p0
         p2 --> p1
         p3 --> p2
@@ -138,6 +163,8 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
         p14 --> p12
         p15 --> p9
         p16 --> p12
+        p17 --> p7
+        p18 --> p17
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
@@ -163,7 +190,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies, top-down coverage, Tubulão delegation and Aldeia Control subordination) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 
@@ -232,6 +259,16 @@ setores.forEach(function (s, k) {
         .addTo(grupoSetores);
 });
 
+// Tubulão: CTA e UTA T8 do pacote SBCW, delegados pelo ACC Curitiba ao APP Rio
+const tubulao = [{"nome": "Tubulão North (CTA T8N)", "posicao": "SBWJ_N_APP", "freq": "125.950", "lim": "FL105 – FL245", "contorno": [[-45.605556, -23.038611], [-44.409444, -22.784444], [-44.676514, -23.030825], [-44.484227, -23.264821], [-45.4925, -23.48], [-45.539722, -23.309167], [-45.554722, -23.248056], [-45.605556, -23.038611]]}, {"nome": "Tubulão South (CTA T8S)", "posicao": "SBWJ_S_APP", "freq": "126.200", "lim": "FL105 – FL245", "contorno": [[-44.896944, -23.805556], [-44.178889, -23.636389], [-44.484227, -23.264821], [-45.4925, -23.48], [-45.428333, -23.712222], [-45.373333, -23.910556], [-44.896944, -23.805556]]}, {"nome": "Tubulão North (UTA T8N)", "posicao": "SBWJ_N_APP", "freq": "125.950", "lim": "FL245 – FL600", "contorno": [[-45.605556, -23.038611], [-44.409444, -22.784444], [-44.056944, -22.459167], [-43.730278, -22.451389], [-43.658333, -22.564167], [-43.512778, -23.0575], [-45.4925, -23.48], [-45.605556, -23.038611]]}, {"nome": "Tubulão South (UTA T8S)", "posicao": "SBWJ_S_APP", "freq": "126.200", "lim": "FL245 – FL600", "contorno": [[-43.512778, -23.0575], [-45.4925, -23.48], [-45.373333, -23.910556], [-44.896944, -23.805556], [-44.178889, -23.636389], [-43.645278, -23.510833], [-43.416944, -23.381944], [-43.512778, -23.0575]]}];
+var grupoTubulao = L.featureGroup();
+tubulao.forEach(function (s) {
+    var cor = s.nome.indexOf('UTA') >= 0 ? '#a78bfa' : '#e879f9';
+    L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, dashArray: '8 4', fillOpacity: 0.15 })
+        .bindPopup('<b>' + s.nome + '</b><br><code>' + s.posicao + '</code> · ' + s.freq + ' MHz<br>' + s.lim)
+        .addTo(grupoTubulao);
+});
+
 volumes.forEach(function (v) {
     // A cor segue a classe do volume inferior (ex.: A/C é desenhado como C)
     var cor = cores[v.classe.split('/').pop()];
@@ -269,7 +306,8 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
-    "APP sectors": grupoSetores
+    "APP sectors": grupoSetores,
+    "Tubulão": grupoTubulao
 }).addTo(mapa);
 
 // Legenda das classes

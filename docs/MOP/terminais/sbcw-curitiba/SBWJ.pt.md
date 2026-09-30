@@ -81,6 +81,25 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 | `SBWJ_APP` | **119.000** | `SBWJ_S_APP`, `SBWJ_NE_APP` |
 | `SBWJ_NE_APP` | **120.550** | `SBWJ_N_APP`, `SBWJ_E_APP` |
 
+## :material-handshake-outline: Espaço aéreo delegado e subordinado
+
+### Tubulão (delegado pelo ACC Curitiba)
+
+O Tubulão é o corredor da FIR Curitiba entre as TMAs São Paulo e Rio de Janeiro, por onde passa a ponte aérea. No pacote, o ACC Curitiba (`SBCW_CTR`) delega esse espaço ao APP Rio, dividido em duas metades. Ligue a camada **Tubulão** no mapa para vê-las.
+
+| Setor | Limites | Posição | Cobertura |
+| --- | --- | --- | --- |
+| Tubulão Norte (CTA T8N) | FL105 – FL245 | `SBWJ_N_APP` | `SBWJ_NE_APP` → `SBWJ_APP` |
+| Tubulão Sul (CTA T8S) | FL105 – FL245 | `SBWJ_S_APP` | `SBWJ_APP` |
+| Tubulão Norte (UTA T8N) | FL245 – FL600 | `SBWJ_N_APP` | `SBWJ_NE_APP` → `SBWJ_APP` |
+| Tubulão Sul (UTA T8S) | FL245 – FL600 | `SBWJ_S_APP` | `SBWJ_APP` |
+
+Acima do FL245, os setores UTA T8N e T8S também cobrem a projeção da TMA Rio de Janeiro. Com todas as posições do APP Rio desconectadas, o Tubulão volta para o ACC Curitiba, a partir de `SBCW_E_CTR`.
+
+### Controle Aldeia (`SBES_APP`)
+
+O APP São Pedro da Aldeia (`SBES_APP`, Controle Aldeia, **119.450**) controla a CTR Aldeia 1 (2000 FT – 6500 FT), dentro da [TMA Macaé](SBWE.pt.md). No pacote, ele é subordinado ao APP Rio, e não ao APP Macaé: desconectado, a CTR Aldeia 1 passa para `SBWJ_E_APP`, depois `SBWJ_NE_APP` e `SBWJ_APP`. A CTR Aldeia 2 (GND – 2000 FT) é da Torre Aldeia (`SBES_TWR`) e, sem ela, sobe para `SBES_APP`.
+
 ## :material-headset: Órgãos ATC
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
@@ -91,6 +110,7 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 | **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** |  |
 | **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** |  |
 | **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** |  |
+| **SBES_APP** | `XES` | Controle Aldeia | **119.450** | Subordinado ao APP Rio |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -116,12 +136,17 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
         p14["SBSC_TWR"]:::twr
         p15["SBAF_R_TWR"]:::twr
         p16["SBJR_TWR"]:::twr
+        p17["SBWJ_E_APP"]:::app
+        p18["SBES_APP"]:::app
         a0(["TMA Rio de Janeiro"]):::esp --> p6
         a1(["CTR Galeão"]):::esp --> p10
         a2(["CTR Rio (SBRJ)"]):::esp --> p13
         a3(["CTR Santa Cruz"]):::esp --> p14
         a4(["CTR Afonsos"]):::esp --> p15
         a5(["ATZ Jacarepaguá"]):::esp --> p16
+        a6(["CTR Aldeia 1"]):::esp --> p18
+        a7(["Tubulão Norte"]):::esp --> p8
+        a8(["Tubulão Sul"]):::esp --> p11
         p1 --> p0
         p2 --> p1
         p3 --> p2
@@ -138,6 +163,8 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
         p14 --> p12
         p15 --> p9
         p16 --> p12
+        p17 --> p7
+        p18 --> p17
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
@@ -163,7 +190,7 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências, cobertura top-down, delegação do Tubulão e subordinação do Controle Aldeia) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 
@@ -232,6 +259,16 @@ setores.forEach(function (s, k) {
         .addTo(grupoSetores);
 });
 
+// Tubulão: CTA e UTA T8 do pacote SBCW, delegados pelo ACC Curitiba ao APP Rio
+const tubulao = [{"nome": "Tubulão Norte (CTA T8N)", "posicao": "SBWJ_N_APP", "freq": "125.950", "lim": "FL105 – FL245", "contorno": [[-45.605556, -23.038611], [-44.409444, -22.784444], [-44.676514, -23.030825], [-44.484227, -23.264821], [-45.4925, -23.48], [-45.539722, -23.309167], [-45.554722, -23.248056], [-45.605556, -23.038611]]}, {"nome": "Tubulão Sul (CTA T8S)", "posicao": "SBWJ_S_APP", "freq": "126.200", "lim": "FL105 – FL245", "contorno": [[-44.896944, -23.805556], [-44.178889, -23.636389], [-44.484227, -23.264821], [-45.4925, -23.48], [-45.428333, -23.712222], [-45.373333, -23.910556], [-44.896944, -23.805556]]}, {"nome": "Tubulão Norte (UTA T8N)", "posicao": "SBWJ_N_APP", "freq": "125.950", "lim": "FL245 – FL600", "contorno": [[-45.605556, -23.038611], [-44.409444, -22.784444], [-44.056944, -22.459167], [-43.730278, -22.451389], [-43.658333, -22.564167], [-43.512778, -23.0575], [-45.4925, -23.48], [-45.605556, -23.038611]]}, {"nome": "Tubulão Sul (UTA T8S)", "posicao": "SBWJ_S_APP", "freq": "126.200", "lim": "FL245 – FL600", "contorno": [[-43.512778, -23.0575], [-45.4925, -23.48], [-45.373333, -23.910556], [-44.896944, -23.805556], [-44.178889, -23.636389], [-43.645278, -23.510833], [-43.416944, -23.381944], [-43.512778, -23.0575]]}];
+var grupoTubulao = L.featureGroup();
+tubulao.forEach(function (s) {
+    var cor = s.nome.indexOf('UTA') >= 0 ? '#a78bfa' : '#e879f9';
+    L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, dashArray: '8 4', fillOpacity: 0.15 })
+        .bindPopup('<b>' + s.nome + '</b><br><code>' + s.posicao + '</code> · ' + s.freq + ' MHz<br>' + s.lim)
+        .addTo(grupoTubulao);
+});
+
 volumes.forEach(function (v) {
     // A cor segue a classe do volume inferior (ex.: A/C é desenhado como C)
     var cor = cores[v.classe.split('/').pop()];
@@ -269,7 +306,8 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "Limite da FIR": grupoFir,
-    "Setores do APP": grupoSetores
+    "Setores do APP": grupoSetores,
+    "Tubulão": grupoTubulao
 }).addTo(mapa);
 
 // Legenda das classes
