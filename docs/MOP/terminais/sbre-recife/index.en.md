@@ -40,8 +40,6 @@ The Recife FIR has ten terminal control areas (TMA), each served by an approach 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
-
 !!! warning "Precedence"
     Content for flight simulation. The following prevail, in this order: the current official aeronautical publication, the sector package distributed by VATSIM Brasil (callsigns, frequencies and logons) and the current VATSIM policy.
 

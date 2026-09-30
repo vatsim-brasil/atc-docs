@@ -42,8 +42,6 @@ A FIR Curitiba tem onze áreas de controle terminal (TMA), cada uma atendida por
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
-
 !!! warning "Precedência"
     Conteúdo para simulação de voo. Prevalecem, nesta ordem: a publicação aeronáutica oficial vigente, o pacote de setor distribuído pela VATSIM Brasil (indicativos, frequências e logons) e a política vigente da VATSIM.
 

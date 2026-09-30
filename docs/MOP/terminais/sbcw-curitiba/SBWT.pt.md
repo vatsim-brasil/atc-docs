@@ -63,32 +63,30 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CSW_CTR"]:::ctr
-        p3["SBCW_CWE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_CS_CTR"]:::ctr
-        p6["SBCW_CW_CTR"]:::ctr
-        p7["SBCW_C_CTR"]:::ctr
-        p8["SBWT_APP"]:::app
-        p9["SBCT_TWR"]:::twr
-        a0(["TMA Curitiba"]):::esp --> p8
-        a1(["CTR Curitiba"]):::esp --> p9
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSW_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CW_CTR</span>"]:::grpctr
+        p1["SBCW_C_CTR"]:::ctr
+        p2["SBWT_APP"]:::app
+        p3["SBCT_TWR"]:::twr
+        a0(["TMA Curitiba"]):::esp --> p2
+        a1(["CTR Curitiba"]):::esp --> p3
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p5
-        p7 --> p6
-        p8 --> p7
-        p9 --> p8
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
@@ -104,8 +102,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBBI (Bacacheri) fica na FIZ Bacacheri (classe G). A torre funciona das 1000 às 0100 UTC; no restante do dia, o APP Curitiba presta AFIS.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

@@ -99,8 +99,6 @@ Hover over a TMA to see a summary and click it to open its manual. Hover over a 
 
 ---
 
-Sources: VATSIM Brasil SBAZ, SBBS, SBCW and SBRE sector packages (lateral limits, positions and frequencies) and AIP Brasil (classes, vertical limits and ATS surveillance). Details and references on each FIR and TMA page.
-
 !!! warning "Precedence"
     Content for flight simulation. The following prevail, in this order: the current official aeronautical publication, the sector package distributed by VATSIM Brasil (callsigns, frequencies and logons) and the current VATSIM policy.
 

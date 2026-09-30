@@ -62,24 +62,28 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        p1["SBRE_NW_CTR"]:::ctr
-        p2["SBRE_NS_CTR"]:::ctr
-        p3["SBRE_N_CTR"]:::ctr
-        p4["SBXM_APP"]:::app
-        p5["SBMO_TWR"]:::twr
-        a0(["TMA Maceió"]):::esp --> p4
-        a1(["CTR Maceió"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NW_CTR</span>"]:::grpctr
+        p1["SBRE_N_CTR"]:::ctr
+        p2["SBXM_APP"]:::app
+        p3["SBMO_TWR"]:::twr
+        a0(["TMA Maceió"]):::esp --> p2
+        a1(["CTR Maceió"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
@@ -93,8 +97,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - Há concentração de pássaros na final da RWY 12.
 
 ---
-
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

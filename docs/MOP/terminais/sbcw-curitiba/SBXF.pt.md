@@ -67,35 +67,33 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CSW_CTR"]:::ctr
-        p3["SBCW_CWE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_CS_CTR"]:::ctr
-        p6["SBCW_CW_CTR"]:::ctr
-        p7["SBCW_C_CTR"]:::ctr
-        p8["SBXF_APP"]:::app
-        p9["SBFL_TWR"]:::twr
-        p10["SBNF_TWR"]:::twr
-        a0(["TMA Florianópolis"]):::esp --> p8
-        a1(["CTR Florianópolis"]):::esp --> p9
-        a2(["CTR Navegantes<br>ATZ Navegantes"]):::esp --> p10
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSW_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CW_CTR</span>"]:::grpctr
+        p1["SBCW_C_CTR"]:::ctr
+        p2["SBXF_APP"]:::app
+        p3["SBFL_TWR"]:::twr
+        p4["SBNF_TWR"]:::twr
+        a0(["TMA Florianópolis"]):::esp --> p2
+        a1(["CTR Florianópolis"]):::esp --> p3
+        a2(["CTR Navegantes<br>ATZ Navegantes"]):::esp --> p4
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p5
-        p7 --> p6
-        p8 --> p7
-        p9 --> p8
-        p10 --> p8
+        p4 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
@@ -110,8 +108,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBJV (Joinville) fica nas FIZs Joinville 1 e 2 (classe G), atendidas pela Rádio Joinville.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

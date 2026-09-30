@@ -67,40 +67,42 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CWE_CTR"]:::ctr
-        p3["SBCW_SE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_E_CTR"]:::ctr
-        p6["SBWE_APP"]:::app
-        p7["SBME_TWR"]:::twr
-        p8["SBWJ_APP"]:::app
-        p9["SBWJ_NE_APP"]:::app
-        p10["SBWJ_E_APP"]:::app
-        p11["SBES_APP"]:::app
-        p12["SBES_TWR"]:::twr
-        a0(["TMA Macaé"]):::esp --> p6
-        a1(["CTR Macaé"]):::esp --> p7
-        a2(["CTR Aldeia 2"]):::esp --> p12
-        a3(["CTR Aldeia 1"]):::esp --> p11
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span>"]:::grpctr
+        p1["SBCW_E_CTR"]:::ctr
+        p2["SBWE_APP"]:::app
+        p3["SBME_TWR"]:::twr
+        p4["SBWJ_APP"]:::app
+        p5["SBWJ_NE_APP"]:::app
+        p6["SBWJ_E_APP"]:::app
+        p7["SBES_APP"]:::app
+        p8["SBES_TWR"]:::twr
+        a0(["TMA Macaé"]):::esp --> p2
+        a1(["CTR Macaé"]):::esp --> p3
+        a2(["CTR Aldeia 2"]):::esp --> p8
+        a3(["CTR Aldeia 1"]):::esp --> p7
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
+        p4 --> p1
         p5 --> p4
         p6 --> p5
         p7 --> p6
-        p8 --> p5
-        p9 --> p8
-        p10 --> p9
-        p11 --> p10
-        p12 --> p11
+        p8 --> p7
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
@@ -119,8 +121,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBCP (Campos) e SBFS (São Tomé) ficam em FIZs classe G, atendidas pelas rádios locais.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

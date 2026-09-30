@@ -67,35 +67,33 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CSW_CTR"]:::ctr
-        p3["SBCW_CWE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_CS_CTR"]:::ctr
-        p6["SBCW_CW_CTR"]:::ctr
-        p7["SBCW_C_CTR"]:::ctr
-        p8["SBXF_APP"]:::app
-        p9["SBFL_TWR"]:::twr
-        p10["SBNF_TWR"]:::twr
-        a0(["Florianópolis TMA"]):::esp --> p8
-        a1(["Florianópolis CTR"]):::esp --> p9
-        a2(["Navegantes CTR<br>Navegantes ATZ"]):::esp --> p10
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSW_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CW_CTR</span>"]:::grpctr
+        p1["SBCW_C_CTR"]:::ctr
+        p2["SBXF_APP"]:::app
+        p3["SBFL_TWR"]:::twr
+        p4["SBNF_TWR"]:::twr
+        a0(["Florianópolis TMA"]):::esp --> p2
+        a1(["Florianópolis CTR"]):::esp --> p3
+        a2(["Navegantes CTR<br>Navegantes ATZ"]):::esp --> p4
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p5
-        p7 --> p6
-        p8 --> p7
-        p9 --> p8
-        p10 --> p8
+        p4 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
@@ -110,8 +108,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - SBJV (Joinville) lies in the Joinville 1 and 2 FIZs (class G), served by Rádio Joinville.
 
 ---
-
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

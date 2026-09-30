@@ -111,57 +111,59 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CWE_CTR"]:::ctr
-        p3["SBCW_SE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_E_CTR"]:::ctr
-        p6["SBWJ_APP"]:::app
-        p7["SBWJ_NE_APP"]:::app
-        p8["SBWJ_N_APP"]:::app
-        p9["SBWJ_GL_APP"]:::app
-        p10["SBGL_TWR"]:::twr
-        p11["SBWJ_S_APP"]:::app
-        p12["SBWJ_RJ_APP"]:::app
-        p13["SBRJ_TWR"]:::twr
-        p14["SBSC_TWR"]:::twr
-        p15["SBAF_R_TWR"]:::twr
-        p16["SBJR_TWR"]:::twr
-        p17["SBWJ_E_APP"]:::app
-        p18["SBES_APP"]:::app
-        a0(["TMA Rio de Janeiro"]):::esp --> p6
-        a1(["CTR Galeão"]):::esp --> p10
-        a2(["CTR Rio (SBRJ)"]):::esp --> p13
-        a3(["CTR Santa Cruz"]):::esp --> p14
-        a4(["CTR Afonsos"]):::esp --> p15
-        a5(["ATZ Jacarepaguá"]):::esp --> p16
-        a6(["CTR Aldeia 1"]):::esp --> p18
-        a7(["Tubulão Norte"]):::esp --> p8
-        a8(["Tubulão Sul"]):::esp --> p11
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span>"]:::grpctr
+        p1["SBCW_E_CTR"]:::ctr
+        p2["SBWJ_APP"]:::app
+        p3["SBWJ_NE_APP"]:::app
+        p4["SBWJ_N_APP"]:::app
+        p5["SBWJ_GL_APP"]:::app
+        p6["SBGL_TWR"]:::twr
+        p7["SBWJ_S_APP"]:::app
+        p8["SBWJ_RJ_APP"]:::app
+        p9["SBRJ_TWR"]:::twr
+        p10["SBSC_TWR"]:::twr
+        p11["SBAF_R_TWR"]:::twr
+        p12["SBJR_TWR"]:::twr
+        p13["SBWJ_E_APP"]:::app
+        p14["SBES_APP"]:::app
+        a0(["TMA Rio de Janeiro"]):::esp --> p2
+        a1(["CTR Galeão"]):::esp --> p6
+        a2(["CTR Rio (SBRJ)"]):::esp --> p9
+        a3(["CTR Santa Cruz"]):::esp --> p10
+        a4(["CTR Afonsos"]):::esp --> p11
+        a5(["ATZ Jacarepaguá"]):::esp --> p12
+        a6(["CTR Aldeia 1"]):::esp --> p14
+        a7(["Tubulão Norte"]):::esp --> p4
+        a8(["Tubulão Sul"]):::esp --> p7
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
         p4 --> p3
         p5 --> p4
         p6 --> p5
-        p7 --> p6
+        p7 ---> p2
         p8 --> p7
         p9 --> p8
-        p10 --> p9
-        p11 --> p6
-        p12 --> p11
-        p13 --> p12
-        p14 --> p12
-        p15 --> p9
-        p16 --> p12
-        p17 --> p7
-        p18 --> p17
+        p10 --> p8
+        p11 --> p5
+        p12 --> p8
+        p13 --> p3
+        p14 --> p13
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
@@ -182,8 +184,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBSC (Santa Cruz) e SBAF (Afonsos) são bases da Força Aérea: aeronaves civis dependem de autorização do comando da base. SBMI (Maricá) fica numa FIZ classe G.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências, cobertura top-down, delegação do Tubulão e subordinação do Controle Aldeia) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

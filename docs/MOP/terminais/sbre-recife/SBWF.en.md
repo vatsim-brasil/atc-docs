@@ -64,27 +64,31 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        p1["SBRE_NW_CTR"]:::ctr
-        p2["SBRE_NS_CTR"]:::ctr
-        p3["SBRE_N_CTR"]:::ctr
-        p4["SBWF_APP"]:::app
-        p5["SBRF_TWR"]:::twr
-        p6["SBJP_TWR"]:::twr
-        a0(["Recife TMA"]):::esp --> p4
-        a1(["Recife CTR"]):::esp --> p5
-        a2(["João Pessoa CTR"]):::esp --> p6
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NW_CTR</span>"]:::grpctr
+        p1["SBRE_N_CTR"]:::ctr
+        p2["SBWF_APP"]:::app
+        p3["SBRF_TWR"]:::twr
+        p4["SBJP_TWR"]:::twr
+        a0(["Recife TMA"]):::esp --> p2
+        a1(["Recife CTR"]):::esp --> p3
+        a2(["João Pessoa CTR"]):::esp --> p4
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p4
+        p4 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
@@ -100,8 +104,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - There is no João Pessoa TMA: SBJP lies inside the Recife TMA. In the real world, Pessoa Tower also provides approach service inside the João Pessoa CTR.
 
 ---
-
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

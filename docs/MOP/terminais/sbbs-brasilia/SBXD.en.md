@@ -62,24 +62,28 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBBS_CTR"]:::ctr
-        p1["SBBS_NE_CTR"]:::ctr
-        p2["SBBS_NS_CTR"]:::ctr
-        p3["SBBS_N_CTR"]:::ctr
-        p4["SBXD_APP"]:::app
-        p5["SBPJ_TWR"]:::twr
-        a0(["Palmas TMA"]):::esp --> p4
-        a1(["Palmas CTR"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NS_CTR</span>"]:::grpctr
+        p1["SBBS_N_CTR"]:::ctr
+        p2["SBXD_APP"]:::app
+        p3["SBPJ_TWR"]:::twr
+        a0(["Palmas TMA"]):::esp --> p2
+        a1(["Palmas CTR"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
@@ -93,8 +97,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - In the real world, the SBPJ tower operates from 0900 to 1459 UTC; for the rest of the day, Palmas APP provides AFIS on 119.000.
 
 ---
-
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

@@ -64,27 +64,31 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBBS_CTR"]:::ctr
-        p1["SBBS_SE_CTR"]:::ctr
-        p2["SBBS_NS_CTR"]:::ctr
-        p3["SBBS_S_CTR"]:::ctr
-        p4["SBXQ_APP"]:::app
-        p5["SBYS_TWR"]:::twr
-        p6["SBRP_TWR"]:::twr
-        a0(["Academia TMA"]):::esp --> p4
-        a1(["Academia CTR (SBYS)"]):::esp --> p5
-        a2(["Ribeirão CTR (SBRP)"]):::esp --> p6
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_SE_CTR</span>"]:::grpctr
+        p1["SBBS_S_CTR"]:::ctr
+        p2["SBXQ_APP"]:::app
+        p3["SBYS_TWR"]:::twr
+        p4["SBRP_TWR"]:::twr
+        a0(["Academia TMA"]):::esp --> p2
+        a1(["Academia CTR (SBYS)"]):::esp --> p3
+        a2(["Ribeirão CTR (SBRP)"]):::esp --> p4
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p4
+        p4 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
@@ -103,8 +107,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - SBYS is the Air Force Academy: civil aircraft may only operate with authorization from the Academy command. SBGP requires prior authorization from the aerodrome administrator.
 
 ---
-
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

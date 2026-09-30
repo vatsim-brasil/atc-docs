@@ -62,24 +62,28 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        p1["SBRE_SW_CTR"]:::ctr
-        p2["SBRE_NS_CTR"]:::ctr
-        p3["SBRE_S_CTR"]:::ctr
-        p4["SBWL_APP"]:::app
-        p5["SBIL_R_TWR"]:::twr
-        a0(["Ilhéus TMA"]):::esp --> p4
-        a1(["Ilhéus CTR"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_SW_CTR</span>"]:::grpctr
+        p1["SBRE_S_CTR"]:::ctr
+        p2["SBWL_APP"]:::app
+        p3["SBIL_R_TWR"]:::twr
+        a0(["Ilhéus TMA"]):::esp --> p2
+        a1(["Ilhéus CTR"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
@@ -94,8 +98,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - In the real world, the APP operates from 0915 to 0100 UTC. General aviation and air taxi require prior permission (PPR) 48 h in advance.
 
 ---
-
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

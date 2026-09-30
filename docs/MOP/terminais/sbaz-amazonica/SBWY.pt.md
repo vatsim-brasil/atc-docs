@@ -93,8 +93,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
-
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 
 [^pacote]: Frequência no pacote de setores da VATSIM Brasil.
