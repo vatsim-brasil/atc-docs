@@ -13,7 +13,7 @@ tags:
 |------------------------------|----------------------------------|
 | **Nome do aeródromo**        | São Paulo - Congonhas            |
 | **Tipo de Operação**         | Nacional, Público e Militar      |
-| **Altitude de transição** | 7000 pés |
+| **Altitude de transição** | 8000 pés |
 | **Elevação** | 2634 pés (803 m) |
 
 ## :material-monitor-dashboard: Informações Úteis
