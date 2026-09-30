@@ -120,7 +120,7 @@ tags:
 ### Aerodrome Regulations
 
 * VFR operations of fixed-wing aircraft to or from this aerodrome are **not** authorized, except for Brazilian military aircraft.[^1]
-* The aerodrome operating minima for segregated operations in VMC are a **ceiling of 1000 ft and visibility of 5000 m**.
+* The aerodrome operating minima for segregated operations in VMC are a **ceiling of 1000 ft and visibility of 5000 m**.[^2]
 
 ### Runways
 

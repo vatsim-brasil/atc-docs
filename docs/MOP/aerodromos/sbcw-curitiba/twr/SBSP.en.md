@@ -13,7 +13,7 @@ tags:
 |------------------------------|----------------------------------|
 | **Aerodrome name**        | São Paulo - Congonhas            |
 | **Type of Operation**         | Domestic, Public and Military      |
-| **Transition altitude** | 7000 ft |
+| **Transition altitude** | 8000 ft |
 | **Elevation** | 2634 ft (803 m) |
 
 ## :material-monitor-dashboard: Useful Information

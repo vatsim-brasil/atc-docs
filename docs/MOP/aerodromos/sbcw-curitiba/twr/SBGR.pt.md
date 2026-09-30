@@ -120,7 +120,7 @@ tags:
 ### Regulamentos do Aeródromo
 
 * **Não** estão autorizadas operações VFR de aeronaves de asas fixas com destino ou origem neste aeródromo, exceto para aeronaves militares brasileiras.[^1]
-* Os mínimos operacionais do aeródromo para operações segregadas sob VMC são **teto de 1000 ft e visibilidade de 5000 m**.
+* Os mínimos operacionais do aeródromo para operações segregadas sob VMC são **teto de 1000 ft e visibilidade de 5000 m**.[^2]
 
 ### Pistas
 

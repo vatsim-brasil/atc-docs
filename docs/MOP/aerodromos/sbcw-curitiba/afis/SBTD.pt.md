@@ -1,0 +1,79 @@
+---
+title: SBTD - Toledo
+tags:
+  - Aeródromo
+  - Não-Controlado
+  - SBCW
+---
+
+--8<-- "includes/abreviacoes.md"
+
+## :material-information-outline: Dados Gerais
+|                              | Informações                                 |
+|------------------------------|---------------------------------------------|
+| **Nome do aeródromo**        | Toledo - Luiz Dalcanale Filho |
+| **Tipo de Operação**         | Nacional e Público |
+| **Altitude de transição** | 5000 pés |
+| **Elevação** | 1842 pés (561 m) |
+
+## :material-monitor-dashboard: Informações Úteis
+
+=== ":material-monitor-dashboard: Painel"
+    Selecione uma das ferramentas nas abas acima (Cartas, Meteorologia ou Tráfego) para acessar as informações do aeródromo.
+
+=== ":material-file-document: Cartas Aeronáuticas"
+    <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBTD?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-weather-partly-cloudy: Meteorologia"
+    <div id="metar-taf-container" data-airport="SBTD" class="weather-card-container">
+        <div class="weather-card metar" id="metar-content">
+            Carregando o METAR<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
+        </div>
+        <div class="weather-card taf" id="taf-content">
+            Carregando o TAF<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
+        </div>
+    </div>
+
+=== ":material-radar: Tráfego VATSIM"
+    [:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBTD){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;align:center;" }
+
+## :material-routes: Pistas
+| Pista | Preferencial  | ILS                                         | Circuito   |
+| :---: | :--- | :---: | :---: |
+| **02** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+| **20** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Padrão     |
+
+## :material-headset: Órgãos ATC
+| Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
+| ---------- | ------ | --------------------- | ---------- | ----------- |
+| **SBTD_R_TWR** | `RTD` | Rádio Toledo | **131.050** |  |
+
+### DCL / CPDLC
+- [ ] Não há disponível serviço de DCL no aeródromo.
+
+## :material-airplane-takeoff: Operações
+
+### Regulamentos do Aeródromo
+
+- O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 2C ou inferior.
+- PRB OPS da ACFT ATR-72, compatível com o Código de Referência do AD (CRA) 3C, em IMC.
+- PRB a OPS do ATR-72 caso haja ACFT ocupando posição de estacionamento do pátio principal.
+- Permitidas as OPS de ACFT com RCD 1 ou 2 apenas em VMC quando o ATR-72 estiver ocupando posição de estacionamento do pátio principal.
+- PRB ACFT nas posições de espera enquanto houver OPS do ATR-72 na RWY.
+- OBS ACFT e planadores em FLT de instrução próximo ao AD.
+
+### Pátios e Pistas de Taxi
+
+- PRB a entrada no pátio pela TWY `A` de ACFT com envergadura maior que 20M, devido ao posicionamento de estacionamento no pátio (observar a sinalização horizontal).
+- MNTN estrita observância à demarcação de TAX (linha amarela) nas entradas e saídas do pátio principal.
+- Compulsória a orientação do OPR aeroportuário para posicionamento no pátio. Caso necessário EQPT de pushback, o acionamento é de responsabilidade do OPR.
+
+### Pistas
+
+- RWY 02: primeiros 80M fechados para LDG e últimos 60M fechados para LDG/TKOF devido à implantação de RESA.
+- RWY 20: primeiros 60M fechados para LDG e últimos 80M fechados para LDG/TKOF devido à implantação de RESA.
+
+## :material-sign-direction: Posições de Parada
+| Pátio     | Posições  | Classificação                         |
+| :---: | :---: | :--- |
+| **1** | ANY       | Doméstico / Aviação Geral e Executiva |
