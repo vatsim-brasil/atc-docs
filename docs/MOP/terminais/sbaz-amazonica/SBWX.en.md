@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWX_APP** | `WX` | Controle Santarém | **119.300** | TMA approach control |
-| **SBSN_TWR** | `TSN` | Torre Santarém | **118.100** | Santarém CTR |
+| **SBWX_APP** | `WX` | Controle Santarém | **119.300** |  |
+| **SBSN_TWR** | `TSN` | Torre Santarém | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -80,7 +80,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

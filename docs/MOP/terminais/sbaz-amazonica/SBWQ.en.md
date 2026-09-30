@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWQ_APP** | `WQ` | Controle Boa Vista | **120.100** | TMA approach control |
-| **SBBV_TWR** | `TBV` | Torre Boa Vista | **118.100** | Boa Vista CTR |
+| **SBWQ_APP** | `WQ` | Controle Boa Vista | **120.100** |  |
+| **SBBV_TWR** | `TBV` | Torre Boa Vista | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -75,16 +75,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Two-way contact is mandatory for operations at SDF9, SSZA, SWTH, SJ3M, SWPD and SD6X.
 - There is no CCV REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR706 Deserto | FL040 – FL240 | military, activated by Boa Vista APP |
-| SBR707 Sargas | FL040 – FL240 | military, activated by Boa Vista APP |
-
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

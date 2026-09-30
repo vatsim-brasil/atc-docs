@@ -61,8 +61,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWR_APP** | `WR` | Controle Brasília | **119.200** | Controle de aproximação da TMA |
-| **SBBR_TWR** | `TBR` | Torre Brasília | **118.100** | CTR Brasília |
+| **SBWR_APP** | `WR` | Controle Brasília | **119.200** |  |
+| **SBBR_TWR** | `TBR` | Torre Brasília | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -81,19 +81,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Proibidos treinamento e toque e arremetida em SBBR das 0800 às 1500 e das 2100 às 0100 UTC.
 - Carta de rotas VFR: [CCV REA WR-Brasília](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR614 Planalto | GND – 4400 FT | sobre a Esplanada, H24, procedimento especial |
-| SBR615 Alvorada | 4400 FT – FL080 | H24 |
-| SBR608 e SBR609 Torto 1 e 2 | GND – FL080 | H24 |
-| SBP600 e SBP612 Penitenciária Federal | GND – FL100 | proibidas, H24; SBP612 proíbe asa rotativa |
-| SBP633 QGEx e SBP634 CIE | GND – 2500 FT AGL | proibidas, H24 |
-| SBR621 e SBR622 Formosa | GND – UNL | artilharia, ativadas por NOTAM ou suplemento AIP |
-| SBD610 e SBD603 Luziânia 1 e 2 | até FL080 / FL100 | planadores |
-| SBD624 e SBD625 Área Nova 1 e 2 | até FL090 / FL120 | fins de semana e feriados HJ, em coordenação com o APP Brasília |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre FL065 e FL145. O APP é dividido em oito setores; os setores 05 a 08 atendem as saídas norte e sul.
@@ -102,7 +89,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

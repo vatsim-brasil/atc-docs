@@ -61,9 +61,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXO_APP** | `XO` | Controle Londrina | **129.700** | Controle de aproximação da TMA |
-| **SBLO_TWR** | `TLO` | Torre Londrina | **118.400** | CTR Londrina |
-| **SBMG_TWR** | `TMG` | Torre Maringá | **118.750** | CTR Maringá |
+| **SBXO_APP** | `XO` | Controle Londrina | **129.700** |  |
+| **SBLO_TWR** | `TLO` | Torre Londrina | **118.400** |  |
+| **SBMG_TWR** | `TMG` | Torre Maringá | **118.750** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -80,14 +80,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Não é aceito plano de voo por radiotelefonia, exceto plano de voo completo já autorizado.
 - Carta de rotas VFR: [REA TMA Londrina](https://aisweb.decea.mil.br/cartas/visuais/rea/REA_LONDRINA_2015.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR524 e SBR530 CAEP | GND – 3000 FT | ultraleves e experimentais, em coordenação com o APP Londrina |
-| SBR554 Sertaneja | GND – 4000 FT | treinamento civil, DLY 1100–2030 |
-| SBR813 SSOK 14 Bis |  | paraquedismo, com autorização do APP Londrina |
-
 ## :material-note-text-outline: Observações
 
 - O APP Londrina presta serviço de vigilância, mas a AIP (ENR 1.6) registra lacunas de cobertura: a menos de 15 NM de SBMG abaixo do FL075 e no setor SIGAR–KAGID abaixo do FL110, o controle é convencional.
@@ -95,7 +87,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

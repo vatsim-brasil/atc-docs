@@ -61,9 +61,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWU_APP** | `WU` | Controle Bauru | **121.300** | TMA approach control |
-| **SBBU_R_TWR** | `RBU` | Rádio Bauru | **121.300** | Bauru CTR |
-| **SBAE_R_TWR** | `RAE` | Rádio Arealva | **126.600** | Arealva ATZ |
+| **SBWU_APP** | `WU` | Controle Bauru | **121.300** |  |
+| **SBBU_R_TWR** | `RBU` | Rádio Bauru | **121.300** |  |
+| **SBAE_R_TWR** | `RAE` | Rádio Arealva | **126.600** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -79,12 +79,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - SBAE: two-way contact with Rádio Arealva and Bauru APP.
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR437 Embraer Uno | GND – FL115 | flight testing, about 26 NM from SBBU |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class D between FL045 and FL145.
@@ -94,7 +88,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

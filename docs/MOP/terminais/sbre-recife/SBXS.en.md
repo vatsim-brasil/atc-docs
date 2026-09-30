@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXS_APP** | `XS` | Controle Salvador | **119.350** | TMA approach control |
-| **SBSV_TWR** | `TSV` | Torre Salvador | **118.300** | Salvador CTR |
+| **SBXS_APP** | `XS` | Controle Salvador | **119.350** |  |
+| **SBSV_TWR** | `TSV` | Torre Salvador | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -76,12 +76,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Filing flight plans by radiotelephony is prohibited, except from helidecks in an emergency.
 - VFR routes chart: [CCV REA XS-Salvador](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBP225 Camaçari | GND – 1500 FT | facility protection |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
@@ -90,7 +84,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

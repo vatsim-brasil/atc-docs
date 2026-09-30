@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWL_APP** | `WL` | Controle Ilhéus | **120.100** | TMA approach control |
-| **SBIL_R_TWR** | `RIL` | Rádio Ilhéus | **120.100** | Ilhéus CTR |
+| **SBWL_APP** | `WL` | Controle Ilhéus | **120.100** |  |
+| **SBIL_R_TWR** | `RIL` | Rádio Ilhéus | **120.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -82,7 +82,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

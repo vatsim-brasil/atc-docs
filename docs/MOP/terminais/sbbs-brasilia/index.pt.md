@@ -6,7 +6,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-A FIR Brasília tem oito áreas de controle terminal (TMA), cada uma atendida por um controle de aproximação (APP). Esta página reúne, para cada TMA, os limites, a classe do espaço aéreo, a vigilância ATS, a circulação de voo visual e a ordem de cobertura top-down usada na rede. Cada TMA tem uma página própria, com mapa, volumes, órgãos ATC, cobertura top-down, circulação VFR e áreas especiais.
+A FIR Brasília tem oito áreas de controle terminal (TMA), cada uma atendida por um controle de aproximação (APP). Esta página reúne, para cada TMA, os limites, a classe do espaço aéreo, a vigilância ATS, a circulação de voo visual e a ordem de cobertura top-down usada na rede. Cada TMA tem uma página própria, com mapa, volumes, órgãos ATC, cobertura top-down e circulação VFR.
 
 !!! info "Interatividade do mapa"
 
@@ -39,7 +39,7 @@ A FIR Brasília tem oito áreas de controle terminal (TMA), cada uma atendida po
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 !!! warning "Precedência"
     Conteúdo para simulação de voo. Prevalecem, nesta ordem: a publicação aeronáutica oficial vigente, o pacote de setor distribuído pela VATSIM Brasil (indicativos, frequências e logons) e a política vigente da VATSIM.

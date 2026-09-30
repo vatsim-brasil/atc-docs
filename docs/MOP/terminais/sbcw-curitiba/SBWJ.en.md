@@ -85,12 +85,12 @@ The APP is split into sectors, each with its own position and frequency in the p
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWJ_APP** | `WJ` | Controle Rio | **119.000** | TMA approach control |
-| **SBGL_TWR** | `TGL` | Torre Galeão | **118.200** | Galeão CTR |
-| **SBRJ_TWR** | `TRJ` | Torre Rio | **118.700** | Rio CTR (SBRJ) |
-| **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** | Santa Cruz CTR |
-| **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** | Afonsos CTR |
-| **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** | Jacarepaguá ATZ |
+| **SBWJ_APP** | `WJ` | Controle Rio | **119.000** |  |
+| **SBGL_TWR** | `TGL` | Torre Galeão | **118.200** |  |
+| **SBRJ_TWR** | `TRJ` | Torre Rio | **118.700** |  |
+| **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** |  |
+| **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** |  |
+| **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -110,22 +110,12 @@ The APP is split into sectors, each with its own position and frequency in the p
 
 - Flights from outside controlled airspace entering the TMA via the REA or REH corridors are exempt from filing a flight plan, but must first report registration, position, persons on board, endurance, origin and destination.
 - Rio 2 and Rio 3 use VFR frequencies in the real world: 133.300 (primary) and 126.200 (secondary).
-- SBRJ: with IFR approaches to RWY 02R, VFR departures to REA FOXTROT route via Icaraí, Piratininga Lagoon and the Itaipu gate. REA ECHO closes when SBR363 is active.
+- SBRJ: with IFR approaches to RWY 02R, VFR departures to REA FOXTROT route via Icaraí, Piratininga Lagoon and the Itaipu gate.
 - Helicopter routes chart: [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
 - Helicopter routes chart: [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
 - Helicopter routes chart: [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
 - Ultralight routes chart: [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
 - VFR routes chart: [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
-
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR314 e SBR333 Marambaia | GND – UNL | live firing and UAV; when active, STARs UGRAD 1C and EVRIR 1B are suspended |
-| SBR300 Oceano | GND – FL200 | air artillery |
-| SBR316 Atlântico e SBR363 Atlântico Curto | GND – UNL | live firing; SBR363 active closes REA ECHO |
-| SBR329 e SBR330 Gericinó | GND – FL100 | Army parachuting, coordinated with Rio APP |
-| SBR304 Afonsos | GND – 1200 FT AGL | parachuting, activated by Rio APP |
 
 ## :material-note-text-outline: Remarks
 
@@ -135,7 +125,7 @@ The APP is split into sectors, each with its own position and frequency in the p
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

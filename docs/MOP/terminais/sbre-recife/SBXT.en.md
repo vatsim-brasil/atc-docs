@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXT_APP** | `XT` | Controle Natal | **119.300** | TMA approach control |
-| **SBNT_TWR** | `TNT` | Torre Natal | **118.700** | Natal CTR |
+| **SBXT_APP** | `XT` | Controle Natal | **119.300** |  |
+| **SBNT_TWR** | `TNT` | Torre Natal | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,25 +74,15 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - SBNT: simultaneous VFR approaches to RWY 16L and 16R are allowed with visual separation and Natal Tower authorization.
 - VFR routes chart: [CCV REA XT-Natal](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xt-natal_rea_20250320.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR213 Área Leste | GND – UNL | military, H24 |
-| SBR210 Norte Uno e SBR239 Norte Alta | GND – UNL | military |
-| SBR218 Área Sul | GND – UNL | military |
-| SBR201 Cassino | GND – FL230 | surface firing, H24 |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
-- The area has many military areas, nearly all activated by Natal APP (there are also series SBR251 to SBR263 and SBR279 to SBR286 over SBNT).
 - SBNT is Natal Air Base: civil aircraft require authorization from the base commander. SBSG (São Gonçalo do Amarante) is the civil airport.
 - The Natal CTR is a 20 NM circle.
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

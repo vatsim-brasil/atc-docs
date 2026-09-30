@@ -61,9 +61,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXN_APP** | `XN` | Controle Anápolis | **129.450** | Controle de aproximação da TMA |
-| **SBAN_TWR** | `TAN` | Torre Anápolis | **118.300** | CTR Anápolis 1 (SBAN) |
-| **SBGO_TWR** | `TGO` | Torre Goiânia | **118.700** | CTR Anápolis 2 (SBGO) |
+| **SBXN_APP** | `XN` | Controle Anápolis | **129.450** |  |
+| **SBAN_TWR** | `TAN` | Torre Anápolis | **118.300** |  |
+| **SBGO_TWR** | `TGO` | Torre Goiânia | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -79,16 +79,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - SBGO: treinamento restrito por horário.
 - Carta de rotas VFR: [CCV REA XN-Anápolis](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xn-anapolis_rea_20240711.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR605 e SBR606 Anápolis 1 e 2 | GND – 5500 FT | treinamento, HJ; SBR606 ativada em coordenação com o APP Anápolis |
-| SBR607 Goiânia | GND – 5500 FT AGL | HJ |
-| SBR601 e SBR613 Dourada | FL100 – UNL | operações militares |
-| SBR728 PQD AN e SBR877 Skydive Cerrado | até FL160 / FL210 | paraquedismo, com autorização do APP Anápolis |
-| SBD638 Fazenda Jussara | até FL090 |  |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre FL065 e FL145.
@@ -97,7 +87,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

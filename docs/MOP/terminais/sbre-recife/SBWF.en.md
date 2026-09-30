@@ -61,9 +61,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWF_APP** | `WF` | Controle Recife | **120.400** | TMA approach control |
-| **SBRF_TWR** | `TRF` | Torre Recife | **118.350** | Recife CTR |
-| **SBJP_TWR** | `TJP` | Torre João Pessoa | **118.300** | João Pessoa CTR |
+| **SBWF_APP** | `WF` | Controle Recife | **120.400** |  |
+| **SBRF_TWR** | `TRF` | Torre Recife | **118.350** |  |
+| **SBJP_TWR** | `TJP` | Torre João Pessoa | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -80,16 +80,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - SBJP: operations by aircraft without radio are prohibited; mandatory contact with Pessoa Tower before taxiing.
 - VFR routes chart: [CCV REA WF-Recife](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wf-recife_rea_20250320.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR220 Aldeia | GND – FL100 | air combat and exercises, HJ; at other times via Recife APP |
-| SBR278 Coroa do Avião | 700 FT – 1500 FT | training, H24, activated by Recife APP |
-| SBR221 Itamaracá e SBR222 Conceição | 700 FT – 1500 FT | aerobatics and training, HJ |
-| SBR841 Treinamento Azul Conecta | 4000 FT – FL100 | HJ |
-| SBP208 Porto de Cabedelo | GND – 1500 FT AGL | prohibited, H24, near SBJP |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
@@ -97,7 +87,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

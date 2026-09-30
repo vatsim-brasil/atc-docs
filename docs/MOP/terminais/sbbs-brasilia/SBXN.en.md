@@ -61,9 +61,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXN_APP** | `XN` | Controle Anápolis | **129.450** | TMA approach control |
-| **SBAN_TWR** | `TAN` | Torre Anápolis | **118.300** | Anápolis 1 CTR (SBAN) |
-| **SBGO_TWR** | `TGO` | Torre Goiânia | **118.700** | Anápolis 2 CTR (SBGO) |
+| **SBXN_APP** | `XN` | Controle Anápolis | **129.450** |  |
+| **SBAN_TWR** | `TAN` | Torre Anápolis | **118.300** |  |
+| **SBGO_TWR** | `TGO` | Torre Goiânia | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -79,16 +79,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - SBGO: training is restricted to certain hours.
 - VFR routes chart: [CCV REA XN-Anápolis](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xn-anapolis_rea_20240711.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR605 e SBR606 Anápolis 1 e 2 | GND – 5500 FT | training, HJ; SBR606 activated in coordination with Anápolis APP |
-| SBR607 Goiânia | GND – 5500 FT AGL | HJ |
-| SBR601 e SBR613 Dourada | FL100 – UNL | military operations |
-| SBR728 PQD AN e SBR877 Skydive Cerrado | até FL160 / FL210 | parachuting, with Anápolis APP authorization |
-| SBD638 Fazenda Jussara | até FL090 |  |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between FL065 and FL145.
@@ -97,7 +87,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWZ_APP** | `WZ` | Controle Fortaleza | **133.000** | TMA approach control |
-| **SBFZ_TWR** | `TFZ` | Torre Fortaleza | **129.000** | Fortaleza CTR |
+| **SBWZ_APP** | `WZ` | Controle Fortaleza | **133.000** |  |
+| **SBFZ_TWR** | `TFZ` | Torre Fortaleza | **129.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,21 +74,13 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Aircraft departing aerodromes without an ATS unit under the TMA must file a flight plan with the AIS office, contact the APP before taxiing and report the actual departure time.
 - VFR routes chart: [CCV REA WZ-Fortaleza](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wz-fortaleza_rea_20251127.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR247 Petrobras | GND – 2000 FT AGL | helicopter traffic over the sea, H24 |
-| SBR267 Pacatuba | GND – 3000 FT | hang gliding and paragliding |
-| SBR842 Treinamento Azul Conecta | 4000 FT – FL100 | HJ, activation subject to coordination |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

@@ -98,14 +98,14 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXP_APP** | `XP` | Controle São Paulo | **119.600** | Controle de aproximação da TMA |
-| **SBGR_TWR** | `TGR` | Torre Guarulhos | **132.750** | CTR Guarulhos |
-| **SBSP_TWR** | `TSP` | Torre São Paulo | **127.150** | CTR São Paulo (Congonhas) |
-| **SBKP_TWR** | `TKP` | Torre Campinas | **118.250** | CTR Campinas |
-| **SBSJ_TWR** | `TSJ` | Torre São José | **118.500** | CTR São José |
-| **SBJD_TWR** | `TJD` | Torre Jundiaí | **118.750** | CTR Jundiaí |
-| **SBTA_TWR** | `TTA` | Torre Taubaté | **119.900** | CTR Taubaté |
-| **SBMT_TWR** | `TMT` | Torre Marte | **133.350** | ATZ Marte |
+| **SBXP_APP** | `XP` | Controle São Paulo | **119.600** |  |
+| **SBGR_TWR** | `TGR` | Torre Guarulhos | **132.750** |  |
+| **SBSP_TWR** | `TSP` | Torre São Paulo | **127.150** |  |
+| **SBKP_TWR** | `TKP` | Torre Campinas | **118.250** |  |
+| **SBSJ_TWR** | `TSJ` | Torre São José | **118.500** |  |
+| **SBJD_TWR** | `TJD` | Torre Jundiaí | **118.750** |  |
+| **SBTA_TWR** | `TTA` | Torre Taubaté | **119.900** |  |
+| **SBMT_TWR** | `TMT` | Torre Marte | **133.350** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -141,16 +141,6 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 - Carta de rotas de helicópteros: [CCV REH XP1-Sorocaba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }
 - Carta de rotas VFR: [CCV REA XP1-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR458 a SBR460 Instrução 1 a 3 | 600 FT AGL – 7000 FT | treinamento civil |
-| SBR427 Boituva | GND – FL160 | paraquedismo, HJ |
-| SBR412 Ubá | GND – 2800 FT AGL | H24 |
-| SBR411 Franco da Rocha | até 3000 FT | acrobacia, HJ |
-| SBP429 Petroquímica | GND – 4000 FT AGL | proibida, H24 |
-
 ## :material-note-text-outline: Observações
 
 - São Paulo 1 é classe A entre FL145 e FL245 e classe C entre 5500 FT e FL145.
@@ -160,7 +150,7 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

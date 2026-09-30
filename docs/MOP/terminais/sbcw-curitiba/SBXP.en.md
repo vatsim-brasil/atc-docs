@@ -98,14 +98,14 @@ The APP is split into sectors, each with its own position and frequency in the p
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXP_APP** | `XP` | Controle São Paulo | **119.600** | TMA approach control |
-| **SBGR_TWR** | `TGR` | Torre Guarulhos | **132.750** | Guarulhos CTR |
-| **SBSP_TWR** | `TSP` | Torre São Paulo | **127.150** | São Paulo CTR (Congonhas) |
-| **SBKP_TWR** | `TKP` | Torre Campinas | **118.250** | Campinas CTR |
-| **SBSJ_TWR** | `TSJ` | Torre São José | **118.500** | São José CTR |
-| **SBJD_TWR** | `TJD` | Torre Jundiaí | **118.750** | Jundiaí CTR |
-| **SBTA_TWR** | `TTA` | Torre Taubaté | **119.900** | Taubaté CTR |
-| **SBMT_TWR** | `TMT` | Torre Marte | **133.350** | Marte ATZ |
+| **SBXP_APP** | `XP` | Controle São Paulo | **119.600** |  |
+| **SBGR_TWR** | `TGR` | Torre Guarulhos | **132.750** |  |
+| **SBSP_TWR** | `TSP` | Torre São Paulo | **127.150** |  |
+| **SBKP_TWR** | `TKP` | Torre Campinas | **118.250** |  |
+| **SBSJ_TWR** | `TSJ` | Torre São José | **118.500** |  |
+| **SBJD_TWR** | `TJD` | Torre Jundiaí | **118.750** |  |
+| **SBTA_TWR** | `TTA` | Torre Taubaté | **119.900** |  |
+| **SBMT_TWR** | `TMT` | Torre Marte | **133.350** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -141,16 +141,6 @@ The APP is split into sectors, each with its own position and frequency in the p
 - Helicopter routes chart: [CCV REH XP1-Sorocaba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }
 - VFR routes chart: [CCV REA XP1-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR458 a SBR460 Instrução 1 a 3 | 600 FT AGL – 7000 FT | civil training |
-| SBR427 Boituva | GND – FL160 | parachuting, HJ |
-| SBR412 Ubá | GND – 2800 FT AGL | H24 |
-| SBR411 Franco da Rocha | até 3000 FT | aerobatics, HJ |
-| SBP429 Petroquímica | GND – 4000 FT AGL | prohibited, H24 |
-
 ## :material-note-text-outline: Remarks
 
 - São Paulo 1 is class A between FL145 and FL245 and class C between 5500 FT and FL145.
@@ -160,7 +150,7 @@ The APP is split into sectors, each with its own position and frequency in the p
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

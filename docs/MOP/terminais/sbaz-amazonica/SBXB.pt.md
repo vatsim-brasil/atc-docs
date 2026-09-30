@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXB_APP** | `XB` | Controle Rio Branco | **119.900** | Controle de aproximação da TMA |
-| **SBRB_TWR** | `TRB` | Torre Rio Branco | **118.700** | CTR Rio Branco |
+| **SBXB_APP** | `XB` | Controle Rio Branco | **119.900** |  |
+| **SBRB_TWR** | `TRB` | Torre Rio Branco | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -76,7 +76,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

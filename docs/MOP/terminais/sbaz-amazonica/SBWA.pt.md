@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWA_APP** | `WA` | Controle Amazonas | **119.100** | Controle de aproximação da TMA |
-| **SBTT_R_TWR** | `RTT` | Rádio Tabatinga | **125.900** | CTR Amazônica (SBTT) |
+| **SBWA_APP** | `WA` | Controle Amazonas | **119.100** |  |
+| **SBTT_R_TWR** | `RTT` | Rádio Tabatinga | **125.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -85,7 +85,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

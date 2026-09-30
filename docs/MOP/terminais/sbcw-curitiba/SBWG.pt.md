@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWG_APP** | `WG` | Controle Campo Grande | **119.350** | Controle de aproximação da TMA |
-| **SBCG_TWR** | `TCG` | Torre Campo Grande | **118.100** | CTR Campo Grande |
+| **SBWG_APP** | `WG` | Controle Campo Grande | **119.350** |  |
+| **SBCG_TWR** | `TCG` | Torre Campo Grande | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -71,21 +71,12 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-airplane: Circulação VFR
 
-- Seguir a ICA 100-12 e a AIC de corredores visuais; observar a VAC e os espaços condicionados.
+- Seguir a ICA 100-12 e a AIC de corredores visuais; observar a VAC.
 - Carta de rotas VFR: [CCV REA WG-Campo Grande](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wg-campo-grande_rea_20250220.pdf){ target="_blank" }
-
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR447 a SBR450 Bravo e Charlie | FL060 – FL240 | treinamento, H24; entrada com autorização e contato bilateral com o ACC Curitiba |
-| SBR464 Echo 2 | FL050 – FL240 | treinamento de aeronaves militares |
-| SBR461 Capim Santo | GND – 500 FT AGL | treinamento militar, ativada pelo APP Campo Grande |
-| SBP451 Federal | GND – 1000 FT AGL | área prisional |
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

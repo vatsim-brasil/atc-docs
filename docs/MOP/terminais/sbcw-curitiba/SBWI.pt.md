@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWI_APP** | `WI` | Controle Foz | **120.300** | Controle de aproximação da TMA |
-| **SBFI_TWR** | `TFI` | Torre Cataratas | **118.800** | CTR Cataratas (SBFI) |
+| **SBWI_APP** | `WI` | Controle Foz | **120.300** |  |
+| **SBFI_TWR** | `TFI` | Torre Cataratas | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -75,14 +75,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Circuitos de tráfego publicados: SBFI a NNE, SARI (Cataratas del Iguazú) a SSW, SGES (Guarani) e Itaipu a WNW.
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR513 Itaipu | GND – 2000 FT | com autorização do APP Foz, H24 |
-| SBR804 Skydive4fun | GND – FL200 | paraquedismo, ativada pelo APP Foz ou ACC Curitiba |
-| SBR560 Clube de Voo Itaipu | GND – 1500 FT | treinamento civil, com autorização do APP Foz |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
@@ -91,7 +83,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

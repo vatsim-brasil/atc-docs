@@ -64,9 +64,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXF_APP** | `XF` | Controle Florianópolis | **119.650** | TMA approach control |
-| **SBFL_TWR** | `TFL` | Torre Florianópolis | **118.700** | Florianópolis CTR |
-| **SBNF_TWR** | `TNF` | Torre Navegantes | **118.200** | Navegantes CTR |
+| **SBXF_APP** | `XF` | Controle Florianópolis | **119.650** |  |
+| **SBFL_TWR** | `TFL` | Torre Florianópolis | **118.700** |  |
+| **SBNF_TWR** | `TNF` | Torre Navegantes | **118.200** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -84,15 +84,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - SBNF: circuit to the northwest only, at 1100 FT for category A and B aeroplanes (category C prohibited) and 600 FT for helicopters. Entry via the Containers and Foz gates; overflights at 2400 FT minimum.
 - VFR routes chart: [CCV REA XF-Florianópolis](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR561 e SBR563 Antônio Carlos | GND – 2500 FT | civil training and corridor, in coordination with the APP |
-| SBR537 Cambirela | GND – 3000 FT | gliders, H24 |
-| SBR572 e SBR573 Lagoa da Conceição e Praia Mole |  | free flight, HJ |
-| SBR575 Gaspar | GND – 2000 FT AGL | ultralights, in coordination with the APP |
-
 ## :material-note-text-outline: Remarks
 
 - Florianópolis 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145.
@@ -100,7 +91,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

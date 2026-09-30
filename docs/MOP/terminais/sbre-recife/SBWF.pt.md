@@ -61,9 +61,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWF_APP** | `WF` | Controle Recife | **120.400** | Controle de aproximação da TMA |
-| **SBRF_TWR** | `TRF` | Torre Recife | **118.350** | CTR Recife |
-| **SBJP_TWR** | `TJP` | Torre João Pessoa | **118.300** | CTR João Pessoa |
+| **SBWF_APP** | `WF` | Controle Recife | **120.400** |  |
+| **SBRF_TWR** | `TRF` | Torre Recife | **118.350** |  |
+| **SBJP_TWR** | `TJP` | Torre João Pessoa | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -80,16 +80,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - SBJP: proibida a operação de aeronaves sem rádio; contato compulsório com a Torre Pessoa antes do táxi.
 - Carta de rotas VFR: [CCV REA WF-Recife](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wf-recife_rea_20250320.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR220 Aldeia | GND – FL100 | combate aéreo e exercícios, HJ; nos demais horários via APP Recife |
-| SBR278 Coroa do Avião | 700 FT – 1500 FT | treinamento, H24, ativada pelo APP Recife |
-| SBR221 Itamaracá e SBR222 Conceição | 700 FT – 1500 FT | acrobacia e treinamento, HJ |
-| SBR841 Treinamento Azul Conecta | 4000 FT – FL100 | HJ |
-| SBP208 Porto de Cabedelo | GND – 1500 FT AGL | proibida, H24, perto de SBJP |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
@@ -97,7 +87,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

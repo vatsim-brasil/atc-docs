@@ -63,10 +63,10 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWE_APP** | `WE` | Controle Macaé | **119.450** | Controle de aproximação da TMA |
-| **SBME_TWR** | `TME` | Torre Macaé | **118.450** | CTR Macaé |
-| **SBES_TWR** | `TES` | Torre Aldeia | **118.300** | CTR Aldeia 2 |
-| **SBES_APP** | `XES` | Controle Aldeia | **119.450** | CTR Aldeia 1 |
+| **SBWE_APP** | `WE` | Controle Macaé | **119.450** |  |
+| **SBME_TWR** | `TME` | Torre Macaé | **118.450** |  |
+| **SBES_TWR** | `TES` | Torre Aldeia | **118.300** |  |
+| **SBES_APP** | `XES` | Controle Aldeia | **119.450** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -86,15 +86,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Carta de rotas de helicópteros: [CCV REH WJ1-Cabo Frio](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj1-cabo-frio_reh_20260319.pdf){ target="_blank" }
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR336 São João | GND – 2000 FT AGL | operações militares, H24 |
-| SBR342 Mar do Norte | GND – UNL | disparos do solo, ativada por NOTAM ou suplemento AIP |
-| SBR380 Cabiúnas | GND – 1300 FT | campo de gás, H24 |
-| SBR830 e SBR834 Tupinambás 1 e 2 | GND – FL060 | operações militares, em coordenação com o APP Aldeia |
-
 ## :material-note-text-outline: Observações
 
 - Macaé concentra a operação de helicópteros offshore da Bacia de Campos: há diversos helipontos em plataformas designados "Macaé" na AIP (GEN 2.4).
@@ -104,7 +95,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

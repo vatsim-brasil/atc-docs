@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXR_APP** | `XR` | Controle Vitória | **119.850** | TMA approach control |
-| **SBVT_TWR** | `TVT` | Torre Vitória | **118.100** | Vitória CTR |
+| **SBXR_APP** | `XR` | Controle Vitória | **119.850** |  |
+| **SBVT_TWR** | `TVT` | Torre Vitória | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -76,15 +76,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Helicopter routes chart: [REH CTR Vitória](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ target="_blank" }
 - VFR routes chart: [CCV REA XR-Vitória](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBD367 a SBD376 | GND – 300 FT | obstacles next to the aerodrome |
-| SBD351 Campos Norte | GND – 6500 FT AGL | helicopters, HJ |
-| SBR364 João Monteiro | GND – 2500 FT | aircraft without transponder or radio and training, activated by NOTAM |
-| SBR234 Timbuí-Fundão | GND – FL045 | hang gliding, HJ |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 4500 FT and FL145.
@@ -93,7 +84,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

@@ -63,9 +63,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWN_APP** | `WN` | Controle Manaus | **119.250** | TMA approach control |
-| **SBEG_TWR** | `TEG` | Torre Eduardo Gomes | **118.300** | Manaus 1 CTR (SBEG) |
-| **SBMN_TWR** | `TMN` | Torre Ponta Pelada | **118.600** | Manaus 2 CTR (SBMN) |
+| **SBWN_APP** | `WN` | Controle Manaus | **119.250** |  |
+| **SBEG_TWR** | `TEG` | Torre Eduardo Gomes | **118.300** |  |
+| **SBMN_TWR** | `TMN` | Torre Ponta Pelada | **118.600** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -81,14 +81,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Flight plans filed in the air (AFIL) are not accepted.
 - VFR routes chart: [CCV REA WN2-Manaus](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wn2-manaus_rea_20250807.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR702 Madeira | FL040 – FL240 | military, activated by the APP |
-| SBR703 Careiro | GND – 1500 FT AGL | helicopter traffic |
-| SBR704 Solimões | GND – 1500 FT | civil training |
-
 ## :material-note-text-outline: Remarks
 
 - Manaus 3 is class A above FL145 and class C between FL065 and FL145.
@@ -96,7 +88,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWS_APP** | `WS` | Controle São Luís | **119.100** | Controle de aproximação da TMA |
-| **SBSL_TWR** | `TSL` | Torre São Luís | **118.900** | CTR São Luís |
+| **SBWS_APP** | `WS` | Controle São Luís | **119.100** |  |
+| **SBSL_TWR** | `TSL` | Torre São Luís | **118.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,13 +74,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Proibidos voos com destino ao Parque Nacional dos Lençóis Maranhenses.
 - Carta de rotas VFR: [CCV REA WS-São Luís](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-ws-sao-luis_rea_20250612.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBP103 Alcântara I | GND – UNL | proibida, lançamentos espaciais, ativada por NOTAM ou suplemento AIP |
-| SBR104 Alcântara II | GND – 3000 FT AGL | restrita |
-
 ## :material-note-text-outline: Observações
 
 - O Centro de Lançamento de Alcântara (SNCW) fica a cerca de 14 NM de SBSL, dentro da TMA.
@@ -88,7 +81,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

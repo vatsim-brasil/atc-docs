@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXG_APP** | `XG` | Controle Prudente | **125.450** | Controle de aproximação da TMA |
-| **SBDN_TWR** | `TDN` | Torre Prudente | **118.450** | CTR Prudente |
+| **SBXG_APP** | `XG` | Controle Prudente | **125.450** |  |
+| **SBDN_TWR** | `TDN` | Torre Prudente | **118.450** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,19 +74,13 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Não é aceito plano de voo por radiotelefonia.
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBD843 Alves Balonismo |  | balões, fins de semana e feriados 0830–1200, com contato bilateral com o APP |
-
 ## :material-note-text-outline: Observações
 
 - No mundo real, a torre de SBDN funciona das 0900 às 2300 UTC; de madrugada, o APP presta AFIS em 125.450.
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

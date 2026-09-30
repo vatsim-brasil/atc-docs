@@ -61,8 +61,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWT_APP** | `WT` | Controle Curitiba | **119.950** | TMA approach control |
-| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** | Curitiba CTR |
+| **SBWT_APP** | `WT` | Controle Curitiba | **119.950** |  |
+| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -77,15 +77,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Helicopter routes chart: [CCV REH WT-Curitiba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wt-curitiba_reh_20231228.pdf){ target="_blank" }
 - VFR routes chart: [CCV REA WT-Curitiba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wt-curitiba_rea_20231228.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR595 Capivari e SBR836 Capivari Alto | 500 FT AGL – 5500 FT | civil training, activated by Curitiba APP |
-| SBR508 Campo Largo | GND – 6000 FT | aerobatics, HJ |
-| SBR507 Balsa Nova | GND – FL070 | air sports |
-| SBP577 Piraquara e SBP591 REPAR | GND – 4000 FT | prison area and refinery, H24 |
-
 ## :material-note-text-outline: Remarks
 
 - Curitiba 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145.
@@ -93,7 +84,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

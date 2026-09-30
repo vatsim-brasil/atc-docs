@@ -61,8 +61,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWB_APP** | `WB` | Controle Belém | **119.050** | Controle de aproximação da TMA |
-| **SBBE_TWR** | `TBE` | Torre Belém | **118.700** | CTR Belém |
+| **SBWB_APP** | `WB` | Controle Belém | **119.050** |  |
+| **SBBE_TWR** | `TBE` | Torre Belém | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -77,21 +77,13 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Contato bilateral obrigatório com o APP (119.050 ou 119.500) para operações em SWEQ e SNYP.
 - Carta de rotas VFR: [CCV REA WB-Belém](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wb-belem_rea_20250904.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR101 Salinas | GND – 4000 FT | militar, ativada em coordenação com o APP Belém |
-| SBR102 Guamá | GND – FL100 | militar, ativada pelo APP Belém ou pelo ACC Amazônico |
-| SBP100 Eletronorte | GND – 1000 FT AGL | proibida, raio de 800 m |
-
 ## :material-note-text-outline: Observações
 
 - Belém 2 é classe A entre FL145 e FL195 e classe C entre FL065 e FL145.
 
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

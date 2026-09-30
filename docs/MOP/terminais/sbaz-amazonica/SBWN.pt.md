@@ -63,9 +63,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWN_APP** | `WN` | Controle Manaus | **119.250** | Controle de aproximação da TMA |
-| **SBEG_TWR** | `TEG` | Torre Eduardo Gomes | **118.300** | CTR Manaus 1 (SBEG) |
-| **SBMN_TWR** | `TMN` | Torre Ponta Pelada | **118.600** | CTR Manaus 2 (SBMN) |
+| **SBWN_APP** | `WN` | Controle Manaus | **119.250** |  |
+| **SBEG_TWR** | `TEG` | Torre Eduardo Gomes | **118.300** |  |
+| **SBMN_TWR** | `TMN` | Torre Ponta Pelada | **118.600** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -81,14 +81,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Não são aceitos planos de voo apresentados em voo (AFIL).
 - Carta de rotas VFR: [CCV REA WN2-Manaus](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wn2-manaus_rea_20250807.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR702 Madeira | FL040 – FL240 | militar, ativada pelo APP |
-| SBR703 Careiro | GND – 1500 FT AGL | tráfego de helicópteros |
-| SBR704 Solimões | GND – 1500 FT | treinamento civil |
-
 ## :material-note-text-outline: Observações
 
 - Manaus 3 é classe A acima do FL145 e classe C entre FL065 e FL145.
@@ -96,7 +88,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

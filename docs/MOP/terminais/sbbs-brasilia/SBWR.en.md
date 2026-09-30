@@ -61,8 +61,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWR_APP** | `WR` | Controle Brasília | **119.200** | TMA approach control |
-| **SBBR_TWR** | `TBR` | Torre Brasília | **118.100** | Brasília CTR |
+| **SBWR_APP** | `WR` | Controle Brasília | **119.200** |  |
+| **SBBR_TWR** | `TBR` | Torre Brasília | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -81,19 +81,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Training and touch-and-go at SBBR are prohibited from 0800 to 1500 and from 2100 to 0100 UTC.
 - VFR routes chart: [CCV REA WR-Brasília](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR614 Planalto | GND – 4400 FT | over the Esplanada, H24, special procedure |
-| SBR615 Alvorada | 4400 FT – FL080 | H24 |
-| SBR608 e SBR609 Torto 1 e 2 | GND – FL080 | H24 |
-| SBP600 e SBP612 Penitenciária Federal | GND – FL100 | prohibited, H24; SBP612 bans rotorcraft |
-| SBP633 QGEx e SBP634 CIE | GND – 2500 FT AGL | prohibited, H24 |
-| SBR621 e SBR622 Formosa | GND – UNL | artillery, activated by NOTAM or AIP supplement |
-| SBD610 e SBD603 Luziânia 1 e 2 | até FL080 / FL100 | gliders |
-| SBD624 e SBD625 Área Nova 1 e 2 | até FL090 / FL120 | weekends and holidays HJ, in coordination with Brasília APP |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between FL065 and FL145. The APP is split into eight sectors; sectors 05 to 08 handle northbound and southbound departures.
@@ -102,7 +89,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

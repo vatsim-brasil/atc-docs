@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWA_APP** | `WA` | Controle Amazonas | **119.100** | TMA approach control |
-| **SBTT_R_TWR** | `RTT` | Rádio Tabatinga | **125.900** | Amazônica CTR (SBTT) |
+| **SBWA_APP** | `WA` | Controle Amazonas | **119.100** |  |
+| **SBTT_R_TWR** | `RTT` | Rádio Tabatinga | **125.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -85,7 +85,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

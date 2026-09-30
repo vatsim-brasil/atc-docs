@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWQ_APP** | `WQ` | Controle Boa Vista | **120.100** | Controle de aproximação da TMA |
-| **SBBV_TWR** | `TBV` | Torre Boa Vista | **118.100** | CTR Boa Vista |
+| **SBWQ_APP** | `WQ` | Controle Boa Vista | **120.100** |  |
+| **SBBV_TWR** | `TBV` | Torre Boa Vista | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -75,16 +75,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Contato bilateral obrigatório para operações em SDF9, SSZA, SWTH, SJ3M, SWPD e SD6X.
 - Não há carta CCV REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR706 Deserto | FL040 – FL240 | militar, ativada pelo APP Boa Vista |
-| SBR707 Sargas | FL040 – FL240 | militar, ativada pelo APP Boa Vista |
-
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

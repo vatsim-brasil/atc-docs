@@ -61,9 +61,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXQ_APP** | `XQ` | Controle Academia | **120.100** | TMA approach control |
-| **SBYS_TWR** | `TYS` | Torre Academia | **118.300** | Academia CTR (SBYS) |
-| **SBRP_TWR** | `TRP` | Torre Ribeirão | **118.000** | Ribeirão CTR (SBRP) |
+| **SBXQ_APP** | `XQ` | Controle Academia | **120.100** |  |
+| **SBYS_TWR** | `TYS` | Torre Academia | **118.300** |  |
+| **SBRP_TWR** | `TRP` | Torre Ribeirão | **118.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -81,15 +81,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - SBYS: gliders from GND to FL100 on Saturdays, Sundays and holidays.
 - VFR routes chart: [REA CTR Ribeirão Preto](https://aisweb.decea.mil.br/cartas/visuais/rea/REA_Ribeirao_Preto_aic_13_20.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR466 a SBR486 (áreas da AFA) | GND – FL190 | military training, H24, activated in coordination with Academia APP |
-| SBD424 Galáxia Baixa | GND – 5000 FT | cross more than 15 NM from SBYS |
-| SBR400, SBR437 a SBR439 e SBR454 (Embraer) | GND – UNL | Embraer flight testing (Gavião Peixoto) |
-| SBR112 Jaboticabal | até FL140 | parachuting |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 5500 FT and FL145. The APP is split into eight sectors, and the Gavião Peixoto FIZ volume is excluded.
@@ -99,7 +90,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

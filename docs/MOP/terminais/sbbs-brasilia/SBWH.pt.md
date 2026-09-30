@@ -65,10 +65,10 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWH_APP** | `WH` | Controle Belo Horizonte | **129.100** | Controle de aproximação da TMA |
-| **SBBH_TWR** | `TBH` | Torre Belo Horizonte | **118.000** | CTR Belo Horizonte |
-| **SBCF_TWR** | `TCF` | Torre Confins | **118.200** | CTR Confins |
-| **SBLS_R_TWR** | `RLS` | Rádio Lagoa Santa | **122.850** | ATZ Lagoa Santa |
+| **SBWH_APP** | `WH` | Controle Belo Horizonte | **129.100** |  |
+| **SBBH_TWR** | `TBH` | Torre Belo Horizonte | **118.000** |  |
+| **SBCF_TWR** | `TCF` | Torre Confins | **118.200** |  |
+| **SBLS_R_TWR** | `RLS` | Rádio Lagoa Santa | **122.850** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -93,15 +93,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Carta de rotas de helicópteros: [CCV REH WH-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf){ target="_blank" }
 - Carta de rotas VFR: [CCV REA WH-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBP340 Betingas | GND – 1000 FT AGL | proibida, H24 |
-| SBR879 Attack-Lagoa Santa | GND – 3500 FT | combate a incêndio, ativada após contato com o APP Belo Horizonte |
-| SBR327 Serra da Moeda | GND – FL070 | asa-delta, HJ |
-| SBR388 Pará de Minas | 1000 FT AGL – FL070 | treinamento, HJ |
-
 ## :material-note-text-outline: Observações
 
 - Belo Horizonte 1 é classe A entre FL145 e FL195 e classe C entre 5500 FT e FL145. Os setores 05 e 06 do APP são as finais de SBBH e SBCF.
@@ -111,7 +102,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

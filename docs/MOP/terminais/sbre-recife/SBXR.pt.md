@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXR_APP** | `XR` | Controle Vitória | **119.850** | Controle de aproximação da TMA |
-| **SBVT_TWR** | `TVT` | Torre Vitória | **118.100** | CTR Vitória |
+| **SBXR_APP** | `XR` | Controle Vitória | **119.850** |  |
+| **SBVT_TWR** | `TVT` | Torre Vitória | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -76,15 +76,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Carta de rotas de helicópteros: [REH CTR Vitória](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ target="_blank" }
 - Carta de rotas VFR: [CCV REA XR-Vitória](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBD367 a SBD376 | GND – 300 FT | obstáculos junto ao aeródromo |
-| SBD351 Campos Norte | GND – 6500 FT AGL | helicópteros, HJ |
-| SBR364 João Monteiro | GND – 2500 FT | aeronaves sem transponder ou rádio e instrução, ativada por NOTAM |
-| SBR234 Timbuí-Fundão | GND – FL045 | asa-delta, HJ |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 4500 FT e FL145.
@@ -93,7 +84,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

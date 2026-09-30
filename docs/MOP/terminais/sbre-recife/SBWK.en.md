@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWK_APP** | `WK` | Controle Porto Seguro | **120.900** | TMA approach control |
-| **SBPS_TWR** | `TPS` | Torre Porto Seguro | **118.850** | Porto Seguro CTR |
+| **SBWK_APP** | `WK` | Controle Porto Seguro | **120.900** |  |
+| **SBPS_TWR** | `TPS` | Torre Porto Seguro | **118.850** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -75,12 +75,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Contact with the TWR is mandatory in the CTR. Landing sequencing may be restricted due to congestion.
 - VFR routes chart: [CCV REA WK-Porto Seguro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wk-porto-seguro_rea_20250123.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR110 Parque Nacional do Descobrimento |  | biodiversity reserve, about 35 NM away |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
@@ -88,7 +82,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

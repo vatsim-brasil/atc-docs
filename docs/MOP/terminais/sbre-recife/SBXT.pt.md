@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXT_APP** | `XT` | Controle Natal | **119.300** | Controle de aproximação da TMA |
-| **SBNT_TWR** | `TNT` | Torre Natal | **118.700** | CTR Natal |
+| **SBXT_APP** | `XT` | Controle Natal | **119.300** |  |
+| **SBNT_TWR** | `TNT` | Torre Natal | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,25 +74,15 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - SBNT: aproximações VFR simultâneas nas RWY 16L e 16R são permitidas com separação visual e autorização da Torre Natal.
 - Carta de rotas VFR: [CCV REA XT-Natal](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xt-natal_rea_20250320.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR213 Área Leste | GND – UNL | militar, H24 |
-| SBR210 Norte Uno e SBR239 Norte Alta | GND – UNL | militares |
-| SBR218 Área Sul | GND – UNL | militar |
-| SBR201 Cassino | GND – FL230 | disparos do solo, H24 |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
-- A região tem muitas áreas militares, quase todas ativadas pelo APP Natal (há também as séries SBR251 a SBR263 e SBR279 a SBR286 sobre SBNT).
 - SBNT é a Base Aérea de Natal: aeronaves civis dependem de autorização do comandante da base. SBSG (São Gonçalo do Amarante) é o aeroporto civil.
 - A CTR Natal é um círculo de 20 NM.
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

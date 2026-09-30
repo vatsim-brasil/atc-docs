@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWK_APP** | `WK` | Controle Porto Seguro | **120.900** | Controle de aproximação da TMA |
-| **SBPS_TWR** | `TPS` | Torre Porto Seguro | **118.850** | CTR Porto Seguro |
+| **SBWK_APP** | `WK` | Controle Porto Seguro | **120.900** |  |
+| **SBPS_TWR** | `TPS` | Torre Porto Seguro | **118.850** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -75,12 +75,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Contato com a TWR obrigatório na CTR. Pode haver restrição de sequência de pouso por congestionamento.
 - Carta de rotas VFR: [CCV REA WK-Porto Seguro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wk-porto-seguro_rea_20250123.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR110 Parque Nacional do Descobrimento |  | reserva de biodiversidade, a cerca de 35 NM |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
@@ -88,7 +82,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

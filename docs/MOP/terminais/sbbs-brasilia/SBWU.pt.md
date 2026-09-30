@@ -61,9 +61,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWU_APP** | `WU` | Controle Bauru | **121.300** | Controle de aproximação da TMA |
-| **SBBU_R_TWR** | `RBU` | Rádio Bauru | **121.300** | CTR Bauru |
-| **SBAE_R_TWR** | `RAE` | Rádio Arealva | **126.600** | ATZ Arealva |
+| **SBWU_APP** | `WU` | Controle Bauru | **121.300** |  |
+| **SBBU_R_TWR** | `RBU` | Rádio Bauru | **121.300** |  |
+| **SBAE_R_TWR** | `RAE` | Rádio Arealva | **126.600** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -79,12 +79,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - SBAE: contato bilateral com a Rádio Arealva e com o APP Bauru.
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR437 Embraer Uno | GND – FL115 | voo de ensaio, a cerca de 26 NM de SBBU |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe D entre FL045 e FL145.
@@ -94,7 +88,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

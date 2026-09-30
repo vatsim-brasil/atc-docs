@@ -61,8 +61,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWB_APP** | `WB` | Controle Belém | **119.050** | TMA approach control |
-| **SBBE_TWR** | `TBE` | Torre Belém | **118.700** | Belém CTR |
+| **SBWB_APP** | `WB` | Controle Belém | **119.050** |  |
+| **SBBE_TWR** | `TBE` | Torre Belém | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -77,21 +77,13 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Two-way contact with the APP (119.050 or 119.500) is mandatory for operations at SWEQ and SNYP.
 - VFR routes chart: [CCV REA WB-Belém](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wb-belem_rea_20250904.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR101 Salinas | GND – 4000 FT | military, activated in coordination with Belém APP |
-| SBR102 Guamá | GND – FL100 | military, activated by Belém APP or Amazônico ACC |
-| SBP100 Eletronorte | GND – 1000 FT AGL | prohibited, 800 m radius |
-
 ## :material-note-text-outline: Remarks
 
 - Belém 2 is class A between FL145 and FL195 and class C between FL065 and FL145.
 
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXB_APP** | `XB` | Controle Rio Branco | **119.900** | TMA approach control |
-| **SBRB_TWR** | `TRB` | Torre Rio Branco | **118.700** | Rio Branco CTR |
+| **SBXB_APP** | `XB` | Controle Rio Branco | **119.900** |  |
+| **SBRB_TWR** | `TRB` | Torre Rio Branco | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -76,7 +76,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

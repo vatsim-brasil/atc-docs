@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXE_APP** | `XE` | Controle Teresina | **119.600** | TMA approach control |
-| **SBTE_TWR** | `TTE` | Torre Teresina | **118.800** | Teresina CTR |
+| **SBXE_APP** | `XE` | Controle Teresina | **119.600** |  |
+| **SBTE_TWR** | `TTE` | Torre Teresina | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -76,12 +76,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Do not mistake SBTE for SNDR (Timon).
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR269 CULP | GND – 500 FT AGL | ultralights, H24, 6 NM away |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class D between 3500 FT and FL145.
@@ -89,7 +83,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

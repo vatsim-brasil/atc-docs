@@ -65,10 +65,10 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWH_APP** | `WH` | Controle Belo Horizonte | **129.100** | TMA approach control |
-| **SBBH_TWR** | `TBH` | Torre Belo Horizonte | **118.000** | Belo Horizonte CTR |
-| **SBCF_TWR** | `TCF` | Torre Confins | **118.200** | Confins CTR |
-| **SBLS_R_TWR** | `RLS` | Rádio Lagoa Santa | **122.850** | Lagoa Santa ATZ |
+| **SBWH_APP** | `WH` | Controle Belo Horizonte | **129.100** |  |
+| **SBBH_TWR** | `TBH` | Torre Belo Horizonte | **118.000** |  |
+| **SBCF_TWR** | `TCF` | Torre Confins | **118.200** |  |
+| **SBLS_R_TWR** | `RLS` | Rádio Lagoa Santa | **122.850** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -93,15 +93,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Helicopter routes chart: [CCV REH WH-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf){ target="_blank" }
 - VFR routes chart: [CCV REA WH-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBP340 Betingas | GND – 1000 FT AGL | prohibited, H24 |
-| SBR879 Attack-Lagoa Santa | GND – 3500 FT | firefighting, activated after contacting Belo Horizonte APP |
-| SBR327 Serra da Moeda | GND – FL070 | hang gliding, HJ |
-| SBR388 Pará de Minas | 1000 FT AGL – FL070 | training, HJ |
-
 ## :material-note-text-outline: Remarks
 
 - Belo Horizonte 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145. APP sectors 05 and 06 are the SBBH and SBCF finals.
@@ -111,7 +102,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

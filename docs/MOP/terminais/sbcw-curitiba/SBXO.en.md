@@ -61,9 +61,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXO_APP** | `XO` | Controle Londrina | **129.700** | TMA approach control |
-| **SBLO_TWR** | `TLO` | Torre Londrina | **118.400** | Londrina CTR |
-| **SBMG_TWR** | `TMG` | Torre Maringá | **118.750** | Maringá CTR |
+| **SBXO_APP** | `XO` | Controle Londrina | **129.700** |  |
+| **SBLO_TWR** | `TLO` | Torre Londrina | **118.400** |  |
+| **SBMG_TWR** | `TMG` | Torre Maringá | **118.750** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -80,14 +80,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Flight plans filed by radiotelephony are not accepted, except for already authorized full flight plans.
 - VFR routes chart: [REA TMA Londrina](https://aisweb.decea.mil.br/cartas/visuais/rea/REA_LONDRINA_2015.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR524 e SBR530 CAEP | GND – 3000 FT | ultralights and experimental aircraft, in coordination with Londrina APP |
-| SBR554 Sertaneja | GND – 4000 FT | civil training, DLY 1100–2030 |
-| SBR813 SSOK 14 Bis |  | parachuting, with Londrina APP authorization |
-
 ## :material-note-text-outline: Remarks
 
 - Londrina APP provides surveillance service, but the AIP (ENR 1.6) notes coverage gaps: within 15 NM of SBMG below FL075, and in the SIGAR–KAGID sector below FL110, control is conventional.
@@ -95,7 +87,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

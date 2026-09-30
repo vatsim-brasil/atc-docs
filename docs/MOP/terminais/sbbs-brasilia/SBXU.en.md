@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXU_APP** | `XU` | Controle Uberaba | **120.800** | TMA approach control |
-| **SBUR_TWR** | `TUR` | Torre Uberaba | **118.500** | Uberaba CTR |
+| **SBXU_APP** | `XU` | Controle Uberaba | **120.800** |  |
+| **SBUR_TWR** | `TUR` | Torre Uberaba | **118.500** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -82,7 +82,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

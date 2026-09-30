@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXE_APP** | `XE` | Controle Teresina | **119.600** | Controle de aproximação da TMA |
-| **SBTE_TWR** | `TTE` | Torre Teresina | **118.800** | CTR Teresina |
+| **SBXE_APP** | `XE` | Controle Teresina | **119.600** |  |
+| **SBTE_TWR** | `TTE` | Torre Teresina | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -76,12 +76,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Não confundir SBTE com SNDR (Timon).
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR269 CULP | GND – 500 FT AGL | ultraleves, H24, a 6 NM |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe D entre 3500 FT e FL145.
@@ -89,7 +83,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

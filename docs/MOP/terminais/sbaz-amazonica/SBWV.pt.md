@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWV_APP** | `WV` | Controle Porto Velho | **120.250** | Controle de aproximação da TMA |
-| **SBPV_TWR** | `TPV` | Torre Porto Velho | **118.200** | CTR Porto Velho |
+| **SBWV_APP** | `WV` | Controle Porto Velho | **120.250** |  |
+| **SBPV_TWR** | `TPV` | Torre Porto Velho | **118.200** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,21 +74,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Não há regras VFR específicas publicadas além das regras gerais (ICA 100-12).
 - Não há carta CCV REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR708 a SBR711 Porto Velho 1 a 4 | FL030 – FL190/FL195 | militares, ativadas pelo APP |
-| SBR716 e SBR717 Crocodilo 2B e 2C | GND – 2500/4000 FT | militares, ativadas pelo APP |
-| SBP721 Penitenciária Federal | GND – 2000 FT | proibida |
-
-## :material-note-text-outline: Observações
-
-- Acima da TMA ficam as áreas SBR724 a SBR727 (FL190 – FL250), ativadas pelo ACC Amazônico.
-
 ---
 
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

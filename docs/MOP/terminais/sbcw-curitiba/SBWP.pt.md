@@ -62,8 +62,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWP_APP** | `WP` | Controle Palegre | **129.600** | Controle de aproximação da TMA |
-| **SBPA_TWR** | `TPA` | Torre Palegre | **118.100** | CTR Porto Alegre 1 |
+| **SBWP_APP** | `WP` | Controle Palegre | **129.600** |  |
+| **SBPA_TWR** | `TPA` | Torre Palegre | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -77,17 +77,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 - Não é aceito plano de voo simplificado por radiotelefonia para a TWR.
 - Não são aceitos planos AFIL de aeronaves que decolam de aeródromos sem órgão ATS na CTR ou na TMA.
-- Observar as áreas SBD578 e SBD579 na circulação VMC a baixa altura.
 - Carta de rotas VFR: [CCV REA WP-Porto Alegre](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ target="_blank" }
-
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBD578 e SBD579 Obstáculos Porto Alegre | GND – 400/600 FT AGL | H24 |
-| SBP505 Refinaria Alberto Pasqualini | GND – 1000 FT AGL | proibida, H24 |
-| SBR522 Patos e SBR828 Patos Alta | GND – FL150 | acrobacia e paraquedismo; a SBR828 com autorização do APP |
-| SBR593 Novo Hamburgo |  | paraquedismo e planadores, HJ |
 
 ## :material-note-text-outline: Observações
 
@@ -97,7 +87,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

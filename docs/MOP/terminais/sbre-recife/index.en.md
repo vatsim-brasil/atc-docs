@@ -6,7 +6,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-The Recife FIR has ten terminal control areas (TMA), each served by an approach control unit (APP). This page gathers, for each TMA, its limits, airspace class, ATS surveillance, VFR circulation and the top-down coverage order used on the network. Each TMA has its own page, with a map, volumes, ATC units, top-down coverage, VFR circulation and special use airspace.
+The Recife FIR has ten terminal control areas (TMA), each served by an approach control unit (APP). This page gathers, for each TMA, its limits, airspace class, ATS surveillance, VFR circulation and the top-down coverage order used on the network. Each TMA has its own page, with a map, volumes, ATC units, top-down coverage and VFR circulation.
 
 !!! info "Map interactivity"
 
@@ -40,7 +40,7 @@ The Recife FIR has ten terminal control areas (TMA), each served by an approach 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 !!! warning "Precedence"
     Content for flight simulation. The following prevail, in this order: the current official aeronautical publication, the sector package distributed by VATSIM Brasil (callsigns, frequencies and logons) and the current VATSIM policy.

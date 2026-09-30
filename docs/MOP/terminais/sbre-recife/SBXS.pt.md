@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXS_APP** | `XS` | Controle Salvador | **119.350** | Controle de aproximação da TMA |
-| **SBSV_TWR** | `TSV` | Torre Salvador | **118.300** | CTR Salvador |
+| **SBXS_APP** | `XS` | Controle Salvador | **119.350** |  |
+| **SBSV_TWR** | `TSV` | Torre Salvador | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -76,12 +76,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Proibido apresentar plano de voo por radiotelefonia, exceto helidecks em emergência.
 - Carta de rotas VFR: [CCV REA XS-Salvador](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBP225 Camaçari | GND – 1500 FT | proteção de instalações |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
@@ -90,7 +84,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

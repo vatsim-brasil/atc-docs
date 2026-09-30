@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWM_APP** | `WM` | Controle Santa Maria | **119.350** | Controle de aproximação da TMA |
-| **SBSM_TWR** | `TSM` | Torre Santa Maria | **118.300** | CTR Santa Maria |
+| **SBWM_APP** | `WM` | Controle Santa Maria | **119.350** |  |
+| **SBSM_TWR** | `TSM` | Torre Santa Maria | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,22 +74,13 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - A carta de aproximação visual (VAC) de SBSM é de uso exclusivo de aeronaves militares.
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR585 a SBR588 Maria e Taura | 7000 FT – FL180 | VANT, H24, em coordenação com o APP Santa Maria e o ACC Curitiba |
-| SBR589 CISM | GND – FL145 | tiro real, ativada por NOTAM |
-| SBR520 Sepé | GND – 3000 FT AGL | operações militares |
-| SBP568 Itaara | GND – 5000 FT | proibida, H24 |
-
 ## :material-note-text-outline: Observações
 
 - SBSM é aeródromo público e base aérea. No mundo real, o APP, a CTR e a torre funcionam das 0900 às 0300 UTC.
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXD_APP** | `XD` | Controle Palmas | **119.000** | TMA approach control |
-| **SBPJ_TWR** | `TPJ` | Torre Palmas | **118.000** | Palmas CTR |
+| **SBXD_APP** | `XD` | Controle Palmas | **119.000** |  |
+| **SBPJ_TWR** | `TPJ` | Torre Palmas | **118.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -81,7 +81,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

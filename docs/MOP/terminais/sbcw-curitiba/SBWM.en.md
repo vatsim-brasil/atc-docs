@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWM_APP** | `WM` | Controle Santa Maria | **119.350** | TMA approach control |
-| **SBSM_TWR** | `TSM` | Torre Santa Maria | **118.300** | Santa Maria CTR |
+| **SBWM_APP** | `WM` | Controle Santa Maria | **119.350** |  |
+| **SBSM_TWR** | `TSM` | Torre Santa Maria | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,22 +74,13 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - The SBSM visual approach chart (VAC) is for military aircraft only.
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR585 a SBR588 Maria e Taura | 7000 FT – FL180 | UAV, H24, in coordination with Santa Maria APP and Curitiba ACC |
-| SBR589 CISM | GND – FL145 | live firing, activated by NOTAM |
-| SBR520 Sepé | GND – 3000 FT AGL | military operations |
-| SBP568 Itaara | GND – 5000 FT | prohibited, H24 |
-
 ## :material-note-text-outline: Remarks
 
 - SBSM is a public aerodrome and air base. In the real world, the APP, CTR and tower operate from 0900 to 0300 UTC.
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

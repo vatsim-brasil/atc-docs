@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWG_APP** | `WG` | Controle Campo Grande | **119.350** | TMA approach control |
-| **SBCG_TWR** | `TCG` | Torre Campo Grande | **118.100** | Campo Grande CTR |
+| **SBWG_APP** | `WG` | Controle Campo Grande | **119.350** |  |
+| **SBCG_TWR** | `TCG` | Torre Campo Grande | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -71,21 +71,12 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-airplane: VFR circulation
 
-- Follow ICA 100-12 and the visual corridors AIC; observe the VAC and the special use airspace.
+- Follow ICA 100-12 and the visual corridors AIC; observe the VAC.
 - VFR routes chart: [CCV REA WG-Campo Grande](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wg-campo-grande_rea_20250220.pdf){ target="_blank" }
-
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR447 a SBR450 Bravo e Charlie | FL060 – FL240 | training, H24; entry with authorization and two-way contact with Curitiba ACC |
-| SBR464 Echo 2 | FL050 – FL240 | military aircraft training |
-| SBR461 Capim Santo | GND – 500 FT AGL | military training, activated by Campo Grande APP |
-| SBP451 Federal | GND – 1000 FT AGL | prison area |
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

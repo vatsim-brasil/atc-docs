@@ -64,9 +64,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXF_APP** | `XF` | Controle Florianópolis | **119.650** | Controle de aproximação da TMA |
-| **SBFL_TWR** | `TFL` | Torre Florianópolis | **118.700** | CTR Florianópolis |
-| **SBNF_TWR** | `TNF` | Torre Navegantes | **118.200** | CTR Navegantes |
+| **SBXF_APP** | `XF` | Controle Florianópolis | **119.650** |  |
+| **SBFL_TWR** | `TFL` | Torre Florianópolis | **118.700** |  |
+| **SBNF_TWR** | `TNF` | Torre Navegantes | **118.200** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -84,15 +84,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - SBNF: circuito só a noroeste, a 1100 FT para aviões categorias A e B (categoria C proibida) e a 600 FT para helicópteros. Entradas pelos portões Containers e Foz; sobrevoo no mínimo a 2400 FT.
 - Carta de rotas VFR: [CCV REA XF-Florianópolis](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR561 e SBR563 Antônio Carlos | GND – 2500 FT | treinamento civil e corredor, em coordenação com o APP |
-| SBR537 Cambirela | GND – 3000 FT | planadores, H24 |
-| SBR572 e SBR573 Lagoa da Conceição e Praia Mole |  | voo livre, HJ |
-| SBR575 Gaspar | GND – 2000 FT AGL | ultraleves, em coordenação com o APP |
-
 ## :material-note-text-outline: Observações
 
 - Florianópolis 1 é classe A entre FL145 e FL195 e classe C entre 5500 FT e FL145.
@@ -100,7 +91,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

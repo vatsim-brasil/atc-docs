@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXG_APP** | `XG` | Controle Prudente | **125.450** | TMA approach control |
-| **SBDN_TWR** | `TDN` | Torre Prudente | **118.450** | Prudente CTR |
+| **SBXG_APP** | `XG` | Controle Prudente | **125.450** |  |
+| **SBDN_TWR** | `TDN` | Torre Prudente | **118.450** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,19 +74,13 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Flight plans filed by radiotelephony are not accepted.
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBD843 Alves Balonismo |  | balloons, weekends and holidays 0830–1200, with two-way contact with the APP |
-
 ## :material-note-text-outline: Remarks
 
 - In the real world, the SBDN tower operates from 0900 to 2300 UTC; overnight, the APP provides AFIS on 125.450.
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXA_APP** | `XA` | Controle Aracaju | **120.300** | TMA approach control |
-| **SBAR_TWR** | `TAR` | Torre Aracaju | **118.800** | Aracaju CTR |
+| **SBXA_APP** | `XA` | Controle Aracaju | **120.300** |  |
+| **SBAR_TWR** | `TAR` | Torre Aracaju | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -80,7 +80,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

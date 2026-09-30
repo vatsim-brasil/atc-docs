@@ -62,8 +62,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWP_APP** | `WP` | Controle Palegre | **129.600** | TMA approach control |
-| **SBPA_TWR** | `TPA` | Torre Palegre | **118.100** | Porto Alegre 1 CTR |
+| **SBWP_APP** | `WP` | Controle Palegre | **129.600** |  |
+| **SBPA_TWR** | `TPA` | Torre Palegre | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -77,17 +77,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 - Abbreviated flight plans by radiotelephony to the TWR are not accepted.
 - AFIL flight plans from aircraft departing aerodromes without an ATS unit in the CTR or TMA are not accepted.
-- Observe areas SBD578 and SBD579 for low-level VMC circulation.
 - VFR routes chart: [CCV REA WP-Porto Alegre](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ target="_blank" }
-
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBD578 e SBD579 Obstáculos Porto Alegre | GND – 400/600 FT AGL | H24 |
-| SBP505 Refinaria Alberto Pasqualini | GND – 1000 FT AGL | prohibited, H24 |
-| SBR522 Patos e SBR828 Patos Alta | GND – FL150 | aerobatics and parachuting; SBR828 with APP authorization |
-| SBR593 Novo Hamburgo |  | parachuting and gliders, HJ |
 
 ## :material-note-text-outline: Remarks
 
@@ -97,7 +87,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

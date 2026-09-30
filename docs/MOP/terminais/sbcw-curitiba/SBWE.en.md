@@ -63,10 +63,10 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWE_APP** | `WE` | Controle Macaé | **119.450** | TMA approach control |
-| **SBME_TWR** | `TME` | Torre Macaé | **118.450** | Macaé CTR |
-| **SBES_TWR** | `TES` | Torre Aldeia | **118.300** | Aldeia 2 CTR |
-| **SBES_APP** | `XES` | Controle Aldeia | **119.450** | Aldeia 1 CTR |
+| **SBWE_APP** | `WE` | Controle Macaé | **119.450** |  |
+| **SBME_TWR** | `TME` | Torre Macaé | **118.450** |  |
+| **SBES_TWR** | `TES` | Torre Aldeia | **118.300** |  |
+| **SBES_APP** | `XES` | Controle Aldeia | **119.450** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -86,15 +86,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Helicopter routes chart: [CCV REH WJ1-Cabo Frio](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj1-cabo-frio_reh_20260319.pdf){ target="_blank" }
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR336 São João | GND – 2000 FT AGL | military operations, H24 |
-| SBR342 Mar do Norte | GND – UNL | surface firing, activated by NOTAM or AIP supplement |
-| SBR380 Cabiúnas | GND – 1300 FT | gas field, H24 |
-| SBR830 e SBR834 Tupinambás 1 e 2 | GND – FL060 | military operations, in coordination with Aldeia APP |
-
 ## :material-note-text-outline: Remarks
 
 - Macaé concentrates offshore helicopter operations in the Campos Basin: several platform heliports are designated "Macaé" in the AIP (GEN 2.4).
@@ -104,7 +95,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

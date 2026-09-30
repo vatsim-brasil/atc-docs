@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWZ_APP** | `WZ` | Controle Fortaleza | **133.000** | Controle de aproximação da TMA |
-| **SBFZ_TWR** | `TFZ` | Torre Fortaleza | **129.000** | CTR Fortaleza |
+| **SBWZ_APP** | `WZ` | Controle Fortaleza | **133.000** |  |
+| **SBFZ_TWR** | `TFZ` | Torre Fortaleza | **129.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,21 +74,13 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Para quem decola de aeródromo sem órgão ATS sob a TMA são compulsórios: plano de voo apresentado à sala AIS, contato com o APP antes do táxi e aviso da hora real de decolagem.
 - Carta de rotas VFR: [CCV REA WZ-Fortaleza](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wz-fortaleza_rea_20251127.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR247 Petrobras | GND – 2000 FT AGL | tráfego de helicópteros sobre o mar, H24 |
-| SBR267 Pacatuba | GND – 3000 FT | asa-delta e parapente |
-| SBR842 Treinamento Azul Conecta | 4000 FT – FL100 | HJ, ativação sujeita a coordenação |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

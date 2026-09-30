@@ -61,8 +61,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWT_APP** | `WT` | Controle Curitiba | **119.950** | Controle de aproximação da TMA |
-| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** | CTR Curitiba |
+| **SBWT_APP** | `WT` | Controle Curitiba | **119.950** |  |
+| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -77,15 +77,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Carta de rotas de helicópteros: [CCV REH WT-Curitiba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wt-curitiba_reh_20231228.pdf){ target="_blank" }
 - Carta de rotas VFR: [CCV REA WT-Curitiba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wt-curitiba_rea_20231228.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR595 Capivari e SBR836 Capivari Alto | 500 FT AGL – 5500 FT | treinamento civil, ativadas pelo APP Curitiba |
-| SBR508 Campo Largo | GND – 6000 FT | acrobacia, HJ |
-| SBR507 Balsa Nova | GND – FL070 | esportes aéreos |
-| SBP577 Piraquara e SBP591 REPAR | GND – 4000 FT | área prisional e refinaria, H24 |
-
 ## :material-note-text-outline: Observações
 
 - Curitiba 1 é classe A entre FL145 e FL195 e classe C entre 5500 FT e FL145.
@@ -93,7 +84,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

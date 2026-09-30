@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWI_APP** | `WI` | Controle Foz | **120.300** | TMA approach control |
-| **SBFI_TWR** | `TFI` | Torre Cataratas | **118.800** | Cataratas CTR (SBFI) |
+| **SBWI_APP** | `WI` | Controle Foz | **120.300** |  |
+| **SBFI_TWR** | `TFI` | Torre Cataratas | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -75,14 +75,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Published traffic circuits: SBFI to the NNE, SARI (Cataratas del Iguazú) to the SSW, SGES (Guarani) and Itaipu to the WNW.
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR513 Itaipu | GND – 2000 FT | with Foz APP authorization, H24 |
-| SBR804 Skydive4fun | GND – FL200 | parachuting, activated by Foz APP or Curitiba ACC |
-| SBR560 Clube de Voo Itaipu | GND – 1500 FT | civil training, with Foz APP authorization |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
@@ -91,7 +83,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

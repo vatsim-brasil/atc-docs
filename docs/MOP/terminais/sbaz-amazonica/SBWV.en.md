@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWV_APP** | `WV` | Controle Porto Velho | **120.250** | TMA approach control |
-| **SBPV_TWR** | `TPV` | Torre Porto Velho | **118.200** | Porto Velho CTR |
+| **SBWV_APP** | `WV` | Controle Porto Velho | **120.250** |  |
+| **SBPV_TWR** | `TPV` | Torre Porto Velho | **118.200** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,21 +74,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - No specific VFR rules are published beyond the general rules (ICA 100-12).
 - There is no CCV REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR708 a SBR711 Porto Velho 1 a 4 | FL030 – FL190/FL195 | military, activated by the APP |
-| SBR716 e SBR717 Crocodilo 2B e 2C | GND – 2500/4000 FT | military, activated by the APP |
-| SBP721 Penitenciária Federal | GND – 2000 FT | prohibited |
-
-## :material-note-text-outline: Remarks
-
-- Above the TMA lie areas SBR724 to SBR727 (FL190 – FL250), activated by Amazônico ACC.
-
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

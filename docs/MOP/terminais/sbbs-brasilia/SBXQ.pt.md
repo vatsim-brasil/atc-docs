@@ -61,9 +61,9 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXQ_APP** | `XQ` | Controle Academia | **120.100** | Controle de aproximação da TMA |
-| **SBYS_TWR** | `TYS` | Torre Academia | **118.300** | CTR Academia (SBYS) |
-| **SBRP_TWR** | `TRP` | Torre Ribeirão | **118.000** | CTR Ribeirão (SBRP) |
+| **SBXQ_APP** | `XQ` | Controle Academia | **120.100** |  |
+| **SBYS_TWR** | `TYS` | Torre Academia | **118.300** |  |
+| **SBRP_TWR** | `TRP` | Torre Ribeirão | **118.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -81,15 +81,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - SBYS: planadores do GND ao FL100 aos sábados, domingos e feriados.
 - Carta de rotas VFR: [REA CTR Ribeirão Preto](https://aisweb.decea.mil.br/cartas/visuais/rea/REA_Ribeirao_Preto_aic_13_20.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR466 a SBR486 (áreas da AFA) | GND – FL190 | treinamento militar, H24, ativadas em coordenação com o APP Academia |
-| SBD424 Galáxia Baixa | GND – 5000 FT | cruzar a mais de 15 NM de SBYS |
-| SBR400, SBR437 a SBR439 e SBR454 (Embraer) | GND – UNL | voos de ensaio da Embraer (Gavião Peixoto) |
-| SBR112 Jaboticabal | até FL140 | paraquedismo |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 5500 FT e FL145. O APP é dividido em oito setores, e o volume da FIZ Gavião Peixoto fica excluído.
@@ -99,7 +90,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

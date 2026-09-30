@@ -85,12 +85,12 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBWJ_APP** | `WJ` | Controle Rio | **119.000** | Controle de aproximação da TMA |
-| **SBGL_TWR** | `TGL` | Torre Galeão | **118.200** | CTR Galeão |
-| **SBRJ_TWR** | `TRJ` | Torre Rio | **118.700** | CTR Rio (SBRJ) |
-| **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** | CTR Santa Cruz |
-| **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** | CTR Afonsos |
-| **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** | ATZ Jacarepaguá |
+| **SBWJ_APP** | `WJ` | Controle Rio | **119.000** |  |
+| **SBGL_TWR** | `TGL` | Torre Galeão | **118.200** |  |
+| **SBRJ_TWR** | `TRJ` | Torre Rio | **118.700** |  |
+| **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** |  |
+| **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** |  |
+| **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -110,22 +110,12 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 - Voos vindos de fora do espaço controlado que entram na TMA pelos corredores REA ou REH estão dispensados de plano de voo, mas devem informar antes matrícula, posição, pessoas a bordo, autonomia, origem e destino.
 - Rio 2 e Rio 3 usam frequências VFR no mundo real: 133.300 (primária) e 126.200 (secundária).
-- SBRJ: com aproximações IFR na RWY 02R, as saídas VFR para a REA FOXTROT seguem Icaraí, a Lagoa de Piratininga e o portão Itaipu. A REA ECHO fecha quando a SBR363 está ativa.
+- SBRJ: com aproximações IFR na RWY 02R, as saídas VFR para a REA FOXTROT seguem Icaraí, a Lagoa de Piratininga e o portão Itaipu.
 - Carta de rotas de helicópteros: [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
 - Carta de rotas de helicópteros: [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
 - Carta de rotas de helicópteros: [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
 - Carta de rotas de ultraleves: [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
 - Carta de rotas VFR: [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
-
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR314 e SBR333 Marambaia | GND – UNL | tiro real e VANT; quando ativas, as STAR UGRAD 1C e EVRIR 1B ficam suspensas |
-| SBR300 Oceano | GND – FL200 | artilharia aérea |
-| SBR316 Atlântico e SBR363 Atlântico Curto | GND – UNL | tiro real; a SBR363 ativa fecha a REA ECHO |
-| SBR329 e SBR330 Gericinó | GND – FL100 | paraquedismo do Exército, coordenado com o APP Rio |
-| SBR304 Afonsos | GND – 1200 FT AGL | paraquedismo, ativada pelo APP Rio |
 
 ## :material-note-text-outline: Observações
 
@@ -135,7 +125,7 @@ O APP é dividido em setores, cada um com posição e frequência próprias no p
 
 ---
 
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

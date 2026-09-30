@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWS_APP** | `WS` | Controle São Luís | **119.100** | TMA approach control |
-| **SBSL_TWR** | `TSL` | Torre São Luís | **118.900** | São Luís CTR |
+| **SBWS_APP** | `WS` | Controle São Luís | **119.100** |  |
+| **SBSL_TWR** | `TSL` | Torre São Luís | **118.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,13 +74,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Flights to the Lençóis Maranhenses National Park are prohibited.
 - VFR routes chart: [CCV REA WS-São Luís](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-ws-sao-luis_rea_20250612.pdf){ target="_blank" }
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBP103 Alcântara I | GND – UNL | prohibited, space launches, activated by NOTAM or AIP supplement |
-| SBR104 Alcântara II | GND – 3000 FT AGL | restricted |
-
 ## :material-note-text-outline: Remarks
 
 - The Alcântara Launch Center (SNCW) lies about 14 NM from SBSL, inside the TMA.
@@ -88,7 +81,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXM_APP** | `XM` | Controle Maceió | **119.250** | TMA approach control |
-| **SBMO_TWR** | `TMO` | Torre Maceió | **118.250** | Maceió CTR |
+| **SBXM_APP** | `XM` | Controle Maceió | **119.250** |  |
+| **SBMO_TWR** | `TMO` | Torre Maceió | **118.250** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -74,14 +74,6 @@ Click a volume to see its limits and class. Use the layer control to change the 
 - Do not mistake SBMO for the Aeroclube de Alagoas runway 14/32, 7 NM to the southeast.
 - There is no REA chart published for this TMA.
 
-## :material-alert-octagon-outline: Nearby special use airspace
-
-| Area | Limits | Remark |
-| --- | --- | --- |
-| SBR219 Luzia | GND – 1000 FT AGL | activated by NOTAM or AIP supplement |
-| SBP230 Salgema e SBP232 Bamac | GND – 1000 FT | prohibited, H24 |
-| SBD241 Tanque d'Arca | GND – FL070 | hang gliding |
-
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
@@ -89,7 +81,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ---
 
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance, VFR rules and special use airspace).
+Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Recife FIR [terminals overview](index.en.md).
 

@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXM_APP** | `XM` | Controle Maceió | **119.250** | Controle de aproximação da TMA |
-| **SBMO_TWR** | `TMO` | Torre Maceió | **118.250** | CTR Maceió |
+| **SBXM_APP** | `XM` | Controle Maceió | **119.250** |  |
+| **SBMO_TWR** | `TMO` | Torre Maceió | **118.250** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -74,14 +74,6 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 - Não confundir SBMO com a pista 14/32 do Aeroclube de Alagoas, 7 NM a sudeste.
 - Não há carta REA publicada para esta TMA.
 
-## :material-alert-octagon-outline: Áreas especiais próximas
-
-| Área | Limites | Observação |
-| --- | --- | --- |
-| SBR219 Luzia | GND – 1000 FT AGL | ativada por NOTAM ou suplemento AIP |
-| SBP230 Salgema e SBP232 Bamac | GND – 1000 FT | proibidas, H24 |
-| SBD241 Tanque d'Arca | GND – FL070 | asa-delta |
-
 ## :material-note-text-outline: Observações
 
 - A TMA é classe A entre FL145 e FL195 e classe C entre 3500 FT e FL145.
@@ -89,7 +81,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

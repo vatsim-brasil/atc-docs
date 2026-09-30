@@ -60,8 +60,8 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
 | --- | --- | --- | --- | --- |
-| **SBXW_APP** | `XW` | Controle Uberlândia | **122.850** | Controle de aproximação da TMA |
-| **SBUL_TWR** | `TUL` | Torre Uberlândia | **118.800** | CTR Uberlândia |
+| **SBXW_APP** | `XW` | Controle Uberlândia | **122.850** |  |
+| **SBUL_TWR** | `TUL` | Torre Uberlândia | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Cobertura top-down
 
@@ -81,7 +81,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ---
 
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS, regras VFR e áreas especiais).
+Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 
