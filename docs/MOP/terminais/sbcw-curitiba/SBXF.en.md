@@ -15,18 +15,23 @@ tags:
 | **Position** | `SBXF_APP` |
 | **Callsign** | Florianópolis Control |
 | **Frequency** | **119.650** MHz[^pacote] |
-| **Real-world frequencies** | 119.500 / 119.650 / 120.325 / 128.950 / 129.450 / 129.600 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Radar (listed in AIP ENR 1.6) |
+| **ATS surveillance** | Radar |
 | **Aerodromes in the TMA** | `SBFL`, `SBNF`, `SBJV` |
 
 ## :material-monitor-dashboard: Useful Information
 
 === ":material-monitor-dashboard: Dashboard"
-    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBFL).
+    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Visual Chart** shows the visual chart from AISWEB, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBFL).
 
 === ":material-file-document: Aeronautical Charts"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBXF?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Visual Chart"
+    [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ .md-button .md-button--primary target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-27.154" data-lon="-48.619" data-zoom="8" data-lang="en"></div>
@@ -67,42 +72,45 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CSW_CTR"]:::ctr
-        p3["SBCW_CWE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_CS_CTR"]:::ctr
-        p6["SBCW_CW_CTR"]:::ctr
-        p7["SBCW_C_CTR"]:::ctr
-        p8["SBXF_APP"]:::app
-        p9["SBFL_TWR"]:::twr
-        p10["SBNF_TWR"]:::twr
-        a0(["Florianópolis TMA"]):::esp --> p8
-        a1(["Florianópolis CTR"]):::esp --> p9
-        a2(["Navegantes CTR<br>Navegantes ATZ"]):::esp --> p10
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSW_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CW_CTR</span>"]:::grpctr
+        p1["SBCW_C_CTR"]:::ctr
+        p2["SBXF_APP"]:::app
+        p3["SBFL_TWR"]:::twr
+        p4["SBNF_TWR"]:::twr
+        a0(["Florianópolis TMA"]):::esp --> p2
+        a1(["Florianópolis CTR"]):::esp --> p3
+        a2(["Navegantes CTR<br>Navegantes ATZ"]):::esp --> p4
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p5
-        p7 --> p6
-        p8 --> p7
-        p9 --> p8
-        p10 --> p8
+        p4 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - **Circular:** [AIC N 22/24 – Circulação Visual na Terminal Florianópolis](https://publicacoes.decea.mil.br/publicacao/aic-n-2224){ target="_blank" } (effective 03 OCT 2024)
+    - **Visual chart – Aircraft routes (REA):** [CCV REA XF-Florianópolis](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ target="_blank" }
+
+    The chart is embedded in the **Visual Chart** tab under **Useful Information**.
+
 - AFIL flight plans are not accepted.
 - SBNF: circuit to the northwest only, at 1100 FT for category A and B aeroplanes (category C prohibited) and 600 FT for helicopters. Entry via the Containers and Foz gates; overflights at 2400 FT minimum.
-- VFR routes chart: [CCV REA XF-Florianópolis](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Remarks
 
@@ -110,8 +118,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - SBJV (Joinville) lies in the Joinville 1 and 2 FIZs (class G), served by Rádio Joinville.
 
 ---
-
-Sources: VATSIM Brasil SBCW sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Curitiba FIR [terminals overview](index.en.md).
 

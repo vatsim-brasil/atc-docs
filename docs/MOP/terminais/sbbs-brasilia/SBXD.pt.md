@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXD_APP` |
 | **Indicativo** | Controle Palmas |
 | **Frequência** | **119.000** MHz[^pacote] |
-| **Frequências no mundo real** | 119.000 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBPJ](../../aerodromos/sbbs-brasilia/twr/SBPJ.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -62,39 +60,44 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBBS_CTR"]:::ctr
-        p1["SBBS_NE_CTR"]:::ctr
-        p2["SBBS_NS_CTR"]:::ctr
-        p3["SBBS_N_CTR"]:::ctr
-        p4["SBXD_APP"]:::app
-        p5["SBPJ_TWR"]:::twr
-        a0(["TMA Palmas"]):::esp --> p4
-        a1(["CTR Palmas"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NS_CTR</span>"]:::grpctr
+        p1["SBBS_N_CTR"]:::ctr
+        p2["SBXD_APP"]:::app
+        p3["SBPJ_TWR"]:::twr
+        a0(["TMA Palmas"]):::esp --> p2
+        a1(["CTR Palmas"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Contato compulsório com o APP antes do táxi.
 - Não são aceitos planos AFIL, nem plano de voo simplificado por radiotelefonia a partir do solo.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 
 - No mundo real, a torre de SBPJ funciona das 0900 às 1459 UTC; no restante do dia, o APP Palmas presta AFIS em 119.000.
 
 ---
-
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

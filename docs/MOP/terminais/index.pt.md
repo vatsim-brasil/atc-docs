@@ -99,8 +99,6 @@ Passe o mouse sobre uma TMA para ver o resumo e clique nela para abrir o manual 
 
 ---
 
-Fontes: pacotes de setores SBAZ, SBBS, SBCW e SBRE da VATSIM Brasil (limites laterais, posições e frequências) e AIP Brasil (classes, limites verticais e vigilância ATS). Detalhes e referências em cada página de FIR e de TMA.
-
 !!! warning "Precedência"
     Conteúdo para simulação de voo. Prevalecem, nesta ordem: a publicação aeronáutica oficial vigente, o pacote de setor distribuído pela VATSIM Brasil (indicativos, frequências e logons) e a política vigente da VATSIM.
 

@@ -15,18 +15,23 @@ tags:
 | **Posição** | `SBWP_APP` |
 | **Indicativo** | Controle Palegre |
 | **Frequência** | **129.600** MHz[^pacote] |
-| **Frequências no mundo real** | 119.000 / 120.100 / 120.550 / 128.900 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | `SBPA`, `SBCO` |
 
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
-    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBPA).
+    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Carta Visual** traz a carta visual da AISWEB, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBPA).
 
 === ":material-file-document: Cartas Aeronáuticas"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWP?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Carta Visual"
+    [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ .md-button .md-button--primary target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Meteorologia"
     <div class="tma-meteo" data-lat="-29.654" data-lon="-51.094" data-zoom="8" data-lang="pt"></div>
@@ -64,37 +69,42 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CSW_CTR"]:::ctr
-        p3["SBCW_SE_CTR"]:::ctr
-        p4["SBCW_SW_CTR"]:::ctr
-        p5["SBCW_CS_CTR"]:::ctr
-        p6["SBCW_S_CTR"]:::ctr
-        p7["SBWP_APP"]:::app
-        p8["SBPA_TWR"]:::twr
-        a0(["TMA Porto Alegre"]):::esp --> p7
-        a1(["CTR Porto Alegre 1<br>CTR Porto Alegre 2"]):::esp --> p8
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSW_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SW_CTR</span>"]:::grpctr
+        p1["SBCW_S_CTR"]:::ctr
+        p2["SBWP_APP"]:::app
+        p3["SBPA_TWR"]:::twr
+        a0(["TMA Porto Alegre"]):::esp --> p2
+        a1(["CTR Porto Alegre 1<br>CTR Porto Alegre 2"]):::esp --> p3
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p5
-        p7 --> p6
-        p8 --> p7
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - **Circular:** [AIC N 14/25 – Circulação Visual na Terminal Porto Alegre](https://publicacoes.decea.mil.br/publicacao/aic-n-1425){ target="_blank" } (em vigor desde 15 MAIO 2025)
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA WP-Porto Alegre](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ target="_blank" }
+
+    A carta está embutida na aba **Carta Visual** em **Informações Úteis**.
+
 - Não é aceito plano de voo simplificado por radiotelefonia para a TWR.
 - Não são aceitos planos AFIL de aeronaves que decolam de aeródromos sem órgão ATS na CTR ou na TMA.
-- Carta de rotas VFR: [CCV REA WP-Porto Alegre](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Observações
 
@@ -103,8 +113,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBCO (Canoas) é base aérea; aeronaves civis dependem de autorização do comandante da base.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

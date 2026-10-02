@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBXJ_APP` |
 | **Callsign** | Marabá Control |
 | **Frequency** | **119.200** MHz[^pacote] |
-| **Real-world frequencies** | 119.200 MHz |
-| **Real-world hours** | DLY 1500–2059 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | [SBMA](../../aerodromos/sbaz-amazonica/afis/SBMA.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
@@ -82,16 +80,17 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - No specific VFR rules are published beyond the general rules (ICA 100-12).
-- There is no CCV REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 
 - In the real world, the TMA and CTR are only active from 1500 to 2059 UTC. Outside those hours, local traffic is served by Rádio Marabá (AFIS).
 
 ---
-
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

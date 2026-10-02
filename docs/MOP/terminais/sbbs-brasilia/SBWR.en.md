@@ -15,18 +15,23 @@ tags:
 | **Position** | `SBWR_APP` |
 | **Callsign** | Brasília Control |
 | **Frequency** | **119.200** MHz[^pacote] |
-| **Real-world frequencies** | 119.200 / 119.500 / 119.700 / 120.000 / 120.300 / 120.650 / 129.150 / 129.600 / 121.150 (VFR) MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Radar (listed in AIP ENR 1.6) |
+| **ATS surveillance** | Radar |
 | **Aerodromes in the TMA** | [SBBR](../../aerodromos/sbbs-brasilia/twr/SBBR.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
 === ":material-monitor-dashboard: Dashboard"
-    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBBR).
+    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Visual Chart** shows the visual chart from AISWEB, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBBR).
 
 === ":material-file-document: Aeronautical Charts"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWR?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Visual Chart"
+    [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf){ .md-button .md-button--primary target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-15.873" data-lon="-48.004" data-zoom="8" data-lang="en"></div>
@@ -63,34 +68,43 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ??? info "Show coverage diagram"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBBS_CTR"]:::ctr
-        p1["SBBS_NE_CTR"]:::ctr
-        p2["SBBS_NS_CTR"]:::ctr
-        p3["SBBS_N_CTR"]:::ctr
-        p4["SBWR_APP"]:::app
-        p5["SBBR_TWR"]:::twr
-        a0(["Brasília TMA"]):::esp --> p4
-        a1(["Brasília CTR<br>Brasília ATZ"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NS_CTR</span>"]:::grpctr
+        p1["SBBS_N_CTR"]:::ctr
+        p2["SBWR_APP"]:::app
+        p3["SBBR_TWR"]:::twr
+        a0(["Brasília TMA"]):::esp --> p2
+        a1(["Brasília CTR<br>Brasília ATZ"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: VFR circulation
+
+!!! abstract "Visual navigation documents"
+    - **Circular:** [AIC N 10/17 – Rotas Especiais de Aeronaves em Voo Visual na Área Terminal de Brasília](https://publicacoes.decea.mil.br/publicacao/aic-n-1017){ target="_blank" } (effective 20 JUL 2017)
+    - **Visual chart – Aircraft routes (REA):** [CCV REA WR-Brasília](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf){ target="_blank" }
+
+    The chart is embedded in the **Visual Chart** tab under **Useful Information**.
 
 - 121.150 MHz is the primary frequency for VFR traffic in the real world.
 - AFIL flight plans are not accepted, nor abbreviated flight plans filed by radiotelephony from the ground.
 - Helicopters in the South sector: minimum altitude 4100 FT (600 FT AGL).
 - Departures from aerodromes and heliports inside the ATZ projection must call the TWR before take-off.
 - Training and touch-and-go at SBBR are prohibited from 0800 to 1500 and from 2100 to 0100 UTC.
-- VFR routes chart: [CCV REA WR-Brasília](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wr-brasilia_rea_20240125.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Remarks
 
@@ -99,8 +113,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - ATZs have no class published in the AIP (ENR 2.2).
 
 ---
-
-Sources: VATSIM Brasil SBBS sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 

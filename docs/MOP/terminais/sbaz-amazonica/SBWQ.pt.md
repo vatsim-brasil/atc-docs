@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWQ_APP` |
 | **Indicativo** | Controle Boa Vista |
 | **Frequência** | **120.100** MHz[^pacote] |
-| **Frequências no mundo real** | 119.350 / 120.100 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBBV](../../aerodromos/sbaz-amazonica/twr/SBBV.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -62,35 +60,40 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBAZ_CTR"]:::ctr
-        p1["SBAZ_CE_CTR"]:::ctr
-        p2["SBAZ_CW_CTR"]:::ctr
-        p3["SBAZ_C_CTR"]:::ctr
-        p4["SBWQ_APP"]:::app
-        p5["SBBV_TWR"]:::twr
-        a0(["TMA Boa Vista"]):::esp --> p4
-        a1(["CTR Boa Vista"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBAZ_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBAZ_CW_CTR</span>"]:::grpctr
+        p1["SBAZ_C_CTR"]:::ctr
+        p2["SBWQ_APP"]:::app
+        p3["SBBV_TWR"]:::twr
+        a0(["TMA Boa Vista"]):::esp --> p2
+        a1(["CTR Boa Vista"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - VFR noturno na CTR e na TMA só é autorizado para aeronaves que decolam e pousam em SBBV.
 - Contato bilateral obrigatório para operações em SDF9, SSZA, SWTH, SJ3M, SWPD e SD6X.
-- Não há carta CCV REA publicada para esta TMA.
 
 ---
-
-Fontes: pacote de setores SBAZ da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Amazônica.
 

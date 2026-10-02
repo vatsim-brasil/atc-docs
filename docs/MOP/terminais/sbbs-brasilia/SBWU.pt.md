@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWU_APP` |
 | **Indicativo** | Controle Bauru |
 | **Frequência** | **121.300** MHz[^pacote] |
-| **Frequências no mundo real** | 121.300 MHz |
-| **Horário no mundo real** | DLY 0900–0200 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | `SBBU`, [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.pt.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -64,34 +62,41 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBBS_CTR"]:::ctr
-        p1["SBBS_SE_CTR"]:::ctr
-        p2["SBBS_NS_CTR"]:::ctr
-        p3["SBBS_S_CTR"]:::ctr
-        p4["SBWU_APP"]:::app
-        p5["SBBU_R_TWR"]:::twr
-        p6["SBAE_R_TWR"]:::twr
-        a0(["TMA Bauru"]):::esp --> p4
-        a1(["CTR Bauru"]):::esp --> p5
-        a2(["ATZ Arealva"]):::esp --> p6
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBBS_SE_CTR</span>"]:::grpctr
+        p1["SBBS_S_CTR"]:::ctr
+        p2["SBWU_APP"]:::app
+        p3["SBBU_R_TWR"]:::twr
+        p4["SBAE_R_TWR"]:::twr
+        a0(["TMA Bauru"]):::esp --> p2
+        a1(["CTR Bauru"]):::esp --> p3
+        a2(["ATZ Arealva"]):::esp --> p4
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p4
+        p4 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não são aceitos planos AFIL. O plano de voo é compulsório antes da decolagem, exceto para voo VFR de aeródromo sem órgão ATS que não entre em espaço controlado.
 - SBAE: contato bilateral com a Rádio Arealva e com o APP Bauru.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 
@@ -101,8 +106,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - As ATZs não têm classe publicada na AIP (ENR 2.2).
 
 ---
-
-Fontes: pacote de setores SBBS da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, emendas AIRAC A 13, A 15 e A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 

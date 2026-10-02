@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWL_APP` |
 | **Indicativo** | Controle Ilhéus |
 | **Frequência** | **120.100** MHz[^pacote] |
-| **Frequências no mundo real** | 120.100 MHz |
-| **Horário no mundo real** | DLY 0915–0100 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBIL](../../aerodromos/sbre-recife/twr/SBIL.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -62,30 +60,37 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        p1["SBRE_SW_CTR"]:::ctr
-        p2["SBRE_NS_CTR"]:::ctr
-        p3["SBRE_S_CTR"]:::ctr
-        p4["SBWL_APP"]:::app
-        p5["SBIL_R_TWR"]:::twr
-        a0(["TMA Ilhéus"]):::esp --> p4
-        a1(["CTR Ilhéus"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_SW_CTR</span>"]:::grpctr
+        p1["SBRE_S_CTR"]:::ctr
+        p2["SBWL_APP"]:::app
+        p3["SBIL_R_TWR"]:::twr
+        a0(["TMA Ilhéus"]):::esp --> p2
+        a1(["CTR Ilhéus"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não são aceitos planos AFIL.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 
@@ -94,8 +99,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - No mundo real, o APP funciona das 0915 às 0100 UTC. Aviação geral e táxi aéreo precisam de autorização prévia (PPR) com 48 h de antecedência.
 
 ---
-
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

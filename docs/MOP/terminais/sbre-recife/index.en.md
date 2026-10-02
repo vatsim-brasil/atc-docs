@@ -36,11 +36,9 @@ The Recife FIR has ten terminal control areas (TMA), each served by an approach 
 - **Airspace class.** In classes A and C all flights are controlled and separated. Class A only admits IFR. In class C, VFR is separated from IFR and receives traffic information on other VFR. In class D, IFR is only separated from IFR, and VFR only receives traffic information. All require a clearance to enter.
 - **ATS surveillance.** Shows whether, in the real world, the TMA is listed in AIP ENR 1.6 as covered by radar. Fortaleza, Maceió, Natal, Porto Seguro, Recife, Salvador and Vitória TMAs are listed. In the others the real-world service is procedural: separation by time, DME distance, levels and position reports. On the network, the controller client shows all traffic; this information is a reference for realistic operations.
 - **Top-down coverage.** When the APP is offline, the TMA is covered by the first online position in the listed order, as defined in the FIR sector package.
-- **VFR circulation.** Summarizes the rules published in the AIP (AD 2.22 and ENR 2.1) and points to the special VFR routes chart (CCV REA), when one exists.
+- **VFR circulation.** Summarizes the rules published in the AIP (AD 2.22 and ENR 2.1) and highlights the official visual navigation documents: the VFR circulation circular (AIC) and the visual charts (REA, REH and REUL), when they exist. The charts are embedded in each TMA page; the AIC links to the official DECEA page.
 
 ---
-
-Sources: VATSIM Brasil SBRE sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (classes, vertical limits, ATS surveillance and VFR rules).
 
 !!! warning "Precedence"
     Content for flight simulation. The following prevail, in this order: the current official aeronautical publication, the sector package distributed by VATSIM Brasil (callsigns, frequencies and logons) and the current VATSIM policy.

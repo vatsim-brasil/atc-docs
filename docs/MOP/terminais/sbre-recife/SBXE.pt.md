@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXE_APP` |
 | **Indicativo** | Controle Teresina |
 | **Frequência** | **119.600** MHz[^pacote] |
-| **Frequências no mundo real** | 119.600 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBTE](../../aerodromos/sbre-recife/twr/SBTE.pt.md), `SNDR` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -62,32 +60,39 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        p1["SBRE_NW_CTR"]:::ctr
-        p2["SBRE_SW_CTR"]:::ctr
-        p3["SBRE_W_CTR"]:::ctr
-        p4["SBXE_APP"]:::app
-        p5["SBTE_TWR"]:::twr
-        a0(["TMA Teresina"]):::esp --> p4
-        a1(["CTR Teresina"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NW_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_SW_CTR</span>"]:::grpctr
+        p1["SBRE_W_CTR"]:::ctr
+        p2["SBXE_APP"]:::app
+        p3["SBTE_TWR"]:::twr
+        a0(["TMA Teresina"]):::esp --> p2
+        a1(["CTR Teresina"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Plano de voo simplificado compulsório.
 - As duas cabeceiras permitem VFR diurno e noturno. Helicópteros fazem o circuito só pelo setor oeste.
 - Não confundir SBTE com SNDR (Timon).
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 
@@ -95,8 +100,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - No mundo real, por suplemento AIP válido até maio de 2027, a torre funciona das 0900 às 2059 UTC e, das 2100 às 0859, o serviço é AFIS Teresina em 119.600.
 
 ---
-
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

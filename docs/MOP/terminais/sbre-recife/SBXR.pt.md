@@ -15,18 +15,31 @@ tags:
 | **Posição** | `SBXR_APP` |
 | **Indicativo** | Controle Vitória |
 | **Frequência** | **119.850** MHz[^pacote] |
-| **Frequências no mundo real** | 119.850 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | [SBVT](../../aerodromos/sbre-recife/twr/SBVT.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
-    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBVT).
+    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Cartas Visuais** traz as cartas visuais (REA/REH) da AISWEB, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBVT).
 
 === ":material-file-document: Cartas Aeronáuticas"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBXR?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Cartas Visuais"
+    === "CCV REA XR-Vitória"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ target="_blank" }.
+
+    === "REH CTR Vitória"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Meteorologia"
     <div class="tma-meteo" data-lat="-20.269" data-lon="-40.282" data-zoom="8" data-lang="pt"></div>
@@ -62,32 +75,42 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        p1["SBRE_SW_CTR"]:::ctr
-        p2["SBRE_NS_CTR"]:::ctr
-        p3["SBRE_S_CTR"]:::ctr
-        p4["SBXR_APP"]:::app
-        p5["SBVT_TWR"]:::twr
-        a0(["TMA Vitória"]):::esp --> p4
-        a1(["CTR Vitória"]):::esp --> p5
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_SW_CTR</span>"]:::grpctr
+        p1["SBRE_S_CTR"]:::ctr
+        p2["SBXR_APP"]:::app
+        p3["SBVT_TWR"]:::twr
+        a0(["TMA Vitória"]):::esp --> p2
+        a1(["CTR Vitória"]):::esp --> p3
+        g0 --> p0
+        p1 --> g0
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - **Circular:** [AIC N 52/18 – Rotas Especiais de Aeronaves em Voo Visual na Zona de Controle de Vitória](https://publicacoes.decea.mil.br/publicacao/aic-n-5218){ target="_blank" } (em vigor desde 06 DEZ 2018)
+    - **Circular:** [AIC N 09/22 – Rotas Especiais de Helicópteros em Voo Visual na Zona de Controle de Vitória](https://publicacoes.decea.mil.br/publicacao/aic-n-0922){ target="_blank" } (em vigor desde 21 ABR 2022)
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA XR-Vitória](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [REH CTR Vitória](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ target="_blank" }
+
+    As cartas estão embutidas na aba **Cartas Visuais** em **Informações Úteis**.
+
 - Proibido apresentar plano de voo por radiotelefonia, exceto helidecks em emergência.
 - Níveis preferenciais de helicópteros para as unidades marítimas: VFR a 1500, 2500 e 3500 FT; IFR a 5000 e 6000 FT.
-- Carta de rotas de helicópteros: [REH CTR Vitória](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ target="_blank" }
-- Carta de rotas VFR: [CCV REA XR-Vitória](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Observações
 
@@ -96,8 +119,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - A TMA Vitória é da FIR Recife, mas faz divisa com a FIR Curitiba (TMAs Macaé e Rio).
 
 ---
-
-Fontes: pacote de setores SBRE da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Recife.
 

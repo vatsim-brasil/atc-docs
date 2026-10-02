@@ -15,18 +15,23 @@ tags:
 | **Position** | `SBWA_APP` |
 | **Callsign** | Amazonas Control |
 | **Frequency** | **119.100** MHz[^pacote] |
-| **Real-world frequencies** | 119.100 / 128.600 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | [SBTT](../../aerodromos/sbaz-amazonica/afis/SBTT.en.md), `SKLT` |
 
 ## :material-monitor-dashboard: Useful Information
 
 === ":material-monitor-dashboard: Dashboard"
-    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBTT).
+    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Visual Chart** shows the visual chart from AISWEB, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBTT).
 
 === ":material-file-document: Aeronautical Charts"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWA?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Visual Chart"
+    [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ .md-button .md-button--primary target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-3.995" data-lon="-70.140" data-zoom="9" data-lang="en"></div>
@@ -82,10 +87,15 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - **Circular:** [AIC N 12/10 – Rotas Especiais de Aeronaves em Voo Visual na Área Terminal Amazônica](https://publicacoes.decea.mil.br/publicacao/aic-n-1210){ target="_blank" } (effective 03 JUN 2010)
+    - **Visual chart – Aircraft routes (REA):** [CCV REA WA-Tabatinga](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ target="_blank" }
+
+    The chart is embedded in the **Visual Chart** tab under **Useful Information**.
+
 - VFR flights must call Amazonas APP before entering the CTR.
 - Seaplanes near SBTT RWY 12 and SKLT RWY 03 call the APP before entering the CTR and before take-off.
 - Operations by aircraft without radio are prohibited.
-- VFR routes chart: [CCV REA WA-Tabatinga](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Remarks
 
@@ -95,8 +105,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - On the network, the Colombian position `SKLT_APP` (118.100 / 119.100) also exists in the package. Coordinate with it when online.
 
 ---
-
-Sources: VATSIM Brasil SBAZ sector package (lateral limits, positions, frequencies and top-down coverage) and AIP Brasil, AIRAC A 17/2026 (03 SEP 2026) (classes, vertical limits, ATS surveillance and VFR rules).
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 

@@ -38,11 +38,9 @@ A FIR Curitiba tem onze áreas de controle terminal (TMA), cada uma atendida por
 - **Vigilância ATS.** Indica se, no mundo real, a TMA consta da AIP ENR 1.6 como área coberta por radar. Constam todas as TMAs da FIR, exceto Prudente. Nas demais o serviço é, no mundo real, convencional: separação por tempo, distância DME, níveis e reportes de posição. Na rede, o cliente de controle mostra todo o tráfego; a informação serve de referência para o realismo da operação.
 - **Cobertura top-down.** Quando o APP está desconectado, a TMA é atendida pela primeira posição on-line da sequência indicada, conforme o pacote de setores da FIR.
 - **ATZ.** Zona de tráfego de aeródromo em volta de aeródromos controlados. A AIP não publica classe para as ATZs.
-- **Circulação VFR.** Resume as regras publicadas na AIP (AD 2.22 e ENR 2.1) e indica a carta de rotas especiais de aeronaves em voo visual (CCV REA), quando existe.
+- **Circulação VFR.** Resume as regras publicadas na AIP (AD 2.22 e ENR 2.1) e destaca os documentos oficiais de navegação visual: a circular de circulação VFR (AIC) e as cartas visuais (REA, REH e REUL), quando existem. As cartas ficam embutidas na página da TMA; a AIC tem link para a página oficial do DECEA.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 !!! warning "Precedência"
     Conteúdo para simulação de voo. Prevalecem, nesta ordem: a publicação aeronáutica oficial vigente, o pacote de setor distribuído pela VATSIM Brasil (indicativos, frequências e logons) e a política vigente da VATSIM.

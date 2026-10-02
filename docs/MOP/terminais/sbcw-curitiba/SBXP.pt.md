@@ -15,18 +15,66 @@ tags:
 | **Posição** | `SBXP_APP` |
 | **Indicativo** | Controle São Paulo |
 | **Frequência** | **119.600** MHz[^pacote] |
-| **Frequências no mundo real** | 119.250 / 119.375 / 119.600 / 119.800 / 120.450 / 120.850 / 124.150 / 129.275 / 129.750 / 132.100 / 133.850 / 134.900 / 135.750 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.pt.md), `SBKP`, `SBMT`, `SBJD`, `SBSJ`, `SDCO`, `SBST` |
 
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
-    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBGR).
+    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Cartas Visuais** traz as cartas visuais (REA/REH) da AISWEB, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBGR).
 
 === ":material-file-document: Cartas Aeronáuticas"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBXP?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Cartas Visuais"
+    === "CCV REA XP2-São Paulo"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ target="_blank" }.
+
+    === "CCV REA XP1-São Paulo"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH XP2-São Paulo 1"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH XP2-São Paulo 2"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH XP2-Campinas"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH XP1-São José dos Campos"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH XP1-Sorocaba"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Meteorologia"
     <div class="tma-meteo" data-lat="-23.434" data-lon="-46.575" data-zoom="8" data-lang="pt"></div>
@@ -106,49 +154,64 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CWE_CTR"]:::ctr
-        p3["SBCW_SE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_E_CTR"]:::ctr
-        p6["SBXP_APP"]:::app
-        p7["SBGR_TWR"]:::twr
-        p8["SBSP_TWR"]:::twr
-        p9["SBKP_TWR"]:::twr
-        p10["SBSJ_TWR"]:::twr
-        p11["SBJD_TWR"]:::twr
-        p12["SBTA_TWR"]:::twr
-        p13["SBMT_TWR"]:::twr
-        a0(["TMA São Paulo"]):::esp --> p6
-        a1(["CTR Guarulhos"]):::esp --> p7
-        a2(["CTR São Paulo (Congonhas)"]):::esp --> p8
-        a3(["CTR Campinas"]):::esp --> p9
-        a4(["CTR São José"]):::esp --> p10
-        a5(["CTR Jundiaí"]):::esp --> p11
-        a6(["CTR Taubaté"]):::esp --> p12
-        a7(["ATZ Marte"]):::esp --> p13
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span>"]:::grpctr
+        p1["SBCW_E_CTR"]:::ctr
+        p2["SBXP_APP"]:::app
+        p3["SBGR_TWR"]:::twr
+        p4["SBSP_TWR"]:::twr
+        p5["SBKP_TWR"]:::twr
+        p6["SBSJ_TWR"]:::twr
+        p7["SBJD_TWR"]:::twr
+        p8["SBTA_TWR"]:::twr
+        p9["SBMT_TWR"]:::twr
+        a0(["TMA São Paulo"]):::esp --> p2
+        a1(["CTR Guarulhos"]):::esp --> p3
+        a2(["CTR São Paulo (Congonhas)"]):::esp --> p4
+        a3(["CTR Campinas"]):::esp --> p5
+        a4(["CTR São José"]):::esp --> p6
+        a5(["CTR Jundiaí"]):::esp --> p7
+        a6(["CTR Taubaté"]):::esp --> p8
+        a7(["ATZ Marte"]):::esp --> p9
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
-        p4 --> p3
-        p5 --> p4
-        p6 --> p5
-        p7 --> p6
-        p8 --> p6
-        p9 --> p6
-        p10 --> p6
-        p11 --> p6
-        p12 --> p5
-        p13 --> p6
+        p4 --> p2
+        p5 --> p2
+        p6 --> p2
+        p7 --> p2
+        p8 --> p1
+        p9 --> p2
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
+
+!!! abstract "Documentos de navegação visual"
+    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (em vigor desde 07 AGO 2025)
+    - **Circular:** [AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" } (em vigor desde 13 OUT 2016)
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA XP2-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA XP1-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH XP2-São Paulo 1](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH XP2-São Paulo 2](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH XP2-Campinas](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH XP1-São José dos Campos](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH XP1-Sorocaba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }
+
+    As cartas estão embutidas na aba **Cartas Visuais** em **Informações Úteis**.
 
 - VFR de asa fixa é proibido em SBGR e SBSP, salvo aeronaves militares ou falta de auxílios.
 - Não são aceitos planos AFIL de aeródromos sem sala AIS na projeção da TMA: o plano deve ser apresentado antes da decolagem.
@@ -156,13 +219,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - Na final da RWY 17 e na decolagem da RWY 35 de SBSP há uma área de controle de helicópteros, com separação composta de 2,5 NM ou 500 FT. O `SBSP_H_TWR` (Controle Helicóptero, 118.350) atende esse tráfego.
 - Treinamento IFR é proibido nas CTRs Congonhas e Guarulhos e na TMA.
 - Aeronaves que entram na CTR Campinas chamam o APP São Paulo em 119.800 ou 133.850.
-- Carta de rotas VFR: [CCV REA XP2-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH XP2-São Paulo 1](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH XP2-São Paulo 2](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH XP2-Campinas](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH XP1-São José dos Campos](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH XP1-Sorocaba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas VFR: [CCV REA XP1-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Observações
 
@@ -172,8 +228,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBTA (Taubaté) é aeródromo do Exército; operações de terceiros dependem de autorização do comandante. SDCO (Sorocaba) e SBST (Santos) ficam em FIZs classe G.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências e cobertura top-down) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 

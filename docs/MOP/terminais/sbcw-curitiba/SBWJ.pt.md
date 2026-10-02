@@ -15,18 +15,52 @@ tags:
 | **Posição** | `SBWJ_APP` |
 | **Indicativo** | Controle Rio |
 | **Frequência** | **119.000** MHz[^pacote] |
-| **Frequências no mundo real** | 119.000 / 119.350 / 120.550 / 120.750 / 124.950 / 125.950 / 133.700; VFR 133.300 / 126.200 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.pt.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.pt.md), `SBJR`, `SBSC`, `SBAF`, `SBMI` |
 
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
-    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBGL).
+    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Cartas Visuais** traz as cartas visuais (REA/REH) da AISWEB, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBGL).
 
 === ":material-file-document: Cartas Aeronáuticas"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWJ?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Cartas Visuais"
+    === "CCV REA WJ1-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH WJ2-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH WJ3-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
+
+    === "REH Bacia de Santos"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }.
+
+    === "CCV REUL WJ3-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Meteorologia"
     <div class="tma-meteo" data-lat="-22.880" data-lon="-43.296" data-zoom="8" data-lang="pt"></div>
@@ -111,69 +145,77 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ??? info "Ver diagrama de cobertura"
     ```mermaid
+    ---
+    config:
+      flowchart:
+        wrappingWidth: 1000
+    ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        p1["SBCW_CSE_CTR"]:::ctr
-        p2["SBCW_CWE_CTR"]:::ctr
-        p3["SBCW_SE_CTR"]:::ctr
-        p4["SBCW_CE_CTR"]:::ctr
-        p5["SBCW_E_CTR"]:::ctr
-        p6["SBWJ_APP"]:::app
-        p7["SBWJ_NE_APP"]:::app
-        p8["SBWJ_N_APP"]:::app
-        p9["SBWJ_GL_APP"]:::app
-        p10["SBGL_TWR"]:::twr
-        p11["SBWJ_S_APP"]:::app
-        p12["SBWJ_RJ_APP"]:::app
-        p13["SBRJ_TWR"]:::twr
-        p14["SBSC_TWR"]:::twr
-        p15["SBAF_R_TWR"]:::twr
-        p16["SBJR_TWR"]:::twr
-        p17["SBWJ_E_APP"]:::app
-        p18["SBES_APP"]:::app
-        a0(["TMA Rio de Janeiro"]):::esp --> p6
-        a1(["CTR Galeão"]):::esp --> p10
-        a2(["CTR Rio (SBRJ)"]):::esp --> p13
-        a3(["CTR Santa Cruz"]):::esp --> p14
-        a4(["CTR Afonsos"]):::esp --> p15
-        a5(["ATZ Jacarepaguá"]):::esp --> p16
-        a6(["CTR Aldeia 1"]):::esp --> p18
-        a7(["Tubulão Norte"]):::esp --> p8
-        a8(["Tubulão Sul"]):::esp --> p11
-        p1 --> p0
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span>"]:::grpctr
+        p1["SBCW_E_CTR"]:::ctr
+        p2["SBWJ_APP"]:::app
+        p3["SBWJ_NE_APP"]:::app
+        p4["SBWJ_N_APP"]:::app
+        p5["SBWJ_GL_APP"]:::app
+        p6["SBGL_TWR"]:::twr
+        p7["SBWJ_S_APP"]:::app
+        p8["SBWJ_RJ_APP"]:::app
+        p9["SBRJ_TWR"]:::twr
+        p10["SBSC_TWR"]:::twr
+        p11["SBAF_R_TWR"]:::twr
+        p12["SBJR_TWR"]:::twr
+        p13["SBWJ_E_APP"]:::app
+        p14["SBES_APP"]:::app
+        a0(["TMA Rio de Janeiro"]):::esp --> p2
+        a1(["CTR Galeão"]):::esp --> p6
+        a2(["CTR Rio (SBRJ)"]):::esp --> p9
+        a3(["CTR Santa Cruz"]):::esp --> p10
+        a4(["CTR Afonsos"]):::esp --> p11
+        a5(["ATZ Jacarepaguá"]):::esp --> p12
+        a6(["CTR Aldeia 1"]):::esp --> p14
+        a7(["Tubulão Norte"]):::esp --> p4
+        a8(["Tubulão Sul"]):::esp --> p7
+        g0 --> p0
+        g1 --> g0
+        p1 --> g1
         p2 --> p1
         p3 --> p2
         p4 --> p3
         p5 --> p4
         p6 --> p5
-        p7 --> p6
+        p7 ---> p2
         p8 --> p7
         p9 --> p8
-        p10 --> p9
-        p11 --> p6
-        p12 --> p11
-        p13 --> p12
-        p14 --> p12
-        p15 --> p9
-        p16 --> p12
-        p17 --> p7
-        p18 --> p17
+        p10 --> p8
+        p11 --> p5
+        p12 --> p8
+        p13 --> p3
+        p14 --> p13
         classDef esp stroke-dasharray:4 3
         classDef twr stroke:#2e9e5b,stroke-width:2px
         classDef app stroke:#2f7fd1,stroke-width:2px
         classDef ctr stroke:#8a56c9,stroke-width:2px
+        classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (em vigor desde 07 AGO 2025)
+    - **Circular:** [AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" } (em vigor desde 13 OUT 2016)
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
+    - **Carta visual – Rotas de ultraleves (REUL):** [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
+
+    As cartas estão embutidas na aba **Cartas Visuais** em **Informações Úteis**.
+
 - Voos vindos de fora do espaço controlado que entram na TMA pelos corredores REA ou REH estão dispensados de plano de voo, mas devem informar antes matrícula, posição, pessoas a bordo, autonomia, origem e destino.
 - Rio 2 e Rio 3 usam frequências VFR no mundo real: 133.300 (primária) e 126.200 (secundária).
 - SBRJ: com aproximações IFR na RWY 02R, as saídas VFR para a REA FOXTROT seguem Icaraí, a Lagoa de Piratininga e o portão Itaipu.
-- Carta de rotas de helicópteros: [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
-- Carta de rotas de ultraleves: [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
-- Carta de rotas VFR: [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Observações
 
@@ -182,8 +224,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - SBSC (Santa Cruz) e SBAF (Afonsos) são bases da Força Aérea: aeronaves civis dependem de autorização do comando da base. SBMI (Maricá) fica numa FIZ classe G.
 
 ---
-
-Fontes: pacote de setores SBCW da VATSIM Brasil (limites laterais, posições, frequências, cobertura top-down, delegação do Tubulão e subordinação do Controle Aldeia) e AIP Brasil, AIRAC A 17/2026 (classes, limites verticais, vigilância ATS e regras VFR).
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 
