@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBXA_APP` |
 | **Callsign** | Aracaju Control |
 | **Frequency** | **120.300** MHz[^pacote] |
-| **Real-world frequencies** | 120.300 / 129.250 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | [SBAR](../../aerodromos/sbre-recife/twr/SBAR.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
@@ -88,8 +86,11 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - Do not mistake the avenue about 1300 m to the right of THR 12 for the runway.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

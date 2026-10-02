@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXJ_APP` |
 | **Indicativo** | Controle Marabá |
 | **Frequência** | **119.200** MHz[^pacote] |
-| **Frequências no mundo real** | 119.200 MHz |
-| **Horário no mundo real** | DLY 1500–2059 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBMA](../../aerodromos/sbaz-amazonica/afis/SBMA.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -82,8 +80,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não há regras VFR específicas publicadas além das regras gerais (ICA 100-12).
-- Não há carta CCV REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

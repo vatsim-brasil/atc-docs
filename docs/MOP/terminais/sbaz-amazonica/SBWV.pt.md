@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWV_APP` |
 | **Indicativo** | Controle Porto Velho |
 | **Frequência** | **120.250** MHz[^pacote] |
-| **Frequências no mundo real** | 120.250 / 120.800 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBPV](../../aerodromos/sbaz-amazonica/twr/SBPV.pt.md), `SSZD` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -82,8 +80,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não há regras VFR específicas publicadas além das regras gerais (ICA 100-12).
-- Não há carta CCV REA publicada para esta TMA.
 
 ---
 

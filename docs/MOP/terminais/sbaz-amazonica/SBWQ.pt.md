@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWQ_APP` |
 | **Indicativo** | Controle Boa Vista |
 | **Frequência** | **120.100** MHz[^pacote] |
-| **Frequências no mundo real** | 119.350 / 120.100 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBBV](../../aerodromos/sbaz-amazonica/twr/SBBV.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -88,9 +86,12 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - VFR noturno na CTR e na TMA só é autorizado para aeronaves que decolam e pousam em SBBV.
 - Contato bilateral obrigatório para operações em SDF9, SSZA, SWTH, SJ3M, SWPD e SD6X.
-- Não há carta CCV REA publicada para esta TMA.
 
 ---
 

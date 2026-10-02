@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBXM_APP` |
 | **Callsign** | Maceió Control |
 | **Frequency** | **119.250** MHz[^pacote] |
-| **Real-world frequencies** | 119.250 / 128.900 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Radar (listed in AIP ENR 1.6) |
+| **ATS surveillance** | Radar |
 | **Aerodromes in the TMA** | [SBMO](../../aerodromos/sbre-recife/twr/SBMO.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
@@ -88,8 +86,11 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - Do not mistake SBMO for the Aeroclube de Alagoas runway 14/32, 7 NM to the southeast.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

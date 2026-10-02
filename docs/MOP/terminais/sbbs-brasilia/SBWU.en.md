@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBWU_APP` |
 | **Callsign** | Bauru Control |
 | **Frequency** | **121.300** MHz[^pacote] |
-| **Real-world frequencies** | 121.300 MHz |
-| **Real-world hours** | DLY 0900–0200 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | `SBBU`, [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.en.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
@@ -93,9 +91,12 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - AFIL flight plans are not accepted. A flight plan is mandatory before take-off, except for VFR flights from aerodromes without an ATS unit that do not enter controlled airspace.
 - SBAE: two-way contact with Rádio Arealva and Bauru APP.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 
