@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXG_APP` |
 | **Indicativo** | Controle Prudente |
 | **Frequência** | **125.450** MHz[^pacote] |
-| **Frequências no mundo real** | 125.450 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | `SBDN` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -90,8 +88,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não é aceito plano de voo por radiotelefonia.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

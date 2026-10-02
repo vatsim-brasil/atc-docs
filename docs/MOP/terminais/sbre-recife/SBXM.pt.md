@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXM_APP` |
 | **Indicativo** | Controle Maceió |
 | **Frequência** | **119.250** MHz[^pacote] |
-| **Frequências no mundo real** | 119.250 / 128.900 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | [SBMO](../../aerodromos/sbre-recife/twr/SBMO.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -88,8 +86,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não confundir SBMO com a pista 14/32 do Aeroclube de Alagoas, 7 NM a sudeste.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

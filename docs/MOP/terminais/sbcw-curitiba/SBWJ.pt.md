@@ -15,18 +15,75 @@ tags:
 | **Posição** | `SBWJ_APP` |
 | **Indicativo** | Controle Rio |
 | **Frequência** | **119.000** MHz[^pacote] |
-| **Frequências no mundo real** | 119.000 / 119.350 / 120.550 / 120.750 / 124.950 / 125.950 / 133.700; VFR 133.300 / 126.200 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.pt.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.pt.md), `SBJR`, `SBSC`, `SBAF`, `SBMI` |
 
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
-    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBGL).
+    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Cartas Visuais** traz as cartas visuais (REA/REH) da AISWEB, **Circular VFR (AIC)** traz a circular de circulação VFR da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBGL).
 
 === ":material-file-document: Cartas Aeronáuticas"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWJ?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Cartas Visuais"
+    === "CCV REA WJ1-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH WJ2-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH WJ3-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
+
+    === "REH Bacia de Santos"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }.
+
+    === "CCV REUL WJ3-Rio de Janeiro"
+        [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }.
+
+=== ":material-file-document-outline: Circular VFR (AIC)"
+    === "AIC N 32/25"
+        **AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba** (em vigor desde 07 AGO 2025)
+
+        [:material-open-in-new: Abrir em nova aba](../../../files/aic/AIC-N-32-25.pdf){ .md-button .md-button--primary target="_blank" }
+        [:material-download: Baixar](../../../files/aic/AIC-N-32-25.pdf){ .md-button download target="_blank" }
+        [:material-bank: Página oficial (DECEA)](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ .md-button target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="/files/aic/AIC-N-32-25.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [publicacoes.decea.mil.br](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" }. Cópia do PDF hospedada aqui porque o DECEA só serve o arquivo por link temporário.
+
+    === "AIC N 15/16"
+        **AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ** (em vigor desde 13 OUT 2016)
+
+        [:material-open-in-new: Abrir em nova aba](../../../files/aic/AIC-N-15-16.pdf){ .md-button .md-button--primary target="_blank" }
+        [:material-download: Baixar](../../../files/aic/AIC-N-15-16.pdf){ .md-button download target="_blank" }
+        [:material-bank: Página oficial (DECEA)](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ .md-button target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="/files/aic/AIC-N-15-16.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Fonte: [publicacoes.decea.mil.br](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" }. Cópia do PDF hospedada aqui porque o DECEA só serve o arquivo por link temporário.
 
 === ":material-weather-partly-cloudy: Meteorologia"
     <div class="tma-meteo" data-lat="-22.880" data-lon="-43.296" data-zoom="8" data-lang="pt"></div>
@@ -168,14 +225,20 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (em vigor desde 07 AGO 2025) · [:material-file-pdf-box: PDF](../../../files/aic/AIC-N-32-25.pdf){ target="_blank" }
+    - **Circular:** [AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" } (em vigor desde 13 OUT 2016) · [:material-file-pdf-box: PDF](../../../files/aic/AIC-N-15-16.pdf){ target="_blank" }
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
+    - **Carta visual – Rotas de helicópteros (REH):** [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
+    - **Carta visual – Rotas de ultraleves (REUL):** [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
+
+    Os documentos estão embutidos nas abas **Cartas Visuais** e **Circular VFR (AIC)** em **Informações Úteis**, com opção de abrir em nova aba ou baixar.
+
 - Voos vindos de fora do espaço controlado que entram na TMA pelos corredores REA ou REH estão dispensados de plano de voo, mas devem informar antes matrícula, posição, pessoas a bordo, autonomia, origem e destino.
 - Rio 2 e Rio 3 usam frequências VFR no mundo real: 133.300 (primária) e 126.200 (secundária).
 - SBRJ: com aproximações IFR na RWY 02R, as saídas VFR para a REA FOXTROT seguem Icaraí, a Lagoa de Piratininga e o portão Itaipu.
-- Carta de rotas de helicópteros: [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
-- Carta de rotas de helicópteros: [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
-- Carta de rotas de ultraleves: [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
-- Carta de rotas VFR: [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Observações
 

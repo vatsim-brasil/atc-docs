@@ -15,18 +15,75 @@ tags:
 | **Position** | `SBWJ_APP` |
 | **Callsign** | Rio Control |
 | **Frequency** | **119.000** MHz[^pacote] |
-| **Real-world frequencies** | 119.000 / 119.350 / 120.550 / 120.750 / 124.950 / 125.950 / 133.700; VFR 133.300 / 126.200 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Radar (listed in AIP ENR 1.6) |
+| **ATS surveillance** | Radar |
 | **Aerodromes in the TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.en.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.en.md), `SBJR`, `SBSC`, `SBAF`, `SBMI` |
 
 ## :material-monitor-dashboard: Useful Information
 
 === ":material-monitor-dashboard: Dashboard"
-    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBGL).
+    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Visual Charts** shows the visual charts (REA/REH) from AISWEB, **VFR Circular (AIC)** shows the TMA VFR circulation circular, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBGL).
 
 === ":material-file-document: Aeronautical Charts"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWJ?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Visual Charts"
+    === "CCV REA WJ1-Rio de Janeiro"
+        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH WJ2-Rio de Janeiro"
+        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
+
+    === "CCV REH WJ3-Rio de Janeiro"
+        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
+
+    === "REH Bacia de Santos"
+        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }.
+
+    === "CCV REUL WJ3-Rio de Janeiro"
+        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ .md-button .md-button--primary target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }.
+
+=== ":material-file-document-outline: VFR Circular (AIC)"
+    === "AIC N 32/25"
+        **AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba** (effective 07 AUG 2025)
+
+        [:material-open-in-new: Open in new tab](../../../files/aic/AIC-N-32-25.pdf){ .md-button .md-button--primary target="_blank" }
+        [:material-download: Download](../../../files/aic/AIC-N-32-25.pdf){ .md-button download target="_blank" }
+        [:material-bank: Official page (DECEA)](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ .md-button target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="/files/aic/AIC-N-32-25.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [publicacoes.decea.mil.br](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" }. The PDF copy is hosted here because DECEA only serves the file through a temporary link. The circular is in Portuguese.
+
+    === "AIC N 15/16"
+        **AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ** (effective 13 OCT 2016)
+
+        [:material-open-in-new: Open in new tab](../../../files/aic/AIC-N-15-16.pdf){ .md-button .md-button--primary target="_blank" }
+        [:material-download: Download](../../../files/aic/AIC-N-15-16.pdf){ .md-button download target="_blank" }
+        [:material-bank: Official page (DECEA)](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ .md-button target="_blank" }
+
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="/files/aic/AIC-N-15-16.pdf" loading="lazy" title="PDF"></iframe></div>
+
+        Source: [publicacoes.decea.mil.br](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" }. The PDF copy is hosted here because DECEA only serves the file through a temporary link. The circular is in Portuguese.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-22.880" data-lon="-43.296" data-zoom="8" data-lang="en"></div>
@@ -168,14 +225,20 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (effective 07 AUG 2025) · [:material-file-pdf-box: PDF](../../../files/aic/AIC-N-32-25.pdf){ target="_blank" }
+    - **Circular:** [AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" } (effective 13 OCT 2016) · [:material-file-pdf-box: PDF](../../../files/aic/AIC-N-15-16.pdf){ target="_blank" }
+    - **Visual chart – Aircraft routes (REA):** [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
+    - **Visual chart – Helicopter routes (REH):** [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
+    - **Visual chart – Helicopter routes (REH):** [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
+    - **Visual chart – Helicopter routes (REH):** [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
+    - **Visual chart – Ultralight routes (REUL):** [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
+
+    The documents are embedded in the **Visual Charts** and **VFR Circular (AIC)** tabs under **Useful Information**, with options to open them in a new tab or download them.
+
 - Flights from outside controlled airspace entering the TMA via the REA or REH corridors are exempt from filing a flight plan, but must first report registration, position, persons on board, endurance, origin and destination.
 - Rio 2 and Rio 3 use VFR frequencies in the real world: 133.300 (primary) and 126.200 (secondary).
 - SBRJ: with IFR approaches to RWY 02R, VFR departures to REA FOXTROT route via Icaraí, Piratininga Lagoon and the Itaipu gate.
-- Helicopter routes chart: [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
-- Helicopter routes chart: [CCV REH WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
-- Helicopter routes chart: [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
-- Ultralight routes chart: [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
-- VFR routes chart: [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Remarks
 

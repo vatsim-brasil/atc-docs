@@ -35,7 +35,7 @@ A FIR Brasília tem oito áreas de controle terminal (TMA), cada uma atendida po
 - **Vigilância ATS.** Indica se, no mundo real, a TMA consta da AIP ENR 1.6 como área coberta por radar. Constam as TMAs Academia, Anápolis, Belo Horizonte e Brasília. Nas demais o serviço é, no mundo real, convencional: separação por tempo, distância DME, níveis e reportes de posição. Na rede, o cliente de controle mostra todo o tráfego; a informação serve de referência para o realismo da operação.
 - **Cobertura top-down.** Quando o APP está desconectado, a TMA é atendida pela primeira posição on-line da sequência indicada, conforme o pacote de setores da FIR.
 - **ATZ.** Zona de tráfego de aeródromo em volta de aeródromos controlados. A AIP não publica classe para as ATZs.
-- **Circulação VFR.** Resume as regras publicadas na AIP (AD 2.22 e ENR 2.1) e indica a carta de rotas especiais de aeronaves em voo visual (CCV REA), quando existe.
+- **Circulação VFR.** Resume as regras publicadas na AIP (AD 2.22 e ENR 2.1) e destaca os documentos oficiais de navegação visual: a circular de circulação VFR (AIC) e as cartas visuais (REA, REH e REUL), quando existem. Os documentos ficam embutidos nas abas da página da TMA.
 
 ---
 

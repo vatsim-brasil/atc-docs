@@ -112,6 +112,7 @@ extra_javascript:
   - javascripts/katex.js
   - javascripts/metar.js
   - javascripts/tma-meteo.js
+  - javascripts/pdf-embed.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js

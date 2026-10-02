@@ -15,18 +15,34 @@ tags:
 | **Posição** | `SBWA_APP` |
 | **Indicativo** | Controle Amazonas |
 | **Frequência** | **119.100** MHz[^pacote] |
-| **Frequências no mundo real** | 119.100 / 128.600 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBTT](../../aerodromos/sbaz-amazonica/afis/SBTT.pt.md), `SKLT` |
 
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
-    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBTT).
+    Use as abas acima: **Cartas Aeronáuticas** traz as cartas da TMA, **Carta Visual** traz a carta visual da AISWEB, **Circular VFR (AIC)** traz a circular de circulação VFR da TMA, **Meteorologia** mostra o mapa meteorológico da área e **Tráfego VATSIM** abre o tráfego no aeródromo principal (SBTT).
 
 === ":material-file-document: Cartas Aeronáuticas"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWA?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Carta Visual"
+    [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ .md-button .md-button--primary target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ target="_blank" }.
+
+=== ":material-file-document-outline: Circular VFR (AIC)"
+    **AIC N 12/10 – Rotas Especiais de Aeronaves em Voo Visual na Área Terminal Amazônica** (em vigor desde 03 JUN 2010)
+
+    [:material-open-in-new: Abrir em nova aba](../../../files/aic/AIC-N-12-10.pdf){ .md-button .md-button--primary target="_blank" }
+    [:material-download: Baixar](../../../files/aic/AIC-N-12-10.pdf){ .md-button download target="_blank" }
+    [:material-bank: Página oficial (DECEA)](https://publicacoes.decea.mil.br/publicacao/aic-n-1210){ .md-button target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="/files/aic/AIC-N-12-10.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Fonte: [publicacoes.decea.mil.br](https://publicacoes.decea.mil.br/publicacao/aic-n-1210){ target="_blank" }. Cópia do PDF hospedada aqui porque o DECEA só serve o arquivo por link temporário.
 
 === ":material-weather-partly-cloudy: Meteorologia"
     <div class="tma-meteo" data-lat="-3.995" data-lon="-70.140" data-zoom="9" data-lang="pt"></div>
@@ -82,10 +98,15 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - **Circular:** [AIC N 12/10 – Rotas Especiais de Aeronaves em Voo Visual na Área Terminal Amazônica](https://publicacoes.decea.mil.br/publicacao/aic-n-1210){ target="_blank" } (em vigor desde 03 JUN 2010) · [:material-file-pdf-box: PDF](../../../files/aic/AIC-N-12-10.pdf){ target="_blank" }
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA WA-Tabatinga](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ target="_blank" }
+
+    Os documentos estão embutidos nas abas **Carta Visual** e **Circular VFR (AIC)** em **Informações Úteis**, com opção de abrir em nova aba ou baixar.
+
 - Voos VFR devem chamar o APP Amazonas antes de entrar na CTR.
 - Hidroaviões nas imediações da RWY 12 de SBTT e da RWY 03 de SKLT chamam o APP antes de entrar na CTR e antes de decolar.
 - Proibida a operação de aeronaves sem rádio.
-- Carta de rotas VFR: [CCV REA WA-Tabatinga](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wa-tabatinga_rea_20231130.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Observações
 

@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBXG_APP` |
 | **Callsign** | Prudente Control |
 | **Frequency** | **125.450** MHz[^pacote] |
-| **Real-world frequencies** | 125.450 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | `SBDN` |
 
 ## :material-monitor-dashboard: Useful Information
@@ -90,8 +88,11 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - Flight plans filed by radiotelephony are not accepted.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

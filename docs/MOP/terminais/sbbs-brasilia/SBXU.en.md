@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBXU_APP` |
 | **Callsign** | Uberaba Control |
 | **Frequency** | **120.800** MHz[^pacote] |
-| **Real-world frequencies** | 120.800 MHz |
-| **Real-world hours** | DLY 1000–2159 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | `SBUR` |
 
 ## :material-monitor-dashboard: Useful Information
@@ -88,8 +86,11 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - No specific VFR rules are published beyond the general rules (ICA 100-12).
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

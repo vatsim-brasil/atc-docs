@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXA_APP` |
 | **Indicativo** | Controle Aracaju |
 | **Frequência** | **120.300** MHz[^pacote] |
-| **Frequências no mundo real** | 120.300 / 129.250 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBAR](../../aerodromos/sbre-recife/twr/SBAR.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -88,8 +86,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não confundir a avenida a cerca de 1300 m à direita da THR 12 com a pista.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

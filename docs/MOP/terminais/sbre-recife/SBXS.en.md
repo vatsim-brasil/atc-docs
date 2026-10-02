@@ -15,18 +15,34 @@ tags:
 | **Position** | `SBXS_APP` |
 | **Callsign** | Salvador Control |
 | **Frequency** | **119.350** MHz[^pacote] |
-| **Real-world frequencies** | 119.350 / 119.800 / 120.800 / 129.450 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Radar (listed in AIP ENR 1.6) |
+| **ATS surveillance** | Radar |
 | **Aerodromes in the TMA** | [SBSV](../../aerodromos/sbre-recife/twr/SBSV.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
 === ":material-monitor-dashboard: Dashboard"
-    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBSV).
+    Use the tabs above: **Aeronautical Charts** shows the TMA charts, **Visual Chart** shows the visual chart from AISWEB, **VFR Circular (AIC)** shows the TMA VFR circulation circular, **Weather** shows a weather map of the area and **VATSIM Traffic** opens the traffic at the main aerodrome (SBSV).
 
 === ":material-file-document: Aeronautical Charts"
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBXS?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
+
+=== ":material-map-legend: Visual Chart"
+    [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf){ .md-button .md-button--primary target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf){ target="_blank" }.
+
+=== ":material-file-document-outline: VFR Circular (AIC)"
+    **AIC N 06/22 – Circulação de Aeronaves em Voo VFR na Terminal Salvador** (effective 24 MAR 2022)
+
+    [:material-open-in-new: Open in new tab](../../../files/aic/AIC-N-06-22.pdf){ .md-button .md-button--primary target="_blank" }
+    [:material-download: Download](../../../files/aic/AIC-N-06-22.pdf){ .md-button download target="_blank" }
+    [:material-bank: Official page (DECEA)](https://publicacoes.decea.mil.br/publicacao/aic-n-0622){ .md-button target="_blank" }
+
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="/files/aic/AIC-N-06-22.pdf" loading="lazy" title="PDF"></iframe></div>
+
+    Source: [publicacoes.decea.mil.br](https://publicacoes.decea.mil.br/publicacao/aic-n-0622){ target="_blank" }. The PDF copy is hosted here because DECEA only serves the file through a temporary link. The circular is in Portuguese.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-12.869" data-lon="-38.379" data-zoom="8" data-lang="en"></div>
@@ -88,10 +104,15 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - **Circular:** [AIC N 06/22 – Circulação de Aeronaves em Voo VFR na Terminal Salvador](https://publicacoes.decea.mil.br/publicacao/aic-n-0622){ target="_blank" } (effective 24 MAR 2022) · [:material-file-pdf-box: PDF](../../../files/aic/AIC-N-06-22.pdf){ target="_blank" }
+    - **Visual chart – Aircraft routes (REA):** [CCV REA XS-Salvador](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf){ target="_blank" }
+
+    The documents are embedded in the **Visual Chart** and **VFR Circular (AIC)** tabs under **Useful Information**, with options to open them in a new tab or download them.
+
 - VFR follows ICA 100-12 and the visual corridors AIC.
 - Aircraft departing aerodromes without an ATS unit under the TMA must file a flight plan with the AIS office, contact the APP before taxiing and report the actual departure time.
 - Filing flight plans by radiotelephony is prohibited, except from helidecks in an emergency.
-- VFR routes chart: [CCV REA XS-Salvador](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xs-salvador_rea_20241128.pdf){ target="_blank" }
 
 ## :material-note-text-outline: Remarks
 

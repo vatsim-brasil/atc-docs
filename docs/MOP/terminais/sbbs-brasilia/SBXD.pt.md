@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXD_APP` |
 | **Indicativo** | Controle Palmas |
 | **Frequência** | **119.000** MHz[^pacote] |
-| **Frequências no mundo real** | 119.000 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBPJ](../../aerodromos/sbbs-brasilia/twr/SBPJ.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -88,9 +86,12 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Contato compulsório com o APP antes do táxi.
 - Não são aceitos planos AFIL, nem plano de voo simplificado por radiotelefonia a partir do solo.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

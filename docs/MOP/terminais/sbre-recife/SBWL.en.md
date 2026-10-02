@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBWL_APP` |
 | **Callsign** | Ilhéus Control |
 | **Frequency** | **120.100** MHz[^pacote] |
-| **Real-world frequencies** | 120.100 MHz |
-| **Real-world hours** | DLY 0915–0100 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | [SBIL](../../aerodromos/sbre-recife/twr/SBIL.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
@@ -88,8 +86,11 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - AFIL flight plans are not accepted.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

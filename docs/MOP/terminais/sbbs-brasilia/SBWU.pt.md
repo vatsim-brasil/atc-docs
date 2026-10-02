@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWU_APP` |
 | **Indicativo** | Controle Bauru |
 | **Frequência** | **121.300** MHz[^pacote] |
-| **Frequências no mundo real** | 121.300 MHz |
-| **Horário no mundo real** | DLY 0900–0200 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | `SBBU`, [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.pt.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -93,9 +91,12 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não são aceitos planos AFIL. O plano de voo é compulsório antes da decolagem, exceto para voo VFR de aeródromo sem órgão ATS que não entre em espaço controlado.
 - SBAE: contato bilateral com a Rádio Arealva e com o APP Bauru.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

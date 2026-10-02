@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBWI_APP` |
 | **Callsign** | Foz Control |
 | **Frequency** | **120.300** MHz[^pacote] |
-| **Real-world frequencies** | 120.300 / 129.100 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Radar (listed in AIP ENR 1.6) |
+| **ATS surveillance** | Radar |
 | **Aerodromes in the TMA** | `SBFI` |
 
 ## :material-monitor-dashboard: Useful Information
@@ -90,9 +88,12 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - Flights over the Iguaçu Falls require prior coordination and authorization from Cataratas TWR.
 - Published traffic circuits: SBFI to the NNE, SARI (Cataratas del Iguazú) to the SSW, SGES (Guarani) and Itaipu to the WNW.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

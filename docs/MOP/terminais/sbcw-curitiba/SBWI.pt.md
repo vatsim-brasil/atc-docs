@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWI_APP` |
 | **Indicativo** | Controle Foz |
 | **Frequência** | **120.300** MHz[^pacote] |
-| **Frequências no mundo real** | 120.300 / 129.100 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | `SBFI` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -90,9 +88,12 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Voos sobre as Cataratas do Iguaçu exigem coordenação e autorização prévias da TWR Cataratas.
 - Circuitos de tráfego publicados: SBFI a NNE, SARI (Cataratas del Iguazú) a SSW, SGES (Guarani) e Itaipu a WNW.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

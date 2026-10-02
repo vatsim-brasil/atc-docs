@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBWM_APP` |
 | **Indicativo** | Controle Santa Maria |
 | **Frequência** | **119.350** MHz[^pacote] |
-| **Frequências no mundo real** | 119.350 / 121.350 MHz |
-| **Horário no mundo real** | DLY 0900–0300 |
-| **Vigilância ATS** | Radar (consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Radar |
 | **Aeródromos na TMA** | `SBSM` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -90,8 +88,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - A carta de aproximação visual (VAC) de SBSM é de uso exclusivo de aeronaves militares.
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

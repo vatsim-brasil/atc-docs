@@ -15,9 +15,7 @@ tags:
 | **Position** | `SBXD_APP` |
 | **Callsign** | Palmas Control |
 | **Frequency** | **119.000** MHz[^pacote] |
-| **Real-world frequencies** | 119.000 MHz |
-| **Real-world hours** | H24 |
-| **ATS surveillance** | Procedural (not listed in AIP ENR 1.6) |
+| **ATS surveillance** | Procedural |
 | **Aerodromes in the TMA** | [SBPJ](../../aerodromos/sbbs-brasilia/twr/SBPJ.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
@@ -88,9 +86,12 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-airplane: VFR circulation
 
+!!! abstract "Visual navigation documents"
+    - There is no VFR circulation circular (AIC) in force for this TMA.
+    - There is no visual chart (REA/REH) published for this TMA.
+
 - Mandatory contact with the APP before taxiing.
 - AFIL flight plans are not accepted, nor abbreviated flight plans filed by radiotelephony from the ground.
-- There is no REA chart published for this TMA.
 
 ## :material-note-text-outline: Remarks
 

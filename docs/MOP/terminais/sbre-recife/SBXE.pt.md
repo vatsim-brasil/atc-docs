@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXE_APP` |
 | **Indicativo** | Controle Teresina |
 | **Frequência** | **119.600** MHz[^pacote] |
-| **Frequências no mundo real** | 119.600 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | [SBTE](../../aerodromos/sbre-recife/twr/SBTE.pt.md), `SNDR` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -88,10 +86,13 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Plano de voo simplificado compulsório.
 - As duas cabeceiras permitem VFR diurno e noturno. Helicópteros fazem o circuito só pelo setor oeste.
 - Não confundir SBTE com SNDR (Timon).
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

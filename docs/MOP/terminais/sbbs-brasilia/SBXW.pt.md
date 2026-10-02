@@ -15,9 +15,7 @@ tags:
 | **Posição** | `SBXW_APP` |
 | **Indicativo** | Controle Uberlândia |
 | **Frequência** | **122.850** MHz[^pacote] |
-| **Frequências no mundo real** | 122.850 MHz |
-| **Horário no mundo real** | H24 |
-| **Vigilância ATS** | Convencional (não consta na AIP ENR 1.6) |
+| **Vigilância ATS** | Convencional |
 | **Aeródromos na TMA** | `SBUL` |
 
 ## :material-monitor-dashboard: Informações Úteis
@@ -88,8 +86,11 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-airplane: Circulação VFR
 
+!!! abstract "Documentos de navegação visual"
+    - Não há circular (AIC) de circulação VFR em vigor para esta TMA.
+    - Não há carta visual (REA/REH) publicada para esta TMA.
+
 - Não há regras VFR específicas publicadas além das regras gerais (ICA 100-12).
-- Não há carta REA publicada para esta TMA.
 
 ## :material-note-text-outline: Observações
 

@@ -35,7 +35,7 @@ The Brasília FIR has eight terminal control areas (TMA), each served by an appr
 - **ATS surveillance.** Shows whether, in the real world, the TMA is listed in AIP ENR 1.6 as covered by radar. Academia, Anápolis, Belo Horizonte and Brasília TMAs are listed. In the others the real-world service is procedural: separation by time, DME distance, levels and position reports. On the network, the controller client shows all traffic; this information is a reference for realistic operations.
 - **Top-down coverage.** When the APP is offline, the TMA is covered by the first online position in the listed order, as defined in the FIR sector package.
 - **ATZ.** Aerodrome traffic zone around controlled aerodromes. The AIP publishes no class for ATZs.
-- **VFR circulation.** Summarizes the rules published in the AIP (AD 2.22 and ENR 2.1) and points to the special VFR routes chart (CCV REA), when one exists.
+- **VFR circulation.** Summarizes the rules published in the AIP (AD 2.22 and ENR 2.1) and highlights the official visual navigation documents: the VFR circulation circular (AIC) and the visual charts (REA, REH and REUL), when they exist. The documents are embedded in the tabs of each TMA page.
 
 ---
 
