@@ -30,49 +30,49 @@ tags:
     === "CCV REA XP2-São Paulo"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ target="_blank" }.
 
     === "CCV REA XP1-São Paulo"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }.
 
     === "CCV REH XP2-São Paulo 1"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ target="_blank" }.
 
     === "CCV REH XP2-São Paulo 2"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ target="_blank" }.
 
     === "CCV REH XP2-Campinas"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ target="_blank" }.
 
     === "CCV REH XP1-São José dos Campos"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ target="_blank" }.
 
     === "CCV REH XP1-Sorocaba"
         [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }.
 

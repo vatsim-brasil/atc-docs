@@ -30,14 +30,14 @@ tags:
     === "CCV REA WH-Belo Horizonte"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf){ target="_blank" }.
 
     === "CCV REH WH-Belo Horizonte"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf){ target="_blank" }.
 

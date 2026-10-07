@@ -1,6 +1,6 @@
 title: Manuais Operacionais
 collapse: false
-children:
+nav:
   - aerodromos
   - terminais
   - centros

@@ -29,7 +29,7 @@ tags:
 === ":material-map-legend: Visual Chart"
     [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ .md-button .md-button--primary target="_blank" }
 
-    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf" loading="lazy" title="PDF"></iframe></div>
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
     Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wp-porto-alegre_rea_20250320.pdf){ target="_blank" }.
 

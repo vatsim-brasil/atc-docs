@@ -30,35 +30,35 @@ tags:
     === "CCV REA WJ1-Rio de Janeiro"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }.
 
     === "CCV REH WJ2-Rio de Janeiro"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
 
     === "CCV REH WJ3-Rio de Janeiro"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
 
     === "REH Bacia de Santos"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }.
 
     === "CCV REUL WJ3-Rio de Janeiro"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }.
 

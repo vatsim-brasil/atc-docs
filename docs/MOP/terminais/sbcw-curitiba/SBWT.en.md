@@ -30,14 +30,14 @@ tags:
     === "CCV REA WT-Curitiba"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wt-curitiba_rea_20231228.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wt-curitiba_rea_20231228.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wt-curitiba_rea_20231228.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wt-curitiba_rea_20231228.pdf){ target="_blank" }.
 
     === "CCV REH WT-Curitiba"
         [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wt-curitiba_reh_20231228.pdf){ .md-button .md-button--primary target="_blank" }
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wt-curitiba_reh_20231228.pdf" loading="lazy" title="PDF"></iframe></div>
+        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wt-curitiba_reh_20231228.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
         Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wt-curitiba_reh_20231228.pdf){ target="_blank" }.
 
