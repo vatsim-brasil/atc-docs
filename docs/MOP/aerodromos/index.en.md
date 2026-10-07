@@ -8,7 +8,7 @@
 
 Here you will find local instructions for all controlled aerodromes in Brazil. For flight simulation purposes only.
 
-Click any blue dot on the map below to open the manual for the desired aerodrome directly.
+Click any dot on the map below to open the manual for the desired aerodrome directly. Colors show the aerodrome category: international, controlled domestic (with TWR) or uncontrolled domestic.
 
 <div id="map" style="height: 750px; width: 100%; border-radius: 12px; border: 1px solid rgba(0,0,0,0.1); margin: 20px 0; z-index: 1;"></div>
 
@@ -31,6 +31,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
         var airports = [
     {
         "icao": "SBAC",
+        "type": "unctrl",
         "name": "Aracati",
         "lat": -4.5686,
         "lon": -37.8047,
@@ -38,6 +39,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAE",
+        "type": "unctrl",
         "name": "Bauru / Arealva",
         "lat": -22.1578,
         "lon": -49.0683,
@@ -45,6 +47,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAF",
+        "type": "unctrl",
         "name": "Afonsos",
         "lat": -22.8756,
         "lon": -43.3844,
@@ -52,6 +55,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAQ",
+        "type": "unctrl",
         "name": "Araraquara",
         "lat": -21.8081,
         "lon": -48.1347,
@@ -59,6 +63,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAR",
+        "type": "intl",
         "name": "Aracaju",
         "lat": -10.9839,
         "lon": -37.0709,
@@ -66,6 +71,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAT",
+        "type": "unctrl",
         "name": "Alta Floresta",
         "lat": -9.8697,
         "lon": -56.1073,
@@ -73,6 +79,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAU",
+        "type": "unctrl",
         "name": "Araçatuba",
         "lat": -21.1983,
         "lon": -50.4283,
@@ -80,6 +87,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBAX",
+        "type": "unctrl",
         "name": "Araxá",
         "lat": -19.563,
         "lon": -46.96,
@@ -87,6 +95,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBE",
+        "type": "intl",
         "name": "Belém",
         "lat": -1.3785,
         "lon": -48.4764,
@@ -94,6 +103,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBG",
+        "type": "unctrl",
         "name": "Bagé",
         "lat": -31.3908,
         "lon": -54.1097,
@@ -101,6 +111,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBH",
+        "type": "intl",
         "name": "Pampulha",
         "lat": -19.851,
         "lon": -43.951,
@@ -108,6 +119,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBI",
+        "type": "ctrl",
         "name": "Bacacheri",
         "lat": -25.4033,
         "lon": -49.2336,
@@ -115,6 +127,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBP",
+        "type": "unctrl",
         "name": "Bragança Paulista",
         "lat": -22.9789,
         "lon": -46.5372,
@@ -122,6 +135,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBQ",
+        "type": "unctrl",
         "name": "Barbacena",
         "lat": -21.2672,
         "lon": -43.7606,
@@ -129,6 +143,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBR",
+        "type": "intl",
         "name": "Brasília",
         "lat": -15.8705,
         "lon": -47.9171,
@@ -136,6 +151,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBV",
+        "type": "intl",
         "name": "Boa Vista",
         "lat": 2.8451,
         "lon": -60.6921,
@@ -143,6 +159,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBBW",
+        "type": "unctrl",
         "name": "Barra do Garças",
         "lat": -15.8615,
         "lon": -52.3892,
@@ -150,6 +167,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCA",
+        "type": "unctrl",
         "name": "Cascavel",
         "lat": -25.0022,
         "lon": -53.5019,
@@ -157,6 +175,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCB",
+        "type": "intl",
         "name": "Cabo Frio",
         "lat": -22.9208,
         "lon": -42.0714,
@@ -164,6 +183,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCC",
+        "type": "unctrl",
         "name": "Cachimbo",
         "lat": -9.3331,
         "lon": -54.968,
@@ -171,6 +191,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCF",
+        "type": "intl",
         "name": "Confins",
         "lat": -19.6361,
         "lon": -43.9659,
@@ -178,6 +199,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCG",
+        "type": "intl",
         "name": "Campo Grande",
         "lat": -20.4694,
         "lon": -54.6703,
@@ -185,6 +207,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCH",
+        "type": "unctrl",
         "name": "Chapecó",
         "lat": -27.1339,
         "lon": -52.6589,
@@ -192,6 +215,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCJ",
+        "type": "unctrl",
         "name": "Carajás",
         "lat": -6.1176,
         "lon": -50.0032,
@@ -199,6 +223,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCN",
+        "type": "unctrl",
         "name": "Caldas Novas",
         "lat": -17.7431,
         "lon": -48.2831,
@@ -206,6 +231,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCO",
+        "type": "ctrl",
         "name": "Canoas",
         "lat": -29.9456,
         "lon": -51.1436,
@@ -213,6 +239,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCP",
+        "type": "unctrl",
         "name": "Campos",
         "lat": -21.7011,
         "lon": -41.3078,
@@ -220,6 +247,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCR",
+        "type": "intl",
         "name": "Corumbá",
         "lat": -19.0119,
         "lon": -57.6714,
@@ -227,6 +255,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCT",
+        "type": "intl",
         "name": "Curitiba",
         "lat": -25.5311,
         "lon": -49.1729,
@@ -234,6 +263,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCX",
+        "type": "unctrl",
         "name": "Caxias do Sul",
         "lat": -29.1981,
         "lon": -51.1867,
@@ -241,6 +271,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCY",
+        "type": "ctrl",
         "name": "Cuiabá",
         "lat": -15.6537,
         "lon": -56.1166,
@@ -248,6 +279,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBCZ",
+        "type": "intl",
         "name": "Cruzeiro do Sul",
         "lat": -7.5999,
         "lon": -72.7708,
@@ -255,6 +287,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBDB",
+        "type": "unctrl",
         "name": "Bonito",
         "lat": -21.2472,
         "lon": -56.4525,
@@ -262,6 +295,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBDN",
+        "type": "ctrl",
         "name": "Presidente Prudente",
         "lat": -22.175,
         "lon": -51.4244,
@@ -269,6 +303,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBDO",
+        "type": "unctrl",
         "name": "Dourados",
         "lat": -22.2006,
         "lon": -54.9256,
@@ -276,6 +311,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBEG",
+        "type": "intl",
         "name": "Eduardo Gomes",
         "lat": -3.0384,
         "lon": -60.047,
@@ -283,6 +319,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBES",
+        "type": "ctrl",
         "name": "São Pedro da Aldeia",
         "lat": -22.8167,
         "lon": -42.0925,
@@ -290,6 +327,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBFI",
+        "type": "intl",
         "name": "Foz do Iguaçu",
         "lat": -25.6003,
         "lon": -54.485,
@@ -297,6 +335,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBFL",
+        "type": "intl",
         "name": "Florianópolis",
         "lat": -27.6703,
         "lon": -48.5525,
@@ -304,6 +343,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBFN",
+        "type": "unctrl",
         "name": "Fernando de Noronha",
         "lat": -3.8547,
         "lon": -32.4283,
@@ -311,6 +351,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBFS",
+        "type": "unctrl",
         "name": "Farol de São Tomé",
         "lat": -22.0306,
         "lon": -41.0686,
@@ -318,6 +359,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBFZ",
+        "type": "intl",
         "name": "Fortaleza",
         "lat": -3.7775,
         "lon": -38.5355,
@@ -325,6 +367,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGL",
+        "type": "intl",
         "name": "Galeão",
         "lat": -22.8132,
         "lon": -43.2489,
@@ -332,6 +375,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGM",
+        "type": "unctrl",
         "name": "Guajará-Mirim",
         "lat": -15.8611,
         "lon": -57.5758,
@@ -339,6 +383,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGO",
+        "type": "intl",
         "name": "Goiânia",
         "lat": -16.6329,
         "lon": -49.2187,
@@ -346,6 +391,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGP",
+        "type": "unctrl",
         "name": "Gavião Peixoto",
         "lat": -23.0081,
         "lon": -47.1347,
@@ -353,6 +399,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGR",
+        "type": "intl",
         "name": "Guarulhos",
         "lat": -23.4315,
         "lon": -46.4713,
@@ -360,6 +407,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGV",
+        "type": "unctrl",
         "name": "Governador Valadares",
         "lat": -18.8961,
         "lon": -41.9833,
@@ -367,6 +415,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBGW",
+        "type": "ctrl",
         "name": "Guaratinguetá",
         "lat": -22.7917,
         "lon": -45.2044,
@@ -374,6 +423,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBHT",
+        "type": "unctrl",
         "name": "Altamira",
         "lat": -3.2506,
         "lon": -52.254,
@@ -381,6 +431,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBIH",
+        "type": "unctrl",
         "name": "Itaituba",
         "lat": -4.2441,
         "lon": -56.0022,
@@ -388,6 +439,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBIL",
+        "type": "ctrl",
         "name": "Ilhéus",
         "lat": -14.8157,
         "lon": -39.0318,
@@ -395,6 +447,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBIP",
+        "type": "unctrl",
         "name": "Ipatinga",
         "lat": -19.4728,
         "lon": -42.4888,
@@ -402,6 +455,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBIT",
+        "type": "unctrl",
         "name": "Itumbiara",
         "lat": -21.1364,
         "lon": -48.2411,
@@ -409,6 +463,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBIZ",
+        "type": "unctrl",
         "name": "Imperatriz",
         "lat": -5.5302,
         "lon": -47.4587,
@@ -416,6 +471,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJA",
+        "type": "unctrl",
         "name": "Jaguaruna",
         "lat": -28.6753,
         "lon": -49.0603,
@@ -423,6 +479,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJD",
+        "type": "ctrl",
         "name": "Jundiaí",
         "lat": -23.1817,
         "lon": -46.9436,
@@ -430,6 +487,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJE",
+        "type": "unctrl",
         "name": "Jericoacoara",
         "lat": -2.9067,
         "lon": -40.3581,
@@ -437,6 +495,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJH",
+        "type": "intl",
         "name": "Catarina",
         "lat": -23.4269,
         "lon": -47.1658,
@@ -444,6 +503,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJI",
+        "type": "unctrl",
         "name": "Ji-Paraná",
         "lat": -10.8706,
         "lon": -61.8483,
@@ -451,6 +511,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJP",
+        "type": "intl",
         "name": "João Pessoa",
         "lat": -7.1484,
         "lon": -34.9507,
@@ -458,6 +519,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJR",
+        "type": "ctrl",
         "name": "Jacarepaguá",
         "lat": -22.9875,
         "lon": -43.37,
@@ -465,6 +527,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJU",
+        "type": "unctrl",
         "name": "Juazeiro do Norte",
         "lat": -7.2192,
         "lon": -39.2694,
@@ -472,6 +535,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBJV",
+        "type": "unctrl",
         "name": "Joinville",
         "lat": -26.2231,
         "lon": -48.7978,
@@ -479,6 +543,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBKG",
+        "type": "unctrl",
         "name": "Campina Grande",
         "lat": -7.2692,
         "lon": -35.895,
@@ -486,6 +551,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBKP",
+        "type": "intl",
         "name": "Viracopos",
         "lat": -23.0069,
         "lon": -47.1344,
@@ -493,6 +559,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBLO",
+        "type": "ctrl",
         "name": "Londrina",
         "lat": -23.3303,
         "lon": -51.1367,
@@ -500,6 +567,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBLS",
+        "type": "unctrl",
         "name": "Lagoa Santa",
         "lat": -19.662,
         "lon": -43.896,
@@ -507,6 +575,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMA",
+        "type": "unctrl",
         "name": "Marabá",
         "lat": -5.3689,
         "lon": -49.1384,
@@ -514,6 +583,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBME",
+        "type": "ctrl",
         "name": "Macaé",
         "lat": -22.3417,
         "lon": -41.7661,
@@ -521,6 +591,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMG",
+        "type": "intl",
         "name": "Maringá",
         "lat": -23.4764,
         "lon": -52.0178,
@@ -528,6 +599,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMI",
+        "type": "unctrl",
         "name": "Maricá",
         "lat": -22.9181,
         "lon": -42.8289,
@@ -535,6 +607,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMK",
+        "type": "unctrl",
         "name": "Montes Claros",
         "lat": -16.7067,
         "lon": -43.8199,
@@ -542,6 +615,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBML",
+        "type": "unctrl",
         "name": "Marília",
         "lat": -15.78,
         "lon": -47.93,
@@ -549,6 +623,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMN",
+        "type": "ctrl",
         "name": "Ponta Pelada",
         "lat": -3.146,
         "lon": -59.986,
@@ -556,6 +631,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMO",
+        "type": "intl",
         "name": "Maceió",
         "lat": -9.5118,
         "lon": -35.7919,
@@ -563,6 +639,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMQ",
+        "type": "intl",
         "name": "Macapá",
         "lat": 0.0514,
         "lon": -51.0702,
@@ -570,6 +647,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMS",
+        "type": "unctrl",
         "name": "Mossoró",
         "lat": -5.1958,
         "lon": -37.3617,
@@ -577,6 +655,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBMT",
+        "type": "ctrl",
         "name": "Campo de Marte",
         "lat": -23.5092,
         "lon": -46.6375,
@@ -584,6 +663,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBNF",
+        "type": "intl",
         "name": "Navegantes",
         "lat": -26.8786,
         "lon": -48.6508,
@@ -591,6 +671,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBNM",
+        "type": "unctrl",
         "name": "Santo Ângelo",
         "lat": -28.2817,
         "lon": -54.1683,
@@ -598,6 +679,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBNT",
+        "type": "ctrl",
         "name": "Natal",
         "lat": -5.9083,
         "lon": -35.2492,
@@ -605,6 +687,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBNV",
+        "type": "unctrl",
         "name": "A.N.A.",
         "lat": -26.2239,
         "lon": -48.7981,
@@ -612,6 +695,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBOI",
+        "type": "unctrl",
         "name": "Oiapoque",
         "lat": 3.8554,
         "lon": -51.797,
@@ -619,6 +703,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPA",
+        "type": "intl",
         "name": "Porto Alegre",
         "lat": -29.9947,
         "lon": -51.1711,
@@ -626,6 +711,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPB",
+        "type": "unctrl",
         "name": "Parnaíba",
         "lat": -2.8933,
         "lon": -41.7303,
@@ -633,6 +719,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPF",
+        "type": "unctrl",
         "name": "Passo Fundo",
         "lat": -28.2442,
         "lon": -52.3283,
@@ -640,6 +727,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPG",
+        "type": "unctrl",
         "name": "Ponta Grossa",
         "lat": -25.1844,
         "lon": -50.1439,
@@ -647,6 +735,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPJ",
+        "type": "ctrl",
         "name": "Palmas",
         "lat": -10.2923,
         "lon": -48.3563,
@@ -654,6 +743,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPK",
+        "type": "intl",
         "name": "Pelotas",
         "lat": -31.7161,
         "lon": -52.3311,
@@ -661,6 +751,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPL",
+        "type": "intl",
         "name": "Petrolina",
         "lat": -9.3675,
         "lon": -40.5636,
@@ -668,6 +759,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPO",
+        "type": "unctrl",
         "name": "Pato Branco",
         "lat": -26.2172,
         "lon": -52.6944,
@@ -675,6 +767,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPP",
+        "type": "intl",
         "name": "Ponta Porã",
         "lat": -22.5497,
         "lon": -55.7031,
@@ -682,6 +775,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPS",
+        "type": "intl",
         "name": "Porto Seguro",
         "lat": -16.4388,
         "lon": -39.0824,
@@ -689,6 +783,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPV",
+        "type": "intl",
         "name": "Porto Velho",
         "lat": -8.7122,
         "lon": -63.9019,
@@ -696,6 +791,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBPW",
+        "type": "unctrl",
         "name": "Porto do Açu",
         "lat": -21.8042,
         "lon": -41.1089,
@@ -703,6 +799,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBRB",
+        "type": "intl",
         "name": "Rio Branco",
         "lat": -9.8704,
         "lon": -67.8966,
@@ -710,6 +807,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBRD",
+        "type": "unctrl",
         "name": "Rondonópolis",
         "lat": -16.5028,
         "lon": -54.5822,
@@ -717,6 +815,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBRF",
+        "type": "intl",
         "name": "Recife",
         "lat": -8.1296,
         "lon": -34.9218,
@@ -724,6 +823,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBRJ",
+        "type": "ctrl",
         "name": "Rio / Santos-Dumont",
         "lat": -22.91,
         "lon": -43.1625,
@@ -731,6 +831,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSC",
+        "type": "ctrl",
         "name": "Santa Cruz",
         "lat": -22.9328,
         "lon": -43.7194,
@@ -738,6 +839,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSG",
+        "type": "intl",
         "name": "São Gonçalo do Amarante",
         "lat": -5.768,
         "lon": -35.3664,
@@ -745,6 +847,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSI",
+        "type": "unctrl",
         "name": "Sinop",
         "lat": -11.8486,
         "lon": -55.4858,
@@ -752,6 +855,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSJ",
+        "type": "ctrl",
         "name": "São José dos Campos",
         "lat": -23.2289,
         "lon": -45.8711,
@@ -759,6 +863,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSL",
+        "type": "intl",
         "name": "São Luis",
         "lat": -2.5862,
         "lon": -44.2354,
@@ -766,6 +871,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSM",
+        "type": "ctrl",
         "name": "Santa Maria",
         "lat": -29.7108,
         "lon": -53.6922,
@@ -773,6 +879,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSN",
+        "type": "intl",
         "name": "Santarém",
         "lat": -2.4219,
         "lon": -54.7886,
@@ -780,6 +887,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSO",
+        "type": "unctrl",
         "name": "Sorriso",
         "lat": -14.6536,
         "lon": -39.2789,
@@ -787,6 +895,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSP",
+        "type": "ctrl",
         "name": "São Paulo / Congonhas",
         "lat": -23.6285,
         "lon": -46.6549,
@@ -794,6 +903,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSR",
+        "type": "unctrl",
         "name": "Rio Preto",
         "lat": -20.8164,
         "lon": -49.4067,
@@ -801,6 +911,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBST",
+        "type": "unctrl",
         "name": "Santos",
         "lat": -23.9281,
         "lon": -46.2997,
@@ -808,6 +919,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBSV",
+        "type": "intl",
         "name": "Salvador",
         "lat": -12.9097,
         "lon": -38.3278,
@@ -815,6 +927,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTA",
+        "type": "ctrl",
         "name": "Taubaté",
         "lat": -23.0389,
         "lon": -45.5158,
@@ -822,6 +935,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTB",
+        "type": "unctrl",
         "name": "Trombetas",
         "lat": -2.5975,
         "lon": -56.1264,
@@ -829,6 +943,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTC",
+        "type": "unctrl",
         "name": "Una / Comandatuba",
         "lat": -15.3533,
         "lon": -38.9972,
@@ -836,6 +951,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTD",
+        "type": "unctrl",
         "name": "Toledo",
         "lat": -24.6853,
         "lon": -53.6964,
@@ -843,6 +959,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTE",
+        "type": "ctrl",
         "name": "Teresina",
         "lat": -5.0625,
         "lon": -42.8232,
@@ -850,6 +967,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTF",
+        "type": "unctrl",
         "name": "Tefé",
         "lat": -3.383,
         "lon": -64.7236,
@@ -857,6 +975,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTG",
+        "type": "unctrl",
         "name": "Três Lagoas",
         "lat": -20.7514,
         "lon": -51.6803,
@@ -864,6 +983,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTS",
+        "type": "unctrl",
         "name": "Tiriós",
         "lat": -4.2483,
         "lon": -55.9928,
@@ -871,6 +991,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTT",
+        "type": "intl",
         "name": "Tabatinga",
         "lat": -4.2546,
         "lon": -69.9376,
@@ -878,6 +999,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBTV",
+        "type": "unctrl",
         "name": "Terravista",
         "lat": -16.5414,
         "lon": -39.1081,
@@ -885,6 +1007,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBUA",
+        "type": "unctrl",
         "name": "São Gabriel da Cachoeira",
         "lat": -0.1509,
         "lon": -66.988,
@@ -892,6 +1015,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBUF",
+        "type": "unctrl",
         "name": "Paulo Afonso",
         "lat": -9.4011,
         "lon": -38.2511,
@@ -899,6 +1023,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBUG",
+        "type": "intl",
         "name": "Uruguaiana",
         "lat": -29.7833,
         "lon": -57.0369,
@@ -906,6 +1031,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBUY",
+        "type": "unctrl",
         "name": "Urucu",
         "lat": -4.8837,
         "lon": -65.3539,
@@ -913,6 +1039,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBVC",
+        "type": "unctrl",
         "name": "Vitória da Conquista",
         "lat": -14.9078,
         "lon": -40.9147,
@@ -920,6 +1047,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBVG",
+        "type": "unctrl",
         "name": "Varginha",
         "lat": -21.5647,
         "lon": -45.4578,
@@ -927,6 +1055,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBVH",
+        "type": "unctrl",
         "name": "Vilhena",
         "lat": -12.6917,
         "lon": -60.0976,
@@ -934,6 +1063,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBVT",
+        "type": "intl",
         "name": "Vitória",
         "lat": -20.258,
         "lon": -40.2818,
@@ -941,6 +1071,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SBZM",
+        "type": "unctrl",
         "name": "Goianá",
         "lat": -21.5131,
         "lon": -43.1731,
@@ -948,6 +1079,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SDAM",
+        "type": "unctrl",
         "name": "Campos dos Amarais",
         "lat": -22.8592,
         "lon": -47.1081,
@@ -955,6 +1087,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SDCO",
+        "type": "ctrl",
         "name": "Sorocaba",
         "lat": -23.4778,
         "lon": -47.49,
@@ -962,6 +1095,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SIMK",
+        "type": "unctrl",
         "name": "Franca",
         "lat": -22.3789,
         "lon": -47.0136,
@@ -969,6 +1103,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SNCP",
+        "type": "unctrl",
         "name": "Correia Pinto",
         "lat": -27.6342,
         "lon": -50.3583,
@@ -976,6 +1111,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SSGG",
+        "type": "unctrl",
         "name": "Guarapuava",
         "lat": -25.3883,
         "lon": -51.5236,
@@ -983,6 +1119,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SSKW",
+        "type": "unctrl",
         "name": "Cacoal",
         "lat": -19.4633,
         "lon": -42.4839,
@@ -990,6 +1127,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     },
     {
         "icao": "SSVL",
+        "type": "unctrl",
         "name": "Telêmaco Borba",
         "lat": -24.3164,
         "lon": -50.6522,
@@ -997,11 +1135,18 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
     }
 ];
 
+        // Cores por categoria: internacional, doméstico controlado (TWR) e não controlado
+        var categorias = {
+            intl:   { cor: '#2483c5', rotulo: 'International' },
+            ctrl:   { cor: '#2e9e5b', rotulo: 'Controlled domestic' },
+            unctrl: { cor: '#e8912d', rotulo: 'Uncontrolled domestic' }
+        };
+
         airports.forEach(function(ap) {
-            // Marcador círculo azul na cor da VATSIM (#2483c5)
+            var cor = categorias[ap.type].cor;
             var marker = L.circleMarker([ap.lat, ap.lon], {
-                color: '#2483c5',
-                fillColor: '#2483c5',
+                color: cor,
+                fillColor: cor,
                 fillOpacity: 0.85,
                 radius: 7,
                 weight: 2
@@ -1020,7 +1165,7 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
             });
             marker.on('mouseout', function(e) {
                 this.setRadius(7);
-                this.setStyle({ color: '#2483c5', fillColor: '#2483c5' });
+                this.setStyle({ color: cor, fillColor: cor });
             });
 
             // Carrega diretamente o manual correspondente ao clicar
@@ -1028,6 +1173,18 @@ Click any blue dot on the map below to open the manual for the desired aerodrome
                 window.location.href = ap.link;
             });
         });
+
+        // Legenda das categorias
+        var legenda = L.control({ position: 'bottomright' });
+        legenda.onAdd = function() {
+            var div = L.DomUtil.create('div');
+            div.style.cssText = 'background: rgba(255,255,255,0.92); color: #222; padding: 8px 12px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.3); font-size: 13px; line-height: 1.6;';
+            Object.keys(categorias).forEach(function(k) {
+                div.innerHTML += '<div><span style="display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:middle;background:' + categorias[k].cor + '"></span>' + categorias[k].rotulo + '</div>';
+            });
+            return div;
+        };
+        legenda.addTo(map);
     }
 
     // Gerencia o ciclo de vida tanto para SPA quanto para recarregamento total (F5)
