@@ -29,7 +29,7 @@ tags:
 === ":material-map-legend: Carta Visual"
     [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wn2-manaus_rea_20250807.pdf){ .md-button .md-button--primary target="_blank" }
 
-    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wn2-manaus_rea_20250807.pdf" loading="lazy" title="PDF"></iframe></div>
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wn2-manaus_rea_20250807.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
     Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wn2-manaus_rea_20250807.pdf){ target="_blank" }.
 

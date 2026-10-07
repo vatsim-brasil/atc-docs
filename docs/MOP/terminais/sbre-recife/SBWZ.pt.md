@@ -29,7 +29,7 @@ tags:
 === ":material-map-legend: Carta Visual"
     [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wz-fortaleza_rea_20251127.pdf){ .md-button .md-button--primary target="_blank" }
 
-    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wz-fortaleza_rea_20251127.pdf" loading="lazy" title="PDF"></iframe></div>
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wz-fortaleza_rea_20251127.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
     Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wz-fortaleza_rea_20251127.pdf){ target="_blank" }.
 

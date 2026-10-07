@@ -29,7 +29,7 @@ tags:
 === ":material-map-legend: Carta Visual"
     [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/REA_Ribeirao_Preto_aic_13_20.pdf){ .md-button .md-button--primary target="_blank" }
 
-    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/REA_Ribeirao_Preto_aic_13_20.pdf" loading="lazy" title="PDF"></iframe></div>
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/REA_Ribeirao_Preto_aic_13_20.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
     Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/REA_Ribeirao_Preto_aic_13_20.pdf){ target="_blank" }.
 

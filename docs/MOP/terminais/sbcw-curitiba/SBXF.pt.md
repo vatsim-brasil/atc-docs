@@ -29,7 +29,7 @@ tags:
 === ":material-map-legend: Carta Visual"
     [:material-open-in-new: Abrir em nova aba](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ .md-button .md-button--primary target="_blank" }
 
-    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf" loading="lazy" title="PDF"></iframe></div>
+    <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
 
     Fonte: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xf-florianopolis_rea_20241003.pdf){ target="_blank" }.
 
