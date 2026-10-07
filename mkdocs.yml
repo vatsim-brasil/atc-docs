@@ -152,6 +152,7 @@ plugins:
           site_name: ATC Portal
           nav_translations:
             Aeródromos: Aerodromes
+            Atlântico: Oceanic
             Centros: Centers
             Controlados: Controlled
             Documentos: Documents
