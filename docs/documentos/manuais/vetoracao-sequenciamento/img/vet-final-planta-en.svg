@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="Ubuntu, 'DejaVu Sans', Arial, sans-serif">
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffd54f"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#262c33"/>
+  <!-- scale: 1 NM = 50 px; threshold at x=100 -->
+  <!-- pista -->
+  <rect x="40" y="295" width="60" height="10" fill="#cfd8dc"/>
+  <text x="70" y="330" fill="#cfd8dc" font-size="13" text-anchor="middle">Runway</text>
+  <!-- curso de aproximação final -->
+  <line x1="100" y1="300" x2="780" y2="300" stroke="#4fc3f7" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="775" y="322" fill="#4fc3f7" font-size="13" text-anchor="end">Final approach course</text>
+  <!-- marcas de distância -->
+  <g stroke="#4fc3f7" stroke-width="2">
+    <line x1="200" y1="294" x2="200" y2="306"/><line x1="300" y1="294" x2="300" y2="306"/>
+    <line x1="500" y1="294" x2="500" y2="306"/>
+  </g>
+  <g fill="#90a4ae" font-size="11" text-anchor="middle">
+    <text x="200" y="322">2 NM</text><text x="300" y="322">4 NM</text>
+    <text x="500" y="322">8 NM</text>
+  </g>
+  <!-- FAP -->
+  <path d="M400,290 L408,304 L392,304 z" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="400" y="282" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">FAP (6 NM)</text>
+  <!-- trajetória vetorada -->
+  <path d="M160,110 L650,110 A40,40 0 0 1 690,150 L690,200 L517,300 L410,300"
+        fill="none" stroke="#ffd54f" stroke-width="3" marker-end="url(#seta)"/>
+  <!-- rótulos da trajetória -->
+  <text x="400" y="98" fill="#ffd54f" font-size="14" text-anchor="middle">Downwind</text>
+  <text x="702" y="172" fill="#ffd54f" font-size="14">Base leg</text>
+  <!-- ângulo de interceptação -->
+  <path d="M567,300 A50,50 0 0 0 560,275" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="572" y="285" fill="#ffffff" font-size="13">30°</text>
+  <text x="600" y="225" fill="#ffd54f" font-size="13" text-anchor="end">Intercept vector</text>
+  <text x="600" y="241" fill="#ffd54f" font-size="12" text-anchor="end">up to 45° (rule), 20° to 30° (practice)</text>
+  <!-- cota 2 NM antes do FAP -->
+  <line x1="400" y1="345" x2="517" y2="345" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="400" y1="338" x2="400" y2="352" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="517" y1="338" x2="517" y2="352" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="458" y="367" fill="#a5d6a7" font-size="12" text-anchor="middle">established ≥ 2 NM before the FAP</text>
+  <!-- ponto de interceptação -->
+  <circle cx="517" cy="300" r="5" fill="#ffd54f"/>
+  <!-- legenda -->
+  <text x="20" y="30" fill="#eceff1" font-size="15" font-weight="bold">Vectoring to final (plan view)</text>
+  <text x="20" y="50" fill="#90a4ae" font-size="12">Approximate scale. The aircraft flies left to right on the downwind and lands towards the left.</text>
+</svg>
