@@ -4,9 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Fundamentos - Euroscope - Visão Geral](img/head-euroscope-instalacao.png)
+![Fundamentos - Euroscope - Instalação](img/head-euroscope-instalacao.png)
 
 ## Download
 
@@ -29,12 +27,37 @@
 
 ## *Sectorfiles* e Arquivos de Configuração
 
-Os arquivos de setor são baixados e instalados **pelo [Aeronav GNG](https://files.aero-nav.com/SBXX)**. Para isso, siga os passos demonstrados no vídeo abaixo:
+Os *sectorfiles* e perfis da VATSIM Brasil são publicados no **[Aeronav GNG](https://files.aero-nav.com/SBXX)**. A divisão recomenda instalá-los e atualizá-los com o **[EuroScope Sector File Manager](https://github.com/VectorsATCGroup/euroscope-sector-file-manager)**, ferramenta gratuita desenvolvida pelo **[Vectors ATC Group](https://vectorsatcgroup.com)**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/odyaBXAEkhg?si=tEQH_ATFucSrw8ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<figure markdown>
+[![Vectors ATC Group](https://raw.githubusercontent.com/VectorsATCGroup/euroscope-sector-file-manager/main/assets/vectors-logo-dark.png#only-light){ width="240" }![Vectors ATC Group](https://raw.githubusercontent.com/VectorsATCGroup/euroscope-sector-file-manager/main/assets/vectors-logo-white.png#only-dark){ width="240" }](https://vectorsatcgroup.com)
+</figure>
+
+O aplicativo baixa o pacote de cada FIR direto do Aeronav, faz um backup e aplica a atualização sem apagar sua pasta `Settings` nem seus arquivos personalizados. Se algo falhar, a instalação é revertida.
+
+!!! info "Requisitos"
+    Windows 10 ou superior (64 bits), EuroScope instalado e uma conta no Aeronav.
+
+1. Baixe o arquivo `VectorsEuroScopeSectorFileManager-Setup.exe` na [página de *releases*](https://github.com/VectorsATCGroup/euroscope-sector-file-manager/releases/latest) e execute-o. A instalação é feita só para o seu usuário e não pede permissão de administrador.
+2. Ao abrir pela primeira vez, o aplicativo localiza a instalação do EuroScope e a pasta de *sectorfiles*.
+3. Entre na sua conta do Aeronav na janela que se abre. O login acontece na página oficial do Aeronav e fica salvo para as próximas vezes.
+4. O painel lista cada FIR (SBAO, SBAZ, SBBS, SBCW e SBRE) com o AIRAC instalado e o disponível. Clique em `Install` ou `Update` nas FIRs em que você controla.
+
+!!! tip "Dica"
+    Abra o aplicativo a cada novo ciclo AIRAC para manter os *sectorfiles* em dia. Ele também avisa quando há uma versão nova do próprio programa.
+
+??? question "O aplicativo tem acesso à minha senha?"
+    Não. O login é feito nas páginas oficiais do Aeronav, VATSIM e Navigraph, em uma janela de navegador isolada. O aplicativo não lê nem guarda sua senha e não envia dados a nenhum servidor. Os detalhes estão no [repositório do projeto](https://github.com/VectorsATCGroup/euroscope-sector-file-manager#privacidade-em-primeiro-lugar).
+
+??? question "Posso instalar sem o aplicativo?"
+    Sim. Baixe o pacote da FIR no [Aeronav GNG](https://files.aero-nav.com/SBXX), descompacte-o e copie os arquivos para a pasta de *sectorfiles* do EuroScope, tomando cuidado para não sobrescrever sua pasta `Settings`.
+
+### Abrindo o perfil
+
+Ao abrir o EuroScope, escolha o perfil (`.prf`) da FIR e da posição em que vai controlar.
 
 !!! warning "Atenção!"
-    Se a caixa de diálogo não aparecer, você esqueceu de desmarcar a opção `Auto load last profile on startup` da etapa anterior. Desmarque a opção, e abra novamente o Euroscope.
+    Se a caixa de diálogo de perfis não aparecer, a opção `Auto load last profile on startup` está marcada. Desmarque a opção, e abra novamente o Euroscope.
 
 ??? question "Qual a diferença do perfil `radar` para o perfil `solo`?"
     O perfil `solo` contém um esquema de cores e tags otimizado para o controle nas posições `DEL`, `RMP`, `GND` e `TWR`.
