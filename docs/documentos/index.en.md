@@ -25,6 +25,7 @@ Explore the operational technical documentation through the links below:
 * [**Flight Plan Manual (FPL)**](manuais/manual-plano-de-voo/index.en.md): Practical instructions for filling in, reviewing and correcting Flight Plans (FPL) based on the ICAO standard used in Brazil, detailing how to fill in the main fields and the critical **Item 18**.
 * [**Aeronautical Meteorology Manual**](manuais/meteorologia-aeronautica/index.en.md): Complete instructions for reading, interpreting and practically applying aeronautical weather messages and warnings (**METAR, SPECI, TAF and SIGMET**), which are fundamental to operational decision-making.
 * [**Vectoring and Sequencing Manual**](manuais/vetoracao-sequenciamento/index.en.md): Radar vectoring, speed control and arrival sequencing in the approach phase, from aircraft identification to the handoff to the tower, based on **ICA 100-37** and **MCA 100-16**.
+* [**Coordination and Transfer Manual**](manuais/coordenacao-transferencia/index.en.md): Coordination between units and positions, transfer of control and of communications, and what is specific to the network, such as top-down coverage, based on **ICA 100-37**, **MCA 100-16** and VATSIM's **GCAP**.
 
 
 ## Disclaimer

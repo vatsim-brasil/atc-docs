@@ -1,0 +1,10 @@
+title: Manual de Coordenação e Transferência
+collapse: false
+nav:
+  - ... | glob=index*.md
+  - ... | glob=01-fundamentos*.md
+  - ... | glob=02-transferencia*.md
+  - ... | glob=03-orgaos*.md
+  - ... | glob=04-rede*.md
+  - ... | glob=05-fraseologia*.md
+  - ... | glob=06-checklist*.md
