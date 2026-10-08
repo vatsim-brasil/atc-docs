@@ -37,8 +37,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.top
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.footer
     - search.suggest
     - search.highlight
@@ -132,8 +130,7 @@ plugins:
   - awesome-pages
   - glightbox
   - table-reader
-  - tags:
-      tags_file: tags.md
+  - tags
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
