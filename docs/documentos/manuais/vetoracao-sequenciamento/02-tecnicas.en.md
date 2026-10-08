@@ -103,12 +103,13 @@ The visual approach clearance may only be issued **after the pilot reports the a
 >
 > **TAM 3310, cleared visual approach runway 29L.**
 
-## Vectoring an aircraft on the STAR
+## Vectors and directs on the STAR
 
-An aircraft on a STAR already has a track and restrictions. Vectoring it changes that:
+An aircraft on a STAR already has a track and restrictions. Both a vector and a direct change that, but only the vector is vectoring. On a direct, the aircraft navigates on its own, and obstacle clearance follows the rules in [What about a direct?](01-fundamentos.en.md#what-about-a-direct):
 
 - **Direct to a point on the same STAR**: restrictions at the points bypassed are cancelled, and those still ahead remain in force[^16].
 - **Vector, or direct to a point off the STAR**: **all** level and speed restrictions of the STAR are cancelled. You must restate the cleared level, give any restrictions needed and say whether the aircraft will rejoin the STAR later[^17].
+- **Altitude off the STAR**: the minimum altitudes of the STAR protect only the published track. Off it, the cleared level must respect the minimum altitude for the area. Under vectoring, that is the vectoring altitude (ATCSMAC).
 - **Rejoining the STAR**: the instruction must contain the STAR (if not yet given), the cleared level and the point at which the aircraft rejoins[^18].
 
 > **PT ASN, turn left heading 260 vectors due traffic, descend to FL 050, expect to rejoin STAR at FRANC.**

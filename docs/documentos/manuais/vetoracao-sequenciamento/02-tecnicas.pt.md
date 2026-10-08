@@ -103,12 +103,13 @@ A autorização para a aproximação visual só pode ser emitida **depois que o 
 >
 > **TAM 3310, autorizado aproximação visual pista 29L.**
 
-## Vetorar uma aeronave na STAR
+## Vetores e diretos na STAR
 
-Uma aeronave numa STAR já tem trajetória e restrições. Vetorá-la muda isso:
+Uma aeronave numa STAR já tem trajetória e restrições. Tanto um vetor quanto um direto mudam isso, mas só o vetor é vetoração. No direto, a aeronave navega por conta própria, e a separação de obstáculos segue as regras de [E no direto?](01-fundamentos.pt.md#e-no-direto):
 
 - **Direto para um ponto da própria STAR**: as restrições dos pontos ultrapassados ficam canceladas, e as que ainda faltam continuam valendo[^16].
 - **Vetor, ou direto para um ponto fora da STAR**: **todas** as restrições de nível e de velocidade da STAR ficam canceladas. Você precisa reiterar o nível autorizado, dar as restrições que forem necessárias e avisar se a aeronave vai voltar à STAR depois[^17].
+- **Altitude no trecho fora da STAR**: as altitudes mínimas da STAR protegem só a trajetória publicada. Fora dela, o nível autorizado precisa respeitar a altitude mínima da área. Sob vetoração, essa altitude é a de vetoração (ATCSMAC).
 - **Voltar à STAR**: a instrução precisa conter a STAR (se ainda não tiver sido informada), o nível autorizado e o ponto em que a aeronave reingressa[^18].
 
 > **PT ASN, curva à esquerda proa 260, vetoração devido a tráfego, desça para FL 050, previsto reingressar na STAR em FRANC.**

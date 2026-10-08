@@ -36,7 +36,12 @@ While the ATS surveillance service is being provided, the pilot is **exempt from
 
 ## What vectoring is
 
-Vectoring means giving the aircraft **headings and levels** instead of the route it would fly on its own. ICA 100-37 is direct about what this implies[^9]:
+Vectoring means giving the aircraft **headings and levels** instead of the route it would fly on its own. The ATM Glossary defines vectoring as the "provision of navigational guidance to aircraft in the form of **specific headings**, based on the use of an ATS surveillance system"[^glossario].
+
+!!! info "A direct is not vectoring"
+    "Cleared direct LOMEN" is not a heading: the pilot navigates on their own to the fix. A direct is therefore not vectoring, even when it takes the aircraft off the published track of a STAR. MCA 100-16 treats the two cases separately, as "vectoring or direct flight"[^diretos]. The difference changes who is responsible for obstacle clearance. See [What about a direct?](#what-about-a-direct).
+
+ICA 100-37 is direct about what vectoring implies[^9]:
 
 !!! danger "Under vectoring, navigation is yours"
     "Whenever an aircraft is under vectoring, the Air Traffic Control Service shall be provided and **the controller shall be responsible for the navigation of the aircraft**, transmitting to it the heading instructions and level changes that become necessary."
@@ -66,6 +71,17 @@ In TMAs that have the chart, this information is on the **ATCSMAC** (ATC Surveil
     The MSA on the IAC is a **safe** altitude within 25 NM of the navigation aid. It is not the minimum vectoring altitude. Vectoring below the MSA is only safe with the ATCSMAC (or equivalent) at hand. Without it, keep the aircraft at or above the MSA until it is established on a published procedure.
 
 When the pilot asks to deviate around weather below the published minimum safe altitude, responsibility for obstacle clearance **goes back to the pilot**. The phraseology makes this explicit: the controller informs the minimum altitude and approves the deviation[^14].
+
+### What about a direct?
+
+For a direct given to an aircraft on its own navigation, the vectoring rule does not apply in the strict sense:
+
+- **The pilot remains responsible for terrain.** Outside vectoring, it is up to the pilot to ensure that the clearance is safe with respect to the ground[^10]. An IFR flight keeps the minimum level of the route and, off route, flies at least 1,000 ft (2,000 ft over mountainous terrain) above the highest obstacle within 8 km. Calculating that level is the pilot's job[^regras-do-ar].
+- **The controller does not clear below the published minimum.** The altitudes of a STAR protect only the published segments. On the direct leg, the reference is the minimum altitude for the area: the MSA or TAA of the IAC, the AMA or the ATCSMAC[^mca-desvio]. The controller must have these altitudes at hand[^13] and cannot issue a clearance below them[^altitudes-minimas].
+- **Under vectoring, a direct is still vectoring.** If the aircraft is already being vectored and is given a direct track that takes it off the ATS route, obstacle clearance remains with the controller until the point where the pilot resumes own navigation[^11]. That is why the phraseology ends vectoring with "resume own navigation, cleared direct…".
+
+!!! tip "In practice"
+    For a direct from own navigation, clear a level at or above the MSA (or TAA/AMA) of the segment. To clear below the MSA, use the ATCSMAC, which is published for use with surveillance. This is a combined reading of the rules cited: none of them says, literally, that a direct requires the ATCSMAC.
 
 ## Start, limits and termination
 
@@ -136,14 +152,16 @@ The distance is measured **between the centers of the targets**. Under no circum
 
 Based on pressure-altitude, an aircraft is considered to be[^32]:
 
-| Situation | Criterion (outside RVSM airspace) |
+| Situation | Criterion (RVSM airspace) |
 | --- | --- |
-| **Maintaining** the level | Within ±300 ft of the assigned level |
+| **Maintaining** the level | Within ±200 ft of the assigned level |
 | **Vacating** the level | Has moved more than 300 ft in the expected direction |
 | **Passing** a level when climbing or descending | Has gone more than 300 ft beyond it, in the expected direction |
-| **Reaching** the cleared level | Has been within ±300 ft for three updates or 15 seconds, whichever is greater |
+| **Reaching** the cleared level | Has been within ±200 ft for three updates or 15 seconds, whichever is greater |
 
-In RVSM airspace, the tolerance is ±200 ft. An aircraft may only be cleared to a level occupied by another **after the other has reported vacating it**. In severe turbulence, only after it has reported being at the new level[^33].
+Outside RVSM airspace, the tolerance for **maintaining** and **reaching** is ±300 ft. The criteria for **vacating** and **passing** do not change.
+
+An aircraft may only be cleared to a level occupied by another **after the other has reported vacating it**. In severe turbulence, only after it has reported being at the new level[^33].
 
 ### Wake turbulence
 
@@ -200,3 +218,8 @@ These minima apply when the following aircraft is flying behind the leading one,
 [^34]: **ICA 100-37, Arts. 956 and 959, Table 11**.
 [^35]: **ICA 100-37, Art. 960**.
 [^36]: **ICA 100-37, Arts. 206 and 208**.
+[^glossario]: **MCA 100-27, Glossário ATM, item 595**. ICA 100-37 refers to this glossary for its definitions (Art. 9°). See [MCA 100-27](https://publicacoes.decea.mil.br/publicacao/MCA-100-27) (*ATM Glossary*).
+[^diretos]: **MCA 100-16, Art. 115, items VI, VIII and IX**.
+[^regras-do-ar]: **ICA 100-12, Art. 137 and § 1°**. See [ICA 100-12](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*).
+[^mca-desvio]: **MCA 100-16, Art. 117**, which lists AMA, MSA, TAA and ATCSMAC as published minimum safe altitudes.
+[^altitudes-minimas]: **ICA 100-37, Art. 302**.

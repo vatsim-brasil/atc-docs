@@ -36,7 +36,12 @@ Com o Serviço de Vigilância ATS em curso, o piloto fica **dispensado de report
 
 ## O que é vetorar
 
-Vetorar é dar à aeronave **proas e níveis** em lugar da rota que ela seguiria por conta própria. A ICA 100-37 é direta sobre o que isso implica[^9]:
+Vetorar é dar à aeronave **proas e níveis** em lugar da rota que ela seguiria por conta própria. O Glossário ATM define a vetoração como a "provisão de orientação para navegação às aeronaves, em forma de **proas específicas** baseadas no uso de um Sistema de Vigilância ATS"[^glossario].
+
+!!! info "Um direto não é vetoração"
+    "Autorizado direto LOMEN" não é uma proa: o piloto navega por conta própria até o fixo. Por isso, um direto não é vetoração, mesmo quando tira a aeronave da trajetória publicada de uma STAR. O MCA 100-16 trata os dois casos separadamente, como "vetoração ou voo direto"[^diretos]. A diferença muda quem responde pela separação de obstáculos. Veja [E no direto?](#e-no-direto).
+
+A ICA 100-37 é direta sobre o que a vetoração implica[^9]:
 
 !!! danger "Sob vetoração, a navegação é sua"
     "Sempre que uma aeronave estiver sob vetoração, será proporcionado o Serviço de Controle de Tráfego Aéreo e **o controlador será o responsável pela navegação da aeronave**, devendo transmitir para a mesma as orientações de proa e as mudanças de nível que se tornarem necessárias."
@@ -66,6 +71,17 @@ Nas TMAs que têm a carta, essa informação está na **ATCSMAC** (Carta de Alti
     A MSA da IAC é uma altitude de **segurança** num raio de 25 NM do auxílio. Ela não é a altitude mínima de vetoração. Vetorar abaixo da MSA só é seguro com a ATCSMAC (ou equivalente) na mão. Sem ela, mantenha a aeronave na MSA, ou acima dela, até que esteja estabilizada num procedimento publicado.
 
 Quando o piloto pede para desviar de uma formação abaixo da altitude mínima de segurança publicada, a responsabilidade pela separação de obstáculos **volta para ele**. A fraseologia deixa isso explícito: o controlador informa a altitude mínima e aprova o desvio[^14].
+
+### E no direto?
+
+Num direto dado a uma aeronave em navegação própria, a regra da vetoração não se aplica em sentido estrito:
+
+- **O piloto continua responsável pelo terreno.** Fora da vetoração, cabe ao piloto assegurar que a autorização é segura em relação ao solo[^10]. O voo IFR mantém o nível mínimo da rota e, fora de rota, voa pelo menos 1.000 pés (2.000 pés em área montanhosa) acima do obstáculo mais alto num raio de 8 km. O cálculo desse nível é do piloto[^regras-do-ar].
+- **O controlador não autoriza abaixo do mínimo publicado.** As altitudes de uma STAR protegem só os segmentos publicados. No trecho direto, a referência é a altitude mínima da área: MSA ou TAA da IAC, AMA ou ATCSMAC[^mca-desvio]. O controlador precisa ter essas altitudes à mão[^13] e não pode emitir autorização abaixo delas[^altitudes-minimas].
+- **Sob vetoração, o direto continua sendo vetoração.** Se a aeronave já estiver sendo vetorada e receber uma trajetória direta que a desvie da rota ATS, a separação de obstáculos continua com o controlador até o ponto em que o piloto reassume a navegação[^11]. É por isso que a fraseologia encerra a vetoração com "reassuma navegação, autorizado direto…".
+
+!!! tip "Na prática"
+    No direto a partir da navegação própria, autorize um nível igual ou acima da MSA (ou TAA/AMA) do trecho. Para autorizar abaixo da MSA, use a ATCSMAC, que é publicada para uso com vigilância. Esta é uma leitura combinada das normas citadas: nenhuma delas diz, literalmente, que o direto exige a ATCSMAC.
 
 ## Início, limites e término
 
@@ -136,14 +152,16 @@ A distância é medida **entre os centros dos alvos**. Em nenhuma circunstância
 
 Pela altitude-pressão, uma aeronave é considerada[^32]:
 
-| Situação | Critério (fora de espaço RVSM) |
+| Situação | Critério (espaço aéreo RVSM) |
 | --- | --- |
-| **Mantendo** o nível | Dentro de ±300 pés do nível atribuído |
+| **Mantendo** o nível | Dentro de ±200 pés do nível atribuído |
 | **Livrando** o nível | Variou mais de 300 pés na direção prevista |
 | **Cruzando** um nível na subida ou descida | Passou mais de 300 pés além dele, na direção prevista |
-| **Atingindo** o nível autorizado | Está dentro de ±300 pés há três renovações ou 15 segundos, o que for maior |
+| **Atingindo** o nível autorizado | Está dentro de ±200 pés há três renovações ou 15 segundos, o que for maior |
 
-Em espaço aéreo RVSM, a tolerância passa a ser de ±200 pés. Uma aeronave só pode ser autorizada a um nível ocupado por outra **depois que esta informar que o livrou**. Com turbulência forte, só depois de informar que já está no novo nível[^33].
+Fora do espaço aéreo RVSM, a tolerância de **mantendo** e **atingindo** passa a ser de ±300 pés. Os critérios de **livrando** e **cruzando** não mudam.
+
+Uma aeronave só pode ser autorizada a um nível ocupado por outra **depois que esta informar que o livrou**. Com turbulência forte, só depois de informar que já está no novo nível[^33].
 
 ### Esteira de turbulência
 
@@ -200,3 +218,8 @@ Esses mínimos valem quando a aeronave de trás segue a rota da da frente, ou a 
 [^34]: **ICA 100-37, Arts. 956 e 959, Tabela 11**.
 [^35]: **ICA 100-37, Art. 960**.
 [^36]: **ICA 100-37, Arts. 206 e 208**.
+[^glossario]: **MCA 100-27, Glossário ATM, item 595**. A ICA 100-37 remete a esse glossário para as definições (Art. 9°). Ver [MCA 100-27](https://publicacoes.decea.mil.br/publicacao/MCA-100-27).
+[^diretos]: **MCA 100-16, Art. 115, incisos VI, VIII e IX**.
+[^regras-do-ar]: **ICA 100-12, Art. 137 e § 1°**. Ver [ICA 100-12](https://publicacoes.decea.mil.br/publicacao/ica-100-12).
+[^mca-desvio]: **MCA 100-16, Art. 117**, que relaciona AMA, MSA, TAA e ATCSMAC como altitudes mínimas de segurança publicadas.
+[^altitudes-minimas]: **ICA 100-37, Art. 302**.
