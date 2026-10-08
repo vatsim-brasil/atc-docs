@@ -126,3 +126,4 @@
 *[NM]: Milha Náutica / Nautical Mile
 *[AMA]: Altitude Mínima de Área / Area Minimum Altitude
 *[TAA]: Altitude de Chegada em Terminal / Terminal Arrival Altitude
+*[UNICOM]: Frequência de aconselhamento ar-ar / Universal Communications
