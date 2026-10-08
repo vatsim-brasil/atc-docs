@@ -44,9 +44,9 @@ This manual covers:
 
 The following are not part of this manual:
 
-- coordination between units and transfer of control, which will have their own manual;
-- procedural separation (by time, DME distance or position report);
-- time-based wake turbulence minima on the runway, which belong to aerodrome control;
+- coordination between units and transfer of control, which are in the [Coordination and Transfer Manual](../coordenacao-transferencia/index.en.md);
+- procedural separation (by time, DME distance or position report), which is in the [Separation and Wake Turbulence Manual](../separacao-esteira/03-horizontal.en.md);
+- time-based wake turbulence minima on the runway, which belong to aerodrome control and are in the [Separation and Wake Turbulence Manual](../separacao-esteira/04-esteira.en.md);
 - surveillance radar and precision radar (PAR) approaches, which DECEA restricts to specific cases in Brazil[^3];
 - operations on parallel runways.
 
