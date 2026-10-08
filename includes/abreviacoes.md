@@ -113,3 +113,14 @@
 *[DETRESFA]: Fase de Perigo / Distress Phase
 *[GCAP]: Política Global de Administração de Controladores / Global Controller Administration Policy
 *[CGNA]: Centro de Gerenciamento da Navegação Aérea / Air Navigation Management Center
+*[ILS]: Sistema de Pouso por Instrumentos / Instrument Landing System
+*[LOC]: Localizador / Localizer
+*[FAP]: Ponto de Aproximação Final / Final Approach Point
+*[FAF]: Fixo de Aproximação Final / Final Approach Fix
+*[ATCSMAC]: Carta de Altitude Mínima de Vigilância ATC / ATC Surveillance Minimum Altitude Chart
+*[MSA]: Altitude Mínima de Setor / Minimum Sector Altitude
+*[TAS]: Velocidade Verdadeira / True Airspeed
+*[PSR]: Radar Primário de Vigilância / Primary Surveillance Radar
+*[MLAT]: Multilateração / Multilateration
+*[PAR]: Radar de Aproximação de Precisão / Precision Approach Radar
+*[NM]: Milha Náutica / Nautical Mile

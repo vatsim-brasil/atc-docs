@@ -24,6 +24,7 @@ Explore a documentação técnica operacional através dos links abaixo:
 * [**Manual de Fraseologia Aeronáutica**](manuais/fraseologia-aeronautica/index.pt.md): Guia de padronização para comunicações radiotelefônicas claras, objetivas e enxutas entre pilotos e controladores de tráfego aéreo, em conformidade com o **MCA 100-16** e **MCA 100-21**.
 * [**Manual de Plano de Voo (FPL)**](manuais/manual-plano-de-voo/index.pt.md): Instruções práticas para o preenchimento, análise e correção de Planos de Voo (FPL) com base no padrão OACI utilizado no Brasil, detalhando o preenchimento dos campos principais e do crítico **Item 18**.
 * [**Manual de Meteorologia Aeronáutica**](manuais/meteorologia-aeronautica/index.pt.md): Instruções completas para leitura, interpretação e aplicação prática de mensagens meteorológicas e avisos aeronáuticos (**METAR, SPECI, TAF e SIGMET**), fundamentais para a tomada de decisão operacional.
+* [**Manual de Vetoração e Sequenciamento**](manuais/vetoracao-sequenciamento/index.pt.md): Vetoração radar, ajuste de velocidade e sequenciamento das chegadas na aproximação, da identificação da aeronave até a transferência para a torre, com base na **ICA 100-37** e no **MCA 100-16**.
 
 
 ## Limitação de Responsabilidade

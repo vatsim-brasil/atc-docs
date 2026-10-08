@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" font-family="Ubuntu, 'DejaVu Sans', Arial, sans-serif">
+  <rect width="800" height="260" fill="#262c33"/>
+  <text x="20" y="30" fill="#eceff1" font-size="15" font-weight="bold">Glide path interception (profile)</text>
+  <text x="20" y="50" fill="#90a4ae" font-size="12">3° glide path: about 300 feet per mile. Vertical scale exaggerated.</text>
+  <!-- solo -->
+  <line x1="40" y1="220" x2="780" y2="220" stroke="#78909c" stroke-width="2"/>
+  <rect x="60" y="214" width="60" height="6" fill="#cfd8dc"/>
+  <text x="90" y="240" fill="#cfd8dc" font-size="12" text-anchor="middle">Threshold</text>
+  <!-- rampa: de (120,220) até (740,80) -->
+  <line x1="120" y1="220" x2="740" y2="80" stroke="#4fc3f7" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="470" y="132" fill="#4fc3f7" font-size="13" transform="rotate(-12.7 470 132)">Glide path</text>
+  <!-- FAP no ponto (450,145.5) -->
+  <line x1="450" y1="140" x2="450" y2="220" stroke="#ffffff" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="450" y="240" fill="#ffffff" font-size="12" text-anchor="middle">FAP</text>
+  <!-- voo nivelado na altitude de interceptação, abaixo da rampa -->
+  <line x1="770" y1="146" x2="450" y2="146" stroke="#ffd54f" stroke-width="3"/>
+  <line x1="450" y1="146" x2="120" y2="220" stroke="#ffd54f" stroke-width="3"/>
+  <circle cx="450" cy="146" r="5" fill="#ffd54f"/>
+  <text x="620" y="168" fill="#ffd54f" font-size="13" text-anchor="middle">Level at the last assigned level,</text>
+  <text x="620" y="184" fill="#ffd54f" font-size="13" text-anchor="middle">already established on final</text>
+  <text x="300" y="170" fill="#ffd54f" font-size="13" text-anchor="end">Intercepts the glide path from below</text>
+  <!-- contra-exemplo -->
+  <line x1="775" y1="70" x2="700" y2="70" stroke="#ef5350" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="700" y1="70" x2="640" y2="97" stroke="#ef5350" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="690" y="62" fill="#ef5350" font-size="12" text-anchor="end">Above the glide path: avoid</text>
+</svg>

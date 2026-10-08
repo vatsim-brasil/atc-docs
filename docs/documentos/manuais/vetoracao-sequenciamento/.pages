@@ -1,0 +1,10 @@
+title: Manual de Vetoração e Sequenciamento
+collapse: false
+nav:
+  - ... | glob=index*.md
+  - ... | glob=01-fundamentos*.md
+  - ... | glob=02-tecnicas*.md
+  - ... | glob=03-velocidade*.md
+  - ... | glob=04-sequenciamento*.md
+  - ... | glob=05-fraseologia*.md
+  - ... | glob=06-checklist*.md
