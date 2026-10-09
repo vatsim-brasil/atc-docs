@@ -1,67 +1,43 @@
 {% extends "main.html" %}
+{% import "partials/vb-home.html" as vb with context %}
+
 {% block tabs %}
 {{ super() }}
-<link rel="stylesheet" href="assets/stylesheets/home.css">
-<!-- Hero -->
-<section class="container">
-    <div class="md-grid md-typeset">
-        <div class="hero">
-            <div class="hero-content">
-                <h1> Hello! </h1>
-                    <p>Welcome to Vatbrz Portal ATC. You'll find here instructions and padronizations for aerodromes, terminals and centres, as well as any other information relevant to air traffic control.</p>
-                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
-                    Let's go!
-                </a>
-                <a href="http://www.vatsim.com.br" title="VATBRZ Website" class="md-button">
-                    Go back to Vatbrz website
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Page links -->
-
-<div class="lowerSection">
-    <div class="md-grid md-typeset">
-        <div class="feature">
-					<h2>Recent Changes</h2>
-
-					<div class="cards">
-                        <div class="card">
-                            <a href="">
-                                <h3>Update on the EuroScope Installation Process</h3>
-
-                                <p>
-                                    The EuroScope installation procedure has been updated.
-                                </p>
-                            </a>
-                        </div>
-
-                        <div class="card">
-                            <a href="">
-                                <h3>New Sectorizations</h3>
-
-                                <p>
-                                    Details of the new sectorizations of Brazil's FIR have been published, with specific instructions regarding their activation, operation, and coordination.
-                                </p>
-                            </a>
-                        </div>
-                        
-                        <div class="card">
-                            <a href="">
-                                <h3>Aerodrome Operations</h3>
-
-                                <p>
-                                    Standardized and specific procedures for each aerodrome have been published, aiming to gather various information spread across different regulations.
-                                </p>
-                            </a>
-						</div>
-					</div>
-
-				</div>
-    </div>
-</div>
-
+{% set t = {
+  "kicker": "Vatsim Brasil · Air Traffic Control",
+  "titulo": "Everything you need <em>on frequency.</em>",
+  "lede": "Local procedures for aerodromes, terminals and centres, operational manuals and controller software, all in one place.",
+  "busca": "Search an aerodrome, frequency, procedure…",
+  "comecar": "Get started",
+  "voltar": "Vatbrz website",
+  "data": "Date",
+  "numeros": "Portal coverage",
+  "n_ad": "Aerodromes",
+  "n_tma": "Terminals",
+  "n_fir": "Flight information regions",
+  "n_manuais": "Manuals",
+  "secoes_rotulo": "Sections",
+  "secoes_titulo": "Where would you like to start?",
+  "blocos": [
+    {"codigo": "01", "icone": "material/school-outline", "titulo": "Fundamentals", "texto": "Registration, training and setting up EuroScope, TrackAudio and vATIS.", "link": "fundamentos/", "destaque": true},
+    {"codigo": "02", "icone": "material/book-open-page-variant-outline", "titulo": "Documents", "texto": "Manuals on phraseology, separation, vectoring, coordination and more.", "link": "documentos/"},
+    {"codigo": "TWR", "icone": "material/airport", "titulo": "Aerodromes", "texto": "Runways, ATC units, frequencies and local rules for each aerodrome.", "link": "MOP/aerodromos/"},
+    {"codigo": "APP", "icone": "material/radar", "titulo": "Terminals", "texto": "Sectorisation, top-down coverage and TMA charts.", "link": "MOP/terminais/"},
+    {"codigo": "ACC", "icone": "material/earth", "titulo": "Centers", "texto": "Continental FIR sectors, opening and coordination.", "link": "MOP/centros/"},
+    {"codigo": "OCA", "icone": "material/waves", "titulo": "Oceanic", "texto": "Oceanic control in the Atlântico FIR, for ATC and pilots.", "link": "MOP/oceanico/"}
+  ],
+  "novidades_rotulo": "Recent changes",
+  "novidades_titulo": "Latest publications",
+  "novidades": [
+    {"data": "08 OCT", "tipo": "manual", "rotulo": "Manual", "titulo": "Coordination and Transfer", "texto": "Coordination between positions, transfer of control and top-down coverage.", "link": "documentos/manuais/coordenacao-transferencia/"},
+    {"data": "08 OCT", "tipo": "manual", "rotulo": "Manual", "titulo": "Vectoring and Sequencing", "texto": "From radar identification to handoff to the tower, including speed control.", "link": "documentos/manuais/vetoracao-sequenciamento/"},
+    {"data": "07 OCT", "tipo": "tma", "rotulo": "Terminals", "titulo": "Visual charts and AICs on TMAs", "texto": "Embedded VFR charts and VFR circulars on every terminal page.", "link": "MOP/terminais/"},
+    {"data": "30 SEP", "tipo": "fir", "rotulo": "Centers", "titulo": "FIR sector maps", "texto": "Interactive sector maps for the Amazônica, Brasília, Curitiba and Recife FIRs.", "link": "MOP/centros/"}
+  ],
+  "aviso": "Content intended exclusively for flight simulation on the VATSIM network. Do not use for real-world operations."
+} %}
+{{ vb.home(t) }}
 {% endblock %}
-{% block content %}{% endblock %}
+
+{% block content %}
+{% endblock %}

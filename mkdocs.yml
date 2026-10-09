@@ -15,7 +15,7 @@ theme:
     repo: fontawesome/brands/github
   font:
     text: "Ubuntu Sans"
-    code: "Ubuntu Mono"
+    code: "Ubuntu Sans Mono"
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -113,14 +113,15 @@ extra_javascript:
   - javascripts/metar.js
   - javascripts/tma-meteo.js
   - javascripts/pdf-embed.js
+  - javascripts/home.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 extra_css:
-  - stylesheets/nav.css
-  - stylesheets/theme.css
   - stylesheets/extra.css
+  # theme.css vem por último para prevalecer sobre os estilos legados
+  - stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css
   - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 
