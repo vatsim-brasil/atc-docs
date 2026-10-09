@@ -1630,7 +1630,89 @@ body {
 
 .vb-404 {
   text-align: center;
-  padding: 3rem 0 2rem;
+  padding: 2rem 0 2rem;
+}
+
+/* Sem barras laterais, o conteúdo fica centralizado na grade */
+.md-main:has(.vb-404) .md-sidebar {
+  display: none;
+}
+
+.md-main:has(.vb-404) .md-content {
+  max-width: none;
+}
+
+.md-main:has(.vb-404) .md-content__inner {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+/* Ilustração: o alvo some do radar depois do último eco */
+.vb-404__radar {
+  position: relative;
+  width: min(15rem, 70vw);
+  aspect-ratio: 1;
+  margin: 0 auto 1.6rem;
+}
+
+.vb-404__radar .vb-radar__aneis * {
+  vector-effect: non-scaling-stroke;
+}
+
+.vb-404__rastro rect {
+  fill: var(--vb-radar);
+}
+
+.vb-404__projecao {
+  fill: none;
+  stroke: rgba(227, 111, 111, 0.55);
+  stroke-width: 1.2;
+  stroke-dasharray: 3 5;
+}
+
+.vb-404__ultima {
+  fill: none;
+  stroke: rgba(227, 111, 111, 0.7);
+  stroke-dasharray: 4 4;
+  transform-origin: 371px 225px;
+  animation: vb-404-anel 2.4s ease-out infinite;
+}
+
+.vb-404 .vb-alvo--perdido {
+  color: var(--vb-red);
+  animation: vb-404-pisca 1.2s steps(2, jump-none) infinite;
+}
+
+.vb-404 .vb-alvo--perdido span {
+  text-shadow: 0 0 8px rgba(227, 111, 111, 0.6);
+}
+
+.vb-404 .vb-alvo--perdido i {
+  border-style: dashed;
+}
+
+@keyframes vb-404-pisca {
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@keyframes vb-404-anel {
+  from {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  to {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vb-404__ultima,
+  .vb-404 .vb-alvo--perdido {
+    animation: none;
+  }
 }
 
 .vb-404__codigo {
