@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Coordenação e Transferência - Checklist](img/manual-coordenacao-checklist.png)
-
-#
+# Checklist Rápido
 
 ## Ao abrir a posição
 

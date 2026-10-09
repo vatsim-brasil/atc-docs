@@ -5,9 +5,7 @@ icon: material/weather-cloudy
 
 --8<-- "includes/abreviacoes.md"
 
-![Weather Manual - Introduction](img/manual-meteorologia-intro.png)
-
-#
+# Introduction
 
 ## Overview
 

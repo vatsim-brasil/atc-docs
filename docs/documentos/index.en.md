@@ -7,9 +7,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Documents](img/head-documentos.png)
+# Documents
 
 In this section, you will find the essential **Operational Manuals and Publications** for the training, standardisation and reference of air traffic controllers at Vatsim Brasil. 
 

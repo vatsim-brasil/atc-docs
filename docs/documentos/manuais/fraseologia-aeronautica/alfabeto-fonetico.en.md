@@ -5,9 +5,7 @@ icon: material/alphabetical
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Phonetic Alphabet](img/manual-fraseologia-alfabeto.png)
-
-#
+# Phonetic Alphabet
 
 When it is necessary to spell out proper names, service abbreviations and words of doubtful pronunciation in radiotelephony, the following phonetic alphabet is used:
 

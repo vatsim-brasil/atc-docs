@@ -5,9 +5,7 @@ icon: material/format-list-numbered
 
 --8<-- "includes/abreviacoes.md"
 
-![Vectoring and Sequencing Manual - Sequencing](img/manual-vetoracao-sequenciamento.png)
-
-#
+# Sequencing
 
 ## The goal
 

@@ -5,9 +5,7 @@ icon: material/book-open-variant
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Concepts](img/manual-fraseologia-voo-visual-conceitos.png)
-
-#
+# Visual Flight Concepts
 
 ## What changes in visual flight
 

@@ -5,9 +5,7 @@ icon: material/microphone-message
 
 --8<-- "includes/abreviacoes.md"
 
-![Vectoring and Sequencing Manual - Phraseology](img/manual-vetoracao-fraseologia.png)
-
-#
+# Phraseology
 
 ## How to use this page
 

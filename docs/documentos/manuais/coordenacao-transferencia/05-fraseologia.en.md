@@ -5,9 +5,7 @@ icon: material/microphone-message
 
 --8<-- "includes/abreviacoes.md"
 
-![Coordination and Transfer Manual - Phraseology](img/manual-coordenacao-fraseologia.png)
-
-#
+# Phraseology
 
 ## How to use this page
 

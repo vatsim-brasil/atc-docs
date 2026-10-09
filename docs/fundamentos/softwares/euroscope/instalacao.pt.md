@@ -4,9 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Fundamentos - Euroscope - Visão Geral](img/head-euroscope-instalacao.png)
+# Instalação
 
 ## Download
 

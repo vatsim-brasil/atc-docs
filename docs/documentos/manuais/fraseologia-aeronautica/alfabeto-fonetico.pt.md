@@ -5,9 +5,7 @@ icon: material/alphabetical
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Alfabeto Fonético](img/manual-fraseologia-alfabeto.png)
-
-#
+# Alfabeto Fonético
 
 Quando for necessário soletrar, em radiotelefonia, nomes próprios, abreviaturas de serviços e palavras de pronúncia duvidosa, usa-se o alfabeto fonético que se apresenta a seguir:
 

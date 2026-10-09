@@ -4,9 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Fundamentos - Euroscope - Comandos](img/head-euroscope-comandos.png)
+# Guia de Comandos
 
 Este guia reúne os principais atalhos de teclado e comandos de linha do **EuroScope**.
 

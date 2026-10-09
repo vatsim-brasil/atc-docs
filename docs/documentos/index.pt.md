@@ -7,9 +7,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Documentos](img/head-documentos.png)
+# Documentos
 
 Nesta seção, você encontrará os **Manuais Operacionais e Publicações** essenciais para a instrução, padronização e consulta dos controladores de tráfego aéreo na Vatsim Brasil. 
 

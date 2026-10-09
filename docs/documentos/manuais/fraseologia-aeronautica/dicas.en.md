@@ -5,9 +5,7 @@ icon: material/lightbulb-on
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Tips for Controllers](img/manual-fraseologia-dicas.png)
-
-#
+# Important Tips
 
 ## Tips for Controllers
 

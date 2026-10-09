@@ -5,9 +5,7 @@ icon: material/sitemap-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Coordination and Transfer Manual - Coordination between Units](img/manual-coordenacao-orgaos.png)
-
-#
+# Coordination between Units
 
 ## How to read this page
 

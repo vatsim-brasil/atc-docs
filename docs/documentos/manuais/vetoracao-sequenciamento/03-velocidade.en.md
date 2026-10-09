@@ -5,9 +5,7 @@ icon: material/speedometer
 
 --8<-- "includes/abreviacoes.md"
 
-![Vectoring and Sequencing Manual - Speed Control](img/manual-vetoracao-velocidade.png)
-
-#
+# Speed Control
 
 ## Why control speed
 

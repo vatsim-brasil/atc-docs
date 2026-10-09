@@ -5,9 +5,7 @@ icon: material/weather-sunny
 
 --8<-- "includes/abreviacoes.md"
 
-![Weather Manual - METAR and SPECI](img/manual-meteorologia-metar-speci.png)
-
-#
+# METAR and SPECI
 
 ## Definition
 

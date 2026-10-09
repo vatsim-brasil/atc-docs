@@ -5,9 +5,7 @@ icon: material/handshake-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Coordenação e Transferência - Fundamentos](img/manual-coordenacao-fundamentos.png)
-
-#
+# Fundamentos da Coordenação
 
 ## O que é coordenar
 

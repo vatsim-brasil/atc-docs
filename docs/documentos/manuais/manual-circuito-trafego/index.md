@@ -5,8 +5,6 @@ icon: material/airplane
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
 ## Apresentação
 
 Bem-vindo ao Manual de Circuito de Tráfego, um guia prático e objetivo desenvolvido para auxiliar profissionais da aviação e entusiastas na compreensão e aplicação dos procedimentos de circuito de tráfego em aeródromos.

@@ -5,9 +5,7 @@ icon: material/altimeter
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Espaço Aéreo e Serviços ATS - Regras](img/manual-espaco-aereo-regras.png)
-
-#
+# Regras de Voo e Níveis
 
 ## Níveis de cruzeiro
 

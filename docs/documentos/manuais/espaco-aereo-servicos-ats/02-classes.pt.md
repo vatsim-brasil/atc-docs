@@ -5,9 +5,7 @@ icon: material/format-list-group
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Espaço Aéreo e Serviços ATS - Classes](img/manual-espaco-aereo-classes.png)
-
-#
+# Classes de Espaço Aéreo
 
 ## Por que existem classes
 

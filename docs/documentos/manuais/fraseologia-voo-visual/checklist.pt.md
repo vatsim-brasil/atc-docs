@@ -5,9 +5,7 @@ icon: material/clipboard-check
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia para Voo Visual - Checklist Rápido](img/manual-fraseologia-voo-visual-checklist.png)
-
-#
+# Checklist Rápido
 
 Use esta página como revisão final antes de entrar na rede. Ela não substitui a leitura dos capítulos anteriores, apenas condensa o que precisa estar na ponta da língua.
 

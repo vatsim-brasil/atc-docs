@@ -5,9 +5,7 @@ icon: material/lan-connect
 
 --8<-- "includes/abreviacoes.md"
 
-![Coordination and Transfer Manual - Coordination on the Network](img/manual-coordenacao-rede.png)
-
-#
+# Coordination on the Network
 
 ## What changes on VATSIM
 

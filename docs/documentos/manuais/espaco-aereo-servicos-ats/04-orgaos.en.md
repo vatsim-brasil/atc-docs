@@ -5,9 +5,7 @@ icon: material/account-tie-hat
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Units](img/manual-espaco-aereo-orgaos.png)
-
-#
+# ATS Units and Positions
 
 ## ATS unit and network position
 

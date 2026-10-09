@@ -4,7 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentals - vATIS - Installation](img/head-vatis-instalacao.png)
+# Installation
 
 ## Configuration
 

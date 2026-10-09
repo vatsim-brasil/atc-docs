@@ -3,9 +3,7 @@ title: Item 18 (Outros Dados)
 icon: material/information-outline
 ---
 
-![Manual de Plano de Voo (FPL) - Item 18](img/manual-plano-de-voo-item-18.png)
-
-#
+# Item 18 (Outros Dados)
 
 O ITEM 18 é onde você “fecha o contrato” do plano: detalhes de performance, RNAV/PBN, pontos especiais e observações.
 

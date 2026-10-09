@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Checklist](img/manual-espaco-aereo-checklist.png)
-
-#
+# Quick Checklist
 
 ## Before connecting
 

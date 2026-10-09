@@ -5,9 +5,7 @@ icon: material/alert-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Specific Situations](img/manual-fraseologia-voo-visual-situacoes.png)
-
-#
+# Specific Situations
 
 Not every visual flight follows the script. This page brings together the situations that come up most often in day-to-day VFR operations, in catalogue format, for quick reference.
 

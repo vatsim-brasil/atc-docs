@@ -8,7 +8,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentals - Registration](img/head-fundamentos-inscricao.png)
+# Joining Vatbrz
 
 Ready to begin your journey with Vatsim Brasil and launch your career as a virtual ATC? Start here with all the essential guides you need to get going!
 

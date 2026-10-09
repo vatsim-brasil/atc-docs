@@ -5,9 +5,7 @@ icon: material/vector-polyline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Técnicas](img/manual-vetoracao-tecnicas.png)
-
-#
+# Técnicas de Vetoração
 
 ## Antes do primeiro vetor
 

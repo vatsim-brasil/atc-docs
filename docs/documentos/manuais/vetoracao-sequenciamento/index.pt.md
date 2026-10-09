@@ -5,9 +5,7 @@ icon: material/radar
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Introdução](img/manual-vetoracao-intro.png)
-
-#
+# Introdução
 
 ## Apresentação
 

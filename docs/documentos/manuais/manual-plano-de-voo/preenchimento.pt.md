@@ -3,9 +3,7 @@ title: Preenchimento do FPL (Campos principais)
 icon: material/file-edit
 ---
 
-![Manual de Plano de Voo (FPL) - Preenchimento do FPL](img/manual-plano-de-voo-preenchimento.png)
-
-#
+# Preenchimento do FPL (Campos principais)
 
 Esta seção cobre os campos que normalmente **sempre** aparecem em um FPL consistente.
 

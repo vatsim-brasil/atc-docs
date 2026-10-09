@@ -7,9 +7,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Fundamentos - Visão Geral](img/head-fundamentos-visaogeral.png)
+# Fundamentos
 
 Pronto para começar sua jornada com a Vatsim Brasil e lançar sua carreira como ATC virtual? Comece aqui com todos os guias essenciais para você iniciar!
 

@@ -5,9 +5,7 @@ icon: material/layers-triple
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Structure](img/manual-espaco-aereo-estrutura.png)
-
-#
+# Airspace Structure
 
 ## Controlled and uncontrolled airspace
 

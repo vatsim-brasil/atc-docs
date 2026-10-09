@@ -5,9 +5,7 @@ icon: octicons/number-16
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Numbers](img/manual-fraseologia-algarismos.png)
-
-#
+# Numbers
 
 All numbers shall be transmitted by pronouncing each digit separately, except in the cases described below.
 

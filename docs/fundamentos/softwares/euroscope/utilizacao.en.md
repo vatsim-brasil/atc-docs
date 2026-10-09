@@ -4,8 +4,6 @@
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Fundamentals - Euroscope - Usage](img/head-euroscope-utilizacao.png)
+# Usage
 
 🧑‍🏭 Under construction.

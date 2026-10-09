@@ -3,9 +3,7 @@ title: Exemplos práticos
 icon: material/book-open-page-variant
 ---
 
-![Manual de Plano de Voo (FPL) - Exemplos](img/manual-plano-de-voo-exemplos.png)
-
-#
+# Exemplos práticos
 
 Os exemplos abaixo são pensados para **simulação** (VATSIM) e servem como referência de consistência.
 

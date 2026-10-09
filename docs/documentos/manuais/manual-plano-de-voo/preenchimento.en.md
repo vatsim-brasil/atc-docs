@@ -3,9 +3,7 @@ title: Filling in the FPL (Main fields)
 icon: material/file-edit
 ---
 
-![Flight Plan Manual (FPL) - Filling in the FPL](img/manual-plano-de-voo-preenchimento.png)
-
-#
+# Filling in the FPL (Main fields)
 
 This section covers the fields that normally **always** appear in a consistent FPL.
 

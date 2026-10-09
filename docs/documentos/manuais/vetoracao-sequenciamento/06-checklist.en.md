@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Vectoring and Sequencing Manual - Checklist](img/manual-vetoracao-checklist.png)
-
-#
+# Quick Checklist
 
 ## Before opening the position
 

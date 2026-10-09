@@ -5,9 +5,7 @@ icon: material/vector-square
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia para Voo Visual - Circuito de Tráfego](img/manual-fraseologia-voo-visual-circuito.png)
-
-#
+# Circuito de Tráfego
 
 O circuito de tráfego é o retângulo voado ao redor da pista em uso. Ele existe para que todo mundo faça a mesma coisa, no mesmo lugar, na mesma altitude, tornando previsível o comportamento de cada aeronave.
 

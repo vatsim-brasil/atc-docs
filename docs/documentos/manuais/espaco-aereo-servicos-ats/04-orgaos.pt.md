@@ -5,9 +5,7 @@ icon: material/account-tie-hat
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Espaço Aéreo e Serviços ATS - Órgãos](img/manual-espaco-aereo-orgaos.png)
-
-#
+# Órgãos ATS e Posições
 
 ## Órgão ATS e posição na rede
 

@@ -5,9 +5,7 @@ icon: material/microphone
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Communication Examples](img/manual-fraseologia-exemplo.png)
-
-#
+# Communication Examples
 
 For practical purposes, below is an example of a complete flight, from the initial contact with Clearance Delivery, the ATC unit that issues the flight plan clearance, to the contact with Ground at the destination. Consider this example under normal conditions, without any adverse situations.
 

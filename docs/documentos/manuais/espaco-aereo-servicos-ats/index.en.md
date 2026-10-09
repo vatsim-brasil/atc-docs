@@ -5,9 +5,7 @@ icon: material/map-marker-radius
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Introduction](img/manual-espaco-aereo-intro.png)
-
-#
+# Introduction
 
 ## Overview
 

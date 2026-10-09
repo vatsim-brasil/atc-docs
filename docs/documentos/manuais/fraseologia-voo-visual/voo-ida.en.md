@@ -5,9 +5,7 @@ icon: material/microphone
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Outbound Flight](img/manual-fraseologia-voo-visual-ida.png)
-
-#
+# Outbound Flight (Controlled to Uncontrolled)
 
 ## :material-numeric-0-box: Preliminaries
 

@@ -5,9 +5,7 @@ icon: material/headset
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Services](img/manual-espaco-aereo-servicos.png)
-
-#
+# Air Traffic Services
 
 ## The air traffic services
 

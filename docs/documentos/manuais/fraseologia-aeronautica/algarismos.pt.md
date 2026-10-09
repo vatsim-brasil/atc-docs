@@ -5,9 +5,7 @@ icon: octicons/number-16
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Algarismos](img/manual-fraseologia-algarismos.png)
-
-#
+# Algarismos
 
 Todos os números devem ser transmitidos com a pronúncia de cada dígito separadamente, exceto nos casos previstos abaixo.
 

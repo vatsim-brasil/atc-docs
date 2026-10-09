@@ -5,9 +5,7 @@ icon: material/altimeter
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Rules](img/manual-espaco-aereo-regras.png)
-
-#
+# Flight Rules and Levels
 
 ## Cruising levels
 

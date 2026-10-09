@@ -5,9 +5,7 @@ icon: material/microphone
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia para Voo Visual - Voo de Ida](img/manual-fraseologia-voo-visual-ida.png)
-
-#
+# Voo de Ida (Controlado para Não Controlado)
 
 ## :material-numeric-0-box: Preliminares
 
