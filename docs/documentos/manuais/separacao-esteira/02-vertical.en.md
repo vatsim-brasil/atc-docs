@@ -5,9 +5,7 @@ icon: material/arrow-up-down
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Vertical Separation](img/manual-separacao-vertical.png)
-
-#
+# Vertical Separation
 
 ## The simplest form
 

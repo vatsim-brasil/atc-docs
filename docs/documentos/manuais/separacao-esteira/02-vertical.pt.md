@@ -5,9 +5,7 @@ icon: material/arrow-up-down
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Separação Vertical](img/manual-separacao-vertical.png)
-
-#
+# Separação Vertical
 
 ## A forma mais simples
 

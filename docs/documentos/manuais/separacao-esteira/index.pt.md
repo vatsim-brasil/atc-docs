@@ -5,9 +5,7 @@ icon: material/arrow-expand-vertical
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Introdução](img/manual-separacao-intro.png)
-
-#
+# Introdução
 
 ## Apresentação
 

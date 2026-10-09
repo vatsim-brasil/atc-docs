@@ -5,9 +5,7 @@ icon: material/airport
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Separação no Aeródromo](img/manual-separacao-aerodromo.png)
-
-#
+# Separação no Aeródromo
 
 ## A pista é de uma aeronave por vez
 

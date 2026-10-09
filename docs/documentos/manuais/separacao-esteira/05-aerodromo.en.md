@@ -5,9 +5,7 @@ icon: material/airport
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Aerodrome Separation](img/manual-separacao-aerodromo.png)
-
-#
+# Aerodrome Separation
 
 ## One aircraft on the runway at a time
 

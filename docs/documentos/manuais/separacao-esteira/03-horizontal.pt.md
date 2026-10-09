@@ -5,9 +5,7 @@ icon: material/arrow-left-right
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Separação Horizontal](img/manual-separacao-horizontal.png)
-
-#
+# Separação Horizontal
 
 ## Lateral e longitudinal
 

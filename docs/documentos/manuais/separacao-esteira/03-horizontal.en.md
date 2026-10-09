@@ -5,9 +5,7 @@ icon: material/arrow-left-right
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Horizontal Separation](img/manual-separacao-horizontal.png)
-
-#
+# Horizontal Separation
 
 ## Lateral and longitudinal
 

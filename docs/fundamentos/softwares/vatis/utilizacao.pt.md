@@ -4,7 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentos - vATIS - Utilização](img/head-vatis-utilizacao.png)
+# Utilização
 
 Esta página mostra como preparar, publicar e manter um ATIS com o vATIS usando os perfis da VATSIM Brasil. Ela parte do ponto em que a [instalação](instalacao.pt.md) e a importação dos perfis já foram feitas.
 

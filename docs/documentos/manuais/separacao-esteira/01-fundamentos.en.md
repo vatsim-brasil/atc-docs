@@ -5,9 +5,7 @@ icon: material/arrow-split-horizontal
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Fundamentals](img/manual-separacao-fundamentos.png)
-
-#
+# Separation Fundamentals
 
 ## What separating means
 

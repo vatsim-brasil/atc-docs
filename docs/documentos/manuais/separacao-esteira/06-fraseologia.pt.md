@@ -5,9 +5,7 @@ icon: material/microphone-message
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Fraseologia](img/manual-separacao-fraseologia.png)
-
-#
+# Fraseologia
 
 ## Como usar esta página
 

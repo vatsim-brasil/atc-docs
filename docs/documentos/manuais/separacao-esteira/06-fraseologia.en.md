@@ -5,9 +5,7 @@ icon: material/microphone-message
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Phraseology](img/manual-separacao-fraseologia.png)
-
-#
+# Phraseology
 
 ## How to use this page
 

@@ -5,9 +5,7 @@ icon: material/weather-windy
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Wake Turbulence](img/manual-separacao-esteira.png)
-
-#
+# Wake Turbulence
 
 ## What wake turbulence is
 

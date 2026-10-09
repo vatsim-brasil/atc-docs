@@ -5,9 +5,7 @@ icon: material/arrow-split-horizontal
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Fundamentos](img/manual-separacao-fundamentos.png)
-
-#
+# Fundamentos da Separação
 
 ## O que é separar
 

@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Checklist](img/manual-separacao-checklist.png)
-
-#
+# Checklist Rápido
 
 ## Antes de abrir a posição
 

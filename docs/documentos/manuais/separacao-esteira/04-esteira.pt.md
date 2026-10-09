@@ -5,9 +5,7 @@ icon: material/weather-windy
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Separação e Esteira de Turbulência - Esteira de Turbulência](img/manual-separacao-esteira.png)
-
-#
+# Esteira de Turbulência
 
 ## O que é a esteira
 

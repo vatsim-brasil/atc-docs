@@ -4,7 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentals - vATIS - Usage](img/head-vatis-utilizacao.png)
+# Usage
 
 This page shows how to prepare, publish and maintain an ATIS with vATIS using the VATSIM Brasil profiles. It assumes the [installation](instalacao.en.md) and the profile import are already done.
 

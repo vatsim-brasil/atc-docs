@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Checklist](img/manual-separacao-checklist.png)
-
-#
+# Quick Checklist
 
 ## Before opening the position
 

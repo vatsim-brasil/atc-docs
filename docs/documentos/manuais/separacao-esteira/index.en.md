@@ -5,9 +5,7 @@ icon: material/arrow-expand-vertical
 
 --8<-- "includes/abreviacoes.md"
 
-![Separation and Wake Turbulence Manual - Introduction](img/manual-separacao-intro.png)
-
-#
+# Introduction
 
 ## Overview
 
