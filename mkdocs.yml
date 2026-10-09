@@ -15,7 +15,7 @@ theme:
     repo: fontawesome/brands/github
   font:
     text: "Ubuntu Sans"
-    code: "Ubuntu Sans Mono"
+    code: "Ubuntu Mono"
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
