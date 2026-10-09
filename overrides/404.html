@@ -19,6 +19,11 @@
       {% set _ = para_pt.update({traducao: original}) %}
     {% endfor %}
   {% endfor %}
+  {#- Page titles from the Portuguese build, keyed by the path without /en/ -#}
+  {% set titulos_pt = {} %}
+  {% for arquivo in (i18n_alternates or {}).get("pt", []) if arquivo.page and arquivo.page.title %}
+    {% set _ = titulos_pt.update({arquivo.url: arquivo.page.title}) %}
+  {% endfor %}
 
   <div class="vb-404" data-vb-raiz="{{ raiz }}">
     <div class="vb-404__radar" aria-hidden="true">
@@ -100,6 +105,7 @@
 
       document.documentElement.lang = "pt-BR";
       var paraPt = {{ para_pt | tojson }};
+      var titulosPt = {{ titulos_pt | tojson }};
 
       areas.forEach(function (area) {
         var nos = document.createTreeWalker(area, NodeFilter.SHOW_TEXT);
@@ -112,7 +118,10 @@
         // navigation.instant já tornou os links absolutos, então compara o caminho
         area.querySelectorAll("a[href]:not(.md-select__link)").forEach(function (a) {
           if (a.origin === location.origin && a.pathname.indexOf(raiz + "en/") === 0) {
-            a.setAttribute("href", raiz + a.pathname.slice((raiz + "en/").length) + a.search + a.hash);
+            var caminho = a.pathname.slice((raiz + "en/").length);
+            var rotulo = a.querySelector(".md-ellipsis");
+            if (rotulo && titulosPt[caminho]) rotulo.textContent = titulosPt[caminho];
+            a.setAttribute("href", raiz + caminho + a.search + a.hash);
           }
         });
 
