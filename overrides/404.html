@@ -1,14 +1,140 @@
 {% extends "main.html" %}
 
+{#-
+  The i18n plugin writes a single 404.html at the site root (the last
+  language built wins, which is English), so this page carries both
+  languages and picks one from the requested path. Portuguese is shown in
+  the body when JavaScript is off. For Portuguese, the English header,
+  tabs and footer are translated back with the strings from the i18n
+  plugin config, and their /en/ links are pointed at the Portuguese site.
+-#}
 {% block content %}
+  {% set raiz = base_url.rstrip("/") ~ "/" %}
+  {% set para_pt = {"Search": "Buscar"} %}
+  {% set idiomas = config.plugins["i18n"].config.languages %}
+  {% set pt = idiomas | selectattr("locale", "equalto", "pt") | first %}
+  {% for idioma in idiomas if idioma.locale != "pt" %}
+    {% set _ = para_pt.update({idioma.site_name: pt.site_name, idioma.copyright: pt.copyright}) %}
+    {% for original, traducao in (idioma.nav_translations or {}).items() %}
+      {% set _ = para_pt.update({traducao: original}) %}
+    {% endfor %}
+  {% endfor %}
+  {#- Page titles from the Portuguese build, keyed by the path without /en/ -#}
+  {% set titulos_pt = {} %}
+  {% for arquivo in (i18n_alternates or {}).get("pt", []) if arquivo.page and arquivo.page.title %}
+    {% set _ = titulos_pt.update({arquivo.url: arquivo.page.title}) %}
+  {% endfor %}
 
-  <h1>Não encontramos o que você procurava!</h1>
+  <div class="vb-404" data-vb-raiz="{{ raiz }}">
+    <div class="vb-404__radar" aria-hidden="true">
+      <div class="vb-radar__tela">
+        <svg class="vb-radar__aneis" viewBox="0 0 600 600">
+          <circle cx="300" cy="300" r="290" />
+          <circle cx="300" cy="300" r="217" />
+          <circle cx="300" cy="300" r="145" />
+          <circle cx="300" cy="300" r="72" />
+          <line x1="300" y1="10" x2="300" y2="590" />
+          <line x1="10" y1="300" x2="590" y2="300" />
+          <path class="vb-radar__aerovia" d="M 60 520 L 300 300 L 540 80" />
+          <!-- Track history fading out before the last known position -->
+          <g class="vb-404__rastro">
+            <rect x="126" y="436" width="10" height="10" opacity="0.12" />
+            <rect x="166" y="400" width="10" height="10" opacity="0.2" />
+            <rect x="206" y="364" width="10" height="10" opacity="0.28" />
+            <rect x="246" y="328" width="10" height="10" opacity="0.36" />
+            <rect x="286" y="292" width="10" height="10" opacity="0.46" />
+            <rect x="326" y="256" width="10" height="10" opacity="0.56" />
+          </g>
+          <path class="vb-404__projecao" d="M 371 225 L 470 136" />
+          <circle class="vb-404__ultima" cx="371" cy="225" r="16" />
+        </svg>
+        <div class="vb-radar__varredura"></div>
+        <div class="vb-alvo vb-alvo--perdido" style="--x: 61%; --y: 36%; --d: 0s">
+          <i></i><span>N/A 404<br>7600 ---</span>
+        </div>
+      </div>
+    </div>
 
-  <p>Infelizmente, a página ou o link que você procurava está indisponível ou foi alterado.</p>
+    <p class="vb-404__codigo">SQUAWK 7600 · LOST COMMS</p>
 
-  <p>
-    <b>Por favor, use a pesquisa na barra superior da página para encontrar o que você deseja.</b> <br />
-    Adicionalmente, por favor informe isso por meio dos contatos na <a href="#">página de correções</a>.
-  </p>
+    <div lang="pt-BR" data-vb-idioma="pt">
+      <h1>Perdemos o contato com esta página</h1>
+      <p>
+        A página ou o link que você procurava está indisponível ou foi alterado.
+        Use a busca na barra superior para encontrar o que deseja.
+      </p>
+      <a href="{{ raiz }}" class="md-button md-button--primary">Voltar ao início</a>
+      <label for="__search" class="md-button" role="button" tabindex="0">Buscar no portal</label>
+    </div>
 
+    <div lang="en" data-vb-idioma="en" hidden>
+      <h1>We lost contact with this page</h1>
+      <p>
+        The page or link you were looking for is unavailable or has moved.
+        Use the search in the top bar to find what you need.
+      </p>
+      <a href="{{ raiz }}en/" class="md-button md-button--primary">Back to home</a>
+      <label for="__search" class="md-button" role="button" tabindex="0">Search the portal</label>
+    </div>
+  </div>
+
+  <script>
+    // O rodapé vem depois deste script no HTML, então espera o documento completo
+    document.addEventListener("DOMContentLoaded", function () {
+      var caixa = document.querySelector(".vb-404");
+      var raiz = caixa.getAttribute("data-vb-raiz");
+      var idioma = location.pathname.indexOf(raiz + "en/") === 0 ? "en" : "pt";
+
+      caixa.querySelectorAll("[data-vb-idioma]").forEach(function (bloco) {
+        bloco.hidden = bloco.getAttribute("data-vb-idioma") !== idioma;
+      });
+
+      var areas = document.querySelectorAll(".md-header, .md-tabs, .md-sidebar--primary, .md-footer");
+      var logos = document.querySelectorAll("a.md-logo");
+
+      // O seletor de idioma herda as alternativas da última página gerada;
+      // aqui ele leva ao início de cada idioma
+      document.querySelectorAll("a.md-select__link[hreflang]").forEach(function (a) {
+        a.setAttribute("href", a.getAttribute("hreflang").indexOf("en") === 0 ? raiz + "en/" : raiz);
+      });
+
+      if (idioma === "en") {
+        logos.forEach(function (a) { a.setAttribute("href", raiz + "en/"); });
+        return;
+      }
+
+      document.documentElement.lang = "pt-BR";
+      var paraPt = {{ para_pt | tojson }};
+      var titulosPt = {{ titulos_pt | tojson }};
+
+      areas.forEach(function (area) {
+        var nos = document.createTreeWalker(area, NodeFilter.SHOW_TEXT);
+        while (nos.nextNode()) {
+          var no = nos.currentNode;
+          var texto = no.nodeValue.trim();
+          if (paraPt[texto]) no.nodeValue = no.nodeValue.replace(texto, paraPt[texto]);
+        }
+
+        // navigation.instant já tornou os links absolutos, então compara o caminho
+        area.querySelectorAll("a[href]:not(.md-select__link)").forEach(function (a) {
+          if (a.origin === location.origin && a.pathname.indexOf(raiz + "en/") === 0) {
+            var caminho = a.pathname.slice((raiz + "en/").length);
+            var rotulo = a.querySelector(".md-ellipsis");
+            if (rotulo && titulosPt[caminho]) rotulo.textContent = titulosPt[caminho];
+            a.setAttribute("href", raiz + caminho + a.search + a.hash);
+          }
+        });
+
+        area.querySelectorAll("[title], [aria-label], [placeholder]").forEach(function (el) {
+          ["title", "aria-label", "placeholder"].forEach(function (atributo) {
+            var valor = el.getAttribute(atributo);
+            if (valor && paraPt[valor]) el.setAttribute(atributo, paraPt[valor]);
+          });
+        });
+      });
+
+      logos.forEach(function (a) { a.setAttribute("href", raiz); });
+      if (paraPt[document.title]) document.title = paraPt[document.title];
+    });
+  </script>
 {% endblock %}

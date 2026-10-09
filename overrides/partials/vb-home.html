@@ -1,0 +1,176 @@
+{#-
+  Home page body shared by home.html (pt) and home-en.html (en).
+  Each wrapper passes its strings in `t`; counters are computed from the nav at build time.
+-#}
+{% macro icon(name) %}{% include ".icons/" ~ name ~ ".svg" %}{% endmacro %}
+
+{% macro home(t) %}
+{#- The home page sits at the root of each language build ("" or "en/") -#}
+{% set prefix = page.url %}
+{% set n = namespace(ad=0, tma=0, fir=0, manuais=0) %}
+{% for p in nav.pages %}
+  {% set partes = p.url.rstrip("/").split("/") %}
+  {% set codigo = partes[-1] %}
+  {% set icao = codigo | length == 4 and codigo.isupper() %}
+  {% if "MOP/aerodromos/" in p.url and icao %}{% set n.ad = n.ad + 1 %}
+  {% elif "MOP/terminais/" in p.url and icao %}{% set n.tma = n.tma + 1 %}
+  {#- Continental FIRs have ICAO-named pages; the Atlântico FIR is its own section -#}
+  {% elif ("MOP/centros/" in p.url and icao) or codigo == "oceanico" %}{% set n.fir = n.fir + 1 %}
+  {% elif "documentos/manuais/" in p.url and partes[-2] == "manuais" %}{% set n.manuais = n.manuais + 1 %}
+  {% endif %}
+{% endfor %}
+
+<div class="vb-home">
+
+  <!-- Hero: radar scope -->
+  <section class="vb-hero" aria-labelledby="vb-hero-titulo">
+    <div class="vb-hero__grid md-grid">
+      <div class="vb-hero__texto">
+        <p class="vb-kicker">
+          <span class="vb-led" aria-hidden="true"></span>
+          {{ t.kicker }}
+        </p>
+        <h1 id="vb-hero-titulo" class="vb-hero__titulo">{{ t.titulo | safe }}</h1>
+        <p class="vb-hero__lede">{{ t.lede }}</p>
+
+        <label class="vb-busca" for="__search" role="button" tabindex="0">
+          <span class="vb-busca__icone">{{ icon("material/magnify") }}</span>
+          <span class="vb-busca__texto">{{ t.busca }}</span>
+          <kbd class="vb-busca__tecla">/</kbd>
+        </label>
+
+        <div class="vb-hero__acoes md-typeset">
+          <a href="{{ (prefix ~ 'fundamentos/') | url }}" class="md-button md-button--primary">
+            {{ t.comecar }} {{ icon("material/arrow-right") }}
+          </a>
+          <a href="https://www.vatsim.com.br" class="md-button">{{ t.voltar }}</a>
+        </div>
+
+        <dl class="vb-hero__relogio" aria-live="off">
+          <div>
+            <dt>UTC</dt>
+            <dd data-vb-utc>--:--:--</dd>
+          </div>
+          <div>
+            <dt>{{ t.data }}</dt>
+            <dd data-vb-data>----</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="vb-radar" aria-hidden="true">
+        <div class="vb-radar__tela">
+          <svg class="vb-radar__aneis" viewBox="0 0 600 600">
+            <circle cx="300" cy="300" r="290" />
+            <circle cx="300" cy="300" r="232" />
+            <circle cx="300" cy="300" r="174" />
+            <circle cx="300" cy="300" r="116" />
+            <circle cx="300" cy="300" r="58" />
+            <line x1="300" y1="10" x2="300" y2="590" />
+            <line x1="10" y1="300" x2="590" y2="300" />
+            <line x1="95" y1="95" x2="505" y2="505" />
+            <line x1="505" y1="95" x2="95" y2="505" />
+            <g class="vb-radar__marcas">
+              <text x="306" y="246">10</text>
+              <text x="306" y="188">20</text>
+              <text x="306" y="130">30</text>
+              <text x="306" y="72">40</text>
+              <text x="294" y="26" text-anchor="end">360</text>
+              <text x="580" y="294" text-anchor="end">090</text>
+              <text x="306" y="586">180</text>
+              <text x="20" y="294">270</text>
+            </g>
+            <!-- Airway and final approach course -->
+            <path class="vb-radar__aerovia" d="M 40 520 L 300 300 L 560 120" />
+            <path class="vb-radar__aerovia" d="M 120 60 L 300 300" />
+            <path class="vb-radar__final" d="M 300 300 L 470 440" />
+          </svg>
+          <div class="vb-radar__varredura"></div>
+
+          <div class="vb-alvo" style="--x: 64%; --y: 30%; --d: 0.4s">
+            <i></i><span>TAM3312<br>350↓ 450</span>
+          </div>
+          <div class="vb-alvo" style="--x: 26%; --y: 38%; --d: 2.1s">
+            <i></i><span>GLO1462<br>240↑ 380</span>
+          </div>
+          <div class="vb-alvo vb-alvo--alerta" style="--x: 70%; --y: 66%; --d: 3.3s">
+            <i></i><span>AZU4107<br>060↓ 180</span>
+          </div>
+          <div class="vb-alvo" style="--x: 34%; --y: 74%; --d: 1.2s">
+            <i></i><span>PTKVB<br>045 110</span>
+          </div>
+          <div class="vb-alvo vb-alvo--vfr" style="--x: 18%; --y: 58%; --d: 2.7s">
+            <i></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coverage counters -->
+  <section class="vb-numeros md-grid" aria-label="{{ t.numeros }}">
+    <a class="vb-numero" href="{{ (prefix ~ 'MOP/aerodromos/') | url }}">
+      <strong>{{ n.ad }}</strong><span>{{ t.n_ad }}</span>
+    </a>
+    <a class="vb-numero" href="{{ (prefix ~ 'MOP/terminais/') | url }}">
+      <strong>{{ n.tma }}</strong><span>{{ t.n_tma }}</span>
+    </a>
+    <a class="vb-numero" href="{{ (prefix ~ 'MOP/centros/') | url }}">
+      <strong>{{ n.fir }}</strong><span>{{ t.n_fir }}</span>
+    </a>
+    <a class="vb-numero" href="{{ (prefix ~ 'documentos/') | url }}">
+      <strong>{{ n.manuais }}</strong><span>{{ t.n_manuais }}</span>
+    </a>
+  </section>
+
+  <!-- Sections -->
+  <section class="vb-secao md-grid">
+    <header class="vb-secao__cabecalho">
+      <p class="vb-rotulo">{{ t.secoes_rotulo }}</p>
+      <h2>{{ t.secoes_titulo }}</h2>
+    </header>
+
+    <div class="vb-blocos">
+      {% for b in t.blocos %}
+        <a class="vb-bloco{% if b.destaque %} vb-bloco--destaque{% endif %}" href="{{ (prefix ~ b.link) | url }}">
+          <span class="vb-bloco__icone">{{ icon(b.icone) }}</span>
+          <span class="vb-bloco__codigo">{{ b.codigo }}</span>
+          <h3>{{ b.titulo }}</h3>
+          <p>{{ b.texto }}</p>
+          <span class="vb-bloco__seta">{{ icon("material/arrow-top-right") }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Recent changes as flight strips -->
+  <section class="vb-secao md-grid">
+    <header class="vb-secao__cabecalho">
+      <p class="vb-rotulo">{{ t.novidades_rotulo }}</p>
+      <h2>{{ t.novidades_titulo }}</h2>
+    </header>
+
+    <ol class="vb-strips">
+      {% for s in t.novidades %}
+        <li>
+          <a class="vb-strip vb-strip--{{ s.tipo }}" href="{{ (prefix ~ s.link) | url }}">
+            <span class="vb-strip__data">{{ s.data }}</span>
+            <span class="vb-strip__tipo">{{ s.rotulo }}</span>
+            <span class="vb-strip__corpo">
+              <strong>{{ s.titulo }}</strong>
+              <span>{{ s.texto }}</span>
+            </span>
+            <span class="vb-strip__seta">{{ icon("material/chevron-right") }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="vb-aviso md-grid">
+    <span class="vb-aviso__icone">{{ icon("material/alert-octagon-outline") }}</span>
+    <p>{{ t.aviso }}</p>
+  </section>
+
+</div>
+{% endmacro %}
