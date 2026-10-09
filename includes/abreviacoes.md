@@ -127,3 +127,8 @@
 *[AMA]: Altitude Mínima de Área / Area Minimum Altitude
 *[TAA]: Altitude de Chegada em Terminal / Terminal Arrival Altitude
 *[UNICOM]: Frequência de aconselhamento ar-ar / Universal Communications
+*[VOR]: Radiofarol Onidirecional em VHF / VHF Omnidirectional Range
+*[DME]: Equipamento Medidor de Distância / Distance Measuring Equipment
+*[NDB]: Radiofarol Não Direcional / Non-Directional Beacon
+*[RAIM]: Monitoração Autônoma de Integridade pelo Receptor / Receiver Autonomous Integrity Monitoring
+*[TBS]: Separação Baseada em Tempo / Time-Based Separation
