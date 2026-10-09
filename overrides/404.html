@@ -1,14 +1,45 @@
 {% extends "main.html" %}
 
+{#-
+  The i18n plugin writes a single 404.html at the site root (the last
+  language built wins), so this page carries both languages and picks one
+  from the requested path. Portuguese is shown when JavaScript is off.
+-#}
 {% block content %}
-  <div class="vb-404">
+  {% set raiz = base_url.rstrip("/") ~ "/" %}
+  <div class="vb-404" data-vb-raiz="{{ raiz }}">
     <p class="vb-404__codigo">SQUAWK 7600 · LOST COMMS</p>
-    <h1>Perdemos o contato com esta página</h1>
-    <p>
-      A página ou o link que você procurava está indisponível ou foi alterado.
-      Use a busca na barra superior para encontrar o que deseja.
-    </p>
-    <a href="{{ nav.homepage.url | url }}" class="md-button md-button--primary">Voltar ao início</a>
-    <label for="__search" class="md-button" role="button" tabindex="0">Buscar no portal</label>
+
+    <div lang="pt-BR" data-vb-idioma="pt">
+      <h1>Perdemos o contato com esta página</h1>
+      <p>
+        A página ou o link que você procurava está indisponível ou foi alterado.
+        Use a busca na barra superior para encontrar o que deseja.
+      </p>
+      <a href="{{ raiz }}" class="md-button md-button--primary">Voltar ao início</a>
+      <label for="__search" class="md-button" role="button" tabindex="0">Buscar no portal</label>
+    </div>
+
+    <div lang="en" data-vb-idioma="en" hidden>
+      <h1>We lost contact with this page</h1>
+      <p>
+        The page or link you were looking for is unavailable or has moved.
+        Use the search in the top bar to find what you need.
+      </p>
+      <a href="{{ raiz }}en/" class="md-button md-button--primary">Back to home</a>
+      <label for="__search" class="md-button" role="button" tabindex="0">Search the portal</label>
+    </div>
   </div>
+
+  <script>
+    (function () {
+      var caixa = document.querySelector(".vb-404");
+      var raiz = caixa.getAttribute("data-vb-raiz");
+      var idioma = location.pathname.indexOf(raiz + "en/") === 0 ? "en" : "pt";
+      caixa.querySelectorAll("[data-vb-idioma]").forEach(function (bloco) {
+        bloco.hidden = bloco.getAttribute("data-vb-idioma") !== idioma;
+      });
+      document.documentElement.lang = idioma === "en" ? "en" : "pt-BR";
+    })();
+  </script>
 {% endblock %}

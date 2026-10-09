@@ -1651,6 +1651,11 @@ body {
   display: none;
 }
 
+.md-typeset .vb-404 .md-button:not(.md-button--primary) {
+  color: var(--md-accent-fg-color);
+  border-color: color-mix(in srgb, var(--md-accent-fg-color) 50%, transparent);
+}
+
 .vb-404 p {
   max-width: 32rem;
   margin: 0 auto 1.4rem;
