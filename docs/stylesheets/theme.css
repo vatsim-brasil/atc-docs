@@ -438,7 +438,8 @@ body {
   width: 1.7rem;
   height: 1.7rem;
   margin-right: 0.35rem;
-  vertical-align: -0.35rem;
+  vertical-align: middle;
+  margin-top: -0.2em;
   border-radius: 8px;
   color: var(--vb-heading-accent);
   background: var(--md-accent-fg-color--transparent);
