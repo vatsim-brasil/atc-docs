@@ -1,0 +1,20 @@
+{#- Lista de flight strips usada na home e na página de novidades -#}
+{% macro icon(name) %}{% include ".icons/" ~ name ~ ".svg" %}{% endmacro %}
+
+{% macro strips(itens) %}
+<ol class="vb-strips">
+  {% for s in itens %}
+    <li>
+      <a class="vb-strip vb-strip--{{ s.tipo }}" href="{{ s.url | url }}">
+        <span class="vb-strip__data">{{ s.data_curta }}</span>
+        <span class="vb-strip__tipo">{{ s.rotulo }}</span>
+        <span class="vb-strip__corpo">
+          <strong>{{ s.titulo }}</strong>
+          {% if s.resumo %}<span>{{ s.resumo }}</span>{% endif %}
+        </span>
+        <span class="vb-strip__seta">{{ icon("material/chevron-right") }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ol>
+{% endmacro %}

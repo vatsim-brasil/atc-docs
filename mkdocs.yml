@@ -169,6 +169,7 @@ plugins:
             Manual de Meteorologia Aeronáutica: Aeronautical Meteorology Manual
             Manual de Plano de Voo: Flight Plan Manual
             Não Controlados: Uncontrolled
+            Novidades: What's New
             Piloto: Pilot
             Terminais: Terminals
       reconfigure_material: true
@@ -183,6 +184,10 @@ plugins:
 validation:
   unrecognized_links: ignore
 
+hooks:
+  - hooks/novidades.py
+
 watch:
   - includes
   - overrides
+  - hooks

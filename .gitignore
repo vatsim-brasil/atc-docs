@@ -3,3 +3,4 @@ site
 .superpowers
 .sources
 .env
+__pycache__/

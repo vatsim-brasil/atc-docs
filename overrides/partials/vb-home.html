@@ -2,6 +2,7 @@
   Home page body shared by home.html (pt) and home-en.html (en).
   Each wrapper passes its strings in `t`; counters are computed from the nav at build time.
 -#}
+{% import "partials/vb-novidades.html" as vn with context %}
 {% macro icon(name) %}{% include ".icons/" ~ name ~ ".svg" %}{% endmacro %}
 
 {% macro home(t) %}
@@ -150,21 +151,11 @@
       <h2>{{ t.novidades_titulo }}</h2>
     </header>
 
-    <ol class="vb-strips">
-      {% for s in t.novidades %}
-        <li>
-          <a class="vb-strip vb-strip--{{ s.tipo }}" href="{{ (prefix ~ s.link) | url }}">
-            <span class="vb-strip__data">{{ s.data }}</span>
-            <span class="vb-strip__tipo">{{ s.rotulo }}</span>
-            <span class="vb-strip__corpo">
-              <strong>{{ s.titulo }}</strong>
-              <span>{{ s.texto }}</span>
-            </span>
-            <span class="vb-strip__seta">{{ icon("material/chevron-right") }}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ol>
+    {{ vn.strips(novidades[:4]) }}
+
+    <p class="vb-secao__rodape">
+      <a href="{{ (prefix ~ 'novidades/') | url }}">{{ t.novidades_todas }} {{ icon("material/arrow-right") }}</a>
+    </p>
   </section>
 
   <section class="vb-aviso md-grid">

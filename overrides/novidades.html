@@ -1,0 +1,11 @@
+{#- Listagem do changelog, agrupada por mês -#}
+{% extends "main.html" %}
+{% import "partials/vb-novidades.html" as vn with context %}
+
+{% block content %}
+{{ page.content }}
+{% for mes, itens in novidades_por_mes %}
+  <h2 class="vb-novidades__mes">{{ mes }}</h2>
+  {{ vn.strips(itens) }}
+{% endfor %}
+{% endblock %}
