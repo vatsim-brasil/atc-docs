@@ -3,9 +3,7 @@ title: Item 18 (Other Information)
 icon: material/information-outline
 ---
 
-![Flight Plan Manual (FPL) - Item 18](img/manual-plano-de-voo-item-18.png)
-
-#
+# Item 18 (Other Information)
 
 ITEM 18 is where you “close the contract” of the plan: performance details, RNAV/PBN, special points and remarks.
 

@@ -5,9 +5,7 @@ icon: material/lan-connect
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Coordenação e Transferência - Coordenação na Rede](img/manual-coordenacao-rede.png)
-
-#
+# Coordenação na Rede
 
 ## O que muda na VATSIM
 

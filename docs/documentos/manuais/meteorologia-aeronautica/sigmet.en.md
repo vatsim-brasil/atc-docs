@@ -5,9 +5,7 @@ icon: material/alert-circle
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - SIGMET](img/manual-meteorologia-notam.png)
-
-#
+# SIGMET
 
 ## Definition
 

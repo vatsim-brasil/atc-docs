@@ -5,9 +5,7 @@ icon: material/alert-circle
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - NOTAM](img/manual-meteorologia-notam.png)
-
-#
+# NOTAM
 
 ## What is a NOTAM?
 

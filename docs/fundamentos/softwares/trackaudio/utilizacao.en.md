@@ -4,7 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentals - TrackAudio - Usage](img/head-trackaudio-utilizacao.png)
+# Usage
 
 ## Before connecting to Euroscope
 

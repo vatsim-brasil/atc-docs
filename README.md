@@ -71,9 +71,34 @@ O projeto é organizado da seguinte forma:
   * 📁 `MOP/`: Manual de Operações Padrão.
   * 📁 `documentos/`: Tratados, regimentos e resoluções.
   * 📁 `fundamentos/`: Conceitos e guias de softwares (como o EuroScope).
+  * 📁 `novidades/`: Changelog do portal (veja [Publicando uma novidade](#-publicando-uma-novidade)).
 * 📁 **[includes/](./includes)**: Snippets de texto reutilizáveis e lista global de abreviações.
+* 📁 **[hooks/](./hooks)**: Hooks do MkDocs (ex.: `novidades.py`, que monta a lista de novidades).
 * 📁 **[overrides/](./overrides)**: Customizações do tema MkDocs Material (HTML/JS/CSS adicionais).
 * 📄 **[mkdocs.yml](./mkdocs.yml)**: Arquivo principal de configuração do site, definição de plugins e estrutura do menu de navegação.
+
+---
+
+## 📰 Publicando uma novidade
+
+Sempre que uma alteração relevante entrar no portal (manual novo, MOP revisado, cartas etc.), registre-a em `docs/novidades/`. As entradas aparecem na página **Novidades** e as quatro mais recentes aparecem na home.
+
+Crie `docs/novidades/AAAA-MM-DD-slug.pt.md` (o `.en.md` é opcional; sem ele, a versão em inglês do site mostra o texto em português):
+
+```markdown
+---
+date: 2026-10-08
+tipo: manual   # manual, ad, tma, fir, oca, fundamentos ou portal
+link: documentos/manuais/vetoracao-sequenciamento/   # página alterada, a partir da raiz do site
+resumo: Uma linha que aparece na lista e na home.
+---
+
+# Manual de Vetoração e Sequenciamento
+
+Descrição curta do que mudou.
+```
+
+O `tipo` define o rótulo e a cor da faixa. O `link` vira o botão "Abrir a página atualizada" (no build em inglês, recebe o prefixo `en/` automaticamente).
 
 ---
 

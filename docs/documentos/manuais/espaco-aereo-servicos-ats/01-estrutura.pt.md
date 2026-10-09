@@ -5,9 +5,7 @@ icon: material/layers-triple
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Espaço Aéreo e Serviços ATS - Estrutura](img/manual-espaco-aereo-estrutura.png)
-
-#
+# Estrutura do Espaço Aéreo
 
 ## Espaço aéreo controlado e não controlado
 

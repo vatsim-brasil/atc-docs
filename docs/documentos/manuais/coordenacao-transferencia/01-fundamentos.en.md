@@ -5,9 +5,7 @@ icon: material/handshake-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Coordination and Transfer Manual - Fundamentals](img/manual-coordenacao-fundamentos.png)
-
-#
+# Coordination Fundamentals
 
 ## What coordination is
 

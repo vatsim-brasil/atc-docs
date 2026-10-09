@@ -5,9 +5,7 @@ icon: material/speedometer
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Ajuste de Velocidade](img/manual-vetoracao-velocidade.png)
-
-#
+# Ajuste de Velocidade
 
 ## Por que controlar a velocidade
 

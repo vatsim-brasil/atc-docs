@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="white-space:pre" width="800" height="140" viewBox="0 0 800 140" font-family="'DejaVu Sans Mono', Consolas, 'Ubuntu Mono', monospace">
+  <rect width="800" height="140" fill="#686868"/>
+  <g stroke="#5a5a5a"><line x1="200" y1="10" x2="200" y2="130"/><line x1="390" y1="10" x2="390" y2="130"/><line x1="580" y1="10" x2="580" y2="130"/></g>
+  <g font-size="17"><g transform="translate(60,110)"><rect x="-6" y="-6" width="12" height="12" fill="none" stroke="#464646" stroke-width="2"/>
+<line x1="6" y1="-6" x2="24" y2="-24" stroke="#464646" stroke-width="1.2"/>
+<text x="28" y="-34" fill="#464646">TAM3324</text><text x="28" y="-14" fill="#464646">350</text></g><g transform="translate(250,110)"><rect x="-6" y="-6" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="2"/>
+<line x1="6" y1="-6" x2="24" y2="-24" stroke="#ffffff" stroke-width="1.2"/>
+<text x="28" y="-34" fill="#ffffff">GLO1890</text><text x="28" y="-14" fill="#ffffff">240↓&#160;150</text></g><g transform="translate(440,110)"><rect x="-6" y="-6" width="12" height="12" fill="none" stroke="#000000" stroke-width="2"/>
+<line x1="6" y1="-6" x2="24" y2="-24" stroke="#000000" stroke-width="1.2"/>
+<text x="28" y="-34" fill="#000000">AZU4512</text><text x="28" y="-14" fill="#000000">110↓&#160;060</text></g><g transform="translate(630,110)"><rect x="-6" y="-6" width="12" height="12" fill="none" stroke="#ffff00" stroke-width="2"/>
+<line x1="6" y1="-6" x2="24" y2="-24" stroke="#ffff00" stroke-width="1.2"/>
+<text x="28" y="-34" fill="#ffff00">PTB2231</text><text x="28" y="-14" fill="#ffff00">090&#160;&#160;090</text></g></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle"><g transform="translate(210,40)"><circle r="12" fill="#e53935" stroke="#fff" stroke-width="1.5"/><text y="5">1</text></g><g transform="translate(400,40)"><circle r="12" fill="#e53935" stroke="#fff" stroke-width="1.5"/><text y="5">2</text></g><g transform="translate(590,40)"><circle r="12" fill="#e53935" stroke="#fff" stroke-width="1.5"/><text y="5">3</text></g><g transform="translate(780,40)"><circle r="12" fill="#e53935" stroke="#fff" stroke-width="1.5"/><text y="5">4</text></g></g>
+</svg>

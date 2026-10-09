@@ -5,9 +5,7 @@ icon: material/book-open-variant
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Glossary](img/manual-meteorologia-glossario.png)
-
-#
+# Glossary
 
 ## Clouds (amount)
 

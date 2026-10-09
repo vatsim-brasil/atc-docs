@@ -5,9 +5,7 @@ icon: material/microphone-message
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Coordenação e Transferência - Fraseologia](img/manual-coordenacao-fraseologia.png)
-
-#
+# Fraseologia
 
 ## Como usar esta página
 

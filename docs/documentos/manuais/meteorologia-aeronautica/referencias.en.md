@@ -5,9 +5,7 @@ icon: material/book-multiple
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - References](img/manual-meteorologia-referencias.png)
-
-#
+# References
 
 ## AISWEB (NOTAM and aeronautical information)
 

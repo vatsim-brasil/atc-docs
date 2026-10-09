@@ -5,9 +5,7 @@ icon: material/airplane-takeoff
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Introduction](img/manual-fraseologia-voo-visual-intro.png)
-
-#
+# Introduction
 
 ## Overview
 

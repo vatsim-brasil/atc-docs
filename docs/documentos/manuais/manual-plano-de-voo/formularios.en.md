@@ -3,9 +3,7 @@ title: Official Forms (DECEA)
 icon: material/file-document
 ---
 
-![Flight Plan Manual (FPL) - Official Forms](img/manual-plano-de-voo-formularios.png)
-
-#
+# Official Forms (DECEA)
 
 ## Full Flight Plan
 

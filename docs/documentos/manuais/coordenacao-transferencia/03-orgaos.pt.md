@@ -5,9 +5,7 @@ icon: material/sitemap-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Coordenação e Transferência - Coordenação entre Órgãos](img/manual-coordenacao-orgaos.png)
-
-#
+# Coordenação entre Órgãos
 
 ## Como ler esta página
 

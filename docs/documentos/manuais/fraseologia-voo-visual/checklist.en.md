@@ -5,9 +5,7 @@ icon: material/clipboard-check
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Quick Checklist](img/manual-fraseologia-voo-visual-checklist.png)
-
-#
+# Quick Checklist
 
 Use this page as a final review before connecting to the network. It does not replace reading the previous chapters; it only condenses what you need to have at the tip of your tongue.
 

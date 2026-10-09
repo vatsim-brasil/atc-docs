@@ -5,9 +5,7 @@ icon: material/book-open-variant
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia para Voo Visual - Conceitos](img/manual-fraseologia-voo-visual-conceitos.png)
-
-#
+# Conceitos do Voo Visual
 
 ## O que muda no voo visual
 

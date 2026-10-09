@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Checklist](img/manual-vetoracao-checklist.png)
-
-#
+# Checklist Rápido
 
 ## Antes de abrir a posição
 

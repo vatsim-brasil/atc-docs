@@ -5,9 +5,7 @@ icon: material/format-list-checks
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Checklist](img/manual-meteorologia-checklist.png)
-
-#
+# Checklist
 
 ## Pre-briefing (5 minutes)
 

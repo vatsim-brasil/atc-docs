@@ -5,9 +5,7 @@ icon: material/book
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Conceituação](img/manual-fraseologia-conceituacao.png)
-
-#
+# Conceituação
 
 A fraseologia é um procedimento estabelecido com o objetivo de assegurar a uniformidade das comunicações radiotelefônicas, reduzir ao mínimo o tempo de transmissão das mensagens e proporcionar autorizações claras e concisas.
 

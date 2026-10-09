@@ -5,9 +5,7 @@ icon: material/microphone-variant
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia para Voo Visual - Voo de Volta](img/manual-fraseologia-voo-visual-volta.png)
-
-#
+# Voo de Volta (Não Controlado para Controlado)
 
 ## :material-numeric-0-box: Preliminares
 

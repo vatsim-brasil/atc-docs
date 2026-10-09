@@ -5,9 +5,7 @@ icon: material/format-list-group
 
 --8<-- "includes/abreviacoes.md"
 
-![Airspace and ATS Services Manual - Classes](img/manual-espaco-aereo-classes.png)
-
-#
+# Airspace Classes
 
 ## Why classes exist
 

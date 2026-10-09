@@ -1,0 +1,25 @@
+{#- Uma entrada do changelog (docs/novidades/*.md); a lista vem do hook novidades.py -#}
+{% extends "main.html" %}
+{% import "partials/vb-novidades.html" as vn with context %}
+
+{% block content %}
+{% set e = (novidades | selectattr("url", "equalto", page.url) | first) %}
+{% set en = config.theme.language.startswith("en") %}
+{% if e %}
+  <p class="vb-entrada__meta vb-strip--{{ e.tipo }}">
+    <span class="vb-entrada__tipo">{{ e.rotulo }}</span>
+    <time datetime="{{ e.data.isoformat() }}">{{ e.data_longa }}</time>
+  </p>
+{% endif %}
+{{ page.content }}
+{% if e and e.link %}
+  <p>
+    <a class="md-button md-button--primary" href="{{ e.link | url }}">
+      {{ "Open the updated page" if en else "Abrir a página atualizada" }}
+    </a>
+  </p>
+{% endif %}
+<p class="vb-entrada__voltar">
+  <a href="{{ (('en/' if en else '') ~ 'novidades/') | url }}">← {{ "All updates" if en else "Todas as novidades" }}</a>
+</p>
+{% endblock %}

@@ -5,9 +5,7 @@ icon: material/compass-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Fundamentos](img/manual-vetoracao-fundamentos.png)
-
-#
+# Fundamentos da Vetoração
 
 ## Identificar antes de vetorar
 

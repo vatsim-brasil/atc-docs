@@ -5,9 +5,7 @@ icon: material/compass-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Vectoring and Sequencing Manual - Fundamentals](img/manual-vetoracao-fundamentos.png)
-
-#
+# Vectoring Fundamentals
 
 ## Identify before vectoring
 

@@ -1,4 +1,6 @@
 nav:
+  - ... | glob=index*.md
   - fundamentos
   - documentos
   - MOP
+  - novidades

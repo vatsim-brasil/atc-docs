@@ -4,7 +4,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentals - TrackAudio - Installation](img/head-trackaudio-instalacao.png)
+# Installation
 
 ## Download and Installation
 

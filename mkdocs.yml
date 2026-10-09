@@ -15,7 +15,7 @@ theme:
     repo: fontawesome/brands/github
   font:
     text: "Ubuntu Sans"
-    code: "Ubuntu Sans Mono"
+    code: "Ubuntu Mono"
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -37,8 +37,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.top
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.footer
     - search.suggest
     - search.highlight
@@ -133,8 +131,7 @@ plugins:
   - awesome-pages
   - glightbox
   - table-reader
-  - tags:
-      tags_file: tags.md
+  - tags
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -169,6 +166,7 @@ plugins:
             Manual de Meteorologia Aeronáutica: Aeronautical Meteorology Manual
             Manual de Plano de Voo: Flight Plan Manual
             Não Controlados: Uncontrolled
+            Novidades: What's New
             Piloto: Pilot
             Terminais: Terminals
       reconfigure_material: true
@@ -183,6 +181,10 @@ plugins:
 validation:
   unrecognized_links: ignore
 
+hooks:
+  - hooks/novidades.py
+
 watch:
   - includes
   - overrides
+  - hooks

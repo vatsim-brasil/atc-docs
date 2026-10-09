@@ -5,9 +5,7 @@ icon: material/microphone
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia - Exemplos de Comunicação](img/manual-fraseologia-exemplo.png)
-
-#
+# Exemplos de Comunicação
 
 Para fins práticos, disponibilizamos abaixo um exemplo de voo completo, desde o contato inicial com o Tráfego, órgão ATC que realiza autorização de plano, até o contato com o Solo no destino. Considere esse exemplo em uma situação normal, sem adversidades.
 

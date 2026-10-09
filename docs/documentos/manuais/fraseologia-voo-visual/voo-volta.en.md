@@ -5,9 +5,7 @@ icon: material/microphone-variant
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Return Flight](img/manual-fraseologia-voo-visual-volta.png)
-
-#
+# Return Flight (Uncontrolled to Controlled)
 
 ## :material-numeric-0-box: Preliminaries
 

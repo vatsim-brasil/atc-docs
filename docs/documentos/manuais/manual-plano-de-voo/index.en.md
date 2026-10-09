@@ -7,9 +7,7 @@ toc:
   depth: 0
 ---
 
-![Flight Plan Manual (FPL) - Introduction](img/manual-plano-de-voo-intro.png)
-
-#
+# Flight Plan Manual (FPL)
 
 ### Overview
 

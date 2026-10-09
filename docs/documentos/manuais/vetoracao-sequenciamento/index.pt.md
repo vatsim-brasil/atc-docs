@@ -5,9 +5,7 @@ icon: material/radar
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Introdução](img/manual-vetoracao-intro.png)
-
-#
+# Introdução
 
 ## Apresentação
 
@@ -44,9 +42,9 @@ Este manual cobre:
 
 Não fazem parte deste manual:
 
-- a coordenação entre órgãos e a transferência de controle, que terão manual próprio;
-- a separação convencional (por tempo, distância DME ou reporte de posição);
-- os mínimos de esteira de turbulência por tempo na pista, que pertencem ao controle de aeródromo;
+- a coordenação entre órgãos e a transferência de controle, que estão no [Manual de Coordenação e Transferência](../coordenacao-transferencia/index.pt.md);
+- a separação convencional (por tempo, distância DME ou reporte de posição), que está no [Manual de Separação e Esteira de Turbulência](../separacao-esteira/03-horizontal.pt.md);
+- os mínimos de esteira de turbulência por tempo na pista, que pertencem ao controle de aeródromo e estão no [Manual de Separação e Esteira de Turbulência](../separacao-esteira/04-esteira.pt.md);
 - as aproximações radar de vigilância e de precisão (PAR), que no Brasil o DECEA restringe a casos específicos[^3];
 - as operações em pistas paralelas.
 

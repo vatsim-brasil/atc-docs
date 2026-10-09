@@ -5,8 +5,6 @@ icon: material/airplane
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
 ## Overview
 
 Welcome to the Traffic Circuit Manual, a practical and objective guide developed to help aviation professionals and enthusiasts understand and apply traffic circuit procedures at aerodromes.

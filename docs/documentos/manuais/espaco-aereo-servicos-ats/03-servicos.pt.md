@@ -5,9 +5,7 @@ icon: material/headset
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Espaço Aéreo e Serviços ATS - Serviços](img/manual-espaco-aereo-servicos.png)
-
-#
+# Serviços de Tráfego Aéreo
 
 ## Os serviços de tráfego aéreo
 

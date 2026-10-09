@@ -8,7 +8,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentals - Starting ATC Training](img/head-fundamentos-comecandotreinamentoatc.png)
+# Starting ATC Training
 
 ## Introduction
 

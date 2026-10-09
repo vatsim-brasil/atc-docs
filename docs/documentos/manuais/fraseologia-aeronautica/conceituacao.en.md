@@ -5,9 +5,7 @@ icon: material/book
 
 --8<-- "includes/abreviacoes.md"
 
-![Phraseology Manual - Concepts](img/manual-fraseologia-conceituacao.png)
-
-#
+# Concepts
 
 Phraseology is an established procedure intended to ensure uniformity in radiotelephony communications, to reduce message transmission time to a minimum and to provide clear and concise clearances.
 

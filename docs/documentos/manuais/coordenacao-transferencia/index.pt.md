@@ -5,9 +5,7 @@ icon: material/swap-horizontal-bold
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Coordenação e Transferência - Introdução](img/manual-coordenacao-intro.png)
-
-#
+# Introdução
 
 ## Apresentação
 

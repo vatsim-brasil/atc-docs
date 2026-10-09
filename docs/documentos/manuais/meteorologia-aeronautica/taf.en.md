@@ -5,9 +5,7 @@ icon: material/weather-rainy
 
 --8<-- "includes/abreviacoes.md"
 
-![Weather Manual - TAF](img/manual-meteorologia-taf.png)
-
-#
+# TAF
 
 ## Definition
 

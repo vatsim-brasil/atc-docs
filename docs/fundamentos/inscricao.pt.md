@@ -8,7 +8,7 @@
 
 --8<-- "includes/abreviacoes.md"
 
-![Fundamentos - Inscrição](img/head-fundamentos-inscricao.png)
+# Entrando na Vatbrz
 
 Pronto para começar sua jornada com a Vatsim Brasil e lançar sua carreira como ATC virtual? Comece aqui com todos os guias essenciais para você iniciar!
 

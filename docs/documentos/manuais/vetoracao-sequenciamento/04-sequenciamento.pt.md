@@ -5,9 +5,7 @@ icon: material/format-list-numbered
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Vetoração e Sequenciamento - Sequenciamento](img/manual-vetoracao-sequenciamento.png)
-
-#
+# Sequenciamento
 
 ## O objetivo
 

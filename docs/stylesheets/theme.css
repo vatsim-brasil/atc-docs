@@ -438,7 +438,8 @@ body {
   width: 1.7rem;
   height: 1.7rem;
   margin-right: 0.35rem;
-  vertical-align: -0.35rem;
+  vertical-align: middle;
+  margin-top: -0.2em;
   border-radius: 8px;
   color: var(--vb-heading-accent);
   background: var(--md-accent-fg-color--transparent);
@@ -1518,6 +1519,99 @@ body {
   width: 1.2rem;
   height: 1.2rem;
   fill: currentColor;
+}
+
+.vb-strip--ad { --vb-strip: var(--vb-radar); }
+.vb-strip--oca { --vb-strip: var(--vb-blue); }
+.vb-strip--fundamentos { --vb-strip: var(--vb-indigo); }
+.vb-strip--portal { --vb-strip: var(--md-default-fg-color--light); }
+
+[data-md-color-scheme="slate"] .vb-strip--fundamentos { --vb-strip: #8c9cff; }
+
+/* Strips dentro de uma página de conteúdo (listagem de novidades) */
+[dir] .md-typeset ol.vb-strips {
+  display: grid;
+  margin: 0 0 1.6rem;
+}
+
+[dir] .md-typeset ol.vb-strips > li {
+  margin: 0;
+}
+
+.md-typeset .vb-strip,
+.md-typeset .vb-strip:hover {
+  color: inherit;
+}
+
+.md-typeset .vb-strip,
+.md-typeset .vb-strip * {
+  text-decoration: none;
+}
+
+.vb-strip__data {
+  white-space: nowrap;
+}
+
+.md-typeset .vb-strip__corpo strong {
+  line-height: 1.4;
+}
+
+.md-typeset h2.vb-novidades__mes {
+  margin: 2rem 0 0.8rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+}
+
+.vb-secao__rodape {
+  margin: 1rem 0 0;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.vb-secao__rodape a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.vb-secao__rodape svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+/* Cabeçalho de uma entrada de novidades */
+.md-typeset .vb-entrada__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 0.6rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.vb-entrada__tipo {
+  padding-left: 0.5rem;
+  border-left: 0.25rem solid var(--vb-strip);
+  color: var(--vb-strip);
+}
+
+[data-md-color-scheme="default"] .vb-strip--fir .vb-entrada__tipo {
+  color: #b58f00;
+}
+
+.md-typeset .vb-entrada__voltar {
+  margin-top: 2rem;
+  font-size: 0.75rem;
 }
 
 /* Aviso de uso exclusivo em simulação */

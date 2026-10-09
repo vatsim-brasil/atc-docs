@@ -5,9 +5,7 @@ icon: material/checkbox-marked-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Coordination and Transfer Manual - Checklist](img/manual-coordenacao-checklist.png)
-
-#
+# Quick Checklist
 
 ## When opening the position
 

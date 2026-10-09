@@ -7,9 +7,7 @@ hide:
 
 --8<-- "includes/abreviacoes.md"
 
-#
-
-![Phraseology Manual - Introduction](img/manual-fraseologia-intro.png)
+# Introduction
 
 ## Overview
 

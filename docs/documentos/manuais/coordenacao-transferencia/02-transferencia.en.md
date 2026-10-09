@@ -5,9 +5,7 @@ icon: material/transfer-right
 
 --8<-- "includes/abreviacoes.md"
 
-![Coordination and Transfer Manual - Transfer of Control](img/manual-coordenacao-transferencia.png)
-
-#
+# Transfer of Control
 
 ## With ATS surveillance
 

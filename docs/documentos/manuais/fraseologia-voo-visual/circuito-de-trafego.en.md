@@ -5,9 +5,7 @@ icon: material/vector-square
 
 --8<-- "includes/abreviacoes.md"
 
-![Visual Flight Phraseology Manual - Traffic Circuit](img/manual-fraseologia-voo-visual-circuito.png)
-
-#
+# Traffic Circuit
 
 The traffic circuit is the rectangle flown around the runway in use. It exists so that everyone does the same thing, in the same place, at the same altitude, making each aircraft's behaviour predictable.
 

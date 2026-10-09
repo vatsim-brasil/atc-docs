@@ -5,9 +5,7 @@ icon: material/alert-circle-outline
 
 --8<-- "includes/abreviacoes.md"
 
-![Manual de Fraseologia para Voo Visual - Situações Específicas](img/manual-fraseologia-voo-visual-situacoes.png)
-
-#
+# Situações Específicas
 
 Nem todo voo visual segue o roteiro. Esta página reúne as situações que mais aparecem no dia a dia da operação VFR, em formato de catálogo, para consulta rápida.
 

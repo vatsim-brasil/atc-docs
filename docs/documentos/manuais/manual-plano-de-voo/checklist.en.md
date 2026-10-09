@@ -3,9 +3,7 @@ title: Quick checklist
 icon: material/format-list-checks
 ---
 
-![Flight Plan Manual (FPL) - Checklist](img/manual-plano-de-voo-checklist.png)
-
-#
+# Quick checklist
 
 Use this list to avoid the errors that most often hold up the flow (both in real-world ATS and on networks).
 
