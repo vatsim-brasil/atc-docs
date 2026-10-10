@@ -95,7 +95,7 @@ SBCT tem **duas pistas que se cruzam**. A 15/33 (2218 m) é a pista principal; a
 | **29** | 1798 × 45 m | 1798 m | 1798 m | RNP, VOR | Sem TWY até a cabeceira |
 
 - Giro de 180° (*backtrack*) de aeronaves com PMD acima de **40 t** só **sobre as cabeceiras**, nas duas pistas[^ad20-6].
-- O AD recebe aeronaves até wide-bodies como **B777** e **A330** (código 4E). O **B747-8F** opera com procedimentos especiais aprovados pela ANAC[^ad20-1].
+- O AD recebe aeronaves até wide-bodies como **B777** e **A330** (código 4E). O **B747-8F** opera com procedimentos especiais[^ad20-1].
 
 [^ad20-10]: [AIP Brasil, AD 2 SBCT 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-6]: [AIP Brasil, AD 2 SBCT 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
@@ -302,11 +302,9 @@ Referência para a simulação. As posições seguem a carta PDC; as companhias 
 </section>
 </div>
 
-- **Aviação geral** depende de autorização prévia da concessionária, pedida com pelo menos 2 h de antecedência[^ad20-3].
 
 <small>Logos obtidas da [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas), [Travelpayouts](https://pics.avs.io) (Cargolux) e [Wikipedia](https://en.wikipedia.org/wiki/File:Sideral_Linhas_A%C3%A9reas_logo.png) (Sideral). As marcas pertencem às respectivas companhias.</small>
 
-[^ad20-3]: [AIP Brasil, AD 2 SBCT 2.20, item 3](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -320,9 +318,6 @@ Referência para a simulação. As posições seguem a carta PDC; as companhias 
 
 ### Regulamentos do aeródromo
 
-- **Treinamento** (circuito, toque e arremetida, procedimento IFR) **proibido** de segunda a sexta, **1100–1500** e **1900–2200 UTC**. Fora desses horários, depende de autorização do APP Curitiba coordenada com a Torre[^ad20-1].
-- Aeronaves **restritas**: sem rádio, planadores, sem transponder (ou com falha) e ultraleves motorizados[^ad20-1].
-- Serviços aéreos **restritos**: lançamento de objetos ou pulverização, reboque aéreo, lançamento de paraquedas e voo acrobático[^ad20-1].
 
 [^ad17]: [AIP Brasil, AD 2 SBCT 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 

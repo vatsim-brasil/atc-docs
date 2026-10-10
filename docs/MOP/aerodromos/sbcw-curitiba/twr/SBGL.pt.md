@@ -87,7 +87,7 @@ SBGL tem **duas pistas que não se cruzam**, mas convergem a oeste: a 10/28 (400
 | **33** | 3180 × 47 m | 3050 m | 2930 m | Não precisão | Cabeceira deslocada (120 m) |
 
 - Na 15/33, o piloto **inicia a decolagem do início da pista**, sem precisar taxiar até a cabeceira deslocada[^ad20-2].
-- O AD recebe aeronaves até o código **4E**. **A380** e **B747-8** operam com procedimentos especiais aprovados pela ANAC[^ad20-1].
+- O AD recebe aeronaves até o código **4E**. **A380** e **B747-8** operam com procedimentos especiais[^ad20-1].
 
 [^ad20-1]: [AIP Brasil, AD 2 SBGL 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-2]: [AIP Brasil, AD 2 SBGL 2.20, item 2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
@@ -149,7 +149,6 @@ O SBGL tem **DCL** (autorização de tráfego por enlace de dados)[^ad18]. Na re
 - Com o Pátio em serviço, a aeronave com destino aos pátios 1, 2, 3 e 5 **chama o Pátio antes de entrar** no pátio[^ad18].
 - **Saída:** o Pátio entrega a aeronave ao Solo na saída do pátio; o Solo transfere para a Torre **antes do ponto de espera**.
 - **Chegada:** depois de livrar a pista, a Torre transfere para o Solo; o Solo entrega ao Pátio antes da entrada do pátio.
-- Transponder em **ALT RPTG** e ADS-B (se equipado) durante todo o tempo nos pátios, TWY e pistas: há multilateração de superfície[^ad20-1].
 
 ??? info "Área de atuação do Pátio Galeão"
     ![Área de atuação do Pátio Galeão](SBGL-Apron.png){ loading=lazy }
@@ -207,7 +206,7 @@ O piloto deve ajustar o pouso para o menor tempo de ocupação de pista (MROT), 
 | Restrição | Onde |
 | :--- | :--- |
 | **Envergadura máxima de 36 m** | **Pátio 1** e TWY **Y1**, **Y2**, **Y3** e **Y4**[^ad28] |
-| **Envergadura máxima de 36 m** | TWY **B** entre a **F** e a **G**. Acima disso, só com *follow-me*[^ad28] |
+| **Envergadura máxima de 36 m** | TWY **B** entre a **F** e a **G**[^ad28] |
 | **Barras de parada** | **K** entre L2 e L3; **M** entre K e L1, entre L1 e P e entre P e Q; **N** entre L1 e P e entre Q e S; **T** entre N e M[^ad29] |
 
 !!! danger "Hotspots"
@@ -316,7 +315,7 @@ Referência para a simulação. As posições seguem as cartas PDC e o AIP; as c
 </section>
 </div>
 
-- Os pátios 1, 2 e 3 recebem aviação comercial doméstica e internacional, aviação geral, táxi aéreo e órgãos de governo. O pátio 5 recebe cargueiros, aviação geral, estadia prolongada, transporte militar e aeronaves em nacionalização[^ad28].
+- Os pátios 1, 2 e 3 recebem aviação comercial doméstica e internacional, aviação geral, táxi aéreo e órgãos de governo. O pátio 5 recebe cargueiros, aviação geral, estadia prolongada e transporte militar[^ad28].
 - Aeronaves com mais de 36 m de envergadura não usam o pátio 1[^ad28].
 
 <small>Logos obtidas da [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas) e da [Travelpayouts](https://pics.avs.io) (Cargolux e Atlas Air). As marcas pertencem às respectivas companhias.</small>
@@ -332,10 +331,6 @@ Referência para a simulação. As posições seguem as cartas PDC e o AIP; as c
 
 ### Regulamentos do aeródromo
 
-- **Toque e arremetida** de aeronaves civis e militares só **diariamente entre 0300 e 0800 UTC** e às **terças, quartas e sábados entre 1400 e 1600 UTC**[^ad20-1].
-- Aeronaves **restritas**: sem rádio, planadores, sem transponder (ou com falha) e ultraleves motorizados[^ad20-1].
-- Serviços aéreos **restritos**: lançamento de objetos ou pulverização, reboque aéreo, lançamento de paraquedas e voo acrobático[^ad20-1].
-- Cheque de motores proibido no estacionamento da Sala AIS militar da Base Aérea do Galeão[^ad20-1].
 - Observar a VAC para entrar e sair do circuito de tráfego[^ad23].
 
 [^ad17]: [AIP Brasil, AD 2 SBGL 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).

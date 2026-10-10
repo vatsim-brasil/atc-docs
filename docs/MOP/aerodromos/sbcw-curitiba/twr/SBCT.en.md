@@ -95,7 +95,7 @@ SBCT has **two crossing runways**. 15/33 (2218 m) is the main runway; 11/29 (179
 | **29** | 1798 × 45 m | 1798 m | 1798 m | RNP, VOR | No taxiway to the threshold |
 
 - 180° turns (*backtrack*) by aircraft with MTOW above **40 t** only **on the thresholds**, on both runways[^ad20-6].
-- The aerodrome accepts aircraft up to wide-bodies such as the **B777** and **A330** (code 4E). The **B747-8F** operates under special procedures approved by ANAC[^ad20-1].
+- The aerodrome accepts aircraft up to wide-bodies such as the **B777** and **A330** (code 4E). The **B747-8F** operates under special procedures[^ad20-1].
 
 [^ad20-10]: [AIP Brasil, AD 2 SBCT 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-6]: [AIP Brasil, AD 2 SBCT 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
@@ -302,11 +302,9 @@ A reference for simulation. Stands follow the PDC chart; airlines follow the [ai
 </section>
 </div>
 
-- **General aviation** needs prior authorization from the airport operator, requested at least 2 h in advance[^ad20-3].
 
 <small>Logos from [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas), [Travelpayouts](https://pics.avs.io) (Cargolux) and [Wikipedia](https://en.wikipedia.org/wiki/File:Sideral_Linhas_A%C3%A9reas_logo.png) (Sideral). Trademarks belong to their respective airlines.</small>
 
-[^ad20-3]: [AIP Brasil, AD 2 SBCT 2.20, item 3](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -320,9 +318,6 @@ A reference for simulation. Stands follow the PDC chart; airlines follow the [ai
 
 ### Aerodrome regulations
 
-- **Training** (circuits, touch-and-go, IFR procedure training) **prohibited** Monday to Friday, **1100–1500** and **1900–2200 UTC**. Outside those hours, it needs authorization from Curitiba APP coordinated with Tower[^ad20-1].
-- **Restricted** aircraft: no radio, gliders, no transponder (or transponder failure) and powered ultralights[^ad20-1].
-- **Restricted** air services: object dropping or spraying, aerial towing, parachute dropping and aerobatic flight[^ad20-1].
 
 [^ad17]: [AIP Brasil, AD 2 SBCT 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 

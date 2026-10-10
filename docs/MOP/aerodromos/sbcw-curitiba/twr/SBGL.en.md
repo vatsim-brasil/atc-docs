@@ -87,7 +87,7 @@ SBGL has **two runways that do not cross** but converge to the west: 10/28 (4000
 | **33** | 3180 × 47 m | 3050 m | 2930 m | Non-precision | Displaced threshold (120 m) |
 
 - On 15/33, pilots **start the takeoff from the beginning of the runway**, without taxiing to the displaced threshold[^ad20-2].
-- The aerodrome accepts aircraft up to code **4E**. The **A380** and **B747-8** operate under special procedures approved by ANAC[^ad20-1].
+- The aerodrome accepts aircraft up to code **4E**. The **A380** and **B747-8** operate under special procedures[^ad20-1].
 
 [^ad20-1]: [AIP Brasil, AD 2 SBGL 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-2]: [AIP Brasil, AD 2 SBGL 2.20, item 2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
@@ -149,7 +149,6 @@ SBGL has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 - With Apron online, aircraft bound for aprons 1, 2, 3 and 5 **call Apron before entering** the apron[^ad18].
 - **Departure:** Apron hands the aircraft to Ground at the apron exit; Ground hands it to Tower **before the holding point**.
 - **Arrival:** after vacating, Tower hands the aircraft to Ground; Ground hands it to Apron before the apron entry.
-- Transponder in **ALT RPTG** and ADS-B (if equipped) at all times on aprons, taxiways and runways: surface multilateration is in use[^ad20-1].
 
 ??? info "Galeão Apron area of responsibility"
     ![Galeão Apron area of responsibility](SBGL-Apron.png){ loading=lazy }
@@ -207,7 +206,7 @@ Pilots must adjust their landing for minimum runway occupancy (MROT), especially
 | Restriction | Where |
 | :--- | :--- |
 | **Maximum wingspan 36 m** | **Apron 1** and TWY **Y1**, **Y2**, **Y3** and **Y4**[^ad28] |
-| **Maximum wingspan 36 m** | TWY **B** between **F** and **G**. Larger aircraft only with a *follow-me*[^ad28] |
+| **Maximum wingspan 36 m** | TWY **B** between **F** and **G**[^ad28] |
 | **Stop bars** | **K** between L2 and L3; **M** between K and L1, between L1 and P and between P and Q; **N** between L1 and P and between Q and S; **T** between N and M[^ad29] |
 
 !!! danger "Hotspots"
@@ -316,7 +315,7 @@ A reference for simulation. Stands follow the PDC charts and the AIP; airlines f
 </section>
 </div>
 
-- Aprons 1, 2 and 3 take domestic and international commercial aviation, general aviation, air taxi and government aircraft. Apron 5 takes freighters, general aviation, extended stays, military transport and aircraft undergoing customs clearance[^ad28].
+- Aprons 1, 2 and 3 take domestic and international commercial aviation, general aviation, air taxi and government aircraft. Apron 5 takes freighters, general aviation, extended stays and military transport[^ad28].
 - Aircraft with a wingspan above 36 m do not use apron 1[^ad28].
 
 <small>Logos from [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas) and [Travelpayouts](https://pics.avs.io) (Cargolux and Atlas Air). Trademarks belong to their respective airlines.</small>
@@ -332,10 +331,6 @@ A reference for simulation. Stands follow the PDC charts and the AIP; airlines f
 
 ### Aerodrome regulations
 
-- **Touch-and-go** by civil and military aircraft only **daily between 0300 and 0800 UTC** and on **Tuesdays, Wednesdays and Saturdays between 1400 and 1600 UTC**[^ad20-1].
-- **Restricted** aircraft: no radio, gliders, no transponder (or transponder failure) and powered ultralights[^ad20-1].
-- **Restricted** air services: object dropping or spraying, aerial towing, parachute dropping and aerobatic flight[^ad20-1].
-- Engine run-ups prohibited at the parking area of the military AIS office at Galeão Air Base[^ad20-1].
 - Follow the VAC to join and leave the traffic pattern[^ad23].
 
 [^ad17]: [AIP Brasil, AD 2 SBGL 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
