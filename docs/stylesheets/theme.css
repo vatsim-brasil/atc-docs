@@ -51,7 +51,7 @@
   --vb-border-strong: rgba(10, 16, 41, 0.18);
   --vb-heading-accent: var(--vb-blue);
   --vb-shadow: 0 1px 2px rgba(10, 16, 41, 0.05), 0 6px 20px -8px rgba(10, 16, 41, 0.14);
-  --vb-shadow-hover: 0 2px 4px rgba(10, 16, 41, 0.06), 0 16px 36px -12px rgba(24, 32, 97, 0.28);
+  --vb-shadow-hover: 0 1px 2px rgba(10, 16, 41, 0.06), 0 6px 14px -6px rgba(24, 32, 97, 0.22);
 
   /* Variáveis herdadas usadas por páginas específicas */
   --md-lower-text: var(--vb-indigo);
@@ -97,7 +97,7 @@
   --vb-border-strong: rgba(160, 180, 255, 0.2);
   --vb-heading-accent: var(--vb-cyan);
   --vb-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -10px rgba(0, 0, 0, 0.6);
-  --vb-shadow-hover: 0 0 0 1px rgba(61, 178, 255, 0.35), 0 18px 40px -14px rgba(61, 178, 255, 0.3);
+  --vb-shadow-hover: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 18px -8px rgba(0, 0, 0, 0.75);
 
   --md-lower-text: #fff;
   --md-card-a: var(--vb-surface-2);
@@ -121,10 +121,6 @@
 /* --------------------------------------------------------------------------
    2. Base
    -------------------------------------------------------------------------- */
-
-html {
-  scroll-padding-top: 7rem;
-}
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -1457,6 +1453,8 @@ body {
 .vb-strip:hover {
   color: inherit;
   transform: translateX(4px);
+  border-color: color-mix(in srgb, var(--md-accent-fg-color) 45%, transparent);
+  border-left-color: var(--vb-strip);
   box-shadow: var(--vb-shadow-hover);
 }
 
