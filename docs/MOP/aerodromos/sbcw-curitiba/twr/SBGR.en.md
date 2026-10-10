@@ -16,7 +16,7 @@ tags:
 | **Type of Operation**        | International, Public and Military            |
 | **Transition altitude**      | 8000 ft                                       |
 | **Elevation**                | 2461 ft (750 m)                               |
-| **Reference code**           | 4E (B747-8 and A380 with special authorization)[^ad23] |
+| **Reference code**           | 4E[^ad23] |
 | **Airspace**                 | Guarulhos CTR, class D, GND/3600 ft[^ad17]    |
 | **Operation**                | IFR. Fixed-wing VFR prohibited, except Brazilian military[^ad22] |
 | **Accepts A380?** | :material-check:{ style="color:#12a150" }[^ad23] |
@@ -135,7 +135,7 @@ SBGR has **DCL** (departure clearance via datalink). On the network, the station
 
 <figure markdown="span">
   ![SBGR map with the runway strip in yellow, under Tower, and the rest in blue, under Ground](img/sbgr-responsabilidade.svg){ loading=lazy }
-  <figcaption>Yellow strip: Tower. Blue area: Ground. The dashed line runs through the runway holding points.</figcaption>
+  <figcaption>Yellow strip: Tower. Everything else: Ground. The dashed line runs through the runway holding points. Colored circles: Ground/Tower handoff points (blue: arrival; green: departure), explained below. White circles: apron numbers.</figcaption>
 </figure>
 
 The split follows the **runway holding points**. Everything between the holding points north of 10L/28R and south of 10R/28L belongs to Tower.
@@ -145,16 +145,16 @@ The split follows the **runway holding points**. Everything between the holding 
 | **GND** | Aprons 1 to 10, TWY **A** and **B**, Y taxilanes, TWY V and M and the links (G, H, I, J, K, L, N, O, P, Q) **up to the 10L/28R holding point**. South side: aprons 12 and 13 and TWY S, T and U **up to the 10R/28L holding point** |
 | **TWR** | Both runways, all **crossings**, the rapid exits **BB, CC, DD, FF** and the taxiways **between the runways** (C, D, E and the parts of G, BB, CC and O between 10L and 10R) |
 
-**Handoff points** (numbers on the map):
+**Handoff points** (colored circles on the map):
 
-1. **Arrival on 10R/28L bound for the north aprons:** the aircraft stays on Tower frequency, holds and crosses 10L/28R with Tower clearance and **only calls Ground after crossing and vacating 10L/28R**[^ad20-1-2-4].
-2. **Departure:** Ground hands the aircraft to Tower **before the holding point** of the departure runway. To ease frequency load, Ground may instruct the pilot to **monitor** Tower, without an initial call[^ad20-6].
-3. **Arrival bound for aprons 12 and 13:** the aircraft vacates 10R/28L to the south (T or U) and calls Ground after vacating.
+1. :material-numeric-1-circle:{ style="color:#3d7fd6" } **Arrival on 10R/28L bound for the north aprons:** the aircraft stays on Tower frequency, holds and crosses 10L/28R with Tower clearance and **only calls Ground after crossing and vacating 10L/28R**[^ad20-1-2-4].
+2. :material-numeric-2-circle:{ style="color:#12a150" } **Departure:** Ground hands the aircraft to Tower **before the holding point** of the departure runway. To ease frequency load, Ground may instruct the pilot to **monitor** Tower, without an initial call[^ad20-6].
+3. :material-numeric-3-circle:{ style="color:#3d7fd6" } **Arrival bound for aprons 12 and 13:** the aircraft vacates 10R/28L to the south (T or U) and calls Ground after vacating.
 
 !!! warning "Crossing the adjacent runway"
     - An aircraft vacating a runway must **NEVER** cross the parallel runway without specific ATC clearance.
     - An aircraft holding to cross stays on **Tower** frequency and **does not request** the crossing: Tower will call.
-    - Once cleared, cross promptly. Single-engine taxi is not allowed before crossing[^ad20-1-2-4].
+    - Once cleared, cross promptly.[^ad20-1-2-4].
 
 [^ad20-1-2-4]: [AIP Brasil, AD 2 SBGR 2.20, item 1.2.4](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-6]: [AIP Brasil, AD 2 SBGR 2.20, item 6.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
@@ -211,10 +211,24 @@ To ensure minimum runway occupancy time (MROT), pilots must vacate via the taxiw
 
 ### Taxi restrictions
 
-- **TWY S, T and U:** wingspan above 44 m only under tow[^ad20-12].
-- **Code F:** no taxiing on A between G and apron 1, on the Y taxilanes of aprons 1 to 5, on TWY M and V, or on G between 10R/28L and apron 12. TWY V and A between G and apron 1: maximum wingspan 65 m[^ad20-12].
-- No turning where there are no matching markings and lights[^ad20-1-2-4].
-- **Low visibility (RVR < 400 m):** taxi with the *Follow-me* vehicle as per the AIP, on the standard taxi routes[^ad20-16].
+**By aircraft size**[^ad20-12]:
+
+| Aircraft | Where it cannot taxi |
+| :--- | :--- |
+| **Wingspan above 44 m** | TWY **S**, **T** and **U** |
+| **Code F** (e.g. A380, B747-8) | TWY **A** between G and apron 1 |
+| | TWY **M** and **V** |
+| | TWY **G** between 10R/28L and apron 12 |
+| | The taxilanes inside **aprons 1 to 5** (see below) |
+
+On TWY **V**, and on TWY **A** between G and apron 1, the maximum wingspan is **65 m**.
+
+!!! info "What the apron 1 to 5 taxilanes are"
+    They are the taxi lines **painted inside the aprons**, in **red and blue**, that lead to the parking stands. The AIP gives them their own names: **Y1W, Y1E, Y2W, Y2E**, and so on up to **Y5W** and **Y5E**. The number is the apron; W and E mean the west or east side.
+
+**Other restrictions:**
+
+- **Low visibility (RVR < 400 m):** progressive taxi on the standard taxi routes, with short instructions from Ground[^ad20-16].
 
 [^ad20-1-2-2]: [AIP Brasil, AD 2 SBGR 2.20, item 1.2.2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-12]: [AIP Brasil, AD 2 SBGR 2.20, item 12](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and AD 2.8.
@@ -325,7 +339,7 @@ When there are more departures than arrivals, Tower may launch from **both runwa
 - From **sunrise to sunset**.
 - Visibility ≥ **5 km** and ceiling ≥ **1000 ft**.
 - Tailwind **up to 3 kt**.
-- Braking action **not affected** by contaminants (water, ice, snow).
+- Dry runway: no rain, snow or ice reported in the METAR.
 - **Wake turbulence** minima applied as usual.
 - RRSM announced on the **ATIS**.
 
@@ -360,28 +374,28 @@ Tower gives **traffic information** with the clearance:
 
 ## :material-sign-direction: Aprons and airlines
 
-A reference for simulation, based on the real terminal layout. It is not the airport's official allocation, which changes every season. **VAs** use the aprons of the real airline they represent.
+A reference for simulation. Terminals follow the [GRU Airport airline directory](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas); the split between aprons is a simplification, not the airport's official allocation. **VAs** use the aprons of the real airline they represent.
 
 <div class="patios">
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 1"><small>Apron</small>1</span><span class="patio__info"><strong>Terminal 1</strong><span>Domestic</span><span class="patio__pos">Stands 101 to 105</span></span></header>
-<div class="patio__cias"><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="https://pics.avs.io/240/80/AD.png" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure></div>
+<div class="patio__cias"><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure><figure class="cia" title="Samba (SXB)"><img class="off-glb" src="/images/cias/SXB.svg" alt="Samba" loading="lazy"><figcaption>SXB</figcaption></figure></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Apron 2·3"><small>Apron</small>2·3</span><span class="patio__info"><strong>Terminal 2</strong><span>Domestic and regional international</span><span class="patio__pos">Stands 201 to 212 · 301 to 312</span></span></header>
-<div class="patio__cias"><figure class="cia" title="GOL (GLO)"><img class="off-glb" src="https://pics.avs.io/240/80/G3.png" alt="GOL" loading="lazy"><figcaption>GLO</figcaption></figure></div>
+<header class="patio__cab"><span class="patio__num" title="Apron 2·3"><small>Apron</small>2·3</span><span class="patio__info"><strong>Terminal 2</strong><span>Domestic and international</span><span class="patio__pos">Stands 207 to 212 · 301 to 312</span></span></header>
+<div class="patio__cias"><figure class="cia" title="GOL (GLO)"><img class="off-glb" src="/images/cias/GLO.gif" alt="GOL" loading="lazy"><figcaption>GLO</figcaption></figure></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Apron 4"><small>Apron</small>4</span><span class="patio__info"><strong>Terminal 2</strong><span>Domestic and South America</span><span class="patio__pos">Stands 401 to 411</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Aerolíneas Argentinas (ARG)"><img class="off-glb" src="https://pics.avs.io/240/80/AR.png" alt="Aerolíneas Argentinas" loading="lazy"><figcaption>ARG</figcaption></figure><figure class="cia" title="Avianca (AVA)"><img class="off-glb" src="https://pics.avs.io/240/80/AV.png" alt="Avianca" loading="lazy"><figcaption>AVA</figcaption></figure><figure class="cia" title="BoA (BOV)"><img class="off-glb" src="https://pics.avs.io/240/80/OB.png" alt="BoA" loading="lazy"><figcaption>BOV</figcaption></figure><figure class="cia" title="Arajet (DWI)"><img class="off-glb" src="https://pics.avs.io/240/80/DM.png" alt="Arajet" loading="lazy"><figcaption>DWI</figcaption></figure></div>
+<header class="patio__cab"><span class="patio__num" title="Apron 4"><small>Apron</small>4</span><span class="patio__info"><strong>Terminal 2</strong><span>Domestic and international</span><span class="patio__pos">Stands 401 to 411</span></span></header>
+<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Aerolíneas Argentinas (ARG)"><img class="off-glb" src="/images/cias/ARG.gif" alt="Aerolíneas Argentinas" loading="lazy"><figcaption>ARG</figcaption></figure><figure class="cia" title="Air Europa (AEA)"><img class="off-glb" src="/images/cias/AEA.gif" alt="Air Europa" loading="lazy"><figcaption>AEA</figcaption></figure><figure class="cia" title="Avianca (AVA)"><img class="off-glb" src="/images/cias/AVA.png" alt="Avianca" loading="lazy"><figcaption>AVA</figcaption></figure><figure class="cia" title="BoA (BOV)"><img class="off-glb" src="/images/cias/BOV.gif" alt="BoA" loading="lazy"><figcaption>BOV</figcaption></figure><figure class="cia" title="Arajet (DWI)"><img class="off-glb" src="/images/cias/DWI.jpg" alt="Arajet" loading="lazy"><figcaption>DWI</figcaption></figure><figure class="cia" title="Ethiopian (ETH)"><img class="off-glb" src="/images/cias/ETH.gif" alt="Ethiopian" loading="lazy"><figcaption>ETH</figcaption></figure><figure class="cia" title="Flybondi (FBZ)"><img class="off-glb" src="/images/cias/FBZ.jpg" alt="Flybondi" loading="lazy"><figcaption>FBZ</figcaption></figure><figure class="cia" title="JetSMART (JAT)"><img class="off-glb" src="/images/cias/JAT.png" alt="JetSMART" loading="lazy"><figcaption>JAT</figcaption></figure><figure class="cia" title="Royal Air Maroc (RAM)"><img class="off-glb" src="/images/cias/RAM.png" alt="Royal Air Maroc" loading="lazy"><figcaption>RAM</figcaption></figure><figure class="cia" title="SKY Airline (SKU)"><img class="off-glb" src="/images/cias/SKU.png" alt="SKY Airline" loading="lazy"><figcaption>SKU</figcaption></figure><figure class="cia" title="TAAG (DTA)"><img class="off-glb" src="/images/cias/DTA.gif" alt="TAAG" loading="lazy"><figcaption>DTA</figcaption></figure></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Apron 1"><small>Apron</small>1</span><span class="patio__info"><strong>Cargo terminal</strong><span>Freighters</span><span class="patio__pos">Stands 106 to 115</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM Cargo (LCO)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM Cargo" loading="lazy"><figcaption>LCO</figcaption></figure><figure class="cia" title="Lufthansa Cargo (GEC)"><img class="off-glb" src="https://pics.avs.io/240/80/LH.png" alt="Lufthansa Cargo" loading="lazy"><figcaption>GEC</figcaption></figure><figure class="cia" title="Cargolux (CLX)"><img class="off-glb" src="https://pics.avs.io/240/80/CV.png" alt="Cargolux" loading="lazy"><figcaption>CLX</figcaption></figure><figure class="cia" title="Atlas Air (GTI)"><img class="off-glb" src="https://pics.avs.io/240/80/5Y.png" alt="Atlas Air" loading="lazy"><figcaption>GTI</figcaption></figure><figure class="cia" title="Qatar Airways Cargo (QTR)"><img class="off-glb" src="https://pics.avs.io/240/80/QR.png" alt="Qatar Airways Cargo" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Cargo (THY)"><img class="off-glb" src="https://pics.avs.io/240/80/TK.png" alt="Turkish Cargo" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="Emirates SkyCargo (UAE)"><img class="off-glb" src="https://pics.avs.io/240/80/EK.png" alt="Emirates SkyCargo" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Total (TTL)"><span class="cia__texto">Total</span><figcaption>TTL</figcaption></figure></div>
+<header class="patio__cab"><span class="patio__num" title="Apron 1·2"><small>Apron</small>1·2</span><span class="patio__info"><strong>Cargo terminal</strong><span>Freighters</span><span class="patio__pos">Stands 106 to 115 · 201 to 206</span></span></header>
+<div class="patio__cias"><figure class="cia" title="LATAM Cargo (LCO)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM Cargo" loading="lazy"><figcaption>LCO</figcaption></figure><figure class="cia" title="Lufthansa Cargo (GEC)"><img class="off-glb" src="/images/cias/DLH.png" alt="Lufthansa Cargo" loading="lazy"><figcaption>GEC</figcaption></figure><figure class="cia" title="Cargolux (CLX)"><img class="off-glb" src="/images/cias/CLX.png" alt="Cargolux" loading="lazy"><figcaption>CLX</figcaption></figure><figure class="cia" title="Atlas Air (GTI)"><img class="off-glb" src="/images/cias/GTI.png" alt="Atlas Air" loading="lazy"><figcaption>GTI</figcaption></figure><figure class="cia" title="Qatar Airways Cargo (QTR)"><img class="off-glb" src="/images/cias/QTR.gif" alt="Qatar Airways Cargo" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Cargo (THY)"><img class="off-glb" src="/images/cias/THY.gif" alt="Turkish Cargo" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="Emirates SkyCargo (UAE)"><img class="off-glb" src="/images/cias/UAE.gif" alt="Emirates SkyCargo" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Total (TTL)"><span class="cia__texto">Total</span><figcaption>TTL</figcaption></figure><figure class="cia" title="Sideral Linhas Aéreas (SID)"><img class="off-glb" src="/images/cias/SID.png" alt="Sideral Linhas Aéreas" loading="lazy"><figcaption>SID</figcaption></figure><figure class="cia" title="Sambalog (SXB)"><img class="off-glb" src="/images/cias/SXB.svg" alt="Sambalog" loading="lazy"><figcaption>SXB</figcaption></figure></div>
 </section>
 <section class="patio patio--largo">
 <header class="patio__cab"><span class="patio__num" title="Apron 5·6"><small>Apron</small>5·6</span><span class="patio__info"><strong>Terminal 3</strong><span>International</span><span class="patio__pos">Stands 501 to 511 · 601 to 612</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="https://pics.avs.io/240/80/AA.png" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><figure class="cia" title="Delta (DAL)"><img class="off-glb" src="https://pics.avs.io/240/80/DL.png" alt="Delta" loading="lazy"><figcaption>DAL</figcaption></figure><figure class="cia" title="United (UAL)"><img class="off-glb" src="https://pics.avs.io/240/80/UA.png" alt="United" loading="lazy"><figcaption>UAL</figcaption></figure><figure class="cia" title="Air France (AFR)"><img class="off-glb" src="https://pics.avs.io/240/80/AF.png" alt="Air France" loading="lazy"><figcaption>AFR</figcaption></figure><figure class="cia" title="KLM (KLM)"><img class="off-glb" src="https://pics.avs.io/240/80/KL.png" alt="KLM" loading="lazy"><figcaption>KLM</figcaption></figure><figure class="cia" title="Lufthansa (DLH)"><img class="off-glb" src="https://pics.avs.io/240/80/LH.png" alt="Lufthansa" loading="lazy"><figcaption>DLH</figcaption></figure><figure class="cia" title="British Airways (BAW)"><img class="off-glb" src="https://pics.avs.io/240/80/BA.png" alt="British Airways" loading="lazy"><figcaption>BAW</figcaption></figure><figure class="cia" title="Iberia (IBE)"><img class="off-glb" src="https://pics.avs.io/240/80/IB.png" alt="Iberia" loading="lazy"><figcaption>IBE</figcaption></figure><figure class="cia" title="TAP (TAP)"><img class="off-glb" src="https://pics.avs.io/240/80/TP.png" alt="TAP" loading="lazy"><figcaption>TAP</figcaption></figure><figure class="cia" title="Emirates (UAE)"><img class="off-glb" src="https://pics.avs.io/240/80/EK.png" alt="Emirates" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Qatar Airways (QTR)"><img class="off-glb" src="https://pics.avs.io/240/80/QR.png" alt="Qatar Airways" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Airlines (THY)"><img class="off-glb" src="https://pics.avs.io/240/80/TK.png" alt="Turkish Airlines" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="Ethiopian (ETH)"><img class="off-glb" src="https://pics.avs.io/240/80/ET.png" alt="Ethiopian" loading="lazy"><figcaption>ETH</figcaption></figure><figure class="cia" title="Air Canada (ACA)"><img class="off-glb" src="https://pics.avs.io/240/80/AC.png" alt="Air Canada" loading="lazy"><figcaption>ACA</figcaption></figure><figure class="cia" title="Aeroméxico (AMX)"><img class="off-glb" src="https://pics.avs.io/240/80/AM.png" alt="Aeroméxico" loading="lazy"><figcaption>AMX</figcaption></figure><figure class="cia" title="Copa (CMP)"><img class="off-glb" src="https://pics.avs.io/240/80/CM.png" alt="Copa" loading="lazy"><figcaption>CMP</figcaption></figure></div>
+<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="/images/cias/AAL.gif" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><figure class="cia" title="Delta (DAL)"><img class="off-glb" src="/images/cias/DAL.jpg" alt="Delta" loading="lazy"><figcaption>DAL</figcaption></figure><figure class="cia" title="United (UAL)"><img class="off-glb" src="/images/cias/UAL.gif" alt="United" loading="lazy"><figcaption>UAL</figcaption></figure><figure class="cia" title="Air France (AFR)"><img class="off-glb" src="/images/cias/AFR.gif" alt="Air France" loading="lazy"><figcaption>AFR</figcaption></figure><figure class="cia" title="KLM (KLM)"><img class="off-glb" src="/images/cias/KLM.gif" alt="KLM" loading="lazy"><figcaption>KLM</figcaption></figure><figure class="cia" title="Lufthansa (DLH)"><img class="off-glb" src="/images/cias/DLH.png" alt="Lufthansa" loading="lazy"><figcaption>DLH</figcaption></figure><figure class="cia" title="Swiss (SWR)"><img class="off-glb" src="/images/cias/SWR.gif" alt="Swiss" loading="lazy"><figcaption>SWR</figcaption></figure><figure class="cia" title="British Airways (BAW)"><img class="off-glb" src="/images/cias/BAW.gif" alt="British Airways" loading="lazy"><figcaption>BAW</figcaption></figure><figure class="cia" title="Iberia (IBE)"><img class="off-glb" src="/images/cias/IBE.gif" alt="Iberia" loading="lazy"><figcaption>IBE</figcaption></figure><figure class="cia" title="ITA Airways (ITY)"><img class="off-glb" src="/images/cias/ITY.jpg" alt="ITA Airways" loading="lazy"><figcaption>ITY</figcaption></figure><figure class="cia" title="TAP (TAP)"><img class="off-glb" src="/images/cias/TAP.gif" alt="TAP" loading="lazy"><figcaption>TAP</figcaption></figure><figure class="cia" title="Emirates (UAE)"><img class="off-glb" src="/images/cias/UAE.gif" alt="Emirates" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Qatar Airways (QTR)"><img class="off-glb" src="/images/cias/QTR.gif" alt="Qatar Airways" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Airlines (THY)"><img class="off-glb" src="/images/cias/THY.gif" alt="Turkish Airlines" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="South African (SAA)"><img class="off-glb" src="/images/cias/SAA.png" alt="South African" loading="lazy"><figcaption>SAA</figcaption></figure><figure class="cia" title="Air Canada (ACA)"><img class="off-glb" src="/images/cias/ACA.gif" alt="Air Canada" loading="lazy"><figcaption>ACA</figcaption></figure><figure class="cia" title="Aeroméxico (AMX)"><img class="off-glb" src="/images/cias/AMX.gif" alt="Aeroméxico" loading="lazy"><figcaption>AMX</figcaption></figure><figure class="cia" title="Copa (CMP)"><img class="off-glb" src="/images/cias/CMP.gif" alt="Copa" loading="lazy"><figcaption>CMP</figcaption></figure><figure class="cia" title="Air China (CCA)"><img class="off-glb" src="/images/cias/CCA.png" alt="Air China" loading="lazy"><figcaption>CCA</figcaption></figure></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 7"><small>Apron</small>7</span><span class="patio__info"><strong>Remote</strong><span>Overnight, charters and wide-body overflow</span><span class="patio__pos">Stands 701 to 715</span></span></header>
@@ -389,11 +403,15 @@ A reference for simulation, based on the real terminal layout. It is not the air
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 9"><small>Apron</small>9</span><span class="patio__info"><strong>Remote, next to the hangars</strong><span>Overnight and maintenance</span><span class="patio__pos">Stands 901 to 911</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="https://pics.avs.io/240/80/AA.png" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><p class="patio__nota">and overflow from the other aprons.</p></div>
+<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="/images/cias/AAL.gif" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><p class="patio__nota">and overflow from the other aprons.</p></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Apron 10"><small>Apron</small>10</span><span class="patio__info"><strong>Sideral Apron</strong><span>Sideral Linhas Aéreas · next to TWY Q</span></span></header>
+<div class="patio__cias"><figure class="cia" title="Sideral Linhas Aéreas (SID)"><img class="off-glb" src="/images/cias/SID.png" alt="Sideral Linhas Aéreas" loading="lazy"><figcaption>SID</figcaption></figure></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 12"><small>Apron</small>12</span><span class="patio__info"><strong>General aviation</strong><span>Business, air taxi and helicopters</span><span class="patio__pos">Stands 1 to 12 · H1 to H3</span></span></header>
-<div class="patio__cias"><p class="patio__nota">General aviation and air taxi, with prior authorization.</p></div>
+<div class="patio__cias"><p class="patio__nota">General aviation and air taxi.</p></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 13"><small>Apron</small>13</span><span class="patio__info"><strong>BASP</strong><span>Military · São Paulo Air Force Base</span></span></header>
@@ -401,11 +419,10 @@ A reference for simulation, based on the real terminal layout. It is not the air
 </section>
 </div>
 
-- **General aviation** parks only on apron 12, with prior authorization from the airport; maximum stay 3 h (international) or 2 h (domestic)[^ad20-8].
-- **Military** aircraft bound for BASP (apron 13) call **Guarulhos Operations (122.500)**[^ad20-8].
-- **SBGR is not an alternate** for flights planned to SBSP, SBKP or other TMA-SP aerodromes, due to apron capacity, except military or coordinated flights[^ad22-8].
+- **General aviation** parks only on apron 12[^ad20-8].
+- **Military** aircraft bound for BASP (apron 13) stay with **Ground**, like any other traffic.
 
-<small>Logos via [Travelpayouts](https://pics.avs.io), loaded from the original source. Trademarks belong to their respective airlines.</small>
+<small>Logos from [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas), [Travelpayouts](https://pics.avs.io) (Cargolux and Atlas Air), [Wikipedia](https://en.wikipedia.org/wiki/File:Sideral_Linhas_A%C3%A9reas_logo.png) (Sideral) and [Voe Samba](https://voesamba.com). Trademarks belong to their respective airlines.</small>
 
 [^ad20-8]: [AIP Brasil, AD 2 SBGR 2.20, item 8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and AD 2.8.
 
@@ -424,17 +441,14 @@ A reference for simulation, based on the real terminal layout. It is not the air
 ### Communications
 
 - To avoid frequency congestion, ATC may instruct pilots to **monitor** the next frequency. In that case there is **no** initial call[^ad20-6].
-- Flight plans and their changes are **not** accepted by radiotelephony[^ad23].
 
 ### Aerodrome regulations
 
 - Fixed-wing VFR **prohibited**, except Brazilian military or non-RNAV aircraft when conventional procedures are unavailable[^ad22].
-- No landings or takeoffs of **turboprop and piston** aircraft between **0930–1300 UTC and 2200–0200 UTC**, except military, MEDEVAC and RBAC 121/129[^ad20-8].
-- No training flights, except BASP military aircraft and authorized ILS CAT II/III training[^ad20-13].
+- Training flights (circuits, touch-and-go) at Tower's discretion, depending on traffic.
 
 [^ad20-1-2-1]: [AIP Brasil, AD 2 SBGR 2.20, item 1.2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-2]: [AIP Brasil, AD 2 SBGR 2.20, item 2.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
-[^ad20-13]: [AIP Brasil, AD 2 SBGR 2.20, item 13](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad17]: [AIP Brasil, AD 2 SBGR 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad22]: [AIP Brasil, AD 2 SBGR 2.22, item 1.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad23]: [AIP Brasil, AD 2 SBGR 2.23](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
