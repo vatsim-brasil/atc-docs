@@ -617,8 +617,8 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "icao": "SBML",
         "type": "unctrl",
         "name": "Marília",
-        "lat": -15.78,
-        "lon": -47.93,
+        "lat": -22.1969,
+        "lon": -49.9264,
         "link": "sbbs-brasilia/afis/SBML/"
     },
     {
