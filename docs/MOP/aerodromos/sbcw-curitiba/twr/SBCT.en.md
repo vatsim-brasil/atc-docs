@@ -37,6 +37,7 @@ tags:
         <div class="weather-card taf" id="taf-content">
             Loading TAF<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
         </div>
+    </div>
 
 === ":material-radar: VATSIM Traffic"
     [:material-radar: Traffic](https://vatsim-radar.com/?airport=SBCT){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;align:center;" }
