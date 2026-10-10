@@ -1907,3 +1907,139 @@ body {
   word-break: break-word;
   font-family: var(--md-code-font-family);
 }
+
+/* --------------------------------------------------------------------------
+   Pátios e companhias: cartões por pátio com parede de logos
+   -------------------------------------------------------------------------- */
+
+.md-typeset .patios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: 0.9rem;
+  margin: 1.2em 0;
+}
+
+.md-typeset .patio {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--vb-border);
+  border-radius: var(--vb-radius);
+  background: var(--vb-surface-2);
+  overflow: hidden;
+}
+
+.md-typeset .patio--largo {
+  grid-column: 1 / -1;
+}
+
+.md-typeset .patio__cab {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid var(--vb-border);
+}
+
+.md-typeset .patio__num {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.1rem;
+  height: 3.1rem;
+  padding: 0 0.4rem;
+  border-radius: 10px;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.md-typeset .patio__num small {
+  font-size: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 0.2rem;
+}
+
+.md-typeset .patio__info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+
+.md-typeset .patio__info strong {
+  font-size: 0.9rem;
+}
+
+.md-typeset .patio__info span {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+}
+
+.md-typeset .patio__info .patio__pos {
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .patio__cias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.7rem 0.6rem;
+  padding: 0.9rem;
+  flex: 1;
+}
+
+.md-typeset .cia {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.md-typeset .cia img,
+.md-typeset .cia__texto {
+  box-sizing: border-box;
+  width: 7rem;
+  height: 2.6rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.md-typeset .cia img {
+  object-fit: contain;
+}
+
+.md-typeset .cia__texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2430;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.md-typeset .cia figcaption {
+  margin: 0;
+  max-width: none;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.62rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.md-typeset .patio__nota {
+  align-self: center;
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+}
