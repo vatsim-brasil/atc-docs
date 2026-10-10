@@ -4,3 +4,6 @@ site
 .sources
 .env
 __pycache__/
+
+# geometria GND_DRAW baixada por tools/diagramas/baixar.sh (repositório privado)
+tools/diagramas/.dados/
