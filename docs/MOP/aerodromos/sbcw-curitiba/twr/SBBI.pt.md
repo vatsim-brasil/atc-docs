@@ -15,6 +15,7 @@
 | **Tipo de Operação**         | Nacional, Público e Militar               |
 | **Altitude de transição** | 9000 pés |
 | **Elevação** | 3059 pés (932 m) |
+| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

@@ -15,6 +15,7 @@
 | **Type of Operation**         | International, Public and Military     |
 | **Transition altitude** | 5000 ft |
 | **Elevation** | 83 ft (25 m) |
+| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Useful Information
 

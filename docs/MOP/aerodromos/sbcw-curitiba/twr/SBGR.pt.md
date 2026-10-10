@@ -16,9 +16,10 @@ tags:
 | **Tipo de Operação**         | Internacional, Público e Militar              |
 | **Altitude de transição**    | 8000 pés                                      |
 | **Elevação**                 | 2461 pés (750 m)                              |
-| **Código de referência**     | 4E (B747-8 e A380 com autorização especial)[^ad23] |
+| **Código de referência**     | 4E[^ad23] |
 | **Espaço aéreo**             | CTR Guarulhos, classe D, GND/3600 pés[^ad17]  |
 | **Operação**                 | IFR. VFR de asa fixa proibido, exceto militares brasileiras[^ad22] |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" }[^ad23] |
 
 ## :material-monitor-dashboard: Informações Úteis
 
@@ -134,7 +135,7 @@ O SBGR tem **DCL** (autorização de tráfego por enlace de dados). Na rede, a e
 
 <figure markdown="span">
   ![Mapa de SBGR com a faixa das pistas em amarelo, sob a Torre, e o restante em azul, sob o Solo](img/sbgr-responsabilidade.svg){ loading=lazy }
-  <figcaption>Faixa amarela: Torre. Área azul: Solo. A linha tracejada passa pelos pontos de espera.</figcaption>
+  <figcaption>Faixa amarela: Torre. Restante: Solo. A linha tracejada passa pelos pontos de espera. Círculos coloridos: pontos de transferência entre Solo e Torre (azul: chegada; verde: saída), explicados abaixo. Círculos brancos: números dos pátios.</figcaption>
 </figure>
 
 A divisão segue os **pontos de espera das pistas**. Tudo que fica entre os pontos de espera ao norte da 10L/28R e ao sul da 10R/28L é da Torre.
@@ -144,16 +145,16 @@ A divisão segue os **pontos de espera das pistas**. Tudo que fica entre os pont
 | **GND** | Pátios 1 a 10, TWY **A** e **B**, taxilanes Y, TWY V e M e as ligações (G, H, I, J, K, L, N, O, P, Q) **até o ponto de espera da 10L/28R**. Ao sul: pátios 12 e 13 e TWY S, T e U **até o ponto de espera da 10R/28L** |
 | **TWR** | As duas pistas, todos os **cruzamentos**, as saídas rápidas **BB, CC, DD, FF** e as TWY **entre as pistas** (C, D, E e os trechos de G, BB, CC e O entre a 10L e a 10R) |
 
-**Pontos de transferência** (números no mapa):
+**Pontos de transferência** (círculos coloridos no mapa):
 
-1. **Chegada pela 10R/28L com destino aos pátios norte:** a aeronave segue na frequência da Torre, aguarda e cruza a 10L/28R com autorização da Torre e **só chama o Solo depois de cruzar e livrar a 10L/28R**[^ad20-1-2-4].
-2. **Saída:** o Solo transfere a aeronave para a Torre **antes do ponto de espera** da pista de decolagem. Para aliviar a frequência, o Solo pode mandar **monitorar** a Torre, sem chamada inicial[^ad20-6].
-3. **Chegada com destino aos pátios 12 e 13:** a aeronave livra a 10R/28L pelo lado sul (T ou U) e chama o Solo depois de livrar a pista.
+1. :material-numeric-1-circle:{ style="color:#3d7fd6" } **Chegada pela 10R/28L com destino aos pátios norte:** a aeronave segue na frequência da Torre, aguarda e cruza a 10L/28R com autorização da Torre e **só chama o Solo depois de cruzar e livrar a 10L/28R**[^ad20-1-2-4].
+2. :material-numeric-2-circle:{ style="color:#12a150" } **Saída:** o Solo transfere a aeronave para a Torre **antes do ponto de espera** da pista de decolagem. Para aliviar a frequência, o Solo pode mandar **monitorar** a Torre, sem chamada inicial[^ad20-6].
+3. :material-numeric-3-circle:{ style="color:#3d7fd6" } **Chegada com destino aos pátios 12 e 13:** a aeronave livra a 10R/28L pelo lado sul (T ou U) e chama o Solo depois de livrar a pista.
 
 !!! warning "Cruzamento da pista adjacente"
     - Aeronave que livra uma pista **NUNCA** cruza a pista paralela sem autorização específica do ATC.
     - Aeronave aguardando para cruzar fica na frequência da **Torre** e **não pede** cruzamento: a Torre chama.
-    - Uma vez autorizada, o cruzamento deve ser rápido. Não é permitido táxi monomotor antes de cruzar[^ad20-1-2-4].
+    - Uma vez autorizada, o cruzamento deve ser rápido.[^ad20-1-2-4].
 
 [^ad20-1-2-4]: [AIP Brasil, AD 2 SBGR 2.20, item 1.2.4](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-6]: [AIP Brasil, AD 2 SBGR 2.20, item 6.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
@@ -210,10 +211,24 @@ Para garantir o tempo mínimo de ocupação de pista (MROT), o piloto deve livra
 
 ### Restrições de táxi
 
-- **TWY S, T e U:** envergadura acima de 44 m só rebocada[^ad20-12].
-- **Código F:** proibido táxi pela A entre G e o pátio 1, pelas taxilanes Y dos pátios 1 a 5, pelas TWY M e V e pela G entre a 10R/28L e o pátio 12. TWY V e A entre G e o pátio 1: envergadura máxima 65 m[^ad20-12].
-- Curva proibida onde não houver sinalização horizontal e iluminação correspondentes[^ad20-1-2-4].
-- **Baixa visibilidade (RVR < 400 m):** táxi com viatura *Siga-me* conforme o AIP, pelas rotas padronizadas[^ad20-16].
+**Por porte de aeronave**[^ad20-12]:
+
+| Aeronave | Onde não pode taxiar |
+| :--- | :--- |
+| **Envergadura acima de 44 m** | TWY **S**, **T** e **U** |
+| **Código F** (ex.: A380, B747-8) | TWY **A** entre a G e o pátio 1 |
+| | TWY **M** e **V** |
+| | TWY **G** entre a 10R/28L e o pátio 12 |
+| | Taxilanes internas dos **pátios 1 a 5** (ver abaixo) |
+
+Na TWY **V** e na TWY **A** entre a G e o pátio 1, a envergadura máxima é de **65 m**.
+
+!!! info "O que são as taxilanes dos pátios 1 a 5"
+    São as linhas de táxi **pintadas dentro dos pátios**, em **vermelho e azul**, que levam até as posições de estacionamento. Elas têm nome próprio no AIP: **Y1W, Y1E, Y2W, Y2E**, e assim por diante até **Y5W** e **Y5E**. O número indica o pátio; W e E indicam o lado oeste ou leste.
+
+**Outras restrições:**
+
+- **Baixa visibilidade (RVR < 400 m):** táxi progressivo pelas rotas padronizadas, com instruções curtas do Solo[^ad20-16].
 
 [^ad20-1-2-2]: [AIP Brasil, AD 2 SBGR 2.20, item 1.2.2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-12]: [AIP Brasil, AD 2 SBGR 2.20, item 12](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e AD 2.8.
@@ -324,7 +339,7 @@ Quando há mais decolagens que pousos, a Torre pode decolar pelas **duas pistas*
 - Do **nascer ao pôr do sol**.
 - Visibilidade ≥ **5 km** e teto ≥ **1000 pés**.
 - Vento de cauda **até 3 kt**.
-- Ação de frenagem **não afetada** por contaminantes (água, gelo, neve).
+- Pista seca: sem chuva, neve ou gelo reportados no METAR.
 - Mínimos de **esteira de turbulência** aplicados normalmente.
 - RRSM informada no **ATIS**.
 
@@ -359,28 +374,28 @@ A Torre dá **informação de tráfego** junto com a autorização:
 
 ## :material-sign-direction: Pátios e companhias
 
-Referência para a simulação, montada a partir da distribuição real dos terminais. Não é a alocação oficial do aeroporto, que muda a cada temporada. **VAs** usam os pátios da companhia real que representam.
+Referência para a simulação. Os terminais seguem o [informativo de companhias aéreas da GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas); a divisão entre pátios é uma simplificação, não a alocação oficial do aeroporto. **VAs** usam os pátios da companhia real que representam.
 
 <div class="patios">
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 1"><small>Pátio</small>1</span><span class="patio__info"><strong>Terminal 1</strong><span>Doméstico</span><span class="patio__pos">Posições 101 a 105</span></span></header>
-<div class="patio__cias"><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="https://pics.avs.io/240/80/AD.png" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure></div>
+<div class="patio__cias"><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure><figure class="cia" title="Samba (SXB)"><img class="off-glb" src="/images/cias/SXB.svg" alt="Samba" loading="lazy"><figcaption>SXB</figcaption></figure></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Pátio 2·3"><small>Pátio</small>2·3</span><span class="patio__info"><strong>Terminal 2</strong><span>Doméstico e internacional regional</span><span class="patio__pos">Posições 201 a 212 · 301 a 312</span></span></header>
-<div class="patio__cias"><figure class="cia" title="GOL (GLO)"><img class="off-glb" src="https://pics.avs.io/240/80/G3.png" alt="GOL" loading="lazy"><figcaption>GLO</figcaption></figure></div>
+<header class="patio__cab"><span class="patio__num" title="Pátio 2·3"><small>Pátio</small>2·3</span><span class="patio__info"><strong>Terminal 2</strong><span>Doméstico e internacional</span><span class="patio__pos">Posições 207 a 212 · 301 a 312</span></span></header>
+<div class="patio__cias"><figure class="cia" title="GOL (GLO)"><img class="off-glb" src="/images/cias/GLO.gif" alt="GOL" loading="lazy"><figcaption>GLO</figcaption></figure></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Pátio 4"><small>Pátio</small>4</span><span class="patio__info"><strong>Terminal 2</strong><span>Doméstico e América do Sul</span><span class="patio__pos">Posições 401 a 411</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Aerolíneas Argentinas (ARG)"><img class="off-glb" src="https://pics.avs.io/240/80/AR.png" alt="Aerolíneas Argentinas" loading="lazy"><figcaption>ARG</figcaption></figure><figure class="cia" title="Avianca (AVA)"><img class="off-glb" src="https://pics.avs.io/240/80/AV.png" alt="Avianca" loading="lazy"><figcaption>AVA</figcaption></figure><figure class="cia" title="BoA (BOV)"><img class="off-glb" src="https://pics.avs.io/240/80/OB.png" alt="BoA" loading="lazy"><figcaption>BOV</figcaption></figure><figure class="cia" title="Arajet (DWI)"><img class="off-glb" src="https://pics.avs.io/240/80/DM.png" alt="Arajet" loading="lazy"><figcaption>DWI</figcaption></figure></div>
+<header class="patio__cab"><span class="patio__num" title="Pátio 4"><small>Pátio</small>4</span><span class="patio__info"><strong>Terminal 2</strong><span>Doméstico e internacional</span><span class="patio__pos">Posições 401 a 411</span></span></header>
+<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Aerolíneas Argentinas (ARG)"><img class="off-glb" src="/images/cias/ARG.gif" alt="Aerolíneas Argentinas" loading="lazy"><figcaption>ARG</figcaption></figure><figure class="cia" title="Air Europa (AEA)"><img class="off-glb" src="/images/cias/AEA.gif" alt="Air Europa" loading="lazy"><figcaption>AEA</figcaption></figure><figure class="cia" title="Avianca (AVA)"><img class="off-glb" src="/images/cias/AVA.png" alt="Avianca" loading="lazy"><figcaption>AVA</figcaption></figure><figure class="cia" title="BoA (BOV)"><img class="off-glb" src="/images/cias/BOV.gif" alt="BoA" loading="lazy"><figcaption>BOV</figcaption></figure><figure class="cia" title="Arajet (DWI)"><img class="off-glb" src="/images/cias/DWI.jpg" alt="Arajet" loading="lazy"><figcaption>DWI</figcaption></figure><figure class="cia" title="Ethiopian (ETH)"><img class="off-glb" src="/images/cias/ETH.gif" alt="Ethiopian" loading="lazy"><figcaption>ETH</figcaption></figure><figure class="cia" title="Flybondi (FBZ)"><img class="off-glb" src="/images/cias/FBZ.jpg" alt="Flybondi" loading="lazy"><figcaption>FBZ</figcaption></figure><figure class="cia" title="JetSMART (JAT)"><img class="off-glb" src="/images/cias/JAT.png" alt="JetSMART" loading="lazy"><figcaption>JAT</figcaption></figure><figure class="cia" title="Royal Air Maroc (RAM)"><img class="off-glb" src="/images/cias/RAM.png" alt="Royal Air Maroc" loading="lazy"><figcaption>RAM</figcaption></figure><figure class="cia" title="SKY Airline (SKU)"><img class="off-glb" src="/images/cias/SKU.png" alt="SKY Airline" loading="lazy"><figcaption>SKU</figcaption></figure><figure class="cia" title="TAAG (DTA)"><img class="off-glb" src="/images/cias/DTA.gif" alt="TAAG" loading="lazy"><figcaption>DTA</figcaption></figure></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Pátio 1"><small>Pátio</small>1</span><span class="patio__info"><strong>Terminal de cargas</strong><span>Cargueiros</span><span class="patio__pos">Posições 106 a 115</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM Cargo (LCO)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM Cargo" loading="lazy"><figcaption>LCO</figcaption></figure><figure class="cia" title="Lufthansa Cargo (GEC)"><img class="off-glb" src="https://pics.avs.io/240/80/LH.png" alt="Lufthansa Cargo" loading="lazy"><figcaption>GEC</figcaption></figure><figure class="cia" title="Cargolux (CLX)"><img class="off-glb" src="https://pics.avs.io/240/80/CV.png" alt="Cargolux" loading="lazy"><figcaption>CLX</figcaption></figure><figure class="cia" title="Atlas Air (GTI)"><img class="off-glb" src="https://pics.avs.io/240/80/5Y.png" alt="Atlas Air" loading="lazy"><figcaption>GTI</figcaption></figure><figure class="cia" title="Qatar Airways Cargo (QTR)"><img class="off-glb" src="https://pics.avs.io/240/80/QR.png" alt="Qatar Airways Cargo" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Cargo (THY)"><img class="off-glb" src="https://pics.avs.io/240/80/TK.png" alt="Turkish Cargo" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="Emirates SkyCargo (UAE)"><img class="off-glb" src="https://pics.avs.io/240/80/EK.png" alt="Emirates SkyCargo" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Total (TTL)"><span class="cia__texto">Total</span><figcaption>TTL</figcaption></figure></div>
+<header class="patio__cab"><span class="patio__num" title="Pátio 1·2"><small>Pátio</small>1·2</span><span class="patio__info"><strong>Terminal de cargas</strong><span>Cargueiros</span><span class="patio__pos">Posições 106 a 115 · 201 a 206</span></span></header>
+<div class="patio__cias"><figure class="cia" title="LATAM Cargo (LCO)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM Cargo" loading="lazy"><figcaption>LCO</figcaption></figure><figure class="cia" title="Lufthansa Cargo (GEC)"><img class="off-glb" src="/images/cias/DLH.png" alt="Lufthansa Cargo" loading="lazy"><figcaption>GEC</figcaption></figure><figure class="cia" title="Cargolux (CLX)"><img class="off-glb" src="/images/cias/CLX.png" alt="Cargolux" loading="lazy"><figcaption>CLX</figcaption></figure><figure class="cia" title="Atlas Air (GTI)"><img class="off-glb" src="/images/cias/GTI.png" alt="Atlas Air" loading="lazy"><figcaption>GTI</figcaption></figure><figure class="cia" title="Qatar Airways Cargo (QTR)"><img class="off-glb" src="/images/cias/QTR.gif" alt="Qatar Airways Cargo" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Cargo (THY)"><img class="off-glb" src="/images/cias/THY.gif" alt="Turkish Cargo" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="Emirates SkyCargo (UAE)"><img class="off-glb" src="/images/cias/UAE.gif" alt="Emirates SkyCargo" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Total (TTL)"><span class="cia__texto">Total</span><figcaption>TTL</figcaption></figure><figure class="cia" title="Sideral Linhas Aéreas (SID)"><img class="off-glb" src="/images/cias/SID.png" alt="Sideral Linhas Aéreas" loading="lazy"><figcaption>SID</figcaption></figure><figure class="cia" title="Sambalog (SXB)"><img class="off-glb" src="/images/cias/SXB.svg" alt="Sambalog" loading="lazy"><figcaption>SXB</figcaption></figure></div>
 </section>
 <section class="patio patio--largo">
 <header class="patio__cab"><span class="patio__num" title="Pátio 5·6"><small>Pátio</small>5·6</span><span class="patio__info"><strong>Terminal 3</strong><span>Internacional</span><span class="patio__pos">Posições 501 a 511 · 601 a 612</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="https://pics.avs.io/240/80/AA.png" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><figure class="cia" title="Delta (DAL)"><img class="off-glb" src="https://pics.avs.io/240/80/DL.png" alt="Delta" loading="lazy"><figcaption>DAL</figcaption></figure><figure class="cia" title="United (UAL)"><img class="off-glb" src="https://pics.avs.io/240/80/UA.png" alt="United" loading="lazy"><figcaption>UAL</figcaption></figure><figure class="cia" title="Air France (AFR)"><img class="off-glb" src="https://pics.avs.io/240/80/AF.png" alt="Air France" loading="lazy"><figcaption>AFR</figcaption></figure><figure class="cia" title="KLM (KLM)"><img class="off-glb" src="https://pics.avs.io/240/80/KL.png" alt="KLM" loading="lazy"><figcaption>KLM</figcaption></figure><figure class="cia" title="Lufthansa (DLH)"><img class="off-glb" src="https://pics.avs.io/240/80/LH.png" alt="Lufthansa" loading="lazy"><figcaption>DLH</figcaption></figure><figure class="cia" title="British Airways (BAW)"><img class="off-glb" src="https://pics.avs.io/240/80/BA.png" alt="British Airways" loading="lazy"><figcaption>BAW</figcaption></figure><figure class="cia" title="Iberia (IBE)"><img class="off-glb" src="https://pics.avs.io/240/80/IB.png" alt="Iberia" loading="lazy"><figcaption>IBE</figcaption></figure><figure class="cia" title="TAP (TAP)"><img class="off-glb" src="https://pics.avs.io/240/80/TP.png" alt="TAP" loading="lazy"><figcaption>TAP</figcaption></figure><figure class="cia" title="Emirates (UAE)"><img class="off-glb" src="https://pics.avs.io/240/80/EK.png" alt="Emirates" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Qatar Airways (QTR)"><img class="off-glb" src="https://pics.avs.io/240/80/QR.png" alt="Qatar Airways" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Airlines (THY)"><img class="off-glb" src="https://pics.avs.io/240/80/TK.png" alt="Turkish Airlines" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="Ethiopian (ETH)"><img class="off-glb" src="https://pics.avs.io/240/80/ET.png" alt="Ethiopian" loading="lazy"><figcaption>ETH</figcaption></figure><figure class="cia" title="Air Canada (ACA)"><img class="off-glb" src="https://pics.avs.io/240/80/AC.png" alt="Air Canada" loading="lazy"><figcaption>ACA</figcaption></figure><figure class="cia" title="Aeroméxico (AMX)"><img class="off-glb" src="https://pics.avs.io/240/80/AM.png" alt="Aeroméxico" loading="lazy"><figcaption>AMX</figcaption></figure><figure class="cia" title="Copa (CMP)"><img class="off-glb" src="https://pics.avs.io/240/80/CM.png" alt="Copa" loading="lazy"><figcaption>CMP</figcaption></figure></div>
+<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="/images/cias/AAL.gif" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><figure class="cia" title="Delta (DAL)"><img class="off-glb" src="/images/cias/DAL.jpg" alt="Delta" loading="lazy"><figcaption>DAL</figcaption></figure><figure class="cia" title="United (UAL)"><img class="off-glb" src="/images/cias/UAL.gif" alt="United" loading="lazy"><figcaption>UAL</figcaption></figure><figure class="cia" title="Air France (AFR)"><img class="off-glb" src="/images/cias/AFR.gif" alt="Air France" loading="lazy"><figcaption>AFR</figcaption></figure><figure class="cia" title="KLM (KLM)"><img class="off-glb" src="/images/cias/KLM.gif" alt="KLM" loading="lazy"><figcaption>KLM</figcaption></figure><figure class="cia" title="Lufthansa (DLH)"><img class="off-glb" src="/images/cias/DLH.png" alt="Lufthansa" loading="lazy"><figcaption>DLH</figcaption></figure><figure class="cia" title="Swiss (SWR)"><img class="off-glb" src="/images/cias/SWR.gif" alt="Swiss" loading="lazy"><figcaption>SWR</figcaption></figure><figure class="cia" title="British Airways (BAW)"><img class="off-glb" src="/images/cias/BAW.gif" alt="British Airways" loading="lazy"><figcaption>BAW</figcaption></figure><figure class="cia" title="Iberia (IBE)"><img class="off-glb" src="/images/cias/IBE.gif" alt="Iberia" loading="lazy"><figcaption>IBE</figcaption></figure><figure class="cia" title="ITA Airways (ITY)"><img class="off-glb" src="/images/cias/ITY.jpg" alt="ITA Airways" loading="lazy"><figcaption>ITY</figcaption></figure><figure class="cia" title="TAP (TAP)"><img class="off-glb" src="/images/cias/TAP.gif" alt="TAP" loading="lazy"><figcaption>TAP</figcaption></figure><figure class="cia" title="Emirates (UAE)"><img class="off-glb" src="/images/cias/UAE.gif" alt="Emirates" loading="lazy"><figcaption>UAE</figcaption></figure><figure class="cia" title="Qatar Airways (QTR)"><img class="off-glb" src="/images/cias/QTR.gif" alt="Qatar Airways" loading="lazy"><figcaption>QTR</figcaption></figure><figure class="cia" title="Turkish Airlines (THY)"><img class="off-glb" src="/images/cias/THY.gif" alt="Turkish Airlines" loading="lazy"><figcaption>THY</figcaption></figure><figure class="cia" title="South African (SAA)"><img class="off-glb" src="/images/cias/SAA.png" alt="South African" loading="lazy"><figcaption>SAA</figcaption></figure><figure class="cia" title="Air Canada (ACA)"><img class="off-glb" src="/images/cias/ACA.gif" alt="Air Canada" loading="lazy"><figcaption>ACA</figcaption></figure><figure class="cia" title="Aeroméxico (AMX)"><img class="off-glb" src="/images/cias/AMX.gif" alt="Aeroméxico" loading="lazy"><figcaption>AMX</figcaption></figure><figure class="cia" title="Copa (CMP)"><img class="off-glb" src="/images/cias/CMP.gif" alt="Copa" loading="lazy"><figcaption>CMP</figcaption></figure><figure class="cia" title="Air China (CCA)"><img class="off-glb" src="/images/cias/CCA.png" alt="Air China" loading="lazy"><figcaption>CCA</figcaption></figure></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 7"><small>Pátio</small>7</span><span class="patio__info"><strong>Remoto</strong><span>Pernoite, charters e excedente de wide-bodies</span><span class="patio__pos">Posições 701 a 715</span></span></header>
@@ -388,11 +403,15 @@ Referência para a simulação, montada a partir da distribuição real dos term
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 9"><small>Pátio</small>9</span><span class="patio__info"><strong>Remoto, junto aos hangares</strong><span>Pernoite e manutenção</span><span class="patio__pos">Posições 901 a 911</span></span></header>
-<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="https://pics.avs.io/240/80/LA.png" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="https://pics.avs.io/240/80/AA.png" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><p class="patio__nota">e excedente dos demais pátios.</p></div>
+<div class="patio__cias"><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="American Airlines (AAL)"><img class="off-glb" src="/images/cias/AAL.gif" alt="American Airlines" loading="lazy"><figcaption>AAL</figcaption></figure><p class="patio__nota">e excedente dos demais pátios.</p></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Pátio 10"><small>Pátio</small>10</span><span class="patio__info"><strong>Pátio Sideral</strong><span>Sideral Linhas Aéreas · junto à TWY Q</span></span></header>
+<div class="patio__cias"><figure class="cia" title="Sideral Linhas Aéreas (SID)"><img class="off-glb" src="/images/cias/SID.png" alt="Sideral Linhas Aéreas" loading="lazy"><figcaption>SID</figcaption></figure></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 12"><small>Pátio</small>12</span><span class="patio__info"><strong>Aviação geral</strong><span>Executiva, táxi aéreo e helicópteros</span><span class="patio__pos">Posições 1 a 12 · H1 a H3</span></span></header>
-<div class="patio__cias"><p class="patio__nota">Aviação geral e táxi aéreo, com autorização prévia.</p></div>
+<div class="patio__cias"><p class="patio__nota">Aviação geral e táxi aéreo.</p></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 13"><small>Pátio</small>13</span><span class="patio__info"><strong>BASP</strong><span>Militar · Base Aérea de São Paulo</span></span></header>
@@ -400,11 +419,10 @@ Referência para a simulação, montada a partir da distribuição real dos term
 </section>
 </div>
 
-- **Aviação geral** só estaciona no pátio 12, com autorização prévia da administração; permanência máxima de 3 h (internacional) ou 2 h (doméstico)[^ad20-8].
-- **Militares** com destino à BASP (pátio 13) chamam **Operações Guarulhos (122.500)**[^ad20-8].
-- **SBGR não é alternativa** para voos planejados para SBSP, SBKP ou outros aeródromos da TMA-SP, por capacidade de pátio, exceto militares ou com coordenação[^ad22-8].
+- **Aviação geral** só estaciona no pátio 12[^ad20-8].
+- **Militares** com destino à BASP (pátio 13) seguem com o **Solo**, como qualquer tráfego.
 
-<small>Logos via [Travelpayouts](https://pics.avs.io), exibidas da fonte original. As marcas pertencem às respectivas companhias.</small>
+<small>Logos obtidas da [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas), [Travelpayouts](https://pics.avs.io) (Cargolux e Atlas Air), [Wikipedia](https://en.wikipedia.org/wiki/File:Sideral_Linhas_A%C3%A9reas_logo.png) (Sideral) e [Voe Samba](https://voesamba.com). As marcas pertencem às respectivas companhias.</small>
 
 [^ad20-8]: [AIP Brasil, AD 2 SBGR 2.20, item 8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e AD 2.8.
 
@@ -423,17 +441,14 @@ Referência para a simulação, montada a partir da distribuição real dos term
 ### Comunicações
 
 - Para evitar congestionamento, o ATC pode mandar **monitorar** a próxima frequência. Nesse caso, **não** há chamada inicial[^ad20-6].
-- Plano de voo e suas alterações **não** são aceitos por radiotelefonia[^ad23].
 
 ### Regulamentos do aeródromo
 
 - VFR de asa fixa **proibido**, exceto militares brasileiras ou aeronaves não RNAV quando os procedimentos convencionais estiverem indisponíveis[^ad22].
-- Proibidos pousos e decolagens de **turboélices e pistão** entre **0930–1300 UTC e 2200–0200 UTC**, exceto militares, MEDEVAC e RBAC 121/129[^ad20-8].
-- Proibidos voos de treinamento, exceto militares da BASP e treinamento ILS CAT II/III autorizado[^ad20-13].
+- Voos de treinamento (circuitos, toque e arremetida) a critério da Torre, conforme o movimento.
 
 [^ad20-1-2-1]: [AIP Brasil, AD 2 SBGR 2.20, item 1.2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-2]: [AIP Brasil, AD 2 SBGR 2.20, item 2.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
-[^ad20-13]: [AIP Brasil, AD 2 SBGR 2.20, item 13](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad17]: [AIP Brasil, AD 2 SBGR 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad22]: [AIP Brasil, AD 2 SBGR 2.22, item 1.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad23]: [AIP Brasil, AD 2 SBGR 2.23](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).

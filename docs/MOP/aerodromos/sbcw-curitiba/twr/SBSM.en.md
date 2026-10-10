@@ -15,6 +15,7 @@
 | **Type of Operation**         | Domestic, Public and Military          |
 | **Transition altitude** | 10000 ft |
 | **Elevation** | 289 ft (88 m) |
+| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Useful Information
 

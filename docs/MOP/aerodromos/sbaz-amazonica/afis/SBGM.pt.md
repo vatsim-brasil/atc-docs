@@ -17,6 +17,7 @@ tags:
 | **Horário de Funcionamento** | HJ                                          |
 | **Altitude de transição** | 3000 pés |
 | **Elevação** | 479 pés (146 m) |
+| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

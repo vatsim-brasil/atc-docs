@@ -15,6 +15,7 @@ tags:
 | **Tipo de Operação**         | Nacional e Privado                          |
 | **Altitude de transição** | 4000 pés |
 | **Elevação** | 1631 pés (497 m) |
+| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

@@ -15,6 +15,7 @@ tags:
 | **Type of Operation**        | Domestic and Private |
 | **Transition altitude** | 10000 ft |
 | **Elevation** | 164 ft (50 m) |
+| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Useful Information
 
