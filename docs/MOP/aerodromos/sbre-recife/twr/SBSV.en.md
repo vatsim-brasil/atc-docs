@@ -66,9 +66,7 @@ SBSV has **two runways that do not cross**: the main runway 10/28 (3003 m), with
 </div>
 
 !!! warning "Runway 17/35"
-    - Available for **occasional operations** (PCN 44/F/C/X/U)[^ad20-6].
     - Runway 35 is **not available for landings by jets** or higher-performance aircraft[^ad20-6].
-    - **Bird** concentration near 17/35[^ad23].
 
 ### Runway data
 
@@ -80,7 +78,6 @@ SBSV has **two runways that do not cross**: the main runway 10/28 (3003 m), with
 | **35** | 1518 × 45 m | 1518 m | 1518 m | Visual | No jet landings |
 
 [^ad20-6]: [AIP Brasil, AD 2 SBSV 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Declared distances: AD 2.13.
-[^ad23]: [AIP Brasil, AD 2 SBSV 2.23](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -188,15 +185,12 @@ Pilots must vacate the runway with the minimum runway occupancy time (MROT), cho
 | Restriction | Where |
 | :--- | :--- |
 | **Maximum wingspan 36 m** | TWY **D** and **L**[^ad28] |
-| **Closed** | TWY **L** between apron 1 and **M**, due to the terminal expansion works[^ad28] |
 | **Maximum speed 8 kt** | TWY **J2**[^ad28] |
-| **Engine run-up** | On TWY **G** between 0600 and 2200 and on runway 17/35 at any time, with prior permission. Prohibited in front of the Tower and anywhere between 2200 and 0600[^ad20-1] |
 
 !!! danger "Hotspot"
     **HP**, on **C** and **J1**, next to threshold 10: the marked holding point is **not at 90° to the runway**, and pilots may think there is another holding point ahead. **Runway incursion** risk: make sure the aircraft stops at the holding point.
 
 [^ad28]: [AIP Brasil, AD 2 SBSV 2.8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and ADC chart. Hotspot: ADC chart.
-[^ad20-1]: [AIP Brasil, AD 2 SBSV 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and AD 2.23.
 [^ad20-10]: [AIP Brasil, AD 2 SBSV 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
@@ -272,7 +266,6 @@ Reference for simulation. The stands follow the PDC charts; the airlines follow 
 ## :material-clipboard-text-outline: Other procedures
 
 - Follow the VAC to join and leave the traffic pattern, and the AIC on the Salvador TMA visual corridors[^ad22].
-- Filing flight plans by radiotelephony is prohibited, except for oil and gas platform helidecks in emergencies[^ad22].
 
 [^ad17]: [AIP Brasil, AD 2 SBSV 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and IAC charts.
 [^ad22]: [AIP Brasil, AD 2 SBSV 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).

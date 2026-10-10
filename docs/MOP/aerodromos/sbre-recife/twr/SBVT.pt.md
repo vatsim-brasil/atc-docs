@@ -16,7 +16,7 @@ tags:
 | **Tipo de Operação**         | Internacional e Público                       |
 | **Altitude de transição**    | 5000 pés[^ad17]                               |
 | **Elevação**                 | 34 pés (10 m)                                 |
-| **Maior aeronave**           | Código 4D; B767-300F só para carga, na 06/24[^ad20-1] |
+| **Maior aeronave**           | Código 4D; B767-300F só na 06/24[^ad20-1] |
 | **Espaço aéreo**             | CTR Vitória, classe C, GND/4500 pés[^ad17]    |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
@@ -75,12 +75,9 @@ SBVT tem **duas pistas que não se cruzam**: a 02/20 (2058 m), a leste, junto ao
 | **24** | 1750 × 45 m | 1750 m | 1750 m | ILS CAT I | Área de giro na cabeceira 24 |
 
 - **Backtrack** na 02 só até a **área de giro da cabeceira 20**[^ad20-6].
-- Na 06/24, giro de 180° de aeronaves acima de **12 t** só na **área de giro da cabeceira 24**, por desagregação do pavimento[^ad20-6].
-- Toque e arremetida em voo de instrução é **proibido na 02/20**[^ad20-7].
 
 [^ad20-1]: [AIP Brasil, AD 2 SBVT 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-6]: [AIP Brasil, AD 2 SBVT 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Distâncias declaradas: AD 2.13.
-[^ad20-7]: [AIP Brasil, AD 2 SBVT 2.20, item 7](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -93,7 +90,6 @@ SBVT tem **duas pistas que não se cruzam**: a 02/20 (2058 m), a leste, junto ao
 | **SBVT_TWR** | `TVT` | Torre Vitória | **118.100** | |
 
 - SBVT **não tem Tráfego (DEL) nem DCL**. A autorização de tráfego é dada pelo Solo, ou pela Torre sem Solo.
-- O acionamento dos motores na posição depende de coordenação com a administração do aeroporto; depois disso, o piloto chama o Solo[^ad20-1].
 
 ---
 
@@ -167,16 +163,12 @@ SBVT tem **duas pistas que não se cruzam**: a 02/20 (2058 m), a leste, junto ao
 | **Código D proibido** | TWY **A** e **B** e pátios 2 e 3 entre as posições 2 e 13[^ad20-6] |
 | **Código E proibido** | TWY **H**[^ad28] |
 | **Em IMC** | Proibido código 4D na TWY **A** e na pista de táxi do pátio 3 enquanto houver pouso ou decolagem de código 3 ou 4 na 06/24[^ad20-6] |
-| **Pushback** | Motores só depois do pushback, quando a aeronave passar a linha vermelha[^ad20-6]. Entrada na posição só com sinaleiro[^ad20-1] |
-| **À noite** | Pátio 4 e TWY **PP** fechados[^ad28] |
 
 !!! danger "Hotspots"
-    - **HS 1** e **HS 2:** pontos de espera da **G** e da **H** (02/20). A Torre não vê bem o ponto de espera: risco de a aeronave passar dele sem ser notada.
-    - **HS 3:** cruzamento **D × F × J**, acesso ao pátio 1. Convergência de fluxos e visibilidade restrita entre aeronaves na D e na F.
-    - **HS 4:** **D** em frente ao SCI, com cruzamentos frequentes.
+    - **HS 3:** cruzamento **D × F × J**, acesso ao pátio 1, com convergência de fluxos de táxi.
     - **HS 5:** cruzamento **C × D × 06/24**. Geometria complexa e cruzamentos frequentes da pista.
     - **HS 6:** cruzamento **E × F × K**. Vários fluxos de táxi convergindo.
-    - **HS 7:** **M**, saída da 02. Pousos na 02 que livram pela M interferem na 06; o pavimento também tem restrições.
+    - **HS 7:** **M**, saída da 02. Pousos na 02 que livram pela M interferem na 06.
 
 [^ad28]: [AIP Brasil, AD 2 SBVT 2.8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^adc]: Carta ADC SBVT (AMDT 2610A1), hotspots HS 1 a HS 7.
@@ -210,14 +202,14 @@ Referência para a simulação. As posições seguem as cartas PDC; as companhia
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 2"><small>Pátio</small>2</span><span class="patio__info"><strong>Antigo terminal (TPS 2)</strong><span>Aviação geral e executiva, pela C</span><span class="patio__pos">Posições 1 a 5</span></span></header>
-<div class="patio__cias"><p class="patio__nota">Aviação geral exige autorização prévia do aeroporto.</p></div>
+<div class="patio__cias"><p class="patio__nota">Aviação geral e executiva.</p></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 3"><small>Pátio</small>3</span><span class="patio__info"><strong>Terminal de cargas</strong><span>Cargueiros, pela A e pela B</span><span class="patio__pos">Posições 7 a 13</span></span></header>
 <div class="patio__cias"><p class="patio__nota">Cargueiros. O B767-300F opera só na 06/24.</p></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Pátio 4"><small>Pátio</small>4</span><span class="patio__info"><strong>Heliponto</strong><span>Pela PP · fechado à noite</span></span></header>
+<header class="patio__cab"><span class="patio__num" title="Pátio 4"><small>Pátio</small>4</span><span class="patio__info"><strong>Heliponto</strong><span>Pela PP</span></span></header>
 <div class="patio__cias"><p class="patio__nota">Helicópteros.</p></div>
 </section>
 </div>
@@ -228,15 +220,10 @@ Referência para a simulação. As posições seguem as cartas PDC; as companhia
 
 ## :material-clipboard-text-outline: Outros procedimentos
 
-- Aeronaves **restritas**: sem rádio, planadores e sem transponder (ou com falha)[^ad20-1].
-- Serviços aéreos **restritos**: lançamento de objetos ou pulverização, reboque aéreo, lançamento de paraquedas e voo acrobático[^ad20-1].
-- Voos de instrução nas proximidades do aeródromo[^ad20-7].
-- Concentração de **urubus** em todos os setores[^ad23].
 - Observar a VAC para entrar e sair do circuito de tráfego[^ad22].
 - Helicópteros para as plataformas marítimas: VFR preferencialmente a **2500 pés** na ida e **1500 pés** na volta (3500 pés vindo da TMA Macaé); IFR a **5000 pés** na ida e **6000 pés** na volta[^ad22].
 
 [^ad17]: [AIP Brasil, AD 2 SBVT 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e cartas IAC.
 [^ad22]: [AIP Brasil, AD 2 SBVT 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
-[^ad23]: [AIP Brasil, AD 2 SBVT 2.23](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 <small>Diagramas desenhados pela VATSIM Brasil sobre a geometria do [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), conferida com as cartas ADC e PDC SBVT. Não use para navegação real. Fonte normativa: AIP Brasil, AD 2 SBVT, AMDT 2610A1.</small>

@@ -7,4 +7,4 @@ resumo: SBVT with the runway system, areas of responsibility, ground flow, hotsp
 
 # New SBVT page
 
-The Vitória page was rewritten from the current AIP AD 2 SBVT. It now summarizes the use of runways 02/20 and 06/24, adds the Ground and Tower areas of responsibility and the ground flow with diagrams for runways 02 and 20. It also covers the takeoff points, runway exits, taxi restrictions, the seven hotspots on the ADC chart and a table of aprons and airlines.
+The Vitória page was rewritten from the current AIP AD 2 SBVT. It now summarizes the use of runways 02/20 and 06/24, adds the Ground and Tower areas of responsibility and the ground flow with diagrams for runways 02 and 20. It also covers the takeoff points, runway exits, taxi restrictions, the hotspots on the ADC chart and a table of aprons and airlines.

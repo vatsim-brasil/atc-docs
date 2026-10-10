@@ -66,9 +66,7 @@ SBSV tem **duas pistas que não se cruzam**: a principal 10/28 (3003 m), com a T
 </div>
 
 !!! warning "Pista 17/35"
-    - Disponível para **operação ocasional** (PCN 44/F/C/X/U)[^ad20-6].
     - A **35 não recebe pousos de jatos** ou aeronaves de desempenho superior[^ad20-6].
-    - Concentração de **pássaros** nas proximidades da 17/35[^ad23].
 
 ### Dados das pistas
 
@@ -80,7 +78,6 @@ SBSV tem **duas pistas que não se cruzam**: a principal 10/28 (3003 m), com a T
 | **35** | 1518 × 45 m | 1518 m | 1518 m | Visual | Sem pouso de jatos |
 
 [^ad20-6]: [AIP Brasil, AD 2 SBSV 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Distâncias declaradas: AD 2.13.
-[^ad23]: [AIP Brasil, AD 2 SBSV 2.23](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -188,15 +185,12 @@ O piloto deve livrar a pista no menor tempo de ocupação de pista (MROT), escol
 | Restrição | Onde |
 | :--- | :--- |
 | **Envergadura máxima de 36 m** | TWY **D** e **L**[^ad28] |
-| **Fechada** | TWY **L** entre o pátio 1 e a **M**, por obras de ampliação do terminal[^ad28] |
 | **Velocidade máxima de 8 kt** | TWY **J2**[^ad28] |
-| **Cheque de motores** | Na TWY **G** entre 0600 e 2200 e na pista 17/35 a qualquer hora, com autorização prévia. Proibido em frente à Torre e em qualquer lugar entre 2200 e 0600[^ad20-1] |
 
 !!! danger "Hotspot"
     **HP**, na **C** e na **J1**, junto à cabeceira 10: o ponto de espera demarcado **não forma 90° com a pista**, e o piloto pode achar que há outro ponto de espera à frente. Risco de **incursão na pista**: confirme que a aeronave para no ponto de espera.
 
 [^ad28]: [AIP Brasil, AD 2 SBSV 2.8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e carta ADC. Hotspot: carta ADC.
-[^ad20-1]: [AIP Brasil, AD 2 SBSV 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e AD 2.23.
 [^ad20-10]: [AIP Brasil, AD 2 SBSV 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
@@ -272,7 +266,6 @@ Referência para a simulação. As posições seguem as cartas PDC; as companhia
 ## :material-clipboard-text-outline: Outros procedimentos
 
 - Observar a VAC para entrar e sair do circuito de tráfego e a AIC de corredores visuais da TMA Salvador[^ad22].
-- Proibida a apresentação de plano de voo por radiotelefonia, exceto helidecks de plataformas de petróleo e gás em emergência[^ad22].
 
 [^ad17]: [AIP Brasil, AD 2 SBSV 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e cartas IAC.
 [^ad22]: [AIP Brasil, AD 2 SBSV 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).

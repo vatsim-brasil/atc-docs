@@ -194,13 +194,9 @@ Pilots must vacate the runway with the minimum runway occupancy time (MROT)[^ad2
 | **Wingspan below 24 m** | TWY **N**[^ad28] |
 | **Wingspan below 15 m** | TWY **P**[^ad28] |
 | **In IMC** | No simultaneous operation of aircraft with a wingspan of **36 m or more** on the runway and on TWY **M**, **D** and **K**[^ad20-6] |
-| **With caution** | TWY **D** between the 1st/6th GAV hangar and the CAN boarding room, due to restricted visibility from the Tower[^ad28]; entry and exit of the hangar apron, due to vehicle crossings[^ad29] |
-| **Military apron** | Jets and turboprops must not manoeuvre with the tail towards the buildings. *Follow-me* available for aircraft bound for the military apron[^ad20-2] |
-| **Engine run-up** | There is no dedicated area. Exceptionally, on TWY **M** between the runway 18 holding point and **B**[^ad28] |
 
 [^ad20-2]: [AIP Brasil, AD 2 SBRF 2.20, item 2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad28]: [AIP Brasil, AD 2 SBRF 2.8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and ADC chart.
-[^ad29]: [AIP Brasil, AD 2 SBRF 2.9](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -261,7 +257,7 @@ Reference for simulation. The stands follow the PDC charts; the airlines follow 
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 1"><small>Apron</small>1</span><span class="patio__info"><strong>General aviation</strong><span>Via N (up to 24 m) and P (up to 15 m)</span><span class="patio__pos">2 stands, category B</span></span></header>
-<div class="patio__cias"><p class="patio__nota">Maximum stay of 4 hours; no overnight stay without authorization.</p></div>
+<div class="patio__cias"><p class="patio__nota">General and business aviation.</p></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Aprons 3 and 4"><small>Apron</small>3·4</span><span class="patio__info"><strong>Military</strong><span>West side, via K · 4: next to the Tower</span><span class="patio__pos">Stands 24 to 26 (3) and 27 to 29 (4)</span></span></header>
@@ -279,16 +275,8 @@ Reference for simulation. The stands follow the PDC charts; the airlines follow 
 
 ## :material-clipboard-text-outline: Other procedures
 
-### Training flights
-
-- IFR procedure training, touch-and-go, ANAC checks and other flights that interfere with arrivals and departures only on **Saturdays 0800–1000 and 2200–2300** and **Sundays 0800–1000**[^ad22].
-
-### Aerodrome regulations
-
-- Recife APP **does not accept AFIL flight plans**[^ad22].
 - Follow the VAC to join and leave the traffic pattern[^ad22].
 - Helicopters in the VFR circuit: **northwest** sector, minimum altitude **800 ft**[^ad20-8].
-- Concentration of **vultures** near threshold 18, daily between 1000 and 1800[^ad23].
 
 [^ad17]: [AIP Brasil, AD 2 SBRF 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-8]: [AIP Brasil, AD 2 SBRF 2.20, item 8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).

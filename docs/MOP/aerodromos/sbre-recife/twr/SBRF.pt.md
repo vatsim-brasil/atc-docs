@@ -194,13 +194,9 @@ O piloto deve livrar a pista no menor tempo de ocupação de pista (MROT)[^ad20-
 | **Envergadura abaixo de 24 m** | TWY **N**[^ad28] |
 | **Envergadura abaixo de 15 m** | TWY **P**[^ad28] |
 | **Em IMC** | Proibido operar ao mesmo tempo aeronaves com envergadura de **36 m ou mais** na pista e nas TWY **M**, **D** e **K**[^ad20-6] |
-| **Com cautela** | TWY **D** entre o hangar do 1º/6º GAV e a sala de embarque do CAN, por visibilidade restrita da Torre[^ad28]; entrada e saída do pátio dos hangares, por cruzamento de veículos[^ad29] |
-| **Pátio militar** | Jatos e turboélices não manobram com a cauda voltada para os prédios. *Follow-me* disponível para quem segue ao pátio militar[^ad20-2] |
-| **Cheque de motores** | Não há área própria. Em casos excepcionais, na TWY **M** entre o ponto de espera da 18 e a **B**[^ad28] |
 
 [^ad20-2]: [AIP Brasil, AD 2 SBRF 2.20, item 2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad28]: [AIP Brasil, AD 2 SBRF 2.8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e carta ADC.
-[^ad29]: [AIP Brasil, AD 2 SBRF 2.9](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -261,7 +257,7 @@ Referência para a simulação. As posições seguem as cartas PDC; as companhia
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátio 1"><small>Pátio</small>1</span><span class="patio__info"><strong>Aviação geral</strong><span>Pela N (até 24 m) e pela P (até 15 m)</span><span class="patio__pos">2 posições, categoria B</span></span></header>
-<div class="patio__cias"><p class="patio__nota">Permanência máxima de 4 horas, sem pernoite sem autorização.</p></div>
+<div class="patio__cias"><p class="patio__nota">Aviação geral e executiva.</p></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Pátios 3 e 4"><small>Pátio</small>3·4</span><span class="patio__info"><strong>Militar</strong><span>Lado oeste, pela K · 4: junto à Torre</span><span class="patio__pos">Posições 24 a 26 (3) e 27 a 29 (4)</span></span></header>
@@ -279,16 +275,8 @@ Referência para a simulação. As posições seguem as cartas PDC; as companhia
 
 ## :material-clipboard-text-outline: Outros procedimentos
 
-### Voos de treinamento
-
-- Treinamento de procedimentos IFR, toque e arremetida, cheque ANAC e outros voos que interfiram nas chegadas e saídas só aos **sábados 0800–1000 e 2200–2300** e aos **domingos 0800–1000**[^ad22].
-
-### Regulamentos do aeródromo
-
-- O APP Recife **não aceita plano de voo AFIL**[^ad22].
 - Observar a VAC para entrar e sair do circuito de tráfego[^ad22].
 - Helicópteros em circuito VFR: setor **noroeste**, altitude mínima **800 pés**[^ad20-8].
-- Concentração de **urubus** perto da cabeceira 18, diariamente entre 1000 e 1800[^ad23].
 
 [^ad17]: [AIP Brasil, AD 2 SBRF 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-8]: [AIP Brasil, AD 2 SBRF 2.20, item 8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).

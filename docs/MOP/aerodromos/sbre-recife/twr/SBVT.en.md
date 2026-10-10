@@ -16,7 +16,7 @@ tags:
 | **Type of Operation**        | International and Public                      |
 | **Transition altitude**      | 5000 ft[^ad17]                                |
 | **Elevation**                | 34 ft (10 m)                                  |
-| **Largest aircraft**         | Code 4D; B767-300F for cargo only, on 06/24[^ad20-1] |
+| **Largest aircraft**         | Code 4D; B767-300F only on 06/24[^ad20-1] |
 | **Airspace**                 | Vitória CTR, class C, GND/4500 ft[^ad17]      |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
@@ -75,12 +75,9 @@ SBVT has **two runways that do not cross**: 02/20 (2058 m), to the east, next to
 | **24** | 1750 × 45 m | 1750 m | 1750 m | ILS CAT I | Turnaround area at threshold 24 |
 
 - **Backtrack** on 02 only up to the **threshold 20 turnaround area**[^ad20-6].
-- On 06/24, 180° turns by aircraft above **12 t** only at the **threshold 24 turnaround area**, due to pavement disintegration[^ad20-6].
-- Touch-and-go on training flights is **prohibited on 02/20**[^ad20-7].
 
 [^ad20-1]: [AIP Brasil, AD 2 SBVT 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-6]: [AIP Brasil, AD 2 SBVT 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Declared distances: AD 2.13.
-[^ad20-7]: [AIP Brasil, AD 2 SBVT 2.20, item 7](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 ---
 
@@ -93,7 +90,6 @@ SBVT has **two runways that do not cross**: 02/20 (2058 m), to the east, next to
 | **SBVT_TWR** | `TVT` | Vitória Tower | **118.100** | |
 
 - SBVT has **no Clearance (DEL) and no DCL**. Ground issues the clearance, or Tower without Ground.
-- Engine start at the stand depends on coordination with the airport administration; after that, the pilot calls Ground[^ad20-1].
 
 ---
 
@@ -167,16 +163,12 @@ SBVT has **two runways that do not cross**: 02/20 (2058 m), to the east, next to
 | **Code D prohibited** | TWY **A** and **B** and aprons 2 and 3 between stands 2 and 13[^ad20-6] |
 | **Code E prohibited** | TWY **H**[^ad28] |
 | **In IMC** | Code 4D prohibited on TWY **A** and on the apron 3 taxiway while a code 3 or 4 aircraft lands or departs on 06/24[^ad20-6] |
-| **Pushback** | Engines only after pushback, once the aircraft passes the red line[^ad20-6]. Entry to the stand only with a marshaller[^ad20-1] |
-| **At night** | Apron 4 and TWY **PP** closed[^ad28] |
 
 !!! danger "Hotspots"
-    - **HS 1** and **HS 2:** holding points of **G** and **H** (02/20). The Tower's view of the holding point is restricted: an aircraft may overrun it unnoticed.
-    - **HS 3:** **D × F × J** intersection, access to apron 1. Converging flows and restricted visibility between aircraft on D and F.
-    - **HS 4:** **D** in front of the fire station, with frequent crossings.
+    - **HS 3:** **D × F × J** intersection, access to apron 1, with converging taxi flows.
     - **HS 5:** **C × D × 06/24** intersection. Complex geometry and frequent runway crossings.
     - **HS 6:** **E × F × K** intersection. Several taxi flows converge.
-    - **HS 7:** **M**, exit from 02. Landings on 02 vacating via M interfere with 06; the pavement also has restrictions.
+    - **HS 7:** **M**, exit from 02. Landings on 02 vacating via M interfere with 06.
 
 [^ad28]: [AIP Brasil, AD 2 SBVT 2.8](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^adc]: SBVT ADC chart (AMDT 2610A1), hotspots HS 1 to HS 7.
@@ -210,14 +202,14 @@ Reference for simulation. The stands follow the PDC charts; the airlines follow 
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 2"><small>Apron</small>2</span><span class="patio__info"><strong>Old terminal (TPS 2)</strong><span>General and business aviation, via C</span><span class="patio__pos">Stands 1 to 5</span></span></header>
-<div class="patio__cias"><p class="patio__nota">General aviation requires prior authorization from the airport.</p></div>
+<div class="patio__cias"><p class="patio__nota">General and business aviation.</p></div>
 </section>
 <section class="patio">
 <header class="patio__cab"><span class="patio__num" title="Apron 3"><small>Apron</small>3</span><span class="patio__info"><strong>Cargo terminal</strong><span>Freighters, via A and B</span><span class="patio__pos">Stands 7 to 13</span></span></header>
 <div class="patio__cias"><p class="patio__nota">Freighters. The B767-300F operates only on 06/24.</p></div>
 </section>
 <section class="patio">
-<header class="patio__cab"><span class="patio__num" title="Apron 4"><small>Apron</small>4</span><span class="patio__info"><strong>Heliport</strong><span>Via PP · closed at night</span></span></header>
+<header class="patio__cab"><span class="patio__num" title="Apron 4"><small>Apron</small>4</span><span class="patio__info"><strong>Heliport</strong><span>Via PP</span></span></header>
 <div class="patio__cias"><p class="patio__nota">Helicopters.</p></div>
 </section>
 </div>
@@ -228,15 +220,10 @@ Reference for simulation. The stands follow the PDC charts; the airlines follow 
 
 ## :material-clipboard-text-outline: Other procedures
 
-- **Restricted** aircraft: no radio, gliders and no transponder (or transponder failure)[^ad20-1].
-- **Restricted** air services: object dropping or spraying, aerial towing, parachute dropping and aerobatic flight[^ad20-1].
-- Training flights near the aerodrome[^ad20-7].
-- **Vulture** concentration in all sectors[^ad23].
 - Follow the VAC to join and leave the traffic pattern[^ad22].
 - Helicopters to offshore platforms: VFR preferably at **2500 ft** outbound and **1500 ft** inbound (3500 ft from the Macaé TMA); IFR at **5000 ft** outbound and **6000 ft** inbound[^ad22].
 
 [^ad17]: [AIP Brasil, AD 2 SBVT 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and IAC charts.
 [^ad22]: [AIP Brasil, AD 2 SBVT 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
-[^ad23]: [AIP Brasil, AD 2 SBVT 2.23](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
 <small>Diagrams drawn by VATSIM Brasil on [OpenStreetMap](https://www.openstreetmap.org/copyright) geometry (ODbL), checked against the SBVT ADC and PDC charts. Not for real-world navigation. Normative source: AIP Brasil, AD 2 SBVT, AMDT 2610A1.</small>
