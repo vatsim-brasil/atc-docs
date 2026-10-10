@@ -15,6 +15,7 @@
 | **Tipo de Operação**         | Militar               |
 | **Altitude de transição** | 5000 pés |
 | **Elevação** | 61 pés (19 m) |
+| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

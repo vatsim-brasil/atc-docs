@@ -15,6 +15,7 @@
 | **Tipo de Operação**         | Público                              |
 | **Altitude de transição** | 4000 pés |
 | **Elevação** | 169 pés (52 m) |
+| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

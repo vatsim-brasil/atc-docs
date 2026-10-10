@@ -19,6 +19,7 @@ tags:
 | **Reference code**           | 4E (B747-8 and A380 with special authorization)[^ad23] |
 | **Airspace**                 | Guarulhos CTR, class D, GND/3600 ft[^ad17]    |
 | **Operation**                | IFR. Fixed-wing VFR prohibited, except Brazilian military[^ad22] |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" }[^ad23] |
 
 ## :material-monitor-dashboard: Useful Information
 

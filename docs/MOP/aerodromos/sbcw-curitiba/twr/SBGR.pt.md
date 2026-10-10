@@ -19,6 +19,7 @@ tags:
 | **Código de referência**     | 4E (B747-8 e A380 com autorização especial)[^ad23] |
 | **Espaço aéreo**             | CTR Guarulhos, classe D, GND/3600 pés[^ad17]  |
 | **Operação**                 | IFR. VFR de asa fixa proibido, exceto militares brasileiras[^ad22] |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" }[^ad23] |
 
 ## :material-monitor-dashboard: Informações Úteis
 
