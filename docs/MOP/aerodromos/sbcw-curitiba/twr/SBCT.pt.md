@@ -9,13 +9,17 @@ tags:
 --8<-- "includes/abreviacoes.md"
 
 ## :material-information-outline: Dados Gerais
-|                              | Informações                      |
-|------------------------------|----------------------------------|
-| **Nome do aeródromo**        | Curitiba - Afonso Pena   |
-| **Tipo de Operação**         | Internacional, Público e Militar      |
-| **Altitude de transição** | 9000 pés |
-| **Elevação** | 2989 pés (911m) |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+
+|                              | Informações                                   |
+|------------------------------|-----------------------------------------------|
+| **Nome do aeródromo**        | Afonso Pena                                   |
+| **Tipo de Operação**         | Internacional, Público e Militar              |
+| **Altitude de transição**    | 9000 pés                                      |
+| **Elevação**                 | 2989 pés (911 m)                              |
+| **Maior aeronave**            | Wide-bodies (até código 4E) na 15/33; leves e ATR (até código 3C) na 11/29[^ad20-1] |
+| **Espaço aéreo**             | CTR Curitiba, classe D, GND/4500 pés[^ad17]   |
+| **Operação**                 | IFR e VFR                                     |
+| **Aceita A380?** | :material-close:{ style="color:#d63d3d" }[^ad20-1] |
 
 ## :material-monitor-dashboard: Informações Úteis
 
@@ -33,113 +37,292 @@ tags:
         <div class="weather-card taf" id="taf-content">
             Carregando o TAF<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
         </div>
-    </div>
 
 === ":material-radar: Tráfego VATSIM"
     [:material-radar: Tráfego](https://vatsim-radar.com/?airport=SBCT){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;align:center;" }
-    </div>
+
+---
 
 ## :material-routes: Pistas
-| Pista  | Preferencial | ILS                                          | Circuito            |
-| :----: | :--- | :---: | :---: |
-| **15** | Preferencial | :fontawesome-solid-circle-check:{.corok}     | Padrão              |
-| **33** | -            | :fontawesome-solid-circle-check:{.corok}     | Não-padrão          |
-| **11** | Preferencial | :fontawesome-solid-circle-xmark:{ .cornot }  | Não-padrão          |
-| **29** | -            | :fontawesome-solid-circle-xmark:{ .cornot }  | Não-padrão          |
 
-!!! warning "Operação Preferencial de Pista"
+### Sistema preferencial de pistas
 
-    Em condições meteorológicas com {==**componente de vento de cauda menor ou igual a 7KT**==}, a configuração preferencial de pista de pouso e decolagem será a utilização das RWY 11 e RWY 15. Tal configuração será normalmente utilizada em preferência à utilização das RWY 29 e RWY 33, desde que a superfície da pista **esteja seca**.
-    
-    Quando o sistema de pista de pouso e decolagem em uso for RWY 11 e RWY 15 com componente de vento de cauda, os pilotos que solicitarem autorização para utilizar o sistema RWY 29 e RWY 33 devem considerar que seu pouso ou decolagem {==**pode sofrer atraso**==}.
+SBCT tem **duas pistas que se cruzam**. A 15/33 (2218 m) é a pista principal; a 11/29 (1798 m) é usada por aeronaves leves. As pistas são usadas **em pares**: sistema **11/15** ou sistema **29/33**[^ad20-10].
+
+<div class="grid cards" markdown>
+
+-   :material-airplane:{ .lg .middle } **Pista principal: `15` / `33`**
+
+    ---
+
+    2218 × 45 m. **Todos os pousos** e as decolagens de **ATR e jatos**. ILS CAT II na 15 e CAT I na 33.
+
+-   :material-airplane-takeoff:{ .lg .middle } **Pista secundária: `11` / `29`**
+
+    ---
+
+    1798 × 45 m. Decolagens de **aeronaves leves**, conforme o setor de saída. Pouso só a pedido do piloto ou do ATC.
+
+</div>
+
+!!! warning "Sistema preferencial: 11/15"
+    Com {==**componente de vento de cauda de até 7 kt**==} e **pista seca**, o sistema **11/15** é usado em preferência ao 29/33[^ad20-10].
+
+    Com o sistema 11/15 em uso e vento de cauda, o piloto que pedir o sistema 29/33 deve contar com **atraso** no pouso ou na decolagem[^ad20-10].
+
+| Sistema | Pousos | Decolagens de ATR e jatos | Decolagens de aeronaves leves |
+| :--- | :---: | :---: | :--- |
+| **11/15** (preferencial) | **15** | **15** | **11** para o setor entre as radiais **020 e 129** do VOR CTB; **15** para os demais |
+| **29/33** | **33** | **33** | **29** para o setor entre as radiais **210 e 315** do VOR CTB; **33** para os demais |
+
+!!! info "Grupos de aeronaves usados nesta página"
+    | Grupo | Exemplos | No AIP |
+    | :--- | :--- | :--- |
+    | **Leves** | Pistão, C208, King Air | Código 1 e 2 |
+    | **ATR** | ATR 42 e ATR 72 | Código 3 |
+    | **Jatos** | A320, B737, E-Jets e maiores | Código 4 |
+
+    O AIP separa as aeronaves pelo comprimento de pista que precisam para decolar. Na dúvida, o piloto informa o que pode cumprir.
+
+### Dados das pistas
+
+| Pista | Dimensões | TORA | LDA | Aproximação | Observações |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **15** | 2218 × 45 m | 2218 m | 2218 m | ILS CAT II, RNP, VOR | Sem TWY até a cabeceira: entrada pela C (ver [Pontos de decolagem](#pontos-de-decolagem)) |
+| **33** | 2218 × 45 m | 2218 m | 2218 m | ILS CAT I, RNP, VOR | Entrada pela F, na cabeceira |
+| **11** | 1798 × 45 m | 1798 m | 1798 m | RNP, VOR | Entrada pela A, na cabeceira |
+| **29** | 1798 × 45 m | 1798 m | 1798 m | RNP, VOR | Sem TWY até a cabeceira |
+
+- Giro de 180° (*backtrack*) de aeronaves com PMD acima de **40 t** só **sobre as cabeceiras**, nas duas pistas[^ad20-6].
+- O AD recebe aeronaves até wide-bodies como **B777** e **A330** (código 4E). O **B747-8F** opera com procedimentos especiais aprovados pela ANAC[^ad20-1].
+
+[^ad20-10]: [AIP Brasil, AD 2 SBCT 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+[^ad20-6]: [AIP Brasil, AD 2 SBCT 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+[^ad20-1]: [AIP Brasil, AD 2 SBCT 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Distâncias declaradas: AD 2.13.
+
+---
 
 ## :material-headset: Órgãos ATC
-| Código     | Abrev. | Indicativo de Chamada | Frequência | Observações |
-| ---------- | ------ | --------------------- | ---------- | ----------- |
-| **SBCT_ATIS** | `ACT` | ATIS Curitiba | **127.800** |  |
-| **SBCT_DEL** | `DCT` | Tráfego Curitiba | **119.300** | `DCL` |
-| **SBCT_GND** | `GCT` | Solo Curitiba | **121.900** |  |
-| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** |  |
 
-## :material-airplane-takeoff: Operações
+| Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
+| :--- | :---: | :--- | :---: | :--- |
+| **SBCT_ATIS** | `ACT` | ATIS Curitiba | **127.800** | D-ATIS |
+| **SBCT_DEL** | `DCT` | Tráfego Curitiba | **119.300** | `DCL` (código `SBCT`) |
+| **SBCT_GND** | `GCT` | Solo Curitiba | **121.900** | |
+| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** | |
 
-### Decolagens
+### DCL
 
-- Os pilotos deverão planejar a TKOF de forma a chegar no ponto de espera prontos para executá-la. Havendo indisponibilidade de TKOF imediata, informar ao órgão ATC com antecedência.
-- Espera-se que ao receber autorização de TKOF, o piloto inicie a corrida imediatamente (o tempo de reação esperado é de até 10 segundos).
-- A TWR Curitiba não informará a hora de TKOF às ACFT. A instrução quanto à FREQ do próximo órgão a ser chamado AFT TKOF e, se necessárias, instruções complementares, serão emitidas juntamente com a AUTH de TKOF.
-- Efetuar imediatamente a chamada inicial ao APP Curitiba após a decolagem, a fim de obter instruções para livrar o eixo de pista de decolagem.
-- A chamada inicial ao APP após a decolagem deverá observar somente o seguinte padrão: *CONTROLE CURITIBA, [CALLSIGN]*. Não incluir qualquer informação adicional ao mencionado padrão.
-- Aeronaves turboélices e pistão devem aguardar vetoração radar ou autorização direto a um waypoint publicado logo após a decolagem.
-- As aeronaves código de referência **A, B e C** deverão ser configuradas para decolar da RWY 11 ou da RWY 15 a partir da intersecção com a TWY `C`. Caso não seja possível o cumprimento deste procedimento, o piloto deve informar no momento da solicitação da autorização do plano de voo.
-- *RWY 15*
-    * TWY `C`
-        * Distância da TWY `C` até a THR `33` – TORA Disponível: 1740 m
+O SBCT tem **DCL** (autorização de tráfego por enlace de dados)[^ad18]. Na rede, a estação usa o código **`SBCT`**.
 
-### Aproximações e Pousos
+| | |
+| :--- | :--- |
+| **Código da estação** | `SBCT` |
+| **Quem opera** | SBCT_DEL. Sem DEL, a posição que assume a autorização em top-down (GND, TWR, APP ou ACC) |
+| **Ferramenta do controlador** | Janela de DCL do TopSky, com o código pessoal do Hoppie ACARS |
+| **Ferramenta do piloto** | ACARS da aeronave ou cliente compatível com Hoppie, enviando o pedido de autorização para `SBCT` |
 
-- Nas OPS de LDG, os pilotos não reportarão para TWR Curitiba a COND de trem de pouso, EXC nas situações de EMERG com referência ao seu baixamento e/ou travamento.
-- Os pilotos devem livrar a pista na velocidade mais rápida permitida pelos procedimentos operacionais padronizados e em conformidade com a segurança operacional, permitindo que o ATC aplique a separação mínima na aproximação final.
-- Nos pousos na RWY 15, as aeronaves devem ser configuradas para livrar a pista na TWY `F`, de forma a utilizar o MROT e a fim de facilitar o fluxo de aeronaves na TWY `B`.
-- Nos pousos na RWY 33, as aeronaves deverão ser configuradas para livrar a pista de pouso e decolagem na TWY `C`. Informar ao APP Curitiba, TWR Curitiba ou equivalente caso não estejam em condições de cumprir com este procedimento.
-- *RWY 33*
-    * TWY `C`
-        * Distância da TWY `C` até a THR `33` - LDA Disponível: 1740 m
-- Após livrar a pista, não chame a frequência de controle de solo até que seja instruído pela torre de controle.
+**Como funciona:**
 
-### Regulamentos do Aeródromo
+1. O piloto envia o pedido (RCD) para `SBCT`, com posição de estacionamento e letra do ATIS.
+2. O controlador confere o plano e responde com a autorização: limite, pista, SID, código transponder, letra do ATIS e próxima frequência.
+3. O piloto aceita (`WILCO`/`ACCEPT`). A autorização está cotada e **não há cotejamento por voz**.
+4. Com a autorização aceita, o piloto chama o Solo direto para acionamento ou reboque.
 
-- OBS VAC para entrada ou saída do circuito de TFC.
-- Voo local no circuito de tráfego, treinamento de procedimento IFR, de toque e arremetida ou demais tipos de
-treinamento que interfiram no movimento do aeródromo podem ser restritos, a depender da quantidade de tráfego operando no aeródromo.
-- Há restrição às seguintes classes e tipos de ACFT:
-    - ACFT WO EQPT RDO;
-    - GLD;
-    - ACFT WO transponder ou com falha neste EQPT;
-    - FLT de ultraleves motorizados.
-- Há restrição aos seguintes serviços aéreos:
-    - Lançamento de objetos ou pulverização;
-    - Reboque de ACFT;
-    - Lançamento de paraquedas;
-    - FLT acrobático.
-- O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 4E ou inferior.
-- Autorizações de Operações Especiais: Boeing 747-8F.
+!!! tip "Configuração do controlador"
+    - Faça login no DCL do TopSky com o código `SBCT` antes de abrir a posição.
+    - Anuncie no *controller information*: `DCL AVBL LOGON SBCT`.
+    - Pedido com erro (plano inválido, SID errada, sem ATIS) volta como **REVERT TO VOICE**: o piloto chama o Tráfego na frequência.
+    - Se o piloto não aceitar em tempo razoável, considere a autorização não entregue e chame por voz.
 
-### Pátios e Pistas de Taxi
+!!! info "Decolagem da interseção C"
+    Na pista 15, **leves e ATR** decolam da interseção **C**. O piloto que não puder cumprir **avisa ao pedir o táxi**[^ad20-13-2].
 
-- Compulsória a utilização de pushback para ACFT com envergadura acima de 24m para saída do PRKG.
-- TWY `B` entre `E` e `A` exclusiva para ACFT com no máximo 36m de envergadura.
-- TWY `A` limitada para ACFT com no máximo 36m de envergadura.
-- Em Condições Meteorológicas de Voo por Instrumento (IMC), proibida a operação de aeronaves com letra de código de referência "D" e "E" na pista de táxi "B", enquanto houver operação de pouso ou decolagem de aeronaves classificadas com número de código de referência 3 ou 4 na pista de pouso e decolagem 15/33.
+[^ad18]: [AIP Brasil, AD 2 SBCT 2.18](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
-### Pistas
+---
 
-- De modo a otimizar o fluxo de tráfego do aeródromo, o uso preferencial das pistas de pouso e decolagem será o seguinte:
-    - *RWY 11*
-        - Decolagem aeronaves CAT A, B e C; e
-        - Pousos aeronaves CAT A e B.
-    - *RWY 15*
-        - Pousos e decolagens CAT C e superiores.
-    - *RWY 29*
-        - Decolagem de aeronaves turboélices.
-    - *RWY 33*
-        - Pousos e decolagens CAT C e superiores.
-- Tipo de operação por pista/cabeceira:
-    - *RWY 15/33*
-        - Código de referência: 4E
-        - `RWY 15`: VFR / IFR – CAT II – diurna/noturna;
-        - `RWY 33`: VFR / IFR – CAT I – diurna/noturna;
-    - *RWY 11/29*
-        - Código de referência: 3C
-        - `RWY 11`: VFR / IFR - Não-precisão - diurna/noturna;
-        - `RWY 29`: VFR / IFR - Não-precisão - diurna/noturna.
-- RWY 15/33 e RWY 11/29: giro de 180 DEG (backtrack) para ACFT com PMD acima de 40 toneladas somente nas THR.
+## :material-map-marker-radius: Áreas de responsabilidade
 
-## :material-sign-direction: Posições de Parada
-| Pátio    | Posições  | Classificação                       |
-| :------: | :-------: | :---------------------------------- |
-| `1`      | 1         | Cargueiro Heavy                     |
-| `1`      | 2-3       | Internacional Passageiros           |
-| `1`      | 4-14      | Doméstico Passageiros               |
-| `1`      | 15-23     | Remotas                             |
-| `2`      | ANY       | Cargueiro Doméstico e Aviação Geral |
+<figure markdown="span">
+  ![Mapa de SBCT com as faixas das duas pistas em amarelo, sob a Torre, e o restante em azul, sob o Solo](img/sbct-responsabilidade.svg){ loading=lazy }
+  <figcaption>Faixas amarelas: Torre. Restante: Solo. A linha tracejada passa pelos pontos de espera. Círculos coloridos: pontos de transferência e cruzamentos, explicados abaixo. Círculos brancos: números dos pátios.</figcaption>
+</figure>
+
+A divisão segue os **pontos de espera das pistas**: tudo que fica dentro dos pontos de espera da 15/33 e da 11/29 é da Torre.
+
+| Posição | Responsável por |
+| :--- | :--- |
+| **GND** | Pátios 1 e 2, área dos hangares, TWY **A**, **B**, **L** (TWY do pátio 1), **G**, **H**, **J**, **M** e **N** e os trechos de **C**, **D**, **E** e **F** **até o ponto de espera** |
+| **TWR** | As duas pistas, o **cruzamento da cabeceira 11** entre a A e a C, o **cruzamento da 15/33 pela E** e as TWY dentro dos pontos de espera |
+
+**Pontos de transferência** (círculos no mapa):
+
+1. :material-numeric-1-circle:{ style="color:#12a150" } **Saída:** o Solo transfere a aeronave para a Torre **antes do ponto de espera**: na **A**, para a 11 e para a 15 (a rota até a C cruza a cabeceira 11), e na **F**, para a 33.
+2. :material-numeric-2-circle:{ style="color:#3d7fd6" } **Chegada:** depois de livrar a pista, o piloto **não chama o Solo até ser instruído pela Torre**[^ad20-11]. Quem livra a 33 pela C cruza a cabeceira 11 ainda com a Torre e só passa ao Solo na A (HEAVY ou envergadura acima de 36 m: só depois de livrar pela E).
+3. :material-numeric-3-circle:{ style="color:#e0a100" } **Cruzamentos:** a cabeceira 11 (entre a A e a C) e a 15/33 pela E (para a D) só com autorização da Torre.
+
+[^ad20-11]: [AIP Brasil, AD 2 SBCT 2.20, item 11](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+
+---
+
+## :material-transit-connection-variant: Fluxo de solo
+
+!!! abstract "Regra geral"
+    - **TWY B** é o caminho entre os pátios e as pistas, paralela à 15/33. A leste leva à **F** (cabeceira 33); a oeste, pela **A**, leva à cabeceira 11 e à **C**.
+    - **G**, **H**, **J**, **M** e **N** ligam a TWY do pátio 1 (**L**) à B. O pátio 2 fica de frente para a B.
+    - A 15 **não tem TWY até a cabeceira**: a entrada é pela **C**, a 1740 m da cabeceira 33.
+
+=== "Sistema 11/15 (preferencial)"
+
+    <figure markdown="span">
+      ![Fluxo de solo no sistema 11/15: decolagens pela B e A até a C, com backtrack para jatos; pousos na 15 livrando pela E ou pela F](img/sbct-fluxo-15.svg){ loading=lazy }
+      <figcaption>Verde: decolagens, da saída do pátio até a pista. Verde tracejado: backtrack. Azul: pousos. Laranja tracejado: HEAVY ou envergadura acima de 36 m. Barra vermelha: espera obrigatória antes de cruzar a cabeceira 11.</figcaption>
+    </figure>
+
+    - **Decolagens (15):** táxi pela **B** para oeste, **A** e **C**, cruzando a cabeceira 11 com autorização da Torre. Leves e ATR decolam da **C** (TORA 1740 m); jatos entram pela C e faz **backtrack** até a cabeceira 15.
+    - **HEAVY ou envergadura acima de 36 m (15):** pela **B** até a **E**, entra na pista e faz **backtrack** até a cabeceira 15.
+    - **Decolagens (11):** aeronaves leves com saída para o setor leste, pela **B** e **A** até a cabeceira 11.
+    - **Pousos (15):** leves livram pela **E** (1465 m da cabeceira); ATR e jatos livram pela **F**, no fim da pista[^ad20-13-1].
+
+    Exemplo: `GLO1234, táxi para o ponto de espera da pista 15 via B, A, C.`
+
+=== "Sistema 29/33"
+
+    <figure markdown="span">
+      ![Fluxo de solo no sistema 29/33: decolagens pela B até a F, cabeceira 33; pousos na 33 livrando pela C ou pela pista 29 em direção à A](img/sbct-fluxo-33.svg){ loading=lazy }
+      <figcaption>Verde: decolagens, da saída do pátio até a pista. Azul: pousos. Laranja tracejado: HEAVY ou envergadura acima de 36 m. Barra vermelha: espera obrigatória antes de cruzar a cabeceira 11.</figcaption>
+    </figure>
+
+    - **Decolagens (33):** táxi pela **B** para leste até a **F**, na cabeceira (TORA 2218 m).
+    - **Decolagens (29):** aeronaves leves com saída para o setor oeste. A 29 não tem TWY até a cabeceira: o acesso é pela **D**, cruzando a 15/33 pela **E** com autorização da Torre.
+    - **Pousos (33):** ATR e jatos livram pela **C** (1740 m da cabeceira) e voltam pela **A**, cruzando a cabeceira 11; leves livram **pela pista 29**, no sentido da **A** (1200 m da cabeceira 33)[^ad20-13-1].
+
+    - **HEAVY ou envergadura acima de 36 m (33):** livra pela **C** até a cabeceira 11, faz **backtrack na 29** até o cruzamento, **backtrack na 33** e livra pela **E**. Fica com a Torre até livrar pela E.
+
+    Exemplo: `AZU4321, táxi para o ponto de espera da pista 33 via B, F.`
+
+### Saídas de pista
+
+Na HIRO, o piloto deve livrar pela saída abaixo ou avisar o APP ou a Torre o quanto antes se não puder[^ad20-13-1].
+
+| Pista | Leves | ATR e jatos |
+| :---: | :--- | :--- |
+| **15** | **E** (1465 m) | **F** (fim da pista) |
+| **33** | **Pista 29**, no sentido da A (1200 m) | **C** (1740 m) |
+
+<small>Distância da cabeceira até a saída. HEAVY ou envergadura acima de 36 m pousando na 33 seguem o fluxo próprio descrito abaixo.</small>
+
+### Restrições de táxi
+
+| Restrição | Onde |
+| :--- | :--- |
+| **Envergadura máxima de 36 m** | TWY **A** inteira e TWY **B** entre a **E** e a **A**[^ad20-6] |
+| **IMC, envergadura de 36 m ou mais** | Proibido na **B** e na **E** enquanto houver pouso ou decolagem de ATR ou jato[^ad20-6] |
+| **RVR abaixo de 350 m** | Uma aeronave por vez na área de manobras. As barras de parada ficam na **C**, **E** e **F**[^ad29] |
+| **Envergadura acima de 24 m** | Saída da posição só com **pushback**[^ad20-2] |
+
+!!! warning "HEAVY ou envergadura acima de 36 m"
+    Essas aeronaves não usam a **A** nem a **B** a oeste da **E** e seguem um fluxo próprio:
+
+    - **Decolagem na 15:** entrada pela **E** e **backtrack** até a cabeceira 15.
+    - **Pouso na 33:** livra na **C**, **backtrack na 29** até o cruzamento das pistas, **backtrack na 33** e livra na **E**.
+
+[^ad20-13-1]: [AIP Brasil, AD 2 SBCT 2.20, item 13.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+[^ad20-2]: [AIP Brasil, AD 2 SBCT 2.20, item 2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+[^ad29]: [AIP Brasil, AD 2 SBCT 2.9](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e AD 2.20, item 6.
+
+---
+
+## :material-airplane-takeoff: Pontos de decolagem
+
+<figure markdown="span">
+  ![Visão geral de SBCT com pátios numerados e os pontos de decolagem marcados com a TORA disponível](img/sbct-visao-geral.svg){ loading=lazy }
+  <figcaption>Pontos de decolagem (roxo) com a TORA disponível. Números em círculo: pátios.</figcaption>
+</figure>
+
+| Pista | Ponto | TORA | Quem usa |
+| :---: | :---: | :---: | :--- |
+| **15** | **C** | **1740 m** | Leves e ATR[^ad20-13-2] |
+| **15** | Cabeceira, com backtrack desde a C | 2218 m | Jatos e quem não aceitar a interseção |
+| **15** | Cabeceira, com backtrack desde a E | 2218 m | HEAVY ou envergadura acima de 36 m |
+| **33** | **F** (cabeceira) | 2218 m | Todos |
+| **11** | **A** (cabeceira) | 1798 m | Leves, setor entre as radiais 020 e 129 do VOR CTB |
+
+- O piloto chega ao ponto de espera **pronto para decolar**; se não estiver, avisa a Torre antes de entrar na pista[^ad20-12].
+- Alinhamento **imediato** quando autorizado, e corrida iniciada em até **10 segundos** após a autorização de decolagem[^ad20-12].
+- A frequência do próximo órgão vem **junto com a autorização de decolagem**. A TWR **não informa** a hora de decolagem[^ad20-12].
+- Após decolar, chamar o APP imediatamente só com `CONTROLE CURITIBA, [INDICATIVO]`, sem informação adicional[^ad20-12].
+
+[^ad20-13-2]: [AIP Brasil, AD 2 SBCT 2.20, item 13.2](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+[^ad20-12]: [AIP Brasil, AD 2 SBCT 2.20, item 12](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+
+---
+
+## :material-speedometer: HIRO
+
+A **HIRO** (operação de pista de alta intensidade) reduz o tempo de ocupação de pista para encurtar a separação na final, entre decolagens e entre pousos e decolagens[^ad20-13].
+
+| | |
+| :--- | :--- |
+| **Horário** | **1130–1530 UTC** e **2000–2300 UTC**. A Torre pode mudar conforme a demanda; o horário vai no **ATIS** |
+| **Velocidade na aproximação** | **170 a 150 kt IAS** entre o IF e o FAF |
+| **Pouso** | Livrar a pista **completamente** na maior velocidade segura antes de reduzir para táxi, pela saída prevista (ver [Saídas de pista](#saidas-de-pista)) |
+| **Decolagem** | Na 15, leves e ATR decolam da **C** |
+
+[^ad20-13]: [AIP Brasil, AD 2 SBCT 2.20, item 13](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+
+---
+
+## :material-sign-direction: Pátios e companhias
+
+Referência para a simulação. As posições seguem a carta PDC; as companhias seguem a [lista de companhias do aeroporto na Wikipedia](https://en.wikipedia.org/wiki/Afonso_Pena_International_Airport#Airlines_and_destinations). A divisão entre posições é uma simplificação, não a alocação oficial do aeroporto. **VAs** usam as posições da companhia real que representam.
+
+<div class="patios">
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Pátio 1"><small>Pátio</small>1</span><span class="patio__info"><strong>Terminal de passageiros</strong><span>Doméstico</span><span class="patio__pos">Posições 04 a 14</span></span></header>
+<div class="patio__cias"><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure><figure class="cia" title="GOL (GLO)"><img class="off-glb" src="/images/cias/GLO.gif" alt="GOL" loading="lazy"><figcaption>GLO</figcaption></figure><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure><figure class="cia" title="Azul Conecta (ACN)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul Conecta" loading="lazy"><figcaption>ACN</figcaption></figure></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Pátio 1"><small>Pátio</small>1</span><span class="patio__info"><strong>Terminal de passageiros</strong><span>Internacional</span><span class="patio__pos">Posições 02 e 03</span></span></header>
+<div class="patio__cias"><figure class="cia" title="Aerolíneas Argentinas (ARG)"><img class="off-glb" src="/images/cias/ARG.gif" alt="Aerolíneas Argentinas" loading="lazy"><figcaption>ARG</figcaption></figure><figure class="cia" title="LATAM Chile (LAN)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM Chile" loading="lazy"><figcaption>LAN</figcaption></figure><figure class="cia" title="LATAM Perú (LPE)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM Perú" loading="lazy"><figcaption>LPE</figcaption></figure><figure class="cia" title="JetSMART (JAT)"><img class="off-glb" src="/images/cias/JAT.png" alt="JetSMART" loading="lazy"><figcaption>JAT</figcaption></figure><figure class="cia" title="TAP (TAP)"><img class="off-glb" src="/images/cias/TAP.gif" alt="TAP" loading="lazy"><figcaption>TAP</figcaption></figure></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Pátio 1"><small>Pátio</small>1</span><span class="patio__info"><strong>Remoto</strong><span>Pernoite e excedente</span><span class="patio__pos">Posições 15 a 23</span></span></header>
+<div class="patio__cias"><p class="patio__nota">Qualquer companhia, conforme a disponibilidade.</p></div>
+</section>
+<section class="patio patio--largo">
+<header class="patio__cab"><span class="patio__num" title="Pátio 2"><small>Pátio</small>2</span><span class="patio__info"><strong>Terminal de cargas</strong><span>Cargueiros</span><span class="patio__pos">Posições 24 a 27C · posição 01 do pátio 1</span></span></header>
+<div class="patio__cias"><figure class="cia" title="LATAM Cargo (LCO)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM Cargo" loading="lazy"><figcaption>LCO</figcaption></figure><figure class="cia" title="Lufthansa Cargo (GEC)"><img class="off-glb" src="/images/cias/DLH.png" alt="Lufthansa Cargo" loading="lazy"><figcaption>GEC</figcaption></figure><figure class="cia" title="Cargolux (CLX)"><img class="off-glb" src="/images/cias/CLX.png" alt="Cargolux" loading="lazy"><figcaption>CLX</figcaption></figure><figure class="cia" title="Cargolux Italia (ICV)"><img class="off-glb" src="/images/cias/CLX.png" alt="Cargolux Italia" loading="lazy"><figcaption>ICV</figcaption></figure><figure class="cia" title="Avianca Cargo (TPA)"><img class="off-glb" src="/images/cias/AVA.png" alt="Avianca Cargo" loading="lazy"><figcaption>TPA</figcaption></figure><figure class="cia" title="Sideral Linhas Aéreas (SID)"><img class="off-glb" src="/images/cias/SID.png" alt="Sideral Linhas Aéreas" loading="lazy"><figcaption>SID</figcaption></figure></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Hangares"><small>Área</small>H</span><span class="patio__info"><strong>Hangares</strong><span>Aviação geral, táxi aéreo e manutenção · pela TWY A</span></span></header>
+<div class="patio__cias"><p class="patio__nota">Aviação geral e táxi aéreo. Sem posições numeradas na PDC.</p></div>
+</section>
+</div>
+
+- **Aviação geral** depende de autorização prévia da concessionária, pedida com pelo menos 2 h de antecedência[^ad20-3].
+
+<small>Logos obtidas da [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas), [Travelpayouts](https://pics.avs.io) (Cargolux) e [Wikipedia](https://en.wikipedia.org/wiki/File:Sideral_Linhas_A%C3%A9reas_logo.png) (Sideral). As marcas pertencem às respectivas companhias.</small>
+
+[^ad20-3]: [AIP Brasil, AD 2 SBCT 2.20, item 3](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+
+---
+
+## :material-clipboard-text-outline: Outros procedimentos
+
+### Aproximações e pousos
+
+- Livrar a pista **completamente** antes de parar[^ad20-11].
+- Após livrar, **não chamar o Solo** até ser instruído pela Torre[^ad20-11].
+- Os pilotos **não reportam** trem baixado, exceto em emergência.
+
+### Regulamentos do aeródromo
+
+- **Treinamento** (circuito, toque e arremetida, procedimento IFR) **proibido** de segunda a sexta, **1100–1500** e **1900–2200 UTC**. Fora desses horários, depende de autorização do APP Curitiba coordenada com a Torre[^ad20-1].
+- Aeronaves **restritas**: sem rádio, planadores, sem transponder (ou com falha) e ultraleves motorizados[^ad20-1].
+- Serviços aéreos **restritos**: lançamento de objetos ou pulverização, reboque aéreo, lançamento de paraquedas e voo acrobático[^ad20-1].
+
+[^ad17]: [AIP Brasil, AD 2 SBCT 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+
+<small>Diagramas desenhados pela VATSIM Brasil sobre a geometria do [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), conferida com as cartas ADC e PDC SBCT. Não use para navegação real. Fonte normativa: AIP Brasil, AD 2 SBCT, AMDT 2610A1.</small>
