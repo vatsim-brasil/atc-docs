@@ -250,6 +250,8 @@ With **HIRO** (high-intensity runway operations) active on the **ATIS**, pilots 
 
     Example: `AZU4321, cleared to land runway 15, wind 180 degrees 6 knots. A320 ahead departing.`
 
+    :material-weather-sunny: **Note:** the AIP only provides for RRSM by day, from 30 min after sunrise to 30 min before sunset.
+
 [^ad20-1]: [AIP Brasil, AD 2 SBKP 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-4]: [AIP Brasil, AD 2 SBKP 2.20, item 4](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 

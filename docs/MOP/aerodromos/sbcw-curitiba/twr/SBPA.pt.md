@@ -245,6 +245,8 @@ A **HIRO** (operação de pista de alta intensidade) vale quando ativada no **AT
 
     Exemplo: `AZU4321, autorizado pouso pista 29, vento 350 graus 11 nós. A320 à frente liberando a pista.`
 
+    :material-weather-sunny: **Nota:** o AIP só prevê o RRSM de dia, do nascer ao pôr do sol (SR–SS).
+
 [^ad20-10]: [AIP Brasil, AD 2 SBPA 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-11]: [AIP Brasil, AD 2 SBPA 2.20, item 11](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 

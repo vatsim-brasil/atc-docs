@@ -250,6 +250,8 @@ Com a **HIRO** (operação de pista de alta intensidade) ativa no **ATIS**, o pi
 
     Exemplo: `AZU4321, autorizado pouso pista 15, vento 180 graus 6 nós. A320 à frente decolando.`
 
+    :material-weather-sunny: **Nota:** o AIP só prevê o RRSM de dia, de 30 min após o nascer até 30 min antes do pôr do sol.
+
 [^ad20-1]: [AIP Brasil, AD 2 SBKP 2.20, item 1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-4]: [AIP Brasil, AD 2 SBKP 2.20, item 4](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 

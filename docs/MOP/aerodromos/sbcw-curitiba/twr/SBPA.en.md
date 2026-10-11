@@ -245,6 +245,8 @@ Pilots vacate the runway **completely** before slowing to taxi speed. Those need
 
     Example: `AZU4321, cleared to land runway 29, wind 350 degrees 11 knots. A320 ahead vacating the runway.`
 
+    :material-weather-sunny: **Note:** the AIP only provides for RRSM by day, from sunrise to sunset (SR–SS).
+
 [^ad20-10]: [AIP Brasil, AD 2 SBPA 2.20, item 10](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad20-11]: [AIP Brasil, AD 2 SBPA 2.20, item 11](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
