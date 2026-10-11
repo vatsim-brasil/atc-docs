@@ -18,6 +18,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbsp/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbsp-*.svg` | OSM (`osm.json`) |
 | `sbpa/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbpa-*.svg` | OSM (`osm.json`) |
 | `sbrj/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbrj-*.svg` | OSM (`osm.json`) |
+| `sbfl/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbfl-*.svg` | OSM (`osm.json`) |
 
 ## Fontes
 
