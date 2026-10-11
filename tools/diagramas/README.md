@@ -15,6 +15,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbbr/` | `docs/MOP/aerodromos/sbbs-brasilia/twr/img/sbbr-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
 | `sbcf/` | `docs/MOP/aerodromos/sbbs-brasilia/twr/img/sbcf-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
 | `sbkp/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbkp-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
+| `sbsp/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbsp-*.svg` | OSM (`osm.json`) |
 
 ## Fontes
 
