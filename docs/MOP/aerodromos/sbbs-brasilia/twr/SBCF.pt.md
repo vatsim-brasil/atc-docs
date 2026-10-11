@@ -230,7 +230,7 @@ A **HIRO** (operação de pista de alta intensidade) reduz o tempo de ocupação
 
 | | |
 | :--- | :--- |
-| **Horário** | **0930–1230**, **1500–1700** e **1900–2100 UTC**, só em condições visuais e com pista seca. O ATC pode mudar conforme a demanda; o horário vai no **ATIS** |
+| **Ativação** | Informada no **ATIS**; só em condições visuais e com pista seca |
 | **Velocidade na aproximação** | **170 a 150 kt** a 5 NM da cabeceira; reduzir para a final só depois da 5ª milha. Velocidades atribuídas pelo ATC são obrigatórias |
 | **Pouso** | Livrar a pista **completamente** antes de parar: **F1** na 16, **C1** na 34. Se não puder, avisar o APP ou a Torre |
 | **Decolagem** | Pedido pelo DCL; código A e B pela **C1** (16) ou pela **H** (34) |

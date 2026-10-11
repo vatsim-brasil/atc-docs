@@ -69,7 +69,7 @@ SBSP tem **duas pistas paralelas**, a ~220 m uma da outra: a **17R/35L**, princi
     - Na **17R/35L** é **proibido** pousar e decolar com envergadura **menor que 14,5 m** (salvo em IMC CAT I e voos aeromédicos) e com **turboélice ou pistão** (salvo RBAC 121 e voos aeromédicos)[^ad12].
     - Só operam em SBSP aeronaves que possam usar **as duas pistas**, exceto voos domésticos regulares de passageiros e voos com enfermos e órgãos[^ad20-1].
     - Voo regular de passageiros que **não puder operar na auxiliar** avisa a Torre **no primeiro contato**[^ad18].
-    - Na **17L/35R**, aeronaves de **código 3** só em **VMC**. **Categoria A** proibida de segunda a sexta, das **1000 às 1300** e das **2200 às 0000 UTC**, salvo MEDEVAC, militares e RBAC 121/135[^ad20-1].
+    - Na **17L/35R**, aeronaves de **código 3** só em **VMC**[^ad20-1].
 
 O AIP não define pista preferencial: a configuração (17 ou 35) segue o vento e vale para as duas pistas.
 

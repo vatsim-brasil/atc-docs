@@ -73,7 +73,6 @@ SBBR tem **duas pistas paralelas**, defasadas: a **11L/29R** (3200 × 45 m), ao 
 !!! info "Picos de decolagem"
     - **Pico para N/NE/NW:** a 11L/29R fica **só para decolagens**. Todos os pousos e as decolagens para o sul vão para a 11R/29L[^ad22].
     - **Pico para S/SE/SW:** a 11R/29L fica **só para decolagens**. Todos os pousos e as decolagens para o norte vão para a 11L/29R[^ad22].
-    - **Entre 0100 e 0900 UTC**, com 11L/11R em uso, as decolagens saem da **11R**, salvo se ela estiver indisponível[^ad21].
 
 ### Dados das pistas
 
@@ -86,7 +85,6 @@ SBBR tem **duas pistas paralelas**, defasadas: a **11L/29R** (3200 × 45 m), ao 
 
 - As **operações paralelas simultâneas independentes** seguem a AIC específica de SBBR[^ad22].
 
-[^ad21]: [AIP Brasil, AD 2 SBBR 2.21](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad22]: [AIP Brasil, AD 2 SBBR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Distâncias declaradas: AD 2.13.
 
 ---
@@ -260,8 +258,8 @@ A **HIRO** (operação de pista de alta intensidade) reduz o tempo de ocupação
 
 | | |
 | :--- | :--- |
-| **Horário** | **1000–1300** e **2100–0000 UTC**. O ATC pode mudar conforme a demanda; o horário vai no **ATIS** |
-| **Velocidade na aproximação** | Entre **0900–1400** e **2100–0000 UTC**, só operam aeronaves que mantenham **no mínimo 120 kt IAS** até 4 NM da cabeceira |
+| **Ativação** | Informada no **ATIS** |
+| **Velocidade na aproximação** | Só operam aeronaves que mantenham **no mínimo 120 kt IAS** até 4 NM da cabeceira |
 | **Pouso** | Livrar a pista **completamente** antes de parar, pela saída indicada na tabela de saídas |
 | **Decolagem** | Código A e B pela interseção; jatos e esteira média ou maior seguem os procedimentos de alta densidade (alinhamento imediato, corrida em 10 s) |
 

@@ -231,7 +231,7 @@ Pilots must vacate the runway **completely** before stopping, via the listed exi
 
 ## :material-speedometer: HIRO and reduced separation
 
-**HIRO** (high-intensity runway operations) applies **H24**: pilots plan landing and takeoff for the minimum runway occupancy time[^ad20-3].
+With **HIRO** (high-intensity runway operations) active on the **ATIS**, pilots plan landing and takeoff for the minimum runway occupancy time[^ad20-3].
 
 | | |
 | :--- | :--- |
@@ -242,7 +242,7 @@ Pilots must vacate the runway **completely** before stopping, via the listed exi
 !!! info "RRSM: reduced runway separation minima"
     Tower may apply reduced separation between landings and departures when all of the conditions below hold and RRSM is on the **ATIS**[^ad20-4]:
 
-    - daytime (30 min after sunrise to 30 min before sunset), with wake separation respected;
+    - wake separation respected;
     - visibility of **5 km** or more and ceiling of **1000 ft** or more;
     - tailwind up to **3 kt** and an uncontaminated runway.
 

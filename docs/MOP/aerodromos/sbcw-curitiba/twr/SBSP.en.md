@@ -69,7 +69,7 @@ SBSP has **two parallel runways** about 220 m apart: **17R/35L**, the main runwa
     - On **17R/35L**, landings and takeoffs are **prohibited** for wingspans **below 14.5 m** (except in IMC CAT I and aeromedical flights) and for **turboprop or piston** aircraft (except RBAC 121 and aeromedical flights)[^ad12].
     - Only aircraft able to use **both runways** may operate at SBSP, except scheduled domestic passenger flights and flights carrying patients and organs[^ad20-1].
     - A scheduled passenger flight that **cannot operate on the auxiliary runway** tells Tower **on first contact**[^ad18].
-    - On **17L/35R**, **code 3** aircraft only in **VMC**. **Category A** is prohibited Monday to Friday, **1000–1300** and **2200–0000 UTC**, except MEDEVAC, military and RBAC 121/135[^ad20-1].
+    - On **17L/35R**, **code 3** aircraft only in **VMC**[^ad20-1].
 
 The AIP sets no preferential runway: the configuration (17 or 35) follows the wind and applies to both runways.
 

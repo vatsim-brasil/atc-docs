@@ -155,7 +155,7 @@ SBPA has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
     </figure>
 
     - **Departures (11):** **M3**, **B** and **J** (or **A**) to the threshold, preferably: that section is concrete[^ad20-10].
-    - **Intersection C:** only during **HIRO** hours, coordinated with Ground beforehand, and it may be refused according to Tower's planning[^ad20-10].
+    - **Intersection C:** only with **HIRO** active, coordinated with Ground beforehand, and it may be refused according to Tower's planning[^ad20-10].
     - **Landings (11):** vacate via **F** (1502 m) or **E** (1994 m) and return along **D**. If a backtrack is needed, do it at the **1st turn pad**[^ad20-10].
 
     Example: `GLO1234, taxi to holding point runway 11 via M3, B and J.`
@@ -226,7 +226,7 @@ Pilots vacate the runway **completely** before slowing to taxi speed. Those need
 
 ## :material-speedometer: HIRO and reduced separation
 
-**HIRO** (high-intensity runway operations) applies **0800–0000 UTC**. The hours are broadcast on the **ATIS** and ATC may change them according to demand[^ad20-10].
+**HIRO** (high-intensity runway operations) applies when activated on the **ATIS**[^ad20-10].
 
 | | |
 | :--- | :--- |
@@ -236,7 +236,7 @@ Pilots vacate the runway **completely** before slowing to taxi speed. Those need
 | **Separation on final** | Minimum **5 NM** surveillance separation[^ad20-11] |
 
 !!! info "RRSM: reduced runway separation minima"
-    Tower may apply reduced separation when all of the conditions hold and RRSM is on the **ATIS**: daytime, wake separation respected, visibility of **5 km** or more, ceiling of **1000 ft** or more, tailwind up to **4 kt** and an uncontaminated runway[^ad20-11].
+    Tower may apply reduced separation when all of the conditions hold and RRSM is on the **ATIS**: wake separation respected, visibility of **5 km** or more, ceiling of **1000 ft** or more, tailwind up to **4 kt** and an uncontaminated runway[^ad20-11].
 
     | Runway | Landing after landing | Landing after departure | Departure after departure |
     | :---: | :--- | :--- | :--- |

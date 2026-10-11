@@ -231,7 +231,7 @@ O piloto deve livrar a pista **completamente** antes de parar, pela saída indic
 
 ## :material-speedometer: HIRO e separação reduzida
 
-A **HIRO** (operação de pista de alta intensidade) vale **H24**: o piloto ajusta pouso e decolagem para o menor tempo de ocupação de pista[^ad20-3].
+Com a **HIRO** (operação de pista de alta intensidade) ativa no **ATIS**, o piloto ajusta pouso e decolagem para o menor tempo de ocupação de pista[^ad20-3].
 
 | | |
 | :--- | :--- |
@@ -242,7 +242,7 @@ A **HIRO** (operação de pista de alta intensidade) vale **H24**: o piloto ajus
 !!! info "RRSM: mínimos de separação reduzidos na mesma pista"
     A Torre pode aplicar a separação reduzida entre pousos e decolagens quando todas as condições abaixo valem e o RRSM está no **ATIS**[^ad20-4]:
 
-    - de dia (30 min após o nascer até 30 min antes do pôr do sol), com separação de esteira respeitada;
+    - separação de esteira respeitada;
     - visibilidade de **5 km** ou mais e teto de **1000 pés** ou mais;
     - vento de cauda até **3 kt** e pista sem contaminação.
 

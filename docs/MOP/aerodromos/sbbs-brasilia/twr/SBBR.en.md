@@ -73,7 +73,6 @@ SBBR has **two staggered parallel runways**: **11L/29R** (3200 × 45 m) to the n
 !!! info "Departure peaks"
     - **Peak towards N/NE/NW:** 11L/29R is **departures only**. All landings and the departures to the south go to 11R/29L[^ad22].
     - **Peak towards S/SE/SW:** 11R/29L is **departures only**. All landings and the departures to the north go to 11L/29R[^ad22].
-    - **Between 0100 and 0900 UTC**, with 11L/11R in use, departures use **11R**, unless it is unavailable[^ad21].
 
 ### Runway data
 
@@ -86,7 +85,6 @@ SBBR has **two staggered parallel runways**: **11L/29R** (3200 × 45 m) to the n
 
 - **Independent simultaneous parallel operations** follow the SBBR-specific AIC[^ad22].
 
-[^ad21]: [AIP Brasil, AD 2 SBBR 2.21](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 [^ad22]: [AIP Brasil, AD 2 SBBR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Declared distances: AD 2.13.
 
 ---
@@ -260,8 +258,8 @@ Pilots must vacate the runway **completely** before stopping, via the listed exi
 
 | | |
 | :--- | :--- |
-| **Hours** | **1000–1300** and **2100–0000 UTC**. ATC may change them according to demand; the hours are broadcast on the **ATIS** |
-| **Approach speed** | Between **0900–1400** and **2100–0000 UTC**, only aircraft keeping **at least 120 kt IAS** to 4 NM from the threshold |
+| **Activation** | Broadcast on the **ATIS** |
+| **Approach speed** | Only aircraft keeping **at least 120 kt IAS** to 4 NM from the threshold |
 | **Landing** | Vacate the runway **completely** before stopping, via the exit listed in the runway exits table |
 | **Takeoff** | Code A and B from the intersection; jets and medium wake or heavier follow the high-density procedures (immediate line-up, roll within 10 s) |
 

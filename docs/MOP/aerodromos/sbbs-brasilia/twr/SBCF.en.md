@@ -230,7 +230,7 @@ Pilots must vacate the runway **completely** before stopping, via the listed exi
 
 | | |
 | :--- | :--- |
-| **Hours** | **0930–1230**, **1500–1700** and **1900–2100 UTC**, only in visual conditions with a dry runway. ATC may change them according to demand; the hours are broadcast on the **ATIS** |
+| **Activation** | Broadcast on the **ATIS**; only in visual conditions with a dry runway |
 | **Approach speed** | **170 to 150 kt** at 5 NM from the threshold; slow down for final only after the 5th mile. ATC-assigned speeds are mandatory |
 | **Landing** | Vacate the runway **completely** before stopping: **F1** on 16, **C1** on 34. If unable, tell APP or Tower |
 | **Takeoff** | Request through DCL; code A and B from **C1** (16) or **H** (34) |

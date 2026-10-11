@@ -237,7 +237,7 @@ Pilots must vacate the runway **completely** before stopping, with the minimum r
 
 | | |
 | :--- | :--- |
-| **Hours** | **1330–1500** and **1830–2000 UTC**, in visual conditions with a dry runway. The hours are broadcast on the **ATIS** |
+| **Activation** | Broadcast on the **ATIS**; only in visual conditions with a dry runway |
 | **Approach speed** | Only aircraft able to keep **170 to 140 kt IAS** between the IF and the FAF |
 | **Landing on 07** | Vacate the runway **completely** before stopping, at the **intersection** (1365 m) or the **1st turn pad** (1805 m), backtracking if needed. Code A, B and C aircraft that cannot do so tell APP or Tower |
 | **Takeoff** | Request through DCL; jets depart 07 from **C** |

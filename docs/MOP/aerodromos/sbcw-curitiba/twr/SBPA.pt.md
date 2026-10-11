@@ -155,7 +155,7 @@ O SBPA tem **DCL** (autorização de tráfego por enlace de dados)[^ad18]. Na re
     </figure>
 
     - **Decolagens (11):** **M3**, **B** e **J** (ou **A**) até a cabeceira, de preferência: o trecho é de concreto[^ad20-10].
-    - **Interseção C:** só nas horas de **HIRO**, com coordenação prévia com o Solo, e pode ser negada conforme o planejamento da Torre[^ad20-10].
+    - **Interseção C:** só com a **HIRO** ativa, com coordenação prévia com o Solo, e pode ser negada conforme o planejamento da Torre[^ad20-10].
     - **Pousos (11):** livram pela **F** (1502 m) ou pela **E** (1994 m) e voltam pela **D**. Se precisar de backtrack, fazer na **1ª área de giro**[^ad20-10].
 
     Exemplo: `GLO1234, táxi para o ponto de espera da pista 11 via M3, B e J.`
@@ -226,7 +226,7 @@ O piloto livra a pista **completamente** antes de reduzir para velocidade de tá
 
 ## :material-speedometer: HIRO e separação reduzida
 
-A **HIRO** (operação de pista de alta intensidade) vale das **0800 às 0000 UTC**. O horário vai no **ATIS** e o ATC pode mudá-lo conforme a demanda[^ad20-10].
+A **HIRO** (operação de pista de alta intensidade) vale quando ativada no **ATIS**[^ad20-10].
 
 | | |
 | :--- | :--- |
@@ -236,7 +236,7 @@ A **HIRO** (operação de pista de alta intensidade) vale das **0800 às 0000 UT
 | **Separação na final** | Mínimo de **5 NM** de vigilância[^ad20-11] |
 
 !!! info "RRSM: mínimos de separação reduzidos na mesma pista"
-    A Torre pode aplicar a separação reduzida quando todas as condições valem e o RRSM está no **ATIS**: de dia, com separação de esteira, visibilidade de **5 km** ou mais, teto de **1000 pés** ou mais, vento de cauda até **4 kt** e pista sem contaminação[^ad20-11].
+    A Torre pode aplicar a separação reduzida quando todas as condições valem e o RRSM está no **ATIS**: separação de esteira respeitada, visibilidade de **5 km** ou mais, teto de **1000 pés** ou mais, vento de cauda até **4 kt** e pista sem contaminação[^ad20-11].
 
     | Pista | Pouso após pouso | Pouso após decolagem | Decolagem após decolagem |
     | :---: | :--- | :--- | :--- |

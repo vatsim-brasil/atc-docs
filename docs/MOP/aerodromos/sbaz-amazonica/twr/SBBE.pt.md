@@ -237,7 +237,7 @@ A **HIRO** (operação de pista de alta intensidade) reduz o tempo de ocupação
 
 | | |
 | :--- | :--- |
-| **Horário** | **1330–1500** e **1830–2000 UTC**, em condições visuais e com pista seca. O horário vai no **ATIS** |
+| **Ativação** | Informada no **ATIS**; só em condições visuais e com pista seca |
 | **Velocidade na aproximação** | Só operam aeronaves capazes de manter **170 a 140 kt IAS** entre o IF e o FAF |
 | **Pouso na 07** | Livrar a pista **completamente** antes de parar, na **interseção** (1365 m) ou no **1º giro** (1805 m), com backtrack se preciso. Código A, B e C que não puder avisa o APP ou a Torre |
 | **Decolagem** | Pedido pelo DCL; jatos decolam da 07 pela **C** |
