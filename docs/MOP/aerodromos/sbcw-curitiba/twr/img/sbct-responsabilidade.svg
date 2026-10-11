@@ -3,7 +3,7 @@
 <defs><marker id="ar-dep" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3" markerHeight="3" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#12a150"/></marker><marker id="ar-arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3" markerHeight="3" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3d7fd6"/></marker><marker id="ar-alt" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3" markerHeight="3" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c26a00"/></marker></defs>
 <rect x="-1509" y="-1371" width="3033" height="1866" rx="40" fill="#f5f6f8"/>
 <rect x="-1509" y="-1371" width="3033" height="1866" rx="40" fill="#2f7fd0" opacity="0.12"/>
-<path d="M-1289,-151 L1046,-151 L1046,-401 L-1289,-401 Z M-529,134 L879,-1168 L743,-1315 L-665,-13 Z" fill="#e0a100" opacity="0.28" fill-rule="nonzero"/>
+<path d="M-1289,-401 L-246,-401 L743,-1315 L879,-1168 L49,-401 L1046,-401 L1046,-151 L-221,-151 L-529,134 L-665,-13 L-664,-14 L-808,-151 L-1289,-151 Z" fill="#e0a100" fill-rule="evenodd" opacity="0.28"/>
 <g>
 <path d="M-464,196 L-374,194 L-372,196 L-370,197 L-368,197 L-366,196 L-366,193 L-366,153 L-362,105 L-362,97 L-416,98 L-426,103 L-458,135 L-462,148 L-464,196 Z" fill="#cfd3d9" fill-rule="evenodd"/>
 <path d="M-341,282 L-295,282 L-295,344 L-341,345 L-341,282 Z" fill="#cfd3d9" fill-rule="evenodd"/>
@@ -349,11 +349,15 @@
 <g><rect x="671" y="151" width="98" height="58" rx="8" fill="#fff"/><text x="720" y="194" font-size="40" font-weight="700" fill="#3d4452" text-anchor="middle">TPS</text></g>
 <g><rect x="-102" y="81" width="123" height="58" rx="8" fill="#fff"/><text x="-40" y="124" font-size="40" font-weight="700" fill="#3d4452" text-anchor="middle">TECA</text></g>
 <g><rect x="-591" y="171" width="222" height="58" rx="8" fill="#fff"/><text x="-480" y="214" font-size="40" font-weight="700" fill="#3d4452" text-anchor="middle">HANGARES</text></g>
-<path d="M-1289,-151 L1046,-151 L1046,-401 L-1289,-401 Z M-529,134 L879,-1168 L743,-1315 L-665,-13 Z" fill="none" stroke="#e0a100" stroke-width="6" stroke-dasharray="26 16"/>
+<path d="M-1289,-401 L-246,-401 L743,-1315 L879,-1168 L49,-401 L1046,-401 L1046,-151 L-221,-151 L-529,134 L-665,-13 L-664,-14 L-808,-151 L-1289,-151 Z" fill="none" stroke="#e0a100" stroke-width="6" stroke-dasharray="26 16" stroke-linejoin="round"/>
 <rect x="-400" y="-900" width="700" height="166" rx="10" fill="#fff" stroke="#e0a100" stroke-width="5"/>
 <text x="-50" y="-848" font-size="40" font-weight="700" fill="#1f2430" text-anchor="middle">TWR</text>
 <text x="-50" y="-798" font-size="40" font-weight="400" fill="#1f2430" text-anchor="middle">as duas pistas, os cruzamentos</text>
 <text x="-50" y="-748" font-size="40" font-weight="400" fill="#1f2430" text-anchor="middle">e a TWY até o ponto de espera</text>
+<line x1="-641" y1="-97" x2="-1080" y2="0" stroke="#e0a100" stroke-width="4"/>
+<rect x="-1284" y="-40" width="409" height="116" rx="10" fill="#fff" stroke="#e0a100" stroke-width="5"/>
+<text x="-1080" y="12" font-size="40" font-weight="700" fill="#1f2430" text-anchor="middle">TWY C</text>
+<text x="-1080" y="62" font-size="40" font-weight="400" fill="#1f2430" text-anchor="middle">inteira com a TWR</text>
 <rect x="895" y="-760" width="610" height="216" rx="10" fill="#fff" stroke="#2f7fd0" stroke-width="5"/>
 <text x="1200" y="-708" font-size="40" font-weight="700" fill="#1f2430" text-anchor="middle">GND</text>
 <text x="1200" y="-658" font-size="40" font-weight="400" fill="#1f2430" text-anchor="middle">pátios 1 e 2, hangares,</text>

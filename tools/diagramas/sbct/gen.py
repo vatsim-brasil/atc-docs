@@ -369,22 +369,93 @@ frame(s)
 save('sbct-visao-geral.svg', s)
 
 # ======================================================== 2. responsabilidade
-def strip(name, half):
-    a, b = RWY[name]
+def band(a, b, half, e=0):
+    """Retângulo de meia largura half em torno do segmento a-b, estendido e nas pontas."""
     (ux, uy), L = unit(a, b)
     nx, ny = -uy, ux
-    e = 60
-    p = [(a[0] - ux * e + nx * half, a[1] - uy * e + ny * half), (b[0] + ux * e + nx * half, b[1] + uy * e + ny * half),
-         (b[0] + ux * e - nx * half, b[1] + uy * e - ny * half), (a[0] - ux * e - nx * half, a[1] - uy * e - ny * half)]
-    return pl(p) + ' Z'
+    return [(a[0] - ux * e + nx * half, a[1] - uy * e + ny * half), (b[0] + ux * e + nx * half, b[1] + uy * e + ny * half),
+            (b[0] + ux * e - nx * half, b[1] + uy * e - ny * half), (a[0] - ux * e - nx * half, a[1] - uy * e - ny * half)]
 
+
+def inside(p, poly):
+    c = False
+    for (x1, y1), (x2, y2) in zip(poly, poly[1:] + poly[:1]):
+        if (y1 > p[1]) != (y2 > p[1]) and p[0] < x1 + (p[1] - y1) * (x2 - x1) / (y2 - y1):
+            c = not c
+    return c
+
+
+def union(polys):
+    """Contorno da união de polígonos simples (um anel por borda, buracos inclusive):
+    arestas cortadas nas interseções, fica o que está fora dos outros."""
+    sa = lambda r: sum(x1 * y2 - x2 * y1 for (x1, y1), (x2, y2) in zip(r, r[1:] + r[:1]))
+    polys = [P if sa(P) > 0 else P[::-1] for P in polys]  # mesma orientação, para encadear as arestas
+    pieces = []
+    for i, P in enumerate(polys):
+        for a, b in zip(P, P[1:] + P[:1]):
+            ts = [0, 1]
+            for j, Q in enumerate(polys):
+                if j == i:
+                    continue
+                for c, d in zip(Q, Q[1:] + Q[:1]):
+                    den = (b[0] - a[0]) * (d[1] - c[1]) - (b[1] - a[1]) * (d[0] - c[0])
+                    if abs(den) < 1e-9:
+                        continue
+                    t = ((c[0] - a[0]) * (d[1] - c[1]) - (c[1] - a[1]) * (d[0] - c[0])) / den
+                    u = ((c[0] - a[0]) * (b[1] - a[1]) - (c[1] - a[1]) * (b[0] - a[0])) / den
+                    if 0 < t < 1 and 0 <= u <= 1:
+                        ts.append(t)
+            ts.sort()
+            for t0, t1 in zip(ts, ts[1:]):
+                p = (a[0] + (b[0] - a[0]) * t0, a[1] + (b[1] - a[1]) * t0)
+                q = (a[0] + (b[0] - a[0]) * t1, a[1] + (b[1] - a[1]) * t1)
+                m = ((p[0] + q[0]) / 2, (p[1] + q[1]) / 2)
+                if math.dist(p, q) > 1e-3 and not any(inside(m, Q) for j, Q in enumerate(polys) if j != i):
+                    pieces.append((p, q))
+    rings = []
+    while pieces:
+        start, end = pieces.pop(0)
+        ring = [start]
+        while math.dist(end, start) > 1e-6:
+            k = min(range(len(pieces)), key=lambda k: math.dist(pieces[k][0], end))
+            p, end = pieces.pop(k)
+            ring.append(p)
+        rings.append(ring)
+    return rings
+
+
+def area(r):
+    return abs(sum(x1 * y2 - x2 * y1 for (x1, y1), (x2, y2) in zip(r, r[1:] + r[:1]))) / 2
+
+
+def cross(a, b, c, d):
+    """Interseção das retas a-b e c-d."""
+    den = (b[0] - a[0]) * (d[1] - c[1]) - (b[1] - a[1]) * (d[0] - c[0])
+    t = ((c[0] - a[0]) * (d[1] - c[1]) - (c[1] - a[1]) * (d[0] - c[0])) / den
+    return (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
+
+
+S1533, S1129 = band(*RWY['15/33'], 125, 60), band(*RWY['11/29'], 100, 60)
+# TWY C: a borda externa sai do canto da faixa da 11/29 na cabeceira 11, paralela à C, até a faixa da 15/33.
+# O triângulo de grama entre a C e as pistas não tem TWY e fica preenchido (só o anel externo).
+K = min(S1129, key=lambda p: p[0])
+E1533 = min(zip(S1533, S1533[1:] + S1533[:1]), key=lambda e: math.dist(cross(*e, K, (K[0] + 1, K[1] + 1)), K))
+P1 = cross(*E1533, K, (K[0] + (-810) - (-535), K[1] + (-257) - 5))
+(ux, uy), _ = unit(K, thr('11'))
+K, P1 = (K[0] + ux, K[1] + uy), (P1[0], P1[1] - 1)  # 1 un. para dentro das faixas: sem vértices coincidentes na união
+TWR_AREA = [max(union([S1533, S1129, [P1, XING, thr('11'), K]]), key=area)]
+for ref, pts in TWY:
+    assert ref != 'C' or all(sum(inside(p, r) for r in TWR_AREA) % 2 for p in pts), 'TWY C fora da área da TWR'
 
 s = svg_open('SBCT: áreas de responsabilidade do Solo e da Torre')
 s.append(f'<rect x="{X0:.0f}" y="{Y0:.0f}" width="{X1-X0:.0f}" height="{Y1-Y0:.0f}" rx="40" fill="{PAL["gnd"]}" opacity="0.12"/>')
-s.append(f'<path d="{strip("15/33", 125)} {strip("11/29", 100)}" fill="{PAL["twr"]}" opacity="0.28" fill-rule="nonzero"/>')
+TWR_D = ' '.join(pl(r) + ' Z' for r in TWR_AREA)
+s.append(f'<path d="{TWR_D}" fill="{PAL["twr"]}" fill-rule="evenodd" opacity="0.28"/>')
 base_layers(s)
-s.append(f'<path d="{strip("15/33", 125)} {strip("11/29", 100)}" fill="none" stroke="{PAL["twr"]}" stroke-width="6" stroke-dasharray="26 16"/>')
+s.append(f'<path d="{TWR_D}" fill="none" stroke="{PAL["twr"]}" stroke-width="6" stroke-dasharray="26 16" stroke-linejoin="round"/>')
 callout(s, -50, -900, ['TWR', 'as duas pistas, os cruzamentos', 'e a TWY até o ponto de espera'], PAL['twr'], size=40)
+leader(s, pt_on('C', 0.35), (-1080, 0), PAL['twr'])
+callout(s, -1080, -40, ['TWY C', 'inteira com a TWR'], PAL['twr'], size=40)
 callout(s, 1200, -760, ['GND', 'pátios 1 e 2, hangares,', 'TWY A, B, L, G, H, J, M, N', 'até o ponto de espera'], PAL['gnd'], size=40)
 
 

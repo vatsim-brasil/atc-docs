@@ -146,16 +146,16 @@ O SBCT tem **DCL** (autorização de tráfego por enlace de dados)[^ad18]. Na re
 ## :material-map-marker-radius: Áreas de responsabilidade
 
 <figure markdown="span">
-  ![Mapa de SBCT com as faixas das duas pistas em amarelo, sob a Torre, e o restante em azul, sob o Solo](img/sbct-responsabilidade.svg){ loading=lazy }
-  <figcaption>Faixas amarelas: Torre. Restante: Solo. A linha tracejada passa pelos pontos de espera. Círculos coloridos: pontos de transferência e cruzamentos, explicados abaixo. Círculos brancos: números dos pátios.</figcaption>
+  ![Mapa de SBCT com as faixas das duas pistas e a TWY C em amarelo, sob a Torre, e o restante em azul, sob o Solo](img/sbct-responsabilidade.svg){ loading=lazy }
+  <figcaption>Áreas amarelas (faixas das pistas e TWY C): Torre. Restante: Solo. A linha tracejada passa pelos pontos de espera. Círculos coloridos: pontos de transferência e cruzamentos, explicados abaixo. Círculos brancos: números dos pátios.</figcaption>
 </figure>
 
-A divisão segue os **pontos de espera das pistas**: tudo que fica dentro dos pontos de espera da 15/33 e da 11/29 é da Torre.
+A divisão segue os **pontos de espera das pistas**: tudo que fica dentro dos pontos de espera da 15/33 e da 11/29 é da Torre. A exceção é a **TWY C**, que fica **inteira** com a Torre.
 
 | Posição | Responsável por |
 | :--- | :--- |
-| **GND** | Pátios 1 e 2, área dos hangares, TWY **A**, **B**, **L** (TWY do pátio 1), **G**, **H**, **J**, **M** e **N** e os trechos de **C**, **D**, **E** e **F** **até o ponto de espera** |
-| **TWR** | As duas pistas, o **cruzamento da cabeceira 11** entre a A e a C, o **cruzamento da 15/33 pela E** e as TWY dentro dos pontos de espera |
+| **GND** | Pátios 1 e 2, área dos hangares, TWY **A**, **B**, **L** (TWY do pátio 1), **G**, **H**, **J**, **M** e **N** e os trechos de **D**, **E** e **F** **até o ponto de espera** |
+| **TWR** | As duas pistas, o **cruzamento da cabeceira 11** entre a A e a C, o **cruzamento da 15/33 pela E**, a **TWY C inteira** e as demais TWY dentro dos pontos de espera |
 
 **Pontos de transferência** (círculos no mapa):
 
