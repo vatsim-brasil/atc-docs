@@ -10,6 +10,16 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbrf/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbrf-*.svg` | OSM (`osm.json`) |
 | `sbsv/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbsv-*.svg` | OSM (`osm.json`) |
 | `sbvt/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbvt-*.svg` | OSM (`osm.json`) |
+| `sbeg/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbeg-*.svg` | OSM (`osm.json`) |
+| `sbbe/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbbe-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
+| `sbbr/` | `docs/MOP/aerodromos/sbbs-brasilia/twr/img/sbbr-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
+| `sbcf/` | `docs/MOP/aerodromos/sbbs-brasilia/twr/img/sbcf-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
+| `sbkp/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbkp-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
+| `sbsp/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbsp-*.svg` | OSM (`osm.json`) |
+| `sbpa/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbpa-*.svg` | OSM (`osm.json`) |
+| `sbrj/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbrj-*.svg` | OSM (`osm.json`) |
+| `sbfl/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbfl-*.svg` | OSM (`osm.json`) |
+| `sbcg/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbcg-*.svg` | OSM (`osm.json`, `osm_apron.json`, `osm_build.json`; não há GND_DRAW) |
 
 ## Fontes
 

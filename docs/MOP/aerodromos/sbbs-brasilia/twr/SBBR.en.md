@@ -1,20 +1,23 @@
 ---
 title: SBBR - Brasília
 tags:
-  - Aeródromo
-  - Controlado
-  - SBBS
+    - Aeródromo
+    - Controlado
+    - SBBS
 ---
 
 --8<-- "includes/abreviacoes.md"
 
 ## :material-information-outline: General Information
-|                           | Information                      |
-|---------------------------|----------------------------------|
-| **Aerodrome name**        | Presidente Juscelino Kubitschek  |
-| **Type of Operation**     | International, Public and Military |
-| **Transition altitude**   | 7000 ft |
-| **Elevation** | 3498 ft (1066m) |
+
+|                              | Information                                   |
+|------------------------------|-----------------------------------------------|
+| **Aerodrome name**           | Brasília - Presidente Juscelino Kubitschek    |
+| **Type of Operation**        | International, Public and Military            |
+| **Transition altitude**      | 7000 ft[^ad17]                                |
+| **Elevation**                | 3498 ft (1066 m)                              |
+| **Largest aircraft**         | Wide-bodies (code 4E)                         |
+| **Airspace**                 | Brasília CTR, class C, GND/6500 ft[^ad17]     |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Useful Information
@@ -38,406 +41,267 @@ tags:
 === ":material-radar: VATSIM Traffic"
     [:material-radar: Traffic](https://vatsim-radar.com/?airport=SBBR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;align:center;" }
 
+---
+
 ## :material-routes: Runways
-### Description
 
-| Runways | Preferred                                     | ILS                                      | Circuit             |
-|--------|-----------------------------------------------|------------------------------------------|---------------------|
-| **11L** | Preferred with **tailwind component up to 7 knots** on a **dry runway**.[^1] / Preferred for **operations** originating from or destined to locations **North** and **Northeast** of Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Standard |
-| **29R** | Preferred for **operations** originating from or destined to locations **North** and **Northeast** of Brasília.[^1]  | :fontawesome-solid-circle-xmark:{ .cornot } | Non-standard            |
-| **11R** | Preferred with **tailwind component up to 7 knots** on a **dry runway**.[^1] / Preferred for **operations** originating from or destined to locations **South** and **Southeast** of Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Non-standard |
-| **29L** | Preferred for **operations** originating from or destined to locations **South** and **Southeast** of Brasília.[^1]  | :fontawesome-solid-circle-check:{.corok} | Standard            |
+### Preferential runway system
 
-[^1]: [AIP Brasil, AD 2 SBBR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) 
+SBBR has **two staggered parallel runways**: **11L/29R** (3200 × 45 m) to the north and **11R/29L** (3300 × 45 m) to the south. The terminal sits between them. **H** runs along 11L/29R on its south side and **U** runs along 11R/29L on its north side. All four thresholds have ILS CAT I.
 
-!!! warning "Preferred Runway Operation"
+<div class="grid cards" markdown>
 
-    In weather conditions with a {==**tailwind component less than or equal to 7KT**==}, the preferred runway for landing and takeoff will be RWY 11L/11R. This configuration will normally be used in preference to RWYS 29R/29L, provided that the runway surface **is dry**. When the runway in use is RWY 11L/11R with a tailwind component, pilots requesting clearance to use RWY 29R/29L should consider that their landing or takeoff {==**may be delayed**==}.
+-   :material-compass:{ .lg .middle } **`11L` / `29R`: North and Northeast**
 
-!!! warning "Operation During Peak Departure Periods"
+    ---
 
-    During peak departure periods for Sectors N/NE/NW, RWY 11L/29R will be used for DEP only. Approaches from all sectors and departures to Sector S will be conducted on RWY 11R/29L.
+    Landings from and departures to the **N** and **NE** of Brasília[^ad22].
 
-<!--
-### Configurations
+-   :material-compass:{ .lg .middle } **`11R` / `29L`: South and Southeast**
 
-| Configuration | Takeoff     | Landing     | Remarks                                                                                         |
-| ------------ | ----------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| **EAST**     | `11L` `11R` | `11L` `11R` | `11L` is prioritized for departures to the **NORTH** sector and `11R` for departures to the **SOUTH** sector |
-| **WEST**     | `29L` `29R` | `29L` `29R` | `29R` is prioritized for departures to the **NORTH** sector and `29L` for departures to the **SOUTH** sector |
--->
+    ---
+
+    Landings from and departures to the **S** and **SE** of Brasília[^ad22].
+
+</div>
+
+!!! warning "Preferential system"
+    With {==**a tailwind component of up to 7 kt**==} and a **dry runway**, the runways in use are **11L** and **11R**[^ad22].
+
+    With 11L/11R in use and a tailwind, pilots who request 29R/29L should expect a **delay** in landing or takeoff[^ad22].
+
+!!! info "Departure peaks"
+    - **Peak towards N/NE/NW:** 11L/29R is **departures only**. All landings and the departures to the south go to 11R/29L[^ad22].
+    - **Peak towards S/SE/SW:** 11R/29L is **departures only**. All landings and the departures to the north go to 11L/29R[^ad22].
+
+### Runway data
+
+| Runway | Dimensions | TORA | LDA | Approach | Remarks |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **11L** | 3200 × 45 m | 3050 m | 3050 m | ILS CAT I | ALSF-1 and PAPI |
+| **29R** | 3200 × 45 m | 3200 m | 3050 m | ILS CAT I | MALSF and PAPI. Displaced threshold (150 m) |
+| **11R** | 3300 × 45 m | 3150 m | 3150 m | ILS CAT I | ALSF-1 and PAPI |
+| **29L** | 3300 × 45 m | 3300 m | 3150 m | ILS CAT I | ALSF-1 and PAPI. Displaced threshold (150 m) |
+
+- **Independent simultaneous parallel operations** follow the SBBR-specific AIC[^ad22].
+
+[^ad22]: [AIP Brasil, AD 2 SBBR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip). Declared distances: AD 2.13.
+
+---
 
 ## :material-headset: ATC Units
-| Code       | Abbr.  | Callsign              | Frequency               | Remarks     |
-| ---------- | ------ | --------------------- | ----------------------- | ----------- |
-| **SBBR_ATIS** | `ABR` | Brasília ATIS | **127.800** |  |
-| **SBBR_DEL** | `DBR` | Brasília Delivery | **121.000** | `DCL` |
-| **SBBR_GND** | `GBR` | Brasília Ground | **121.800** |  |
-| **SBBR_TWR** | `TBR` | Brasília Tower | **118.100** |  |
-| **SBBR_M_TWR** | `OBR` | Brasília Operations | **122.500** |  |
-
-## :material-airplane-takeoff: Operations
-
-### Departures
-
-- ACFT will be instructed by DEL to monitor (stand by on) the GND frequency for start-up clearance, *no initial call being required*.
-- When transferring communications to TWR, GND will instruct ACFT to monitor (stand by on) the TWR frequency, no initial call being required. In this case, ACFT shall wait for TWR to call, preparing for a possible immediate takeoff.
-- Pilots shall plan the TKOF so as to arrive at the holding point ready to execute it. If an immediate TKOF is not possible, inform the ATC unit in advance.
-- Upon receiving TKOF clearance, the pilot is expected to begin the takeoff roll immediately (the expected reaction time is up to 10 seconds).
-- TWR will not inform ACFT of the TKOF time. The instruction regarding the FREQ of the next unit to be contacted AFT TKOF and, if necessary, additional instructions, will be issued together with the TKOF AUTH.
-- All departures shall use noise abatement procedures, in accordance with each aircraft's manual.
-- Make the initial call to APP immediately after takeoff in order to obtain instructions to leave the departure runway centerline;
-- The initial call to APP after takeoff shall be immediate and follow only this format: *BRASÍLIA CONTROL, [CALLSIGN]*. Do not include any additional information beyond this format.
-- Expect vectors or clearance direct to a published waypoint shortly after takeoff.
-- Aircraft of reference code A and B **shall** be configured to take off from the intersections below:
-    - *RWY 11L:*
-        * Aircraft of reference code A and B
-            * TWY `C`
-            * Distance from TWY `C` to THR 29R: TORA Available: 2193 m
-    - *RWY 11R:*
-        * Aircraft of reference code A and B
-            * TWY `BB`
-            * Distance from TWY `BB` to THR 29L: TORA Available: 2188 m
-    - *RWY 29R:*
-        * Aircraft of reference code A and B
-            * TWY `F`
-            * Distance from TWY `F` to THR 29R: TORA Available: 1956 m
-    - *RWY 29L:*
-        * Aircraft of reference code A and B
-            * TWY `EE`
-            * Distance from TWY `EE` to THR 11R: TORA Available: 2161 m
-- Aircraft of reference code C or above may also be cleared to take off from the intersections above, upon the aircraft's request.
-- In takeoff operations, under normal operating conditions, aircraft bound for locations **North** and **Northeast** of Brasília should use runways `11L` or `29R`, and those bound for locations **South** and **Southeast** should use `11R` or `29L`.
-
-### Approaches and Landings
-
-- In LDG OPS, pilots will not report the landing gear COND to TWR, EXC in EMERG situations concerning its extension and/or locking.
-- Pilots should vacate the runway at the fastest speed permitted by standard operating procedures and consistent with operational safety, allowing ATC to apply minimum separation on final approach.
-- In landing operations, under normal operating conditions, aircraft arriving from locations **North** and **Northeast** of Brasília should use runways `11L` or `29R`, and those arriving from locations **South** and **Southeast** should use `11R` or `29L`.
-
-### Aerodrome Regulations
-
-- Once the clearance has been copied, ACFT will inform DEL when they are actually ready for engine start.
-- Line-up must be immediate once cleared.
-Under construction.
-- OBS VAC for entering or leaving the TFC circuit.
-
-### Aprons and Taxiways
-
-- BFR entering TWY `Q` from TWY `QQ`, CTC with TWR reporting the ACFT position is compulsory. Taxiing permitted for ACFT with wingspan up to 20m.
-- TWY `L4`, `L5`, `L6`, `L8` and `R` BTN `L3` and `L7`, MAX wingspan 36M.
-- General aviation ACFT with DEST to apron 02 must use the apron 02 TWY (PSN 52 to 61). At night, OPR with CTN as the apron is LGTD but has no edge lighting.
-- TWY `QQ`, day and night operation under the responsibility of the ACFT OPR.
-
-## :material-sign-direction: Parking Stands
-| Apron       | Stands   | Classification                   |
-| :---: | :---: | :--- |
-|     `1`     |  1 - 4   | International                    |
-|     `1`     |  5 - 41  | Domestic                         |
-|     `2`     | 52 - 66  | Cargo / Remote                   |
-|     `3`     | 67 - 70  | Large Cargo / Remote             |
-| **MILITARY** | ANY    | Military - Operational           |
-
-<!--
-
-## Ground Flows
-
-!!! info "Information..."
-
-    Select the runway in use in the upper right corner of the map to view the respective ground flow.
-
-<div id="mapa1" class="mapa"></div>
-
--->
-
-<!--
-From here down are the maps.
--->
-
-<!--
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-   crossorigin=""/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-   crossorigin=""></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet-geometryutil@0.10.2/src/leaflet.geometryutil.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet-arrowheads@1.4.0/src/leaflet-arrowheads.min.js"></script>
-
-<style>
-    .mapa { height: 480px }
-</style>
-
-<script>
-
-const cores = {
-    ciano: '#2dd4bf',
-    rosa: '#f472b6',
-    verde: '#a3e635',
-    amarelo: '#fbbf24',
-    vermelho: '#f87171'
-}
-
-const configMapa = {
-    zoomMin: 14,
-    zoomMax: 17,
-    zoomPadrao: 14,
-    pontoCentral: [-15.871111, -47.919611],
-    tileMapaUrlSatelite: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    tileMapaUrlOsm: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-    tileMapaUrlOPNV: 'https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png',
-};
-
-const configSeta8 = {
-    fill: true,
-    size: "12px",
-    yawn: 30,
-    frequency: 8
-}
-const configSeta6 = {
-    fill: true,
-    size: "12px",
-    yawn: 30,
-    frequency: 6
-}
-const configSeta4 = {
-    fill: true,
-    size: "12px",
-    yawn: 30,
-    frequency: 4
-}
-const configSeta2 = {
-    fill: true,
-    size: "12px",
-    yawn: 30,
-    frequency: 2
-}
-const configSeta1 = {
-    fill: true,
-    size: "12px",
-    yawn: 30,
-    frequency: 1
-}
-
-const oesteHotelCoords = [
-    [-15.865492, -47.927612],
-    [-15.863532, -47.897419]
-]
-
-const oesteKiloCoords = [
-    [-15.865189, -47.916296],
-    [-15.876957, -47.915498]
-]
-
-const CharlieSaida11LCoords = [
-    [-15.865054, -47.923476],
-    [-15.863859, -47.921680]
-]
-
-const HotelSaida11LCoords = [
-    [-15.864201, -47.907356],
-    [-15.865492, -47.927612],
-    [-15.864216, -47.927696]
-]
-
-const KiloSaida11LCoords = [
-    [-15.876002, -47.915563],
-    [-15.865189, -47.916296]
-]
-
-const Lima3Saida11LCoords = [
-    [-15.866820, -47.917119],
-    [-15.866774, -47.916277]
-]
-
-const Lima4Saida11LCoords = [
-    [-15.869070, -47.917833],
-    [-15.868957, -47.916112]
-]
-
-const Lima5Saida11LCoords = [
-    [-15.869789, -47.916912],
-    [-15.869733, -47.916091]
-]
-
-const Lima6Saida11LCoords = [
-    [-15.870627, -47.917711],
-    [-15.870522, -47.916133]
-]
-
-const Lima7Saida11LCoords = [
-    [-15.872350, -47.916737],
-    [-15.872286, -47.916024]
-]
-
-const Lima8Saida11LCoords = [
-    [-15.873359, -47.920212],
-    [-15.873083, -47.916008]
-]
-
-const NovemberSaida11LCoords = [
-    [-15.865582, -47.910846],
-    [-15.864508, -47.910920]
-]
-
-const OscarSaida11LCoords = [
-    [-15.865633, -47.906973],
-    [-15.864262, -47.907068]
-]
-
-const QuebecSaida11LCoords = [
-    [-15.867942, -47.926849],
-    [-15.867896, -47.925293],
-    [-15.865452, -47.923938]
-]
-
-const QuebecQuebecSaida11LCoords = [
-    [-15.867551, -47.926833],
-    [-15.867438, -47.925157]
-]
-
-const TangoSaida11LCoords = [
-    [-15.876592, -47.918864],
-    [-15.876397, -47.915799]
-]
-
-var oesteHotel = L.polyline(oesteHotelCoords, {
-    color: cores.ciano,
-    weight: 3
-}).arrowheads(configSeta8);
-
-var oesteKilo = L.polyline(oesteKiloCoords, {
-    color: cores.ciano,
-    weight: 3
-}).arrowheads(configSeta8);
-
-var CharlieSaida11L = L.polyline(CharlieSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var HotelSaida11L = L.polyline(HotelSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta8);
-
-var KiloSaida11L = L.polyline(KiloSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta6);
-
-var Lima3Saida11L = L.polyline(Lima3Saida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta1);
-
-var Lima4Saida11L = L.polyline(Lima4Saida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var Lima5Saida11L = L.polyline(Lima5Saida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta1);
-
-var Lima6Saida11L = L.polyline(Lima6Saida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var Lima7Saida11L = L.polyline(Lima7Saida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta1);
-
-var Lima8Saida11L = L.polyline(Lima8Saida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var NovemberSaida11L = L.polyline(NovemberSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var OscarSaida11L = L.polyline(OscarSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var QuebecSaida11L = L.polyline(QuebecSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta4);
-
-var QuebecQuebecSaida11L = L.polyline(QuebecQuebecSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-var TangoSaida11L = L.polyline(TangoSaida11LCoords, {
-    color: cores.amarelo,
-    weight: 3
-}).arrowheads(configSeta2);
-
-/**
- *  Fluxos
- * 
- */ 
-var fluxoPista11Ldep = L.layerGroup([CharlieSaida11L,HotelSaida11L,KiloSaida11L,Lima3Saida11L,Lima4Saida11L,Lima5Saida11L,Lima6Saida11L,Lima7Saida11L,Lima8Saida11L,NovemberSaida11L,OscarSaida11L,QuebecSaida11L,QuebecQuebecSaida11L,TangoSaida11L]);
-var fluxoPista29Ldep = L.layerGroup([oesteKilo,oesteHotel]);
-
-var tileMapaSatelite = L.tileLayer(configMapa.tileMapaUrlSatelite, {
-    minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; Esri'
-});
-
-var tileMapaClaro = camadaMapbox('claro', {
-    minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax
-});
-
-var tileMapaEscuro = camadaMapbox('escuro', {
-    minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax
-});
-
-var tileMapaOsm = L.tileLayer(configMapa.tileMapaUrlOsm, {
-    minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; OSM'
-});
-
-var tileMapaOPNV = L.tileLayer(configMapa.tileMapaUrlOPNV, {
-    minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    attribution: '&copy; memomaps'
-});
-
-var mapa1 = L.map('mapa1', {
-    minZoom: configMapa.zoomMin,
-    maxZoom: configMapa.zoomMax,
-    layers: [ tileMapaSatelite ]
-}).setView(configMapa.pontoCentral, configMapa.zoomPadrao);
-
-var opcoesDeMapa = {
-    "Satellite": tileMapaSatelite,
-    "Light": tileMapaClaro,
-    "Dark": tileMapaEscuro,
-    "OSM": tileMapaOsm,
-    "OPNV": tileMapaOPNV,
-};
-
-var opcoesDeFluxo = {
-    "Runway 11L - Departures": fluxoPista11Ldep,
-    "Runway 29L - Departures": fluxoPista29Ldep,
-};
-
-var layerControl = L.control.layers(opcoesDeMapa, opcoesDeFluxo).addTo(mapa1);
-
-</script>
-
--->
+
+| Code | Abbr. | Callsign | Frequency | Remarks |
+| :--- | :---: | :--- | :---: | :--- |
+| **SBBR_ATIS** | `ABR` | Brasília Information | **127.800** | D-ATIS |
+| **SBBR_DEL** | `DBR` | Brasília Clearance | **121.000** | `DCL` (code `SBBR`) |
+| **SBBR_GND** | `GBR` | Brasília Ground | **121.800** | |
+| **SBBR_TWR** | `TBR` | Brasília Tower | **118.100** | Single Tower |
+| **SBBR_N_TWR** | `TBRN` | Brasília Tower | **118.450** | Split Tower: runway 11L/29R |
+| **SBBR_S_TWR** | `TBRS` | Brasília Tower | **118.750** | Split Tower: runway 11R/29L |
+
+### Monitor without initial call
+
+SBBR uses **monitor handoffs**: the pilot changes frequency and **does not make an initial call**[^ad22].
+
+1. The pilot calls Clearance from **15 min before EOBT**, giving apron and stand. Once the clearance is copied, they report when **actually ready** for start-up.
+2. Clearance instructs the pilot to **monitor Ground**. Ground calls the aircraft for start-up.
+3. On handoff to Tower, Ground instructs the pilot to **monitor Tower**. The aircraft waits for Tower's call, ready for an immediate departure.
+4. Tower does not give the takeoff time. The next unit's frequency comes with the takeoff clearance.
+
+Example: `GLO1234, monitor Brasília Ground 121.800.`
+
+### DCL
+
+SBBR has **DCL** (departure clearance via datalink)[^ad18]. On the network, the station code is **`SBBR`**.
+
+| | |
+| :--- | :--- |
+| **Station code** | `SBBR` |
+| **Who operates it** | SBBR_DEL. Without DEL, the position covering clearance top-down (GND, TWR, APP or ACC) |
+| **Controller tool** | TopSky DCL window, with your personal Hoppie ACARS code |
+| **Pilot tool** | Aircraft ACARS or a Hoppie-compatible client, sending the clearance request to `SBBR` |
+
+**How it works:**
+
+1. The pilot sends the request (RCD) to `SBBR`, with the parking stand and ATIS letter.
+2. The controller checks the flight plan and replies with the clearance: limit, runway, SID, transponder code, ATIS letter and next frequency.
+3. The pilot accepts (`WILCO`/`ACCEPT`). The clearance is then issued and **there is no voice readback**.
+4. With the clearance accepted, the pilot monitors Ground, which calls them for start-up or pushback.
+
+!!! tip "Controller setup"
+    - Log in to the TopSky DCL with the code `SBBR` before opening the position.
+    - Announce it in the controller information: `DCL AVBL LOGON SBBR`.
+    - A faulty request (invalid plan, wrong SID, no ATIS) goes back as **REVERT TO VOICE**: the pilot calls Clearance on frequency.
+    - If the pilot does not accept within a reasonable time, consider the clearance not delivered and call them by voice.
+
+[^ad18]: [AIP Brasil, AD 2 SBBR 2.18](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+
+---
+
+## :material-map-marker-radius: Areas of responsibility
+
+<figure markdown="span">
+  ![Map of SBBR with both runway strips in yellow, under Tower, and the rest in blue, under Ground](img/sbbr-responsabilidade.svg){ loading=lazy }
+  <figcaption>Yellow strips: Tower. Rest: Ground. The dashed line runs through the holding points. White circles: apron numbers.</figcaption>
+</figure>
+
+| Position | Responsible for |
+| :--- | :--- |
+| **GND** | Aprons 1, 2, 3, general aviation and military, and the TWY up to the **holding point** |
+| **TWR** | Both runways and the TWY inside the holding points. With a split Tower, **N** takes 11L/29R and **S** takes 11R/29L |
+
+- SBBR **has no Apron position** (APRON): Ground handles all aprons.
+- **Departures:** Ground hands off to Tower (monitor) **before the holding point**. Pilots reach the holding point ready for departure; if not, they tell Ground[^ad22].
+- **Arrivals:** after vacating the runway, Tower hands off to Ground.
+- Taxiing between the two sides (apron 1 to U, or U to H) never crosses a runway: it goes along **K** or **R**.
+
+---
+
+## :material-transit-connection-variant: Ground flow
+
+!!! abstract "General rule"
+    - **North side (11L/29R):** **H** runs along the runway. **L1** and **L2** link apron 1 with H; **A** and **B** lead to the thresholds; **C**, **G** and **F** are rapid exits; **N** and **O** lead to the military apron.
+    - **South side (11R/29L):** **U** runs along the runway. **K** and **R** link apron 1 with U; **Y** and **Z** lead to the thresholds; **BB** and **EE** are rapid exits; **T** and **W** serve apron 3.
+    - **Apron 2** and general aviation leave via **Q** and **QQ** to H.
+
+=== "Runways 11L and 11R"
+
+    <figure markdown="span">
+      ![Ground flow on runways 11L and 11R: 11L departures via L1, H and A; 11R departures via R, U and Y; 11L landings vacate via F; 11R landings vacate via EE](img/sbbr-fluxo-11.svg){ loading=lazy }
+      <figcaption>Green: departures. Dashed orange: intersection departure (code A/B). Blue: landings.</figcaption>
+    </figure>
+
+    - **Departures 11L (N/NE):** **L1**, **H** and **A** to the threshold. Code A/B departs from **C**.
+    - **Departures 11R (S/SE):** **R** or **K**, **U** and **Y** to the threshold. Code A/B departs from **BB**.
+    - **Landings 11L:** vacate via **F** (or **G**) and return along **H** to **L2** or **L3**.
+    - **Landings 11R:** vacate via **EE** and follow **K** to apron 1.
+
+    Example: `AZU4321, taxi to holding point runway 11R via R, U and Y.`
+
+=== "Runways 29R and 29L"
+
+    <figure markdown="span">
+      ![Ground flow on runways 29R and 29L: 29R departures via L2, H and B; 29L departures via K, U and Z; 29R landings vacate via G; 29L landings vacate via BB](img/sbbr-fluxo-29.svg){ loading=lazy }
+      <figcaption>Green: departures. Dashed orange: intersection departure (code A/B). Blue: landings.</figcaption>
+    </figure>
+
+    - **Departures 29R (N/NE):** **L2**, **H** and **B** to the threshold. Code A/B departs from **F**.
+    - **Departures 29L (S/SE):** **K**, **U** and **Z** to the threshold. Code A/B departs from **EE**.
+    - **Landings 29R:** vacate via **G** (or **C**) and return along **H** to **L2**.
+    - **Landings 29L:** vacate via **BB** and follow **U** and **R** to apron 1.
+
+    Example: `GLO1234, taxi to holding point runway 29R via L2, H and B.`
+
+### Runway exits
+
+Pilots must vacate the runway **completely** before stopping, via the listed exit, or tell APP or Tower if they cannot use it[^ad22].
+
+| Runway | Exit | Distance from the threshold |
+| :---: | :--- | :---: |
+| **11L** | **G** or **F** | 1425 m / 1956 m |
+| **29R** | **G** or **C** | 1359 m / 2193 m |
+| **11R** | **EE** | 2161 m |
+| **29L** | **BB** | 2188 m |
+
+### Hotspots
+
+| Hotspot | Where | Watch out |
+| :---: | :--- | :--- |
+| **HS1** | Where **C** meets **H**, **L1** and **Q** | Complex intersection with rapid exit C, next to threshold 11L |
+| **HS2** | Where **EE** meets **U**, **R** and **K** | Complex intersection with rapid exit EE |
+
+### Taxi restrictions
+
+| Restriction | Where |
+| :--- | :--- |
+| **Wingspan up to 20 m** | TWY **QQ**. Before entering **Q** from QQ, call Tower with your position[^ad20-6] |
+| **Wingspan above 20 m** | To the general aviation hangars via QQ, **towed** only[^ad20-6] |
+| **General aviation to apron 2** | Must use the apron 2 taxiway (stands 52 to 61)[^ad20-3] |
+
+[^ad20-3]: [AIP Brasil, AD 2 SBBR 2.20, item 3](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
+[^ad20-6]: [AIP Brasil, AD 2 SBBR 2.20, item 6](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and ADC chart.
+
+---
+
+## :material-airplane-takeoff: Takeoff points
+
+<figure markdown="span">
+  ![Overview of SBBR with numbered aprons, hotspots and the takeoff points marked with the available TORA](img/sbbr-visao-geral.svg){ loading=lazy }
+  <figcaption>Takeoff points (purple) with the available TORA. Red circles: hotspots. Circled numbers: aprons.</figcaption>
+</figure>
+
+| Runway | Point | TORA | Used by |
+| :---: | :---: | :---: | :--- |
+| **11L** | **A** (threshold) | 3050 m | Code C or larger |
+| **11L** | **C** | 2193 m | Code A and B[^ad22] |
+| **29R** | **B** (threshold) | 3200 m | Code C or larger |
+| **29R** | **F** | 1956 m | Code A and B[^ad22] |
+| **11R** | **Y** (threshold) | 3150 m | Code C or larger |
+| **11R** | **BB** | 2188 m | Code A and B[^ad22] |
+| **29L** | **Z** (threshold) | 3300 m | Code C or larger |
+| **29L** | **EE** | 2161 m | Code A and B[^ad22] |
+
+- Code A and B **must** depart from the intersection. Those who cannot say so **when requesting their clearance**[^ad22].
+- Code C or larger may request the intersection[^ad22].
+- Pilots reach the holding point **ready for departure**; **immediate** line-up and takeoff roll within **10 seconds** of the clearance[^ad22].
+- After takeoff, call APP immediately with only `BRASÍLIA CONTROL, [CALLSIGN]`, no additional information, and expect **vectors** or a **direct** to a waypoint. Pilots planning to exceed 250 kt below FL100 tell APP[^ad22].
+
+!!! tip "Departures between arrivals"
+    Subject to wake turbulence, Tower may clear a line-up and immediate takeoff between an aircraft that departed 11L and has crossed the opposite threshold and another that, on approach, is passing over **GELVA**. It may also clear a line-up between two arrivals: one passing GELVA and another that has crossed the threshold in use[^ad22].
+
+---
+
+## :material-speedometer: HIRO
+
+**HIRO** (high-intensity runway operations) cuts runway occupancy time to shorten the spacing on final, between departures and between landings and departures[^ad22].
+
+| | |
+| :--- | :--- |
+| **Activation** | Broadcast on the **ATIS** |
+| **Approach speed** | Only aircraft keeping **at least 120 kt IAS** to 4 NM from the threshold |
+| **Landing** | Vacate the runway **completely** before stopping, via the exit listed in the runway exits table |
+| **Takeoff** | Code A and B from the intersection; jets and medium wake or heavier follow the high-density procedures (immediate line-up, roll within 10 s) |
+
+---
+
+## :material-sign-direction: Aprons and airlines
+
+Reference for simulation. Stands follow the PDC charts; airlines follow the [airport's airline list on Wikipedia](https://en.wikipedia.org/wiki/Bras%C3%ADlia_International_Airport#Airlines_and_destinations). The split between stands is a simplification, not the airport's official allocation. **VAs** use the stands of the real airline they represent.
+
+<div class="patios">
+<section class="patio patio--largo">
+<header class="patio__cab"><span class="patio__num" title="Apron 1"><small>Apron</small>1</span><span class="patio__info"><strong>Passenger terminal</strong><span>Domestic</span><span class="patio__pos">Stands 05 to 41 and 47 to 51</span></span></header>
+<div class="patio__cias"><figure class="cia" title="Azul (AZU)"><img class="off-glb" src="/images/cias/AZU.gif" alt="Azul" loading="lazy"><figcaption>AZU</figcaption></figure><figure class="cia" title="GOL (GLO)"><img class="off-glb" src="/images/cias/GLO.gif" alt="GOL" loading="lazy"><figcaption>GLO</figcaption></figure><figure class="cia" title="LATAM (TAM)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM" loading="lazy"><figcaption>TAM</figcaption></figure></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Apron 1"><small>Apron</small>1</span><span class="patio__info"><strong>Passenger terminal</strong><span>International</span><span class="patio__pos">Stands 01 to 04A</span></span></header>
+<div class="patio__cias"><figure class="cia" title="TAP (TAP)"><img class="off-glb" src="/images/cias/TAP.gif" alt="TAP" loading="lazy"><figcaption>TAP</figcaption></figure><figure class="cia" title="Copa Airlines (CMP)"><img class="off-glb" src="/images/cias/CMP.gif" alt="Copa Airlines" loading="lazy"><figcaption>CMP</figcaption></figure><figure class="cia" title="Aerolíneas Argentinas (ARG)"><img class="off-glb" src="/images/cias/ARG.gif" alt="Aerolíneas Argentinas" loading="lazy"><figcaption>ARG</figcaption></figure><figure class="cia" title="LATAM Peru (LPE)"><img class="off-glb" src="/images/cias/TAM.gif" alt="LATAM Peru" loading="lazy"><figcaption>LPE</figcaption></figure><figure class="cia" title="Sky Airline (SKU)"><img class="off-glb" src="/images/cias/SKU.png" alt="Sky Airline" loading="lazy"><figcaption>SKU</figcaption></figure></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Apron 2"><small>Apron</small>2</span><span class="patio__info"><strong>Cargo, remote and general aviation</strong><span>Via Q and QQ</span><span class="patio__pos">Stands 52 to 66 (general aviation: 52 to 61)</span></span></header>
+<div class="patio__cias"><p class="patio__nota">Freighters, general aviation up to 5700 kg and overflow from any airline.</p></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Apron 3"><small>Apron</small>3</span><span class="patio__info"><strong>Large freighters and remote</strong><span>Via T</span><span class="patio__pos">Stands 67 to 70</span></span></header>
+<div class="patio__cias"><p class="patio__nota">Large freighters and overflow.</p></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Military apron"><small>Apron</small>MIL</span><span class="patio__info"><strong>Military</strong><span>Via N and O</span></span></header>
+<div class="patio__cias"><figure class="cia" title="Brazilian Air Force (FAB)"><span class="cia__texto">FAB</span></figure></div>
+</section>
+</div>
+
+<small>Logos from [GRU Airport](https://www.gru.com.br/pt/passageiro/descubra-gru/cias-aereas). Trademarks belong to their respective airlines.</small>
+
+---
+
+## :material-clipboard-text-outline: Other procedures
+
+- Observe the VAC for joining and leaving the traffic pattern[^ad22].
+- Helicopters enter and leave via the **south sector** at no less than **4100 ft** (600 ft AGL)[^ad22].
+- Go-around off the IAC profile with communication failure: climb to **7000 ft** and, once there, fly towards the IAF of the procedure in use[^ad22].
+
+[^ad17]: [AIP Brasil, AD 2 SBBR 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and IAC charts.
+
+<small>Diagrams drawn by VATSIM Brasil over [OpenStreetMap](https://www.openstreetmap.org/copyright) geometry (ODbL), checked against the SBBR ADC and PDC charts. Not for real-world navigation. Normative source: AIP Brasil, AD 2 SBBR, AMDT 2610A1.</small>

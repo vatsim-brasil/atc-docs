@@ -146,16 +146,16 @@ SBCT has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 ## :material-map-marker-radius: Areas of responsibility
 
 <figure markdown="span">
-  ![SBCT map with both runway strips in yellow, under Tower, and the rest in blue, under Ground](img/sbct-responsabilidade.svg){ loading=lazy }
-  <figcaption>Yellow strips: Tower. Everything else: Ground. The dashed line runs through the runway holding points. Colored circles: handoff points and crossings, explained below. White circles: apron numbers.</figcaption>
+  ![SBCT map with both runway strips and TWY C in yellow, under Tower, and the rest in blue, under Ground](img/sbct-responsabilidade.svg){ loading=lazy }
+  <figcaption>Yellow areas (runway strips and TWY C): Tower. Everything else: Ground. The dashed line runs through the runway holding points. Colored circles: handoff points and crossings, explained below. White circles: apron numbers.</figcaption>
 </figure>
 
-The split follows the **runway holding points**: everything inside the holding points of 15/33 and 11/29 belongs to Tower.
+The split follows the **runway holding points**: everything inside the holding points of 15/33 and 11/29 belongs to Tower. The exception is **TWY C**, which belongs **entirely** to Tower.
 
 | Position | Responsible for |
 | :--- | :--- |
-| **GND** | Aprons 1 and 2, the hangar area, TWY **A**, **B**, **L** (apron 1 taxiway), **G**, **H**, **J**, **M** and **N** and the parts of **C**, **D**, **E** and **F** **up to the holding point** |
-| **TWR** | Both runways, the **runway 11 threshold crossing** between A and C, the **15/33 crossing via E** and the taxiways inside the holding points |
+| **GND** | Aprons 1 and 2, the hangar area, TWY **A**, **B**, **L** (apron 1 taxiway), **G**, **H**, **J**, **M** and **N** and the parts of **D**, **E** and **F** **up to the holding point** |
+| **TWR** | Both runways, the **runway 11 threshold crossing** between A and C, the **15/33 crossing via E**, **all of TWY C** and the other taxiways inside the holding points |
 
 **Handoff points** (circles on the map):
 
