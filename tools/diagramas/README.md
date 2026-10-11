@@ -11,6 +11,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbsv/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbsv-*.svg` | OSM (`osm.json`) |
 | `sbvt/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbvt-*.svg` | OSM (`osm.json`) |
 | `sbeg/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbeg-*.svg` | OSM (`osm.json`) |
+| `sbbe/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbbe-*.svg` | OSM (`osm.json`; pátios em `osm_apron.json`) |
 
 ## Fontes
 
