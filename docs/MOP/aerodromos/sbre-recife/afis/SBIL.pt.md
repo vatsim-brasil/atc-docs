@@ -2,7 +2,7 @@
   title: SBIL - Ilhéus
   tags:
     - Aeródromo
-    - Controlado
+    - Não-Controlado
     - SBRE
 ---
 

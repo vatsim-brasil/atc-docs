@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Ilhéus Control |
 | **Frequency** | **120.100** MHz[^pacote] |
 | **ATS surveillance** | Procedural |
-| **Aerodromes in the TMA** | [SBIL](../../aerodromos/sbre-recife/twr/SBIL.en.md) |
+| **Aerodromes in the TMA** | [SBIL](../../aerodromos/sbre-recife/afis/SBIL.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
