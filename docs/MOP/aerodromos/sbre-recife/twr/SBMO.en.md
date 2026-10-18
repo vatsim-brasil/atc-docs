@@ -220,4 +220,4 @@ Reference for simulation. Stands follow the PDC charts; airlines follow the [air
 [^ad17]: [AIP Brasil, AD 2 SBMO 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and IAC charts.
 [^ad22]: [AIP Brasil, AD 2 SBMO 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
-<small>Diagrams drawn by VATSIM Brasil over [OpenStreetMap](https://www.openstreetmap.org/copyright) geometry (ODbL), checked against the SBMO ADC and PDC charts. Not for real-world navigation. Normative source: AIP Brasil, AD 2 SBMO, amendment A 19/2026 (01 OCT 2026).</small>
+<small>Diagrams drawn by VATSIM Brasil over [OpenStreetMap](https://www.openstreetmap.org/copyright) geometry (ODbL), checked against the SBMO ADC and PDC charts. Not for real-world navigation. Normative source: AIP Brasil, AD 2 SBMO, AMDT 2610A1.</small>

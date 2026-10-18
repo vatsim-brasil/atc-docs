@@ -220,4 +220,4 @@ Referência para a simulação. As posições seguem as cartas PDC; as companhia
 [^ad17]: [AIP Brasil, AD 2 SBMO 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e cartas IAC.
 [^ad22]: [AIP Brasil, AD 2 SBMO 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip).
 
-<small>Diagramas desenhados pela VATSIM Brasil sobre a geometria do [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), conferida com as cartas ADC e PDC SBMO. Não use para navegação real. Fonte normativa: AIP Brasil, AD 2 SBMO, emenda A 19/2026 (01 OCT 2026).</small>
+<small>Diagramas desenhados pela VATSIM Brasil sobre a geometria do [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), conferida com as cartas ADC e PDC SBMO. Não use para navegação real. Fonte normativa: AIP Brasil, AD 2 SBMO, AMDT 2610A1.</small>
