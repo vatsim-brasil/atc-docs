@@ -22,6 +22,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbcg/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbcg-*.svg` | OSM (`osm.json`, `osm_apron.json`, `osm_build.json`; não há GND_DRAW) |
 | `sbgo/` | `docs/MOP/aerodromos/sbbs-brasilia/twr/img/sbgo-*.svg` | GND_DRAW (com `ref`; sem `osm.json`) |
 | `sbfz/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbfz-*.svg` | GND_DRAW (com `ref` por extenso: ALFA, BRAVO…) |
+| `sbmo/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbmo-*.svg` | OSM (`osm.json`, `osm_apron.json`, `osm_build.json`; não há GND_DRAW) |
 
 ## Fontes
 
