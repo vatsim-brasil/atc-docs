@@ -24,6 +24,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbfz/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbfz-*.svg` | GND_DRAW (com `ref` por extenso: ALFA, BRAVO…) |
 | `sbmo/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbmo-*.svg` | OSM (`osm.json`, `osm_apron.json`, `osm_build.json`; não há GND_DRAW) |
 | `sbsg/` | `docs/MOP/aerodromos/sbre-recife/twr/img/sbsg-*.svg` | OSM (`osm.json`, pátios em `osm_apron.json`; prédios do GND_DRAW) |
+| `sbsl/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbsl-*.svg` | GND_DRAW (taxiways e prédios; pátios em `osm_apron.json`) |
 
 ## Fontes
 
