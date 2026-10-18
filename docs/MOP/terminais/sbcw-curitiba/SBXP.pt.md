@@ -248,7 +248,7 @@ A TMA trabalha com as pistas em uso nos três aeródromos principais. Cada Torre
 | **SBKP** | **15** ou **33** | 15, com vento de cauda < 7 kt e pista seca | [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.pt.md#sistema-preferencial-de-pistas) |
 
 !!! warning "SBGR depende da pista de SBSP"
-    A SID **AKRER 3A** (SBGR 28, saída para oeste e sul) só pode ser usada **com SBSP na pista 35**[^sid-gr]. Com SBSP na 17, as saídas de SBGR 28 para oeste e sul usam a **ZORZA 5B** (28R) ou a **CGO 4B** (28L).
+    Há SID de SBGR que só podem ser usadas **com SBSP na pista 35**. A restrição está nas observações da carta[^sid-gr]. Com SBSP na 17, as saídas de SBGR usam as SID que não têm essa restrição.
 
     Quando SBSP trocar de pista, avise o Tráfego e a Torre de SBGR.
 
@@ -260,89 +260,25 @@ A TMA trabalha com as pistas em uso nos três aeródromos principais. Cada Torre
 
 ## :material-airplane-landing: Chegadas
 
-Todas as STAR são **RNAV 1** (GNSS ou DME/DME/IRU). Aeronave sem GNSS só voa a STAR com vigilância ATS[^cartas]. Os valores abaixo vêm das cartas; consulte a carta para a rota completa.
+As STAR mudam com frequência, por isso esta página não as lista. Consulte sempre a carta vigente na aba **Cartas Aeronáuticas**, em [Informações Úteis](#informacoes-uteis).
 
-### SBGR: *point merge*
+- Todas as STAR da TMA são **RNAV 1**. Aeronave sem GNSS só voa a STAR com vigilância ATS[^cartas].
+- A STAR depende da **pista em uso**. Autorize a STAR da pista informada no ATIS e, se a pista mudar, autorize de novo a STAR da nova pista.
+- Respeite as restrições de nível e de velocidade da carta. Ao vetorar para fora da STAR, a aeronave deixa de cumpri-las: dê nível e velocidade explicitamente.
+- As STAR terminam no **IAF** do procedimento de aproximação. Depois dele, autorize a aproximação ou vetore para a final.
 
-As chegadas de SBGR convergem para o **SANPA**, ao norte do aeródromo, e daí seguem para o IAF da pista em uso.
+### *Point merge* em SBGR
 
-<div class="grid cards" markdown>
+As STAR de SBGR convergem para um **ponto único** ao norte do aeródromo (o **SANPA**, nas cartas atuais) e dali seguem para o IAF da pista em uso.
 
--   :material-call-merge:{ .lg .middle } **SANPA: ponto de convergência**
-
-    ---
-
-    **Pista 10:** FL090 a 8000 pés. **Pista 28:** FL100 a FL090. **230 kt** em todas as STAR, exceto na SANPA 1A[^star-gr].
-
-    Espera: rumo de aproximação 202°, curvas pela esquerda.
-
--   :material-flag-checkered:{ .lg .middle } **IAF por pista**
-
-    ---
-
-    **Pista 10:** SANPA → GR283 (8000 pés ou abaixo) → **LOMEN**, 6000 pés ou acima.
-
-    **Pista 28:** SANPA → GR253 → GR254 → **UTKUG**, 6000 pés ou acima.
-
-</div>
-
-As STAR com *point merge* têm um **arco de sequenciamento**. Nele a aeronave voa nivelada e equidistante do SANPA até receber **"direto SANPA"**. Assim o controlador espaça as chegadas sem vetorar. Cada uma tem uma versão **direta** que dispensa o arco, para pouco movimento.
-
-| Origem | Entrada | Com arco (*point merge*) | Direta | Arco |
-| :--- | :--- | :--- | :--- | :--- |
-| **Oeste e sudoeste** | **ZARES** (NW), **BUXUK** (SW), via MOLLE | MOLLE **1A** (10), MOLLE **1B** (28) | MOLLE **1D** (10), MOLLE **1C** (28) | GR272–GR277, **FL140**, 250 kt |
-| **Norte e nordeste** | **VUNOX** | VUNOX **1A** (10), VUNOX **1C** (28) | SANPA **1A** (10), VUNOX **1B** (28) | GR263–GR271, **FL150**, 250 kt |
-| **Leste** | **EDMUS** | — | EDMUS **2A** (10), EDMUS **1B** (28) | — |
-
-Restrições principais na entrada[^star-gr]:
-
-- **MOLLE:** GR071 e GR073 a FL270 ou abaixo; GR072 e GR074 a FL230 ou abaixo; depois do MOLLE, GR249 a FL190 ou acima e GR076 a FL160 ou acima.
-- **VUNOX:** VUNOX a FL220 ou abaixo, GR259 a FL180 ou abaixo, GR262 a FL160 ou abaixo.
-- **EDMUS 2A (pista 10):** EDMUS a FL260 ou abaixo, POLYP a FL150 ou abaixo. Passa ao norte de SBGR, contorna para oeste (GR286 a FL110, GR283 a FL100, GR289 a 7000 pés) e chega ao LOMEN.
-- **EDMUS 1B (pista 28):** EDMUS a FL170 ou abaixo, NIBVO a FL150 ou abaixo, GR278 entre FL090 e 8000 pés, até o UTKUG.
+Parte delas tem um **arco de sequenciamento**: a aeronave voa nivelada, a uma distância constante do ponto de convergência, até receber **"direto"** para ele. Assim o controlador espaça as chegadas sem vetorar. As mesmas entradas têm versões **diretas**, sem arco, para pouco movimento.
 
 !!! tip "Usando o *point merge*"
     1. Autorize a STAR com arco e deixe a aeronave seguir no nível do arco.
-    2. Quando o espaçamento para a aeronave à frente for suficiente (veja a [esteira](../../../documentos/manuais/separacao-esteira/index.pt.md)), autorize **direto SANPA** e a descida.
-    3. A partir do SANPA, a aeronave segue a STAR até o IAF; vetore para a final se precisar ajustar.
+    2. Quando o espaçamento para a aeronave à frente for suficiente (veja a [esteira](../../../documentos/manuais/separacao-esteira/index.pt.md)), autorize **direto** para o ponto de convergência e a descida.
+    3. A partir dele, a aeronave segue a STAR até o IAF; vetore para a final se precisar ajustar.
 
     Exemplo: `TAM3456, direto SANPA, desça FL100.`
-
-### SBSP
-
-| Pista | STAR | Entrada | Rota e restrições | IAF |
-| :---: | :--- | :--- | :--- | :--- |
-| **17** | ORESU **1A** | **ENTIT** (NE), **UTLOT** (NW) | ORESU entre FL170 e FL130, PRUMO a FL120 ou acima, IROPU entre FL090 e 8000 pés | **LUVDI**, 5500 pés ou acima |
-| **17** | OGTAL **2A** | **ANISE** (S, sobre o mar), **IBDAL** (E, pelo litoral) | OGTAL a FL120 ou abaixo, SP099 e SP101 a FL090 | **KOMGU**, 5500 pés ou acima |
-| **35** | ORESU **1B** | **ENTIT**, **UTLOT** | Como a 1A até o IROPU; KOMGU e SP098 a FL090 | **OGTAL**, 6000 pés ou acima |
-| **35** | ANISE **1A** / IBDAL **2A** | **ANISE** / **IBDAL** | ANISE a FL170 ou abaixo, SP091 a FL140 ou abaixo / MANLO a FL190 ou abaixo | **OGTAL** / **ESUNI**, 6000 pés ou acima |
-
-A ORESU passa **sobre a área de SBKP** e desce para o sul. Coordene com a final de Campinas quando ela estiver aberta[^star-sp].
-
-### SBKP
-
-| Pista | STAR | Entrada | Rota e restrições | IAF |
-| :---: | :--- | :--- | :--- | :--- |
-| **15** | ITEDI **1A** | **ENTIT** (NE) | ENTIT a FL190 ou abaixo, KP203 a FL110 ou abaixo, KP204 a FL090 ou abaixo | **ITEDI**, 6000 pés ou acima |
-| **15** | EDMUS **1B** | **EDMUS** (E, ao sul de SBGR) | KP153 a FL230 ou acima, KP213 a FL140 ou acima, KP209 a FL110 ou abaixo | **KP207**, FL090 ou acima → ITEDI |
-| **15** | VERME **1A** | **GNOME**, **EDRAT** (WSW) | KP217 a FL120 ou abaixo, KP216 a FL100 ou acima, KP214 a 8000 pés ou abaixo | **NILKA**, 6500 pés ou acima |
-| **15** | UTLOT **3A** | **UTLOT** (NW) | UTLOT a FL160 ou abaixo | **NOBRE**, 6000 pés ou acima |
-| **33** | ENTIT **1A** | **ENTIT** (NE) | ENTIT a FL220 ou abaixo, KP204 a FL150 ou acima, KP227 a FL090 ou acima | **KP209**, 6500 pés ou acima |
-| **33** | EDMUS **1A** | **EDMUS** (E) | EDMUS a FL300 ou abaixo, KP153 a FL230 ou acima, KP269 entre 8000 e 7000 pés | **KP191**, 6500 pés ou acima |
-| **33** | UBKUP **2A** | **UTLOT** (NW), **EDRAT** (SW) | NILKA a FL120 ou acima, KP271 a 8000 pés | **UBKUP**, 6500 pés ou acima |
-
-### Esperas
-
-| Aeródromo | Espera | Rumo de aproximação | Curvas |
-| :---: | :--- | :---: | :---: |
-| SBGR | **SANPA** | 202° | Esquerda |
-| SBGR | **GR076** (MOLLE), **GR262** e **VUNOX** (VUNOX) | 069° / 210° | Direita / Esquerda |
-| SBSP | **ORESU** e **IROPU** | 190° | Direita |
-| SBSP | **ANISE** e **SP111** | 022° | Direita |
-| SBKP | **ITEDI** (pista 15) | 330° | Direita |
-| SBKP | **KP209** (pista 33) | 150° | Esquerda |
-
-<small>Outras esperas aparecem nas entradas das STAR (ZARES, BUXUK, EDMUS, UTLOT, ENTIT, IBDAL). As cartas não publicam limites de altitude nas esperas.</small>
 
 !!! question "Revisar"
     - Na rede, o APP deve usar as STAR com arco sempre, ou só com movimento?
@@ -352,73 +288,23 @@ A ORESU passa **sobre a área de SBKP** e desce para o sul. Coordene com a final
 
 ## :material-airplane-takeoff: Saídas
 
-Todas as SID são **RNAV 1**, exceto a **OMNI** de cada aeródromo. A OMNI é usada quando a aeronave não pode voar a SID RNAV, ou a critério do ATC[^ad22-gr]. As SID RNAV **não publicam nível inicial**: o limite vertical são as restrições dos fixos.
+As SID também mudam com frequência e não são listadas aqui. Consulte a carta vigente na aba **Cartas Aeronáuticas**.
 
-### Fixos de saída
+- Todas as SID são **RNAV 1**, exceto a **OMNI** de cada aeródromo. A OMNI é usada quando a aeronave não pode voar a SID RNAV, ou a critério do ATC[^ad22-gr]. Nela a aeronave sobe na proa autorizada até a altitude da carta e **aguarda instrução**: vetore assim que ela chamar.
+- A SID depende da **pista em uso** e do **fixo de saída** do plano de voo.
+- As SID RNAV **não publicam nível inicial**: o limite vertical são as restrições dos fixos.
+- Quem não puder cumprir as restrições de altitude da SID avisa o ATC **antes da decolagem**[^cartas].
+- Libere a subida acima das restrições da SID assim que não houver conflito, sobretudo com as chegadas que cruzam por cima.
 
-| Direção | Fixos | Próximo órgão |
-| :--- | :--- | :--- |
-| **Norte e noroeste** | ISMOB, GERTU, GERKA, VUPOG, XOLUS | ACC Brasília |
-| **Nordeste** | VUMEV, NUXEL | ACC Brasília |
-| **Leste** | NIBRU, UREMI, KONVI | APP Rio de Janeiro ([SBWJ](SBWJ.pt.md)) / ACC Brasília |
-| **Oeste e noroeste** | ASETA, EGEVA, VURDU, OBLUG | ACC Curitiba |
-| **Sudoeste e sul** | SOVSI, NIBGA, UBSOD, MADNI | ACC Curitiba |
+**Próximo órgão pela direção de saída:**
 
-### SBGR
-
-Decolagens normais pela **10L** ou pela **28R**. A 10R e a 28L só decolam em [decolagens paralelas dependentes](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md#decolagens-paralelas-dependentes).
-
-| Pista | SID | Fixos de saída | Restrições principais |
-| :---: | :--- | :--- | :--- |
-| **10L** | AMVUL **6A** | VUMEV, NUXEL, ISMOB, GERKA, GERTU | GR222 a FL100 ou abaixo, GR217 a FL100 ou acima |
-| **10L** | EKOPO **1A** | NIBRU, UREMI | GR027 a FL100 ou abaixo, EKOPO a FL130 ou abaixo |
-| **10L/10R** | ORONU **1A** | ISMOB, GERKA, GERTU | **Alta performance:** GR223 a FL180 ou acima. Quem não cumprir pede outra SID |
-| **10L** | ZORZA **3A** | SOVSI, UBSOD, MADNI, ASETA, EGEVA | GR027 entre FL090 e 7000 pés, GR212 a FL160 ou abaixo, CGO a FL100 ou acima |
-| **10R** | REORI **3A**, NIBRU **3A** / UREMI **3A**, CGO **5A**, ORONU **1B** | Como as da 10L | |
-| **28R** | ISNAP **2A** | NIBRU, UREMI, VUMEV, NUXEL | GR237 a 6500 pés ou acima e **210 kt**, GR242 a FL160 ou abaixo |
-| **28R/28L** | XOLUS **1A** | GERTU, ISMOB | GR081 entre FL110 e FL100, GR086 entre FL170 e FL160, XOLUS a FL190 ou abaixo |
-| **28R** | ZORZA **5B** | SOVSI, UBSOD, MADNI, ASETA, EGEVA | GR237 a 6500 pés ou acima e **210 kt**, CGO a FL100 ou acima e **230 kt** |
-| **28R/28L** | AKRER **3A** | SOVSI, UBSOD, MADNI, ASETA, EGEVA | **Só com SBSP na 35.** AKRER a 8000 pés ou abaixo |
-| **28L** | EVNEB **3A**, CGO **4B** | Como ISNAP e ZORZA | |
-| **Todas** | OMNI | Vetores | Proa da pista até 3000 pés, curva para a proa autorizada, **subir para 6000 pés** e aguardar instrução |
-
-Nas SID com restrições de altitude, quem não puder cumprir avisa o ATC **antes da decolagem**[^sid-gr].
-
-### SBSP
-
-| Pista | SID | Fixos de saída | Restrições principais |
-| :---: | :--- | :--- | :--- |
-| **17** | BAIAN **3A** | NIBRU, UREMI, VUMEV, NUXEL | SP103 a FL140 ou acima, ORIMU a FL220 ou abaixo |
-| **17** | UBRAM **1A** | ASETA, EGEVA | **190 kt** no SP053, SP081 a 6000 pés, SP038 a FL090, UBRAM a FL120 ou acima |
-| **17** | UGTIX **2A** | GERTU, VURDU, EGEVA, ASETA | SP106 a 7500 pés ou abaixo, UGTIX a FL240 ou acima |
-| **17** | UTKOM **1A** | SOVSI, NIBGA, UBSOD, MADNI | SP106 a 7500 pés ou abaixo |
-| **35** | BAIAN **3B** | NIBRU, UREMI, VUMEV, NUXEL | **210 kt** no SP107, VUNVU a 5500 pés ou acima |
-| **35** | UBRAM **1B** | ASETA, EGEVA | **220 kt** no SP074, SP079 entre 8000 e 6000 pés, SP038 a FL090 |
-| **35** | UGTIX **1B** | GERTU, VURDU, EGEVA, ASETA | **240 kt** no SP082, SP083 a 7500 pés ou abaixo |
-| **35** | SEDLO **1A** | SOVSI, NIBGA, UBSOD, MADNI | **220 kt** no SP082, SP083 a 7500 pés ou abaixo |
-| **Todas** | OMNI | Vetores | **Subir para 6000 pés** na proa autorizada e aguardar instrução |
-
-<small>As SID de SBSP exigem gradientes altos logo após a decolagem (até 7% na SEDLO 1A)[^sid-sp].</small>
-
-### SBKP
-
-| Pista | SID | Fixos de saída | Restrições principais |
-| :---: | :--- | :--- | :--- |
-| **15** | EGBEN **1A** / ISMOB **1A** | KONVI, GERTU, ISMOB, VUPOG | EGBEN a 8000 pés ou abaixo, DEXIB a FL100 ou acima |
-| **15** | EGEVA **1A** | EGEVA | KP263 a FL090 ou abaixo |
-| **15** | KONVI **2C** | KONVI | EGBEN entre 8000 e 6000 pés, KONVI a FL130 ou abaixo |
-| **15** | OSUDO **4A** | OBLUG, EGEVA, ASETA, SOVSI | Varia por transição |
-| **15** | UGIKI **1A** | NIBRU, UREMI | KP127 entre FL100 e 8000 pés, MUDET a FL120 ou acima |
-| **33** | ASETA **1A** / EGEVA **1B** / SOVSI **1A** | ASETA, EGEVA, SOVSI | KP144 a FL080 ou abaixo / KP259 entre 8000 e 7000 pés |
-| **33** | KONVI **2B** / **2D** | KONVI | KP256 a 7000 pés ou abaixo |
-| **33** | OBLUG **2A** | OBLUG | KP266 a FL110 ou abaixo |
-| **33** | OPGUN **2A** | GERTU, ISMOB, VUPOG | GERTU a FL190 ou acima, KP179 a FL160 ou acima |
-| **33** | UGIKI **1B** | NIBRU, UREMI | KP259 entre 8000 e 7000 pés, MUDET a FL120 ou acima |
-| **Todas** | OMNI | Vetores | **Subir para 8000 pés** na proa da carta e aguardar instrução |
+- **Norte e nordeste:** ACC Brasília.
+- **Oeste, sudoeste e sul:** ACC Curitiba.
+- **Leste:** APP Rio de Janeiro ([SBWJ](SBWJ.pt.md)) ou ACC Brasília, conforme o fixo.
 
 !!! question "Revisar"
     - Como as SID RNAV não têm nível inicial, qual nível o Tráfego (DEL) deve dar na autorização? Proposta: o **nível de cruzeiro do plano**, com "mantenha as restrições da SID".
-    - A tabela de fixos de saída indica o próximo órgão pela direção. Confirmar no pacote, sobretudo nos fixos a leste (APP Rio ou ACC Brasília).
+    - Confirmar no pacote o próximo órgão das saídas a leste (APP Rio ou ACC Brasília).
 
 ---
 
@@ -462,7 +348,6 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 - **Aproximação visual em SBSP:** com visibilidade **≥ 5 km** e teto **≥ 1000 pés**, o APP pode vetorar para aproximação visual. O plano continua IFR até o piloto reportar a pista à vista[^ad22-sp].
 - **Aeronave sem RNAV em SBGR, SBSP e SBKP:** com os auxílios convencionais fora, pode chegar visual. O piloto avisa no primeiro contato que vai mudar de IFR para VFR e pede a mudança perto do aeródromo[^ad22-gr].
 - **Arremetida fora do perfil em SBKP, com falha de comunicação:** subir para **6000 pés** e voar para o IAF do procedimento em uso[^ad22-kp].
-- **Falha de comunicação na ORESU 1B:** transponder **7600**, completar a chegada até o OGTAL e executar o procedimento autorizado[^star-sp].
 
 ---
 
@@ -491,7 +376,7 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 ## :material-check-all: Checklist ao abrir
 
 - [ ] Confirmar as pistas em uso em SBGR, SBSP e SBKP (ATIS ou Torres).
-- [ ] Conferir se a AKRER 3A pode ser usada (SBSP na 35).
+- [ ] Conferir quais SID de SBGR valem com a pista em uso em SBSP.
 - [ ] Ver quem está on-line: ACC Curitiba, ACC Brasília, APP Rio, Torres e finais.
 - [ ] Ajustar o QNH e o nível de transição.
 - [ ] Preencher o *controller information* com as pistas e a configuração.
@@ -533,10 +418,7 @@ Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 
 [^pacote]: Frequência no pacote de setores da VATSIM Brasil.
 [^cartas]: Cartas STAR e SID de SBGR, SBSP e SBKP no [AISWEB](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBGR){ target="_blank" } (AIRAC 2508A1 a 2610A1).
-[^star-gr]: Cartas STAR RNAV MOLLE 1A/1B/1C/1D, VUNOX 1A/1C, SANPA 1A, EDMUS 2A e EDMUS 1B/VUNOX 1B de SBGR, AIRAC 2609A1.
-[^sid-gr]: Cartas SID RNAV de SBGR, AIRAC 2610A1. Restrição de uso da AKRER 3A: observação 2 da carta.
-[^star-sp]: Cartas STAR RNAV ORESU 1A/1B, OGTAL 2A e ANISE 1A/IBDAL 2A de SBSP, AIRAC 2609A1.
-[^sid-sp]: Cartas SID RNAV de SBSP, AIRAC 2609A1 e 2610A1.
+[^sid-gr]: Observações de uso das cartas SID RNAV de SBGR (no AIRAC 2610A1, a AKRER 3A).
 [^ad20-gr]: [AIP Brasil, AD 2 SBGR 2.20](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, itens 2.1, 4 e 5.
 [^ad22-gr]: [AIP Brasil, AD 2 SBGR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, itens 1.1 e 1.2.
 [^ad22-sp]: [AIP Brasil, AD 2 SBSP 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, procedimentos especiais ATC.
