@@ -17,7 +17,6 @@ tags:
 | **Frequência** | **119.600** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
 | **Altitude de transição** | **8000 pés** em toda a TMA[^cartas] |
-| **Nível de transição** | Conforme o QNH (ver [Altimetria](#altimetria)) |
 | **Aeródromos na TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.pt.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.pt.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.pt.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.pt.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.pt.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.pt.md), `SBST` |
 
 !!! question "Proposta em revisão"
@@ -218,8 +217,23 @@ O pacote divide a TMA em muitos setores, mas na rede quase sempre há um só con
 
 !!! question "Revisar"
     - A ordem de abertura acima é uma proposta. A VATSIM Brasil tem uma ordem preferida, por exemplo Norte antes do Leste?
-    - `SBXP_DEP` (129.050) e `SBXP_V_APP` (129.500, São Paulo 2) existem no pacote. O `SBXP_DEP` não é dono de nenhum setor, e a frequência dele é a que o AIP manda usar para entrar na CTR São José. Ele deve ser usado, e para quê?
     - `SBXP_T2_APP` usa **132.750**, a mesma frequência da `SBGR_TWR`.
+
+
+### FIZ dentro da TMA
+
+Abaixo da TMA há zonas de informação de voo (FIZ, classe G) com posição própria no pacote. Com a posição da FIZ desconectada, o `SBXP_APP` (ou a posição que o cobre) presta o serviço de informação de voo nela.
+
+| FIZ | Limites | Posição | Indicativo | Frequência |
+| :--- | :--- | :--- | :--- | :---: |
+| **SBST** (Santos) | GND – 5500 FT | `SBST_R_TWR` | Rádio Santos | **118.650** |
+| **SDAM** (Amarais) | Setor 1: GND – 5500 FT · Setor 2: GND – 3600 FT | `SDAM_R_TWR` | Rádio Amarais | **118.125** |
+| **SBJH** (Catarina) | GND – 5000 FT | `SBJH_R_TWR` | Rádio Catarina | **131.800** |
+| **SBBP** (Bragança Paulista) | GND – 4500 FT | `SBBP_R_TWR` | Rádio Bragança Paulista | **125.700** |
+| **SDCO** (Sorocaba) | GND – 5500 FT (ATZ GND – 3600 FT) | `SDCO_TWR` | Torre Sorocaba | **118.800** |
+
+- Na FIZ não há separação: o órgão dá **informação de tráfego** e de aeródromo. Aeronave IFR que sai ou chega pela FIZ é autorizada pelo APP antes de entrar na TMA.
+- Coordene com a Rádio as saídas IFR (autorização e hora de decolagem) e as chegadas (hora prevista e procedimento).
 
 ---
 
@@ -241,22 +255,6 @@ A TMA trabalha com as pistas em uso nos três aeródromos principais. Cada Torre
 !!! question "Revisar"
     - Quem decide a configuração quando as Torres estão on-line: cada Torre, ou o APP coordenando com elas?
     - Há combinações de SBGR e SBSP que devem ser evitadas na rede?
-
----
-
-## :material-altimeter: Altimetria
-
-Todas as cartas da TMA usam **altitude de transição de 8000 pés**[^cartas]. O **nível de transição** varia com o QNH:
-
-| QNH (hPa) | 942,2 a 959,4 | 959,5 a 977,1 | 977,2 a 995,0 | 995,1 a 1013,2 | 1013,3 a 1031,6 | 1031,7 a 1050,3 |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Nível de transição** | FL105 | FL100 | FL095 | FL090 | FL085 | FL080 |
-
-- Abaixo da altitude de transição, autorize **altitudes** e informe o **QNH** junto com a primeira autorização de descida abaixo do nível de transição.
-- Não use o nível de transição como nível de espera ou de cruzeiro.
-
-!!! question "Revisar"
-    A tabela do AIP (GEN 2.6) vai só até a TA de 7000 pés. Os valores acima seguem o mesmo padrão (+10 a cada 1000 pés de TA). Confirmar se a VATSIM Brasil usa outra tabela para a TMA-SP.
 
 ---
 
