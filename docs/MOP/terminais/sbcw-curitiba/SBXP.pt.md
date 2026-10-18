@@ -525,7 +525,6 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 
 - São Paulo 1 é classe A entre FL145 e FL245 e classe C entre 5500 FT e FL145.
 - São Paulo 2 é a camada inferior sobre a região de Marte e Jundiaí, atendida no pacote pelo `SBXP_V_APP` (129.500).
-- O pacote também tem a posição de saídas `SBXP_DEP` (129.050).
 - SBTA (Taubaté) é aeródromo do Exército; operações de terceiros dependem de autorização do comandante. SDCO (Sorocaba) e SBST (Santos) ficam em FIZs classe G.
 
 ---
