@@ -27,6 +27,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbsl/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbsl-*.svg` | GND_DRAW (taxiways e prédios; pátios em `osm_apron.json`) |
 | `sbnf/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbnf-*.svg` | GND_DRAW (com `ref` A/B; pátios 2 e 3 completados à mão em `gen.py`) |
 | `sbfi/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbfi-*.svg` | OSM (`osm.json`); pátios e prédios do GND_DRAW; pátio 3 desenhado a partir da PDC 2 |
+| `sbcy/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbcy-*.svg` | GND_DRAW (com `ref`; `Charlie` vira C); pátios traçados das posições da PDC |
 
 ## Fontes
 
