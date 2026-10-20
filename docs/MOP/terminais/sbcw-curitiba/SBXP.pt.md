@@ -114,10 +114,12 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP** no mapa para vê-los. Quando a posição de um setor está desconectada, o setor passa para a posição indicada em *Cobertura*.
 
-<figure markdown="span">
-  ![Setores do APP São Paulo em duas camadas: de 5500 pés a FL135, com os setores T1, T2, T3, T5, T7 e T8 e as finais FGR, FSP, FKP e FSJ; e de FL135 a FL245, com os setores T1, T2, T4, T6, T7, T8 e T13](img/sbxp-setores.svg){ loading=lazy }
-  <figcaption>Setores elementares do APP, sem as posições combinadas. Esquerda: camada de 5500 pés a FL135. As finais (tracejado: FGR, FSP, FKP e FSJ) vão só de 5500 pés a FL100 e ficam por cima dos setores T. Direita: camada de FL135 a FL245. T1, T2, T7 e T8 vão de 5500 pés a FL245 e aparecem nas duas. Contorno preto: limite da TMA (São Paulo 1).</figcaption>
-</figure>
+Cada aba mostra um setor elementar, sem as posições combinadas. O setor está preenchido, com os limites verticais abaixo do nome; o resto da TMA aparece em cinza. Hachurado: parte do setor que, abaixo de FL100, pertence a uma final.
+
+=== "T1"
+    <figure markdown="span">
+      ![Setor T1 do APP São Paulo, de 5500 pés a FL245, ao sul da TMA; a parte junto a SBSP pertence à final FSP de 5500 pés a FL100](img/sbxp-setor-t1.svg){ loading=lazy }
+    </figure>
 
 | Posição | Frequência | Limites | Cobertura |
 | --- | --- | --- | --- |

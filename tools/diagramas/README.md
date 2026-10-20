@@ -29,7 +29,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `sbfi/` | `docs/MOP/aerodromos/sbcw-curitiba/twr/img/sbfi-*.svg` | OSM (`osm.json`); pátios e prédios do GND_DRAW; pátio 3 desenhado a partir da PDC 2 |
 | `sbcy/` | `docs/MOP/aerodromos/sbaz-amazonica/twr/img/sbcy-*.svg` | GND_DRAW (com `ref`; `Charlie` vira C); pátios traçados das posições da PDC |
 | `point-merge/` | `docs/MOP/terminais/sbcw-curitiba/img/point-merge-*.svg` | Diagramas conceituais da TMA (sem geometria real) |
-| `tma-setores/` | `docs/MOP/terminais/sbcw-curitiba/img/sbxp-setores.svg` | Setores do APP lidos do mapa da própria página (arrays `setores` e `volumes`) |
+| `tma-setores/` | `docs/MOP/terminais/sbcw-curitiba/img/sbxp-setor-*.svg` (`--setor T1`) | Setores do APP lidos do mapa da própria página (arrays `setores` e `volumes`) |
 
 ## Fontes
 

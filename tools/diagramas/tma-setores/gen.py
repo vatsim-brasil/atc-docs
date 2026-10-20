@@ -5,14 +5,19 @@ pacote de setores) e desenha dois painéis lado a lado: camada baixa
 (até FL135, com as finais por cima) e camada alta (FL135 a FL245).
 
 Uso: python3 -I gen.py [pagina.md] [saida.svg]
+     python3 -I gen.py <pagina.md> <saida.svg> --setor T1   (um mapa por setor)
 """
 import json
 import math
 import re
 import sys
 
-PAGE = sys.argv[1] if len(sys.argv) > 1 else "docs/MOP/terminais/sbcw-curitiba/SBXP.pt.md"
-OUT = sys.argv[2] if len(sys.argv) > 2 else "docs/MOP/terminais/sbcw-curitiba/img/sbxp-setores.svg"
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
+SETOR = sys.argv[sys.argv.index("--setor") + 1] if "--setor" in sys.argv else None
+if SETOR:
+    ARGS.remove(SETOR)
+PAGE = ARGS[0] if len(ARGS) > 0 else "docs/MOP/terminais/sbcw-curitiba/SBXP.pt.md"
+OUT = ARGS[1] if len(ARGS) > 1 else "docs/MOP/terminais/sbcw-curitiba/img/sbxp-setores.svg"
 
 # Aeródromos de referência (ARP, graus decimais)
 AERODROMOS = {
@@ -89,6 +94,55 @@ def ponto_rotulo(poli, evitar=()):
     return melhor
 
 
+def nivel(ft):
+    return f"FL{ft // 100:03d}" if ft >= 10000 else f"{ft} FT"
+
+
+def mapa_setor(alvo, setores, tma, proj, caminho, W):
+    """Um setor preenchido; o resto da TMA em cinza, só com as divisas."""
+    out = ['<defs><pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+           f'<rect width="8" height="8" fill="#fff" fill-opacity="0.55"/><path d="M0,0 V8" stroke="{INK}" stroke-width="2"/></pattern>'
+           f'<clipPath id="clip-alvo"><path d="{caminho(alvo["contorno"], 0)}"/></clipPath></defs>']
+    out.append(f'<path d="{caminho(tma, 0)}" fill="#e2e8f0"/>')
+    for s in setores:
+        if s is not alvo and not s["rot"].startswith("F"):
+            out.append(f'<path d="{caminho(s["contorno"], 0)}" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>')
+    out.append(f'<path d="{caminho(alvo["contorno"], 0)}" fill="{alvo["cor"]}" fill-opacity="0.85" stroke="{INK}" stroke-width="2.2" stroke-linejoin="round"/>')
+    # finais que tomam parte do setor abaixo de FL100: hachuradas, recortadas no setor
+    tomadas = []
+    for f in setores:
+        if f["rot"].startswith("F") and f["max"] > alvo["min"]:
+            poli = [proj(p, 0) for p in f["contorno"]]
+            alvo_poli = [proj(p, 0) for p in alvo["contorno"]]
+            if any(dentro(p, alvo_poli) for p in poli) or any(dentro(p, poli) for p in alvo_poli):
+                out.append(f'<path d="{caminho(f["contorno"], 0)}" fill="url(#hach)" stroke="{INK}" stroke-width="1.4" '
+                           'stroke-dasharray="5 3" clip-path="url(#clip-alvo)"/>')
+                tomadas.append((f, poli))
+    out.append(f'<path d="{caminho(tma, 0)}" fill="none" stroke="{INK}" stroke-width="2.6" stroke-linejoin="round"/>')
+    for icao, p in AERODROMOS.items():
+        x, y = proj(p, 0)
+        out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="{INK}"/>')
+        out.append(f'<text x="{x + 6:.1f}" y="{y + 13:.1f}" font-size="10.5" fill="{MUTED}" font-weight="600" '
+                   f'paint-order="stroke" stroke="#fff" stroke-width="3">{icao}</text>')
+    alvo_poli = [proj(p, 0) for p in alvo["contorno"]]
+    x, y = ponto_rotulo(alvo_poli, [poli for _, poli in tomadas])
+    out.append(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="middle" font-size="26" font-weight="800" fill="{INK}" '
+               f'paint-order="stroke" stroke="#fff" stroke-width="5">{alvo["rot"]}</text>')
+    out.append(f'<text x="{x:.1f}" y="{y + 22:.1f}" text-anchor="middle" font-size="14" font-weight="700" fill="{INK}" '
+               f'paint-order="stroke" stroke="#fff" stroke-width="4">{nivel(alvo["min"])} – {nivel(alvo["max"])}</text>')
+    for f, poli in tomadas:
+        # rótulo à direita da parte hachurada, com linha de chamada
+        pts = [p for p in poli if dentro(p, alvo_poli)] + [p for p in alvo_poli if dentro(p, poli)]
+        pts = pts or poli
+        hx = sum(p[0] for p in pts) / len(pts)
+        hy = sum(p[1] for p in pts) / len(pts)
+        lx, ly = max(p[0] for p in pts) + 34, hy + 4
+        out.append(f'<path d="M{hx:.1f},{hy:.1f} L{lx - 4:.1f},{ly - 4:.1f}" stroke="{INK}" stroke-width="1.2"/>')
+        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" font-size="12" font-weight="700" fill="{INK}" '
+                   f'paint-order="stroke" stroke="#fff" stroke-width="4">{f["rot"]} {nivel(f["min"])} – {nivel(f["max"])}</text>')
+    return out
+
+
 def main():
     setores, tma, paleta = ler_pagina(PAGE)
     for k, s in enumerate(setores):
@@ -136,8 +190,13 @@ def main():
                        f'paint-order="stroke" stroke="#fff" stroke-width="4">{s["rot"]}</text>')
         return out
 
-    corpo = painel(0, "5500 FT – FL135", baixos, finais) + painel(W + 20, "FL135 – FL245", altos)
-    largura = 2 * W + 20
+    if SETOR:
+        alvo = next(s for s in setores if s["rot"] == SETOR)
+        corpo = mapa_setor(alvo, setores, tma, proj, caminho, W)
+        largura = W
+    else:
+        corpo = painel(0, "5500 FT – FL135", baixos, finais) + painel(W + 20, "FL135 – FL245", altos)
+        largura = 2 * W + 20
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {largura} {H}" width="{largura}" height="{H}" role="img" '
            f'aria-label="TMA São Paulo: setores do APP" {FONT}>\n<title>TMA São Paulo: setores do APP</title>\n'
            f'<rect width="{largura}" height="{H}" rx="12" fill="{BG}"/>\n' + "\n".join(corpo) + "\n</svg>\n")
