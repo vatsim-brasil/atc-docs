@@ -112,7 +112,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-view-grid-outline: Setorização do APP
 
-O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP** no mapa para vê-los. Quando a posição de um setor está desconectada, o setor passa para a posição indicada em *Cobertura*.
+O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP** no mapa para vê-los. Quem assume um setor fechado está em [Posições combinadas](#posicoes-combinadas) e no diagrama de [cobertura](#cobertura-top-down).
 
 Cada aba mostra um setor elementar, sem as posições combinadas. O setor está preenchido, com os limites verticais abaixo do nome; o resto da TMA aparece em cinza. Hachurado: parte do setor que, abaixo de FL100, pertence a uma final.
 
@@ -181,21 +181,28 @@ Cada aba mostra um setor elementar, sem as posições combinadas. O setor está 
       ![Setor FSJ, final de São José dos Campos, do APP São Paulo, de 5500 pés – FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
     </figure>
 
-| Posição | Frequência | Limites | Cobertura |
-| --- | --- | --- | --- |
-| `SBXP_T1_APP` | **134.900** | 5500 FT – FL245 | `SBXP_S_APP` |
-| `SBSP_F_APP` | **133.850** | 5500 FT – FL100 | `SBXP_T1_APP` / `SBXP_T2_APP` / `SBXP_T7_APP` |
-| `SBSJ_F_APP` | **124.150** | 5500 FT – FL100 | `SBXP_E_APP` |
-| `SBXP_T13_APP` | **129.275** | FL135 – FL245 | `SBXP_NU_APP` |
-| `SBXP_T2_APP` | **132.750** | 5500 FT – FL245 | `SBXP_S_APP` |
-| `SBXP_T3_APP` | **135.750** | 5500 FT – FL135 | `SBXP_NL_APP` |
-| `SBKP_F_APP` | **119.250** | 5500 FT – FL100 | `SBXP_T3_APP` / `SBXP_T5_APP` |
-| `SBXP_T4_APP` | **119.800** | FL135 – FL245 | `SBXP_NU_APP` |
-| `SBXP_T5_APP` | **132.100** | 5500 FT – FL135 | `SBXP_NL_APP` |
-| `SBXP_T6_APP` | **120.850** | FL135 – FL245 | `SBXP_NU_APP` |
-| `SBXP_T7_APP` | **119.375** | 5500 FT – FL245 | `SBXP_E_APP` |
-| `SBGR_F_APP` | **129.750** | 5500 FT – FL100 | `SBXP_T8_APP` |
-| `SBXP_T8_APP` | **120.450** | 5500 FT – FL245 | `SBXP_E_APP` |
+| Setor | Posição | Frequência | Limites | Função |
+| :---: | --- | --- | --- | --- |
+| **T1** | `SBXP_T1_APP` | **134.900** | 5500 FT – FL245 | **Alimentador** de SBSP, ao sul |
+| **T2** | `SBXP_T2_APP` | **132.750** | 5500 FT – FL245 | **Alimentador** de SBSP, a oeste e sudoeste |
+| **T3** | `SBXP_T3_APP` | **135.750** | 5500 FT – FL135 | **Alimentador** de SBKP, a oeste |
+| **T4** | `SBXP_T4_APP` | **119.800** | FL135 – FL245 | **Setor alto**: entradas e saídas a noroeste |
+| **T5** | `SBXP_T5_APP` | **132.100** | 5500 FT – FL135 | **Alimentador** de SBKP e SBGR, ao norte |
+| **T6** | `SBXP_T6_APP` | **120.850** | FL135 – FL245 | **Setor alto**: entradas e saídas ao norte e nordeste |
+| **T7** | `SBXP_T7_APP` | **119.375** | 5500 FT – FL245 | **Alimentador** de SBGR e SBSP, a leste |
+| **T8** | `SBXP_T8_APP` | **120.450** | 5500 FT – FL245 | **Alimentador** de SBGR e SBSJ, a nordeste |
+| **T13** | `SBXP_T13_APP` | **129.275** | FL135 – FL245 | **Setor alto**: entradas e saídas a oeste |
+| **FGR** | `SBGR_F_APP` | **129.750** | 5500 FT – FL100 | **Final** de SBGR |
+| **FSP** | `SBSP_F_APP` | **133.850** | 5500 FT – FL100 | **Final** de SBSP |
+| **FKP** | `SBKP_F_APP` | **119.250** | 5500 FT – FL100 | **Final** de SBKP |
+| **FSJ** | `SBSJ_F_APP` | **124.150** | 5500 FT – FL100 | **Final** de SBSJ |
+
+- **Setor alto:** recebe do ACC as chegadas que descem e entrega ao ACC as saídas que sobem, acima dos alimentadores.
+- **Alimentador:** monta a sequência de chegada e entrega a aeronave à final já espaçada, descendo para a altitude da final. Também cuida das saídas no seu setor.
+- **Final:** recebe dos alimentadores, ajusta o espaçamento na final e transfere para a Torre.
+
+!!! question "Revisar"
+    As funções acima foram deduzidas da posição dos setores e das finais no pacote. Confirmar a função de cada setor, sobretudo dos setores altos (T4, T6 e T13) e se algum setor é dedicado às saídas.
 
 ### Posições combinadas
 
