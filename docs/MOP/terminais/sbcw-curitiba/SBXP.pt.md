@@ -118,7 +118,67 @@ Cada aba mostra um setor elementar, sem as posições combinadas. O setor está 
 
 === "T1"
     <figure markdown="span">
-      ![Setor T1 do APP São Paulo, de 5500 pés a FL245, ao sul da TMA; a parte junto a SBSP pertence à final FSP de 5500 pés a FL100](img/sbxp-setor-t1.svg){ loading=lazy }
+      ![Setor T1 do APP São Paulo, de 5500 pés – FL245](img/sbxp-setor-t1.svg){ loading=lazy }
+    </figure>
+
+=== "T2"
+    <figure markdown="span">
+      ![Setor T2 do APP São Paulo, de 5500 pés – FL245](img/sbxp-setor-t2.svg){ loading=lazy }
+    </figure>
+
+=== "T3"
+    <figure markdown="span">
+      ![Setor T3 do APP São Paulo, de 5500 pés – FL135](img/sbxp-setor-t3.svg){ loading=lazy }
+    </figure>
+
+=== "T4"
+    <figure markdown="span">
+      ![Setor T4 do APP São Paulo, de FL135 – FL245](img/sbxp-setor-t4.svg){ loading=lazy }
+    </figure>
+
+=== "T5"
+    <figure markdown="span">
+      ![Setor T5 do APP São Paulo, de 5500 pés – FL135](img/sbxp-setor-t5.svg){ loading=lazy }
+    </figure>
+
+=== "T6"
+    <figure markdown="span">
+      ![Setor T6 do APP São Paulo, de FL135 – FL245](img/sbxp-setor-t6.svg){ loading=lazy }
+    </figure>
+
+=== "T7"
+    <figure markdown="span">
+      ![Setor T7 do APP São Paulo, de 5500 pés – FL245](img/sbxp-setor-t7.svg){ loading=lazy }
+    </figure>
+
+=== "T8"
+    <figure markdown="span">
+      ![Setor T8 do APP São Paulo, de 5500 pés – FL245](img/sbxp-setor-t8.svg){ loading=lazy }
+    </figure>
+
+=== "T13"
+    <figure markdown="span">
+      ![Setor T13 do APP São Paulo, de FL135 – FL245](img/sbxp-setor-t13.svg){ loading=lazy }
+    </figure>
+
+=== "FGR"
+    <figure markdown="span">
+      ![Setor FGR, final de Guarulhos, do APP São Paulo, de 5500 pés – FL100](img/sbxp-setor-fgr.svg){ loading=lazy }
+    </figure>
+
+=== "FSP"
+    <figure markdown="span">
+      ![Setor FSP, final de Congonhas, do APP São Paulo, de 5500 pés – FL100](img/sbxp-setor-fsp.svg){ loading=lazy }
+    </figure>
+
+=== "FKP"
+    <figure markdown="span">
+      ![Setor FKP, final de Campinas, do APP São Paulo, de 5500 pés – FL100](img/sbxp-setor-fkp.svg){ loading=lazy }
+    </figure>
+
+=== "FSJ"
+    <figure markdown="span">
+      ![Setor FSJ, final de São José dos Campos, do APP São Paulo, de 5500 pés – FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
     </figure>
 
 | Posição | Frequência | Limites | Cobertura |

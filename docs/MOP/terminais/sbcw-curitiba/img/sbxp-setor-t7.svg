@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 560" width="620" height="560" role="img" aria-label="TMA São Paulo: setores do APP" font-family="Ubuntu Sans, Ubuntu, Segoe UI, Roboto, Arial, sans-serif">
+<title>TMA São Paulo: setores do APP</title>
+<rect width="620" height="560" rx="12" fill="#f8fafc"/>
+<defs><pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#fff" fill-opacity="0.55"/><path d="M0,0 V8" stroke="#1e293b" stroke-width="2"/></pattern><clipPath id="clip-alvo"><path d="M289.4,341.0 L286.8,338.6 L184.6,263.7 L187.9,254.5 L229.9,235.1 L302.1,295.2 L331.8,286.1 L348.3,297.6 L354.7,323.0 L500.4,290.2 L548.3,259.5 L574.1,361.0 L310.0,377.2 L289.4,341.0 Z"/></clipPath></defs>
+<path d="M485.6,184.0 L458.9,175.4 L442.0,136.4 L423.7,94.0 L413.4,70.3 L395.3,68.2 L298.4,56.4 L290.6,55.5 L263.3,52.1 L238.0,48.9 L213.9,46.0 L108.5,92.7 L75.1,107.3 L61.0,146.5 L42.3,198.6 L24.0,249.3 L32.2,287.8 L49.4,345.4 L56.1,351.0 L99.7,386.9 L100.6,387.7 L223.6,488.9 L224.6,489.7 L257.6,516.3 L281.8,536.0 L403.1,511.0 L425.3,452.5 L586.8,411.0 L574.1,361.0 L559.3,302.5 L548.3,259.5 L544.9,244.1 L533.1,191.4 L518.8,194.8 L485.6,184.0 Z" fill="#e2e8f0"/>
+<path d="M586.8,411.0 L425.2,452.5 L403.1,511.0 L281.8,536.0 L257.6,516.3 L281.8,408.8 L310.0,377.2 L574.1,361.0 L586.8,411.0 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M32.2,287.8 L24.0,249.3 L61.0,146.5 L175.4,205.4 L182.2,250.6 L187.9,254.5 L182.4,269.7 L156.8,270.9 L56.1,351.0 L49.4,345.4 L32.2,287.8 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M223.6,488.9 L124.9,407.8 L56.1,351.0 L156.8,270.9 L182.4,269.7 L184.6,263.7 L286.8,338.6 L289.4,341.0 L310.0,377.2 L281.8,408.8 L257.6,516.3 L223.6,488.9 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M187.9,254.5 L182.4,269.7 L156.8,270.9 L56.1,351.0 L49.4,345.4 L32.2,287.8 L24.0,249.3 L75.1,107.3 L108.5,92.7 L172.5,178.8 L175.4,205.4 L182.2,250.6 L187.9,254.5 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M182.2,250.6 L175.4,205.4 L61.0,146.5 L75.1,107.3 L213.9,46.0 L298.4,56.4 L196.9,175.6 L187.9,254.5 L182.2,250.6 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M175.4,205.4 L172.5,178.8 L108.5,92.7 L213.9,46.0 L298.4,56.4 L413.4,70.3 L442.0,136.4 L229.9,235.1 L187.9,254.5 L182.2,250.6 L175.4,205.4 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M298.4,56.4 L413.4,70.3 L442.0,136.4 L229.9,235.1 L187.9,254.5 L196.9,175.6 L298.4,56.4 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M500.4,290.2 L354.7,323.0 L348.3,297.6 L331.8,286.1 L302.1,295.2 L229.9,235.1 L442.0,136.4 L458.9,175.4 L518.8,194.8 L533.1,191.4 L548.3,259.5 L500.4,290.2 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M289.4,341.0 L286.8,338.6 L184.6,263.7 L187.9,254.5 L229.9,235.1 L302.1,295.2 L331.8,286.1 L348.3,297.6 L354.7,323.0 L500.4,290.2 L548.3,259.5 L574.1,361.0 L310.0,377.2 L289.4,341.0 Z" fill="#38bdf8" fill-opacity="0.85" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M346.3,407.3 L295.7,430.8 L228.1,323.7 L188.7,306.7 L187.2,265.7 L200.2,275.2 L281.0,305.6 L287.5,315.3 L346.3,407.3 Z" fill="url(#hach)" stroke="#1e293b" stroke-width="1.4" stroke-dasharray="5 3" clip-path="url(#clip-alvo)"/>
+<path d="M287.5,315.3 L281.0,305.6 L200.2,275.2 L184.6,263.7 L187.9,254.5 L229.9,235.1 L433.0,199.8 L420.9,211.2 L459.7,271.6 L287.5,315.3 Z" fill="url(#hach)" stroke="#1e293b" stroke-width="1.4" stroke-dasharray="5 3" clip-path="url(#clip-alvo)"/>
+<path d="M485.6,184.0 L458.9,175.4 L442.0,136.4 L423.7,94.0 L413.4,70.3 L395.3,68.2 L298.4,56.4 L290.6,55.5 L263.3,52.1 L238.0,48.9 L213.9,46.0 L108.5,92.7 L75.1,107.3 L61.0,146.5 L42.3,198.6 L24.0,249.3 L32.2,287.8 L49.4,345.4 L56.1,351.0 L99.7,386.9 L100.6,387.7 L223.6,488.9 L224.6,489.7 L257.6,516.3 L281.8,536.0 L403.1,511.0 L425.3,452.5 L586.8,411.0 L574.1,361.0 L559.3,302.5 L548.3,259.5 L544.9,244.1 L533.1,191.4 L518.8,194.8 L485.6,184.0 Z" fill="none" stroke="#1e293b" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="332.4" cy="291.4" r="3.5" fill="#1e293b"/>
+<text x="338.4" y="304.4" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBGR</text>
+<circle cx="290.0" cy="339.3" r="3.5" fill="#1e293b"/>
+<text x="296.0" y="352.3" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBSP</text>
+<circle cx="179.3" cy="183.5" r="3.5" fill="#1e293b"/>
+<text x="185.3" y="196.5" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBKP</text>
+<circle cx="473.9" cy="239.4" r="3.5" fill="#1e293b"/>
+<text x="479.9" y="252.4" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBSJ</text>
+<text x="515.7" y="326.0" text-anchor="middle" font-size="26" font-weight="800" fill="#1e293b" paint-order="stroke" stroke="#fff" stroke-width="5">T7</text>
+<text x="515.7" y="348.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b" paint-order="stroke" stroke="#fff" stroke-width="4">5500 FT – FL245</text>
+<path d="M255.1,277.0 L370.7,277.0" stroke="#1e293b" stroke-width="1.2"/>
+<circle cx="255.1" cy="277.0" r="2.5" fill="#1e293b"/>
+<text x="374.7" y="281.0" text-anchor="start" font-size="12" font-weight="700" fill="#1e293b" paint-order="stroke" stroke="#fff" stroke-width="4">FGR 5500 FT – FL100</text>
+<path d="M274.2,323.4 L349.1,323.4" stroke="#1e293b" stroke-width="1.2"/>
+<circle cx="274.2" cy="323.4" r="2.5" fill="#1e293b"/>
+<text x="353.1" y="327.4" text-anchor="start" font-size="12" font-weight="700" fill="#1e293b" paint-order="stroke" stroke="#fff" stroke-width="4">FSP 5500 FT – FL100</text>
+</svg>

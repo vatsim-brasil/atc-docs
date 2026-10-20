@@ -94,6 +94,24 @@ def ponto_rotulo(poli, evitar=()):
     return melhor
 
 
+def pontos_comuns(a, b, n=90):
+    """Amostra de pontos dentro dos dois polígonos (aproxima a interseção)."""
+    xs, ys = [p[0] for p in a], [p[1] for p in a]
+    passo = max(max(xs) - min(xs), max(ys) - min(ys)) / n
+    res, total = [], 0
+    y = min(ys)
+    while y <= max(ys):
+        x = min(xs)
+        while x <= max(xs):
+            if dentro((x, y), a):
+                total += 1
+                if dentro((x, y), b):
+                    res.append((x, y))
+            x += passo
+        y += passo
+    return res, total
+
+
 def nivel(ft):
     return f"FL{ft // 100:03d}" if ft >= 10000 else f"{ft} FT"
 
@@ -111,13 +129,14 @@ def mapa_setor(alvo, setores, tma, proj, caminho, W):
     # finais que tomam parte do setor abaixo de FL100: hachuradas, recortadas no setor
     tomadas = []
     for f in setores:
-        if f["rot"].startswith("F") and f["max"] > alvo["min"]:
+        if f is not alvo and not alvo["rot"].startswith("F") and f["rot"].startswith("F") and f["max"] > alvo["min"]:
             poli = [proj(p, 0) for p in f["contorno"]]
             alvo_poli = [proj(p, 0) for p in alvo["contorno"]]
-            if any(dentro(p, alvo_poli) for p in poli) or any(dentro(p, poli) for p in alvo_poli):
+            comuns, total = pontos_comuns(alvo_poli, poli)
+            if total and len(comuns) / total > 0.01:  # só sobreposição real, não divisa
                 out.append(f'<path d="{caminho(f["contorno"], 0)}" fill="url(#hach)" stroke="{INK}" stroke-width="1.4" '
                            'stroke-dasharray="5 3" clip-path="url(#clip-alvo)"/>')
-                tomadas.append((f, poli))
+                tomadas.append((f, poli, comuns))
     out.append(f'<path d="{caminho(tma, 0)}" fill="none" stroke="{INK}" stroke-width="2.6" stroke-linejoin="round"/>')
     for icao, p in AERODROMOS.items():
         x, y = proj(p, 0)
@@ -125,21 +144,30 @@ def mapa_setor(alvo, setores, tma, proj, caminho, W):
         out.append(f'<text x="{x + 6:.1f}" y="{y + 13:.1f}" font-size="10.5" fill="{MUTED}" font-weight="600" '
                    f'paint-order="stroke" stroke="#fff" stroke-width="3">{icao}</text>')
     alvo_poli = [proj(p, 0) for p in alvo["contorno"]]
-    x, y = ponto_rotulo(alvo_poli, [poli for _, poli in tomadas])
+    x, y = ponto_rotulo(alvo_poli, [t[1] for t in tomadas])
     out.append(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="middle" font-size="26" font-weight="800" fill="{INK}" '
                f'paint-order="stroke" stroke="#fff" stroke-width="5">{alvo["rot"]}</text>')
     out.append(f'<text x="{x:.1f}" y="{y + 22:.1f}" text-anchor="middle" font-size="14" font-weight="700" fill="{INK}" '
                f'paint-order="stroke" stroke="#fff" stroke-width="4">{nivel(alvo["min"])} – {nivel(alvo["max"])}</text>')
-    for f, poli in tomadas:
-        # rótulo à direita da parte hachurada, com linha de chamada
-        pts = [p for p in poli if dentro(p, alvo_poli)] + [p for p in alvo_poli if dentro(p, poli)]
-        pts = pts or poli
+    usados = [(x, y)]  # posições já ocupadas por rótulos
+    for f, poli, pts in sorted(tomadas, key=lambda t: sum(p[1] for p in t[2]) / len(t[2])):
         hx = sum(p[0] for p in pts) / len(pts)
         hy = sum(p[1] for p in pts) / len(pts)
-        lx, ly = max(p[0] for p in pts) + 34, hy + 4
-        out.append(f'<path d="M{hx:.1f},{hy:.1f} L{lx - 4:.1f},{ly - 4:.1f}" stroke="{INK}" stroke-width="1.2"/>')
-        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" font-size="12" font-weight="700" fill="{INK}" '
-                   f'paint-order="stroke" stroke="#fff" stroke-width="4">{f["rot"]} {nivel(f["min"])} – {nivel(f["max"])}</text>')
+        texto = f'{f["rot"]} {nivel(f["min"])} – {nivel(f["max"])}'
+        largura_txt = 7.2 * len(texto)
+        lx = max(p[0] for p in pts) + 30
+        anchor = "start"
+        if lx + largura_txt > W - 8:  # não cabe à direita: vai para a esquerda
+            lx, anchor = min(p[0] for p in pts) - 30, "end"
+        ly = hy + 4
+        while any(abs(ly - uy) < 18 and abs(lx - ux) < largura_txt for ux, uy in usados):
+            ly += 18
+        usados.append((lx, ly))
+        fim = lx - 4 if anchor == "start" else lx + 4
+        out.append(f'<path d="M{hx:.1f},{hy:.1f} L{fim:.1f},{ly - 4:.1f}" stroke="{INK}" stroke-width="1.2"/>')
+        out.append(f'<circle cx="{hx:.1f}" cy="{hy:.1f}" r="2.5" fill="{INK}"/>')
+        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-size="12" font-weight="700" fill="{INK}" '
+                   f'paint-order="stroke" stroke="#fff" stroke-width="4">{texto}</text>')
     return out
 
 
