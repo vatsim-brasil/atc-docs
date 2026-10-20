@@ -215,7 +215,7 @@ Cada aba mostra um setor elementar, sem as posições combinadas. O setor está 
 | `SBXP_N_APP` | **120.250** | `SBXP_NU_APP`, `SBXP_NL_APP` |
 | `SBXP_S_APP` | **129.000** | `SBXP_T1_APP`, `SBXP_T2_APP` |
 
-Cada aba mostra a área que a posição combinada assume. Os setores aparecem preenchidos e divididos por tracejado branco. Quando a combinação junta camadas diferentes, cada setor traz os seus limites. Hachurado: área das finais, que a combinada também assume se a final estiver fechada.
+Cada aba mostra a área consolidada que a posição combinada assume, com os limites verticais abaixo do nome. A composição está na coluna *Assume* da tabela e nos [mapas dos setores](#setorizacao-do-app).
 
 === "SBXP_APP"
     <figure markdown="span">

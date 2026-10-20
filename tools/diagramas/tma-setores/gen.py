@@ -194,94 +194,65 @@ def mapa_setor(alvo, setores, tma, proj, caminho, W):
     return out
 
 
+def polo_uniao(polis, n=120, obstaculos=(), raio=0):
+    """Ponto interno da união de polígonos mais longe da borda (grade + distância)."""
+    xs = [p[0] for poli in polis for p in poli]
+    ys = [p[1] for poli in polis for p in poli]
+    passo = max(max(xs) - min(xs), max(ys) - min(ys)) / n
+    nx, ny = int((max(xs) - min(xs)) / passo) + 1, int((max(ys) - min(ys)) / passo) + 1
+    def livre(x, y):
+        return any(dentro((x, y), poli) for poli in polis) and all(
+            math.hypot(x - ox, y - oy) > raio for ox, oy in obstaculos)
+    dentro_g = [[livre(min(xs) + i * passo, min(ys) + j * passo) for i in range(nx)] for j in range(ny)]
+    # distância (em células) até a célula de fora mais próxima, por varredura em largura
+    from collections import deque
+    dist = [[0 if not dentro_g[j][i] else None for i in range(nx)] for j in range(ny)]
+    fila = deque((i, j) for j in range(ny) for i in range(nx) if dist[j][i] == 0)
+    for j in range(ny):
+        for i in range(nx):
+            if dist[j][i] is None and (i in (0, nx - 1) or j in (0, ny - 1)):
+                dist[j][i] = 1
+                fila.append((i, j))
+    while fila:
+        i, j = fila.popleft()
+        for di, dj in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            a, b = i + di, j + dj
+            if 0 <= a < nx and 0 <= b < ny and dist[b][a] is None:
+                dist[b][a] = dist[j][i] + 1
+                fila.append((a, b))
+    j, i = max(((j, i) for j in range(ny) for i in range(nx)), key=lambda c: dist[c[0]][c[1]])
+    return min(xs) + i * passo, min(ys) + j * passo
+
+
 def mapa_combinado(nome, membros, setores, tma, proj, caminho, W, cor):
-    """Setores de uma posição combinada preenchidos; finais hachuradas por cima."""
-    ts = [m for m in membros if not m["rot"].startswith("F")]
-    fs = [m for m in membros if m["rot"].startswith("F")]
-    clip = "".join(f'<path d="{caminho(m["contorno"], 0)}"/>' for m in ts)
-    out = ['<defs><pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
-           f'<rect width="8" height="8" fill="#fff" fill-opacity="0.55"/><path d="M0,0 V8" stroke="{INK}" stroke-width="2"/></pattern>'
-           f'<clipPath id="clip-alvo">{clip}</clipPath></defs>']
-    out.append(f'<path d="{caminho(tma, 0)}" fill="#e2e8f0"/>')
+    """Área consolidada de uma posição combinada, sem as divisas internas."""
+    out = [f'<path d="{caminho(tma, 0)}" fill="#e2e8f0"/>']
     for s in setores:
-        if s not in ts and not s["rot"].startswith("F"):
+        if s not in membros and not s["rot"].startswith("F"):
             out.append(f'<path d="{caminho(s["contorno"], 0)}" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>')
-    for m in ts:
-        out.append(f'<path d="{caminho(m["contorno"], 0)}" fill="{cor}" fill-opacity="0.85" stroke="{cor}" stroke-width="2" stroke-linejoin="round"/>')
-    for m in ts:  # divisas internas
-        out.append(f'<path d="{caminho(m["contorno"], 0)}" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 4"/>')
-    # finais dentro da área: as assumidas explicitamente e as que caem nos setores membros
-    tomadas = []
-    for f in setores:
-        if not f["rot"].startswith("F"):
-            continue
-        poli = [proj(p, 0) for p in f["contorno"]]
-        comuns = []
-        for m in ts:
-            if f["max"] <= m["min"]:  # final abaixo do setor: não toma parte dele
-                continue
-            c, total = pontos_comuns([proj(p, 0) for p in m["contorno"]], poli)
-            if total and len(c) / total > 0.01:
-                comuns += c
-        if f in fs:
-            comuns = comuns or [(x, y) for x, y in poli]
-            out.append(f'<path d="{caminho(f["contorno"], 0)}" fill="url(#hach)" stroke="{INK}" stroke-width="1.4" stroke-dasharray="5 3"/>')
-        elif comuns:
-            out.append(f'<path d="{caminho(f["contorno"], 0)}" fill="url(#hach)" stroke="{INK}" stroke-width="1.4" '
-                       'stroke-dasharray="5 3" clip-path="url(#clip-alvo)"/>')
-        if comuns:
-            tomadas.append((f, poli, comuns))
+    # todos os membros com a mesma cor e contorno da mesma cor: as divisas internas somem
+    # cor opaca (equivale a 85% sobre o cinza): as divisas dos outros setores não aparecem por baixo
+    base = [0xE2, 0xE8, 0xF0]
+    rgb = [int(cor[k:k + 2], 16) for k in (1, 3, 5)]
+    cor = "#" + "".join(f"{round(0.85 * c + 0.15 * b):02x}" for c, b in zip(rgb, base))
+    out.append(f'<g>' + "".join(
+        f'<path d="{caminho(m["contorno"], 0)}" fill="{cor}" stroke="{cor}" stroke-width="3.5" stroke-linejoin="round"/>'
+        for m in membros) + '</g>')
     out.append(f'<path d="{caminho(tma, 0)}" fill="none" stroke="{INK}" stroke-width="2.6" stroke-linejoin="round"/>')
     for icao, p in AERODROMOS.items():
         x, y = proj(p, 0)
         out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="{INK}"/>')
         out.append(f'<text x="{x + 6:.1f}" y="{y + 13:.1f}" font-size="10.5" fill="{MUTED}" font-weight="600" '
                    f'paint-order="stroke" stroke="#fff" stroke-width="3">{icao}</text>')
-    usados = []
-    evitar = [t[1] for t in tomadas]
-    camadas = len({(m["min"], m["max"]) for m in ts}) > 1
-    for m in ts:  # setores maiores primeiro, para os menores desviarem dos rótulos
-        poli = [proj(p, 0) for p in m["contorno"]]
-        x, y = ponto_rotulo(poli, evitar)
-        usados.append((x - 34, y - 16, x + 34, y + (24 if camadas else 8)))
-        evitar.append([(x - 34, y - 16), (x + 34, y - 16), (x + 34, y + 24), (x - 34, y + 24)])
-        out.append(f'<text x="{x:.1f}" y="{y + 4:.1f}" text-anchor="middle" font-size="17" font-weight="800" fill="{INK}" '
-                   f'paint-order="stroke" stroke="#fff" stroke-width="4">{m["rot"]}</text>')
-        if camadas:  # com camadas diferentes, cada rótulo leva os seus limites
-            out.append(f'<text x="{x:.1f}" y="{y + 19:.1f}" text-anchor="middle" font-size="10.5" font-weight="700" fill="{INK}" '
-                       f'paint-order="stroke" stroke="#fff" stroke-width="3">{nivel(m["min"])} – {nivel(m["max"])}</text>')
-    for f, poli, pts in sorted(tomadas, key=lambda t: sum(p[1] for p in t[2]) / len(t[2])):
-        hx = sum(p[0] for p in pts) / len(pts)
-        hy = sum(p[1] for p in pts) / len(pts)
-        texto = f'{f["rot"]} {nivel(f["min"])} – {nivel(f["max"])}'
-        largura_txt = 7.2 * len(texto)
-        lx, anchor = max(p[0] for p in pts) + 30, "start"
-        if lx + largura_txt > W - 8:
-            lx, anchor = min(p[0] for p in pts) - 30, "end"
-
-        def caixa(ly):
-            x0 = lx if anchor == "start" else lx - largura_txt
-            return (x0 - 3, ly - 13, x0 + largura_txt + 3, ly + 4)
-
-        def colide(c):
-            return any(c[0] < u[2] and u[0] < c[2] and c[1] < u[3] and u[1] < c[3] for u in usados)
-
-        ly = hy + 4
-        for k in range(1, 30):  # procura a vaga livre mais próxima, alternando acima e abaixo
-            if not colide(caixa(ly)):
-                break
-            ly = hy + 4 + (k + 1) // 2 * 18 * (1 if k % 2 else -1)
-        usados.append(caixa(ly))
-        fim = lx - 4 if anchor == "start" else lx + 4
-        out.append(f'<path d="M{hx:.1f},{hy:.1f} L{fim:.1f},{ly - 4:.1f}" stroke="{INK}" stroke-width="1.2"/>')
-        out.append(f'<circle cx="{hx:.1f}" cy="{hy:.1f}" r="2.5" fill="{INK}"/>')
-        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-size="12" font-weight="700" fill="{INK}" '
-                   f'paint-order="stroke" stroke="#fff" stroke-width="4">{texto}</text>')
-    # cabeçalho: nome da combinada e limites
-    lo = min(m["min"] for m in ts)
-    hi = max(m["max"] for m in ts)
-    out.append(f'<text x="22" y="40" font-size="26" font-weight="800" fill="{INK}">{nome}</text>')
-    out.append(f'<text x="22" y="62" font-size="14" font-weight="700" fill="{MUTED}">{nivel(lo)} – {nivel(hi)}</text>')
+    # o rótulo (nome e limites) desvia dos aeródromos
+    x, y = polo_uniao([[proj(p, 0) for p in m["contorno"]] for m in membros],
+                      obstaculos=[proj(p, 0) for p in AERODROMOS.values()], raio=45)
+    lo = min(m["min"] for m in membros)
+    hi = max(m["max"] for m in membros)
+    out.append(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="middle" font-size="24" font-weight="800" fill="{INK}" '
+               f'paint-order="stroke" stroke="#fff" stroke-width="5">{nome}</text>')
+    out.append(f'<text x="{x:.1f}" y="{y + 22:.1f}" text-anchor="middle" font-size="14" font-weight="700" fill="{INK}" '
+               f'paint-order="stroke" stroke="#fff" stroke-width="4">{nivel(lo)} – {nivel(hi)}</text>')
     return out
 
 
