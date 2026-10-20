@@ -263,6 +263,7 @@ A TMA trabalha com as pistas em uso nos três aeródromos principais. Cada Torre
 As STAR mudam com frequência, por isso esta página não as lista. Consulte sempre a carta vigente na aba **Cartas Aeronáuticas**, em [Informações Úteis](#informacoes-uteis).
 
 - Todas as STAR da TMA são **RNAV 1**. Aeronave sem GNSS só voa a STAR com vigilância ATS[^cartas].
+- **Aeronave sem RNAV, ou que não vai voar a STAR:** trate caso a caso. Em geral, dê **proas diretas** para o IAF ou **vetore** até a final, com nível e velocidade explícitos.
 - A STAR depende da **pista em uso**. Autorize a STAR da pista informada no ATIS e, se a pista mudar, autorize de novo a STAR da nova pista.
 - Respeite as restrições de nível e de velocidade da carta. Ao vetorar para fora da STAR, a aeronave deixa de cumpri-las: dê nível e velocidade explicitamente.
 - As STAR terminam no **IAF** do procedimento de aproximação. Depois dele, autorize a aproximação ou vetore para a final.
@@ -271,7 +272,12 @@ As STAR mudam com frequência, por isso esta página não as lista. Consulte sem
 
 As STAR de SBGR convergem para um **ponto único** ao norte do aeródromo (o **SANPA**, nas cartas atuais) e dali seguem para o IAF da pista em uso.
 
-Parte delas tem um **arco de sequenciamento**: a aeronave voa nivelada, a uma distância constante do ponto de convergência, até receber **"direto"** para ele. Assim o controlador espaça as chegadas sem vetorar. As mesmas entradas têm versões **diretas**, sem arco, para pouco movimento.
+Cada entrada tem duas versões de STAR:
+
+- **Direta, sem arco:** é a padrão. **No dia a dia, use sempre as chegadas diretas.**
+- **Com arco de sequenciamento (*point merge*):** só para **grande volume de tráfego**, quando a sequência não se resolve com as diretas e alguns ajustes de velocidade ou vetores.
+
+No arco, a aeronave voa nivelada, a uma distância constante do ponto de convergência, até receber **"direto"** para ele. Assim o controlador espaça as chegadas sem vetorar.
 
 ??? info "O que é o *point merge*"
     O *point merge* é uma técnica de sequenciamento de chegadas criada pelo EUROCONTROL. Em vez de vetorar cada aeronave, o controlador usa uma **estrutura fixa de rotas RNAV** e só decide **quando** cada aeronave sai dela.
@@ -295,18 +301,16 @@ Parte delas tem um **arco de sequenciamento**: a aeronave voa nivelada, a uma di
     3. Todas voam a **mesma trajetória** para M, uma atrás da outra. O espaçamento é o mínimo de separação ou o de esteira, o que for maior.
     4. A partir de M, a aeronave segue a STAR até o IAF e a aproximação.
 
-    **Por que usar:** menos vetores e menos transmissões, descida contínua a partir da saída do arco e trajetórias previsíveis para todos. Se o arco termina sem instrução, a aeronave segue a STAR até M (nas cartas de SBGR, o fim do arco já leva ao ponto de convergência). Se a demanda passa da capacidade dos arcos, use a **espera**.
+    **Quando usar:** só com **grande volume de tráfego**. Com o arco, cada chegada voa mais do que pela STAR direta, então no movimento normal ele só atrasa. No dia a dia, use as chegadas diretas.
+
+    **Vantagens no pico:** menos vetores e menos transmissões, descida contínua a partir da saída do arco e trajetórias previsíveis para todos. Se o arco termina sem instrução, a aeronave segue a STAR até M (nas cartas de SBGR, o fim do arco já leva ao ponto de convergência). Se a demanda passa da capacidade dos arcos, use a **espera**.
 
 !!! tip "Usando o *point merge*"
-    1. Autorize a STAR com arco e deixe a aeronave seguir no nível do arco.
+    1. Com o movimento alto, autorize a STAR com arco e deixe a aeronave seguir no nível do arco.
     2. Quando o espaçamento para a aeronave à frente for suficiente (veja a [esteira](../../../documentos/manuais/separacao-esteira/index.pt.md)), autorize **direto** para o ponto de convergência e a descida.
     3. A partir dele, a aeronave segue a STAR até o IAF; vetore para a final se precisar ajustar.
 
     Exemplo: `TAM3456, direto SANPA, desça FL100.`
-
-!!! question "Revisar"
-    - Na rede, o APP deve usar as STAR com arco sempre, ou só com movimento?
-    - Quando uma STAR não serve (aeronave sem RNAV, plano sem STAR), o padrão é vetorar ou autorizar a STAR mesmo assim?
 
 ---
 
