@@ -273,6 +273,30 @@ As STAR de SBGR convergem para um **ponto único** ao norte do aeródromo (o **S
 
 Parte delas tem um **arco de sequenciamento**: a aeronave voa nivelada, a uma distância constante do ponto de convergência, até receber **"direto"** para ele. Assim o controlador espaça as chegadas sem vetorar. As mesmas entradas têm versões **diretas**, sem arco, para pouco movimento.
 
+??? info "O que é o *point merge*"
+    O *point merge* é uma técnica de sequenciamento de chegadas criada pelo EUROCONTROL. Em vez de vetorar cada aeronave, o controlador usa uma **estrutura fixa de rotas RNAV** e só decide **quando** cada aeronave sai dela.
+
+    <figure markdown="span">
+      ![Dois arcos em níveis diferentes, ambos à mesma distância d do ponto de convergência M, com uma rota comum de M até o IAF e a pista](img/point-merge-estrutura.svg){ loading=lazy }
+      <figcaption>Estrutura. Azul e verde: arcos de sequenciamento dos fluxos A e B, em níveis diferentes. Tracejado: qualquer ponto de um arco está à mesma distância <em>d</em> do ponto de convergência M. Preto: rota comum de M até o IAF e a pista. Níveis ilustrativos.</figcaption>
+    </figure>
+
+    - **Ponto de convergência (M):** onde todos os fluxos se juntam. Dali a rota é uma só até o IAF.
+    - **Arcos de sequenciamento:** trechos curvos em que a aeronave voa **nivelada**, sempre à mesma distância de M. Por isso, ao receber **"direto M"**, qualquer aeronave no arco tem o mesmo percurso restante, e o espaçamento depende só de **quando** ela sai.
+    - **Níveis diferentes:** cada fluxo tem o seu arco, num nível próprio, e os arcos são voados em sentidos opostos. Os dois fluxos ficam separados verticalmente até a saída do arco.
+
+    <figure markdown="span">
+      ![Aeronaves voando os arcos; uma recebe direto para M e segue atrás de duas que já estão a caminho de M, com espaçamento mínimo entre elas](img/point-merge-sequencia.svg){ loading=lazy }
+      <figcaption>Sequenciamento. Laranja: aeronave que acabou de receber "direto M". Preto: aeronaves à frente, já na mesma trajetória para M, espaçadas.</figcaption>
+    </figure>
+
+    1. A aeronave entra no arco e segue **nivelada**, na velocidade da carta.
+    2. Quando a aeronave à frente já se afastou o suficiente, o controlador autoriza **direto M** e a descida. O ponto em que ela deixa o arco define o espaçamento.
+    3. Todas voam a **mesma trajetória** para M, uma atrás da outra. O espaçamento é o mínimo de separação ou o de esteira, o que for maior.
+    4. A partir de M, a aeronave segue a STAR até o IAF e a aproximação.
+
+    **Por que usar:** menos vetores e menos transmissões, descida contínua a partir da saída do arco e trajetórias previsíveis para todos. Se o arco termina sem instrução, a aeronave segue a STAR até M (nas cartas de SBGR, o fim do arco já leva ao ponto de convergência). Se a demanda passa da capacidade dos arcos, use a **espera**.
+
 !!! tip "Usando o *point merge*"
     1. Autorize a STAR com arco e deixe a aeronave seguir no nível do arco.
     2. Quando o espaçamento para a aeronave à frente for suficiente (veja a [esteira](../../../documentos/manuais/separacao-esteira/index.pt.md)), autorize **direto** para o ponto de convergência e a descida.
