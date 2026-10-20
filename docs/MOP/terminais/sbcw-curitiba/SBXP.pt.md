@@ -215,6 +215,38 @@ Cada aba mostra um setor elementar, sem as posições combinadas. O setor está 
 | `SBXP_N_APP` | **120.250** | `SBXP_NU_APP`, `SBXP_NL_APP` |
 | `SBXP_S_APP` | **129.000** | `SBXP_T1_APP`, `SBXP_T2_APP` |
 
+Cada aba mostra a área que a posição combinada assume. Os setores aparecem preenchidos e divididos por tracejado branco. Quando a combinação junta camadas diferentes, cada setor traz os seus limites. Hachurado: área das finais, que a combinada também assume se a final estiver fechada.
+
+=== "SBXP_APP"
+    <figure markdown="span">
+      ![Posição combinada SBXP_APP: toda a TMA](img/sbxp-comb-app.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_S_APP"
+    <figure markdown="span">
+      ![Posição combinada SBXP_S_APP: setores T1 e T2, ao sul](img/sbxp-comb-s.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_E_APP"
+    <figure markdown="span">
+      ![Posição combinada SBXP_E_APP: setores T7 e T8 e a final de São José, a leste](img/sbxp-comb-e.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_N_APP"
+    <figure markdown="span">
+      ![Posição combinada SBXP_N_APP: setores T3, T4, T5, T6 e T13, ao norte e oeste](img/sbxp-comb-n.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_NL_APP"
+    <figure markdown="span">
+      ![Posição combinada SBXP_NL_APP: setores T3 e T5, camada baixa ao norte e oeste](img/sbxp-comb-nl.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_NU_APP"
+    <figure markdown="span">
+      ![Posição combinada SBXP_NU_APP: setores T4, T6 e T13, camada alta ao norte e oeste](img/sbxp-comb-nu.svg){ loading=lazy }
+    </figure>
+
 ## :material-headset: Órgãos ATC
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
