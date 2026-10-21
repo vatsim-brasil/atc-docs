@@ -421,12 +421,12 @@ Procedimento de aproximação (IAC) normal de cada pista, a alternativa RNP e os
 === "SBGR"
     | Pista | Padrão | IAF | Alternativa RNP | Outros |
     | :---: | :--- | :---: | :--- | :--- |
-    | **10R** | **ILS Q** | LOMEN | RNP X | **Operação segregada em curso:** ILS Y ou RNP Y (mínimos maiores, curva imediata à direita na arremetida). **Baixa visibilidade:** ILS Q CAT II & III. Sem GNSS: ILS P ou LOC P (radar requerido). ILS R: a partir de GR283, exige RF |
-    | **28L** | **ILS W** | UTKUG | RNP X | **Operação segregada em curso:** ILS Y ou RNP Z. Sem GNSS: ILS Z ou LOC Z (radar requerido) |
+    | **10R** | **ILS Y** (operação segregada) | LOMEN | RNP Y | **Sem operação segregada:** ILS Q ou RNP X (alternativos). **Baixa visibilidade:** ILS Q CAT II & III. Sem GNSS: ILS P ou LOC P (radar requerido). ILS R: a partir de GR283, exige RF |
+    | **28L** | **ILS Y** (operação segregada) | UTKUG | RNP Z | **Sem operação segregada:** ILS W ou RNP X (alternativos). Sem GNSS: ILS Z ou LOC Z (radar requerido) |
     | **10L** | **ILS O** ou **ILS W** (CAT I e II) | LOMEN | RNP T ou RNP W | Sem GNSS: ILS N ou LOC N. RNP S (AR): autorização especial |
     | **28R** | **ILS T** ou **ILS M** | UTKUG | RNP V ou RNP M | Sem GNSS: ILS W ou LOC W (arco DME) |
 
-    A 10R e a 28L são as pistas de pouso; a 10L e a 28R recebem pousos só fora da operação normal (ver [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md#pistas-preferenciais)). Não há CAT II ou III na 28L e na 28R.
+    A 10R e a 28L são as pistas de pouso. Aplique a [operação segregada](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md#operacao-segregada) sempre que possível: nas duas pistas o ILS Y é o padrão (na 10R, com mínimos maiores e curva imediata à direita na arremetida); o ILS Q (10R) e o ILS W (28L) ficam como alternativos. Já a 10L e a 28R recebem pousos só fora da operação normal (ver [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md#pistas-preferenciais)). Não há CAT II ou III na 28L e na 28R.
 
 === "SBSP"
     | Pista | Padrão | IAF | Alternativa RNP | Outros |
@@ -462,11 +462,10 @@ Procedimento de aproximação (IAC) normal de cada pista, a alternativa RNP e os
 - **AR** (*Authorization Required*): RNP AR exige aprovação especial da aeronave e da tripulação. Só autorize se o piloto pedir.
 - **Sem GNSS:** as versões convencionais usam VOR e DME e servem para aeronaves que não podem voar RNAV.
 
-<small>Fonte: cartas IAC de cada aeródromo no AISWEB (AIRAC 2209A1 a 2609A1). As cartas não dizem qual procedimento é o padrão; o critério usado aqui é ILS CAT I a partir do IAF em que a STAR termina, ou RNP onde não há ILS.</small>
+<small>Fonte: cartas IAC de cada aeródromo no AISWEB (AIRAC 2209A1 a 2609A1). As cartas não dizem qual procedimento é o padrão; o critério usado aqui é ILS CAT I a partir do IAF em que a STAR termina, ou RNP onde não há ILS. Exceção: na 10R e na 28L de SBGR, o padrão é o ILS Y da operação segregada.</small>
 
 !!! question "Revisar"
     - Em SBGR há dois pares equivalentes nas pistas 10L e 28R: ILS O e RNP T ou ILS W e RNP W (10L), ILS T e RNP V ou ILS M e RNP M (28R). As cartas novas (W e M, de março de 2026) mudam a arremetida para o ISIMU. Qual par usar na rede?
-    - Na 10R e na 28L, o ILS Y e o RNP Y/Z valem só com operação segregada em curso. Na rede, a operação segregada deve ser a padrão em VMC (como no AIP) ou só com movimento?
 
 ---
 
