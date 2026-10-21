@@ -112,7 +112,7 @@ Clique em um volume para ver os limites e a classe. Use o controle de camadas pa
 
 ## :material-view-grid-outline: Setorização do APP
 
-O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP** no mapa para vê-los. Quem assume um setor fechado está em [Posições combinadas](#posicoes-combinadas) e no diagrama de [cobertura](#cobertura-top-down).
+O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP (elementares)** no mapa para vê-los, ou a camada de uma posição combinada para ver a área consolidada que ela assume. Quem assume um setor fechado está em [Posições combinadas](#posicoes-combinadas) e no diagrama de [cobertura](#cobertura-top-down).
 
 Cada aba mostra um setor elementar, sem as posições combinadas. O setor está preenchido, com os limites verticais abaixo do nome; o resto da TMA aparece em cinza. Hachurado: parte do setor que, abaixo de FL100, pertence a uma final.
 
@@ -713,6 +713,43 @@ setores.forEach(function (s, k) {
         .addTo(grupoSetores);
 });
 
+// Posições combinadas (tabela "Posições combinadas"): cada uma vira uma camada com a área consolidada
+const combinadas = {
+    "SBXP_APP": { "freq": "119.600", "assume": ["SBXP_S_APP", "SBXP_E_APP", "SBXP_N_APP"], "cor": "#38bdf8" },
+    "SBXP_S_APP": { "freq": "129.000", "assume": ["SBXP_T1_APP", "SBXP_T2_APP"], "cor": "#60a5fa" },
+    "SBXP_E_APP": { "freq": "134.650", "assume": ["SBSJ_F_APP", "SBXP_T7_APP", "SBXP_T8_APP"], "cor": "#34d399" },
+    "SBXP_N_APP": { "freq": "120.250", "assume": ["SBXP_NU_APP", "SBXP_NL_APP"], "cor": "#f472b6" },
+    "SBXP_NL_APP": { "freq": "120.925", "assume": ["SBXP_T3_APP", "SBXP_T5_APP"], "cor": "#fb923c" },
+    "SBXP_NU_APP": { "freq": "130.050", "assume": ["SBXP_T13_APP", "SBXP_T4_APP", "SBXP_T6_APP"], "cor": "#a78bfa" }
+};
+function expandir(posicao) {
+    if (!combinadas[posicao]) return [posicao];
+    return combinadas[posicao].assume.reduce(function (r, p) { return r.concat(expandir(p)); }, []);
+}
+function pes(t) {
+    return t.indexOf('FL') === 0 ? 100 * parseInt(t.slice(2), 10) : parseInt(t, 10);
+}
+function nivel(ft) {
+    return ft >= 10000 ? 'FL' + String(ft / 100).padStart(3, '0') : ft + ' FT';
+}
+var gruposCombinados = {};
+Object.keys(combinadas).forEach(function (nome) {
+    var c = combinadas[nome];
+    var membros = setores.filter(function (s) { return expandir(nome).indexOf(s.posicao) >= 0; });
+    var lim = membros.map(function (s) { return s.lim.split(' – ').map(pes); });
+    var texto = nivel(Math.min.apply(null, lim.map(function (l) { return l[0]; }))) + ' – ' +
+        nivel(Math.max.apply(null, lim.map(function (l) { return l[1]; })));
+    // Polígonos opacos da mesma cor num painel próprio, com a transparência no painel: as divisas internas somem
+    var grupo = L.featureGroup();
+    membros.forEach(function (s) {
+        L.polygon(s.contorno.map(paraLatLng), { pane: 'comb-' + nome, color: c.cor, fillColor: c.cor, weight: 2, fillOpacity: 1 })
+            .bindPopup('<b>' + nome + '</b><br>' + c.freq + ' MHz<br>' + texto + '<br>Assume ' +
+                membros.map(function (m) { return m.posicao; }).join(', '))
+            .addTo(grupo);
+    });
+    gruposCombinados[nome] = grupo;
+});
+
 volumes.forEach(function (v) {
     // A cor segue a classe do volume inferior (ex.: A/C é desenhado como C)
     var cor = cores[v.classe.split('/').pop()];
@@ -742,16 +779,24 @@ var mapa = L.map('mapa-tma', {
 
 mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
 
+var camadas = {
+    "TMAs": grupoTma,
+    "CTRs": grupoCtr,
+    "Limite da FIR": grupoFir,
+    "Setores do APP (elementares)": grupoSetores
+};
+Object.keys(gruposCombinados).forEach(function (nome) {
+    // Dentro do overlayPane, que o CSS do Leaflet protege do max-width do tema
+    var painel = mapa.createPane('comb-' + nome, mapa.getPane('overlayPane'));
+    painel.style.opacity = 0.35;
+    camadas['Combinada ' + nome] = gruposCombinados[nome];
+});
+
 L.control.layers({
     "Claro": tileMapaClaro,
     "Escuro": tileMapaEscuro,
     "Arcgis Satélite": tileMapaSatelite
-}, {
-    "TMAs": grupoTma,
-    "CTRs": grupoCtr,
-    "Limite da FIR": grupoFir,
-    "Setores do APP": grupoSetores
-}).addTo(mapa);
+}, camadas).addTo(mapa);
 
 // Legenda das classes
 var legenda = L.control({ position: 'bottomleft' });
