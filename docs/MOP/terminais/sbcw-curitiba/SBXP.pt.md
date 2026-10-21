@@ -312,19 +312,15 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 
 ## :material-account-group-outline: Abertura das posições
 
-O pacote divide a TMA em muitos setores, mas na rede quase sempre há um só controlador. Abra as posições na ordem abaixo, conforme o movimento. Cada posição assume os setores das posições fechadas abaixo dela (ver [Setorização do APP](#setorizacao-do-app) e o diagrama de cobertura).
+O pacote divide a TMA em muitos setores, mas na rede quase sempre há um só controlador, no `SBXP_APP`. A abertura de setores segue a [Política de Abertura de Setores ATC](https://vatsim.com.br/documentos/politica-de-abertura-de-setores-atc){ target="_blank" } da VATSIM Brasil.
 
-| Controladores | Posições abertas | Observação |
-| :---: | :--- | :--- |
-| **1** | `SBXP_APP` | Toda a TMA |
-| **2** | `SBXP_S_APP` + `SBXP_APP` | O Sul (setores 1 e 2) sai do `SBXP_APP` |
-| **3** | `SBXP_S_APP` + `SBXP_E_APP` + `SBXP_N_APP` | Sul, Leste (setores 7, 8 e São José) e Norte (setores 3, 4, 5, 6 e 13) |
-| **4+** | Acrescente as finais: `SBGR_F_APP`, `SBSP_F_APP`, `SBKP_F_APP` | Cada final assume a camada de 5500 pés a FL100 junto ao seu aeródromo |
+!!! warning "Não há sequência formal de abertura"
+    Os setores a abrir são definidos pela **Gerência de Operações**, conforme a política. Não abra um setor ou uma posição combinada por conta própria só porque o movimento aumentou.
+
+Com qualquer combinação aberta, cada posição assume os setores das posições fechadas abaixo dela (ver [Setorização do APP](#setorizacao-do-app), [Posições combinadas](#posicoes-combinadas) e o diagrama de [cobertura](#cobertura-top-down)).
 
 !!! question "Revisar"
-    - A ordem de abertura acima é uma proposta. A VATSIM Brasil tem uma ordem preferida, por exemplo Norte antes do Leste?
-    - `SBXP_T2_APP` usa **132.750**, a mesma frequência da `SBGR_TWR`.
-
+    `SBXP_T2_APP` usa **132.750**, a mesma frequência da `SBGR_TWR`.
 
 ### FIZ dentro da TMA
 
