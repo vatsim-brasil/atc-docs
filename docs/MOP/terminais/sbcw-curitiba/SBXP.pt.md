@@ -479,7 +479,7 @@ Os mapas abaixo mostram as chegadas (linha cheia) e as saídas (tracejado) nas d
     - Prefira manter as restrições da carta perto desses pontos e libere a subida ou a descida **depois** do cruzamento.
     - Com as posições divididas, os pontos que ficam na divisa de dois setores pedem **coordenação** entre eles.
 
-<small>Como os mapas são feitos: as rotas vêm das SID e STAR do pacote de setores; as STAR com arco de *point merge* ficam de fora, porque não são usadas no dia a dia. O nível previsto em cada cruzamento é uma **estimativa**: a chegada desce a 3° até a cabeceira e a saída sobe a 500 pés por NM, sempre presas às restrições das cartas (AIRAC 2508A1 a 2610A1). Cruzamentos a menos de 5 NM da cabeceira ficam com a Torre e não aparecem. Os mapas valem para as cartas atuais e são refeitos pelo script `tools/diagramas/tma-circulacao/gen.py` quando elas mudam.</small>
+<small>Como os mapas são feitos: as rotas vêm das SID e STAR do pacote de setores; as STAR com arco de *point merge* ficam de fora, porque não são usadas no dia a dia. O nível previsto em cada cruzamento é uma **estimativa**: a chegada desce a 3° até a cabeceira e a saída sobe a 500 pés por NM, sempre presas às restrições das cartas (AIRAC 2508A1 a 2610A1). Cruzamentos a menos de 5 NM da cabeceira ficam com a Torre e não aparecem.</small>
 
 !!! question "Revisar"
     - As configurações mais comuns são mesmo estas duas (tudo pelas cabeceiras 10/17/15 ou 28/35/33)?
