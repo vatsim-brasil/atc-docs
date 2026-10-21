@@ -462,7 +462,7 @@ Procedimento de aproximação (IAC) normal de cada pista, a alternativa RNP e os
 - **AR** (*Authorization Required*): RNP AR exige aprovação especial da aeronave e da tripulação. Só autorize se o piloto pedir.
 - **Sem GNSS:** as versões convencionais usam VOR e DME e servem para aeronaves que não podem voar RNAV.
 
-<small>Fonte: cartas IAC de cada aeródromo no AISWEB (AIRAC 2209A1 a 2609A1). A escolha do padrão de cada pista é da VATSIM Brasil: ILS CAT I a partir do IAF em que a STAR termina, ou RNP onde não há ILS.</small>
+<small>Fonte: cartas IAC de cada aeródromo no AISWEB (AIRAC 2209A1 a 2609A1). As cartas não dizem qual procedimento é o padrão; o critério usado aqui é ILS CAT I a partir do IAF em que a STAR termina, ou RNP onde não há ILS.</small>
 
 !!! question "Revisar"
     - Em SBGR há dois pares equivalentes nas pistas 10L e 28R: ILS O e RNP T ou ILS W e RNP W (10L), ILS T e RNP V ou ILS M e RNP M (28R). As cartas novas (W e M, de março de 2026) mudam a arremetida para o ISIMU. Qual par usar na rede?
