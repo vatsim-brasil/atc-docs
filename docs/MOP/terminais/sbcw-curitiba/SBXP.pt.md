@@ -503,17 +503,6 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 
 ---
 
-## :material-check-all: Checklist ao abrir
-
-- [ ] Confirmar as pistas em uso em SBGR, SBSP e SBKP (ATIS ou Torres).
-- [ ] Conferir quais SID de SBGR valem com a pista em uso em SBSP.
-- [ ] Ver quem está on-line: ACC Curitiba, ACC Brasília, APP Rio, Torres e finais.
-- [ ] Ajustar o QNH e o nível de transição.
-- [ ] Preencher o *controller information* com as pistas e a configuração.
-- [ ] Revisar as aeronaves já na TMA e assumir as que estão sem controle.
-
----
-
 ## :material-airplane: Circulação VFR
 
 !!! abstract "Documentos de navegação visual"
