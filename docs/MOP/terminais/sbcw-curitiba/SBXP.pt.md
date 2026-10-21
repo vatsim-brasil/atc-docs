@@ -438,6 +438,55 @@ As SID também mudam com frequência e não são listadas aqui. Consulte a carta
 
 ---
 
+## :material-call-split: Circulação na TMA
+
+As STAR e as SID da TMA se cruzam em vários pontos. As cartas separam a maioria desses cruzamentos **na vertical**: a chegada passa por cima ou por baixo da saída graças às restrições de nível. Essa separação depende de as duas aeronaves cumprirem as restrições. Com **direto**, **vetor** ou **restrição cancelada**, ela pode acabar.
+
+Os mapas abaixo mostram as chegadas (linha cheia) e as saídas (tracejado) nas duas configurações mais comuns, com os **pontos de conflito potencial**: cruzamentos em que os níveis previstos pelas cartas ficam a menos de 4000 pés um do outro.
+
+- :material-circle:{ style="color:#dc2626" } **Vermelho:** menos de 2000 pés. A separação vertical da carta é pequena; trate como conflito.
+- :material-circle:{ style="color:#ea580c" } **Laranja:** de 2000 a 4000 pés. Separado pela carta, mas a margem some com um direto ou uma subida liberada.
+
+=== "SBGR 10 · SBSP 17 · SBKP 15"
+    <figure markdown="span">
+      ![Circulação na TMA São Paulo com SBGR 10, SBSP 17 e SBKP 15: chegadas e saídas dos três aeródromos e quatro pontos de conflito potencial](img/sbxp-circulacao-sudeste.svg){ loading=lazy }
+    </figure>
+
+    | Ponto | Chegada | Saída | Nível previsto (chegada / saída) |
+    | :---: | :--- | :--- | :--- |
+    | **1** | SBKP EDMUS 1B | SBKP EGBEN 1A, ISMOB 1A, KONVI 2C | FL100 / 6500 FT |
+    | **2** | SBKP VERME 1A | SBKP EGEVA 1A | FL110 / 8500 FT |
+    | **3** | SBSP OGTAL 2A | SBSP UBRAM 1A | 9000 FT / 5500 FT |
+    | **4** | SBSP OGTAL 2A | SBSP UGTIX 2A, UTKOM 1A | 9000 FT / 7000 FT |
+
+=== "SBGR 28 · SBSP 35 · SBKP 33"
+    <figure markdown="span">
+      ![Circulação na TMA São Paulo com SBGR 28, SBSP 35 e SBKP 33: chegadas e saídas dos três aeródromos e sete pontos de conflito potencial](img/sbxp-circulacao-noroeste.svg){ loading=lazy }
+    </figure>
+
+    | Ponto | Chegada | Saída | Nível previsto (chegada / saída) |
+    | :---: | :--- | :--- | :--- |
+    | **1** | SBSP ORESU 1B | SBGR XOLUS 1A | FL205 / FL170 |
+    | **2** | SBKP UBKUP 2A | SBKP EGEVA 1B | FL125 / 8500 FT |
+    | **3** | SBGR MOLLE 1C | SBGR XOLUS 1A | FL170 / FL160 |
+    | **4** | SBKP EDMUS 1A | SBGR ISNAP 2A, SBSP BAIAN 3B | FL250 / FL240–FL245 |
+    | **5** | SBKP UBKUP 2A | SBGR AKRER 3A, SBSP UBRAM 1B | FL135 / FL110 |
+    | **6** | SBSP ORESU 1B | SBGR AKRER 3A | FL100 / 8500 FT |
+    | **7** | SBSP ORESU 1B | SBSP SEDLO 1A, UBRAM 1B, UGTIX 1B | 9000 FT / 6500–7000 FT |
+
+!!! tip "Nos pontos de conflito"
+    - Antes de dar **direto** ou **cancelar restrição** a uma aeronave que passa por um ponto marcado, confira o tráfego no outro fluxo.
+    - Prefira manter as restrições da carta perto desses pontos e libere a subida ou a descida **depois** do cruzamento.
+    - Com as posições divididas, os pontos que ficam na divisa de dois setores pedem **coordenação** entre eles.
+
+<small>Como os mapas são feitos: as rotas vêm das SID e STAR do pacote de setores; as STAR com arco de *point merge* ficam de fora, porque não são usadas no dia a dia. O nível previsto em cada cruzamento é uma **estimativa**: a chegada desce a 3° até a cabeceira e a saída sobe a 500 pés por NM, sempre presas às restrições das cartas (AIRAC 2508A1 a 2610A1). Cruzamentos a menos de 5 NM da cabeceira ficam com a Torre e não aparecem. Os mapas valem para as cartas atuais e são refeitos pelo script `tools/diagramas/tma-circulacao/gen.py` quando elas mudam.</small>
+
+!!! question "Revisar"
+    - As configurações mais comuns são mesmo estas duas (tudo pelas cabeceiras 10/17/15 ou 28/35/33)?
+    - No pacote, a chegada **EDMUS 1B** de SBKP aparece com o mesmo nome da EDMUS 1B de SBGR; nos mapas ela é a da carta ITEDI 1A / EDMUS 1B de SBKP.
+
+---
+
 ## :material-swap-horizontal: Transferências
 
 Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/manuais/coordenacao-transferencia/02-transferencia.pt.md#quem-entrega-a-quem-e-quando). Na TMA-SP:
