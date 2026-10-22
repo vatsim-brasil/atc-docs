@@ -584,17 +584,22 @@ As saídas não têm nível de transferência: o APP sobe a aeronave para o **n�
 
 ### Diretos nas saídas
 
-Para acelerar o fluxo, o APP pode autorizar **direto** para os fixos abaixo, mesmo que fiquem fora da TMA São Paulo. A aeronave deixa a SID e segue direto para o fixo. O órgão que recebe é o setor do ACC onde fica o fixo; com esse setor fechado, a posição que o cobre (`SBCW_CTR` ou `SBBS_CTR`).
+Para acelerar o fluxo, o APP pode autorizar **direto** para os fixos abaixo, mesmo que fiquem fora da TMA São Paulo. A aeronave deixa a SID, segue direto para o fixo e é transferida ao órgão da tabela ao se aproximar do limite da TMA.
 
-| Fixo | Direção a partir de SBGR | Distância de SBGR | Órgão que recebe |
-| :---: | :--- | :---: | :--- |
-| **NUXEL** | Nor-nordeste (028°) | 78 NM | ACC Brasília (`SBBS_S_CTR`) |
-| **ISMOB** | Nor-noroeste (338°) | 106 NM | ACC Brasília (`SBBS_S_CTR`) |
-| **GERTU** | Noroeste (315°) | 85 NM | ACC Brasília (`SBBS_S_CTR`) |
-| **ASETA** | Oeste (276°) | 90 NM | ACC Curitiba (`SBCW_W_CTR`) |
-| **SOVSI** | Sudoeste (234°) | 68 NM | ACC Curitiba (`SBCW_C_CTR`) |
-| **UBSOD** | Sudoeste (216°) | 62 NM | ACC Curitiba (`SBCW_C_CTR`) |
-| **MADNI** | Sul-sudoeste (203°) | 77 NM | ACC Curitiba (`SBCW_E_CTR`) |
+<figure markdown="span">
+  ![Mapa da TMA São Paulo com os fixos de direto das saídas: NUXEL, ISMOB e GERTU para o ACC Brasília; ASETA, SOVSI, UBSOD e MADNI para o ACC Curitiba, cada um com os aeródromos de origem](img/sbxp-diretos-saidas.svg){ loading=lazy }
+  <figcaption>Cada seta sai da TMA para um fixo de direto, na cor do órgão que recebe. Abaixo do fixo, os aeródromos cujas saídas passam por ele.</figcaption>
+</figure>
+
+| Para | Fixo | Origem | SID |
+| :--- | :---: | :---: | :--- |
+| **ACC Brasília** (`SBBS_CTR`) | **NUXEL** | SBGR, SBSP, SBSJ | SBGR AMVUL 6A, EVNEB 3A, ISNAP 2A, REORI 3A; SBSP BAIAN 3A, 3B; SBSJ BOBIC 3A, VUSMA 3A |
+| **ACC Brasília** (`SBBS_CTR`) | **ISMOB** | SBGR, SBKP | SBGR AMVUL 6A, ORONU 1A, REORI 3A, XOLUS 1A; SBKP EGBEN 1A, ISMOB 1A, OPGUN 2A |
+| **ACC Brasília** (`SBBS_CTR`) | **GERTU** | SBGR, SBSP, SBKP | SBGR AMVUL 6A, ORONU 1A, REORI 3A, XOLUS 1A; SBSP UGTIX 1B, 2A; SBKP EGBEN 1A, OPGUN 2A |
+| **ACC Curitiba** (`SBCW_CTR`) | **ASETA** | SBGR, SBSP, SBKP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP UBRAM 1A, 1B, UGTIX 1B, 2A; SBKP ASETA 1A, OSUDO 4A |
+| **ACC Curitiba** (`SBCW_CTR`) | **SOVSI** | SBGR, SBSP, SBKP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP SEDLO 1A, UTKOM 1A; SBKP OSUDO 4A, SOVSI 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **UBSOD** | SBGR, SBSP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP SEDLO 1A, UTKOM 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **MADNI** | SBGR, SBSP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP SEDLO 1A, UTKOM 1A |
 
 - Dê o direto só quando o fixo estiver no plano de voo da aeronave.
 - Antes do direto, confira os [pontos de conflito](#circulacao-na-tma) com as chegadas: o direto tira a aeronave das restrições da SID.

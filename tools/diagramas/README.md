@@ -31,7 +31,7 @@ Scripts que geram os SVGs das páginas de aeródromo do MOP (visão geral com po
 | `point-merge/` | `docs/MOP/terminais/sbcw-curitiba/img/point-merge-*.svg` | Diagramas conceituais da TMA (sem geometria real) |
 | `tma-setores/` | `docs/MOP/terminais/sbcw-curitiba/img/sbxp-setor-*.svg` (`--setor T1`) e `sbxp-comb-*.svg` (`--combinado SBXP_S_APP`) | Setores do APP lidos do mapa da própria página (arrays `setores` e `volumes`) |
 | `tma-circulacao/` | `docs/MOP/terminais/sbcw-curitiba/img/sbxp-circulacao-*.svg` | SID e STAR do pacote (`.ese`/`.sct`, passados na linha de comando) e restrições das cartas em `restricoes.py` |
-| `tma-transferencias/` | `docs/MOP/terminais/sbcw-curitiba/img/sbxp-transferencias.svg` | Tabela "Pontos e níveis de transferência" da página e coordenadas dos fixos no `.sct` do pacote |
+| `tma-transferencias/` | `docs/MOP/terminais/sbcw-curitiba/img/sbxp-transferencias.svg` e `sbxp-diretos-saidas.svg` (`--saidas`) | Tabela "Pontos e níveis de transferência" da página e coordenadas dos fixos no `.sct` do pacote |
 
 ## Fontes
 
