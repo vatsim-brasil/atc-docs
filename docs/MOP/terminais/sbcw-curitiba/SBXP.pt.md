@@ -479,25 +479,6 @@ As SID também mudam com frequência e não são listadas aqui. Consulte a carta
 - Quem não puder cumprir as restrições de altitude da SID avisa o ATC **antes da decolagem**[^cartas].
 - Suba as saídas para o **nível de cruzeiro** sempre que possível: libere a subida acima das restrições da SID assim que não houver conflito, sobretudo com as chegadas que cruzam por cima.
 
-### Diretos nas saídas
-
-Para acelerar o fluxo, o APP pode autorizar **direto** para os fixos abaixo, mesmo que fiquem fora da TMA São Paulo. A aeronave deixa a SID e segue direto para o fixo.
-
-| Fixo | Direção a partir de SBGR | Distância de SBGR |
-| :---: | :--- | :---: |
-| **NUXEL** | Nor-nordeste (028°) | 78 NM |
-| **ISMOB** | Nor-noroeste (338°) | 106 NM |
-| **GERTU** | Noroeste (315°) | 85 NM |
-| **ASETA** | Oeste (276°) | 90 NM |
-| **SOVSI** | Sudoeste (234°) | 68 NM |
-| **UBSOD** | Sudoeste (216°) | 62 NM |
-| **MADNI** | Sul-sudoeste (203°) | 77 NM |
-
-- Dê o direto só quando o fixo estiver no plano de voo da aeronave.
-- Antes do direto, confira os [pontos de conflito](#circulacao-na-tma) com as chegadas: o direto tira a aeronave das restrições da SID.
-
-Exemplo: `GLO1234, direto GERTU, suba FL240.`
-
 **Próximo órgão pela direção de saída:**
 
 - **Norte e nordeste:** ACC Brasília.
@@ -600,6 +581,25 @@ Chegadas para o APP São Paulo. O órgão que entrega autoriza a descida para o 
 | **APP Rio** (`SBWJ_APP`) | **IBDAL** | SBSP | **FL110** | IBDAL 2A, OGTAL 2A |
 
 As saídas não têm nível de transferência: o APP sobe a aeronave para o **nível de cruzeiro** sempre que possível e a transfere ao se aproximar do limite da TMA.
+
+### Diretos nas saídas
+
+Para acelerar o fluxo, o APP pode autorizar **direto** para os fixos abaixo, mesmo que fiquem fora da TMA São Paulo. A aeronave deixa a SID e segue direto para o fixo. O órgão que recebe é o setor do ACC onde fica o fixo; com esse setor fechado, a posição que o cobre (`SBCW_CTR` ou `SBBS_CTR`).
+
+| Fixo | Direção a partir de SBGR | Distância de SBGR | Órgão que recebe |
+| :---: | :--- | :---: | :--- |
+| **NUXEL** | Nor-nordeste (028°) | 78 NM | ACC Brasília (`SBBS_S_CTR`) |
+| **ISMOB** | Nor-noroeste (338°) | 106 NM | ACC Brasília (`SBBS_S_CTR`) |
+| **GERTU** | Noroeste (315°) | 85 NM | ACC Brasília (`SBBS_S_CTR`) |
+| **ASETA** | Oeste (276°) | 90 NM | ACC Curitiba (`SBCW_W_CTR`) |
+| **SOVSI** | Sudoeste (234°) | 68 NM | ACC Curitiba (`SBCW_C_CTR`) |
+| **UBSOD** | Sudoeste (216°) | 62 NM | ACC Curitiba (`SBCW_C_CTR`) |
+| **MADNI** | Sul-sudoeste (203°) | 77 NM | ACC Curitiba (`SBCW_E_CTR`) |
+
+- Dê o direto só quando o fixo estiver no plano de voo da aeronave.
+- Antes do direto, confira os [pontos de conflito](#circulacao-na-tma) com as chegadas: o direto tira a aeronave das restrições da SID.
+
+Exemplo: `GLO1234, direto GERTU, suba FL240.`
 
 !!! question "Revisar"
     - Ponto de transferência para a Torre: 8 a 10 NM serve para as três Torres?
