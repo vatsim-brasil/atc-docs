@@ -4,16 +4,19 @@ Lê a tabela "Pontos e níveis de transferência" e o contorno da TMA na página
 as coordenadas dos fixos no .sct do pacote. Cada fixo vira uma seta para dentro
 da TMA, na cor do órgão que entrega, com o nível de cada destino.
 
-Uso: python3 -I gen.py <pacote.sct> [pagina.md] [saida.svg]
+A seta segue a primeira perna das STAR depois do fixo (rotas do .ese); sem
+STAR conhecida, aponta para o centro da TMA.
+
+Uso: python3 -I gen.py <pacote.sct> <pacote.ese> [pagina.md] [saida.svg]
 """
 import json
 import math
 import re
 import sys
 
-SCT = sys.argv[1]
-PAGE = sys.argv[2] if len(sys.argv) > 2 else "docs/MOP/terminais/sbcw-curitiba/SBXP.pt.md"
-OUT = sys.argv[3] if len(sys.argv) > 3 else "docs/MOP/terminais/sbcw-curitiba/img/sbxp-transferencias.svg"
+SCT, ESE = sys.argv[1], sys.argv[2]
+PAGE = sys.argv[3] if len(sys.argv) > 3 else "docs/MOP/terminais/sbcw-curitiba/SBXP.pt.md"
+OUT = sys.argv[4] if len(sys.argv) > 4 else "docs/MOP/terminais/sbcw-curitiba/img/sbxp-transferencias.svg"
 
 INK, MUTED = "#1e293b", "#64748b"
 PALETA = ["#2563eb", "#16a34a", "#c2410c", "#9333ea", "#0891b2"]
@@ -40,6 +43,20 @@ def ler_fixos(path):
     return fixos
 
 
+def proximos(path, destinos):
+    """Fixo -> fixos que vêm logo depois dele nas STAR dos aeródromos da tabela."""
+    res = {}
+    for linha in open(path, encoding="latin-1"):
+        if linha.startswith("STAR:"):
+            _, ad, _, _, rota = linha.rstrip("\n").split(":", 4)
+            if ad not in destinos:
+                continue
+            rota = rota.split()
+            for a, b in zip(rota, rota[1:]):
+                res.setdefault(a, set()).add(b)
+    return res
+
+
 def ler_tabela(texto):
     """[(órgão, código, fixo, destinos, nível)] da tabela de transferência."""
     bloco = texto.split("### Pontos e níveis de transferência", 1)[1].split("\n\n|", 1)[1]
@@ -60,6 +77,8 @@ def main():
     tma = next(v for v in volumes if v["tipo"] == "tma" and v["nome"].endswith("1"))["contorno"]
     fixos = ler_fixos(SCT)
     linhas = ler_tabela(texto)
+    destinos = {d.strip() for *_, dest, _ in linhas for d in dest.split(",")}
+    seguintes = proximos(ESE, destinos)
 
     orgaos = []
     for o, c, *_ in linhas:
@@ -102,17 +121,27 @@ def main():
         x, y = pr(fixos[fx])
         k = [o for o, _ in orgaos].index(info["orgao"])
         c = cor[info["orgao"]]
-        # seta do fixo em direção ao centro da TMA
-        d = math.hypot(cx - x, cy - y)
-        ux, uy = (cx - x) / d, (cy - y) / d
+        # seta no sentido da primeira perna das STAR (média das direções)
+        vx = vy = 0.0
+        for nxt in seguintes.get(fx, ()):
+            if nxt in fixos:
+                nx, ny = pr(fixos[nxt])
+                d = math.hypot(nx - x, ny - y) or 1
+                vx, vy = vx + (nx - x) / d, vy + (ny - y) / d
+        if math.hypot(vx, vy) < 1e-6:
+            vx, vy = cx - x, cy - y
+        d = math.hypot(vx, vy)
+        ux, uy = vx / d, vy / d
         out.append(f'<path d="M{x:.1f},{y:.1f} L{x + ux * 70:.1f},{y + uy * 70:.1f}" stroke="{c}" stroke-width="5" '
                    f'marker-end="url(#s{k})"/>')
         out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="#fff" stroke="{c}" stroke-width="3"/>')
-        # rótulo do lado de fora (oposto ao centro)
-        lx, ly = x - ux * 16, y - uy * 16
-        anchor = "end" if ux > 0.35 else "start" if ux < -0.35 else "middle"
+        # rótulo do lado de fora da TMA (oposto ao centro), independente da seta
+        dc = math.hypot(cx - x, cy - y)
+        rx, ry = (cx - x) / dc, (cy - y) / dc
+        lx, ly = x - rx * 16, y - ry * 16
+        anchor = "end" if rx > 0.35 else "start" if rx < -0.35 else "middle"
         n = len(info["linhas"])
-        topo = ly - (n * 17 + 20) if uy > 0.35 else ly + 18 if uy < -0.35 else ly - (n * 17) / 2 - 4
+        topo = ly - (n * 17 + 20) if ry > 0.35 else ly + 18 if ry < -0.35 else ly - (n * 17) / 2 - 4
         out.append(f'<text x="{lx:.1f}" y="{topo + 14:.1f}" text-anchor="{anchor}" font-size="17" font-weight="800" fill="{c}" '
                    f'paint-order="stroke" stroke="#f8fafc" stroke-width="4">{fx}</text>')
         for j, (dest, nivel) in enumerate(info["linhas"]):
