@@ -412,8 +412,6 @@ No arco, a aeronave voa nivelada, a uma distância constante do ponto de converg
     2. Quando o espaçamento para a aeronave à frente for suficiente (veja a [esteira](../../../documentos/manuais/separacao-esteira/index.pt.md)), autorize **direto** para o ponto de convergência e a descida.
     3. A partir dele, a aeronave segue a STAR até o IAF; vetore para a final se precisar ajustar.
 
-    Exemplo: `TAM3456, direto SANPA, desça FL100.`
-
 ### Aproximações mais usadas
 
 Procedimento de aproximação (IAC) normal de cada pista, a alternativa RNP e os procedimentos de uso especial. O **IAF** é onde a STAR termina; a aproximação começa ali.
@@ -603,8 +601,6 @@ Para acelerar o fluxo, o APP pode autorizar **direto** para os fixos abaixo, mes
 
 - Dê o direto só quando o fixo estiver no plano de voo da aeronave.
 - Antes do direto, confira os [pontos de conflito](#circulacao-na-tma) com as chegadas: o direto tira a aeronave das restrições da SID.
-
-Exemplo: `GLO1234, direto GERTU, suba FL240.`
 
 !!! question "Revisar"
     - Ponto de transferência para a Torre: 8 a 10 NM serve para as três Torres?
