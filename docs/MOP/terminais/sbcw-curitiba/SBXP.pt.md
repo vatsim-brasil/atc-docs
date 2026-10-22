@@ -583,28 +583,6 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 
 ---
 
-## :material-message-text-outline: Fraseologia
-
-=== "Português"
-    ```
-    TAM3456, Controle São Paulo, identificado, chegada MOLLE 1A, mantenha FL140.
-    TAM3456, direto SANPA, desça FL100.
-    TAM3456, desça e mantenha 6000 pés, QNH 1018, pista 10R.
-    TAM3456, autorizado aproximação ILS pista 10R, chame a Torre Guarulhos 132.750.
-    GLO1234, Controle São Paulo, identificado, suba e mantenha FL240, restrições de nível da SID canceladas.
-    ```
-
-=== "Inglês"
-    ```
-    TAM3456, São Paulo Control, identified, MOLLE 1A arrival, maintain FL140.
-    TAM3456, direct SANPA, descend FL100.
-    TAM3456, descend and maintain 6000 feet, QNH 1018, runway 10R.
-    TAM3456, cleared ILS approach runway 10R, contact Guarulhos Tower 132.750.
-    GLO1234, São Paulo Control, identified, climb and maintain FL240, SID level restrictions cancelled.
-    ```
-
----
-
 ## :material-airplane: Circulação VFR
 
 !!! abstract "Documentos de navegação visual"
