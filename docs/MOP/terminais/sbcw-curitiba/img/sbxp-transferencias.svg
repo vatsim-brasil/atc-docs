@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 760" width="940" height="760" role="img" aria-label="TMA São Paulo: pontos e níveis de transferência das chegadas" font-family="Ubuntu Sans, Ubuntu, Segoe UI, Roboto, Arial, sans-serif">
+<title>TMA São Paulo: pontos e níveis de transferência das chegadas</title>
+<rect width="940" height="760" rx="12" fill="#f8fafc"/>
+<defs><marker id="s0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="s1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="s2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker></defs>
+<path d="M685.8,269.5 L659.9,261.1 L643.4,223.2 L625.5,181.9 L615.6,158.8 L598.0,156.7 L503.6,145.3 L496.0,144.4 L469.4,141.1 L444.8,138.0 L421.3,135.2 L318.7,180.6 L286.2,194.8 L272.5,233.0 L254.3,283.7 L236.5,333.1 L244.5,370.6 L261.2,426.6 L267.8,432.0 L310.2,467.0 L311.1,467.8 L430.8,566.3 L431.8,567.1 L463.9,593.0 L487.4,612.1 L605.6,587.8 L627.1,530.9 L784.4,490.4 L772.0,441.8 L757.5,384.9 L746.9,343.0 L743.5,328.0 L732.1,276.7 L718.2,280.0 L685.8,269.5 Z" fill="#e2e8f0" stroke="#1e293b" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="536.7" cy="374.0" r="4" fill="#1e293b"/>
+<text x="543.7" y="378.0" font-size="12" font-weight="700" fill="#64748b">SBGR</text>
+<circle cx="495.4" cy="420.7" r="4" fill="#1e293b"/>
+<text x="502.4" y="424.7" font-size="12" font-weight="700" fill="#64748b">SBSP</text>
+<circle cx="387.7" cy="269.0" r="4" fill="#1e293b"/>
+<text x="394.7" y="273.0" font-size="12" font-weight="700" fill="#64748b">SBKP</text>
+<circle cx="674.4" cy="323.4" r="4" fill="#1e293b"/>
+<text x="681.4" y="327.4" font-size="12" font-weight="700" fill="#64748b">SBSJ</text>
+<path d="M502.4,660.0 L504.4,590.0" stroke="#2563eb" stroke-width="5" marker-end="url(#s0)"/>
+<circle cx="502.4" cy="660.0" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="501.9" y="708.0" text-anchor="middle" font-size="17" font-weight="800" fill="#2563eb" paint-order="stroke" stroke="#f8fafc" stroke-width="4">ANISE</text>
+<text x="501.9" y="726.0" text-anchor="middle" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBSP · SBSJ <tspan font-weight="800">FL150</tspan></text>
+<path d="M123.7,473.0 L189.5,449.1" stroke="#2563eb" stroke-width="5" marker-end="url(#s0)"/>
+<circle cx="123.7" cy="473.0" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="108.7" y="480.0" text-anchor="end" font-size="17" font-weight="800" fill="#2563eb" paint-order="stroke" stroke="#f8fafc" stroke-width="4">EDRAT</text>
+<text x="108.7" y="498.0" text-anchor="end" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBKP <tspan font-weight="800">FL140</tspan></text>
+<path d="M234.2,454.5 L298.3,426.2" stroke="#2563eb" stroke-width="5" marker-end="url(#s0)"/>
+<circle cx="234.2" cy="454.5" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="219.6" y="493.0" text-anchor="end" font-size="17" font-weight="800" fill="#2563eb" paint-order="stroke" stroke="#f8fafc" stroke-width="4">BUXUK</text>
+<text x="219.6" y="511.0" text-anchor="end" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBGR <tspan font-weight="800">FL220</tspan></text>
+<path d="M203.0,209.9 L268.1,235.6" stroke="#16a34a" stroke-width="5" marker-end="url(#s1)"/>
+<circle cx="203.0" cy="209.9" r="7" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+<text x="188.1" y="181.1" text-anchor="end" font-size="17" font-weight="800" fill="#16a34a" paint-order="stroke" stroke="#f8fafc" stroke-width="4">ZARES</text>
+<text x="188.1" y="199.1" text-anchor="end" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBGR <tspan font-weight="800">FL210</tspan></text>
+<path d="M595.2,100.0 L571.5,165.9" stroke="#16a34a" stroke-width="5" marker-end="url(#s1)"/>
+<circle cx="595.2" cy="100.0" r="7" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+<text x="600.6" y="61.9" text-anchor="middle" font-size="17" font-weight="800" fill="#16a34a" paint-order="stroke" stroke="#f8fafc" stroke-width="4">VUNOX</text>
+<text x="600.6" y="79.9" text-anchor="middle" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBGR · SBSJ <tspan font-weight="800">FL180</tspan></text>
+<path d="M217.0,138.3 L275.5,176.7" stroke="#16a34a" stroke-width="5" marker-end="url(#s1)"/>
+<circle cx="217.0" cy="138.3" r="7" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+<text x="203.7" y="89.5" text-anchor="end" font-size="17" font-weight="800" fill="#16a34a" paint-order="stroke" stroke="#f8fafc" stroke-width="4">UTLOT</text>
+<text x="203.7" y="107.5" text-anchor="end" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBKP <tspan font-weight="800">FL140</tspan></text>
+<text x="203.7" y="124.5" text-anchor="end" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBSP <tspan font-weight="800">FL210</tspan></text>
+<path d="M495.0,124.4 L500.7,194.2" stroke="#16a34a" stroke-width="5" marker-end="url(#s1)"/>
+<circle cx="495.0" cy="124.4" r="7" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+<text x="493.7" y="68.5" text-anchor="middle" font-size="17" font-weight="800" fill="#16a34a" paint-order="stroke" stroke="#f8fafc" stroke-width="4">ENTIT</text>
+<text x="493.7" y="86.5" text-anchor="middle" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBKP <tspan font-weight="800">FL150</tspan></text>
+<text x="493.7" y="103.5" text-anchor="middle" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBSP <tspan font-weight="800">FL220</tspan></text>
+<path d="M781.5,313.6 L711.7,318.3" stroke="#c2410c" stroke-width="5" marker-end="url(#s2)"/>
+<circle cx="781.5" cy="313.6" r="7" fill="#fff" stroke="#c2410c" stroke-width="3"/>
+<text x="797.5" y="305.5" text-anchor="start" font-size="17" font-weight="800" fill="#c2410c" paint-order="stroke" stroke="#f8fafc" stroke-width="4">EDMUS</text>
+<text x="797.5" y="323.5" text-anchor="start" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBGR <tspan font-weight="800">FL110</tspan></text>
+<text x="797.5" y="340.5" text-anchor="start" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBKP <tspan font-weight="800">FL240</tspan></text>
+<path d="M816.3,453.1 L751.3,427.2" stroke="#c2410c" stroke-width="5" marker-end="url(#s2)"/>
+<circle cx="816.3" cy="453.1" r="7" fill="#fff" stroke="#c2410c" stroke-width="3"/>
+<text x="831.2" y="491.0" text-anchor="start" font-size="17" font-weight="800" fill="#c2410c" paint-order="stroke" stroke="#f8fafc" stroke-width="4">IBDAL</text>
+<text x="831.2" y="509.0" text-anchor="start" font-size="13.5" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">SBSP <tspan font-weight="800">FL110</tspan></text>
+<path d="M640,687 h28" stroke="#2563eb" stroke-width="5"/>
+<text x="676" y="692" font-size="13" font-weight="700" fill="#1e293b">ACC Curitiba (SBCW_CTR)</text>
+<path d="M640,709 h28" stroke="#16a34a" stroke-width="5"/>
+<text x="676" y="714" font-size="13" font-weight="700" fill="#1e293b">ACC Brasília (SBBS_CTR)</text>
+<path d="M640,731 h28" stroke="#c2410c" stroke-width="5"/>
+<text x="676" y="736" font-size="13" font-weight="700" fill="#1e293b">APP Rio (SBWJ_APP)</text>
+</svg>

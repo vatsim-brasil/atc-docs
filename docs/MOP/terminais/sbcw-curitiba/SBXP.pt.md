@@ -477,7 +477,7 @@ As SID também mudam com frequência e não são listadas aqui. Consulte a carta
 - A SID depende da **pista em uso** e do **fixo de saída** do plano de voo.
 - As SID RNAV **não publicam nível inicial**: o limite vertical são as restrições dos fixos.
 - Quem não puder cumprir as restrições de altitude da SID avisa o ATC **antes da decolagem**[^cartas].
-- Libere a subida acima das restrições da SID assim que não houver conflito, sobretudo com as chegadas que cruzam por cima.
+- Suba as saídas para o **nível de cruzeiro** sempre que possível: libere a subida acima das restrições da SID assim que não houver conflito, sobretudo com as chegadas que cruzam por cima.
 
 **Próximo órgão pela direção de saída:**
 
@@ -546,8 +546,8 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 
 | De | Para | Quando | Como a aeronave chega |
 | :--- | :--- | :--- | :--- |
-| **ACC** | **APP** | No limite da TMA, sobre o fixo de entrada da STAR | Autorizada na STAR, descendo para a restrição do primeiro fixo dentro da TMA |
-| **APP** | **ACC** | Ao se aproximar do limite da TMA (lateral ou FL245) | Na SID, subindo; o APP libera a subida acima das restrições quando não houver conflito |
+| **ACC** | **APP** | No limite da TMA, sobre o fixo de entrada da STAR | Autorizada na STAR, no nível de [transferência](#pontos-e-niveis-de-transferencia) do fixo |
+| **APP** | **ACC** | Ao se aproximar do limite da TMA (lateral ou FL245) | Na SID, subindo para o nível de cruzeiro sempre que possível |
 | **APP** | **APP vizinho** (Rio, Academia) | Nos fixos de saída comuns | Coordenar nível; as STAR e SID de SBKP e SBGR cruzam a TMA Academia e a TMA Rio |
 | **APP** | **TWR** | Estabilizada na final, em torno de **8 a 10 NM** da cabeceira | Separada da aeronave à frente na final |
 | **TWR** | **APP** | Logo após a decolagem | Na SID ou na proa da OMNI |
@@ -556,8 +556,34 @@ Regras gerais no [Manual de Coordenação e Transferência](../../../documentos/
 - Na SBGR, o piloto informa a **pista de decolagem** no primeiro contato com o Controle São Paulo[^ad20-gr].
 - Aeronaves que entram na CTR Campinas chamam o APP em **119.800** ou **133.850**; na CTR São José, em **129.050**[^ad22-kp].
 
+### Pontos e níveis de transferência
+
+Chegadas para o APP São Paulo. O órgão que entrega autoriza a descida para o **nível da tabela** e transfere a aeronave **sobre o fixo**; dali em diante, o APP continua a descida pela STAR.
+
+<figure markdown="span">
+  ![Mapa da TMA São Paulo com os fixos de transferência das chegadas: ACC Curitiba em ANISE, EDRAT e BUXUK; ACC Brasília em ZARES, UTLOT, ENTIT e VUNOX; APP Rio em EDMUS e IBDAL, cada um com o nível de descida por destino](img/sbxp-transferencias.svg){ loading=lazy }
+  <figcaption>Cada seta é um fixo de transferência, na cor do órgão que entrega. Abaixo do fixo, o destino e o nível para o qual a descida já vem autorizada.</figcaption>
+</figure>
+
+| De | Fixo | Destino | Descida autorizada para | STAR |
+| :--- | :---: | :---: | :---: | :--- |
+| **ACC Curitiba** (`SBCW_CTR`) | **ANISE** | SBSP, SBSJ | **FL150** | SBSP OGTAL 2A; SBSJ DAGOV 1A, LONES 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **EDRAT** | SBKP | **FL140** | UBKUP 2A, VERME 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **BUXUK** | SBGR | **FL220** | MOLLE 1A, 1B, 1C, 1D |
+| **ACC Brasília** (`SBBS_CTR`) | **ZARES** | SBGR | **FL210** | MOLLE 1A, 1B, 1C, 1D |
+| **ACC Brasília** (`SBBS_CTR`) | **VUNOX** | SBGR, SBSJ | **FL180** | SBGR VUNOX 1A, 1B, 1C, SANPA 1A; SBSJ LONES 1A |
+| **ACC Brasília** (`SBBS_CTR`) | **UTLOT** | SBKP | **FL140** | UTLOT 3A, UBKUP 2A |
+| **ACC Brasília** (`SBBS_CTR`) | **UTLOT** | SBSP | **FL210** | ORESU 1A, 1B |
+| **ACC Brasília** (`SBBS_CTR`) | **ENTIT** | SBKP | **FL150** | ENTIT 1A, ITEDI 1A |
+| **ACC Brasília** (`SBBS_CTR`) | **ENTIT** | SBSP | **FL220** | ORESU 1A, 1B |
+| **APP Rio** (`SBWJ_APP`) | **EDMUS** | SBGR | **FL110** | EDMUS 1B, 2A |
+| **APP Rio** (`SBWJ_APP`) | **EDMUS** | SBKP | **FL240** | EDMUS 1A, 1B, ITEDI 1A |
+| **APP Rio** (`SBWJ_APP`) | **IBDAL** | SBSP | **FL110** | IBDAL 2A, OGTAL 2A |
+
+As saídas não têm nível de transferência: o APP sobe a aeronave para o **nível de cruzeiro** sempre que possível e a transfere ao se aproximar do limite da TMA.
+
 !!! question "Revisar"
-    - Os níveis de entrega ACC → APP e APP → ACC acima seguem as cartas. A VATSIM Brasil tem acordo de nível fixo (por exemplo, chegadas cruzando o limite a FL250 ou abaixo)?
+    - Diretos padronizados para as saídas: a definir.
     - Ponto de transferência para a Torre: 8 a 10 NM serve para as três Torres?
 
 ---
