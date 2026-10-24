@@ -820,31 +820,39 @@
     opacity: 0.7;
 }
 
-/* Painel de Meteorologia Premium */
+/* Painel de Meteorologia dos aeródromos (docs/javascripts/metar.js) */
 .weather-card-container {
+    --wx-vmc: #1f9d55;
+    --wx-imc: #d64545;
+    --wx-amber: #c77c00;
+    --wx-blue: #2b7bd6;
+    --wx-surface: var(--md-code-bg-color);
+    --wx-border: var(--md-default-fg-color--lightest);
+    --wx-muted: var(--md-default-fg-color--light);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 28px;
     margin-top: 15px;
 }
 
 .weather-card {
-    padding: 16px 0;
+    padding: 4px 0;
+    min-width: 0;
+}
+
+.wx-msg {
+    opacity: 0.65;
+    font-size: 0.8rem;
+    padding: 20px;
+    display: block;
+    text-align: center;
 }
 
 /* Reticências de carregamento animadas */
 @keyframes loadingBlink {
-    0% {
-        opacity: .2;
-    }
-
-    20% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: .2;
-    }
+    0% { opacity: .2; }
+    20% { opacity: 1; }
+    100% { opacity: .2; }
 }
 
 .loading-dots span {
@@ -852,240 +860,495 @@
     font-weight: bold;
 }
 
-.loading-dots span:nth-child(2) {
-    animation-delay: .2s;
-}
+.loading-dots span:nth-child(2) { animation-delay: .2s; }
+.loading-dots span:nth-child(3) { animation-delay: .4s; }
 
-.loading-dots span:nth-child(3) {
-    animation-delay: .4s;
-}
-
-/* Estilos do Dashboard Interno */
-.weather-card-header {
+/* Cabeçalho de cada cartão */
+.wx-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
-    border-bottom: 1px solid var(--md-default-fg-color--lite, rgba(0, 0, 0, 0.08));
-    padding-bottom: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--wx-border);
 }
 
-.weather-card-title {
+.wx-title {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 8px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: var(--md-typeset-color);
 }
 
-/* Pulsing dot indicando tempo real */
+.wx-time {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--wx-muted);
+    font-family: var(--md-code-font-family);
+}
+
+.wx-time b { color: var(--wx-imc); }
+
+/* Ponto pulsante indicando dado ao vivo */
 .pulse-dot {
     width: 8px;
     height: 8px;
-    background-color: #29b473;
+    background-color: var(--wx-vmc);
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 0 0 0 0 rgba(41, 180, 115, 0.7);
     animation: pulse 1.6s infinite;
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(41, 180, 115, 0.7);
-    }
-
-    70% {
-        transform: scale(1);
-        box-shadow: 0 0 0 6px rgba(41, 180, 115, 0);
-    }
-
-    100% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(41, 180, 115, 0);
-    }
+.pulse-dot.stale {
+    background-color: var(--wx-amber);
+    animation: none;
 }
 
-.flight-category-badge {
-    padding: 3px 10px;
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(31, 157, 85, 0.6); }
+    70% { box-shadow: 0 0 0 6px rgba(31, 157, 85, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(31, 157, 85, 0); }
+}
+
+/* Selos VMC/IMC */
+.wx-badge {
+    padding: 3px 12px;
     border-radius: 20px;
     font-weight: 800;
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     letter-spacing: 0.8px;
-    text-transform: uppercase;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    color: white !important;
+    color: #fff !important;
 }
 
-.flight-category-badge.vfr {
-    background: linear-gradient(135deg, #4caf50, #2e7d32);
+.wx-badge.vmc { background: var(--wx-vmc); }
+.wx-badge.imc { background: var(--wx-imc); }
+
+.wx-badge.sm {
+    padding: 1px 7px;
+    font-size: 0.6rem;
+    letter-spacing: 0.4px;
 }
 
-.flight-category-badge.mvfr {
-    background: linear-gradient(135deg, #2196f3, #1565c0);
+/* Resumo do tempo presente e alertas */
+.wx-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.flight-category-badge.ifr {
-    background: linear-gradient(135deg, #ff9800, #e65100);
-}
+.wx-summary-ic { color: var(--wx-blue); display: flex; }
 
-.flight-category-badge.lifr {
-    background: linear-gradient(135deg, #f44336, #c62828);
-}
-
-.metar-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 12px;
+.wx-alerts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
     margin-bottom: 12px;
 }
 
-@media (min-width: 480px) {
-    .metar-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 768px) {
-    .metar-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-.metar-grid-item {
-    display: flex;
+.wx-chip {
+    display: inline-flex;
     align-items: center;
-    gap: 12px;
-    background: var(--md-code-bg);
-    padding: 12px 14px;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    gap: 4px;
+    padding: 2px 9px;
+    border-radius: 6px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    border: 1px solid currentColor;
 }
 
-.metar-icon-wrapper {
+.wx-chip.red { color: var(--wx-imc); background: color-mix(in srgb, var(--wx-imc) 10%, transparent); }
+.wx-chip.amber { color: var(--wx-amber); background: color-mix(in srgb, var(--wx-amber) 10%, transparent); }
+.wx-chip.blue { color: var(--wx-blue); background: color-mix(in srgb, var(--wx-blue) 10%, transparent); }
+
+/* Rosa dos ventos + componentes ao lado dos blocos de dados */
+.wx-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+@media (min-width: 900px) {
+    .wx-main { grid-template-columns: minmax(300px, 5fr) 7fr; }
+}
+
+.wx-wind-panel {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--wx-surface);
+    border: 1px solid var(--wx-border);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.wx-rose {
+    width: 170px;
+    height: 170px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.wx-rose-ring { fill: none; stroke: var(--wx-border); stroke-width: 1.5; }
+.wx-rose-tick { stroke: var(--wx-muted); stroke-width: 1; }
+.wx-rose-card { fill: var(--wx-muted); font-size: 10px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
+.wx-rose-rwy { stroke: var(--md-default-fg-color--light); stroke-width: 6; stroke-linecap: butt; opacity: 0.55; }
+.wx-rose-lbl { fill: var(--md-typeset-color); font-size: 8.5px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; font-family: var(--md-code-font-family); }
+.wx-rose-var { fill: var(--wx-blue); opacity: 0.12; }
+.wx-rose-arrow { stroke: var(--wx-imc); stroke-width: 3; stroke-linecap: round; }
+.wx-rose-head { fill: var(--wx-imc); }
+.wx-rose-spd { fill: var(--md-typeset-color); font-size: 13px; font-weight: 800; text-anchor: middle; paint-order: stroke; stroke: var(--wx-surface); stroke-width: 4px; }
+
+.wx-wind-side {
+    flex: 1 1 160px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.wx-comp {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.wx-comp-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 0.72rem;
+    font-family: var(--md-code-font-family);
+    border: 1px solid transparent;
+}
+
+.wx-comp-top,
+.wx-comp-vals {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 12px;
+    row-gap: 2px;
+}
+
+.wx-comp-top { justify-content: space-between; }
+.wx-comp-val { white-space: nowrap; }
+
+.wx-comp-row.fav {
+    border-color: var(--wx-vmc);
+    background: color-mix(in srgb, var(--wx-vmc) 10%, transparent);
+}
+
+.wx-comp-row.tail .wx-comp-val:first-child { color: var(--wx-imc); }
+.wx-comp-rwy { font-weight: 800; }
+.wx-comp-val small { opacity: 0.7; }
+
+.wx-tag {
+    font-size: 0.55rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1px 6px;
+    border-radius: 4px;
+    background: var(--wx-vmc);
+    color: #fff;
+    font-family: var(--md-text-font-family);
+}
+
+.wx-tag.becmg { background: #6366f1; }
+.wx-tag.tempo { background: var(--wx-amber); }
+.wx-tag.prob { background: #c026d3; }
+
+.wx-note {
+    font-size: 0.62rem !important;
+    color: var(--wx-muted);
+    margin: 2px 0 0 !important;
+    line-height: 1.35;
+}
+
+/* Blocos de dados */
+.wx-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+    gap: 10px;
+}
+
+.wx-tile {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--wx-surface);
+    border: 1px solid var(--wx-border);
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.wx-ic {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    font-weight: bold;
-}
-
-/* Cores específicas para os wraps dos ícones */
-.metar-icon-wrapper.wind-wrap {
-    background-color: rgba(33, 150, 243, 0.1);
-    color: #2196f3;
-}
-
-.metar-icon-wrapper.vis-wrap {
-    background-color: rgba(76, 175, 80, 0.1);
-    color: #4caf50;
-}
-
-.metar-icon-wrapper.press-wrap {
-    background-color: rgba(255, 152, 0, 0.1);
-    color: #ff9800;
-}
-
-.metar-icon-wrapper.cloud-wrap {
-    background-color: rgba(156, 39, 176, 0.1);
-    color: #9c27b0;
-}
-
-.metar-icon-wrapper.temp-wrap {
-    background-color: rgba(244, 67, 54, 0.1);
-    color: #f44336;
-}
-
-.metar-icon-wrapper.rule-wrap {
-    background-color: rgba(0, 150, 136, 0.1);
-    color: #009688;
-}
-
-.metar-details {
-    display: flex;
-    flex-direction: column;
-}
-
-.metar-label {
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    opacity: 0.55;
-    letter-spacing: 0.5px;
-    margin-bottom: 2px;
-}
-
-.metar-value {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--md-typeset-color);
-}
-
-.metar-raw-box {
-    margin-top: 15px;
-    padding: 12px 16px;
-    background: var(--md-code-bg);
-    border-radius: 8px;
-    border-left: 4px solid var(--md-typeset-color);
-    opacity: 0.85;
-}
-
-.metar-raw-box code {
-    font-size: 0.76rem !important;
-    line-height: 1.4 !important;
-    font-family: var(--md-code-font-family), monospace !important;
-    background: transparent !important;
-    padding: 0 !important;
-}
-
-.taf-content-box {
-    white-space: pre-wrap;
-    font-size: 0.76rem;
-    line-height: 1.6;
-    font-family: var(--md-code-font-family), monospace;
-    background: var(--md-code-bg);
-    padding: 14px;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.04);
-}
-
-.taf-content-box code {
-    background: transparent !important;
-    padding: 0 !important;
-}
-
-/* Container do METAR Codificado Premium (Largura Total) */
-.metar-raw-box-premium {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    background: var(--md-code-bg);
-    padding: 12px 14px;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.04);
-    margin-top: 12px;
-    width: 100%;
-}
-
-.metar-icon-wrapper.raw-wrap {
-    background-color: rgba(96, 125, 139, 0.1);
-    color: #607d8b;
     flex-shrink: 0;
 }
 
-.metar-raw-code {
+.wx-ic.c-blue { color: #2196f3; background: rgba(33, 150, 243, 0.12); }
+.wx-ic.c-green { color: #4caf50; background: rgba(76, 175, 80, 0.12); }
+.wx-ic.c-purple { color: #9c27b0; background: rgba(156, 39, 176, 0.12); }
+.wx-ic.c-orange { color: #ff9800; background: rgba(255, 152, 0, 0.12); }
+.wx-ic.c-teal { color: #009688; background: rgba(0, 150, 136, 0.12); }
+.wx-ic.c-red { color: #f44336; background: rgba(244, 67, 54, 0.12); }
+
+.wx-tile-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.wx-label {
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--wx-muted);
+    letter-spacing: 0.5px;
+}
+
+.wx-value {
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.wx-value small {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: var(--wx-muted);
+}
+
+.wx-sub {
+    font-size: 0.68rem;
+    color: var(--wx-muted);
+    line-height: 1.4;
+    margin-top: 2px;
+}
+
+.wx-sub b { color: var(--md-typeset-color); }
+.wx-cb { color: var(--wx-imc); }
+
+/* Boletim codificado */
+.wx-raw {
+    margin-top: 12px;
+    background: var(--wx-surface);
+    border: 1px solid var(--wx-border);
+    border-left: 4px solid var(--md-default-fg-color--light);
+    border-radius: 8px;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.wx-raw code {
     font-size: 0.76rem !important;
-    font-family: var(--md-code-font-family), monospace !important;
     background: transparent !important;
     padding: 0 !important;
-    color: var(--md-typeset-color) !important;
-    display: block;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.6;
+}
+
+/* Seções recolhíveis (histórico, TAF decodificado), sem o visual de admonition do Material */
+.md-typeset details.wx-details {
+    margin: 12px 0 0;
+    border: 1px solid var(--wx-border);
+    border-radius: 8px;
+    padding: 0 12px;
+    box-shadow: none;
+    background: transparent;
+    font-size: inherit;
+}
+
+.md-typeset details.wx-details > summary {
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 9px 0 9px 18px;
+    margin: 0;
+    background: transparent;
+    border: none;
+}
+
+.md-typeset details.wx-details > summary::before {
+    background-color: var(--wx-muted);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-mask-image: var(--md-details-icon);
+    mask-image: var(--md-details-icon);
+    transition: transform .25s;
+}
+
+.md-typeset details.wx-details[open] > summary::before { transform: translateY(-50%) rotate(90deg); }
+.md-typeset details.wx-details > summary::after { display: none; }
+
+.wx-table-wrap { overflow-x: auto; }
+
+.md-typeset .wx-table {
+    display: table;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 0 0 10px;
+    border: none;
+    box-shadow: none;
+}
+
+.md-typeset .wx-table th,
+.md-typeset .wx-table td {
+    padding: 4px 8px;
+    font-family: var(--md-code-font-family);
+    white-space: nowrap;
+}
+
+/* TAF: linha do tempo hora a hora */
+.wx-section-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin: 4px 0 8px;
+}
+
+.wx-section-title small {
+    font-weight: 500;
+    color: var(--wx-muted);
+    margin-left: 6px;
+}
+
+.wx-timeline {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 2px 2px 10px;
+    scroll-snap-type: x proximity;
+}
+
+.wx-hr {
+    flex: 0 0 104px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 8px 6px 10px;
+    border-radius: 10px;
+    background: var(--wx-surface);
+    border: 1px solid var(--wx-border);
+    border-top: 4px solid var(--wx-vmc);
+    font-size: 0.68rem;
+    text-align: center;
+}
+
+.wx-hr.imc { border-top-color: var(--wx-imc); }
+.wx-hr.now { outline: 2px solid var(--md-accent-fg-color); outline-offset: -1px; }
+
+.wx-hr-tags {
+    min-height: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+
+.wx-hr-time {
+    font-weight: 800;
+    font-size: 0.85rem;
+    font-family: var(--md-code-font-family);
+}
+
+.wx-hr-time small {
+    font-size: 0.55rem;
+    color: var(--md-accent-fg-color);
+    text-transform: uppercase;
+}
+
+.wx-hr-day {
+    font-size: 0.55rem;
+    color: var(--wx-muted);
+    margin-top: -3px;
+}
+
+.wx-hr-ic { color: var(--wx-blue); margin: 2px 0; }
+.wx-hr-line { font-family: var(--md-code-font-family); line-height: 1.35; }
+.wx-hr-wx { font-family: var(--md-text-font-family); color: var(--wx-blue); font-weight: 600; }
+
+.wx-hr-rwy {
+    font-family: var(--md-code-font-family);
+    font-weight: 700;
+    font-size: 0.62rem;
+    padding: 0 6px;
+    border-radius: 4px;
+    color: var(--wx-vmc);
+    border: 1px solid currentColor;
+}
+
+.wx-hr-temp {
     margin-top: 4px;
-    line-height: 1.4;
-    word-break: break-all;
+    width: 100%;
+    font-family: var(--md-code-font-family);
+    font-size: 0.58rem;
+    line-height: 1.35;
+    padding: 3px 4px;
+    border-radius: 5px;
+    border: 1px dashed var(--wx-amber);
+    color: var(--wx-amber);
+}
+
+.wx-hr-temp.imc { border-color: var(--wx-imc); color: var(--wx-imc); }
+
+/* TAF decodificado por grupo */
+.wx-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-bottom: 12px;
+}
+
+.wx-grp {
+    border-left: 4px solid var(--wx-vmc);
+    background: var(--wx-surface);
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+.wx-grp.becmg, .wx-grp.fm { border-left-color: #6366f1; }
+.wx-grp.tempo { border-left-color: var(--wx-amber); }
+.wx-grp.prob { border-left-color: #c026d3; }
+
+.wx-grp-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.wx-grp-time {
+    font-family: var(--md-code-font-family);
+    color: var(--wx-muted);
+    font-weight: 600;
+}
+
+.wx-grp-body {
+    font-size: 0.72rem;
+    margin-top: 2px;
 }
 
 /* Remover fundo do link da barra lateral no modo escuro */
