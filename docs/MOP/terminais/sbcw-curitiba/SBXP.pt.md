@@ -19,11 +19,6 @@ tags:
 | **Altitude de transição** | **8000 pés** em toda a TMA[^cartas] |
 | **Aeródromos na TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.pt.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.pt.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.pt.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.pt.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.pt.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.pt.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.pt.md) |
 
-!!! question "Proposta em revisão"
-    As seções a partir de **Configuração da TMA** são uma proposta de manual operacional e ainda estão em revisão.
-
-    O que é do aeródromo (pistas, táxi, DCL, pátios) fica na página de cada aeródromo. Aqui fica só o que o APP precisa para gerir a TMA.
-
 ## :material-monitor-dashboard: Informações Úteis
 
 === ":material-monitor-dashboard: Painel"
