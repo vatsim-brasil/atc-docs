@@ -59,9 +59,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWF_APP** | `WF` | Controle Recife | **120.400** |  |
-| **SBRF_TWR** | `TRF` | Torre Recife | **118.350** |  |
-| **SBJP_TWR** | `TJP` | Torre João Pessoa | **118.300** |  |
+| **SBWF_APP** | `WF` | Recife Control | **120.400** |  |
+| **SBRF_TWR** | `TRF` | Recife Tower | **118.350** |  |
+| **SBJP_TWR** | `TJP` | João Pessoa Tower | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

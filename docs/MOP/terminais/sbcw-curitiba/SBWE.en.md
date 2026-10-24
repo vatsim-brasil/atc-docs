@@ -61,10 +61,10 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWE_APP** | `WE` | Controle Macaé | **119.450** |  |
-| **SBME_TWR** | `TME` | Torre Macaé | **118.450** |  |
-| **SBES_TWR** | `TES` | Torre Aldeia | **118.300** |  |
-| **SBES_APP** | `XES` | Controle Aldeia | **119.450** |  |
+| **SBWE_APP** | `WE` | Macaé Control | **119.450** |  |
+| **SBME_TWR** | `TME` | Macaé Tower | **118.450** |  |
+| **SBES_TWR** | `TES` | Aldeia Tower | **118.300** |  |
+| **SBES_APP** | `XES` | Aldeia Control | **119.450** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

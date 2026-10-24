@@ -52,9 +52,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWU_APP** | `WU` | Controle Bauru | **121.300** |  |
-| **SBBU_R_TWR** | `RBU` | Rádio Bauru | **121.300** |  |
-| **SBAE_R_TWR** | `RAE` | Rádio Arealva | **126.600** |  |
+| **SBWU_APP** | `WU` | Bauru Control | **121.300** |  |
+| **SBBU_R_TWR** | `RBU` | Bauru Radio | **121.300** |  |
+| **SBAE_R_TWR** | `RAE` | Arealva Radio | **126.600** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -96,7 +96,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
     - There is no visual chart (REA/REH) published for this TMA.
 
 - AFIL flight plans are not accepted. A flight plan is mandatory before take-off, except for VFR flights from aerodromes without an ATS unit that do not enter controlled airspace.
-- SBAE: two-way contact with Rádio Arealva and Bauru APP.
+- SBAE: two-way contact with Arealva Radio and Bauru APP.
 
 ## :material-note-text-outline: Remarks
 

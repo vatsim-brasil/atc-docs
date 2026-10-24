@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="Point merge: estrutura" font-family="Ubuntu Sans, Ubuntu, Segoe UI, Roboto, Arial, sans-serif">
+<title>Point merge: estrutura</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e293b"/></marker><marker id="ar-o" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker></defs>
+<rect width="800" height="520" rx="12" fill="#f8fafc"/>
+<circle cx="400.0" cy="380.0" r="290.0" fill="none" stroke="#cbd5e1" stroke-dasharray="2 6"/>
+<circle cx="400.0" cy="380.0" r="235.0" fill="none" stroke="#cbd5e1" stroke-dasharray="2 6"/>
+<path d="M30,60 L154.1,226.3" stroke="#2f7fd1" stroke-width="5" fill="none" marker-end="url(#ar)"/>
+<path d="M770,90 L599.3,255.5" stroke="#12a150" stroke-width="5" fill="none" marker-end="url(#ar)"/>
+<path d="M154.1,226.3 A290.0,290.0 0 0,1 645.9,226.3" stroke="#2f7fd1" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M599.3,255.5 A235.0,235.0 0 0,0 200.7,255.5" stroke="#12a150" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M-7,-6 L7,0 L-7,6 z" fill="#fff" stroke="#2f7fd1" stroke-width="2" transform="translate(221.5,151.5) rotate(-38.0)"/>
+<path d="M-7,-6 L7,0 L-7,6 z" fill="#fff" stroke="#12a150" stroke-width="2" transform="translate(255.3,194.8) rotate(142.0)"/>
+<path d="M-7,-6 L7,0 L-7,6 z" fill="#fff" stroke="#2f7fd1" stroke-width="2" transform="translate(400.0,90.0) rotate(0.0)"/>
+<path d="M-7,-6 L7,0 L-7,6 z" fill="#fff" stroke="#12a150" stroke-width="2" transform="translate(400.0,145.0) rotate(180.0)"/>
+<path d="M-7,-6 L7,0 L-7,6 z" fill="#fff" stroke="#2f7fd1" stroke-width="2" transform="translate(578.5,151.5) rotate(38.0)"/>
+<path d="M-7,-6 L7,0 L-7,6 z" fill="#fff" stroke="#12a150" stroke-width="2" transform="translate(544.7,194.8) rotate(218.0)"/>
+<path d="M400.0,380.0 L400.0,455" stroke="#1e293b" stroke-width="5" marker-end="url(#ar)"/>
+<rect x="393.0" y="470" width="14" height="42" rx="2" fill="#1e293b"/>
+<path d="M396.0,476 V506" stroke="#fff" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="400.0" cy="380.0" r="11" fill="#fff" stroke="#1e293b" stroke-width="4"/>
+<text x="420.0" y="386.0" text-anchor="start" font-size="20" font-weight="700" fill="#1e293b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">M</text>
+<text x="416.0" y="452.0" text-anchor="start" font-size="13" font-weight="700" fill="#64748b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">IAF</text>
+<path d="M400.0,380.0 L233.7,142.4" stroke="#64748b" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="296.5" y="249.3" text-anchor="middle" font-size="17" font-weight="700" fill="#64748b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">d</text>
+<path d="M400.0,380.0 L522.6,117.2" stroke="#64748b" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="479.4" y="235.4" text-anchor="middle" font-size="17" font-weight="700" fill="#64748b" paint-order="stroke" stroke="#f8fafc" stroke-width="4">d</text>
+<text x="400.0" y="76.0" text-anchor="middle" font-size="15" font-weight="700" fill="#2f7fd1" paint-order="stroke" stroke="#f8fafc" stroke-width="4">FL150</text>
+<text x="400.0" y="171.0" text-anchor="middle" font-size="15" font-weight="700" fill="#12a150" paint-order="stroke" stroke="#f8fafc" stroke-width="4">FL140</text>
+<text x="40.0" y="46.0" text-anchor="start" font-size="20" font-weight="700" fill="#2f7fd1" paint-order="stroke" stroke="#f8fafc" stroke-width="4">A</text>
+<text x="760.0" y="76.0" text-anchor="end" font-size="20" font-weight="700" fill="#12a150" paint-order="stroke" stroke="#f8fafc" stroke-width="4">B</text>
+</svg>

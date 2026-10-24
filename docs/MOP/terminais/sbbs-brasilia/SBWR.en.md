@@ -59,8 +59,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWR_APP** | `WR` | Controle Brasília | **119.200** |  |
-| **SBBR_TWR** | `TBR` | Torre Brasília | **118.100** |  |
+| **SBWR_APP** | `WR` | Brasília Control | **119.200** |  |
+| **SBBR_TWR** | `TBR` | Brasília Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

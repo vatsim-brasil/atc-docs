@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWK_APP** | `WK` | Controle Porto Seguro | **120.900** |  |
-| **SBPS_TWR** | `TPS` | Torre Porto Seguro | **118.850** |  |
+| **SBWK_APP** | `WK` | Porto Seguro Control | **120.900** |  |
+| **SBPS_TWR** | `TPS` | Porto Seguro Tower | **118.850** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

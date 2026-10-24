@@ -59,9 +59,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXN_APP** | `XN` | Controle Anápolis | **129.450** |  |
-| **SBAN_TWR** | `TAN` | Torre Anápolis | **118.300** |  |
-| **SBGO_TWR** | `TGO` | Torre Goiânia | **118.700** |  |
+| **SBXN_APP** | `XN` | Anápolis Control | **129.450** |  |
+| **SBAN_TWR** | `TAN` | Anápolis Tower | **118.300** |  |
+| **SBGO_TWR** | `TGO` | Goiânia Tower | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

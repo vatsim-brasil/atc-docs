@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXT_APP** | `XT` | Controle Natal | **119.300** |  |
-| **SBNT_TWR** | `TNT` | Torre Natal | **118.700** |  |
+| **SBXT_APP** | `XT` | Natal Control | **119.300** |  |
+| **SBNT_TWR** | `TNT` | Natal Tower | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

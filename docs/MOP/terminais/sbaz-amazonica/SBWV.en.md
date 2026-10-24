@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWV_APP** | `WV` | Controle Porto Velho | **120.250** |  |
-| **SBPV_TWR** | `TPV` | Torre Porto Velho | **118.200** |  |
+| **SBWV_APP** | `WV` | Porto Velho Control | **120.250** |  |
+| **SBPV_TWR** | `TPV` | Porto Velho Tower | **118.200** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

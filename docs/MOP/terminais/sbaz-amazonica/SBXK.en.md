@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXK_APP** | `XK` | Controle Macapá | **119.000** |  |
-| **SBMQ_TWR** | `TMQ` | Torre Macapá | **118.000** |  |
+| **SBXK_APP** | `XK` | Macapá Control | **119.000** |  |
+| **SBMQ_TWR** | `TMQ` | Macapá Tower | **118.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

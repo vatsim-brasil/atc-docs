@@ -59,8 +59,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWB_APP** | `WB` | Controle Belém | **119.050** |  |
-| **SBBE_TWR** | `TBE` | Torre Belém | **118.700** |  |
+| **SBWB_APP** | `WB` | Belém Control | **119.050** |  |
+| **SBBE_TWR** | `TBE` | Belém Tower | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

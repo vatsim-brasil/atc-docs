@@ -16,7 +16,8 @@ tags:
 | **Callsign** | São Paulo Control |
 | **Frequency** | **119.600** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md), `SBKP`, `SBMT`, `SBJD`, `SBSJ`, `SDCO`, `SBST` |
+| **Transition altitude** | **8000 ft** throughout the TMA[^cartas] |
+| **Aerodromes in the TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.en.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.en.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.en.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.en.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.en.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
@@ -106,23 +107,94 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 ## :material-view-grid-outline: APP Sectorization
 
-The APP is split into sectors, each with its own position and frequency in the package. Turn on the **APP sectors** layer on the map to see them. When a sector position is offline, the sector passes to the position listed under *Coverage*.
+The APP is split into sectors, each with its own position and frequency in the package. Turn on the **APP sectors (elementary)** layer on the map to see them, or the layer of a combined position to see the consolidated area it covers. Who takes over a closed sector is shown under [Combined positions](#combined-positions) and in the [coverage](#top-down-coverage) diagram.
 
-| Position | Frequency | Limits | Coverage |
-| --- | --- | --- | --- |
-| `SBXP_T1_APP` | **134.900** | 5500 FT – FL245 | `SBXP_S_APP` |
-| `SBSP_F_APP` | **133.850** | 5500 FT – FL100 | `SBXP_T1_APP` / `SBXP_T2_APP` / `SBXP_T7_APP` |
-| `SBSJ_F_APP` | **124.150** | 5500 FT – FL100 | `SBXP_E_APP` |
-| `SBXP_T13_APP` | **129.275** | FL135 – FL245 | `SBXP_NU_APP` |
-| `SBXP_T2_APP` | **132.750** | 5500 FT – FL245 | `SBXP_S_APP` |
-| `SBXP_T3_APP` | **135.750** | 5500 FT – FL135 | `SBXP_NL_APP` |
-| `SBKP_F_APP` | **119.250** | 5500 FT – FL100 | `SBXP_T3_APP` / `SBXP_T5_APP` |
-| `SBXP_T4_APP` | **119.800** | FL135 – FL245 | `SBXP_NU_APP` |
-| `SBXP_T5_APP` | **132.100** | 5500 FT – FL135 | `SBXP_NL_APP` |
-| `SBXP_T6_APP` | **120.850** | FL135 – FL245 | `SBXP_NU_APP` |
-| `SBXP_T7_APP` | **119.375** | 5500 FT – FL245 | `SBXP_E_APP` |
-| `SBGR_F_APP` | **129.750** | 5500 FT – FL100 | `SBXP_T8_APP` |
-| `SBXP_T8_APP` | **120.450** | 5500 FT – FL245 | `SBXP_E_APP` |
+Each tab shows one elementary sector, without the combined positions. The sector is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below FL100.
+
+=== "T1"
+    <figure markdown="span">
+      ![São Paulo APP sector T1, from 5500 ft to FL245](img/sbxp-setor-t1.svg){ loading=lazy }
+    </figure>
+
+=== "T2"
+    <figure markdown="span">
+      ![São Paulo APP sector T2, from 5500 ft to FL245](img/sbxp-setor-t2.svg){ loading=lazy }
+    </figure>
+
+=== "T3"
+    <figure markdown="span">
+      ![São Paulo APP sector T3, from 5500 ft to FL135](img/sbxp-setor-t3.svg){ loading=lazy }
+    </figure>
+
+=== "T4"
+    <figure markdown="span">
+      ![São Paulo APP sector T4, from FL135 to FL245](img/sbxp-setor-t4.svg){ loading=lazy }
+    </figure>
+
+=== "T5"
+    <figure markdown="span">
+      ![São Paulo APP sector T5, from 5500 ft to FL135](img/sbxp-setor-t5.svg){ loading=lazy }
+    </figure>
+
+=== "T6"
+    <figure markdown="span">
+      ![São Paulo APP sector T6, from FL135 to FL245](img/sbxp-setor-t6.svg){ loading=lazy }
+    </figure>
+
+=== "T7"
+    <figure markdown="span">
+      ![São Paulo APP sector T7, from 5500 ft to FL245](img/sbxp-setor-t7.svg){ loading=lazy }
+    </figure>
+
+=== "T8"
+    <figure markdown="span">
+      ![São Paulo APP sector T8, from 5500 ft to FL245](img/sbxp-setor-t8.svg){ loading=lazy }
+    </figure>
+
+=== "T13"
+    <figure markdown="span">
+      ![São Paulo APP sector T13, from FL135 to FL245](img/sbxp-setor-t13.svg){ loading=lazy }
+    </figure>
+
+=== "FGR"
+    <figure markdown="span">
+      ![São Paulo APP sector FGR, Guarulhos final, from 5500 ft to FL100](img/sbxp-setor-fgr.svg){ loading=lazy }
+    </figure>
+
+=== "FSP"
+    <figure markdown="span">
+      ![São Paulo APP sector FSP, Congonhas final, from 5500 ft to FL100](img/sbxp-setor-fsp.svg){ loading=lazy }
+    </figure>
+
+=== "FKP"
+    <figure markdown="span">
+      ![São Paulo APP sector FKP, Campinas final, from 5500 ft to FL100](img/sbxp-setor-fkp.svg){ loading=lazy }
+    </figure>
+
+=== "FSJ"
+    <figure markdown="span">
+      ![São Paulo APP sector FSJ, São José dos Campos final, from 5500 ft to FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
+    </figure>
+
+| Sector | Position | Frequency | Limits | Role |
+| :---: | --- | --- | --- | --- |
+| **T1** | `SBXP_T1_APP` | **134.900** | 5500 FT – FL245 | **Feeder** for SBSP, to the south |
+| **T2** | `SBXP_T2_APP` | **122.750** | 5500 FT – FL245 | **Feeder** for SBSP, to the west and southwest |
+| **T3** | `SBXP_T3_APP` | **135.750** | 5500 FT – FL135 | **Feeder** for SBKP, to the west |
+| **T4** | `SBXP_T4_APP` | **119.800** | FL135 – FL245 | **Upper sector**: arrivals and departures to the northwest |
+| **T5** | `SBXP_T5_APP` | **132.100** | 5500 FT – FL135 | **Feeder** for SBKP and SBGR, to the north |
+| **T6** | `SBXP_T6_APP` | **120.850** | FL135 – FL245 | **Upper sector**: arrivals and departures to the north and northeast |
+| **T7** | `SBXP_T7_APP` | **119.375** | 5500 FT – FL245 | **Feeder** for SBGR and SBSP, to the east |
+| **T8** | `SBXP_T8_APP` | **120.450** | 5500 FT – FL245 | **Feeder** for SBGR and SBSJ, to the northeast |
+| **T13** | `SBXP_T13_APP` | **129.275** | FL135 – FL245 | **Upper sector**: arrivals and departures to the west |
+| **FGR** | `SBGR_F_APP` | **129.750** | 5500 FT – FL100 | **Final** for SBGR |
+| **FSP** | `SBSP_F_APP` | **133.850** | 5500 FT – FL100 | **Final** for SBSP |
+| **FKP** | `SBKP_F_APP` | **119.250** | 5500 FT – FL100 | **Final** for SBKP |
+| **FSJ** | `SBSJ_F_APP` | **124.150** | 5500 FT – FL100 | **Final** for SBSJ |
+
+- **Upper sector:** takes descending arrivals from the ACC and hands climbing departures to the ACC, above the feeders.
+- **Feeder:** builds the arrival sequence and hands the aircraft to the final already spaced, descending to the final altitude. It also handles departures in its sector.
+- **Final:** takes traffic from the feeders, adjusts the spacing on final and transfers to the Tower.
 
 ### Combined positions
 
@@ -135,18 +207,50 @@ The APP is split into sectors, each with its own position and frequency in the p
 | `SBXP_N_APP` | **120.250** | `SBXP_NU_APP`, `SBXP_NL_APP` |
 | `SBXP_S_APP` | **129.000** | `SBXP_T1_APP`, `SBXP_T2_APP` |
 
+Each tab shows the consolidated area the combined position covers, with its vertical limits below the name. Its makeup is in the *Takes over* column and in the [sector maps](#app-sectorization).
+
+=== "SBXP_APP"
+    <figure markdown="span">
+      ![Combined position SBXP_APP: the whole TMA](img/sbxp-comb-app.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_S_APP"
+    <figure markdown="span">
+      ![Combined position SBXP_S_APP: sectors T1 and T2, to the south](img/sbxp-comb-s.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_E_APP"
+    <figure markdown="span">
+      ![Combined position SBXP_E_APP: sectors T7 and T8 and the São José final, to the east](img/sbxp-comb-e.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_N_APP"
+    <figure markdown="span">
+      ![Combined position SBXP_N_APP: sectors T3, T4, T5, T6 and T13, to the north and west](img/sbxp-comb-n.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_NL_APP"
+    <figure markdown="span">
+      ![Combined position SBXP_NL_APP: sectors T3 and T5, lower layer to the north and west](img/sbxp-comb-nl.svg){ loading=lazy }
+    </figure>
+
+=== "SBXP_NU_APP"
+    <figure markdown="span">
+      ![Combined position SBXP_NU_APP: sectors T4, T6 and T13, upper layer to the north and west](img/sbxp-comb-nu.svg){ loading=lazy }
+    </figure>
+
 ## :material-headset: ATC Units
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXP_APP** | `XP` | Controle São Paulo | **119.600** |  |
-| **SBGR_TWR** | `TGR` | Torre Guarulhos | **132.750** |  |
-| **SBSP_TWR** | `TSP` | Torre São Paulo | **127.150** |  |
-| **SBKP_TWR** | `TKP` | Torre Campinas | **118.250** |  |
-| **SBSJ_TWR** | `TSJ` | Torre São José | **118.500** |  |
-| **SBJD_TWR** | `TJD` | Torre Jundiaí | **118.750** |  |
-| **SBTA_TWR** | `TTA` | Torre Taubaté | **119.900** |  |
-| **SBMT_TWR** | `TMT` | Torre Marte | **133.350** |  |
+| **SBXP_APP** | `XP` | São Paulo Control | **119.600** |  |
+| **SBGR_TWR** | `TGR` | Guarulhos Tower | **132.750** |  |
+| **SBSP_TWR** | `TSP` | São Paulo Tower | **127.150** |  |
+| **SBKP_TWR** | `TKP` | Campinas Tower | **118.250** |  |
+| **SBSJ_TWR** | `TSJ` | São José Tower | **118.500** |  |
+| **SBJD_TWR** | `TJD` | Jundiaí Tower | **118.750** |  |
+| **SBTA_TWR** | `TTA` | Taubaté Tower | **119.900** |  |
+| **SBMT_TWR** | `TMT` | Marte Tower | **133.350** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -198,6 +302,303 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
         classDef grpctr fill:none,stroke:#8a56c9,stroke-dasharray:4 3
     ```
 
+## :material-account-group-outline: Opening positions
+
+The package splits the TMA into many sectors, but on the network there is almost always a single controller, on `SBXP_APP`. Opening sectors follows the VATSIM Brasil [ATC Sector Opening Policy](https://vatsim.com.br/documentos/politica-de-abertura-de-setores-atc){ target="_blank" }.
+
+!!! warning "There is no formal opening order"
+    The sectors to open are set by the **Operations Department**, under the policy. Do not open a sector or a combined position on your own just because traffic has picked up.
+
+With any combination open, each position takes over the sectors of the closed positions below it (see [APP Sectorization](#app-sectorization), [Combined positions](#combined-positions) and the [coverage](#top-down-coverage) diagram).
+
+### FIZs inside the TMA
+
+Below the TMA there are flight information zones (FIZ, class G) with their own position in the package. When the FIZ position is offline, `SBXP_APP` (or the position covering it) provides flight information service there.
+
+| FIZ | Limits | Position | Callsign | Frequency |
+| :--- | :--- | :--- | :--- | :---: |
+| **SBST** (Santos) | GND – 5500 FT | `SBST_R_TWR` | Santos Radio | **118.650** |
+| **SDAM** (Amarais) | Sector 1: GND – 5500 FT · Sector 2: GND – 3600 FT | `SDAM_R_TWR` | Amarais Radio | **118.125** |
+| **SBJH** (Catarina) | GND – 5000 FT | `SBJH_R_TWR` | Catarina Radio | **131.800** |
+| **SBBP** (Bragança Paulista) | GND – 4500 FT | `SBBP_R_TWR` | Bragança Paulista Radio | **125.700** |
+| **SDCO** (Sorocaba) | GND – 5500 FT (ATZ GND – 3600 FT) | `SDCO_TWR` | Sorocaba Tower | **118.800** |
+
+- There is no separation in a FIZ: the unit gives **traffic information** and aerodrome information. IFR aircraft departing from or arriving at a FIZ are cleared by the APP before entering the TMA.
+- Coordinate IFR departures (clearance and take-off time) and arrivals (estimate and procedure) with the Radio.
+
+---
+
+## :material-cog-outline: TMA configuration
+
+The TMA works with the runways in use at the three main aerodromes. Each Tower picks its runway from the wind and the rules on the aerodrome page. The APP needs to know the combination, because it sets the STARs and SIDs in use.
+
+| Aerodrome | Configurations | Preferred | Details |
+| :---: | :--- | :--- | :--- |
+| **SBGR** | **10** (landing 10R, take-off 10L) or **28** (landing 28L, take-off 28R) | 10, with tailwind < 7 kt and dry runway | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md#preferred-runways) |
+| **SBSP** | **17** or **35** (both parallels in the same direction) | None: follows the wind | [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md#main-and-auxiliary-runway) |
+| **SBKP** | **15** or **33** | 15, with tailwind < 7 kt and dry runway | [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.en.md#preferential-runway-system) |
+
+!!! warning "SBGR depends on the SBSP runway"
+    Some SBGR SIDs may only be used **with SBSP on runway 35**. The restriction is in the chart remarks[^sid-gr]. With SBSP on 17, SBGR departures use the SIDs without that restriction.
+
+    When SBSP changes runway, tell the SBGR Clearance and Tower.
+
+---
+
+## :material-airplane-landing: Arrivals
+
+STARs change often, so this page doesn't list them. Always check the current chart in the **Aeronautical Charts** tab, under [Useful Information](#useful-information).
+
+- All STARs in the TMA are **RNAV 1**. An aircraft without GNSS can only fly a STAR under ATS surveillance[^cartas].
+- **Aircraft without RNAV, or not flying the STAR:** handle case by case. Usually give **direct headings** to the IAF or **vector** to final, with explicit level and speed.
+- The STAR depends on the **runway in use**. Clear the STAR for the runway on the ATIS and, if the runway changes, clear the STAR for the new runway again.
+- Keep the level and speed restrictions on the chart. When you vector off the STAR, the aircraft no longer follows them: give level and speed explicitly.
+- STARs end at the **IAF** of the approach procedure. After it, clear the approach or vector to final.
+
+### Point merge at SBGR
+
+SBGR STARs converge on a **single point** north of the aerodrome (**SANPA**, on the current charts) and from there continue to the IAF of the runway in use.
+
+Each entry has two STAR versions:
+
+- **Direct, without an arc:** the standard. **Day to day, always use the direct arrivals.**
+- **With a sequencing arc (*point merge*):** only for **heavy traffic**, when the sequence can't be sorted out with the direct ones and a few speed adjustments or vectors.
+
+On the arc, the aircraft flies level, at a constant distance from the merge point, until it gets **"direct"** to it. This lets the controller space the arrivals without vectoring.
+
+??? info "What point merge is"
+    *Point merge* is an arrival sequencing technique developed by EUROCONTROL. Instead of vectoring each aircraft, the controller uses a **fixed structure of RNAV routes** and only decides **when** each aircraft leaves it.
+
+    <figure markdown="span">
+      ![Two arcs at different levels, both at the same distance d from the merge point M, with a common route from M to the IAF and the runway](img/point-merge-estrutura.svg){ loading=lazy }
+      <figcaption>Structure. Blue and green: sequencing arcs of flows A and B, at different levels. Dashed: every point of an arc is at the same distance <em>d</em> from the merge point M. Black: common route from M to the IAF and the runway. Illustrative levels.</figcaption>
+    </figure>
+
+    - **Merge point (M):** where all flows join. From there it is a single route to the IAF.
+    - **Sequencing arcs:** curved legs where the aircraft flies **level**, always at the same distance from M. So when an aircraft on the arc gets **"direct M"**, its remaining track is always the same, and the spacing only depends on **when** it leaves.
+    - **Different levels:** each flow has its own arc, at its own level, and the arcs are flown in opposite directions. The two flows stay vertically separated until they leave the arc.
+
+    <figure markdown="span">
+      ![Aircraft flying the arcs; one gets direct to M and follows two that are already heading to M, with minimum spacing between them](img/point-merge-sequencia.svg){ loading=lazy }
+      <figcaption>Sequencing. Orange: aircraft that has just been cleared "direct M". Black: aircraft ahead, already on the same track to M, spaced.</figcaption>
+    </figure>
+
+    1. The aircraft joins the arc and flies **level**, at the chart speed.
+    2. Once the aircraft ahead is far enough, the controller clears **direct M** and the descent. The point where it leaves the arc sets the spacing.
+    3. They all fly the **same track** to M, one behind the other. The spacing is the separation minimum or the wake minimum, whichever is greater.
+    4. From M, the aircraft follows the STAR to the IAF and the approach.
+
+    **When to use it:** only with **heavy traffic**. With the arc, every arrival flies further than on the direct STAR, so in normal traffic it only adds delay. Day to day, use the direct arrivals.
+
+    **Benefits at the peak:** fewer vectors and fewer transmissions, a continuous descent from the arc exit and predictable tracks for everyone. If the arc ends without an instruction, the aircraft follows the STAR to M (on the SBGR charts, the end of the arc already leads to the merge point). If demand exceeds the capacity of the arcs, use **holding**.
+
+!!! tip "Using point merge"
+    1. With heavy traffic, clear the STAR with the arc and let the aircraft continue at the arc level.
+    2. When the spacing to the aircraft ahead is enough (see [wake turbulence](../../../documentos/manuais/separacao-esteira/index.en.md)), clear **direct** to the merge point and the descent.
+    3. From there, the aircraft follows the STAR to the IAF; vector to final if you need to adjust.
+
+### Most used approaches
+
+The normal approach procedure (IAC) for each runway, the RNP alternative and the special-use procedures. The **IAF** is where the STAR ends; the approach starts there.
+
+=== "SBGR"
+    | Runway | Standard | IAF | RNP alternative | Other |
+    | :---: | :--- | :---: | :--- | :--- |
+    | **10R** | **ILS Y** (segregated operations) | LOMEN | RNP Y | **Without segregated operations:** ILS Q or RNP X (alternates). **Low visibility:** ILS Q CAT II & III. Without GNSS: ILS P or LOC P (radar required). ILS R: from GR283, requires RF |
+    | **28L** | **ILS Y** (segregated operations) | UTKUG | RNP Z | **Without segregated operations:** ILS W or RNP X (alternates). Without GNSS: ILS Z or LOC Z (radar required) |
+    | **10L** | **ILS O** or **ILS W** (CAT I and II) | LOMEN | RNP T or RNP W | Without GNSS: ILS N or LOC N. RNP S (AR): special authorization |
+    | **28R** | **ILS T** or **ILS M** | UTKUG | RNP V or RNP M | Without GNSS: ILS W or LOC W (DME arc) |
+
+    10R and 28L are the landing runways. Apply [segregated operations](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md#segregated-operations) whenever possible: on both runways ILS Y is the standard (on 10R, with higher minima and an immediate right turn on the missed approach); ILS Q (10R) and ILS W (28L) are the alternates. 10L and 28R only take landings outside normal operations (see [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md#preferred-runways)). There is no CAT II or III on 28L and 28R.
+
+=== "SBSP"
+    | Runway | Standard | IAF | RNP alternative | Other |
+    | :---: | :--- | :---: | :--- | :--- |
+    | **17R** | **ILS X** | LUVDI, KOMGU | RNP Y | Without GNSS: ILS Y or LOC Y (via STN and AKRUB). RNP X (AR): special authorization |
+    | **17L** | **RNP T** (CAT A, B and C only) | LUVDI, KOMGU | — | VOR Z (17L and 17R) |
+    | **35L** | **ILS V** | ESUNI, OGTAL | RNP Z | Without GNSS: ILS R or LOC R. RNP X (AR): special authorization |
+    | **35R** | **RNP S** (CAT A, B and C only) | ESUNI, OGTAL | — | VOR Y (35L and 35R) |
+
+=== "SBKP"
+    | Runway | Standard | IAF | RNP alternative | Other |
+    | :---: | :--- | :---: | :--- | :--- |
+    | **15** | **ILS Z** | ITEDI, NOBRE, NILKA | RNP Z | Without GNSS: ILS X or LOC X (from MUPIP, missed approach with vectors). VOR Z. RNP Y (AR): special authorization |
+    | **33** | **RNP X** (no ILS) | KP209, KP191, UBKUP | — | VOR Y. RNP W (AR): special authorization |
+
+=== "SBSJ"
+    | Runway | Standard | IAF | RNP alternative | Other |
+    | :---: | :--- | :---: | :--- | :--- |
+    | **16** | **ILS T** | SJ063, LONES | RNP W | Without GNSS: ILS V or LOC V (DME arc), VOR Z. RNP Z (AR): special authorization. VOR Y: military aircraft only |
+    | **34** | **RNP X** (no ILS) | DAGOV, SOTPI | — | VOR |
+
+=== "Other"
+    | Aerodrome | Runway | Standard | Other |
+    | :---: | :---: | :--- | :--- |
+    | **SBJD** | **18** | **RNP Z** (CAT A, B and C) | RNP A: circling via a prescribed visual track. No IAC for 36 |
+    | **SDCO** | **01** | **RNP Z** (CAT A, B and C) | High minima: 1000 ft and 5000 m |
+    | **SDCO** | **19** | **RNP Y** (CAT A, B and C) | High minima: 1000 ft and 5000 m |
+    | **SBST** | **35** | **RNP Z** (CAT A, B and C) | Helicopters: RNP 076 (point in space, continue VFR from UDUSU). No IAC for 17 |
+    | **SBTA** | **08** / **26** | **RNP** (helicopters only, CAT H) | VOR 08, VOR 26, RNP Z and VOR Z 26: helicopters only too. No fixed-wing IFR approach |
+
+    SBMT has no instrument approach procedure.
+
+- **AR** (*Authorization Required*): RNP AR requires special approval of the aircraft and crew. Only clear it if the pilot asks for it.
+- **Without GNSS:** the conventional versions use VOR and DME, for aircraft that can't fly RNAV.
+
+<small>Source: each aerodrome's IAC charts on AISWEB (AIRAC 2209A1 to 2609A1). The charts don't say which procedure is the standard; the criterion used here is a CAT I ILS from the IAF where the STAR ends, or RNP where there is no ILS. Exception: on SBGR 10R and 28L, the standard is the segregated-operations ILS Y.</small>
+
+---
+
+## :material-airplane-takeoff: Departures
+
+SIDs also change often and aren't listed here. Check the current chart in the **Aeronautical Charts** tab.
+
+- All SIDs are **RNAV 1**, except each aerodrome's **OMNI**. The OMNI is used when the aircraft can't fly the RNAV SID, or at ATC discretion[^ad22-gr]. On it the aircraft climbs on the assigned heading to the chart altitude and **awaits instructions**: vector it as soon as it calls.
+- The SID depends on the **runway in use** and the **exit fix** in the flight plan.
+- RNAV SIDs **publish no initial level**: the vertical limit is set by the fix restrictions.
+- Pilots who can't meet the SID altitude restrictions tell ATC **before take-off**[^cartas].
+- Climb departures to their **cruising level** whenever possible: release the climb above the SID restrictions as soon as there is no conflict, especially with arrivals crossing above.
+
+**Next unit by departure direction:**
+
+- **North and northeast:** Brasília ACC.
+- **West, southwest and south:** Curitiba ACC.
+- **East:** Rio de Janeiro APP ([SBWJ](SBWJ.en.md)) or Brasília ACC, depending on the fix.
+
+---
+
+## :material-call-split: TMA circulation
+
+TMA STARs and SIDs cross at several points. The charts separate most of these crossings **vertically**: the arrival passes above or below the departure thanks to the level restrictions. That separation depends on both aircraft meeting the restrictions. With a **direct**, a **vector** or a **cancelled restriction**, it can disappear.
+
+The maps below show arrivals (solid line) and departures (dashed) in the two most common configurations, with the **potential conflict points**: crossings where the levels predicted by the charts are less than 4000 ft apart.
+
+- :material-circle:{ style="color:#dc2626" } **Red:** less than 2000 ft. The chart's vertical separation is small; treat it as a conflict.
+- :material-circle:{ style="color:#ea580c" } **Orange:** 2000 to 4000 ft. Separated by the chart, but the margin goes away with a direct or a released climb.
+
+=== "SBGR 10 · SBSP 17 · SBKP 15"
+    <figure markdown="span">
+      ![São Paulo TMA circulation with SBGR 10, SBSP 17 and SBKP 15: arrivals and departures of the three aerodromes and four potential conflict points](img/sbxp-circulacao-sudeste.svg){ loading=lazy }
+    </figure>
+
+    | Point | Arrival | Departure | Predicted level (arrival / departure) |
+    | :---: | :--- | :--- | :--- |
+    | **1** | SBKP EDMUS 1B | SBKP EGBEN 1A, ISMOB 1A, KONVI 2C | FL100 / 6500 FT |
+    | **2** | SBKP VERME 1A | SBKP EGEVA 1A | FL110 / 8500 FT |
+    | **3** | SBSP OGTAL 2A | SBSP UBRAM 1A | 9000 FT / 5500 FT |
+    | **4** | SBSP OGTAL 2A | SBSP UGTIX 2A, UTKOM 1A | 9000 FT / 7000 FT |
+
+=== "SBGR 28 · SBSP 35 · SBKP 33"
+    <figure markdown="span">
+      ![São Paulo TMA circulation with SBGR 28, SBSP 35 and SBKP 33: arrivals and departures of the three aerodromes and seven potential conflict points](img/sbxp-circulacao-noroeste.svg){ loading=lazy }
+    </figure>
+
+    | Point | Arrival | Departure | Predicted level (arrival / departure) |
+    | :---: | :--- | :--- | :--- |
+    | **1** | SBSP ORESU 1B | SBGR XOLUS 1A | FL205 / FL170 |
+    | **2** | SBKP UBKUP 2A | SBKP EGEVA 1B | FL125 / 8500 FT |
+    | **3** | SBGR MOLLE 1C | SBGR XOLUS 1A | FL170 / FL160 |
+    | **4** | SBKP EDMUS 1A | SBGR ISNAP 2A, SBSP BAIAN 3B | FL250 / FL240–FL245 |
+    | **5** | SBKP UBKUP 2A | SBGR AKRER 3A, SBSP UBRAM 1B | FL135 / FL110 |
+    | **6** | SBSP ORESU 1B | SBGR AKRER 3A | FL100 / 8500 FT |
+    | **7** | SBSP ORESU 1B | SBSP SEDLO 1A, UBRAM 1B, UGTIX 1B | 9000 FT / 6500–7000 FT |
+
+!!! tip "At the conflict points"
+    - Before giving a **direct** or **cancelling a restriction** to an aircraft passing a marked point, check the traffic on the other flow.
+    - Prefer to keep the chart restrictions near these points and release the climb or descent **after** the crossing.
+    - With split positions, points on the boundary of two sectors call for **coordination** between them.
+
+<small>How the maps are made: the routes come from the SIDs and STARs in the sector package; the point-merge STARs with arcs are left out, because they aren't used day to day. The predicted level at each crossing is an **estimate**: the arrival descends at 3° to the threshold and the departure climbs at 500 ft per NM, always held to the chart restrictions (AIRAC 2508A1 to 2610A1). Crossings within 5 NM of the threshold belong to the Tower and aren't shown.</small>
+
+---
+
+## :material-swap-horizontal: Transfers
+
+General rules are in the [Coordination and Transfer Manual](../../../documentos/manuais/coordenacao-transferencia/02-transferencia.en.md#who-hands-over-to-whom-and-when). In the São Paulo TMA:
+
+| From | To | When | How the aircraft arrives |
+| :--- | :--- | :--- | :--- |
+| **ACC** | **APP** | At the TMA boundary, over the STAR entry fix | Cleared on the STAR, at the fix [transfer level](#transfer-points-and-levels) |
+| **APP** | **ACC** | Approaching the TMA boundary (lateral or FL245) | On the SID, climbing to cruising level whenever possible |
+| **APP** | **Neighbouring APP** (Rio, Academia) | At the shared exit fixes | Coordinate the level; SBKP and SBGR STARs and SIDs cross the Academia and Rio TMAs |
+| **APP** | **TWR** | Established on final, around **8 to 10 NM** from the threshold | Separated from the aircraft ahead on final |
+| **TWR** | **APP** | Right after take-off | On the SID or on the OMNI heading |
+| **Sector** | **Final** (`*_F_APP`) | When descending below FL100 near the aerodrome | On the STAR, with the sequence set up |
+
+- At SBGR, the pilot states the **departure runway** on first contact with São Paulo Control[^ad20-gr].
+- Aircraft entering the Campinas CTR call the APP on **119.800** or **133.850**; for the São José CTR, on **129.050**[^ad22-kp].
+
+### Transfer points and levels
+
+Arrivals to São Paulo APP. The transferring unit clears the descent to the **level in the table** and hands the aircraft over **at the fix**; from there, the APP continues the descent along the STAR.
+
+<figure markdown="span">
+  ![Map of the São Paulo TMA with the arrival transfer fixes: Curitiba ACC at ANISE, EDRAT and BUXUK; Brasília ACC at ZARES, UTLOT, ENTIT and VUNOX; Rio APP at EDMUS and IBDAL, each with the descent level per destination](img/sbxp-transferencias.svg){ loading=lazy }
+  <figcaption>Each arrow is a transfer fix, in the colour of the transferring unit. Below the fix, the destination and the level the descent is already cleared to.</figcaption>
+</figure>
+
+| From | Fix | Destination | Descent cleared to | STAR |
+| :--- | :---: | :---: | :---: | :--- |
+| **ACC Curitiba** (`SBCW_CTR`) | **ANISE** | SBSP, SBSJ | **FL150** | SBSP OGTAL 2A; SBSJ DAGOV 1A, LONES 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **EDRAT** | SBKP | **FL140** | UBKUP 2A, VERME 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **BUXUK** | SBGR | **FL220** | MOLLE 1A, 1B, 1C, 1D |
+| **ACC Brasília** (`SBBS_CTR`) | **ZARES** | SBGR | **FL210** | MOLLE 1A, 1B, 1C, 1D |
+| **ACC Brasília** (`SBBS_CTR`) | **VUNOX** | SBGR, SBSJ | **FL180** | SBGR VUNOX 1A, 1B, 1C, SANPA 1A; SBSJ LONES 1A |
+| **ACC Brasília** (`SBBS_CTR`) | **UTLOT** | SBKP | **FL140** | UTLOT 3A, UBKUP 2A |
+| **ACC Brasília** (`SBBS_CTR`) | **UTLOT** | SBSP | **FL210** | ORESU 1A, 1B |
+| **ACC Brasília** (`SBBS_CTR`) | **ENTIT** | SBKP | **FL150** | ENTIT 1A, ITEDI 1A |
+| **ACC Brasília** (`SBBS_CTR`) | **ENTIT** | SBSP | **FL220** | ORESU 1A, 1B |
+| **APP Rio** (`SBWJ_APP`) | **EDMUS** | SBGR | **FL110** | EDMUS 1B, 2A |
+| **APP Rio** (`SBWJ_APP`) | **EDMUS** | SBKP | **FL240** | EDMUS 1A, 1B, ITEDI 1A |
+| **APP Rio** (`SBWJ_APP`) | **IBDAL** | SBSP | **FL110** | IBDAL 2A, OGTAL 2A |
+
+Departures have no transfer level: the APP climbs the aircraft to its **cruising level** whenever possible and hands it over as it approaches the TMA boundary.
+
+### Departure directs
+
+To speed up the flow, the APP may clear a **direct** to the fixes below, even though they lie outside the São Paulo TMA. The aircraft leaves the SID, flies direct to the fix and is handed over to the unit in the table as it approaches the TMA boundary.
+
+<figure markdown="span">
+  ![Map of the São Paulo TMA with the departure direct fixes: NUXEL, ISMOB and GERTU to Brasília ACC; ASETA, SOVSI, UBSOD and MADNI to Curitiba ACC, each with the departure aerodromes](img/sbxp-diretos-saidas.svg){ loading=lazy }
+  <figcaption>Each arrow leaves the TMA towards a direct fix, in the colour of the receiving unit. Below the fix, the aerodromes whose departures pass through it.</figcaption>
+</figure>
+
+| To | Fix | Origin | SID |
+| :--- | :---: | :---: | :--- |
+| **ACC Brasília** (`SBBS_CTR`) | **NUXEL** | SBGR, SBSP, SBSJ | SBGR AMVUL 6A, EVNEB 3A, ISNAP 2A, REORI 3A; SBSP BAIAN 3A, 3B; SBSJ BOBIC 3A, VUSMA 3A |
+| **ACC Brasília** (`SBBS_CTR`) | **ISMOB** | SBGR, SBKP | SBGR AMVUL 6A, ORONU 1A, REORI 3A, XOLUS 1A; SBKP EGBEN 1A, ISMOB 1A, OPGUN 2A |
+| **ACC Brasília** (`SBBS_CTR`) | **GERTU** | SBGR, SBSP, SBKP | SBGR AMVUL 6A, ORONU 1A, REORI 3A, XOLUS 1A; SBSP UGTIX 1B, 2A; SBKP EGBEN 1A, OPGUN 2A |
+| **ACC Curitiba** (`SBCW_CTR`) | **ASETA** | SBGR, SBSP, SBKP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP UBRAM 1A, 1B, UGTIX 1B, 2A; SBKP ASETA 1A, OSUDO 4A |
+| **ACC Curitiba** (`SBCW_CTR`) | **SOVSI** | SBGR, SBSP, SBKP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP SEDLO 1A, UTKOM 1A; SBKP OSUDO 4A, SOVSI 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **UBSOD** | SBGR, SBSP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP SEDLO 1A, UTKOM 1A |
+| **ACC Curitiba** (`SBCW_CTR`) | **MADNI** | SBGR, SBSP | SBGR AKRER 3A, CGO 4B, 5A, ZORZA 3A, 5B; SBSP SEDLO 1A, UTKOM 1A |
+
+- Only give the direct when the fix is in the aircraft's flight plan.
+- Before the direct, check the [conflict points](#tma-circulation) with arrivals: the direct takes the aircraft off the SID restrictions.
+
+---
+
+## :material-speedometer: Speeds and separation
+
+| Situation | Value |
+| :--- | :--- |
+| Below FL100 | **250 kt** maximum |
+| SBGR point-merge arcs | **250 kt** |
+| SANPA | **230 kt** |
+| SBGR final | **180 kt** at 10 NM and **160 kt** at 5 NM from the threshold[^ad20-gr] |
+| Radar separation | **5 NM** or **1000 ft**; **3 NM** on SBGR final[^ad20-gr] |
+| VFR helicopter × IFR on SBSP final 17 / departure 35 | Composite separation **2.5 NM × 500 ft**[^enr21] |
+
+---
+
+## :material-clipboard-text-outline: Special procedures
+
+- **Visual approach at SBSP:** with visibility **≥ 5 km** and ceiling **≥ 1000 ft**, the APP may vector for a visual approach. The flight plan stays IFR until the pilot reports the runway in sight[^ad22-sp].
+- **Aircraft without RNAV at SBGR, SBSP and SBKP:** with the conventional navaids out, it may arrive visually. The pilot states on first contact the intention to change from IFR to VFR and requests the change near the aerodrome[^ad22-gr].
+- **Missed approach off the profile at SBKP with communication failure:** climb to **6000 ft** and fly to the IAF of the procedure in use[^ad22-kp].
+
+---
+
 ## :material-airplane: VFR circulation
 
 !!! abstract "Visual navigation documents"
@@ -224,7 +625,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 - São Paulo 1 is class A between FL145 and FL245 and class C between 5500 FT and FL145.
 - São Paulo 2 is the lower layer over the Marte and Jundiaí area, handled in the package by `SBXP_V_APP` (129.500).
-- The package also includes the departures position `SBXP_DEP` (129.050).
 - SBTA (Taubaté) is an Army aerodrome; third-party operations require the commander's authorization. SDCO (Sorocaba) and SBST (Santos) lie in class G FIZs.
 
 ---
@@ -232,6 +632,13 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 Back to the Curitiba FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
+[^cartas]: SBGR, SBSP and SBKP STAR and SID charts on [AISWEB](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBGR){ target="_blank" } (AIRAC 2508A1 to 2610A1).
+[^sid-gr]: Usage remarks on the SBGR RNAV SID charts (in AIRAC 2610A1, AKRER 3A).
+[^ad20-gr]: [AIP Brasil, AD 2 SBGR 2.20](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, items 2.1, 4 and 5.
+[^ad22-gr]: [AIP Brasil, AD 2 SBGR 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, items 1.1 and 1.2.
+[^ad22-sp]: [AIP Brasil, AD 2 SBSP 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, special ATC procedures.
+[^ad22-kp]: [AIP Brasil, AD 2 SBKP 2.22 and AD 2 SBSJ 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }.
+[^enr21]: [AIP Brasil, ENR 2.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, São Paulo TMA, sectors 01 and 02.
 
 <!--
 Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e CTR_*), em [longitude, latitude].
@@ -289,7 +696,7 @@ var grupoTma = L.featureGroup();
 var grupoCtr = L.featureGroup();
 
 // Setores do APP (só nas TMAs setorizadas), agrupados por posição
-const setores = [{"posicao": "SBXP_T1_APP", "freq": "134.900", "lim": "5500 FT – FL245", "contorno": [[-45.37333, -23.91056], [-46.07167, -24.07556], [-46.16722, -24.3075], [-46.69167, -24.40694], [-46.79611, -24.32889], [-46.69167, -23.90194], [-46.56972, -23.77639], [-45.42833, -23.71222], [-45.37333, -23.91056]]}, {"posicao": "SBSP_F_APP", "freq": "133.850", "lim": "5500 FT – FL100", "contorno": [[-46.41278, -23.89611], [-46.63139, -23.98917], [-46.92389, -23.56417], [-47.09417, -23.49667], [-47.10038, -23.33361], [-47.04417, -23.37139], [-46.695, -23.49222], [-46.66722, -23.53083], [-46.41278, -23.89611]]}, {"posicao": "SBSJ_F_APP", "freq": "124.150", "lim": "5500 FT – FL100", "contorno": [[-45.60556, -23.03861], [-45.55472, -23.24806], [-45.72806, -23.405], [-45.92278, -23.35722], [-46.09056, -23.1175], [-45.92611, -22.975], [-45.66722, -23.05222], [-45.60556, -23.03861]]}, {"posicao": "SBXP_T13_APP", "freq": "129.275", "lim": "FL135 – FL245", "contorno": [[-47.77034, -23.42157], [-47.80583, -23.26861], [-47.64583, -22.86028], [-47.15139, -23.09417], [-47.12194, -23.27389], [-47.0975, -23.28917], [-47.12111, -23.34972], [-47.23167, -23.35444], [-47.66694, -23.67222], [-47.69611, -23.65], [-47.77034, -23.42157]]}, {"posicao": "SBXP_T2_APP", "freq": "132.750", "lim": "5500 FT – FL245", "contorno": [[-46.94298, -24.21984], [-47.36972, -23.89778], [-47.66694, -23.67222], [-47.23167, -23.35444], [-47.12111, -23.34972], [-47.11194, -23.32583], [-46.67, -23.62333], [-46.65861, -23.6325], [-46.56972, -23.77639], [-46.69167, -23.90194], [-46.79611, -24.32889], [-46.94298, -24.21984]]}, {"posicao": "SBXP_T3_APP", "freq": "135.750", "lim": "5500 FT – FL135", "contorno": [[-47.0975, -23.28917], [-47.12111, -23.34972], [-47.23167, -23.35444], [-47.66694, -23.67222], [-47.69611, -23.65], [-47.77034, -23.42157], [-47.80583, -23.26861], [-47.585, -22.70472], [-47.44083, -22.64667], [-47.16389, -22.98861], [-47.15139, -23.09417], [-47.12194, -23.27389], [-47.0975, -23.28917]]}, {"posicao": "SBKP_F_APP", "freq": "119.250", "lim": "5500 FT – FL100", "contorno": [[-47.49694, -22.94806], [-47.26389, -22.68028], [-47.05611, -22.82194], [-47.13833, -22.91639], [-46.90972, -23.08667], [-47.045, -23.25361], [-47.49694, -22.94806]]}, {"posicao": "SBXP_T4_APP", "freq": "119.800", "lim": "FL135 – FL245", "contorno": [[-47.12194, -23.27389], [-47.15139, -23.09417], [-47.64583, -22.86028], [-47.585, -22.70472], [-46.98528, -22.46139], [-46.61972, -22.50278], [-47.05861, -22.97583], [-47.0975, -23.28917], [-47.12194, -23.27389]]}, {"posicao": "SBXP_T5_APP", "freq": "132.100", "lim": "5500 FT – FL135", "contorno": [[-47.15139, -23.09417], [-47.16389, -22.98861], [-47.44083, -22.64667], [-46.98528, -22.46139], [-46.61972, -22.50278], [-46.12278, -22.55778], [-45.99917, -22.82028], [-46.91583, -23.21222], [-47.0975, -23.28917], [-47.12194, -23.27389], [-47.15139, -23.09417]]}, {"posicao": "SBXP_T6_APP", "freq": "120.850", "lim": "FL135 – FL245", "contorno": [[-46.61972, -22.50278], [-46.12278, -22.55778], [-45.99917, -22.82028], [-46.91583, -23.21222], [-47.0975, -23.28917], [-47.05861, -22.97583], [-46.61972, -22.50278]]}, {"posicao": "SBXP_T7_APP", "freq": "119.375", "lim": "5500 FT – FL245", "contorno": [[-46.65861, -23.6325], [-46.67, -23.62333], [-47.11194, -23.32583], [-47.0975, -23.28917], [-46.91583, -23.21222], [-46.60389, -23.45083], [-46.47556, -23.41472], [-46.40417, -23.46028], [-46.37639, -23.56139], [-45.74667, -23.43083], [-45.53972, -23.30917], [-45.42833, -23.71222], [-46.56972, -23.77639], [-46.65861, -23.6325]]}, {"posicao": "SBGR_F_APP", "freq": "129.750", "lim": "5500 FT – FL100", "contorno": [[-46.66722, -23.53083], [-46.695, -23.49222], [-47.04417, -23.37139], [-47.11194, -23.32583], [-47.0975, -23.28917], [-46.91583, -23.21222], [-46.03833, -23.07222], [-46.09056, -23.1175], [-45.92278, -23.35722], [-46.66722, -23.53083]]}, {"posicao": "SBXP_T8_APP", "freq": "120.450", "lim": "5500 FT – FL245", "contorno": [[-45.74667, -23.43083], [-46.37639, -23.56139], [-46.40417, -23.46028], [-46.47556, -23.41472], [-46.60389, -23.45083], [-46.91583, -23.21222], [-45.99917, -22.82028], [-45.92611, -22.975], [-45.66722, -23.05222], [-45.60556, -23.03861], [-45.53972, -23.30917], [-45.74667, -23.43083]]}];
+const setores = [{"posicao": "SBXP_T1_APP", "freq": "134.900", "lim": "5500 FT – FL245", "contorno": [[-45.37333, -23.91056], [-46.07167, -24.07556], [-46.16722, -24.3075], [-46.69167, -24.40694], [-46.79611, -24.32889], [-46.69167, -23.90194], [-46.56972, -23.77639], [-45.42833, -23.71222], [-45.37333, -23.91056]]}, {"posicao": "SBSP_F_APP", "freq": "133.850", "lim": "5500 FT – FL100", "contorno": [[-46.41278, -23.89611], [-46.63139, -23.98917], [-46.92389, -23.56417], [-47.09417, -23.49667], [-47.10038, -23.33361], [-47.04417, -23.37139], [-46.695, -23.49222], [-46.66722, -23.53083], [-46.41278, -23.89611]]}, {"posicao": "SBSJ_F_APP", "freq": "124.150", "lim": "5500 FT – FL100", "contorno": [[-45.60556, -23.03861], [-45.55472, -23.24806], [-45.72806, -23.405], [-45.92278, -23.35722], [-46.09056, -23.1175], [-45.92611, -22.975], [-45.66722, -23.05222], [-45.60556, -23.03861]]}, {"posicao": "SBXP_T13_APP", "freq": "129.275", "lim": "FL135 – FL245", "contorno": [[-47.77034, -23.42157], [-47.80583, -23.26861], [-47.64583, -22.86028], [-47.15139, -23.09417], [-47.12194, -23.27389], [-47.0975, -23.28917], [-47.12111, -23.34972], [-47.23167, -23.35444], [-47.66694, -23.67222], [-47.69611, -23.65], [-47.77034, -23.42157]]}, {"posicao": "SBXP_T2_APP", "freq": "122.750", "lim": "5500 FT – FL245", "contorno": [[-46.94298, -24.21984], [-47.36972, -23.89778], [-47.66694, -23.67222], [-47.23167, -23.35444], [-47.12111, -23.34972], [-47.11194, -23.32583], [-46.67, -23.62333], [-46.65861, -23.6325], [-46.56972, -23.77639], [-46.69167, -23.90194], [-46.79611, -24.32889], [-46.94298, -24.21984]]}, {"posicao": "SBXP_T3_APP", "freq": "135.750", "lim": "5500 FT – FL135", "contorno": [[-47.0975, -23.28917], [-47.12111, -23.34972], [-47.23167, -23.35444], [-47.66694, -23.67222], [-47.69611, -23.65], [-47.77034, -23.42157], [-47.80583, -23.26861], [-47.585, -22.70472], [-47.44083, -22.64667], [-47.16389, -22.98861], [-47.15139, -23.09417], [-47.12194, -23.27389], [-47.0975, -23.28917]]}, {"posicao": "SBKP_F_APP", "freq": "119.250", "lim": "5500 FT – FL100", "contorno": [[-47.49694, -22.94806], [-47.26389, -22.68028], [-47.05611, -22.82194], [-47.13833, -22.91639], [-46.90972, -23.08667], [-47.045, -23.25361], [-47.49694, -22.94806]]}, {"posicao": "SBXP_T4_APP", "freq": "119.800", "lim": "FL135 – FL245", "contorno": [[-47.12194, -23.27389], [-47.15139, -23.09417], [-47.64583, -22.86028], [-47.585, -22.70472], [-46.98528, -22.46139], [-46.61972, -22.50278], [-47.05861, -22.97583], [-47.0975, -23.28917], [-47.12194, -23.27389]]}, {"posicao": "SBXP_T5_APP", "freq": "132.100", "lim": "5500 FT – FL135", "contorno": [[-47.15139, -23.09417], [-47.16389, -22.98861], [-47.44083, -22.64667], [-46.98528, -22.46139], [-46.61972, -22.50278], [-46.12278, -22.55778], [-45.99917, -22.82028], [-46.91583, -23.21222], [-47.0975, -23.28917], [-47.12194, -23.27389], [-47.15139, -23.09417]]}, {"posicao": "SBXP_T6_APP", "freq": "120.850", "lim": "FL135 – FL245", "contorno": [[-46.61972, -22.50278], [-46.12278, -22.55778], [-45.99917, -22.82028], [-46.91583, -23.21222], [-47.0975, -23.28917], [-47.05861, -22.97583], [-46.61972, -22.50278]]}, {"posicao": "SBXP_T7_APP", "freq": "119.375", "lim": "5500 FT – FL245", "contorno": [[-46.65861, -23.6325], [-46.67, -23.62333], [-47.11194, -23.32583], [-47.0975, -23.28917], [-46.91583, -23.21222], [-46.60389, -23.45083], [-46.47556, -23.41472], [-46.40417, -23.46028], [-46.37639, -23.56139], [-45.74667, -23.43083], [-45.53972, -23.30917], [-45.42833, -23.71222], [-46.56972, -23.77639], [-46.65861, -23.6325]]}, {"posicao": "SBGR_F_APP", "freq": "129.750", "lim": "5500 FT – FL100", "contorno": [[-46.66722, -23.53083], [-46.695, -23.49222], [-47.04417, -23.37139], [-47.11194, -23.32583], [-47.0975, -23.28917], [-46.91583, -23.21222], [-46.03833, -23.07222], [-46.09056, -23.1175], [-45.92278, -23.35722], [-46.66722, -23.53083]]}, {"posicao": "SBXP_T8_APP", "freq": "120.450", "lim": "5500 FT – FL245", "contorno": [[-45.74667, -23.43083], [-46.37639, -23.56139], [-46.40417, -23.46028], [-46.47556, -23.41472], [-46.60389, -23.45083], [-46.91583, -23.21222], [-45.99917, -22.82028], [-45.92611, -22.975], [-45.66722, -23.05222], [-45.60556, -23.03861], [-45.53972, -23.30917], [-45.74667, -23.43083]]}];
 const paletaSetores = ['#60a5fa', '#f472b6', '#a3e635', '#fb923c', '#a78bfa', '#2dd4bf', '#fbbf24', '#f87171', '#34d399', '#e879f9', '#38bdf8', '#fda4af', '#818cf8'];
 var grupoSetores = L.featureGroup();
 setores.forEach(function (s, k) {
@@ -297,6 +704,43 @@ setores.forEach(function (s, k) {
     L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, fillOpacity: 0.2 })
         .bindPopup('<b>' + s.posicao + '</b><br>' + s.freq + ' MHz<br>' + s.lim)
         .addTo(grupoSetores);
+});
+
+// Posições combinadas (tabela "Posições combinadas"): cada uma vira uma camada com a área consolidada
+const combinadas = {
+    "SBXP_APP": { "freq": "119.600", "assume": ["SBXP_S_APP", "SBXP_E_APP", "SBXP_N_APP"], "cor": "#38bdf8" },
+    "SBXP_S_APP": { "freq": "129.000", "assume": ["SBXP_T1_APP", "SBXP_T2_APP"], "cor": "#60a5fa" },
+    "SBXP_E_APP": { "freq": "134.650", "assume": ["SBSJ_F_APP", "SBXP_T7_APP", "SBXP_T8_APP"], "cor": "#34d399" },
+    "SBXP_N_APP": { "freq": "120.250", "assume": ["SBXP_NU_APP", "SBXP_NL_APP"], "cor": "#f472b6" },
+    "SBXP_NL_APP": { "freq": "120.925", "assume": ["SBXP_T3_APP", "SBXP_T5_APP"], "cor": "#fb923c" },
+    "SBXP_NU_APP": { "freq": "130.050", "assume": ["SBXP_T13_APP", "SBXP_T4_APP", "SBXP_T6_APP"], "cor": "#a78bfa" }
+};
+function expandir(posicao) {
+    if (!combinadas[posicao]) return [posicao];
+    return combinadas[posicao].assume.reduce(function (r, p) { return r.concat(expandir(p)); }, []);
+}
+function pes(t) {
+    return t.indexOf('FL') === 0 ? 100 * parseInt(t.slice(2), 10) : parseInt(t, 10);
+}
+function nivel(ft) {
+    return ft >= 10000 ? 'FL' + String(ft / 100).padStart(3, '0') : ft + ' FT';
+}
+var gruposCombinados = {};
+Object.keys(combinadas).forEach(function (nome) {
+    var c = combinadas[nome];
+    var membros = setores.filter(function (s) { return expandir(nome).indexOf(s.posicao) >= 0; });
+    var lim = membros.map(function (s) { return s.lim.split(' – ').map(pes); });
+    var texto = nivel(Math.min.apply(null, lim.map(function (l) { return l[0]; }))) + ' – ' +
+        nivel(Math.max.apply(null, lim.map(function (l) { return l[1]; })));
+    // Polígonos opacos da mesma cor num painel próprio, com a transparência no painel: as divisas internas somem
+    var grupo = L.featureGroup();
+    membros.forEach(function (s) {
+        L.polygon(s.contorno.map(paraLatLng), { pane: 'comb-' + nome, color: c.cor, fillColor: c.cor, weight: 2, fillOpacity: 1 })
+            .bindPopup('<b>' + nome + '</b><br>' + c.freq + ' MHz<br>' + texto + '<br>Covers ' +
+                membros.map(function (m) { return m.posicao; }).join(', '))
+            .addTo(grupo);
+    });
+    gruposCombinados[nome] = grupo;
 });
 
 volumes.forEach(function (v) {
@@ -328,16 +772,24 @@ var mapa = L.map('mapa-tma', {
 
 mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
 
+var camadas = {
+    "TMAs": grupoTma,
+    "CTRs": grupoCtr,
+    "FIR boundary": grupoFir,
+    "APP sectors (elementary)": grupoSetores
+};
+Object.keys(gruposCombinados).forEach(function (nome) {
+    // Dentro do overlayPane, que o CSS do Leaflet protege do max-width do tema
+    var painel = mapa.createPane('comb-' + nome, mapa.getPane('overlayPane'));
+    painel.style.opacity = 0.35;
+    camadas['Combined ' + nome] = gruposCombinados[nome];
+});
+
 L.control.layers({
     "Light": tileMapaClaro,
     "Dark": tileMapaEscuro,
     "Arcgis Satellite": tileMapaSatelite
-}, {
-    "TMAs": grupoTma,
-    "CTRs": grupoCtr,
-    "FIR boundary": grupoFir,
-    "APP sectors": grupoSetores
-}).addTo(mapa);
+}, camadas).addTo(mapa);
 
 // Legenda das classes
 var legenda = L.control({ position: 'bottomleft' });

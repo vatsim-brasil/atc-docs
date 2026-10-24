@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXJ_APP** | `XJ` | Controle Marabá | **119.200** |  |
-| **SBMA_R_TWR** | `RMA` | Rádio Marabá | **125.900** |  |
+| **SBXJ_APP** | `XJ` | Marabá Control | **119.200** |  |
+| **SBMA_R_TWR** | `RMA` | Marabá Radio | **125.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -88,7 +88,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 ## :material-note-text-outline: Remarks
 
-- In the real world, the TMA and CTR are only active from 1500 to 2059 UTC. Outside those hours, local traffic is served by Rádio Marabá (AFIS).
+- In the real world, the TMA and CTR are only active from 1500 to 2059 UTC. Outside those hours, local traffic is served by Marabá Radio (AFIS).
 
 ---
 

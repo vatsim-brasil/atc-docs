@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWL_APP** | `WL` | Controle Ilhéus | **120.100** |  |
-| **SBIL_R_TWR** | `RIL` | Rádio Ilhéus | **120.100** |  |
+| **SBWL_APP** | `WL` | Ilhéus Control | **120.100** |  |
+| **SBIL_R_TWR** | `RIL` | Ilhéus Radio | **120.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -95,7 +95,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class D between FL035 and FL145.
-- SBIL has no tower: Ilhéus APP provides AFIS in the circuit and on the movement area (in the package, `SBIL_R_TWR`, Rádio Ilhéus, on the same frequency).
+- SBIL has no tower: Ilhéus APP provides AFIS in the circuit and on the movement area (in the package, `SBIL_R_TWR`, Ilhéus Radio, on the same frequency).
 - In the real world, the APP operates from 0915 to 0100 UTC. General aviation and air taxi require prior permission (PPR) 48 h in advance.
 
 ---

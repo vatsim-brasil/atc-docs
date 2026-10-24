@@ -62,9 +62,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXF_APP** | `XF` | Controle Florianópolis | **119.650** |  |
-| **SBFL_TWR** | `TFL` | Torre Florianópolis | **118.700** |  |
-| **SBNF_TWR** | `TNF` | Torre Navegantes | **118.200** |  |
+| **SBXF_APP** | `XF` | Florianópolis Control | **119.650** |  |
+| **SBFL_TWR** | `TFL` | Florianópolis Tower | **118.700** |  |
+| **SBNF_TWR** | `TNF` | Navegantes Tower | **118.200** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -115,7 +115,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 ## :material-note-text-outline: Remarks
 
 - Florianópolis 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145.
-- SBJV (Joinville) lies in the Joinville 1 and 2 FIZs (class G), served by Rádio Joinville.
+- SBJV (Joinville) lies in the Joinville 1 and 2 FIZs (class G), served by Joinville Radio.
 
 ---
 

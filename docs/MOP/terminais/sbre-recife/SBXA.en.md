@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXA_APP** | `XA` | Controle Aracaju | **120.300** |  |
-| **SBAR_TWR** | `TAR` | Torre Aracaju | **118.800** |  |
+| **SBXA_APP** | `XA` | Aracaju Control | **120.300** |  |
+| **SBAR_TWR** | `TAR` | Aracaju Tower | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWS_APP** | `WS` | Controle São Luís | **119.100** |  |
-| **SBSL_TWR** | `TSL` | Torre São Luís | **118.900** |  |
+| **SBWS_APP** | `WS` | São Luís Control | **119.100** |  |
+| **SBSL_TWR** | `TSL` | São Luís Tower | **118.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

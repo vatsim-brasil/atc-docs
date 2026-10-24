@@ -61,9 +61,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWN_APP** | `WN` | Controle Manaus | **119.250** |  |
-| **SBEG_TWR** | `TEG` | Torre Eduardo Gomes | **118.300** |  |
-| **SBMN_TWR** | `TMN` | Torre Ponta Pelada | **118.600** |  |
+| **SBWN_APP** | `WN` | Manaus Control | **119.250** |  |
+| **SBEG_TWR** | `TEG` | Eduardo Gomes Tower | **118.300** |  |
+| **SBMN_TWR** | `TMN` | Ponta Pelada Tower | **118.600** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
