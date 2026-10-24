@@ -47,7 +47,7 @@
 ## :material-headset: ATC Units
 | Code     | Abbr. | Callsign | Frequency | Remarks |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| **SBSC_DEL** | `DSC` | Santa Cruz Delivery | **132.200** |  |
+| **SBSC_DEL** | `DSC` | Santa Cruz Clearance | **132.200** |  |
 | **SBSC_GND** | `GSC` | Santa Cruz Ground | **121.800** |  |
 | **SBSC_TWR** | `TSC` | Santa Cruz Tower | **118.800** |  |
 

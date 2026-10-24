@@ -47,7 +47,7 @@
 ## :material-headset: ATC Units
 | Code     | Abbr. | Callsign | Frequency | Remarks |
 | ---------- | ------ | --------------------- | ---------- | ----------- |
-| **SBMT_DEL** | `DMT` | Marte Delivery | **118.700** |  |
+| **SBMT_DEL** | `DMT` | Marte Clearance | **118.700** |  |
 | **SBMT_GND** | `GMT` | Marte Ground | **121.600** |  |
 | **SBMT_TWR** | `TMT` | Marte Tower | **133.350** |  |
 | **SBMT_ATIS** | `AMT` | ATIS | **127.725** |  |
