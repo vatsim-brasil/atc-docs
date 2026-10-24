@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWI_APP** | `WI` | Controle Foz | **120.300** |  |
-| **SBFI_TWR** | `TFI` | Torre Cataratas | **118.800** |  |
+| **SBWI_APP** | `WI` | Foz Control | **120.300** |  |
+| **SBFI_TWR** | `TFI` | Cataratas Tower | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

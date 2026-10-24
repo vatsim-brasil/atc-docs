@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXE_APP** | `XE` | Controle Teresina | **119.600** |  |
-| **SBTE_TWR** | `TTE` | Torre Teresina | **118.800** |  |
+| **SBXE_APP** | `XE` | Teresina Control | **119.600** |  |
+| **SBTE_TWR** | `TTE` | Teresina Tower | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

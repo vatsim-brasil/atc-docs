@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWX_APP** | `WX` | Controle Santarém | **119.300** |  |
-| **SBSN_TWR** | `TSN` | Torre Santarém | **118.100** |  |
+| **SBWX_APP** | `WX` | Santarém Control | **119.300** |  |
+| **SBSN_TWR** | `TSN` | Santarém Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

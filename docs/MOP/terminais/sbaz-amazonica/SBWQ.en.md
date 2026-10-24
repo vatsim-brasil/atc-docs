@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWQ_APP** | `WQ` | Controle Boa Vista | **120.100** |  |
-| **SBBV_TWR** | `TBV` | Torre Boa Vista | **118.100** |  |
+| **SBWQ_APP** | `WQ` | Boa Vista Control | **120.100** |  |
+| **SBBV_TWR** | `TBV` | Boa Vista Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -59,9 +59,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXO_APP** | `XO` | Controle Londrina | **129.700** |  |
-| **SBLO_TWR** | `TLO` | Torre Londrina | **118.400** |  |
-| **SBMG_TWR** | `TMG` | Torre Maringá | **118.750** |  |
+| **SBXO_APP** | `XO` | Londrina Control | **129.700** |  |
+| **SBLO_TWR** | `TLO` | Londrina Tower | **118.400** |  |
+| **SBMG_TWR** | `TMG` | Maringá Tower | **118.750** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

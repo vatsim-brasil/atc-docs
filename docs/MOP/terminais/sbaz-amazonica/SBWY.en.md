@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWY_APP** | `WY` | Controle Cuiabá | **119.400** |  |
-| **SBCY_TWR** | `TCY` | Torre Cuiabá | **118.100** |  |
+| **SBWY_APP** | `WY` | Cuiabá Control | **119.400** |  |
+| **SBCY_TWR** | `TCY` | Cuiabá Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWM_APP** | `WM` | Controle Santa Maria | **119.350** |  |
-| **SBSM_TWR** | `TSM` | Torre Santa Maria | **118.300** |  |
+| **SBWM_APP** | `WM` | Santa Maria Control | **119.350** |  |
+| **SBSM_TWR** | `TSM` | Santa Maria Tower | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -125,19 +125,19 @@ Above FL245, the UTA T8N and T8S sectors also cover the projection of the Rio de
 
 ### Aldeia Control (`SBES_APP`)
 
-São Pedro da Aldeia APP (`SBES_APP`, Controle Aldeia, **119.450**) controls CTR Aldeia 1 (2000 FT – 6500 FT), inside the [Macaé TMA](SBWE.en.md). In the package it is subordinate to Rio APP, not to Macaé APP: when it is offline, CTR Aldeia 1 passes to `SBWJ_E_APP`, then `SBWJ_NE_APP` and `SBWJ_APP`. CTR Aldeia 2 (GND – 2000 FT) belongs to Aldeia Tower (`SBES_TWR`) and, without it, goes up to `SBES_APP`.
+São Pedro da Aldeia APP (`SBES_APP`, Aldeia Control, **119.450**) controls CTR Aldeia 1 (2000 FT – 6500 FT), inside the [Macaé TMA](SBWE.en.md). In the package it is subordinate to Rio APP, not to Macaé APP: when it is offline, CTR Aldeia 1 passes to `SBWJ_E_APP`, then `SBWJ_NE_APP` and `SBWJ_APP`. CTR Aldeia 2 (GND – 2000 FT) belongs to Aldeia Tower (`SBES_TWR`) and, without it, goes up to `SBES_APP`.
 
 ## :material-headset: ATC Units
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWJ_APP** | `WJ` | Controle Rio | **119.000** |  |
-| **SBGL_TWR** | `TGL` | Torre Galeão | **118.200** |  |
-| **SBRJ_TWR** | `TRJ` | Torre Rio | **118.700** |  |
-| **SBSC_TWR** | `TSC` | Torre Santa Cruz | **118.800** |  |
-| **SBAF_R_TWR** | `RAF` | Rádio Afonsos | **118.900** |  |
-| **SBJR_TWR** | `TJR` | Torre Jacarepaguá | **118.400** |  |
-| **SBES_APP** | `XES` | Controle Aldeia | **119.450** | Subordinate to Rio APP |
+| **SBWJ_APP** | `WJ` | Rio Control | **119.000** |  |
+| **SBGL_TWR** | `TGL` | Galeão Tower | **118.200** |  |
+| **SBRJ_TWR** | `TRJ` | Rio Tower | **118.700** |  |
+| **SBSC_TWR** | `TSC` | Santa Cruz Tower | **118.800** |  |
+| **SBAF_R_TWR** | `RAF` | Afonsos Radio | **118.900** |  |
+| **SBJR_TWR** | `TJR` | Jacarepaguá Tower | **118.400** |  |
+| **SBES_APP** | `XES` | Aldeia Control | **119.450** | Subordinate to Rio APP |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

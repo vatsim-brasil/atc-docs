@@ -71,10 +71,10 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWH_APP** | `WH` | Controle Belo Horizonte | **129.100** |  |
-| **SBBH_TWR** | `TBH` | Torre Belo Horizonte | **118.000** |  |
-| **SBCF_TWR** | `TCF` | Torre Confins | **118.200** |  |
-| **SBLS_R_TWR** | `RLS` | Rádio Lagoa Santa | **122.850** |  |
+| **SBWH_APP** | `WH` | Belo Horizonte Control | **129.100** |  |
+| **SBBH_TWR** | `TBH` | Belo Horizonte Tower | **118.000** |  |
+| **SBCF_TWR** | `TCF` | Confins Tower | **118.200** |  |
+| **SBLS_R_TWR** | `RLS` | Lagoa Santa Radio | **122.850** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWZ_APP** | `WZ` | Controle Fortaleza | **133.000** |  |
-| **SBFZ_TWR** | `TFZ` | Torre Fortaleza | **129.000** |  |
+| **SBWZ_APP** | `WZ` | Fortaleza Control | **133.000** |  |
+| **SBFZ_TWR** | `TFZ` | Fortaleza Tower | **129.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

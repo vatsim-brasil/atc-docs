@@ -67,8 +67,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWT_APP** | `WT` | Controle Curitiba | **119.950** |  |
-| **SBCT_TWR** | `TCT` | Torre Curitiba | **118.150** |  |
+| **SBWT_APP** | `WT` | Curitiba Control | **119.950** |  |
+| **SBCT_TWR** | `TCT` | Curitiba Tower | **118.150** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

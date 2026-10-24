@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWG_APP** | `WG` | Controle Campo Grande | **119.350** |  |
-| **SBCG_TWR** | `TCG` | Torre Campo Grande | **118.100** |  |
+| **SBWG_APP** | `WG` | Campo Grande Control | **119.350** |  |
+| **SBCG_TWR** | `TCG` | Campo Grande Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

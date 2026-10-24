@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXU_APP** | `XU` | Controle Uberaba | **120.800** |  |
-| **SBUR_TWR** | `TUR` | Torre Uberaba | **118.500** |  |
+| **SBXU_APP** | `XU` | Uberaba Control | **120.800** |  |
+| **SBUR_TWR** | `TUR` | Uberaba Tower | **118.500** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -95,7 +95,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class D between 5500 FT and FL145.
-- In the real world, the APP and CTR only operate from 1000 to 2159 UTC. Outside those hours, the airspace becomes the Uberaba FIZ (class G, up to FL145), served by Rádio Uberaba on the same frequency.
+- In the real world, the APP and CTR only operate from 1000 to 2159 UTC. Outside those hours, the airspace becomes the Uberaba FIZ (class G, up to FL145), served by Uberaba Radio on the same frequency.
 - SBAX (Araxá) lies next to the eastern TMA boundary and uses Uberaba APP departures and arrivals in the package.
 
 ---

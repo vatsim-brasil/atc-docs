@@ -60,8 +60,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWP_APP** | `WP` | Controle Palegre | **129.600** |  |
-| **SBPA_TWR** | `TPA` | Torre Palegre | **118.100** |  |
+| **SBWP_APP** | `WP` | Palegre Control | **129.600** |  |
+| **SBPA_TWR** | `TPA` | Palegre Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

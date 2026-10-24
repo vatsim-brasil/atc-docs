@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXB_APP** | `XB` | Controle Rio Branco | **119.900** |  |
-| **SBRB_TWR** | `TRB` | Torre Rio Branco | **118.700** |  |
+| **SBXB_APP** | `XB` | Rio Branco Control | **119.900** |  |
+| **SBRB_TWR** | `TRB` | Rio Branco Tower | **118.700** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

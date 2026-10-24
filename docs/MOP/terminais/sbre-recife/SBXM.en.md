@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXM_APP** | `XM` | Controle Maceió | **119.250** |  |
-| **SBMO_TWR** | `TMO` | Torre Maceió | **118.250** |  |
+| **SBXM_APP** | `XM` | Maceió Control | **119.250** |  |
+| **SBMO_TWR** | `TMO` | Maceió Tower | **118.250** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXS_APP** | `XS` | Controle Salvador | **119.350** |  |
-| **SBSV_TWR** | `TSV` | Torre Salvador | **118.300** |  |
+| **SBXS_APP** | `XS` | Salvador Control | **119.350** |  |
+| **SBSV_TWR** | `TSV` | Salvador Tower | **118.300** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

@@ -58,8 +58,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBWA_APP** | `WA` | Controle Amazonas | **119.100** |  |
-| **SBTT_R_TWR** | `RTT` | Rádio Tabatinga | **125.900** |  |
+| **SBWA_APP** | `WA` | Amazonas Control | **119.100** |  |
+| **SBTT_R_TWR** | `RTT` | Tabatinga Radio | **125.900** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -101,7 +101,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 - In the real world, Amazonas APP is operated by Colombia under CIRCEA 100-1 (tripartite agreement between Brazil, Colombia and Peru). It serves Tabatinga (SBTT) and Leticia (SKLT, Colombia).
 - Use the QNH given by Amazonas APP. Tabatinga and Leticia may be used interchangeably for landing in case of adverse weather, technical problems or emergency.
-- SBTT has no tower: it is served by Rádio Tabatinga (AFIS, class G), operated remotely from Amazônico ACC.
+- SBTT has no tower: it is served by Tabatinga Radio (AFIS, class G), operated remotely from Amazônico ACC.
 - On the network, the Colombian position `SKLT_APP` (118.100 / 119.100) also exists in the package. Coordinate with it when online.
 
 ---

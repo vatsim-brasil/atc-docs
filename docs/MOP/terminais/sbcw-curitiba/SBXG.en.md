@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXG_APP** | `XG` | Controle Prudente | **125.450** |  |
-| **SBDN_TWR** | `TDN` | Torre Prudente | **118.450** |  |
+| **SBXG_APP** | `XG` | Prudente Control | **125.450** |  |
+| **SBDN_TWR** | `TDN` | Prudente Tower | **118.450** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

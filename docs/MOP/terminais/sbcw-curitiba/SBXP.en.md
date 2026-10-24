@@ -243,14 +243,14 @@ Each tab shows the consolidated area the combined position covers, with its vert
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXP_APP** | `XP` | Controle São Paulo | **119.600** |  |
-| **SBGR_TWR** | `TGR` | Torre Guarulhos | **132.750** |  |
-| **SBSP_TWR** | `TSP` | Torre São Paulo | **127.150** |  |
-| **SBKP_TWR** | `TKP` | Torre Campinas | **118.250** |  |
-| **SBSJ_TWR** | `TSJ` | Torre São José | **118.500** |  |
-| **SBJD_TWR** | `TJD` | Torre Jundiaí | **118.750** |  |
-| **SBTA_TWR** | `TTA` | Torre Taubaté | **119.900** |  |
-| **SBMT_TWR** | `TMT` | Torre Marte | **133.350** |  |
+| **SBXP_APP** | `XP` | São Paulo Control | **119.600** |  |
+| **SBGR_TWR** | `TGR` | Guarulhos Tower | **132.750** |  |
+| **SBSP_TWR** | `TSP` | São Paulo Tower | **127.150** |  |
+| **SBKP_TWR** | `TKP` | Campinas Tower | **118.250** |  |
+| **SBSJ_TWR** | `TSJ` | São José Tower | **118.500** |  |
+| **SBJD_TWR** | `TJD` | Jundiaí Tower | **118.750** |  |
+| **SBTA_TWR** | `TTA` | Taubaté Tower | **119.900** |  |
+| **SBMT_TWR** | `TMT` | Marte Tower | **133.350** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
@@ -317,11 +317,11 @@ Below the TMA there are flight information zones (FIZ, class G) with their own p
 
 | FIZ | Limits | Position | Callsign | Frequency |
 | :--- | :--- | :--- | :--- | :---: |
-| **SBST** (Santos) | GND – 5500 FT | `SBST_R_TWR` | Rádio Santos | **118.650** |
-| **SDAM** (Amarais) | Sector 1: GND – 5500 FT · Sector 2: GND – 3600 FT | `SDAM_R_TWR` | Rádio Amarais | **118.125** |
-| **SBJH** (Catarina) | GND – 5000 FT | `SBJH_R_TWR` | Rádio Catarina | **131.800** |
-| **SBBP** (Bragança Paulista) | GND – 4500 FT | `SBBP_R_TWR` | Rádio Bragança Paulista | **125.700** |
-| **SDCO** (Sorocaba) | GND – 5500 FT (ATZ GND – 3600 FT) | `SDCO_TWR` | Torre Sorocaba | **118.800** |
+| **SBST** (Santos) | GND – 5500 FT | `SBST_R_TWR` | Santos Radio | **118.650** |
+| **SDAM** (Amarais) | Sector 1: GND – 5500 FT · Sector 2: GND – 3600 FT | `SDAM_R_TWR` | Amarais Radio | **118.125** |
+| **SBJH** (Catarina) | GND – 5000 FT | `SBJH_R_TWR` | Catarina Radio | **131.800** |
+| **SBBP** (Bragança Paulista) | GND – 4500 FT | `SBBP_R_TWR` | Bragança Paulista Radio | **125.700** |
+| **SDCO** (Sorocaba) | GND – 5500 FT (ATZ GND – 3600 FT) | `SDCO_TWR` | Sorocaba Tower | **118.800** |
 
 - There is no separation in a FIZ: the unit gives **traffic information** and aerodrome information. IFR aircraft departing from or arriving at a FIZ are cleared by the APP before entering the TMA.
 - Coordinate IFR departures (clearance and take-off time) and arrivals (estimate and procedure) with the Radio.

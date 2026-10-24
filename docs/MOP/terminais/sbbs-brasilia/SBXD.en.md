@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXD_APP** | `XD` | Controle Palmas | **119.000** |  |
-| **SBPJ_TWR** | `TPJ` | Torre Palmas | **118.000** |  |
+| **SBXD_APP** | `XD` | Palmas Control | **119.000** |  |
+| **SBPJ_TWR** | `TPJ` | Palmas Tower | **118.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

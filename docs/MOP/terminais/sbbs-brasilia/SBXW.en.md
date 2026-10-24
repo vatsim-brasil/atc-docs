@@ -51,8 +51,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXW_APP** | `XW` | Controle Uberlândia | **122.850** |  |
-| **SBUL_TWR** | `TUL` | Torre Uberlândia | **118.800** |  |
+| **SBXW_APP** | `XW` | Uberlândia Control | **122.850** |  |
+| **SBUL_TWR** | `TUL` | Uberlândia Tower | **118.800** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

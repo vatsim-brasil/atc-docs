@@ -66,8 +66,8 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXR_APP** | `XR` | Controle Vitória | **119.850** |  |
-| **SBVT_TWR** | `TVT` | Torre Vitória | **118.100** |  |
+| **SBXR_APP** | `XR` | Vitória Control | **119.850** |  |
+| **SBVT_TWR** | `TVT` | Vitória Tower | **118.100** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 

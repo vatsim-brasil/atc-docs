@@ -59,9 +59,9 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
 | --- | --- | --- | --- | --- |
-| **SBXQ_APP** | `XQ` | Controle Academia | **120.100** |  |
-| **SBYS_TWR** | `TYS` | Torre Academia | **118.300** |  |
-| **SBRP_TWR** | `TRP` | Torre Ribeirão | **118.000** |  |
+| **SBXQ_APP** | `XQ` | Academia Control | **120.100** |  |
+| **SBYS_TWR** | `TYS` | Academia Tower | **118.300** |  |
+| **SBRP_TWR** | `TRP` | Ribeirão Tower | **118.000** |  |
 
 ## :material-arrow-down-bold-box-outline: Top-down coverage
 
