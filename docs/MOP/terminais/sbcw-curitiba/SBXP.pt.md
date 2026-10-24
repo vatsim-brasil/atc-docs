@@ -20,7 +20,7 @@ tags:
 | **Aeródromos na TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.pt.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.pt.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.pt.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.pt.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.pt.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.pt.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.pt.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.pt.md) |
 
 !!! question "Proposta em revisão"
-    As seções a partir de **Configuração da TMA** são uma proposta de manual operacional e ainda estão em revisão. Os pontos que precisam de decisão estão nos quadros **Revisar**.
+    As seções a partir de **Configuração da TMA** são uma proposta de manual operacional e ainda estão em revisão.
 
     O que é do aeródromo (pistas, táxi, DCL, pátios) fica na página de cada aeródromo. Aqui fica só o que o APP precisa para gerir a TMA.
 
@@ -201,9 +201,6 @@ Cada aba mostra um setor elementar, sem as posições combinadas. O setor está 
 - **Alimentador:** monta a sequência de chegada e entrega a aeronave à final já espaçada, descendo para a altitude da final. Também cuida das saídas no seu setor.
 - **Final:** recebe dos alimentadores, ajusta o espaçamento na final e transfere para a Torre.
 
-!!! question "Revisar"
-    As funções acima foram deduzidas da posição dos setores e das finais no pacote. Confirmar a função de cada setor, sobretudo dos setores altos (T4, T6 e T13) e se algum setor é dedicado às saídas.
-
 ### Posições combinadas
 
 | Posição | Frequência | Assume |
@@ -351,10 +348,6 @@ A TMA trabalha com as pistas em uso nos três aeródromos principais. Cada Torre
 
     Quando SBSP trocar de pista, avise o Tráfego e a Torre de SBGR.
 
-!!! question "Revisar"
-    - Quem decide a configuração quando as Torres estão on-line: cada Torre, ou o APP coordenando com elas?
-    - Há combinações de SBGR e SBSP que devem ser evitadas na rede?
-
 ---
 
 ## :material-airplane-landing: Chegadas
@@ -459,9 +452,6 @@ Procedimento de aproximação (IAC) normal de cada pista, a alternativa RNP e os
 
 <small>Fonte: cartas IAC de cada aeródromo no AISWEB (AIRAC 2209A1 a 2609A1). As cartas não dizem qual procedimento é o padrão; o critério usado aqui é ILS CAT I a partir do IAF em que a STAR termina, ou RNP onde não há ILS. Exceção: na 10R e na 28L de SBGR, o padrão é o ILS Y da operação segregada.</small>
 
-!!! question "Revisar"
-    - Em SBGR há dois pares equivalentes nas pistas 10L e 28R: ILS O e RNP T ou ILS W e RNP W (10L), ILS T e RNP V ou ILS M e RNP M (28R). As cartas novas (W e M, de março de 2026) mudam a arremetida para o ISIMU. Qual par usar na rede?
-
 ---
 
 ## :material-airplane-takeoff: Saídas
@@ -479,10 +469,6 @@ As SID também mudam com frequência e não são listadas aqui. Consulte a carta
 - **Norte e nordeste:** ACC Brasília.
 - **Oeste, sudoeste e sul:** ACC Curitiba.
 - **Leste:** APP Rio de Janeiro ([SBWJ](SBWJ.pt.md)) ou ACC Brasília, conforme o fixo.
-
-!!! question "Revisar"
-    - Como as SID RNAV não têm nível inicial, qual nível o Tráfego (DEL) deve dar na autorização? Proposta: o **nível de cruzeiro do plano**, com "mantenha as restrições da SID".
-    - Confirmar no pacote o próximo órgão das saídas a leste (APP Rio ou ACC Brasília).
 
 ---
 
@@ -528,10 +514,6 @@ Os mapas abaixo mostram as chegadas (linha cheia) e as saídas (tracejado) nas d
     - Com as posições divididas, os pontos que ficam na divisa de dois setores pedem **coordenação** entre eles.
 
 <small>Como os mapas são feitos: as rotas vêm das SID e STAR do pacote de setores; as STAR com arco de *point merge* ficam de fora, porque não são usadas no dia a dia. O nível previsto em cada cruzamento é uma **estimativa**: a chegada desce a 3° até a cabeceira e a saída sobe a 500 pés por NM, sempre presas às restrições das cartas (AIRAC 2508A1 a 2610A1). Cruzamentos a menos de 5 NM da cabeceira ficam com a Torre e não aparecem.</small>
-
-!!! question "Revisar"
-    - As configurações mais comuns são mesmo estas duas (tudo pelas cabeceiras 10/17/15 ou 28/35/33)?
-    - No pacote, a chegada **EDMUS 1B** de SBKP aparece com o mesmo nome da EDMUS 1B de SBGR; nos mapas ela é a da carta ITEDI 1A / EDMUS 1B de SBKP.
 
 ---
 
@@ -598,9 +580,6 @@ Para acelerar o fluxo, o APP pode autorizar **direto** para os fixos abaixo, mes
 
 - Dê o direto só quando o fixo estiver no plano de voo da aeronave.
 - Antes do direto, confira os [pontos de conflito](#circulacao-na-tma) com as chegadas: o direto tira a aeronave das restrições da SID.
-
-!!! question "Revisar"
-    - Ponto de transferência para a Torre: 8 a 10 NM serve para as três Torres?
 
 ---
 
