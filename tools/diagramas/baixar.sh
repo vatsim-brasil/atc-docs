@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 REPO=vatsim-brasil/atcops-desenho-solo
 REF=a8655e9ad556e901e95fff941ffd6b6ce8c74bb8  # versão usada para gerar os SVGs atuais
 ICAOS=("$@")
-[ ${#ICAOS[@]} -eq 0 ] && ICAOS=(SBGR SBCT SBGL SBRF SBSV SBVT SBEG SBBE SBBR SBCF SBKP SBSP SBPA SBRJ SBFL)
+[ ${#ICAOS[@]} -eq 0 ] && ICAOS=(SBGR SBCT SBGL SBRF SBSV SBVT SBEG SBBE SBBR SBCF SBKP SBSP SBPA SBRJ SBFL SBGO SBFZ SBSG SBSL SBNF SBFI SBCY)
 for icao in "${ICAOS[@]}"; do
   mkdir -p ".dados/$icao"
   gh api "repos/$REPO/contents/GND_DRAW/$icao?ref=$REF" --jq '.[] | select(.name | endswith(".geojson")) | .path' |

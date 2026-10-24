@@ -54,6 +54,14 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "link": "sbcw-curitiba/afis/SBAF/"
     },
     {
+        "icao": "SBAN",
+        "type": "ctrl",
+        "name": "Anápolis",
+        "lat": -16.2386,
+        "lon": -48.9722,
+        "link": "sbbs-brasilia/twr/SBAN/"
+    },
+    {
         "icao": "SBAQ",
         "type": "unctrl",
         "name": "Araraquara",
@@ -148,6 +156,14 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "lat": -15.8705,
         "lon": -47.9171,
         "link": "sbbs-brasilia/twr/SBBR/"
+    },
+    {
+        "icao": "SBBU",
+        "type": "unctrl",
+        "name": "Bauru",
+        "lat": -22.345,
+        "lon": -49.0539,
+        "link": "sbbs-brasilia/afis/SBBU/"
     },
     {
         "icao": "SBBV",
@@ -439,11 +455,11 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
     },
     {
         "icao": "SBIL",
-        "type": "ctrl",
+        "type": "unctrl",
         "name": "Ilhéus",
         "lat": -14.8157,
         "lon": -39.0318,
-        "link": "sbre-recife/twr/SBIL/"
+        "link": "sbre-recife/afis/SBIL/"
     },
     {
         "icao": "SBIP",
@@ -830,6 +846,14 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "link": "sbcw-curitiba/twr/SBRJ/"
     },
     {
+        "icao": "SBRP",
+        "type": "ctrl",
+        "name": "Ribeirão Preto",
+        "lat": -21.1364,
+        "lon": -47.7767,
+        "link": "sbbs-brasilia/twr/SBRP/"
+    },
+    {
         "icao": "SBSC",
         "type": "ctrl",
         "name": "Santa Cruz",
@@ -1030,6 +1054,22 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "link": "sbcw-curitiba/afis/SBUG/"
     },
     {
+        "icao": "SBUL",
+        "type": "ctrl",
+        "name": "Uberlândia",
+        "lat": -18.8836,
+        "lon": -48.2253,
+        "link": "sbbs-brasilia/twr/SBUL/"
+    },
+    {
+        "icao": "SBUR",
+        "type": "ctrl",
+        "name": "Uberaba",
+        "lat": -19.7647,
+        "lon": -47.9661,
+        "link": "sbbs-brasilia/twr/SBUR/"
+    },
+    {
         "icao": "SBUY",
         "type": "unctrl",
         "name": "Urucu",
@@ -1070,6 +1110,14 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "link": "sbre-recife/twr/SBVT/"
     },
     {
+        "icao": "SBYS",
+        "type": "ctrl",
+        "name": "Pirassununga",
+        "lat": -21.9844,
+        "lon": -47.3442,
+        "link": "sbbs-brasilia/twr/SBYS/"
+    },
+    {
         "icao": "SBZM",
         "type": "unctrl",
         "name": "Goianá",
@@ -1092,6 +1140,14 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "lat": -23.4778,
         "lon": -47.49,
         "link": "sbcw-curitiba/twr/SDCO/"
+    },
+    {
+        "icao": "SDSC",
+        "type": "intl",
+        "name": "São Carlos",
+        "lat": -21.8764,
+        "lon": -47.9033,
+        "link": "sbbs-brasilia/afis/SDSC/"
     },
     {
         "icao": "SIMK",
@@ -1132,6 +1188,14 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
         "lat": -24.3164,
         "lon": -50.6522,
         "link": "sbcw-curitiba/afis/SSVL/"
+    },
+    {
+        "icao": "SWGN",
+        "type": "unctrl",
+        "name": "Araguaína",
+        "lat": -7.2283,
+        "lon": -48.2408,
+        "link": "sbaz-amazonica/afis/SWGN/"
     }
 ];
 
@@ -1208,38 +1272,38 @@ Clique em qualquer ponto do mapa abaixo para abrir diretamente o manual do aeró
 | SBAZ (Amazônica) | SBBS (Brasília) | SBCW (Curitiba) | SBRE (Recife) |
 | :--- | :--- | :--- | :--- |
 | [SBAT - Alta Floresta](sbaz-amazonica/afis/SBAT/) | [SBAE - Bauru / Arealva](sbbs-brasilia/afis/SBAE/) | [SBAF - Afonsos](sbcw-curitiba/afis/SBAF/) | [SBAC - Aracati](sbre-recife/afis/SBAC/) |
-| [SBBE - Belém](sbaz-amazonica/twr/SBBE/) | [SBAQ - Araraquara](sbbs-brasilia/afis/SBAQ/) | [SBBG - Bagé](sbcw-curitiba/afis/SBBG/) | [SBAR - Aracaju](sbre-recife/twr/SBAR/) |
-| [SBBV - Boa Vista](sbaz-amazonica/twr/SBBV/) | [SBAU - Araçatuba](sbbs-brasilia/afis/SBAU/) | [SBBI - Bacacheri](sbcw-curitiba/twr/SBBI/) | [SBFN - Fernando de Noronha](sbre-recife/afis/SBFN/) |
-| [SBCC - Cachimbo](sbaz-amazonica/afis/SBCC/) | [SBAX - Araxá](sbbs-brasilia/afis/SBAX/) | [SBBP - Bragança Paulista](sbcw-curitiba/afis/SBBP/) | [SBFZ - Fortaleza](sbre-recife/twr/SBFZ/) |
-| [SBCJ - Carajás](sbaz-amazonica/afis/SBCJ/) | [SBBH - Pampulha](sbbs-brasilia/twr/SBBH/) | [SBBQ - Barbacena](sbcw-curitiba/afis/SBBQ/) | [SBGV - Governador Valadares](sbre-recife/afis/SBGV/) |
-| [SBCY - Cuiabá](sbaz-amazonica/twr/SBCY/) | [SBBR - Brasília](sbbs-brasilia/twr/SBBR/) | [SBCA - Cascavel](sbcw-curitiba/afis/SBCA/) | [SBIL - Ilhéus](sbre-recife/twr/SBIL/) |
-| [SBCZ - Cruzeiro do Sul](sbaz-amazonica/afis/SBCZ/) | [SBBW - Barra do Garças](sbbs-brasilia/afis/SBBW/) | [SBCB - Cabo Frio](sbcw-curitiba/afis/SBCB/) | [SBJE - Jericoacoara](sbre-recife/afis/SBJE/) |
-| [SBEG - Eduardo Gomes](sbaz-amazonica/twr/SBEG/) | [SBCF - Confins](sbbs-brasilia/twr/SBCF/) | [SBCG - Campo Grande](sbcw-curitiba/twr/SBCG/) | [SBJP - João Pessoa](sbre-recife/twr/SBJP/) |
-| [SBGM - Guajará-Mirim](sbaz-amazonica/afis/SBGM/) | [SBCN - Caldas Novas](sbbs-brasilia/afis/SBCN/) | [SBCH - Chapecó](sbcw-curitiba/afis/SBCH/) | [SBJU - Juazeiro do Norte](sbre-recife/afis/SBJU/) |
-| [SBHT - Altamira](sbaz-amazonica/afis/SBHT/) | [SBGO - Goiânia](sbbs-brasilia/twr/SBGO/) | [SBCO - Canoas](sbcw-curitiba/twr/SBCO/) | [SBKG - Campina Grande](sbre-recife/afis/SBKG/) |
-| [SBIH - Itaituba](sbaz-amazonica/afis/SBIH/) | [SBGP - Gavião Peixoto](sbbs-brasilia/afis/SBGP/) | [SBCP - Campos](sbcw-curitiba/afis/SBCP/) | [SBMO - Maceió](sbre-recife/twr/SBMO/) |
-| [SBIZ - Imperatriz](sbaz-amazonica/afis/SBIZ/) | [SBIP - Ipatinga](sbbs-brasilia/afis/SBIP/) | [SBCR - Corumbá](sbcw-curitiba/afis/SBCR/) | [SBMS - Mossoró](sbre-recife/afis/SBMS/) |
-| [SBJI - Ji-Paraná](sbaz-amazonica/afis/SBJI/) | [SBIT - Itumbiara](sbbs-brasilia/afis/SBIT/) | [SBCT - Curitiba](sbcw-curitiba/twr/SBCT/) | [SBNT - Natal](sbre-recife/twr/SBNT/) |
-| [SBMA - Marabá](sbaz-amazonica/afis/SBMA/) | [SBLS - Lagoa Santa](sbbs-brasilia/afis/SBLS/) | [SBCX - Caxias do Sul](sbcw-curitiba/afis/SBCX/) | [SBPB - Parnaíba](sbre-recife/afis/SBPB/) |
-| [SBMN - Ponta Pelada](sbaz-amazonica/twr/SBMN/) | [SBMK - Montes Claros](sbbs-brasilia/afis/SBMK/) | [SBDB - Bonito](sbcw-curitiba/afis/SBDB/) | [SBPL - Petrolina](sbre-recife/afis/SBPL/) |
-| [SBMQ - Macapá](sbaz-amazonica/twr/SBMQ/) | [SBML - Marília](sbbs-brasilia/afis/SBML/) | [SBDN - Presidente Prudente](sbcw-curitiba/twr/SBDN/) | [SBPS - Porto Seguro](sbre-recife/twr/SBPS/) |
-| [SBOI - Oiapoque](sbaz-amazonica/afis/SBOI/) | [SBNV - A.N.A.](sbbs-brasilia/afis/SBNV/) | [SBDO - Dourados](sbcw-curitiba/afis/SBDO/) | [SBRF - Recife](sbre-recife/twr/SBRF/) |
-| [SBPV - Porto Velho](sbaz-amazonica/twr/SBPV/) | [SBPJ - Palmas](sbbs-brasilia/twr/SBPJ/) | [SBES - São Pedro da Aldeia](sbcw-curitiba/twr/SBES/) | [SBSG - São Gonçalo do Amarante](sbre-recife/twr/SBSG/) |
-| [SBRB - Rio Branco](sbaz-amazonica/twr/SBRB/) | [SBSR - Rio Preto](sbbs-brasilia/afis/SBSR/) | [SBFI - Foz do Iguaçu](sbcw-curitiba/twr/SBFI/) | [SBSV - Salvador](sbre-recife/twr/SBSV/) |
-| [SBRD - Rondonópolis](sbaz-amazonica/afis/SBRD/) | [SBVG - Varginha](sbbs-brasilia/afis/SBVG/) | [SBFL - Florianópolis](sbcw-curitiba/twr/SBFL/) | [SBTC - Una / Comandatuba](sbre-recife/afis/SBTC/) |
-| [SBSI - Sinop](sbaz-amazonica/afis/SBSI/) | [SIMK - Franca](sbbs-brasilia/afis/SIMK/) | [SBFS - Farol de São Tomé](sbcw-curitiba/afis/SBFS/) | [SBTE - Teresina](sbre-recife/twr/SBTE/) |
-| [SBSL - São Luis](sbaz-amazonica/twr/SBSL/) |  | [SBGL - Galeão](sbcw-curitiba/twr/SBGL/) | [SBTV - Terravista](sbre-recife/afis/SBTV/) |
-| [SBSN - Santarém](sbaz-amazonica/twr/SBSN/) |  | [SBGR - Guarulhos](sbcw-curitiba/twr/SBGR/) | [SBUF - Paulo Afonso](sbre-recife/afis/SBUF/) |
-| [SBSO - Sorriso](sbaz-amazonica/afis/SBSO/) |  | [SBGW - Guaratinguetá](sbcw-curitiba/twr/SBGW/) | [SBVC - Vitória da Conquista](sbre-recife/afis/SBVC/) |
-| [SBTB - Trombetas](sbaz-amazonica/afis/SBTB/) |  | [SBJA - Jaguaruna](sbcw-curitiba/afis/SBJA/) | [SBVT - Vitória](sbre-recife/twr/SBVT/) |
-| [SBTF - Tefé](sbaz-amazonica/afis/SBTF/) |  | [SBJD - Jundiaí](sbcw-curitiba/twr/SBJD/) |  |
-| [SBTS - Tiriós](sbaz-amazonica/afis/SBTS/) |  | [SBJH - Catarina](sbcw-curitiba/afis/SBJH/) |  |
-| [SBTT - Tabatinga](sbaz-amazonica/afis/SBTT/) |  | [SBJR - Jacarepaguá](sbcw-curitiba/twr/SBJR/) |  |
+| [SBBE - Belém](sbaz-amazonica/twr/SBBE/) | [SBAN - Anápolis](sbbs-brasilia/twr/SBAN/) | [SBBG - Bagé](sbcw-curitiba/afis/SBBG/) | [SBAR - Aracaju](sbre-recife/twr/SBAR/) |
+| [SBBV - Boa Vista](sbaz-amazonica/twr/SBBV/) | [SBAQ - Araraquara](sbbs-brasilia/afis/SBAQ/) | [SBBI - Bacacheri](sbcw-curitiba/twr/SBBI/) | [SBFN - Fernando de Noronha](sbre-recife/afis/SBFN/) |
+| [SBCC - Cachimbo](sbaz-amazonica/afis/SBCC/) | [SBAU - Araçatuba](sbbs-brasilia/afis/SBAU/) | [SBBP - Bragança Paulista](sbcw-curitiba/afis/SBBP/) | [SBFZ - Fortaleza](sbre-recife/twr/SBFZ/) |
+| [SBCJ - Carajás](sbaz-amazonica/afis/SBCJ/) | [SBAX - Araxá](sbbs-brasilia/afis/SBAX/) | [SBBQ - Barbacena](sbcw-curitiba/afis/SBBQ/) | [SBGV - Governador Valadares](sbre-recife/afis/SBGV/) |
+| [SBCY - Cuiabá](sbaz-amazonica/twr/SBCY/) | [SBBH - Pampulha](sbbs-brasilia/twr/SBBH/) | [SBCA - Cascavel](sbcw-curitiba/afis/SBCA/) | [SBIL - Ilhéus](sbre-recife/afis/SBIL/) |
+| [SBCZ - Cruzeiro do Sul](sbaz-amazonica/afis/SBCZ/) | [SBBR - Brasília](sbbs-brasilia/twr/SBBR/) | [SBCB - Cabo Frio](sbcw-curitiba/afis/SBCB/) | [SBJE - Jericoacoara](sbre-recife/afis/SBJE/) |
+| [SBEG - Eduardo Gomes](sbaz-amazonica/twr/SBEG/) | [SBBU - Bauru](sbbs-brasilia/afis/SBBU/) | [SBCG - Campo Grande](sbcw-curitiba/twr/SBCG/) | [SBJP - João Pessoa](sbre-recife/twr/SBJP/) |
+| [SBGM - Guajará-Mirim](sbaz-amazonica/afis/SBGM/) | [SBBW - Barra do Garças](sbbs-brasilia/afis/SBBW/) | [SBCH - Chapecó](sbcw-curitiba/afis/SBCH/) | [SBJU - Juazeiro do Norte](sbre-recife/afis/SBJU/) |
+| [SBHT - Altamira](sbaz-amazonica/afis/SBHT/) | [SBCF - Confins](sbbs-brasilia/twr/SBCF/) | [SBCO - Canoas](sbcw-curitiba/twr/SBCO/) | [SBKG - Campina Grande](sbre-recife/afis/SBKG/) |
+| [SBIH - Itaituba](sbaz-amazonica/afis/SBIH/) | [SBCN - Caldas Novas](sbbs-brasilia/afis/SBCN/) | [SBCP - Campos](sbcw-curitiba/afis/SBCP/) | [SBMO - Maceió](sbre-recife/twr/SBMO/) |
+| [SBIZ - Imperatriz](sbaz-amazonica/afis/SBIZ/) | [SBGO - Goiânia](sbbs-brasilia/twr/SBGO/) | [SBCR - Corumbá](sbcw-curitiba/afis/SBCR/) | [SBMS - Mossoró](sbre-recife/afis/SBMS/) |
+| [SBJI - Ji-Paraná](sbaz-amazonica/afis/SBJI/) | [SBGP - Gavião Peixoto](sbbs-brasilia/afis/SBGP/) | [SBCT - Curitiba](sbcw-curitiba/twr/SBCT/) | [SBNT - Natal](sbre-recife/twr/SBNT/) |
+| [SBMA - Marabá](sbaz-amazonica/afis/SBMA/) | [SBIP - Ipatinga](sbbs-brasilia/afis/SBIP/) | [SBCX - Caxias do Sul](sbcw-curitiba/afis/SBCX/) | [SBPB - Parnaíba](sbre-recife/afis/SBPB/) |
+| [SBMN - Ponta Pelada](sbaz-amazonica/twr/SBMN/) | [SBIT - Itumbiara](sbbs-brasilia/afis/SBIT/) | [SBDB - Bonito](sbcw-curitiba/afis/SBDB/) | [SBPL - Petrolina](sbre-recife/afis/SBPL/) |
+| [SBMQ - Macapá](sbaz-amazonica/twr/SBMQ/) | [SBLS - Lagoa Santa](sbbs-brasilia/afis/SBLS/) | [SBDN - Presidente Prudente](sbcw-curitiba/twr/SBDN/) | [SBPS - Porto Seguro](sbre-recife/twr/SBPS/) |
+| [SBOI - Oiapoque](sbaz-amazonica/afis/SBOI/) | [SBMK - Montes Claros](sbbs-brasilia/afis/SBMK/) | [SBDO - Dourados](sbcw-curitiba/afis/SBDO/) | [SBRF - Recife](sbre-recife/twr/SBRF/) |
+| [SBPV - Porto Velho](sbaz-amazonica/twr/SBPV/) | [SBML - Marília](sbbs-brasilia/afis/SBML/) | [SBES - São Pedro da Aldeia](sbcw-curitiba/twr/SBES/) | [SBSG - São Gonçalo do Amarante](sbre-recife/twr/SBSG/) |
+| [SBRB - Rio Branco](sbaz-amazonica/twr/SBRB/) | [SBNV - A.N.A.](sbbs-brasilia/afis/SBNV/) | [SBFI - Foz do Iguaçu](sbcw-curitiba/twr/SBFI/) | [SBSV - Salvador](sbre-recife/twr/SBSV/) |
+| [SBRD - Rondonópolis](sbaz-amazonica/afis/SBRD/) | [SBPJ - Palmas](sbbs-brasilia/twr/SBPJ/) | [SBFL - Florianópolis](sbcw-curitiba/twr/SBFL/) | [SBTC - Una / Comandatuba](sbre-recife/afis/SBTC/) |
+| [SBSI - Sinop](sbaz-amazonica/afis/SBSI/) | [SBRP - Ribeirão Preto](sbbs-brasilia/twr/SBRP/) | [SBFS - Farol de São Tomé](sbcw-curitiba/afis/SBFS/) | [SBTE - Teresina](sbre-recife/twr/SBTE/) |
+| [SBSL - São Luis](sbaz-amazonica/twr/SBSL/) | [SBSR - Rio Preto](sbbs-brasilia/afis/SBSR/) | [SBGL - Galeão](sbcw-curitiba/twr/SBGL/) | [SBTV - Terravista](sbre-recife/afis/SBTV/) |
+| [SBSN - Santarém](sbaz-amazonica/twr/SBSN/) | [SBUL - Uberlândia](sbbs-brasilia/twr/SBUL/) | [SBGR - Guarulhos](sbcw-curitiba/twr/SBGR/) | [SBUF - Paulo Afonso](sbre-recife/afis/SBUF/) |
+| [SBSO - Sorriso](sbaz-amazonica/afis/SBSO/) | [SBUR - Uberaba](sbbs-brasilia/twr/SBUR/) | [SBGW - Guaratinguetá](sbcw-curitiba/twr/SBGW/) | [SBVC - Vitória da Conquista](sbre-recife/afis/SBVC/) |
+| [SBTB - Trombetas](sbaz-amazonica/afis/SBTB/) | [SBVG - Varginha](sbbs-brasilia/afis/SBVG/) | [SBJA - Jaguaruna](sbcw-curitiba/afis/SBJA/) | [SBVT - Vitória](sbre-recife/twr/SBVT/) |
+| [SBTF - Tefé](sbaz-amazonica/afis/SBTF/) | [SBYS - Pirassununga](sbbs-brasilia/twr/SBYS/) | [SBJD - Jundiaí](sbcw-curitiba/twr/SBJD/) |  |
+| [SBTS - Tiriós](sbaz-amazonica/afis/SBTS/) | [SDSC - São Carlos](sbbs-brasilia/afis/SDSC/) | [SBJH - Catarina](sbcw-curitiba/afis/SBJH/) |  |
+| [SBTT - Tabatinga](sbaz-amazonica/afis/SBTT/) | [SIMK - Franca](sbbs-brasilia/afis/SIMK/) | [SBJR - Jacarepaguá](sbcw-curitiba/twr/SBJR/) |  |
 | [SBUA - São Gabriel da Cachoeira](sbaz-amazonica/afis/SBUA/) |  | [SBJV - Joinville](sbcw-curitiba/afis/SBJV/) |  |
 | [SBUY - Urucu](sbaz-amazonica/afis/SBUY/) |  | [SBKP - Viracopos](sbcw-curitiba/twr/SBKP/) |  |
 | [SBVH - Vilhena](sbaz-amazonica/afis/SBVH/) |  | [SBLO - Londrina](sbcw-curitiba/twr/SBLO/) |  |
 | [SSKW - Cacoal](sbaz-amazonica/afis/SSKW/) |  | [SBME - Macaé](sbcw-curitiba/twr/SBME/) |  |
-|  |  | [SBMG - Maringá](sbcw-curitiba/twr/SBMG/) |  |
+| [SWGN - Araguaína](sbaz-amazonica/afis/SWGN/) |  | [SBMG - Maringá](sbcw-curitiba/twr/SBMG/) |  |
 |  |  | [SBMI - Maricá](sbcw-curitiba/afis/SBMI/) |  |
 |  |  | [SBMT - Campo de Marte](sbcw-curitiba/twr/SBMT/) |  |
 |  |  | [SBNF - Navegantes](sbcw-curitiba/twr/SBNF/) |  |
