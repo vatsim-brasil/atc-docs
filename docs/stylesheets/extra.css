@@ -1464,47 +1464,51 @@
 .lv-lista {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
 }
 
 /* Setores elementares têm rótulos curtos: grade em vez de lista */
 .setor-viewer .lv-lista[data-grupo="elem"] {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 4px;
-}
-
-.setor-viewer .lv-lista[data-grupo="elem"] .lv-item {
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 8px;
-    text-align: center;
-}
-
-.setor-viewer .lv-lista[data-grupo="elem"] .lv-item[aria-current="true"] {
-    border-color: var(--md-accent-fg-color);
 }
 
 .lv-item {
     padding: 6px 10px;
-    border-left: 3px solid transparent;
-    border-radius: 0 8px 8px 0;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
     text-align: left;
     font: inherit;
     font-size: 0.7rem;
+    line-height: 1.3;
     color: var(--md-default-fg-color);
     cursor: pointer;
+    transition: border-color 125ms, background-color 125ms;
+}
+
+.setor-viewer .lv-lista[data-grupo="elem"] .lv-item {
+    text-align: center;
 }
 
 .lv-item[data-nivel="2"] {
-    padding-left: 24px;
+    margin-left: 16px;
 }
 
 .lv-item:hover {
-    background: var(--md-default-fg-color--lightest);
+    border-color: var(--md-accent-fg-color);
+}
+
+.lv-item:focus {
+    outline: none;
+}
+
+.lv-item:focus-visible {
+    outline: 2px solid var(--md-accent-fg-color);
+    outline-offset: 2px;
 }
 
 .lv-item[aria-current="true"] {
-    border-left-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
     background: var(--md-accent-fg-color--transparent);
     color: var(--md-accent-fg-color);
     font-weight: 700;
@@ -1537,6 +1541,7 @@
 
 .md-typeset .lv figure {
     margin: 0;
+    justify-content: flex-start;
 }
 
 .md-typeset .lv figure[hidden] {
@@ -1564,15 +1569,11 @@
         margin: 8px 0 4px;
     }
 
-    .lv-item,
-    .lv-item[data-nivel="2"],
-    .setor-viewer .lv-lista[data-grupo="elem"] .lv-item {
-        padding: 6px 10px;
-        border: 1px solid var(--md-default-fg-color--lightest);
-        border-radius: 999px;
+    .lv-item[data-nivel="2"] {
+        margin-left: 0;
     }
 
-    .lv-item[aria-current="true"] {
-        border-color: var(--md-accent-fg-color);
+    .lv-item {
+        border-radius: 999px;
     }
 }
