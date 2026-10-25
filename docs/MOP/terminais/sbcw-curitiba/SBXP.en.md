@@ -17,7 +17,7 @@ tags:
 | **Frequency** | **119.600** MHz[^pacote] |
 | **ATS surveillance** | Radar |
 | **Transition altitude** | **8000 ft** throughout the TMA[^cartas] |
-| **Aerodromes in the TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.en.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.en.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.en.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.en.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.en.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.en.md) |
+| **Aerodromes in the TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.en.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.en.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.en.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.en.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.en.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.en.md), [SDAM](../../aerodromos/sbcw-curitiba/afis/SDAM.en.md), [SBJH](../../aerodromos/sbcw-curitiba/afis/SBJH.en.md), [SBBP](../../aerodromos/sbcw-curitiba/afis/SBBP.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
