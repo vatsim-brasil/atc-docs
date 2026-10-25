@@ -59,7 +59,7 @@
     - SID RNAV BOLAS 1A – OBLIL 1A – UGIKI 1C RWY 18.
 - Quando as condições meteorológicas forem favoráveis para a operação VFR, utilizar preferencialmente:
     - PLN Z com saída VFR setor ECHO (E) do AD: CTC TWR-JD/FCA, 4500FT DCT través JARINU, CTC e CLR APP-SP;
-    - PLN Z com saída VFR setor WHISKEY (W) do AD: CTC TWR-JD/FCA, 3800FT PORTÃO JAPI DCT ITU, CTC e CLR APP-SP.
+    - PLN Z com saída VFR setor WHISKEY (W) do AD: CTC TWR-JD/FCA, PORTÃO ELÓI DCT TRAVÉS SUL ITUPEVA DCT JAPI DCT ITU a 3600FT (máx.), CTC e CLR APP-SP.
 
 ### Aproximações e Pousos
 
@@ -68,9 +68,27 @@
     - IAP RNP A RWY 18.
 - Quando as condições meteorológicas forem favoráveis para a operação VFR, utilizar preferencialmente:
     - PLN Y com chegada setor ECHO (E) do AD: fixo ENTIT / VUNOX FL120 DCT ILMUR ou UTLOT FL120 DCT GERKA FL100 DCT ESTÁDIO;
-    - PLN Y com chegada setor WHISKEY (W) do AD: fixo OBMAV FL100 DCT ILMUR descendo para ALT MAX REA DCT JACARÉ 4500FT DCT NATURA 4100FT, CTC TWR-JD/FCA.
-- PLN VFR: seguir as instruções de saída/chegada da VAC SBJD e da AIC 32/25.
+    - PLN Y com chegada setor WHISKEY (W) do AD: fixo OBMAV FL100 DCT ILMUR descendo para ALT MAX REA DCT CABREÚVA DCT JACARÉ DCT NATURA DCT PORTÃO ELÓI a 3800FT (máx.), CTC TWR-JD/FCA a partir de JACARÉ.
+- PLN VFR: seguir as instruções de saída/chegada da VAC SBJD e da AIC N 29/26 (ver [Circulação VFR](#circulacao-vfr)).
 - APCH perdida RWY 18 deverá ser efetuada com curva à esquerda a partir da THR 18.
+
+### Circulação VFR
+
+A circulação visual usa os portões **LAGOA**, **ESTÁDIO**, **TREVO**, **JACARÉ** e **JAPI**, conforme a pista em uso[^aic2926]. Para quem sai, a Torre informa o sentido do fluxo; para quem chega, o APP São Paulo.
+
+| Pista | Setor | Chegada | Saída | Transferência APP ⇄ TWR |
+| :---: | :---: | :--- | :--- | :--- |
+| **18** | Leste | ESTÁDIO | TREVO | TRAVÉS JARINU, PEDÁGIO LEROY |
+| **18** | Oeste | JACARÉ | JAPI | JACARÉ, JAPI |
+| **36** | Leste | ESTÁDIO | LAGOA ou TREVO | TRAVÉS JARINU, PEDÁGIO LEROY |
+| **36** | Oeste | JACARÉ | JAPI | JACARÉ, JAPI |
+
+- **Saída pelo oeste:** PORTÃO ELÓI → TRAVÉS SUL ITUPEVA (281°) → JAPI (279°) → ITU (277°), a **3600 FT no máximo**. A Torre presta informação de voo e alerta até TRAVÉS SUL ITUPEVA; de lá em diante, FCA Norte (135.675).
+- **Chegada pelo oeste:** CABREÚVA (REA CHARLIE) → JACARÉ (066°) → NATURA (085°) → PORTÃO ELÓI (081°), a **3800 FT no máximo**. A Torre presta informação a partir de JACARÉ.
+- As duas altitudes máximas são obrigatórias, por causa dos procedimentos IFR de SBJD e SBKP. O trecho tem 0,5 NM para cada lado do eixo.
+- Pelo leste, a saída por TREVO segue a REA DELTA (169°, 4500 FT) para PEDÁGIO LEROY; a chegada vem por TRAVÉS JARINU (REA ECHO ou KILO) ou por PEDÁGIO LEROY (REA LIMA).
+- **Avião em VFR só entra na CTR Jundiaí para pousar:** o cruzamento é proibido.
+- Os corredores e os portões estão no mapa da [TMA São Paulo](../../../terminais/sbcw-curitiba/SBXP.pt.md#corredores-visuais-rea).
 
 ### Regulamentos do Aeródromo
 
@@ -89,3 +107,5 @@
 | Pátio     | Posições  | Classificação             |
 | :---: | :---: | :--- |
 | **1** | ANY       | Aviação Geral e Executiva |
+
+[^aic2926]: [AIC N 29/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2926){ target="_blank" }, item 5.4.16.
