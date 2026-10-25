@@ -67,7 +67,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
     ---
     flowchart BT
         p0["SBRE_CTR"]:::ctr
-        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBRE_SW_CTR</span>"]:::grpctr
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBRE_NS_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBRE_SW_CTR</span>"]:::grpctr
         p1["SBRE_S_CTR"]:::ctr
         p2["SBWL_APP"]:::app
         p3["SBIL_R_TWR"]:::twr

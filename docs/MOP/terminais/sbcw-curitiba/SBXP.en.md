@@ -17,7 +17,7 @@ tags:
 | **Frequency** | **119.600** MHz[^pacote] |
 | **ATS surveillance** | Radar |
 | **Transition altitude** | **8000 ft** throughout the TMA[^cartas] |
-| **Aerodromes in the TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.en.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.en.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.en.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.en.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.en.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.en.md) |
+| **Aerodromes in the TMA** | [SBGR](../../aerodromos/sbcw-curitiba/twr/SBGR.en.md), [SBSP](../../aerodromos/sbcw-curitiba/twr/SBSP.en.md), [SBKP](../../aerodromos/sbcw-curitiba/twr/SBKP.en.md), [SBMT](../../aerodromos/sbcw-curitiba/twr/SBMT.en.md), [SBJD](../../aerodromos/sbcw-curitiba/twr/SBJD.en.md), [SBSJ](../../aerodromos/sbcw-curitiba/twr/SBSJ.en.md), [SDCO](../../aerodromos/sbcw-curitiba/twr/SDCO.en.md), [SBST](../../aerodromos/sbcw-curitiba/afis/SBST.en.md), [SDAM](../../aerodromos/sbcw-curitiba/afis/SDAM.en.md), [SBJH](../../aerodromos/sbcw-curitiba/afis/SBJH.en.md), [SBBP](../../aerodromos/sbcw-curitiba/afis/SBBP.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
@@ -28,54 +28,19 @@ tags:
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBXP?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
 
 === ":material-map-legend: Visual Charts"
-    === "CCV REA XP2-São Paulo"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+    <div class="ccv-viewer" data-lang="en">
+    <ul class="ccv-lista">
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf" target="_blank" rel="noopener">CCV REA XP2-São Paulo</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf" target="_blank" rel="noopener">CCV REA XP1-São Paulo</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH XP2-São Paulo 1</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH XP2-São Paulo 2</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH XP2-Campinas</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH XP1-São José dos Campos</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH XP1-Sorocaba</a></li>
+    </ul>
+    </div>
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ target="_blank" }.
-
-    === "CCV REA XP1-São Paulo"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH XP2-São Paulo 1"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-1_reh_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH XP2-São Paulo 2"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-sao-paulo-2_reh_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH XP2-Campinas"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp2-campinas_reh_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH XP1-São José dos Campos"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH XP1-Sorocaba"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }.
+    Source: [AISWEB](https://aisweb.decea.mil.br/?i=cartas){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-23.434" data-lon="-46.575" data-zoom="8" data-lang="en"></div>
@@ -87,6 +52,8 @@ tags:
 
 Click a volume to see its limits and class. Use the layer control to change the base map and toggle the volumes.
 
+The **Visual corridors (REA)** layer shows every aeroplane corridor of the TMA and the Paraíba valley and the aerodrome gates. Solid line: controlled segment; dashed: class G, coordinated on the FCA; arrow: one-way. Click a segment to see the tracks, altitudes and contact. Details in [Visual corridors (REA)](#visual-corridors-rea).
+
 <div class="fir-map-top">
     <div id="mapa-tma" class="mapa"></div>
 </div>
@@ -95,7 +62,7 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 | Volume | Limits | Class |
 | --- | --- | :---: |
-| São Paulo 2 | 3600 FT – 5500 FT | <span class="classe-badge classe-c">C</span> |
+| [São Paulo 2](#tma-sao-paulo-2-visual-sector) (Visual sector) | 3600 FT – 5500 FT | <span class="classe-badge classe-c">C</span> |
 | São Paulo 1 | 5500 FT – FL245 | <span class="classe-badge classe-a">A</span> <span class="classe-badge classe-c">C</span> |
 | Guarulhos CTR | GND – 3600 FT | <span class="classe-badge classe-d">D</span> |
 | São Paulo CTR (Congonhas) | GND – 3600 FT | <span class="classe-badge classe-d">D</span> |
@@ -109,72 +76,85 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 The APP is split into sectors, each with its own position and frequency in the package. Turn on the **APP sectors (elementary)** layer on the map to see them, or the layer of a combined position to see the consolidated area it covers. Who takes over a closed sector is shown under [Combined positions](#combined-positions) and in the [coverage](#top-down-coverage) diagram.
 
-Each tab shows one elementary sector, without the combined positions. The sector is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below FL100.
+Pick an area in the list: the whole TMA (one position for everything), a combined position or an elementary sector. The area is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below FL100.
 
-=== "T1"
-    <figure markdown="span">
-      ![São Paulo APP sector T1, from 5500 ft to FL245](img/sbxp-setor-t1.svg){ loading=lazy }
-    </figure>
+<div class="setor-viewer" data-lang="en" markdown="block">
+<figure data-grupo="total" data-titulo="SBXP_APP" data-info="119.600 · takes over SBXP_S_APP, SBXP_E_APP, SBXP_N_APP, SBXP_V_APP" markdown="span">
+  ![Combined position SBXP_APP: the whole TMA](img/sbxp-comb-app.svg){ loading=lazy }
+</figure>
 
-=== "T2"
-    <figure markdown="span">
-      ![São Paulo APP sector T2, from 5500 ft to FL245](img/sbxp-setor-t2.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_S_APP" data-info="129.000 · takes over SBXP_T1_APP, SBXP_T2_APP" markdown="span">
+  ![Combined position SBXP_S_APP: sectors T1 and T2, to the south](img/sbxp-comb-s.svg){ loading=lazy }
+</figure>
 
-=== "T3"
-    <figure markdown="span">
-      ![São Paulo APP sector T3, from 5500 ft to FL135](img/sbxp-setor-t3.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_E_APP" data-info="134.650 · takes over SBSJ_F_APP, SBXP_T7_APP, SBXP_T8_APP" markdown="span">
+  ![Combined position SBXP_E_APP: sectors T7 and T8 and the São José final, to the east](img/sbxp-comb-e.svg){ loading=lazy }
+</figure>
 
-=== "T4"
-    <figure markdown="span">
-      ![São Paulo APP sector T4, from FL135 to FL245](img/sbxp-setor-t4.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_N_APP" data-info="120.250 · takes over SBXP_NU_APP, SBXP_NL_APP" markdown="span">
+  ![Combined position SBXP_N_APP: sectors T3, T4, T5, T6 and T13, to the north and west](img/sbxp-comb-n.svg){ loading=lazy }
+</figure>
 
-=== "T5"
-    <figure markdown="span">
-      ![São Paulo APP sector T5, from 5500 ft to FL135](img/sbxp-setor-t5.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_NL_APP" data-info="120.925 · takes over SBXP_T3_APP, SBXP_T5_APP" data-nivel="2" markdown="span">
+  ![Combined position SBXP_NL_APP: sectors T3 and T5, lower layer to the north and west](img/sbxp-comb-nl.svg){ loading=lazy }
+</figure>
 
-=== "T6"
-    <figure markdown="span">
-      ![São Paulo APP sector T6, from FL135 to FL245](img/sbxp-setor-t6.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_NU_APP" data-info="130.050 · takes over SBXP_T13_APP, SBXP_T4_APP, SBXP_T6_APP" data-nivel="2" markdown="span">
+  ![Combined position SBXP_NU_APP: sectors T4, T6 and T13, upper layer to the north and west](img/sbxp-comb-nu.svg){ loading=lazy }
+</figure>
 
-=== "T7"
-    <figure markdown="span">
-      ![São Paulo APP sector T7, from 5500 ft to FL245](img/sbxp-setor-t7.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T1" data-info="SBXP_T1_APP · 134.900 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T1, from 5500 ft to FL245](img/sbxp-setor-t1.svg){ loading=lazy }
+</figure>
 
-=== "T8"
-    <figure markdown="span">
-      ![São Paulo APP sector T8, from 5500 ft to FL245](img/sbxp-setor-t8.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T2" data-info="SBXP_T2_APP · 122.750 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T2, from 5500 ft to FL245](img/sbxp-setor-t2.svg){ loading=lazy }
+</figure>
 
-=== "T13"
-    <figure markdown="span">
-      ![São Paulo APP sector T13, from FL135 to FL245](img/sbxp-setor-t13.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T3" data-info="SBXP_T3_APP · 135.750 · 5500 FT – FL135" markdown="span">
+  ![São Paulo APP sector T3, from 5500 ft to FL135](img/sbxp-setor-t3.svg){ loading=lazy }
+</figure>
 
-=== "FGR"
-    <figure markdown="span">
-      ![São Paulo APP sector FGR, Guarulhos final, from 5500 ft to FL100](img/sbxp-setor-fgr.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T4" data-info="SBXP_T4_APP · 119.800 · FL135 – FL245" markdown="span">
+  ![São Paulo APP sector T4, from FL135 to FL245](img/sbxp-setor-t4.svg){ loading=lazy }
+</figure>
 
-=== "FSP"
-    <figure markdown="span">
-      ![São Paulo APP sector FSP, Congonhas final, from 5500 ft to FL100](img/sbxp-setor-fsp.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T5" data-info="SBXP_T5_APP · 132.100 · 5500 FT – FL135" markdown="span">
+  ![São Paulo APP sector T5, from 5500 ft to FL135](img/sbxp-setor-t5.svg){ loading=lazy }
+</figure>
 
-=== "FKP"
-    <figure markdown="span">
-      ![São Paulo APP sector FKP, Campinas final, from 5500 ft to FL100](img/sbxp-setor-fkp.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T6" data-info="SBXP_T6_APP · 120.850 · FL135 – FL245" markdown="span">
+  ![São Paulo APP sector T6, from FL135 to FL245](img/sbxp-setor-t6.svg){ loading=lazy }
+</figure>
 
-=== "FSJ"
-    <figure markdown="span">
-      ![São Paulo APP sector FSJ, São José dos Campos final, from 5500 ft to FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T7" data-info="SBXP_T7_APP · 119.375 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T7, from 5500 ft to FL245](img/sbxp-setor-t7.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="T8" data-info="SBXP_T8_APP · 120.450 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T8, from 5500 ft to FL245](img/sbxp-setor-t8.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="T13" data-info="SBXP_T13_APP · 129.275 · FL135 – FL245" markdown="span">
+  ![São Paulo APP sector T13, from FL135 to FL245](img/sbxp-setor-t13.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FGR" data-info="SBGR_F_APP · 129.750 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FGR, Guarulhos final, from 5500 ft to FL100](img/sbxp-setor-fgr.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FSP" data-info="SBSP_F_APP · 133.850 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FSP, Congonhas final, from 5500 ft to FL100](img/sbxp-setor-fsp.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FKP" data-info="SBKP_F_APP · 119.250 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FKP, Campinas final, from 5500 ft to FL100](img/sbxp-setor-fkp.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FSJ" data-info="SBSJ_F_APP · 124.150 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FSJ, São José dos Campos final, from 5500 ft to FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
+</figure>
+</div>
 
 | Sector | Position | Frequency | Limits | Role |
 | :---: | --- | --- | --- | --- |
@@ -191,53 +171,23 @@ Each tab shows one elementary sector, without the combined positions. The sector
 | **FSP** | `SBSP_F_APP` | **133.850** | 5500 FT – FL100 | **Final** for SBSP |
 | **FKP** | `SBKP_F_APP` | **119.250** | 5500 FT – FL100 | **Final** for SBKP |
 | **FSJ** | `SBSJ_F_APP` | **124.150** | 5500 FT – FL100 | **Final** for SBSJ |
+| **V** | `SBXP_V_APP` | **129.500** | 3600 FT – 5500 FT | **Visual sector**: TMA São Paulo 2 and the VFR corridors |
 
 - **Upper sector:** takes descending arrivals from the ACC and hands climbing departures to the ACC, above the feeders.
 - **Feeder:** builds the arrival sequence and hands the aircraft to the final already spaced, descending to the final altitude. It also handles departures in its sector.
 - **Final:** takes traffic from the feeders, adjusts the spacing on final and transfers to the Tower.
+- **Visual sector:** controls VFR traffic on the TMA São Paulo 2 corridors, below the other sectors. It isn't in the selector above because it sits on another layer; see its [own section](#tma-sao-paulo-2-visual-sector) and the **Visual corridors (REA)** layer on the map.
 
 ### Combined positions
 
 | Position | Frequency | Takes over |
 | --- | --- | --- |
-| `SBXP_APP` | **119.600** | `SBXP_S_APP`, `SBXP_E_APP`, `SBXP_N_APP` |
+| `SBXP_APP` | **119.600** | `SBXP_S_APP`, `SBXP_E_APP`, `SBXP_N_APP`, `SBXP_V_APP` |
 | `SBXP_E_APP` | **134.650** | `SBSJ_F_APP`, `SBXP_T7_APP`, `SBXP_T8_APP` |
 | `SBXP_NL_APP` | **120.925** | `SBXP_T3_APP`, `SBXP_T5_APP` |
 | `SBXP_NU_APP` | **130.050** | `SBXP_T13_APP`, `SBXP_T4_APP`, `SBXP_T6_APP` |
 | `SBXP_N_APP` | **120.250** | `SBXP_NU_APP`, `SBXP_NL_APP` |
 | `SBXP_S_APP` | **129.000** | `SBXP_T1_APP`, `SBXP_T2_APP` |
-
-Each tab shows the consolidated area the combined position covers, with its vertical limits below the name. Its makeup is in the *Takes over* column and in the [sector maps](#app-sectorization).
-
-=== "SBXP_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_APP: the whole TMA](img/sbxp-comb-app.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_S_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_S_APP: sectors T1 and T2, to the south](img/sbxp-comb-s.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_E_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_E_APP: sectors T7 and T8 and the São José final, to the east](img/sbxp-comb-e.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_N_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_N_APP: sectors T3, T4, T5, T6 and T13, to the north and west](img/sbxp-comb-n.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_NL_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_NL_APP: sectors T3 and T5, lower layer to the north and west](img/sbxp-comb-nl.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_NU_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_NU_APP: sectors T4, T6 and T13, upper layer to the north and west](img/sbxp-comb-nu.svg){ loading=lazy }
-    </figure>
 
 ## :material-headset: ATC Units
 
@@ -265,8 +215,8 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
     ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
-        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span>"]:::grpctr
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_SE_CTR</span>"]:::grpctr
         p1["SBCW_E_CTR"]:::ctr
         p2["SBXP_APP"]:::app
         p3["SBGR_TWR"]:::twr
@@ -599,10 +549,10 @@ To speed up the flow, the APP may clear a **direct** to the fixes below, even th
 
 ---
 
-## :material-airplane: VFR circulation
+## :material-airplane: TMA São Paulo 2 and VFR circulation
 
 !!! abstract "Visual navigation documents"
-    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (effective 07 AUG 2025)
+    - **Circular:** [AIC N 29/26 – Circulação VFR Integrada na TMA-SP e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-2926){ target="_blank" }
     - **Circular:** [AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" } (effective 13 OCT 2016)
     - **Visual chart – Aircraft routes (REA):** [CCV REA XP2-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp2-sao-paulo_rea_20260319.pdf){ target="_blank" }
     - **Visual chart – Aircraft routes (REA):** [CCV REA XP1-São Paulo](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xp1-sao-paulo_rea_20260319.pdf){ target="_blank" }
@@ -612,19 +562,319 @@ To speed up the flow, the APP may clear a **direct** to the fixes below, even th
     - **Visual chart – Helicopter routes (REH):** [CCV REH XP1-São José dos Campos](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sao-jose-dos-campos_reh_20260319.pdf){ target="_blank" }
     - **Visual chart – Helicopter routes (REH):** [CCV REH XP1-Sorocaba](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-xp1-sorocaba_reh_20260319.pdf){ target="_blank" }
 
-    The charts are embedded in the **Visual Charts** tab under **Useful Information**.
+    The charts are embedded in the **Visual Charts** tab under **Useful Information**. The TMA São Paulo 2 chart is **CCV REA XP2-São Paulo**. The data in this section comes from AIC N 29/26[^aic2926].
 
-- Fixed-wing VFR is prohibited at SBGR and SBSP, except for military aircraft or when navaids are unavailable.
-- AFIL flight plans from aerodromes without an AIS office under the TMA are not accepted: the flight plan must be filed before take-off.
-- VFR helicopters under the TMA, including on the REH, squawk 0100.
-- On SBSP RWY 17 final and RWY 35 departure there is a helicopter control area, with a composite separation of 2.5 NM or 500 FT. `SBSP_H_TWR` (Helicopter Control, 118.350) handles this traffic.
-- IFR training is prohibited in the Congonhas and Guarulhos CTRs and in the TMA.
-- Aircraft entering the Campinas CTR call São Paulo APP on 119.800 or 133.850.
+### TMA São Paulo 2 (Visual sector)
+
+TMA São Paulo is split into two layers[^aic2926]. **São Paulo 1** is the IFR airspace, above 5500 ft. **São Paulo 2** is a low layer over the metropolitan area, on top of the Campinas, Jundiaí, Congonhas, Guarulhos and Marte CTRs and the Marte ATZ. It exists, in essence, for **visual flights**: VFR traffic crosses the area along **corridors** (REA) whose maximum altitudes keep it below the IFR flows.
+
+| | |
+| --- | --- |
+| **Limits** | Above **3600 ft** up to **5500 ft** (inclusive) |
+| **Class** | **C** |
+| **Position** | `SBXP_V_APP` (Visual sector; in the real world, APP-SP sector T-14) |
+| **Callsign** | São Paulo Control |
+| **Frequency** | **129.500** MHz[^pacote] |
+| **Speed** | **200 kt** IAS maximum |
+| **Coverage** | With `SBXP_V_APP` closed, `SBXP_APP` takes the layer (see [coverage](#top-down-coverage)) |
+
+- In the package, **SBMT** and **SBJD** departures and arrivals belong to the Visual sector.
+- The same 129.500 provides **flight information and alerting** on request in the class G airspace **below** the TMA, and gives the QNH to anyone who can't receive an ATIS.
+- In class C, the APP separates **IFR from IFR** and **IFR from VFR**. Between two VFR flights, it gives **traffic information**.
+- The SBGR and SBSP finals and departures below 5500 ft cross the layer. The corridor maximum altitudes protect these flights: a VFR outside its corridor or above the maximum is a conflict with IFR.
+- The layer above, **São Paulo 1**, is class C up to FL145: VFR traffic enters it only with a clearance.
+- In the **Paraíba valley** (outside the TMA), the REAs cross the São José, Taubaté and Guaratinguetá CTRs. In the real world, the controlled segments there use APP-SP on **134.150 / 124.150**, Taubaté Tower (**119.900**) and Guaratinguetá APP (**120.150**). On the network, pilots call whichever position is online: turn on the **APP sectors** layer on the map to see who covers the segment.
+
+### General VFR rules
+
+- **Mandatory corridors:** VFR traffic **flies the published routes**, at the published tracks and altitudes, unless ATS instructs or clears otherwise, in TMA São Paulo 2, in the CTRs, in the ATZs of controlled aerodromes, in the FIZs below the TMA and on these REA segments:
+    - CHARLIE, CERQUILHO to PEDÁGIO CASTELO; DELTA, TREVO to PERUS; ECHO, PERUS to DOM PEDRO; all of KILO;
+    - LIMA, CABREÚVA to CAMBUÍ; all of NOVEMBER; OSCAR, TAPIRAÍ to FURNAS and VARGEM GRANDE to PERUS; PAPA, ITAPEVI to RÉGIS;
+    - QUEBEC, PARQUE DO CARMO to PALMEIRAS; ROMEO, REPRESA SUZANO to ITAQUERA; SIERRA, INTERLIGAÇÃO to PALMEIRAS;
+    - FOXTROT, TRAVÉS ÁGUIA to BERTIOGA; MIKE, TRAVÉS NORTE IGARATÁ to CACHOEIRA; TANGO, PARAIBUNA to REDENÇÃO; UNIFORM, CAÇAPAVA to REDENÇÃO.
+- **Keep right:** aircraft fly to the right of the corridor centreline. Where the circular requires it, they fly the centreline or overfly the point (*fly over*), as at PEDÁGIO CASTELO and ANHANGUERA on NOVEMBER.
+- The **maximum altitude** separates VFR from the IFR traffic above: in controlled airspace it is mandatory. The **minimum altitude** is the obstacle clearance altitude of the segment; below it, the pilot is responsible.
+- **Class G:** outside controlled airspace, VFR traffic stays at **5000 ft maximum**, because of the IFR network above, except on corridor segments that publish a different altitude. On CHARLIE, LIMA and OSCAR, anyone wanting to climb above 5000 ft must follow the corridor, and heading changes only at 5000 ft or below.
+- **Descent:** in controlled airspace, plan to be at the maximum altitude **from the position** where it starts to apply.
+- **CTRs, ATZs and FIZs:** enter and leave **through the gates**, unless ATC instructs otherwise. Call the unit before entering.
+- **Speed:** **200 kt** IAS maximum in controlled airspace; **160 kt** recommended at the Marte gates.
+- **Reporting:** when crossing a reporting position, report on the ATC frequency or on the FCA of that segment.
+- **Crossing IFR tracks:** VFR traffic does not cross IFR departures and arrivals at a conflicting altitude without an ATS clearance.
+- **Transponder** on (mode A/C or S) in the whole area, class G included.
+- Flights from outside controlled airspace entering the TMA via the REA or REH corridors are exempt from filing a flight plan, but must first report registration, position, persons on board, endurance, origin and destination.
+
+### Visual corridors (REA)
+
+Altitudes in feet (QNH), as **maximum / minimum**. Where altitudes depend on the direction, each track has its own. ⇄ is two-way; → is **one-way**. Segments marked **D · APP-SP 129.500** belong to the Visual sector. Corridors are 3 NM wide (1.5 NM each side of the centreline).
+
+**Metropolitan area** (corridors that cross TMA São Paulo 2):
+
+| REA | Segment | Tracks | Altitudes (max. / min.) | Airspace · contact |
+| :---: | :--- | :---: | :--- | :--- |
+| **CHARLIE** | CERQUILHO ⇄ PORTO FELIZ ⇄ RONDON | 126° / 306° | 126°: 6500 / 5000 · 306°: 5000 / 4500 | G · FCA Norte 135.675 |
+|  | RONDON ⇄ ITU | 126° / 306° | 5000 / 3200 | G · FCA Norte 135.675 |
+|  | ITU ⇄ CABREÚVA | 126° / 306° | 5000 / 4800 | G · FCA Norte 135.675 |
+|  | CABREÚVA ⇄ SANTANA | 147° / 327° | 147°: 5000 / 4500 · 327°: 4800 / 4500 | D · APP-SP 129.500 |
+|  | PEDÁGIO CASTELO → SANTANA | 306° | 4500 / 4000 | D · APP-SP 129.500 |
+| **DELTA** | TREVO → PEDÁGIO LEROY | 169° | 4500 | D · APP-SP 129.500 |
+|  | PEDÁGIO LEROY ⇄ PERUS | 169° / 349° | 169°: 4300 / 4100 · 349°: 4100 | D · APP-SP 129.500 |
+| **ECHO** | PERUS → MORATO | 023° | 4200 / 4000 | D · APP-SP 129.500 |
+|  | MORATO ⇄ TRAVÉS JARINU ⇄ DOM PEDRO | 015° / 195° | 4500 / 4000 | D · APP-SP 129.500 |
+|  | DOM PEDRO ⇄ MORUNGABA | 015° / 195° | 015°: 5000 / 4300 · 195°: 4500 / 4300 | G · FCA Norte 135.675 |
+|  | MORUNGABA ⇄ TRAVÉS AMPARO | 040° / 220° | 040°: 5000 / 4300 · 220°: 4700 / 4300 | G · FCA Norte 135.675 |
+|  | TRAVÉS AMPARO ⇄ SERRA NEGRA ⇄ LINDÓIA | 039° / 219° | 039°: 5500 / 5000 · 219°: 6000 / 5000 | G · FCA Norte 135.675 |
+| **KILO** | TRAVÉS JARINU ⇄ ATIBAIA | 102° / 282° | 4500 / 4100 | D · APP-SP 129.500 |
+| **LIMA** | CABREÚVA ⇄ PEDÁGIO LEROY | 115° / 295° | 5000 / 4800 | D · APP-SP 129.500 |
+|  | PEDÁGIO LEROY ⇄ MORATO ⇄ ATIBAIA | 068° / 248° | 4500 / 4100 | D · APP-SP 129.500 |
+|  | ATIBAIA ⇄ JOANÓPOLIS | 079° / 259° | 079°: 6000 / 5000 · 259°: 5500 / 5000 | G · FCA Norte 135.675 |
+|  | JOANÓPOLIS ⇄ CAMANDUCAIA ⇄ CAMBUÍ | 056° / 236° | 056°: 8000 / 6000 · 236°: 7500 / 6000 | G · FCA Norte 135.675 |
+| **NOVEMBER** | ANHANGUERA → PEDÁGIO CASTELO → ITAPEVI | 276° | 3700 / 3600, then 3700 | D · APP-SP 129.500 |
+| **OSCAR** | TAPIRAÍ ⇄ FURNAS | 073° / 253° | 6000 / 5000 | G · FCA Sul 126.650 |
+|  | FURNAS ⇄ VARGEM GRANDE | 073° / 253° | 073°: 4500 / 4000 · 253°: 5000 / 4000 | G · FCA Sul 126.650 |
+|  | VARGEM GRANDE ⇄ ITAPEVI | 073° / 253° | 073°: 4500 / 4000 · 253°: 5000 / 4000 | D · APP-SP 129.500 |
+|  | ITAPEVI ⇄ SANTANA | 029° / 209° | 4500 / 4200 | D · APP-SP 129.500 |
+|  | SANTANA → PERUS | 104° | 4300 / 4100 | D · APP-SP 129.500 |
+| **PAPA** | ITAPEVI ⇄ RÉGIS | 181° / 001° | 4500 / 4000 | D · APP-SP 129.500 |
+|  | RÉGIS ⇄ EMBU-GUAÇU | 181° / 001° | 4500 / 4000 | G · FCA Sul 126.650 |
+|  | EMBU-GUAÇU ⇄ ITANHAÉM | 198° / 018° | 198°: 5000 / 3500 · 018°: 4500 / 3500 | G · FCA Sul 126.650 |
+| **QUEBEC** | PARQUE DO CARMO ⇄ RODOANEL SUL | 130° / 310° | 130°: 5000 / 4100 · 310°: 4100 (only with SBMT on 12) | D · APP-SP 129.500 |
+|  | RODOANEL SUL → PALMEIRAS → MOGI BERTIOGA | 113° | 5000 / 4100 | D · APP-SP 129.500 |
+|  | MOGI BERTIOGA → REPRESA RIBEIRÃO | — | 5000 / 4700 | G · FCA Litoral 122.925 |
+|  | REPRESA RIBEIRÃO → USINA CARAGUÁ | — | 7500 / 4700 | G · FCA Litoral 122.925 |
+| **ROMEO** | ILHA ANCHIETA → REPRESA PARAIBUNA | 291° | 7000 / 4400 | G · FCA Litoral 122.925 |
+|  | REPRESA PARAIBUNA → SALESÓPOLIS | — | 6000 / 4600 | G · FCA Sul 126.650 |
+|  | SALESÓPOLIS → REPRESA SUZANO | 282° | 5000 / 4100 | D · APP-SP 129.500 |
+|  | REPRESA SUZANO → RODOANEL NORTE | 304° | 5000 / 3700 | D · APP-SP 129.500 |
+|  | RODOANEL NORTE → ITAQUERA | 309° | 4000 / 3700 | D · APP-SP 129.500 |
+| **SIERRA** | ITANHAÉM ⇄ INTERLIGAÇÃO | 056° / 236° | 5000 / 4000 | G · FCA Sul 126.650 |
+|  | INTERLIGAÇÃO ⇄ RIO GRANDE | 064° / 244° | 4300 / 4000 | G · FCA Sul 126.650 |
+|  | RIO GRANDE ⇄ PALMEIRAS | 064° / 244° | 4300 / 4000 | D · APP-SP 129.500 |
+|  | PALMEIRAS ⇄ REPRESA SUZANO | 063° / 243° | 063°: 5000 / 4000 · 243°: 4500 / 4000 | D · APP-SP 129.500 |
+|  | REPRESA SUZANO ⇄ GUARAREMA | 070° / 250° | 070°: 5000 / 4000 · 250°: 4500 / 4000 | D · APP-SP 129.500 |
+
+**Inland, coast and Paraíba valley:**
+
+| REA | Segment | Tracks | Altitudes (max. / min.) | Airspace · contact |
+| :---: | :--- | :---: | :--- | :--- |
+| **ALFA** | TRAVÉS AMERICANA ⇄ CAPIVARI | 228° / 048° | 228°: 4000 / 3200 · 048°: 4500 / 3200 | G · FCA Norte 135.675 |
+|  | CAPIVARI ⇄ RONDON ⇄ ÉDEN ⇄ TOBIAS | 189° / 009° | 4000 / 3200 | G · FCA Norte 135.675 |
+|  | TOBIAS ⇄ REPRESA ALUMÍNIO | 142° / 322° | 4500 / 4100 | G · FCA Norte 135.675 |
+|  | REPRESA ALUMÍNIO ⇄ FURNAS | 142° / 322° | 5000 / 4100 | G · FCA Norte 135.675 |
+|  | FURNAS ⇄ EMBU-GUAÇU | 142° / 322° | 4500 / 4300 | G · FCA Sul 126.650 |
+|  | EMBU-GUAÇU ⇄ INTERLIGAÇÃO | 127° / 307° | 4500 / 4100 | G · FCA Sul 126.650 |
+| **BRAVO** | LIMEIRA ⇄ COSMÓPOLIS ⇄ JAGUARIÚNA | 131° / 311° | 131°: 4500 / 3200 · 311°: 5000 / 3200 | G · FCA Norte 135.675 |
+|  | JAGUARIÚNA ⇄ MORUNGABA ⇄ ATIBAIA | 157° / 337° | 157°: 4500 / 4400 · 337°: 5000 / 4400 | G · FCA Norte 135.675 |
+|  | ATIBAIA ⇄ IGARATÁ | 127° / 307° | 127°: 5000 / 4900 · 307°: 4900 / 4900 | G · FCA Norte 135.675 |
+|  | IGARATÁ ⇄ GUARAREMA ⇄ SALESÓPOLIS | 173° and 145° / 325° and 353° | Outbound: 5000 / 3500 · inbound: 4500 / 3500 | G · FCA Sul 126.650 |
+|  | SALESÓPOLIS ⇄ REPRESA RIBEIRÃO | 192° / 012° | 192°: 5500 / 4600 · 012°: 5000 / 4600 | G · FCA Litoral 122.925 |
+| **FOXTROT** | ITANHAÉM ⇄ TRAVÉS ÁGUIA | 082° / 262° | 082°: 5000 / 2500 · 262°: 5500 / 2500 | G · FCA Sul 126.650 |
+|  | TRAVÉS ÁGUIA ⇄ BERTIOGA | 085° / 265° | 085°: 5500 / 2500 · 265°: 5000 / 2500 | G · Rádio Santos 118.650 |
+|  | BERTIOGA ⇄ RIVIERA | 091° / 271° | 091°: 6000 / 2000 · 271°: 5500 / 2000 | G · FCA Litoral 122.925 |
+|  | RIVIERA ⇄ BARRA DO UNA | 091° / 271° | 091°: 6500 / 2000 · 271°: 6000 / 2000 | G · FCA Litoral 122.925 |
+|  | BARRA DO UNA ⇄ USINA CARAGUÁ | 091° / 271° | 091°: 6500 / 4000 · 271°: 6000 / 4000 | G · FCA Litoral 122.925 |
+|  | USINA CARAGUÁ ⇄ ILHA ANCHIETA ⇄ LARANJEIRAS | 091° / 271° | Eastbound: FL095 / 4000 · westbound: FL085 / 4000 | G · FCA Litoral 122.925 |
+|  | LARANJEIRAS ⇄ PONTA | 091° / 271° | 091°: 6500 / 3000 · 271°: FL085 / 3000 | G · FCA Litoral 122.925 |
+| **GOLF** | ROSEIRA ⇄ SUL BASÍLICA | 139° / 319° | 139°: 6500 / 5200 · 319°: 5500 / 5200 | D · APP-GW 120.150 |
+|  | SUL BASÍLICA ⇄ CUNHA | 139° / 319° | 139°: 6500 / 5200 · 319°: 5500 / 5200 | G · FCA Litoral 122.925 |
+|  | CUNHA ⇄ BAÍA | 126° / 306° | 126°: 6500 / 6200 · 306°: 6200 | G · FCA Oeste 134.450 |
+| **HOTEL** | ITU ⇄ CAPIVARI | 347° / 167° | 347°: 5000 / 3200 · 167°: 4500 / 3200 | G · FCA Norte 135.675 |
+|  | CAPIVARI ⇄ PEDRAS | 359° / 179° | 359°: 5000 / 3200 · 179°: 4500 / 3200 | G · FCA Norte 135.675 |
+| **INDIA** | PIRACICABA ⇄ TRAVÉS AMERICANA ⇄ COSMÓPOLIS | 098° / 278° | 098°: 4500 / 3000 · 278°: 5000 / 3000 | G · FCA Norte 135.675 |
+| **MIKE** | ATIBAIA ⇄ TRAVÉS NORTE IGARATÁ | 115° / 295° | 5000 / 4600 | G · FCA Norte 135.675 |
+|  | TRAVÉS NORTE IGARATÁ ⇄ TRAVÉS NORTE SÃO JOSÉ | 101° / 281° | 4000 / 3800 | D · APP-SP 134.150 |
+|  | TRAVÉS NORTE SÃO JOSÉ ⇄ CAÇAPAVA | 116° / 296° | 4000 / 3500 | D · APP-SP 134.150 |
+|  | CAÇAPAVA ⇄ TREVO CARVALHO PINTO ⇄ TAUBATÉ | 082° / 262° | 082°: 5500 / 3500 · 262°: 4500 / 3500 | D · TWR-TA 119.900 |
+|  | TAUBATÉ ⇄ PEDÁGIO DUTRA | 082° / 262° | 082°: 5500 / 3500 · 262°: 5000 / 3500 | D · TWR-TA 119.900 |
+|  | PEDÁGIO DUTRA ⇄ ROSEIRA | 082° / 262° | 082°: 5500 / 3500 · 262°: 5000 / 3500 | D · APP-GW 120.150 |
+|  | ROSEIRA ⇄ BASÍLICA | 075° / 255° | 075°: 5500 / 4100 · 255°: 5000 / 4100 | D · APP-GW 120.150 |
+|  | BASÍLICA ⇄ FÁBRICA DUTRA | 071° / 251° | 5500 / 3500 | D · APP-GW 120.150 |
+|  | FÁBRICA DUTRA ⇄ CACHOEIRA | 071° / 251° | 5500 / 3100 | D · APP-GW 120.150 |
+| **SOROCABA 01** | PORTO ⇄ LAGO | 097° / 277° | 4500 / 3100 | G · FIZ Sorocaba 118.800 |
+| **SOROCABA 02** | SARAPUÍ ⇄ HOSPITAL | 089° / 269° | 4500 / 3100 | G · FIZ Sorocaba 118.800 |
+| **TANGO** | SALESÓPOLIS ⇄ PARAIBUNA ⇄ REDENÇÃO | 071° / 251° | 4300 / 4100 | G · FCA Sul 126.650 |
+| **UNIFORM** | CAÇAPAVA ⇄ REDENÇÃO | 158° / 338° | 158°: 5000 / 4800 · 338°: 4900 / 4800 | D · TWR-TA 119.900 |
+|  | REDENÇÃO ⇄ ILHA ANCHIETA | 145° / 325° | 145°: 5500 / 4800 · 325°: 5300 / 4800 | G · FCA Litoral 122.925 |
+
+What each corridor does and where the traps are:
+
+- **Entering and leaving TMA São Paulo 2:** via the points on its lateral limit (DOM PEDRO, ATIBAIA, CABREÚVA, VARGEM GRANDE, RÉGIS and PALMEIRAS), plus TREVO (Jundiaí CTR) and the one-way pair to the east.
+- **CHARLIE** is the western axis: from Cerquilho via Porto Feliz and Itu to CABREÚVA, and on to SANTANA. From CABREÚVA, the APP picks the route to Marte according to the sequence: CHARLIE and OSCAR (SANTANA, PERUS) or LIMA and DELTA (PEDÁGIO LEROY, PERUS). PEDÁGIO CASTELO → SANTANA is one-way. Helicopter routes run below, at 3200 ft.
+- **DELTA** runs from TREVO (Jundiaí) down to PERUS, at the entrance to Marte. See the [Marte](#aerodrome-gates) gates.
+- **ECHO** is the northern axis: PERUS → MORATO (one-way), then MORATO, TRAVÉS JARINU and DOM PEDRO, up to Amparo, Serra Negra and Lindóia. North of DOM PEDRO it is the mandatory route to enter or leave the TMA on that side, with restricted areas on both sides.
+- **KILO** links TRAVÉS JARINU to ATIBAIA. **LIMA** links CABREÚVA to PEDÁGIO LEROY, MORATO and ATIBAIA (aircraft at similar altitudes on the segment, terrain up to 4000 ft), then continues to Joanópolis and Cambuí, climbing to 8000 ft.
+- **NOVEMBER** is one-way westbound: ANHANGUERA → PEDÁGIO CASTELO → ITAPEVI, at **3700 ft**, with mandatory overflight of ANHANGUERA and PEDÁGIO CASTELO because of the SBSP IFR procedures. The APP may reverse it when needed.
+- **OSCAR** comes from the south-west (Tapiraí, Ibiúna) via VARGEM GRANDE and ITAPEVI to SANTANA; SANTANA → PERUS is one-way.
+- **PAPA** links ITAPEVI and RÉGIS to the south coast (Embu-Guaçu, Itanhaém). Watch the SDIM (Itanhaém) circuit, up to 1500 ft.
+- **QUEBEC** (eastbound exit) and **ROMEO** (eastern entry) form a **one-way** pair between the east side of the city and the north coast. ROMEO is the way in from Rio: traffic entering by it, at its altitudes, doesn't need to call the APP before entering São Paulo 1.
+- **SIERRA** crosses the **SBSP RWY 35 final** from the south, from Itanhaém via Rio Grande da Serra, PALMEIRAS and REPRESA SUZANO to Guararema. It is mandatory for that crossing: don't break the maximum or the lateral limits, because of the SBSP and SBST IFR procedures. It crosses ROMEO.
+- **MIKE** is the Paraíba valley axis, along the Via Dutra, from ATIBAIA to CACHOEIRA. Between TREVO CARVALHO PINTO and TAUBATÉ, both ways, aircraft fly **over the Via Dutra** to stay clear of the SBTA circuit and IFR procedures. Near SBGW, watch the procedure base turns and the RWY 02 final.
+- **TANGO** and **UNIFORM** are the southern links to the valley: TANGO passes close to the SBSJ RWY 33 final (don't break the maximum or the northern limit); UNIFORM is the mandatory southern access to MIKE, between SBTA and SBSJ, with a military restricted area to the east.
+- **FOXTROT** is the coastal corridor, from Itanhaém via Praia Grande, Bertioga, Caraguatatuba and Ubatuba to Paraty. Between TRAVÉS ÁGUIA and BERTIOGA, Santos Radio (118.650) gives information; there is a hang-glider and paramotor area below, up to 2500 ft.
+- **GOLF** links Roseira, Cunha and Paraty bay. **HOTEL** and **INDIA** link Itu, Capivari, Piracicaba and Cosmópolis; **ALFA** and **BRAVO** go around the TMA to the west and north. Leaving the TMA towards Piracicaba (PEDRAS, PIRACICABA, LIMEIRA), call Pirassununga APP on 122.400 and check the NOTAMs.
+- **SOROCABA 01** (PORTO ⇄ LAGO) and **SOROCABA 02** (SARAPUÍ ⇄ HOSPITAL) are the western entries to SDCO, in the Sorocaba FIZ (Sorocaba Tower, 118.800).
+
+### Aerodrome gates
+
+Entering and leaving CTRs, ATZs and FIZs with gates is **always through the gates**, unless ATC instructs otherwise.
+
+| Aerodrome | Gates |
+| :---: | :--- |
+| **SBMT** (Marte) | COMETA, DUTRA, ABRIL, PENTEADO, ESCOLA PM, PEDREIRA (table below) |
+| **SBJD** (Jundiaí) | LAGOA, ESTÁDIO, TREVO; west side via ELÓI, TRAVÉS SUL ITUPEVA, JAPI, JACARÉ and NATURA |
+| **SBKP** (Viracopos) | ANHANGUERA SUL (east) and INDAIATUBA (west), **3600 ft** maximum, in direct contact with Campinas Tower |
+| **SDAM** (Amarais) | ARMAZÉM, SHOPPING, ANHANGUERA SUL |
+| **SBJH** (Catarina) | CABREÚVA, MAILASQUI |
+| **SBBP** (Bragança Paulista) | GUARIPOCABA, FERNÃO DIAS (exit), BOCAINA, INSTRUÇÃO (exit for training) |
+| **SDAI** (Americana) | REPRESA, RODOVIÁRIA |
+| **SDBN** (Bonanza) | SALTO, LEITE, MODELO |
+| **SBST** (Santos) | PARANAPIACABA, BERTIOGA, TRAVÉS ÁGUIA, INTERLIGAÇÃO |
+| **SBSJ** (São José dos Campos) | CAÇAPAVA, REDENÇÃO, JACAREÍ, IGARATÁ |
+| **SBTA** (Taubaté) | PEDÁGIO DUTRA, CAÇAPAVA and REDENÇÃO (points on REAs MIKE and UNIFORM) |
+| **SBGW** (Guaratinguetá) | CACHOEIRA, SUL BASÍLICA, PEDÁGIO DUTRA |
+| **SDCO** (Sorocaba) | INDUSTRIAL, RAPOSO (east); LAGO and HOSPITAL (west) |
+| **SBGR** (Guarulhos) | ITAQUERA, military only |
+
+**Marte (SBMT).** The Visual sector hands over and takes Marte traffic at the gates. Each gate's direction depends on the runway in use:
+
+| SBMT runway | Side | Arrival | Departure | APP ⇄ Marte TWR handover |
+| :---: | :---: | :--- | :--- | :--- |
+| **12** | East | DUTRA | COMETA | Arrival at PARQUE DO CARMO; departure at ITAQUERA |
+| **12** | West | PENTEADO | ABRIL | Arrival at PEDREIRA; departure at ESCOLA PM or ANHANGUERA |
+| **30** | East | COMETA | DUTRA | Arrival at ITAQUERA; departure at PARQUE DO CARMO |
+| **30** | West | ABRIL | PENTEADO | Arrival at ESCOLA PM; departure at PEDREIRA or ANHANGUERA |
+
+- Reversing the flow with the runway in use means crossings under APP control: between QUEBEC and ROMEO on the east side and near ESCOLA PM and PEDREIRA on the west side. Take extra care on the east side with runway 12 and on the west side with 30.
+- **Runway 12, east side:** traffic arriving on ROMEO, after REPRESA SUZANO, descends to **4100 ft** and flies to RODOANEL SUL (274°), keeping it on the left, then to the PARQUE DO CARMO gate. Traffic leaving via ITAQUERA climbs to **5000 ft** and flies to RODOANEL SUL, keeping it on the left, then to PALMEIRAS. The two cross near RODOANEL SUL.
+- **Marte CTR:** it protects the SBMT IFR procedures and is only active during IFR operations. When active, VFR traffic does not enter it, nor the REA and REH segments inside it (except public safety and SVH, TROV and TREN missions, under Marte Tower control). When inactive, VFR traffic operates normally in the Marte ATZ and the corridors. Activation: broadcast on the ATIS.
+- Departing SBMT (RWY 12 towards the ABRIL gate or RWY 30 towards the DUTRA gate), pilots adjust speed, altitude and turn radius to stay inside the Marte CTR, clear of SBSP and of the helicopter control area. If they can't, they tell Marte Tower and follow the REAs on the departure side.
+
+**Jundiaí (SBJD).** Gates depend on the runway and the side. For departures, Jundiaí Tower gives the flow direction; for arrivals, the APP:
+
+| SBJD runway | Side | Arrival | Departure | Handover |
+| :---: | :---: | :--- | :--- | :--- |
+| **18** | East | ESTÁDIO | TREVO | TRAVÉS JARINU, PEDÁGIO LEROY |
+| **18** | West | JACARÉ | JAPI | JACARÉ, JAPI |
+| **36** | East | ESTÁDIO | LAGOA or TREVO | TRAVÉS JARINU, PEDÁGIO LEROY |
+| **36** | West | JACARÉ | JAPI | JACARÉ, JAPI |
+
+- **Western departures:** ELÓI → TRAVÉS SUL ITUPEVA → JAPI → ITU, **3600 ft maximum** (mandatory, because of the SBJD and SBKP IFR procedures). Jundiaí Tower gives information up to TRAVÉS SUL ITUPEVA.
+- **Western arrivals:** CABREÚVA → JACARÉ → NATURA → ELÓI, **3800 ft maximum** (mandatory). Jundiaí Tower gives information from JACARÉ.
+- Both legs are on the **Visual corridors (REA)** map layer, labelled **SBJD**.
+
+**São José dos Campos (SBSJ).** Aeroplanes enter the São José CTR **only to land**, via the CAÇAPAVA, REDENÇÃO, JACAREÍ and IGARATÁ gates. **Crossing** is only via MIKE (controlled) or TANGO (uncontrolled). Helicopters landing inside the CTR call São José Tower at ERICSSON and UNIP; along the Via Dutra they ask to cross the extended runway centreline and, without contact, hold at UNIP or ERICSSON.
+
+**Taubaté (SBTA).** The Taubaté CTR is entered via CAÇAPAVA or PEDÁGIO DUTRA (MIKE) or via REDENÇÃO (UNIFORM). From the south, watch SBR 416 (military training): only with early contact with Taubaté Tower (119.900). From the north, watch the IPEV and Embraer test areas.
+
+**Guaratinguetá (SBGW).** Join MIKE at the CACHOEIRA gate with care: the IFR procedure may be in use, and controlled airspace needs a prior clearance.
+
+**Sorocaba (SDCO).** With Sorocaba Tower open, the west side uses the LAGO and HOSPITAL gates (3 NM wide, **4500 ft** maximum), according to the runway; the east side uses INDUSTRIAL and RAPOSO:
+
+| SDCO runway | East | West: arrival | West: departure |
+| :---: | :--- | :--- | :--- |
+| **19** | INDUSTRIAL, RAPOSO | LAGO | HOSPITAL |
+| **01** | INDUSTRIAL, RAPOSO | HOSPITAL | LAGO |
+
+- The Sorocaba FIZ is class G and the SDCO IFR procedure lies entirely inside it: every aircraft provides its own separation, including from IFR traffic. Helicopters on REH RAPOSO between CLUBE and HOSPITAL get Sorocaba Tower's clearance first.
+
+### Y and Z flight plans, entering from above and special VFR
+
+- **VFR aeroplanes do not land or take off at SBGR and SBSP.** At SBGR, military aircraft are exempt, and so are aircraft without RNAV 1 when the conventional procedures are unavailable.
+- In the **Campinas**, **Jundiaí** and **Marte** CTRs, aeroplanes enter **only to land**: crossing is forbidden. Helicopters in the Campinas CTR likewise, only to land at a heliport.
+- **Y flight plan** (VFR to IFR): in TMA São Paulo 2 the change point must be one of the points on its lateral limit (DOM PEDRO, ATIBAIA, CABREÚVA, VARGEM GRANDE, RÉGIS or PALMEIRAS). If it is in class G, VFR traffic stays at **5000 ft** maximum until the APP clears the change, except on corridors that climb higher.
+- **Z flight plan** from SBMT, SBJD or SBKP: the aircraft waits for the APP clearance to change to IFR.
+- **Arriving from TMA Rio or the northern São Paulo coast above 5000 ft:** VFR traffic calls São Paulo APP **at least 5 minutes before** entering São Paulo 1 (class C), unless it enters via **ROMEO** at its altitudes.
+- **Special VFR** at SBMT, SBKP, SBJD and SBSJ may be cleared by the APP, which sets the conditions.
+- AFIL flight plans are not accepted from aerodromes without an AIS office below the TMA: the plan must be filed before departure.
+- IFR training is forbidden in the Congonhas and Guarulhos CTRs and in the TMA.
+
+### Uncontrolled airspace below the TMA
+
+- **QNH:** from the nearest ATIS, updated in flight. Without an ATIS, the APP gives the QNH on 129.500.
+
+| ATIS | Frequency |
+| :--- | :---: |
+| SBSP | 127.650 |
+| SBGR | 127.750 |
+| SBMT | 127.725 |
+| SBKP | 127.825 |
+| SBSJ | 127.925 |
+| SDCO | 127.775 |
+| SBTA | 127.575 |
+
+- **FCA:** in class G, coordination between aircraft uses the regional air-to-air frequencies (FCA). Each REA segment's FCA is in the *Airspace · contact* column of the corridor tables.
+
+| FCA | Frequency | Where |
+| :--- | :---: | :--- |
+| **Norte** | 135.675 | North and west of the TMA |
+| **Sul** | 126.650 | South and south-west of the TMA |
+| **Litoral** | 122.925 | Coast, Serra do Mar and the uncontrolled part of the Paraíba valley |
+| **Helicóptero** | 127.350 | Helicopters inside the Rodoanel ring, outside controlled airspace |
+
+- ATZs without an ATS unit but with their own FCA: **Americana** (SDAI) 135.025, **Atibaia** (SDTB) 126.250, **Itanhaém** (SDIM) 124.925, **Paraty** (SDTK) 126.025, **Ubatuba** (SDUB) 124.525 and **Bonanza** (SDBN) 120.775.
+- On VATSIM the FCAs are not positions: with no ATC online, pilots use **UNICOM 122.800**. With the APP online, VFR traffic in class G may ask for flight information on 129.500 (`SBXP_V_APP` or whoever covers it).
+- **Transponder.** Without a discrete code from ATC, **aeroplanes** squawk the destination code. Helicopters between places without an ATS unit, in class G, squawk **0100**.
+
+| Destination | Code |
+| :--- | :---: |
+| SBJH (Catarina) | 2010 |
+| SBMT (Campo de Marte) | 2020 |
+| SBJD (Jundiaí) | 2030 |
+| SBSJ (São José dos Campos) | 2040 |
+| SBBP (Bragança Paulista) | 2050 |
+| SDAM (Amarais) | 2060 |
+| SDCO (Sorocaba) | 2070 |
+| Others | 2000 |
+
+### Helicopters (REH)
+
+- The **REHs** form the helicopter network below the TMA. They are mandatory on the segments that cross controlled airspace (ACLIMAÇÃO, ANHANGUERA NORTE, CONGONHAS, ESPRAIADA, ESTÁDIO, EXTERNO, FÁBRICA, FERNÃO, JUNDIAÍ, MARTE, MORUMBI, PINHEIROS, RAPOSO and TANCREDO). The layout is on the **REH XP2-São Paulo 1 and 2**, **XP2-Campinas**, **XP1-São José dos Campos** and **XP1-Sorocaba** charts.
+- A helicopter off the REHs in controlled CTRs and ATZs joins or leaves the nearest REH by the shortest route, without crossing runway alignments or IFR tracks unless cleared by ATC.
+- Inside the **Rodoanel** ring, outside controlled airspace, coordination is on **Coordenação Helicóptero 127.350**. Over the Raposo Tavares highway, FCA Sul is used; over the Fernão Dias, FCA Norte.
+- On the SBSP RWY 17 final and RWY 35 departure there is the **helicopter control area**, with composite separation of 2.5 NM or 500 ft. `SBSP_H_TWR` (Controle Helicóptero, 118.350) handles this traffic.
+- Unusual news coverage, power line inspection, sightseeing and event coverage flights in the São Paulo, Guarulhos, Campinas and Marte CTRs are coordinated in advance with São Paulo Control. Basic manoeuvre training is forbidden in the São Paulo and Guarulhos CTRs.
+
+### Phraseology
+
+On contact, the pilot keeps it short: station, registration, corridor, position, altitude and heading[^aic2926]. Brazilian VFR traffic usually calls in Portuguese:
+
+```
+Controle São Paulo, PT-RMS, corredor ECHO, vertical DOM PEDRO, mantendo 4500 pés, proa TRAVÉS JARINU.
+```
+
+```
+PT-RMS, Controle São Paulo, identificado. Prossiga no corredor ECHO, máximo 4500 pés, ajuste 1018. Reporte MORATO.
+```
+
+The same in English:
+
+```
+São Paulo Control, PT-RMS, corridor ECHO, overhead DOM PEDRO, maintaining 4500 feet, heading TRAVÉS JARINU.
+```
+
+```
+PT-RMS, São Paulo Control, identified. Continue on corridor ECHO, maximum 4500 feet, QNH 1018. Report MORATO.
+```
+
+```
+PT-RMS, proceed via LIMA and DELTA to PERUS, maintain 4300 feet. Report PEDREIRA.
+```
+
+At the handover position:
+
+```
+PT-RMS, contact Marte Tower 133.350.
+```
+
+In class G, on the FCA (UNICOM on VATSIM):
+
+```
+Coordenação, PP-OTA, vertical CEBOLÃO, 3200 pés, proa Marte.
+```
 
 ## :material-note-text-outline: Remarks
 
 - São Paulo 1 is class A between FL145 and FL245 and class C between 5500 FT and FL145.
-- São Paulo 2 is the lower layer over the Marte and Jundiaí area, handled in the package by `SBXP_V_APP` (129.500).
+- São Paulo 2 is the Visual sector layer (`SBXP_V_APP`, 129.500), from 3600 to 5500 ft over the metropolitan area: see [TMA São Paulo 2](#tma-sao-paulo-2-visual-sector).
 - SBTA (Taubaté) is an Army aerodrome; third-party operations require the commander's authorization. SDCO (Sorocaba) and SBST (Santos) lie in class G FIZs.
 
 ---
@@ -639,6 +889,7 @@ Back to the Curitiba FIR [terminals overview](index.en.md).
 [^ad22-sp]: [AIP Brasil, AD 2 SBSP 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, special ATC procedures.
 [^ad22-kp]: [AIP Brasil, AD 2 SBKP 2.22 and AD 2 SBSJ 2.22](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }.
 [^enr21]: [AIP Brasil, ENR 2.1](https://aisweb.decea.mil.br/?i=publicacoes&p=aip){ target="_blank" }, São Paulo TMA, sectors 01 and 02.
+[^aic2926]: [AIC N 29/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2926){ target="_blank" }, items 3 to 6 and Annexes A and C; CCV REA XP1 and XP2-São Paulo charts.
 
 <!--
 Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e CTR_*), em [longitude, latitude].
@@ -652,6 +903,12 @@ Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e
 
 <style>
     .mapa { height: 550px }
+    .rea-seta div { font-size: 15px; line-height: 14px; text-align: center; text-shadow: 0 0 2px #fff, 0 0 2px #fff }
+    .rea-rotulo { background: #0f172a; color: #fff; border: 0; font-weight: 700; font-size: 11px; padding: 0 5px; box-shadow: none }
+    .rea-rotulo::before { display: none }
+    .rea-zoom-baixo .rea-rotulo, .rea-zoom-medio .rea-rotulo-trecho, .rea-zoom-baixo .rea-seta { display: none }
+    .mapa-legenda .rea-linha { display: inline-block; width: 18px; height: 0; border-top: 3px solid #475569; vertical-align: middle; margin-right: 6px }
+    .mapa-legenda .rea-linha.g { border-top-style: dashed }
 </style>
 
 <script>
@@ -662,7 +919,7 @@ const cores = {"A": "#f87171", "C": "#fbbf24", "D": "#2dd4bf", "\u2014": "#94a3b
 
 const volumes = [
     {"tipo": "tma", "id": "SBXP", "nome": "São Paulo 1", "posicao": "SBXP_APP", "freq": "119.600", "lim": "5500 FT – FL245", "classe": "A/C", "link": "", "contorno": [[-45.8108, -23.0094], [-45.926111, -22.975], [-45.999167, -22.820278], [-46.078539, -22.651933], [-46.122778, -22.557778], [-46.200905, -22.549368], [-46.619722, -22.502778], [-46.653734, -22.498988], [-46.771627, -22.485753], [-46.880972, -22.473078], [-46.985278, -22.461389], [-47.440833, -22.646667], [-47.585, -22.704722], [-47.645833, -22.860278], [-47.726667, -23.067222], [-47.805833, -23.268611], [-47.770342, -23.421566], [-47.696111, -23.65], [-47.666944, -23.672222], [-47.4787, -23.815077], [-47.474639, -23.818159], [-46.94298, -24.219845], [-46.93875, -24.223042], [-46.796111, -24.328889], [-46.691667, -24.406944], [-46.167222, -24.3075], [-46.071667, -24.075556], [-45.373333, -23.910556], [-45.428333, -23.712222], [-45.4925, -23.48], [-45.539722, -23.309167], [-45.554722, -23.248056], [-45.605556, -23.038611], [-45.667222, -23.052222], [-45.8108, -23.0094]]},
-    {"tipo": "tma", "id": "SBXP", "nome": "São Paulo 2", "posicao": "SBXP_APP", "freq": "119.600", "lim": "3600 FT – 5500 FT", "classe": "C", "link": "", "contorno": [[-47.093611, -23.245], [-47.386111, -23.034722], [-47.386667, -22.957222], [-47.368611, -22.909167], [-47.338333, -22.860556], [-47.301389, -22.823056], [-47.236944, -22.7825], [-47.166389, -22.767778], [-46.853333, -22.995556], [-46.740556, -22.986667], [-46.535278, -23.156667], [-46.204722, -23.259167], [-46.129167, -23.383889], [-46.433889, -23.829722], [-46.641111, -23.853611], [-47.061944, -23.567778], [-47.093611, -23.245]]},
+    {"tipo": "tma", "id": "SBXP", "nome": "São Paulo 2", "posicao": "SBXP_V_APP", "freq": "129.500", "lim": "3600 FT – 5500 FT", "classe": "C", "obs": "Visual sector: VFR on the corridors (REA) below the IFR flows", "link": "", "contorno": [[-47.093611, -23.245], [-47.386111, -23.034722], [-47.386667, -22.957222], [-47.368611, -22.909167], [-47.338333, -22.860556], [-47.301389, -22.823056], [-47.236944, -22.7825], [-47.166389, -22.767778], [-46.853333, -22.995556], [-46.740556, -22.986667], [-46.535278, -23.156667], [-46.204722, -23.259167], [-46.129167, -23.383889], [-46.433889, -23.829722], [-46.641111, -23.853611], [-47.061944, -23.567778], [-47.093611, -23.245]]},
     {"tipo": "ctr", "id": "SBXP", "nome": "São José CTR", "posicao": "SBSJ_TWR", "freq": "118.500", "lim": "GND – 5500 FT", "classe": "D", "link": "", "contorno": [[-45.730833, -23.0325], [-45.667108, -23.052294], [-45.69, -23.125833], [-45.547778, -23.266111], [-45.726087, -23.402709], [-45.903769, -23.410314], [-46.138885, -23.160862], [-45.926092, -22.974989], [-45.8108, -23.0094], [-45.730833, -23.0325]]},
     {"tipo": "ctr", "id": "SBXP", "nome": "Taubaté CTR", "posicao": "SBTA_TWR", "freq": "119.900", "lim": "GND – FL085", "classe": "D", "link": "", "contorno": [[-45.730833, -23.0325], [-45.667108, -23.052294], [-45.69, -23.125833], [-45.547778, -23.266111], [-45.344444, -22.950278], [-45.372778, -22.907222], [-45.394167, -22.800556], [-45.730833, -23.0325]]},
     {"tipo": "ctr", "id": "SBXP", "nome": "Campinas CTR", "posicao": "SBKP_TWR", "freq": "118.250", "lim": "GND – 3700 FT", "classe": "D", "link": "", "contorno": [[-47.066, -22.95], [-47.1993, -22.8545], [-47.236944, -22.8275], [-47.368333, -22.984722], [-47.147778, -23.143056], [-47.058333, -23.156389], [-46.953333, -23.030556], [-47.066, -22.95]]},
@@ -708,7 +965,7 @@ setores.forEach(function (s, k) {
 
 // Posições combinadas (tabela "Posições combinadas"): cada uma vira uma camada com a área consolidada
 const combinadas = {
-    "SBXP_APP": { "freq": "119.600", "assume": ["SBXP_S_APP", "SBXP_E_APP", "SBXP_N_APP"], "cor": "#38bdf8" },
+    "SBXP_APP": { "freq": "119.600", "assume": ["SBXP_S_APP", "SBXP_E_APP", "SBXP_N_APP", "SBXP_V_APP"], "cor": "#38bdf8" },
     "SBXP_S_APP": { "freq": "129.000", "assume": ["SBXP_T1_APP", "SBXP_T2_APP"], "cor": "#60a5fa" },
     "SBXP_E_APP": { "freq": "134.650", "assume": ["SBSJ_F_APP", "SBXP_T7_APP", "SBXP_T8_APP"], "cor": "#34d399" },
     "SBXP_N_APP": { "freq": "120.250", "assume": ["SBXP_NU_APP", "SBXP_NL_APP"], "cor": "#f472b6" },
@@ -751,31 +1008,88 @@ volumes.forEach(function (v) {
         color: cor,
         fillColor: cor,
         weight: ctr ? 2 : 2.5,
-        dashArray: ctr ? '4 4' : null,
+        dashArray: ctr ? '4 4' : (v.obs ? '10 5' : null),
         fillOpacity: ctr ? 0.3 : 0.12
     });
     poligono.bindPopup(
         '<b>' + v.nome + '</b><br>' +
         '<code>' + v.posicao + '</code> · ' + v.freq + ' MHz<br>' +
-        v.lim + ' · Class ' + v.classe 
+        v.lim + ' · Class ' + v.classe +
+        (v.obs ? '<br>' + v.obs : '')
     );
     poligono.on('mouseover', function () { this.setStyle({ weight: 4 }); });
     poligono.on('mouseout', function () { this.setStyle({ weight: ctr ? 2 : 2.5 }); });
     poligono.addTo(ctr ? grupoCtr : grupoTma);
 });
 
+// Visual corridors (REA), gates and Jundiaí legs from AIC N 29/26 (Annexes A and C, item 5.4.16); generated by rea_sp.py
+const reaTrechos = [{"rea": "ALFA", "pontos": ["TRAVÉS AMERICANA", "CAPIVARI"], "rumos": "228° / 048°", "alt": "228°: 4000 / 3200 · 048°: 4500 / 3200", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "ALFA", "pontos": ["CAPIVARI", "RONDON", "ÉDEN", "TOBIAS"], "rumos": "189° / 009°", "alt": "4000 / 3200", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "ALFA", "pontos": ["TOBIAS", "REPRESA ALUMÍNIO"], "rumos": "142° / 322°", "alt": "4500 / 4100", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "ALFA", "pontos": ["REPRESA ALUMÍNIO", "FURNAS"], "rumos": "142° / 322°", "alt": "5000 / 4100", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "ALFA", "pontos": ["FURNAS", "EMBU-GUAÇU"], "rumos": "142° / 322°", "alt": "4500 / 4300", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "ALFA", "pontos": ["EMBU-GUAÇU", "INTERLIGAÇÃO"], "rumos": "127° / 307°", "alt": "4500 / 4100", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "BRAVO", "pontos": ["LIMEIRA", "COSMÓPOLIS", "JAGUARIÚNA"], "rumos": "131° / 311°", "alt": "131°: 4500 / 3200 · 311°: 5000 / 3200", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "BRAVO", "pontos": ["JAGUARIÚNA", "MORUNGABA", "ATIBAIA"], "rumos": "157° / 337°", "alt": "157°: 4500 / 4400 · 337°: 5000 / 4400", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "BRAVO", "pontos": ["ATIBAIA", "IGARATÁ"], "rumos": "127° / 307°", "alt": "127°: 5000 / 4900 · 307°: 4900 / 4900", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "BRAVO", "pontos": ["IGARATÁ", "GUARAREMA", "SALESÓPOLIS"], "rumos": "173° e 145° / 325° e 353°", "alt": "Ida: 5000 / 3500 · volta: 4500 / 3500", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "BRAVO", "pontos": ["SALESÓPOLIS", "REPRESA RIBEIRÃO"], "rumos": "192° / 012°", "alt": "192°: 5500 / 4600 · 012°: 5000 / 4600", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "CHARLIE", "pontos": ["CERQUILHO", "PORTO FELIZ", "RONDON"], "rumos": "126° / 306°", "alt": "126°: 6500 / 5000 · 306°: 5000 / 4500", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "CHARLIE", "pontos": ["RONDON", "ITU"], "rumos": "126° / 306°", "alt": "5000 / 3200", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "CHARLIE", "pontos": ["ITU", "CABREÚVA"], "rumos": "126° / 306°", "alt": "5000 / 4800", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "CHARLIE", "pontos": ["CABREÚVA", "SANTANA"], "rumos": "147° / 327°", "alt": "147°: 5000 / 4500 · 327°: 4800 / 4500", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "CHARLIE", "pontos": ["PEDÁGIO CASTELO", "SANTANA"], "rumos": "306°", "alt": "4500 / 4000", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "DELTA", "pontos": ["TREVO", "PEDÁGIO LEROY"], "rumos": "169°", "alt": "4500", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "DELTA", "pontos": ["PEDÁGIO LEROY", "PERUS"], "rumos": "169° / 349°", "alt": "169°: 4300 / 4100 · 349°: 4100", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "ECHO", "pontos": ["PERUS", "MORATO"], "rumos": "023°", "alt": "4200 / 4000", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "ECHO", "pontos": ["MORATO", "TRAVÉS JARINU", "DOM PEDRO"], "rumos": "015° / 195°", "alt": "4500 / 4000", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "ECHO", "pontos": ["DOM PEDRO", "MORUNGABA"], "rumos": "015° / 195°", "alt": "015°: 5000 / 4300 · 195°: 4500 / 4300", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "ECHO", "pontos": ["MORUNGABA", "TRAVÉS AMPARO"], "rumos": "040° / 220°", "alt": "040°: 5000 / 4300 · 220°: 4700 / 4300", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "ECHO", "pontos": ["TRAVÉS AMPARO", "SERRA NEGRA", "LINDÓIA"], "rumos": "039° / 219°", "alt": "039°: 5500 / 5000 · 219°: 6000 / 5000", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "FOXTROT", "pontos": ["ITANHAÉM", "TRAVÉS ÁGUIA"], "rumos": "082° / 262°", "alt": "082°: 5000 / 2500 · 262°: 5500 / 2500", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "FOXTROT", "pontos": ["TRAVÉS ÁGUIA", "BERTIOGA"], "rumos": "085° / 265°", "alt": "085°: 5500 / 2500 · 265°: 5000 / 2500", "esp": "G · Rádio Santos 118.650", "unico": false}, {"rea": "FOXTROT", "pontos": ["BERTIOGA", "RIVIERA"], "rumos": "091° / 271°", "alt": "091°: 6000 / 2000 · 271°: 5500 / 2000", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "FOXTROT", "pontos": ["RIVIERA", "BARRA DO UNA"], "rumos": "091° / 271°", "alt": "091°: 6500 / 2000 · 271°: 6000 / 2000", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "FOXTROT", "pontos": ["BARRA DO UNA", "USINA CARAGUÁ"], "rumos": "091° / 271°", "alt": "091°: 6500 / 4000 · 271°: 6000 / 4000", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "FOXTROT", "pontos": ["USINA CARAGUÁ", "ILHA ANCHIETA", "LARANJEIRAS"], "rumos": "091° / 271°", "alt": "Leste: FL095 / 4000 · oeste: FL085 / 4000", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "FOXTROT", "pontos": ["LARANJEIRAS", "PONTA"], "rumos": "091° / 271°", "alt": "091°: 6500 / 3000 · 271°: FL085 / 3000", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "GOLF", "pontos": ["ROSEIRA", "SUL BASÍLICA"], "rumos": "139° / 319°", "alt": "139°: 6500 / 5200 · 319°: 5500 / 5200", "esp": "D · APP-GW 120.150", "unico": false}, {"rea": "GOLF", "pontos": ["SUL BASÍLICA", "CUNHA"], "rumos": "139° / 319°", "alt": "139°: 6500 / 5200 · 319°: 5500 / 5200", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "GOLF", "pontos": ["CUNHA", "BAÍA"], "rumos": "126° / 306°", "alt": "126°: 6500 / 6200 · 306°: 6200", "esp": "G · FCA Oeste 134.450", "unico": false}, {"rea": "HOTEL", "pontos": ["ITU", "CAPIVARI"], "rumos": "347° / 167°", "alt": "347°: 5000 / 3200 · 167°: 4500 / 3200", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "HOTEL", "pontos": ["CAPIVARI", "PEDRAS"], "rumos": "359° / 179°", "alt": "359°: 5000 / 3200 · 179°: 4500 / 3200", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "INDIA", "pontos": ["PIRACICABA", "TRAVÉS AMERICANA", "COSMÓPOLIS"], "rumos": "098° / 278°", "alt": "098°: 4500 / 3000 · 278°: 5000 / 3000", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "KILO", "pontos": ["TRAVÉS JARINU", "ATIBAIA"], "rumos": "102° / 282°", "alt": "4500 / 4100", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "LIMA", "pontos": ["CABREÚVA", "PEDÁGIO LEROY"], "rumos": "115° / 295°", "alt": "5000 / 4800", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "LIMA", "pontos": ["PEDÁGIO LEROY", "MORATO", "ATIBAIA"], "rumos": "068° / 248°", "alt": "4500 / 4100", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "LIMA", "pontos": ["ATIBAIA", "JOANÓPOLIS"], "rumos": "079° / 259°", "alt": "079°: 6000 / 5000 · 259°: 5500 / 5000", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "LIMA", "pontos": ["JOANÓPOLIS", "CAMANDUCAIA", "CAMBUÍ"], "rumos": "056° / 236°", "alt": "056°: 8000 / 6000 · 236°: 7500 / 6000", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "MIKE", "pontos": ["ATIBAIA", "TRAVÉS NORTE IGARATÁ"], "rumos": "115° / 295°", "alt": "5000 / 4600", "esp": "G · FCA Norte 135.675", "unico": false}, {"rea": "MIKE", "pontos": ["TRAVÉS NORTE IGARATÁ", "TRAVÉS NORTE SÃO JOSÉ"], "rumos": "101° / 281°", "alt": "4000 / 3800", "esp": "D · APP-SP 134.150", "unico": false}, {"rea": "MIKE", "pontos": ["TRAVÉS NORTE SÃO JOSÉ", "CAÇAPAVA"], "rumos": "116° / 296°", "alt": "4000 / 3500", "esp": "D · APP-SP 134.150", "unico": false}, {"rea": "MIKE", "pontos": ["CAÇAPAVA", "TREVO CARVALHO PINTO", "TAUBATÉ"], "rumos": "082° / 262°", "alt": "082°: 5500 / 3500 · 262°: 4500 / 3500", "esp": "D · TWR-TA 119.900", "unico": false}, {"rea": "MIKE", "pontos": ["TAUBATÉ", "PEDÁGIO DUTRA"], "rumos": "082° / 262°", "alt": "082°: 5500 / 3500 · 262°: 5000 / 3500", "esp": "D · TWR-TA 119.900", "unico": false}, {"rea": "MIKE", "pontos": ["PEDÁGIO DUTRA", "ROSEIRA"], "rumos": "082° / 262°", "alt": "082°: 5500 / 3500 · 262°: 5000 / 3500", "esp": "D · APP-GW 120.150", "unico": false}, {"rea": "MIKE", "pontos": ["ROSEIRA", "BASÍLICA"], "rumos": "075° / 255°", "alt": "075°: 5500 / 4100 · 255°: 5000 / 4100", "esp": "D · APP-GW 120.150", "unico": false}, {"rea": "MIKE", "pontos": ["BASÍLICA", "FÁBRICA DUTRA"], "rumos": "071° / 251°", "alt": "5500 / 3500", "esp": "D · APP-GW 120.150", "unico": false}, {"rea": "MIKE", "pontos": ["FÁBRICA DUTRA", "CACHOEIRA"], "rumos": "071° / 251°", "alt": "5500 / 3100", "esp": "D · APP-GW 120.150", "unico": false}, {"rea": "NOVEMBER", "pontos": ["ANHANGUERA", "PEDÁGIO CASTELO", "ITAPEVI"], "rumos": "276°", "alt": "3700 / 3600, depois 3700", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "OSCAR", "pontos": ["TAPIRAÍ", "FURNAS"], "rumos": "073° / 253°", "alt": "6000 / 5000", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "OSCAR", "pontos": ["FURNAS", "VARGEM GRANDE"], "rumos": "073° / 253°", "alt": "073°: 4500 / 4000 · 253°: 5000 / 4000", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "OSCAR", "pontos": ["VARGEM GRANDE", "ITAPEVI"], "rumos": "073° / 253°", "alt": "073°: 4500 / 4000 · 253°: 5000 / 4000", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "OSCAR", "pontos": ["ITAPEVI", "SANTANA"], "rumos": "029° / 209°", "alt": "4500 / 4200", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "OSCAR", "pontos": ["SANTANA", "PERUS"], "rumos": "104°", "alt": "4300 / 4100", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "PAPA", "pontos": ["ITAPEVI", "RÉGIS"], "rumos": "181° / 001°", "alt": "4500 / 4000", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "PAPA", "pontos": ["RÉGIS", "EMBU-GUAÇU"], "rumos": "181° / 001°", "alt": "4500 / 4000", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "PAPA", "pontos": ["EMBU-GUAÇU", "ITANHAÉM"], "rumos": "198° / 018°", "alt": "198°: 5000 / 3500 · 018°: 4500 / 3500", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "QUEBEC", "pontos": ["PARQUE DO CARMO", "RODOANEL SUL"], "rumos": "130° / 310°", "alt": "130°: 5000 / 4100 · 310°: 4100 (só com SBMT na 12)", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "QUEBEC", "pontos": ["RODOANEL SUL", "PALMEIRAS", "MOGI BERTIOGA"], "rumos": "113°", "alt": "5000 / 4100", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "QUEBEC", "pontos": ["MOGI BERTIOGA", "REPRESA RIBEIRÃO"], "rumos": "", "alt": "5000 / 4700", "esp": "G · FCA Litoral 122.925", "unico": true}, {"rea": "QUEBEC", "pontos": ["REPRESA RIBEIRÃO", "USINA CARAGUÁ"], "rumos": "", "alt": "7500 / 4700", "esp": "G · FCA Litoral 122.925", "unico": true}, {"rea": "ROMEO", "pontos": ["ILHA ANCHIETA", "REPRESA PARAIBUNA"], "rumos": "291°", "alt": "7000 / 4400", "esp": "G · FCA Litoral 122.925", "unico": true}, {"rea": "ROMEO", "pontos": ["REPRESA PARAIBUNA", "SALESÓPOLIS"], "rumos": "", "alt": "6000 / 4600", "esp": "G · FCA Sul 126.650", "unico": true}, {"rea": "ROMEO", "pontos": ["SALESÓPOLIS", "REPRESA SUZANO"], "rumos": "282°", "alt": "5000 / 4100", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "ROMEO", "pontos": ["REPRESA SUZANO", "RODOANEL NORTE"], "rumos": "304°", "alt": "5000 / 3700", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "ROMEO", "pontos": ["RODOANEL NORTE", "ITAQUERA"], "rumos": "309°", "alt": "4000 / 3700", "esp": "D · APP-SP 129.500", "unico": true}, {"rea": "SIERRA", "pontos": ["ITANHAÉM", "INTERLIGAÇÃO"], "rumos": "056° / 236°", "alt": "5000 / 4000", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "SIERRA", "pontos": ["INTERLIGAÇÃO", "RIO GRANDE"], "rumos": "064° / 244°", "alt": "4300 / 4000", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "SIERRA", "pontos": ["RIO GRANDE", "PALMEIRAS"], "rumos": "064° / 244°", "alt": "4300 / 4000", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "SIERRA", "pontos": ["PALMEIRAS", "REPRESA SUZANO"], "rumos": "063° / 243°", "alt": "063°: 5000 / 4000 · 243°: 4500 / 4000", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "SIERRA", "pontos": ["REPRESA SUZANO", "GUARAREMA"], "rumos": "070° / 250°", "alt": "070°: 5000 / 4000 · 250°: 4500 / 4000", "esp": "D · APP-SP 129.500", "unico": false}, {"rea": "SOROCABA 01", "pontos": ["PORTO", "LAGO"], "rumos": "097° / 277°", "alt": "4500 / 3100", "esp": "G · FIZ Sorocaba 118.800", "unico": false}, {"rea": "SOROCABA 02", "pontos": ["SARAPUÍ", "HOSPITAL"], "rumos": "089° / 269°", "alt": "4500 / 3100", "esp": "G · FIZ Sorocaba 118.800", "unico": false}, {"rea": "TANGO", "pontos": ["SALESÓPOLIS", "PARAIBUNA", "REDENÇÃO"], "rumos": "071° / 251°", "alt": "4300 / 4100", "esp": "G · FCA Sul 126.650", "unico": false}, {"rea": "UNIFORM", "pontos": ["CAÇAPAVA", "REDENÇÃO"], "rumos": "158° / 338°", "alt": "158°: 5000 / 4800 · 338°: 4900 / 4800", "esp": "D · TWR-TA 119.900", "unico": false}, {"rea": "UNIFORM", "pontos": ["REDENÇÃO", "ILHA ANCHIETA"], "rumos": "145° / 325°", "alt": "145°: 5500 / 4800 · 325°: 5300 / 4800", "esp": "G · FCA Litoral 122.925", "unico": false}, {"rea": "SBJD", "pontos": ["ELÓI", "TRAVÉS SUL ITUPEVA", "JAPI", "ITU"], "rumos": "281°, 279°, 277°", "alt": "3600 (máx.)", "esp": "D/G · TWR-JD 118.750 até TRAVÉS SUL ITUPEVA", "unico": true}, {"rea": "SBJD", "pontos": ["CABREÚVA", "JACARÉ", "NATURA", "ELÓI"], "rumos": "066°, 085°, 081°", "alt": "3800 (máx.)", "esp": "G/D · TWR-JD 118.750 a partir de JACARÉ", "unico": true}];
+const reaPontos = {"TRAVÉS AMERICANA": [-47.31778, -22.66361], "CAPIVARI": [-47.49889, -22.99611], "RONDON": [-47.44389, -23.23111], "ÉDEN": [-47.40083, -23.41], "TOBIAS": [-47.37444, -23.52611], "REPRESA ALUMÍNIO": [-47.24722, -23.595], "FURNAS": [-47.10639, -23.67083], "EMBU-GUAÇU": [-46.8125, -23.82917], "INTERLIGAÇÃO": [-46.56417, -23.89306], "LIMEIRA": [-47.31, -22.59917], "COSMÓPOLIS": [-47.18972, -22.63806], "JAGUARIÚNA": [-46.97, -22.70917], "MORUNGABA": [-46.79389, -22.8775], "ATIBAIA": [-46.56944, -23.10028], "IGARATÁ": [-46.15917, -23.20583], "GUARAREMA": [-46.03722, -23.41389], "SALESÓPOLIS": [-45.84611, -23.53056], "REPRESA RIBEIRÃO": [-45.82333, -23.65417], "CERQUILHO": [-47.75361, -23.15583], "PORTO FELIZ": [-47.57306, -23.19972], "ITU": [-47.29806, -23.26667], "CABREÚVA": [-47.13139, -23.30639], "SANTANA": [-46.91806, -23.44472], "PEDÁGIO CASTELO": [-46.80139, -23.51139], "TREVO": [-46.88056, -23.24139], "PEDÁGIO LEROY": [-46.82389, -23.32278], "PERUS": [-46.75167, -23.42611], "MORATO": [-46.74722, -23.25583], "TRAVÉS JARINU": [-46.76278, -23.12972], "DOM PEDRO": [-46.77861, -23.00194], "TRAVÉS AMPARO": [-46.73722, -22.71833], "SERRA NEGRA": [-46.68889, -22.58], "LINDÓIA": [-46.66056, -22.49833], "ITANHAÉM": [-46.78889, -24.19444], "TRAVÉS ÁGUIA": [-46.49278, -24.0375], "BERTIOGA": [-46.15056, -23.87806], "RIVIERA": [-46.01167, -23.83528], "BARRA DO UNA": [-45.76833, -23.75389], "USINA CARAGUÁ": [-45.49167, -23.66083], "ILHA ANCHIETA": [-45.08222, -23.52194], "LARANJEIRAS": [-44.65028, -23.37361], "PONTA": [-44.45, -23.30556], "ROSEIRA": [-45.30667, -22.90222], "SUL BASÍLICA": [-45.20389, -22.95472], "CUNHA": [-44.95833, -23.07139], "BAÍA": [-44.55611, -23.1675], "PEDRAS": [-47.57361, -22.82472], "PIRACICABA": [-47.57472, -22.71917], "JOANÓPOLIS": [-46.27528, -22.92861], "CAMANDUCAIA": [-46.16444, -22.77889], "CAMBUÍ": [-46.07528, -22.65917], "TRAVÉS NORTE IGARATÁ": [-46.15639, -23.12444], "TRAVÉS NORTE SÃO JOSÉ": [-45.90139, -23.08167], "CAÇAPAVA": [-45.67778, -23.09583], "TREVO CARVALHO PINTO": [-45.61444, -23.06278], "TAUBATÉ": [-45.53556, -23.02167], "PEDÁGIO DUTRA": [-45.36083, -22.93028], "BASÍLICA": [-45.23194, -22.85139], "FÁBRICA DUTRA": [-45.13833, -22.77806], "CACHOEIRA": [-44.99806, -22.67528], "ANHANGUERA": [-46.75583, -23.49944], "ITAPEVI": [-46.93278, -23.54472], "TAPIRAÍ": [-47.35222, -23.85139], "VARGEM GRANDE": [-47.01639, -23.60556], "RÉGIS": [-46.87028, -23.70139], "PARQUE DO CARMO": [-46.48972, -23.58778], "RODOANEL SUL": [-46.3675, -23.6225], "PALMEIRAS": [-46.31083, -23.64306], "MOGI BERTIOGA": [-46.11722, -23.64778], "ITAQUERA": [-46.46556, -23.5425], "RODOANEL NORTE": [-46.34667, -23.5775], "REPRESA SUZANO": [-46.26333, -23.59444], "REPRESA PARAIBUNA": [-45.48722, -23.52694], "RIO GRANDE": [-46.40722, -23.73806], "PORTO": [-47.74806, -23.5375], "LAGO": [-47.54083, -23.4825], "SARAPUÍ": [-47.73278, -23.62194], "HOSPITAL": [-47.52806, -23.53722], "PARAIBUNA": [-45.6625, -23.38833], "REDENÇÃO": [-45.50472, -23.26639], "ELÓI": [-46.96472, -23.1875], "TRAVÉS SUL ITUPEVA": [-47.045, -23.20222], "JAPI": [-47.12361, -23.22083], "JACARÉ": [-47.07361, -23.24778], "NATURA": [-47.02833, -23.225]};
+const portoes = {"ARMAZÉM": {"ad": "SDAM", "c": [-47.01361, -22.72306]}, "SHOPPING": {"ad": "SDAM", "c": [-47.01778, -22.86722]}, "ANHANGUERA SUL": {"ad": "SDAM / SBKP", "c": [-47.05667, -22.95667]}, "REPRESA": {"ad": "SDAI", "c": [-47.25778, -22.715]}, "RODOVIÁRIA": {"ad": "SDAI", "c": [-47.31, -22.73472]}, "GUARIPOCABA": {"ad": "SBBP", "c": [-46.49639, -22.94861]}, "FERNÃO DIAS": {"ad": "SBBP", "c": [-46.54, -23.02889]}, "BOCAINA": {"ad": "SBBP", "c": [-46.57583, -23.01583]}, "INSTRUÇÃO": {"ad": "SBBP", "c": [-46.56194, -22.935]}, "SALTO": {"ad": "SDBN", "c": [-47.57389, -23.63972]}, "LEITE": {"ad": "SDBN", "c": [-47.50417, -23.69722]}, "MODELO": {"ad": "SDBN", "c": [-47.59111, -23.72639]}, "COMETA": {"ad": "SBMT", "c": [-46.57778, -23.51778]}, "DUTRA": {"ad": "SBMT", "c": [-46.59083, -23.52917]}, "ABRIL": {"ad": "SBMT", "c": [-46.69861, -23.50222]}, "PENTEADO": {"ad": "SBMT", "c": [-46.69139, -23.48944]}, "ESCOLA PM": {"ad": "SBMT", "c": [-46.74167, -23.47028]}, "PEDREIRA": {"ad": "SBMT", "c": [-46.71111, -23.46167]}, "LAGOA": {"ad": "SBJD", "c": [-46.86167, -23.14556]}, "ESTÁDIO": {"ad": "SBJD", "c": [-46.85389, -23.18417]}, "PARANAPIACABA": {"ad": "SBST", "c": [-46.3075, -23.75444]}, "PORT. INTERLIGAÇÃO": {"ad": "SBST", "c": [-46.48556, -23.90722]}, "PORT. CAÇAPAVA": {"ad": "SBSJ", "c": [-45.72056, -23.11833]}, "PORT. REDENÇÃO": {"ad": "SBSJ", "c": [-45.56611, -23.26111]}, "JACAREÍ": {"ad": "SBSJ", "c": [-45.96611, -23.34417]}, "PORT. IGARATÁ": {"ad": "SBSJ", "c": [-46.08611, -23.21667]}, "MAILASQUI": {"ad": "SBJH", "c": [-47.07222, -23.56694]}, "INDUSTRIAL": {"ad": "SDCO", "c": [-47.43083, -23.44139]}, "RAPOSO": {"ad": "SDCO", "c": [-47.41806, -23.50389]}, "INDAIATUBA": {"ad": "SBKP", "c": [-47.21167, -23.09722]}, "CABREÚVA": {"ad": "SBJH", "c": [-47.13139, -23.30639]}, "ITAQUERA": {"ad": "SBGR (militar)", "c": [-46.46556, -23.5425]}, "TRAVÉS ÁGUIA": {"ad": "SBST", "c": [-46.49278, -24.0375]}, "BERTIOGA": {"ad": "SBST", "c": [-46.15056, -23.87806]}, "CACHOEIRA": {"ad": "SBGW", "c": [-44.99806, -22.67528]}, "SUL BASÍLICA": {"ad": "SBGW", "c": [-45.20389, -22.95472]}, "PEDÁGIO DUTRA": {"ad": "SBGW / SBTA", "c": [-45.36083, -22.93028]}, "CAÇAPAVA": {"ad": "SBTA", "c": [-45.67778, -23.09583]}, "REDENÇÃO": {"ad": "SBTA", "c": [-45.50472, -23.26639]}, "TREVO": {"ad": "SBJD", "c": [-46.88056, -23.24139]}, "JAPI": {"ad": "SBJD", "c": [-47.12361, -23.22083]}, "TRAVÉS SUL ITUPEVA": {"ad": "SBJD", "c": [-47.045, -23.20222]}, "ELÓI": {"ad": "SBJD", "c": [-46.96472, -23.1875]}, "JACARÉ": {"ad": "SBJD", "c": [-47.07361, -23.24778]}, "NATURA": {"ad": "SBJD", "c": [-47.02833, -23.225]}, "LAGO": {"ad": "SDCO", "c": [-47.54083, -23.4825]}, "HOSPITAL": {"ad": "SDCO", "c": [-47.52806, -23.53722]}};
+var coresRea = {"ALFA": "#0ea5e9", "BRAVO": "#14b8a6", "CHARLIE": "#d946ef", "DELTA": "#84cc16", "ECHO": "#f97316", "FOXTROT": "#6366f1", "GOLF": "#eab308",
+    "HOTEL": "#06b6d4", "INDIA": "#a3e635", "KILO": "#f43f5e", "LIMA": "#8b5cf6", "MIKE": "#0d9488", "NOVEMBER": "#dc2626", "OSCAR": "#ea580c",
+    "PAPA": "#65a30d", "QUEBEC": "#2563eb", "ROMEO": "#be123c", "SIERRA": "#ca8a04", "SOROCABA 01": "#64748b", "SOROCABA 02": "#64748b",
+    "TANGO": "#7c3aed", "UNIFORM": "#0891b2", "SBJD": "#334155"};
+var grupoRea = L.featureGroup();
+reaTrechos.forEach(function (t) {
+    var linha = t.pontos.map(function (n) { return paraLatLng(reaPontos[n]); });
+    var controlado = t.esp.charAt(0) === 'D';
+    var cor = coresRea[t.rea];
+    L.polyline(linha, { color: cor, weight: 4, opacity: 0.9, dashArray: controlado ? null : '8 6' })
+        .bindPopup('<b>' + (t.rea === 'SBJD' ? 'Jundiaí, west side' : 'REA ' + t.rea) + '</b><br>' + t.pontos.join(t.unico ? ' → ' : ' ⇄ ') +
+            (t.rumos ? '<br>Tracks: ' + t.rumos : '') + '<br>Max. / min. (ft): ' + t.alt + '<br>' + t.esp)
+        .addTo(grupoRea);
+    // One-way: an arrow on each leg, off the midpoint so it is not under the label
+    if (t.unico) {
+        for (var i = 1; i < linha.length; i++) {
+            var a = linha[i - 1], b = linha[i];
+            var ang = Math.atan2((b[1] - a[1]) * Math.cos(a[0] * Math.PI / 180), b[0] - a[0]) * 180 / Math.PI;
+            L.marker([a[0] + (b[0] - a[0]) * 0.3, a[1] + (b[1] - a[1]) * 0.3], {
+                interactive: false,
+                icon: L.divIcon({ className: 'rea-seta', iconSize: [14, 14], iconAnchor: [7, 7],
+                    html: '<div style="transform:rotate(' + ang + 'deg);color:' + cor + '">▲</div>' })
+            }).addTo(grupoRea);
+        }
+    }
+    // One label per corridor on its middle segment; the other segments only when zoomed in
+    var trechosRea = reaTrechos.filter(function (x) { return x.rea === t.rea; });
+    var principal = trechosRea[Math.floor((trechosRea.length - 1) / 2)] === t;
+    var m = Math.floor((linha.length - 1) / 2), p = linha[m], q = linha[m + 1];
+    L.marker([(p[0] + q[0]) / 2, (p[1] + q[1]) / 2], { opacity: 0, interactive: false, icon: L.divIcon({ className: '', iconSize: [0, 0] }) })
+        .bindTooltip(t.rea, { permanent: true, direction: 'center', className: principal ? 'rea-rotulo' : 'rea-rotulo rea-rotulo-trecho' })
+        .addTo(grupoRea);
+});
+Object.keys(reaPontos).forEach(function (n) {
+    if (portoes[n]) return;
+    L.circleMarker(paraLatLng(reaPontos[n]), { radius: 3.5, color: '#334155', weight: 1.5, fillColor: '#ffffff', fillOpacity: 1 })
+        .bindTooltip(n).addTo(grupoRea);
+});
+Object.keys(portoes).forEach(function (n) {
+    L.circleMarker(paraLatLng(portoes[n].c), { radius: 5, color: '#0f172a', weight: 2, fillColor: '#facc15', fillOpacity: 1 })
+        .bindTooltip('Gate ' + n + ' (' + portoes[n].ad + ')').addTo(grupoRea);
+});
+
 var mapa = L.map('mapa-tma', {
     minZoom: 3,
     maxZoom: 13,
-    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr]
+    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr, grupoRea]
 });
 
 mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
+
+// Rótulos e setas dos corredores só com zoom suficiente para não embolar
+function detalheRea() {
+    elemento.classList.toggle('rea-zoom-baixo', mapa.getZoom() < 8);
+    elemento.classList.toggle('rea-zoom-medio', mapa.getZoom() < 10);
+}
+mapa.on('zoomend', detalheRea);
+detalheRea();
 
 var camadas = {
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
+    "Visual corridors (REA)": grupoRea,
     "APP sectors (elementary)": grupoSetores
 };
 Object.keys(gruposCombinados).forEach(function (nome) {
@@ -797,7 +1111,10 @@ legenda.onAdd = function () {
     var div = L.DomUtil.create('div', 'mapa-legenda');
     div.innerHTML = '<b>Class</b>' + ['A', 'C', 'D'].map(function (c) {
         return '<div><span style="background:' + cores[c] + '"></span>' + c + '</div>';
-    }).join('');
+    }).join('') +
+        '<div><span class="rea-linha"></span>Controlled REA</div>' +
+        '<div><span class="rea-linha g"></span>Class G REA</div>' +
+        '<div><span style="background:#facc15;border-radius:50%"></span>Gate</div>';
     return div;
 };
 legenda.addTo(mapa);

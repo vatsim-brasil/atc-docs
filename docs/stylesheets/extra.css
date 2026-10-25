@@ -1385,6 +1385,10 @@
     background-color: #2dd4bf;
 }
 
+.classe-badge.classe-g {
+    background-color: #94a3b8;
+}
+
 .mapa-legenda {
     background: rgba(255, 255, 255, 0.9);
     color: #0f172a;
@@ -1429,4 +1433,164 @@
     border: 1px dashed var(--md-default-fg-color--lighter);
     border-radius: 12px;
     font-size: 0.75rem;
+}
+
+/* Painéis de duas partes (paineis.js): lista à esquerda, um item por vez à direita */
+.lv {
+    display: grid;
+    grid-template-columns: minmax(180px, 220px) 1fr;
+    gap: 16px;
+    margin: 12px 0;
+}
+
+.lv-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-self: start;
+    position: sticky;
+    top: 4.8rem;
+}
+
+.md-typeset .lv-grupo {
+    margin: 12px 0 4px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .lv-grupo:first-child {
+    margin-top: 0;
+}
+
+.lv-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Setores elementares têm rótulos curtos: grade em vez de lista */
+.setor-viewer .lv-lista[data-grupo="elem"] {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.lv-item {
+    padding: 6px 10px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    text-align: left;
+    font: inherit;
+    font-size: 0.7rem;
+    line-height: 1.3;
+    color: var(--md-default-fg-color);
+    cursor: pointer;
+    transition: border-color 125ms, background-color 125ms;
+}
+
+.setor-viewer .lv-lista[data-grupo="elem"] .lv-item {
+    text-align: center;
+}
+
+.lv-item[data-nivel="2"] {
+    margin-left: 16px;
+}
+
+.lv-item:hover {
+    border-color: var(--md-accent-fg-color);
+}
+
+.lv-item:focus {
+    outline: none;
+}
+
+.lv-item:focus-visible {
+    outline: 2px solid var(--md-accent-fg-color);
+    outline-offset: 2px;
+}
+
+.lv-item[aria-current="true"] {
+    border-color: var(--md-accent-fg-color);
+    background: var(--md-accent-fg-color--transparent);
+    color: var(--md-accent-fg-color);
+    font-weight: 700;
+}
+
+.lv-painel {
+    min-width: 0;
+}
+
+.lv-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.lv-info {
+    display: block;
+    font-size: 0.65rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .lv-topo .lv-abrir {
+    margin: 0;
+    padding: 4px 14px;
+    font-size: 0.65rem;
+    white-space: nowrap;
+}
+
+.md-typeset .lv figure {
+    margin: 0;
+}
+
+/* Mapas dos setores têm largura fixa (620 px): título e mapa formam um bloco
+   centralizado no espaço à direita, com o título alinhado à borda do mapa */
+.setor-viewer .lv-painel {
+    justify-self: center;
+    width: 100%;
+    max-width: 620px;
+}
+
+.md-typeset .setor-viewer figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.md-typeset .lv figure[hidden] {
+    display: none;
+}
+
+@media screen and (max-width: 59.9375em) {
+    .lv {
+        grid-template-columns: 1fr;
+    }
+
+    .lv-nav {
+        position: static;
+    }
+
+    .lv-lista,
+    .setor-viewer .lv-lista[data-grupo="elem"] {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .md-typeset .lv-grupo {
+        margin: 8px 0 4px;
+    }
+
+    .lv-item[data-nivel="2"] {
+        margin-left: 0;
+    }
+
+    .lv-item {
+        border-radius: 999px;
+    }
 }

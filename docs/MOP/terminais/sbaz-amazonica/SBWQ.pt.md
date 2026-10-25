@@ -67,7 +67,7 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
     ---
     flowchart BT
         p0["SBAZ_CTR"]:::ctr
-        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBAZ_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBAZ_CW_CTR</span>"]:::grpctr
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBAZ_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBAZ_CW_CTR</span>"]:::grpctr
         p1["SBAZ_C_CTR"]:::ctr
         p2["SBWQ_APP"]:::app
         p3["SBBV_TWR"]:::twr

@@ -59,7 +59,7 @@
     - SID RNAV BOLAS 1A – OBLIL 1A – UGIKI 1C RWY 18.
 - When weather conditions are suitable for VFR operation, preferably use:
     - PLN Z with VFR departure via sector ECHO (E) of the AD: CTC TWR-JD/FCA, 4500FT DCT abeam JARINU, CTC and CLR APP-SP;
-    - PLN Z with VFR departure via sector WHISKEY (W) of the AD: CTC TWR-JD/FCA, 3800FT PORTÃO JAPI DCT ITU, CTC and CLR APP-SP.
+    - PLN Z with VFR departure via sector WHISKEY (W) of the AD: CTC TWR-JD/FCA, PORTÃO ELÓI DCT TRAVÉS SUL ITUPEVA DCT JAPI DCT ITU at 3600FT (max.), CTC and CLR APP-SP.
 
 ### Approaches and Landings
 
@@ -68,9 +68,27 @@
     - IAP RNP A RWY 18.
 - When weather conditions are suitable for VFR operation, preferably use:
     - PLN Y with arrival via sector ECHO (E) of the AD: fix ENTIT / VUNOX FL120 DCT ILMUR or UTLOT FL120 DCT GERKA FL100 DCT ESTÁDIO;
-    - PLN Y with arrival via sector WHISKEY (W) of the AD: fix OBMAV FL100 DCT ILMUR descending to REA MAX ALT DCT JACARÉ 4500FT DCT NATURA 4100FT, CTC TWR-JD/FCA.
-- VFR PLN: follow the departure/arrival instructions of the SBJD VAC and AIC 32/25.
+    - PLN Y with arrival via sector WHISKEY (W) of the AD: fix OBMAV FL100 DCT ILMUR descending to REA MAX ALT DCT CABREÚVA DCT JACARÉ DCT NATURA DCT PORTÃO ELÓI at 3800FT (max.), CTC TWR-JD/FCA from JACARÉ.
+- VFR PLN: follow the departure/arrival instructions of the SBJD VAC and AIC N 29/26 (see [VFR circulation](#vfr-circulation)).
 - The missed APCH for RWY 18 shall be flown with a left turn from THR 18.
+
+### VFR circulation
+
+Visual circulation uses the **LAGOA**, **ESTÁDIO**, **TREVO**, **JACARÉ** and **JAPI** gates, according to the runway in use[^aic2926]. For departures, the Tower gives the flow direction; for arrivals, São Paulo APP does.
+
+| Runway | Side | Arrival | Departure | APP ⇄ TWR handover |
+| :---: | :---: | :--- | :--- | :--- |
+| **18** | East | ESTÁDIO | TREVO | TRAVÉS JARINU, PEDÁGIO LEROY |
+| **18** | West | JACARÉ | JAPI | JACARÉ, JAPI |
+| **36** | East | ESTÁDIO | LAGOA or TREVO | TRAVÉS JARINU, PEDÁGIO LEROY |
+| **36** | West | JACARÉ | JAPI | JACARÉ, JAPI |
+
+- **Western departures:** PORTÃO ELÓI → TRAVÉS SUL ITUPEVA (281°) → JAPI (279°) → ITU (277°), **3600 FT maximum**. The Tower gives flight information and alerting up to TRAVÉS SUL ITUPEVA; from there on, FCA Norte (135.675).
+- **Western arrivals:** CABREÚVA (REA CHARLIE) → JACARÉ (066°) → NATURA (085°) → PORTÃO ELÓI (081°), **3800 FT maximum**. The Tower gives information from JACARÉ.
+- Both maximum altitudes are mandatory, because of the SBJD and SBKP IFR procedures. The legs are 0.5 NM each side of the centreline.
+- To the east, the TREVO departure follows REA DELTA (169°, 4500 FT) to PEDÁGIO LEROY; arrivals come via TRAVÉS JARINU (REA ECHO or KILO) or PEDÁGIO LEROY (REA LIMA).
+- **VFR aeroplanes enter the Jundiaí CTR only to land:** crossing is forbidden.
+- The corridors and gates are on the [TMA São Paulo](../../../terminais/sbcw-curitiba/SBXP.en.md#visual-corridors-rea) map.
 
 ### Aerodrome Regulations
 
@@ -89,3 +107,5 @@
 | Apron     | Stands  | Classification             |
 | :---: | :---: | :--- |
 | **1** | ANY       | General and Business Aviation |
+
+[^aic2926]: [AIC N 29/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2926){ target="_blank" }, item 5.4.16.

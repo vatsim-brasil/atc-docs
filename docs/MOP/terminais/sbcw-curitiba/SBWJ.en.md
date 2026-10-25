@@ -27,40 +27,17 @@ tags:
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBWJ?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
 
 === ":material-map-legend: Visual Charts"
-    === "CCV REA WJ1-Rio de Janeiro"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ .md-button .md-button--primary target="_blank" }
+    <div class="ccv-viewer" data-lang="en">
+    <ul class="ccv-lista">
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf" target="_blank" rel="noopener">CCV REA WJ1-Rio de Janeiro</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH WJ2-Rio de Janeiro</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf" target="_blank" rel="noopener">CCV REH WJ3-Rio de Janeiro</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf" target="_blank" rel="noopener">REH Bacia de Santos</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf" target="_blank" rel="noopener">CCV REUL WJ3-Rio de Janeiro</a></li>
+    </ul>
+    </div>
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH WJ2-Rio de Janeiro"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
-
-    === "CCV REH WJ3-Rio de Janeiro"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj3-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }.
-
-    === "REH Bacia de Santos"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }.
-
-    === "CCV REUL WJ3-Rio de Janeiro"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }.
+    Source: [AISWEB](https://aisweb.decea.mil.br/?i=cartas){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-22.880" data-lon="-43.296" data-zoom="8" data-lang="en"></div>
@@ -71,6 +48,8 @@ tags:
 ## :material-map-outline: Map
 
 Click a volume to see its limits and class. Use the layer control to change the base map and toggle the volumes.
+
+The **Visual corridors (REA)** layer shows the seven aeroplane corridors and the aerodrome gates. Solid line: controlled segment (class C); dashed: class G, coordinated on the FCA. Click a segment to see the tracks, altitudes and contact. Details in [Visual corridors (REA)](#visual-corridors-rea).
 
 <div class="fir-map-top">
     <div id="mapa-tma" class="mapa"></div>
@@ -152,8 +131,8 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
     ---
     flowchart BT
         p0["SBCW_CTR"]:::ctr
-        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
-        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color)'>SBCW_SE_CTR</span>"]:::grpctr
+        g0["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_CSE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_CWE_CTR</span>"]:::grpctr
+        g1["<span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_CE_CTR</span><span style='display:inline-block;margin:0 6px;padding:8px 14px;border:2px solid rgb(138,86,201);background:var(--md-mermaid-node-bg-color);color:var(--md-mermaid-label-fg-color)'>SBCW_SE_CTR</span>"]:::grpctr
         p1["SBCW_E_CTR"]:::ctr
         p2["SBWJ_APP"]:::app
         p3["SBWJ_NE_APP"]:::app
@@ -203,7 +182,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 ## :material-airplane: VFR circulation
 
 !!! abstract "Visual navigation documents"
-    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (effective 07 AUG 2025)
+    - **Circular:** [AIC N 30/26 – Circulação VFR nas TMA-RJ e suas projeções](https://publicacoes.decea.mil.br/publicacao/aic-n-3026){ target="_blank" }
     - **Circular:** [AIC N 15/16 – Regras de Apresentação de Plano de Voo para Voos VFR dentro dos limites laterais da TMA-SP e TMA-RJ](https://publicacoes.decea.mil.br/publicacao/aic-n-1516){ target="_blank" } (effective 13 OCT 2016)
     - **Visual chart – Aircraft routes (REA):** [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
     - **Visual chart – Helicopter routes (REH):** [CCV REH WJ2-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj2-rio-de-janeiro_reh_20260319.pdf){ target="_blank" }
@@ -211,11 +190,183 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
     - **Visual chart – Helicopter routes (REH):** [REH Bacia de Santos](https://aisweb.decea.mil.br/cartas/visuais/reh/bacia-de-santos_reh_20241128.pdf){ target="_blank" }
     - **Visual chart – Ultralight routes (REUL):** [CCV REUL WJ3-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/reul/ccv-reul-wj3-rio-de-janeiro_reul_20250807.pdf){ target="_blank" }
 
-    The charts are embedded in the **Visual Charts** tab under **Useful Information**.
+    The charts are embedded in the **Visual Charts** tab under **Useful Information**. The data in this section comes from AIC N 30/26[^aic3026].
 
+### TMA layers and who handles VFR
+
+TMA Rio de Janeiro has three layers. The two lower ones exist mainly for visual flight: VFR traffic crosses the metropolitan area through **corridors** (REA) whose maximum altitudes keep it below the IFR flows.
+
+| Layer | Limits | Class | VFR |
+| --- | --- | :---: | --- |
+| **Rio 1** | 6500 FT (exclusive) – FL245 | <span class="classe-badge classe-c">C</span> up to FL145, <span class="classe-badge classe-a">A</span> above | Only with an APP clearance |
+| **Rio 2** | 3500 FT (exclusive) – 6500 FT | <span class="classe-badge classe-c">C</span> | Corridors are mandatory |
+| **Rio 3** | 1000 FT (exclusive) – 3500 FT | <span class="classe-badge classe-c">C</span> | Corridors are mandatory |
+| Below the TMA | Below the layers, outside CTRs, ATZs and FIZs | <span class="classe-badge classe-g">G</span> | Free, with coordination on the FCA |
+
+- **In the real world**, the REAs in Rio 2 and Rio 3 belong to the APP-RJ **Visual sector**, on **133.300** (primary) and **126.200** (secondary). The same frequencies give **flight information, alerting and QNH** to class G traffic below the TMA.
+- **In the package** there is no Visual sector: VFR traffic in the corridors goes to the APP sector that covers the segment, or to whoever takes it over (see [top-down coverage](#top-down-coverage)). Turn on the **Visual corridors (REA)** and **APP sectors** layers on the map to see who works each segment. With only `SBWJ_APP` online, it handles everything.
+- In the package, 133.300 and 126.200 are also the frequencies of `SBWJ_E_APP` and `SBWJ_S_APP`. Pilots call the frequency of the position that is **online**, not the real-world one.
+- In class C, the APP separates **IFR from IFR** and **IFR from VFR**. Between two VFR flights it gives **traffic information**.
+
+### General VFR rules
+
+- **Mandatory corridors:** VFR traffic in Rio 2 and Rio 3, in the CTRs, in the ATZs of controlled aerodromes and in the FIZs below the TMA **flies the published routes**, at the published tracks and altitudes, unless ATS instructs or clears otherwise.
+- **Keep right:** aircraft fly to the right of the corridor centreline. All REAs are **two-way** and **3 NM** wide (1.5 NM each side of the centreline).
+- The **maximum altitude** separates VFR from the IFR traffic above: breaking it means a conflict with IFR. The **minimum altitude** is the obstacle clearance altitude of the segment; below it, the pilot is responsible.
+- **Descent:** in controlled airspace, plan to be at the maximum altitude **from the position** where it starts to apply.
+- **CTRs and ATZs:** enter and leave **through the gates**, unless ATC instructs otherwise. Call the unit before entering a CTR, ATZ or FIZ.
+- **Speed:** **200 kt** IAS maximum in controlled airspace.
+- **Reporting:** when crossing a reporting position, report on the ATC frequency or on the FCA of that segment.
+- **Crossing IFR tracks:** crossing IFR departures and arrivals at a conflicting altitude requires an ATS clearance.
+- **Transponder** on (mode A/C or S) in the whole area, class G included. Without an ATC code, aeroplanes squawk **2000** and helicopters **0100** between places without an ATS unit.
+- **QNH** below the TMA: SBGL, SBRJ or SBJR ATIS. Without an ATIS, the APP gives the QNH.
 - Flights from outside controlled airspace entering the TMA via the REA or REH corridors are exempt from filing a flight plan, but must first report registration, position, persons on board, endurance, origin and destination.
-- Rio 2 and Rio 3 use VFR frequencies in the real world: 133.300 (primary) and 126.200 (secondary).
-- SBRJ: with IFR approaches to RWY 02R, VFR departures to REA FOXTROT route via Icaraí, Piratininga Lagoon and the Itaipu gate.
+
+### Visual corridors (REA)
+
+The seven aeroplane corridors of the TMA. Altitudes in feet (QNH), as **maximum / minimum**. **Bold** marks a **mandatory** maximum; elsewhere the maximum is recommended. Tracks are given outbound / inbound.
+
+| REA | Segment | Tracks | Altitudes | Airspace · contact |
+| :---: | :--- | :---: | :--- | :--- |
+| **ALFA** | ARARA ⇄ PIRAÍ | 036° / 216° | 6500 / 2800 | G · FCA Oeste 134.450 |
+| | PIRAÍ ⇄ VERDE | 036° / 216° | 6500 / 4100 | G · FCA Oeste 134.450 |
+| **BRAVO** | GRANDE ⇄ MANGA | 038° / 218° | 6500 / 1600 | G · FCA Oeste 134.450 |
+| | MANGA ⇄ SERRA | 038° / 218° | 5500 / 3500 | G · FCA Oeste 134.450 |
+| | SERRA ⇄ ARARA | 055° / 235° | **5000** / 3500 | G · FCA Oeste 134.450 |
+| **CHARLIE** | PONTAL ⇄ POSSE ⇄ CLUBE | 008° / 188° | **3500** | C · APP-RJ 133.300 |
+| | CLUBE ⇄ KEMA | 008° / 188° | **3000** / 1600 | C · APP-RJ 133.300 |
+| | KEMA ⇄ CUNHA | 008° / 188° | **3500** / 1500 | C · APP-RJ 133.300 |
+| | CUNHA ⇄ SANTA | 008° / 188° | **3500** / 3000 | C · APP-RJ 133.300 |
+| | SANTA ⇄ VASSO | 008° / 188° | 6500 / 3400 | G · FCA Oeste 134.450 |
+| | VASSO ⇄ PRETO | 043° / 223° | 6500 / 3300 | G · FCA Oeste 134.450 |
+| **DELTA** | MANSA ⇄ PIRAÍ | 096° / 276° | 6500 / 2600 | G · FCA Oeste 134.450 |
+| | PIRAÍ ⇄ VASSO | 096° / 276° | 6500 / 3100 | G · FCA Oeste 134.450 |
+| | VASSO ⇄ PARA | 076° / 256° | 6500 / 3100 | G · FCA Oeste 134.450 |
+| **ECHO** | MANSA ⇄ ARARA | 136° / 316° | 6500 / 2800 | G · FCA Oeste 134.450 |
+| | ARARA ⇄ GUANDU | 136° / 316° | **4500** / 2800 | G · FCA Oeste 134.450 |
+| | GUANDU ⇄ VIÚVA | 136° / 316° | **3000** / 1700 | C · APP-RJ 133.300 |
+| | VIÚVA ⇄ KEMA | 107° / 287° | **2500** / 1500 | C · APP-RJ 133.300 |
+| | KEMA ⇄ METROPOLITANO ⇄ OUTLET ⇄ MIRIM ⇄ MAGÉ | 107° / 287° | **1500** | C · APP-RJ 126.200 |
+| | MAGÉ ⇄ MANI | 160° / 340° | **1500** / 1000 | C · APP-RJ 126.200 |
+| | MANI ⇄ TUBOS | 116° / 296° | 2500 / 1000 | C · APP-RJ 126.200 |
+| | TUBOS ⇄ BONITO | 116° / 296° | 3500 / 2500 | C · APP-RJ 126.200 |
+| | BONITO ⇄ OASIS | 116° / 296° | 3500 / 2500 | G · FCA Leste 122.150 |
+| | OASIS ⇄ LAGOS | 121° / 301° | 2500 / 1100 | G · FCA Leste 122.150 |
+| **FOXTROT** | PONTA ⇄ GRANDE | 101° / 281° | 6500 / 1000 | G · FCA Oeste 134.450 |
+| | GRANDE ⇄ MARA | 101° / 281° | 4500 / 1000 | C · APP-RJ 133.300 |
+| | MARA ⇄ GRAMA ⇄ PONTAL | 096° / 276° | 4500 / 1000 | C · APP-RJ 133.300 |
+| | PONTAL ⇄ SENNA ⇄ TIJUCAS ⇄ RONDA | 108° / 288° | 3000 / 1300 | C · APP-RJ 133.300 |
+| | RONDA ⇄ ILHA ⇄ FANTE | 103° / 283° | **2000** / 1300 | C · APP-RJ 126.200 |
+| | FANTE ⇄ PRAIA DE JACONÉ | 103° / 283° | 3000 / 1500 | C · APP-RJ 126.200 |
+| | PRAIA DE JACONÉ ⇄ SAQUA | 102° / 282° | 3500 / 1500 | G · FCA Leste 122.150 |
+| | SAQUA ⇄ LAGOS ⇄ RIO SÃO JOÃO ⇄ MORRO | 064° / 244° | 2000 / 1500, then 1100 | G · FCA Leste 122.150 |
+| **GOLF** | BAÍA ⇄ MANGA | 095° / 275° | 6500 / 2300 | G · FCA Oeste 134.450 |
+
+What each corridor does and where the traps are:
+
+- **ALFA** and **DELTA** cross the Paraíba valley in Rio de Janeiro state (Piraí, Vassouras, Paraíba do Sul) in class G, below Rio 1.
+- **BRAVO** links Ilha Grande and Mangaratiba to Piraí over the Serra do Mar. Watch for traffic in Angra bay, in the Mangaratiba ATZ and military traffic at SBSC.
+- **CHARLIE** is the north-south axis of the west of the city: it leaves the coast (PONTAL), passes Posse, Clube Paradiso, Queimados and Japeri and climbs to Vassouras and Rio Preto. It is mandatory and controlled from PONTAL to SANTA, below the SBGL and SBSC arrivals. To **SBAF**: **REALENGO** gate. To **SBSC**: **COSMO** gate.
+- **ECHO** is the main east-west axis: from Barra Mansa across the Baixada (Queimados, Arco Metropolitano, Magé), around the head of Guanabara Bay and along the Via Lagos to Araruama. Between KEMA and MAGÉ the maximum is **1500 ft**, below the SBGL finals. To **SBGL**: **ROXO** gate (MAUÁ only when cleared by the APP or Galeão Tower). Entering prohibited area SBP 308 JAPERI (GND – 3000 ft) is forbidden. For the Aldeia CTR: call `SBES_APP` and use the IGUABA gate.
+- **FOXTROT** is the coastal corridor: from Paraty past Ilha Grande, Marambaia, Barra da Tijuca, the islands off Guanabara Bay (Tijucas, Redonda, Rasa) and along the coast to Saquarema and Rio São João. Between RONDA and FANTE, off the bay entrance, the maximum is **2000 ft**, below the SBRJ and SBGL arrivals. The **GRANDE – PONTAL segment closes** when restricted areas SBR 316 ATLÂNTICO or SBR 363 ATLÂNTICO CURTO are active. For the Aldeia CTR: IGUABA or TAMOIOS gates.
+- **GOLF** links Paraty bay to Mangaratiba over Angra bay, in class G.
+- **Link to the São Paulo coast:** at PONTA (FOXTROT) and BAÍA (GOLF), westbound traffic changes from FCA Oeste to **FCA Litoral 122.925**.
+
+### Aerodrome gates
+
+Entering and leaving CTRs and ATZs with gates is **always through the gates**, unless ATC instructs otherwise. Gates are 1 NM wide.
+
+| Aerodrome | Gate | Use |
+| :---: | :--- | :--- |
+| **SBGL** | ROXO · MAUÁ | Entering and leaving the circuit, as cleared. To join ECHO: **MAUÁ** on departures from RWY 10 and 15, **ROXO** on departures from RWY 28 and 33 |
+| **SBRJ** | ITAIPU · SÃO GONÇALO · BOCA | Entry: ITAIPU or SÃO GONÇALO. Exit to ECHO: SÃO GONÇALO. Exit to FOXTROT: BOCA (RWY 20) or ITAIPU (RWY 02) |
+| **SBJR** | MARAPENDI · BARRA · CURICICA | Depends on the runway in use (table below) |
+| **SBAF** | REALENGO | Entering and leaving the circuit |
+| **SBAF / SBJR** | TAQUARA (marked by VALQUEIRE) | Only for the link between SBAF and SBJR |
+| **SBSC** | COSMO · RESTINGA | Entering and leaving the Santa Cruz CTR |
+| **SBES** | IGUABA · TAMOIOS | Aldeia CTR, with `SBES_APP` |
+
+**SBRJ (Rio CTR).** Aeroplanes use the **east** circuit; helicopters the **west** one, entering via the CATEDRAL position.
+
+- Entry via **ITAIPU**: after the gate, turn right to Piratininga Lagoon, overfly the lagoon, then the ICARAÍ position to join the circuit, unless Rio Tower instructs otherwise.
+- Exit to **FOXTROT** departing **02R/02L**: head for ICARAÍ, then Piratininga Lagoon, leaving the CTR via the ITAIPU gate. Departing **20R/20L**: BOCA gate.
+- Exit to **ECHO**: SÃO GONÇALO gate.
+- Watch for hang gliders in SBR 325 CHARITAS and ships at anchor in Guanabara Bay.
+
+**SBJR (Jacarepaguá CTR).** The flow depends on the runway:
+
+| SBJR runway | Entry | Exit |
+| :---: | :--- | :--- |
+| **03** | MARAPENDI | BARRA or CURICICA |
+| **21** | BARRA or CURICICA | MARAPENDI |
+
+- Watch for helicopters crossing on REH RECREIO, ultralights west of the field and parachuting in SBR 396 PRAIA DA RESERVA – GOLF.
+
+**SBSC (Santa Cruz CTR).** To cross Sepetiba Bay towards Angra, traffic asks Santa Cruz Tower (118.800) for clearance at the CETEX position. In the opposite direction, before the north side of Ponta Grossa da Marambaia. No traffic enters the restricted areas in the CTR (SBR 309, 313, 314, 333, 377 and 346) without a Tower or APP clearance.
+
+### Z flight plans, entering from above and special VFR
+
+- **Z flight plan** (VFR to IFR) departing SBGL, SBRJ, SBJR, SBSC or SBAF: the first segments follow the REAs, and the aircraft waits for the APP clearance to change flight rules. Where the REA is not mandatory, it flies in class G below Rio 1, at **6500 ft maximum**, until the APP clears the change.
+- **Arriving from São Paulo or the northern São Paulo coast above 6500 ft:** VFR traffic calls Rio APP **at least 5 minutes before** entering Rio 1 (class C) and only enters when cleared.
+- **Special VFR** at SBJR, SBGL, SBSC and SBRJ may be cleared by Rio APP, which sets the conditions. At SBES, by `SBES_APP`.
+- With IFR approaches to SBRJ RWY 02R, VFR departures to FOXTROT route via Icaraí, Piratininga Lagoon and the Itaipu gate.
+
+### Uncontrolled airspace below the TMA (FCA)
+
+In class G below the TMA, coordination between aircraft is **mandatory** on the regional air-to-air frequencies (FCA):
+
+| FCA | Frequency | Where |
+| :--- | :---: | :--- |
+| **Oeste** | 134.450 | West of the TMA: REAs ALFA, BRAVO, DELTA and GOLF and the west ends of CHARLIE, ECHO and FOXTROT |
+| **Leste** | 122.150 | Lakes region: east ends of ECHO and FOXTROT |
+| **Centro** | 130.550 | Helicopters over the city centre (REH perimeter) |
+| **Praia** | 123.625 | Helicopters and the REUL along the south zone and Barra beaches |
+| **Litoral** | 122.925 | Coast west of PONTA and BAÍA, towards São Paulo |
+
+- ATZs without an ATS unit but with their own FCA: **Angra** (SDAG) 125.275 and **Mangaratiba** (SDCZ, SDPA) 126.025.
+- On VATSIM the FCAs are not positions: with no ATC online, pilots use **UNICOM 122.800**. With the APP online, VFR traffic in class G may ask it for flight information.
+
+### Helicopters (REH) and ultralights (REUL)
+
+- The **REHs** form the helicopter network over the city, mostly between 500 and 2000 ft, 250 m half-width in class G and 100 m in CTRs and ATZs. They are two-way, keep right. The full layout is on the **REH WJ2** and **REH WJ3** charts.
+- A helicopter off the REHs in controlled CTRs and ATZs joins or leaves the nearest REH by the shortest route, without crossing runway alignments or IFR tracks unless cleared by ATC.
+- Mandatory contact points: **AMARELA** with Jacarepaguá Tower; **ARMADA** with Rio Tower; **SARA** and **LUGANO** with Galeão Tower; between **CEASA** and **MOCIDADE** with Afonsos Radio.
+- Below ECHO, REHs ARCO, CLUBE, DUTRA, RURAL and MAGÉ are capped at **1000 ft**; below CHARLIE, REHs ARCO, BRASIL, DUTRA, GROTA and LIGHT at **2000 ft**.
+- The **REUL** links SIWV (CAER) to SIAN (Clube CEU) along the Recreio and Grumari shore, **1200–1300 ft** maximum, two-way, 250 m half-width. Up to CABRITOS it uses FCA Praia; then FCA Oeste. Between RIO DESIGN and OLÍMPICO, ultralights fly the centreline, between the Jacarepaguá ATZ and parachuting area SBR 396. At OLÍMPICO it crosses REH PRAIA (max. 600 ft) and the SBJR CURICICA gate (min. 1300 ft). Turn on the **Ultralight route (REUL)** layer on the map.
+
+### Phraseology
+
+On first contact, the pilot keeps it short: station, registration, corridor, position, altitude and heading[^aic3026]. Brazilian VFR traffic usually calls in Portuguese:
+
+```
+Controle Rio, PR-ATM, corredor CHARLIE, posição KEMA, 3000 pés, proa CLUBE.
+```
+
+```
+PR-ATM, Controle Rio, identificado. Prossiga no corredor CHARLIE, máximo 3000 pés, ajuste 1015. Reporte POSSE.
+```
+
+The same in English:
+
+```
+Rio Control, PR-ATM, corridor CHARLIE, position KEMA, 3000 feet, heading CLUBE.
+```
+
+```
+PR-ATM, Rio Control, identified. Continue on corridor CHARLIE, maximum 3000 feet, QNH 1015. Report POSSE.
+```
+
+Helicopter on an REH:
+
+```
+Torre Jacarepaguá, PR-PAA, corredor PRAIA, posição PRAÇA, 600 pés, proa OLÍMPICO, para cruzamento da ATZ.
+```
+
+In class G, on the FCA (UNICOM on VATSIM):
+
+```
+Coordenação, PT-UQS, vertical PIRAÍ, mantendo 6500 pés, proa VASSO.
+```
 
 ## :material-note-text-outline: Remarks
 
@@ -228,6 +379,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 Back to the Curitiba FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
+[^aic3026]: [AIC N 30/26](https://publicacoes.decea.mil.br/publicacao/aic-n-3026){ target="_blank" }, items 3 to 6 and Annexes A, C, D and F; CCV REA WJ1-Rio de Janeiro chart.
 
 <!--
 Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e CTR_*), em [longitude, latitude].
@@ -241,6 +393,11 @@ Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e
 
 <style>
     .mapa { height: 550px }
+    .rea-rotulo { background: #0f172a; color: #fff; border: 0; font-weight: 700; font-size: 11px; padding: 0 5px; box-shadow: none }
+    .rea-rotulo::before { display: none }
+    .rea-zoom-baixo .rea-rotulo, .rea-zoom-medio .rea-rotulo-trecho { display: none }
+    .mapa-legenda .rea-linha { display: inline-block; width: 18px; height: 0; border-top: 3px solid #475569; vertical-align: middle; margin-right: 6px }
+    .mapa-legenda .rea-linha.g { border-top-style: dashed }
 </style>
 
 <script>
@@ -323,10 +480,53 @@ volumes.forEach(function (v) {
     poligono.addTo(ctr ? grupoCtr : grupoTma);
 });
 
+// Visual corridors (REA), gates and REUL from AIC N 30/26 (Annexes A, D and F); generated by rea.py
+const reaTrechos = [{"rea": "ALFA", "de": "ARARA", "para": "PIRAÍ", "rumos": "036° / 216°", "max": "6500", "min": "2800", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "ALFA", "de": "PIRAÍ", "para": "VERDE", "rumos": "036° / 216°", "max": "6500", "min": "4100", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "BRAVO", "de": "GRANDE", "para": "MANGA", "rumos": "038° / 218°", "max": "6500", "min": "1600", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "BRAVO", "de": "MANGA", "para": "SERRA", "rumos": "038° / 218°", "max": "5500", "min": "3500", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "BRAVO", "de": "SERRA", "para": "ARARA", "rumos": "055° / 235°", "max": "5000", "min": "3500", "obrig": true, "esp": "G · FCA Oeste 134.450"}, {"rea": "CHARLIE", "de": "PONTAL", "para": "POSSE", "rumos": "008° / 188°", "max": "3500", "min": "", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "CHARLIE", "de": "POSSE", "para": "CLUBE", "rumos": "008° / 188°", "max": "3500", "min": "", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "CHARLIE", "de": "CLUBE", "para": "KEMA", "rumos": "008° / 188°", "max": "3000", "min": "1600", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "CHARLIE", "de": "KEMA", "para": "CUNHA", "rumos": "008° / 188°", "max": "3500", "min": "1500", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "CHARLIE", "de": "CUNHA", "para": "SANTA", "rumos": "008° / 188°", "max": "3500", "min": "3000", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "CHARLIE", "de": "SANTA", "para": "VASSO", "rumos": "008° / 188°", "max": "6500", "min": "3400", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "CHARLIE", "de": "VASSO", "para": "PRETO", "rumos": "043° / 223°", "max": "6500", "min": "3300", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "DELTA", "de": "MANSA", "para": "PIRAÍ", "rumos": "096° / 276°", "max": "6500", "min": "2600", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "DELTA", "de": "PIRAÍ", "para": "VASSO", "rumos": "096° / 276°", "max": "6500", "min": "3100", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "DELTA", "de": "VASSO", "para": "PARA", "rumos": "076° / 256°", "max": "6500", "min": "3100", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "ECHO", "de": "MANSA", "para": "ARARA", "rumos": "136° / 316°", "max": "6500", "min": "2800", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "ECHO", "de": "ARARA", "para": "GUANDU", "rumos": "136° / 316°", "max": "4500", "min": "2800", "obrig": true, "esp": "G · FCA Oeste 134.450"}, {"rea": "ECHO", "de": "GUANDU", "para": "VIÚVA", "rumos": "136° / 316°", "max": "3000", "min": "1700", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "ECHO", "de": "VIÚVA", "para": "KEMA", "rumos": "107° / 287°", "max": "2500", "min": "1500", "obrig": true, "esp": "C · APP-RJ 133.300"}, {"rea": "ECHO", "de": "KEMA", "para": "METROPOLITANO", "rumos": "107° / 287°", "max": "1500", "min": "", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "METROPOLITANO", "para": "OUTLET", "rumos": "107° / 287°", "max": "1500", "min": "", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "OUTLET", "para": "MIRIM", "rumos": "107° / 287°", "max": "1500", "min": "", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "MIRIM", "para": "MAGÉ", "rumos": "107° / 287°", "max": "1500", "min": "", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "MAGÉ", "para": "MANI", "rumos": "160° / 340°", "max": "1500", "min": "1000", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "MANI", "para": "TUBOS", "rumos": "116° / 296°", "max": "2500", "min": "1000", "obrig": false, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "TUBOS", "para": "BONITO", "rumos": "116° / 296°", "max": "3500", "min": "2500", "obrig": false, "esp": "C · APP-RJ 126.200"}, {"rea": "ECHO", "de": "BONITO", "para": "OASIS", "rumos": "116° / 296°", "max": "3500", "min": "2500", "obrig": false, "esp": "G · FCA Leste 122.150"}, {"rea": "ECHO", "de": "OASIS", "para": "LAGOS", "rumos": "121° / 301°", "max": "2500", "min": "1100", "obrig": false, "esp": "G · FCA Leste 122.150"}, {"rea": "FOXTROT", "de": "PONTA", "para": "GRANDE", "rumos": "101° / 281°", "max": "6500", "min": "1000", "obrig": false, "esp": "G · FCA Oeste 134.450"}, {"rea": "FOXTROT", "de": "GRANDE", "para": "MARA", "rumos": "101° / 281°", "max": "4500", "min": "1000", "obrig": false, "esp": "C · APP-RJ 133.300"}, {"rea": "FOXTROT", "de": "MARA", "para": "GRAMA", "rumos": "096° / 276°", "max": "4500", "min": "1000", "obrig": false, "esp": "C · APP-RJ 133.300"}, {"rea": "FOXTROT", "de": "GRAMA", "para": "PONTAL", "rumos": "096° / 276°", "max": "4500", "min": "1000", "obrig": false, "esp": "C · APP-RJ 133.300"}, {"rea": "FOXTROT", "de": "PONTAL", "para": "SENNA", "rumos": "108° / 288°", "max": "3000", "min": "1300", "obrig": false, "esp": "C · APP-RJ 133.300"}, {"rea": "FOXTROT", "de": "SENNA", "para": "TIJUCAS", "rumos": "108° / 288°", "max": "3000", "min": "1300", "obrig": false, "esp": "C · APP-RJ 133.300"}, {"rea": "FOXTROT", "de": "TIJUCAS", "para": "RONDA", "rumos": "108° / 288°", "max": "3000", "min": "1300", "obrig": false, "esp": "C · APP-RJ 133.300"}, {"rea": "FOXTROT", "de": "RONDA", "para": "ILHA", "rumos": "103° / 283°", "max": "2000", "min": "1300", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "FOXTROT", "de": "ILHA", "para": "FANTE", "rumos": "103° / 283°", "max": "2000", "min": "1300", "obrig": true, "esp": "C · APP-RJ 126.200"}, {"rea": "FOXTROT", "de": "FANTE", "para": "PRAIA DE JACONÉ", "rumos": "103° / 283°", "max": "3000", "min": "1500", "obrig": false, "esp": "C · APP-RJ 126.200"}, {"rea": "FOXTROT", "de": "PRAIA DE JACONÉ", "para": "SAQUA", "rumos": "102° / 282°", "max": "3500", "min": "1500", "obrig": false, "esp": "G · FCA Leste 122.150"}, {"rea": "FOXTROT", "de": "SAQUA", "para": "LAGOS", "rumos": "064° / 244°", "max": "2000", "min": "1500", "obrig": false, "esp": "G · FCA Leste 122.150"}, {"rea": "FOXTROT", "de": "LAGOS", "para": "RIO SÃO JOÃO", "rumos": "064° / 244°", "max": "2000", "min": "1100", "obrig": false, "esp": "G · FCA Leste 122.150"}, {"rea": "FOXTROT", "de": "RIO SÃO JOÃO", "para": "MORRO", "rumos": "064° / 244°", "max": "2000", "min": "1100", "obrig": false, "esp": "G · FCA Leste 122.150"}, {"rea": "GOLF", "de": "BAÍA", "para": "MANGA", "rumos": "095° / 275°", "max": "6500", "min": "2300", "obrig": false, "esp": "G · FCA Oeste 134.450"}];
+const reaPontos = {"ARARA": [-43.875, -22.65278], "PIRAÍ": [-43.82222, -22.4525], "VERDE": [-43.69861, -21.95389], "GRANDE": [-44.12028, -23.24556], "MANGA": [-44.05667, -23.02417], "SERRA": [-44.005, -22.84389], "PONTAL": [-43.475, -23.09167], "POSSE": [-43.53194, -22.88278], "CLUBE": [-43.56306, -22.77028], "KEMA": [-43.58139, -22.70361], "CUNHA": [-43.59694, -22.64694], "SANTA": [-43.61361, -22.58583], "VASSO": [-43.66222, -22.40778], "PRETO": [-43.525, -22.07139], "MANSA": [-44.14472, -22.54278], "PARA": [-43.35083, -22.19194], "GUANDU": [-43.78167, -22.69083], "VIÚVA": [-43.71972, -22.71611], "METROPOLITANO": [-43.44111, -22.69083], "OUTLET": [-43.28806, -22.67583], "MIRIM": [-43.19444, -22.66778], "MAGÉ": [-43.03917, -22.65389], "MANI": [-42.92306, -22.77111], "TUBOS": [-42.83111, -22.77583], "BONITO": [-42.63278, -22.78583], "OASIS": [-42.45278, -22.79444], "LAGOS": [-42.35444, -22.8075], "PONTA": [-44.45, -23.30556], "MARA": [-43.86972, -23.19972], "GRAMA": [-43.68861, -23.15056], "SENNA": [-43.37639, -23.08444], "TIJUCAS": [-43.2675, -23.07833], "RONDA": [-43.19444, -23.07083], "ILHA": [-43.14583, -23.06389], "FANTE": [-43.00556, -23.04056], "PRAIA DE JACONÉ": [-42.64222, -22.985], "SAQUA": [-42.49889, -22.9575], "RIO SÃO JOÃO": [-42.11306, -22.55806], "MORRO": [-42.08194, -22.52361], "BAÍA": [-44.55611, -23.1675]};
+const portoes = {"REALENGO": {"ad": "SBAF", "c": [-43.43, -22.87444]}, "VALQUEIRE": {"ad": "SBAF/SBJR (TAQUARA)", "c": [-43.35944, -22.88583]}, "MAUÁ": {"ad": "SBGL", "c": [-43.18694, -22.73111]}, "ROXO": {"ad": "SBGL", "c": [-43.36778, -22.74444]}, "BARRA": {"ad": "SBJR", "c": [-43.32861, -23.02694]}, "MARAPENDI": {"ad": "SBJR", "c": [-43.37611, -23.04278]}, "CURICICA": {"ad": "SBJR", "c": [-43.38722, -22.94028]}, "TAQUARA": {"ad": "SBJR/SBAF", "c": [-43.36806, -22.93194]}, "COSMO": {"ad": "SBSC", "c": [-43.62667, -22.89361]}, "RESTINGA": {"ad": "SBSC", "c": [-43.70306, -23.07389]}, "BOCA": {"ad": "SBRJ", "c": [-43.13944, -23.0075]}, "ITAIPU": {"ad": "SBRJ", "c": [-43.06028, -23.00167]}, "SÃO GONÇALO": {"ad": "SBRJ", "c": [-43.09444, -22.82722]}, "IGUABA": {"ad": "SBES", "c": [-42.26944, -22.81944]}, "TAMOIOS": {"ad": "SBES", "c": [-42.04694, -22.63333]}};
+const reulTrechos = [{"de": "RIO DESIGN", "para": "OLÍMPICO", "max": "1200", "min": "1000", "fca": "FCA Praia 123.625"}, {"de": "OLÍMPICO", "para": "TRAVÉS PONTAL", "max": "1200", "min": "1000", "fca": "FCA Praia 123.625"}, {"de": "TRAVÉS PONTAL", "para": "CABRITOS", "max": "1300", "min": "1000", "fca": "FCA Praia 123.625"}, {"de": "CABRITOS", "para": "GRUMARI", "max": "1300", "min": "1000", "fca": "FCA Oeste 134.450"}, {"de": "GRUMARI", "para": "SIAN", "max": "1300", "min": "500", "fca": "FCA Oeste 134.450"}];
+const reulPontos = {"RIO DESIGN": [-43.38556, -23.0], "OLÍMPICO": [-43.39444, -23.02278], "TRAVÉS PONTAL": [-43.46306, -23.04694], "CABRITOS": [-43.51139, -23.05111], "GRUMARI": [-43.55694, -23.04778], "SIAN": [-43.60833, -22.99722]};
+var coresRea = {"ALFA": "#0ea5e9", "BRAVO": "#14b8a6", "CHARLIE": "#d946ef", "DELTA": "#84cc16", "ECHO": "#f97316", "FOXTROT": "#6366f1", "GOLF": "#eab308"};
+var grupoRea = L.featureGroup();
+reaTrechos.forEach(function (t) {
+    var a = paraLatLng(reaPontos[t.de]), b = paraLatLng(reaPontos[t.para]);
+    var controlado = t.esp.charAt(0) === 'C';
+    var alt = (t.obrig ? '<b>' + t.max + '</b>' : t.max) + (t.min ? ' / ' + t.min : '');
+    L.polyline([a, b], { color: coresRea[t.rea], weight: 4, opacity: 0.9, dashArray: controlado ? null : '8 6' })
+        .bindPopup('<b>REA ' + t.rea + '</b><br>' + t.de + ' ⇄ ' + t.para + '<br>Tracks: ' + t.rumos +
+            '<br>Max. / min. (ft): ' + alt + (t.obrig ? ' (mandatory maximum)' : '') + '<br>' + t.esp)
+        .addTo(grupoRea);
+    // One label per corridor on its middle segment; the other segments only when zoomed in
+    var trechosRea = reaTrechos.filter(function (x) { return x.rea === t.rea; });
+    var principal = trechosRea[Math.floor((trechosRea.length - 1) / 2)] === t;
+    L.marker([(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], { opacity: 0, interactive: false, icon: L.divIcon({ className: '', iconSize: [0, 0] }) })
+        .bindTooltip(t.rea, { permanent: true, direction: 'center', className: principal ? 'rea-rotulo' : 'rea-rotulo rea-rotulo-trecho' })
+        .addTo(grupoRea);
+});
+Object.keys(reaPontos).forEach(function (n) {
+    L.circleMarker(paraLatLng(reaPontos[n]), { radius: 3.5, color: '#334155', weight: 1.5, fillColor: '#ffffff', fillOpacity: 1 })
+        .bindTooltip(n).addTo(grupoRea);
+});
+Object.keys(portoes).forEach(function (n) {
+    L.circleMarker(paraLatLng(portoes[n].c), { radius: 5, color: '#0f172a', weight: 2, fillColor: '#facc15', fillOpacity: 1 })
+        .bindTooltip('Gate ' + n + ' (' + portoes[n].ad + ')').addTo(grupoRea);
+});
+
+var grupoReul = L.featureGroup();
+reulTrechos.forEach(function (t) {
+    L.polyline([paraLatLng(reulPontos[t.de]), paraLatLng(reulPontos[t.para])], { color: '#e11d48', weight: 3, dashArray: '2 5' })
+        .bindPopup('<b>REUL</b><br>' + t.de + ' ⇄ ' + t.para + '<br>Max. / min. (ft): ' + t.max + ' / ' + t.min + '<br>G · ' + t.fca)
+        .addTo(grupoReul);
+});
+Object.keys(reulPontos).forEach(function (n) {
+    L.circleMarker(paraLatLng(reulPontos[n]), { radius: 3, color: '#e11d48', weight: 1.5, fillColor: '#ffffff', fillOpacity: 1 })
+        .bindTooltip(n).addTo(grupoReul);
+});
+
 var mapa = L.map('mapa-tma', {
     minZoom: 3,
     maxZoom: 13,
-    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr]
+    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr, grupoRea]
 });
 
 mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
@@ -340,8 +540,18 @@ L.control.layers({
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
     "APP sectors": grupoSetores,
-    "Tubulão": grupoTubulao
+    "Tubulão": grupoTubulao,
+    "Visual corridors (REA)": grupoRea,
+    "Ultralight route (REUL)": grupoReul
 }).addTo(mapa);
+
+// Corridor labels only once zoomed in enough not to clutter
+function detalheRea() {
+    elemento.classList.toggle('rea-zoom-baixo', mapa.getZoom() < 8);
+    elemento.classList.toggle('rea-zoom-medio', mapa.getZoom() < 10);
+}
+mapa.on('zoomend', detalheRea);
+detalheRea();
 
 // Legenda das classes
 var legenda = L.control({ position: 'bottomleft' });
@@ -349,7 +559,10 @@ legenda.onAdd = function () {
     var div = L.DomUtil.create('div', 'mapa-legenda');
     div.innerHTML = '<b>Class</b>' + ['A', 'C', 'D'].map(function (c) {
         return '<div><span style="background:' + cores[c] + '"></span>' + c + '</div>';
-    }).join('');
+    }).join('') +
+        '<div><span class="rea-linha"></span>Controlled REA</div>' +
+        '<div><span class="rea-linha g"></span>Class G REA</div>' +
+        '<div><span style="background:#facc15;border-radius:50%"></span>Gate</div>';
     return div;
 };
 legenda.addTo(mapa);
