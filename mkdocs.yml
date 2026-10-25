@@ -111,6 +111,7 @@ extra_javascript:
   - javascripts/metar.js
   - javascripts/tma-meteo.js
   - javascripts/pdf-embed.js
+  - javascripts/paineis.js
   - javascripts/home.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js

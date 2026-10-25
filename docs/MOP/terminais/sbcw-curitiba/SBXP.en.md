@@ -74,72 +74,85 @@ Click a volume to see its limits and class. Use the layer control to change the 
 
 The APP is split into sectors, each with its own position and frequency in the package. Turn on the **APP sectors (elementary)** layer on the map to see them, or the layer of a combined position to see the consolidated area it covers. Who takes over a closed sector is shown under [Combined positions](#combined-positions) and in the [coverage](#top-down-coverage) diagram.
 
-Each tab shows one elementary sector, without the combined positions. The sector is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below FL100.
+Pick an area in the list: the whole TMA (one position for everything), a combined position or an elementary sector. The area is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below FL100.
 
-=== "T1"
-    <figure markdown="span">
-      ![São Paulo APP sector T1, from 5500 ft to FL245](img/sbxp-setor-t1.svg){ loading=lazy }
-    </figure>
+<div class="setor-viewer" data-lang="en" markdown="block">
+<figure data-grupo="total" data-titulo="SBXP_APP" data-info="119.600 · takes over SBXP_S_APP, SBXP_E_APP, SBXP_N_APP" markdown="span">
+  ![Combined position SBXP_APP: the whole TMA](img/sbxp-comb-app.svg){ loading=lazy }
+</figure>
 
-=== "T2"
-    <figure markdown="span">
-      ![São Paulo APP sector T2, from 5500 ft to FL245](img/sbxp-setor-t2.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_S_APP" data-info="129.000 · takes over SBXP_T1_APP, SBXP_T2_APP" markdown="span">
+  ![Combined position SBXP_S_APP: sectors T1 and T2, to the south](img/sbxp-comb-s.svg){ loading=lazy }
+</figure>
 
-=== "T3"
-    <figure markdown="span">
-      ![São Paulo APP sector T3, from 5500 ft to FL135](img/sbxp-setor-t3.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_E_APP" data-info="134.650 · takes over SBSJ_F_APP, SBXP_T7_APP, SBXP_T8_APP" markdown="span">
+  ![Combined position SBXP_E_APP: sectors T7 and T8 and the São José final, to the east](img/sbxp-comb-e.svg){ loading=lazy }
+</figure>
 
-=== "T4"
-    <figure markdown="span">
-      ![São Paulo APP sector T4, from FL135 to FL245](img/sbxp-setor-t4.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_N_APP" data-info="120.250 · takes over SBXP_NU_APP, SBXP_NL_APP" markdown="span">
+  ![Combined position SBXP_N_APP: sectors T3, T4, T5, T6 and T13, to the north and west](img/sbxp-comb-n.svg){ loading=lazy }
+</figure>
 
-=== "T5"
-    <figure markdown="span">
-      ![São Paulo APP sector T5, from 5500 ft to FL135](img/sbxp-setor-t5.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_NL_APP" data-info="120.925 · takes over SBXP_T3_APP, SBXP_T5_APP" data-nivel="2" markdown="span">
+  ![Combined position SBXP_NL_APP: sectors T3 and T5, lower layer to the north and west](img/sbxp-comb-nl.svg){ loading=lazy }
+</figure>
 
-=== "T6"
-    <figure markdown="span">
-      ![São Paulo APP sector T6, from FL135 to FL245](img/sbxp-setor-t6.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="comb" data-titulo="SBXP_NU_APP" data-info="130.050 · takes over SBXP_T13_APP, SBXP_T4_APP, SBXP_T6_APP" data-nivel="2" markdown="span">
+  ![Combined position SBXP_NU_APP: sectors T4, T6 and T13, upper layer to the north and west](img/sbxp-comb-nu.svg){ loading=lazy }
+</figure>
 
-=== "T7"
-    <figure markdown="span">
-      ![São Paulo APP sector T7, from 5500 ft to FL245](img/sbxp-setor-t7.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T1" data-info="SBXP_T1_APP · 134.900 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T1, from 5500 ft to FL245](img/sbxp-setor-t1.svg){ loading=lazy }
+</figure>
 
-=== "T8"
-    <figure markdown="span">
-      ![São Paulo APP sector T8, from 5500 ft to FL245](img/sbxp-setor-t8.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T2" data-info="SBXP_T2_APP · 122.750 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T2, from 5500 ft to FL245](img/sbxp-setor-t2.svg){ loading=lazy }
+</figure>
 
-=== "T13"
-    <figure markdown="span">
-      ![São Paulo APP sector T13, from FL135 to FL245](img/sbxp-setor-t13.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T3" data-info="SBXP_T3_APP · 135.750 · 5500 FT – FL135" markdown="span">
+  ![São Paulo APP sector T3, from 5500 ft to FL135](img/sbxp-setor-t3.svg){ loading=lazy }
+</figure>
 
-=== "FGR"
-    <figure markdown="span">
-      ![São Paulo APP sector FGR, Guarulhos final, from 5500 ft to FL100](img/sbxp-setor-fgr.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T4" data-info="SBXP_T4_APP · 119.800 · FL135 – FL245" markdown="span">
+  ![São Paulo APP sector T4, from FL135 to FL245](img/sbxp-setor-t4.svg){ loading=lazy }
+</figure>
 
-=== "FSP"
-    <figure markdown="span">
-      ![São Paulo APP sector FSP, Congonhas final, from 5500 ft to FL100](img/sbxp-setor-fsp.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T5" data-info="SBXP_T5_APP · 132.100 · 5500 FT – FL135" markdown="span">
+  ![São Paulo APP sector T5, from 5500 ft to FL135](img/sbxp-setor-t5.svg){ loading=lazy }
+</figure>
 
-=== "FKP"
-    <figure markdown="span">
-      ![São Paulo APP sector FKP, Campinas final, from 5500 ft to FL100](img/sbxp-setor-fkp.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T6" data-info="SBXP_T6_APP · 120.850 · FL135 – FL245" markdown="span">
+  ![São Paulo APP sector T6, from FL135 to FL245](img/sbxp-setor-t6.svg){ loading=lazy }
+</figure>
 
-=== "FSJ"
-    <figure markdown="span">
-      ![São Paulo APP sector FSJ, São José dos Campos final, from 5500 ft to FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
-    </figure>
+<figure data-grupo="elem" data-titulo="T7" data-info="SBXP_T7_APP · 119.375 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T7, from 5500 ft to FL245](img/sbxp-setor-t7.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="T8" data-info="SBXP_T8_APP · 120.450 · 5500 FT – FL245" markdown="span">
+  ![São Paulo APP sector T8, from 5500 ft to FL245](img/sbxp-setor-t8.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="T13" data-info="SBXP_T13_APP · 129.275 · FL135 – FL245" markdown="span">
+  ![São Paulo APP sector T13, from FL135 to FL245](img/sbxp-setor-t13.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FGR" data-info="SBGR_F_APP · 129.750 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FGR, Guarulhos final, from 5500 ft to FL100](img/sbxp-setor-fgr.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FSP" data-info="SBSP_F_APP · 133.850 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FSP, Congonhas final, from 5500 ft to FL100](img/sbxp-setor-fsp.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FKP" data-info="SBKP_F_APP · 119.250 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FKP, Campinas final, from 5500 ft to FL100](img/sbxp-setor-fkp.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="FSJ" data-info="SBSJ_F_APP · 124.150 · 5500 FT – FL100" markdown="span">
+  ![São Paulo APP sector FSJ, São José dos Campos final, from 5500 ft to FL100](img/sbxp-setor-fsj.svg){ loading=lazy }
+</figure>
+</div>
 
 | Sector | Position | Frequency | Limits | Role |
 | :---: | --- | --- | --- | --- |
@@ -171,38 +184,6 @@ Each tab shows one elementary sector, without the combined positions. The sector
 | `SBXP_NU_APP` | **130.050** | `SBXP_T13_APP`, `SBXP_T4_APP`, `SBXP_T6_APP` |
 | `SBXP_N_APP` | **120.250** | `SBXP_NU_APP`, `SBXP_NL_APP` |
 | `SBXP_S_APP` | **129.000** | `SBXP_T1_APP`, `SBXP_T2_APP` |
-
-Each tab shows the consolidated area the combined position covers, with its vertical limits below the name. Its makeup is in the *Takes over* column and in the [sector maps](#app-sectorization).
-
-=== "SBXP_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_APP: the whole TMA](img/sbxp-comb-app.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_S_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_S_APP: sectors T1 and T2, to the south](img/sbxp-comb-s.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_E_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_E_APP: sectors T7 and T8 and the São José final, to the east](img/sbxp-comb-e.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_N_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_N_APP: sectors T3, T4, T5, T6 and T13, to the north and west](img/sbxp-comb-n.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_NL_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_NL_APP: sectors T3 and T5, lower layer to the north and west](img/sbxp-comb-nl.svg){ loading=lazy }
-    </figure>
-
-=== "SBXP_NU_APP"
-    <figure markdown="span">
-      ![Combined position SBXP_NU_APP: sectors T4, T6 and T13, upper layer to the north and west](img/sbxp-comb-nu.svg){ loading=lazy }
-    </figure>
 
 ## :material-headset: ATC Units
 
