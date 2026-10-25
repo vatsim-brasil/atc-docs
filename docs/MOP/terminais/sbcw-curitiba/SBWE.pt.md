@@ -43,6 +43,8 @@ tags:
 
 Clique em um volume para ver os limites e a classe. Use o controle de camadas para trocar o mapa de fundo e ligar ou desligar os volumes.
 
+A camada **Corredores visuais** mostra as REA e REH da AIC N 30/26 na região dos Lagos e os portões da CTR Aldeia. Linha cheia: trecho controlado; tracejada: classe G. Clique em um trecho para ver as altitudes e o contato.
+
 <div class="fir-map-top">
     <div id="mapa-tma" class="mapa"></div>
 </div>
@@ -113,11 +115,31 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 ## :material-airplane: Circulação VFR
 
 !!! abstract "Documentos de navegação visual"
-    - **Circular:** [AIC N 32/25 – Circulação VFR Integrada nas TMA-SP, TMA-RJ e Vale do Paraíba](https://publicacoes.decea.mil.br/publicacao/aic-n-3225){ target="_blank" } (em vigor desde 07 AGO 2025)
+    - **Circular:** [AIC N 30/26 – Circulação VFR nas TMA-RJ e suas projeções](https://publicacoes.decea.mil.br/publicacao/aic-n-3026){ target="_blank" } (inclui as CTR Aldeia 1 e 2)
+    - **Carta visual – Rotas de aeronaves (REA):** [CCV REA WJ1-Rio de Janeiro](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wj1-rio-de-janeiro_rea_20260319.pdf){ target="_blank" }
     - **Carta visual – Rotas de helicópteros (REH):** [CCV REH WJ1-Cabo Frio](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wj1-cabo-frio_reh_20260319.pdf){ target="_blank" }
 
-    A carta está embutida na aba **Carta Visual** em **Informações Úteis**.
+    A carta de helicópteros está embutida na aba **Carta Visual** em **Informações Úteis**. A circulação VFR da TMA Rio, de onde vêm os corredores, está na página da [TMA Rio de Janeiro](SBWJ.pt.md#circulacao-vfr).
 
+A AIC N 30/26 trata a CTR Aldeia junto com a TMA Rio[^aic3026]. Na região dos Lagos chegam os dois corredores de aviões que vêm do Rio e a rota de helicópteros que segue o litoral até Búzios. A camada **Corredores visuais** no mapa mostra esses trechos e os portões.
+
+| Rota | Trecho | Rumos | Altitudes (máx. / mín.) | Espaço · contato |
+| :---: | :--- | :---: | :--- | :--- |
+| **REA ECHO** | BONITO ⇄ OASIS | 116° / 296° | 3500 / 2500 | G · FCA Leste 122.150 |
+| | OASIS ⇄ LAGOS | 121° / 301° | 2500 / 1100 | G · FCA Leste 122.150 |
+| **REA FOXTROT** | PRAIA DE JACONÉ ⇄ SAQUA | 102° / 282° | 3500 / 1500 | G · FCA Leste 122.150 |
+| | SAQUA ⇄ LAGOS ⇄ RIO SÃO JOÃO ⇄ MORRO | 064° / 244° | 2000 / 1500, depois 1100 | G · FCA Leste 122.150 |
+| **REH LITORAL** | JACONÉ ⇄ IGREJA ⇄ SECA | — | 1000 / 800 | G · FCA Leste 122.150 |
+| **REH ALDEIA** | SECA ⇄ CISNE ⇄ ARMAÇÃO | — | 700 | D · APP-ES 119.450 |
+| | ARMAÇÃO ⇄ CAMPO | — | 1000 / 900 | D · APP-ES 119.450 |
+| | CAMPO ⇄ FOZ | — | 1000 / 800 | D · APP-ES 119.450 |
+
+- **Portões da CTR Aldeia:** **IGUABA** e **TAMOIOS**. A entrada e a saída são sempre por eles, salvo instrução diferente do ATC. Quem vem pela **ECHO** chama o `SBES_APP` e entra por IGUABA; pela **FOXTROT**, por IGUABA ou TAMOIOS.
+- **Helicópteros** pela REH LITORAL chamam o `SBES_APP` em **SECA** para entrar na CTR Aldeia. A REH ALDEIA (250 m de semilargura) passa por Araruama, Cabo Frio e Búzios até a foz do Rio São João: atenção aos militares de SBES e ao tráfego de SBCB.
+- Nas CTR Aldeia 1 e 2, o VFR **voa nas rotas publicadas**, com os rumos e as altitudes previstos, salvo instrução diferente do APP. Velocidade máxima de **200 kt** IAS.
+- **VFR especial** em SBES pode ser autorizado pelo `SBES_APP`, que fixa as condições.
+- Sob a CTR Aldeia 1, na classe G, o APP Aldeia presta **informação de voo e alerta** a quem pede (no mundo real, 119.450 ou 120.300).
+- **Transponder** ligado em toda a área, inclusive na classe G: avião usa **2000** e helicóptero **0100** entre localidades sem órgão ATS, salvo código do ATC. Na VATSIM, sem ATC on-line, a coordenação na FCA Leste vira **UNICOM 122.800**.
 - Não é aceito plano de voo por radiotelefonia.
 - SBME: altitude mínima do circuito de 600 FT para helicópteros e 1500 FT para aviões.
 - Não é aceito plano AFIL na ATZ e na CTR Aldeia.
@@ -134,6 +156,7 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Curitiba.
 
 [^pacote]: Frequência no pacote de setores da VATSIM Brasil.
+[^aic3026]: [AIC N 30/26](https://publicacoes.decea.mil.br/publicacao/aic-n-3026){ target="_blank" }, itens 3 a 6 e Anexos A, B e D; cartas CCV REA WJ1-Rio de Janeiro e CCV REH WJ1-Cabo Frio.
 
 <!--
 Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e CTR_*), em [longitude, latitude].
@@ -147,6 +170,8 @@ Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBCW (setores TMA_* e
 
 <style>
     .mapa { height: 550px }
+    .mapa-legenda .rea-linha { display: inline-block; width: 18px; height: 0; border-top: 3px solid #475569; vertical-align: middle; margin-right: 6px }
+    .mapa-legenda .rea-linha.g { border-top-style: dashed }
 </style>
 
 <script>
@@ -218,13 +243,36 @@ volumes.forEach(function (v) {
     poligono.addTo(ctr ? grupoCtr : grupoTma);
 });
 
+// Corredores da AIC N 30/26 na região dos Lagos e na CTR Aldeia (Anexos A, B e D); gerado de we.py
+const reaTrechos = [{"rota": "REA ECHO", "pontos": ["BONITO", "OASIS"], "rumos": "116° / 296°", "alt": "3500 / 2500", "esp": "G · FCA Leste 122.150"}, {"rota": "REA ECHO", "pontos": ["OASIS", "LAGOS"], "rumos": "121° / 301°", "alt": "2500 / 1100", "esp": "G · FCA Leste 122.150"}, {"rota": "REA FOXTROT", "pontos": ["PRAIA DE JACONÉ", "SAQUA"], "rumos": "102° / 282°", "alt": "3500 / 1500", "esp": "G · FCA Leste 122.150"}, {"rota": "REA FOXTROT", "pontos": ["SAQUA", "LAGOS", "RIO SÃO JOÃO", "MORRO"], "rumos": "064° / 244°", "alt": "2000 / 1500, depois 1100", "esp": "G · FCA Leste 122.150"}, {"rota": "REH LITORAL", "pontos": ["JACONÉ", "IGREJA", "SECA"], "rumos": "", "alt": "1000 / 800", "esp": "G · FCA Leste 122.150"}, {"rota": "REH ALDEIA", "pontos": ["SECA", "CISNE", "ARMAÇÃO"], "rumos": "", "alt": "700", "esp": "D · APP-ES 119.450"}, {"rota": "REH ALDEIA", "pontos": ["ARMAÇÃO", "CAMPO"], "rumos": "", "alt": "1000 / 900", "esp": "D · APP-ES 119.450"}, {"rota": "REH ALDEIA", "pontos": ["CAMPO", "FOZ"], "rumos": "", "alt": "1000 / 800", "esp": "D · APP-ES 119.450"}];
+const reaPontos = {"BONITO": [-42.63278, -22.78583], "OASIS": [-42.45278, -22.79444], "LAGOS": [-42.35444, -22.8075], "PRAIA DE JACONÉ": [-42.64222, -22.985], "SAQUA": [-42.49889, -22.9575], "RIO SÃO JOÃO": [-42.11306, -22.55806], "MORRO": [-42.08194, -22.52361], "JACONÉ": [-42.62722, -22.95444], "IGREJA": [-42.49306, -22.94722], "SECA": [-42.34944, -22.94611], "CISNE": [-42.07222, -22.87778], "ARMAÇÃO": [-41.95694, -22.79444], "CAMPO": [-41.93556, -22.77889], "FOZ": [-41.98889, -22.60778]};
+const portoes = {"IGUABA": [-42.26944, -22.81944], "TAMOIOS": [-42.04694, -22.63333]};
+var coresRota = {"REA ECHO": "#f97316", "REA FOXTROT": "#6366f1", "REH LITORAL": "#0d9488", "REH ALDEIA": "#be123c"};
+var grupoRea = L.featureGroup();
+reaTrechos.forEach(function (t) {
+    var linha = t.pontos.map(function (n) { return paraLatLng(reaPontos[n]); });
+    var reh = t.rota.indexOf('REH') === 0;
+    L.polyline(linha, { color: coresRota[t.rota], weight: reh ? 3 : 4, opacity: 0.9, dashArray: t.esp.charAt(0) === 'D' ? null : '8 6' })
+        .bindPopup('<b>' + t.rota + '</b><br>' + t.pontos.join(' ⇄ ') + (t.rumos ? '<br>Rumos: ' + t.rumos : '') +
+            '<br>Máx. / mín. (ft): ' + t.alt + '<br>' + t.esp)
+        .addTo(grupoRea);
+});
+Object.keys(reaPontos).forEach(function (n) {
+    L.circleMarker(paraLatLng(reaPontos[n]), { radius: 3.5, color: '#334155', weight: 1.5, fillColor: '#ffffff', fillOpacity: 1 })
+        .bindTooltip(n).addTo(grupoRea);
+});
+Object.keys(portoes).forEach(function (n) {
+    L.circleMarker(paraLatLng(portoes[n]), { radius: 5, color: '#0f172a', weight: 2, fillColor: '#facc15', fillOpacity: 1 })
+        .bindTooltip('Portão ' + n + ' (CTR Aldeia)').addTo(grupoRea);
+});
+
 var mapa = L.map('mapa-tma', {
     minZoom: 3,
     maxZoom: 13,
-    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr]
+    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr, grupoRea]
 });
 
-mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
+mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()).extend(grupoRea.getBounds()), { padding: [20, 20] });
 
 L.control.layers({
     "Claro": tileMapaClaro,
@@ -233,7 +281,8 @@ L.control.layers({
 }, {
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
-    "Limite da FIR": grupoFir
+    "Limite da FIR": grupoFir,
+    "Corredores visuais": grupoRea
 }).addTo(mapa);
 
 // Legenda das classes
@@ -242,7 +291,10 @@ legenda.onAdd = function () {
     var div = L.DomUtil.create('div', 'mapa-legenda');
     div.innerHTML = '<b>Classe</b>' + ['A', 'C', 'D'].map(function (c) {
         return '<div><span style="background:' + cores[c] + '"></span>' + c + '</div>';
-    }).join('');
+    }).join('') +
+        '<div><span class="rea-linha"></span>Rota controlada</div>' +
+        '<div><span class="rea-linha g"></span>Rota classe G</div>' +
+        '<div><span style="background:#facc15;border-radius:50%"></span>Portão</div>';
     return div;
 };
 legenda.addTo(mapa);
