@@ -1430,3 +1430,101 @@
     border-radius: 12px;
     font-size: 0.75rem;
 }
+
+/* Visualizador de CCV: lista à esquerda, PDF à direita */
+.ccv-viewer--ativo {
+    display: grid;
+    grid-template-columns: minmax(180px, 220px) 1fr;
+    gap: 16px;
+    margin: 12px 0;
+}
+
+.ccv-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-self: start;
+    position: sticky;
+    top: 4.8rem;
+}
+
+.md-typeset .ccv-grupo {
+    margin: 12px 0 4px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .ccv-grupo:first-child {
+    margin-top: 0;
+}
+
+.ccv-item {
+    padding: 6px 10px;
+    border-left: 3px solid transparent;
+    border-radius: 0 8px 8px 0;
+    text-align: left;
+    font: inherit;
+    font-size: 0.7rem;
+    color: var(--md-default-fg-color);
+    cursor: pointer;
+}
+
+.ccv-item:hover {
+    background: var(--md-default-fg-color--lightest);
+}
+
+.ccv-item[aria-current="true"] {
+    border-left-color: var(--md-accent-fg-color);
+    background: var(--md-accent-fg-color--transparent);
+    color: var(--md-accent-fg-color);
+    font-weight: 700;
+}
+
+.ccv-painel {
+    min-width: 0;
+}
+
+.ccv-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.md-typeset .ccv-topo .ccv-abrir {
+    margin: 0;
+    padding: 4px 14px;
+    font-size: 0.65rem;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 59.9375em) {
+    .ccv-viewer--ativo {
+        grid-template-columns: 1fr;
+    }
+
+    .ccv-nav {
+        position: static;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .md-typeset .ccv-grupo {
+        flex-basis: 100%;
+        margin: 4px 0 0;
+    }
+
+    .ccv-item {
+        border: 1px solid var(--md-default-fg-color--lightest);
+        border-radius: 999px;
+    }
+
+    .ccv-item[aria-current="true"] {
+        border-color: var(--md-accent-fg-color);
+    }
+}

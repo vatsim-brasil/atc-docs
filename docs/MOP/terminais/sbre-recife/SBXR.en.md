@@ -27,19 +27,14 @@ tags:
     <iframe class="chart-iframe" src="https://api.chartfox.org/v2/interfaces/airport/SBXR?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YjAzYTg5Yi0yZTY1LTQ1MzAtOTRhMi1iNTE1OWU1NzE3M2EiLCJqdGkiOiI4MDgyNjZhYWZhZDg1ZDJmNzZmODMwOTM0MTI1YTU3M2UyMjExMDU2MDI4ODJhNGQwMDdjMmNlNDRmNDRiNDcxOTVhNzYyMzg0YTFjYTc5MiIsImlhdCI6MTc4MjY4Mjk4OS40MjEzODIsIm5iZiI6MTc4MjY4Mjk4OS40MjEzODcsImV4cCI6MjQxMzgzNDk4OS40MTQ2MzgsInN1YiI6ImNhOWU2ODJmLTk3MmUtNDQwMC1hZTk0LTIwMTNjNTI1MWQ5NiIsInNjb3BlcyI6WyJpbnRlcmZhY2U6YWlycG9ydENoYXJ0cyJdfQ.fpe9LYMNVLeGlOP91pNic8qD0vluZyJdKIuQVnSwLBrGKxf8WtLWXN37D51AuR1qKMIghQDJ2rhf3NYiuYF9DeSTU84vjEjL8rlyMcRrsa8KJxRxlmGxQ5HWwMgFTLbEN61_ocfha66bXnHW-6dfhsJ0iC86PxAnYhFdggo2eUeExWQ_oZF2cTMg2x6xIm37cBcYL9LZN8T43NAu0wlN3qjyJUIUmPU1KD96FgohPJIn8AqI-h8CoCISnOfOITqhK4EgOIIV9viiXcBqv1CzSpYypOJcFFf2XQTDvfK93XnUBJPTo-Y_meB8XqFYfkwdQXgs6O-JCef9pojnNKRNGtgnVuiOXvI2RD7IAPPEJxv8yZ7W1BIciyMGHbHV8ZF959M4XL6n2oKD-vsE-tJe3JBsbP6MPc14gCmPw_zQ-nCK3kGS0rhoZHPcmRl0Gb-OYgn9HWybnI9m4-BOOoqtWkaqQt1nwhIFVTcwaBXy1jndU3I-0uyyBY88_GQQBSZ85sOgSmDVJOkHOrnDV6nxrLYRtUQigNfJ-m7IFfOQoRjFmtoHcswhjfrrHEI1laNSsZg6I_9eO-S6ccyxSS5QJtEaOM-wOlM6rDsswny2Q5QxCAL9VlZT3YMzz5ZCpprK_YpNmQoT-iGAdI0w2CJssDAGGreggc5t8XpwpdSUsfo"></iframe>
 
 === ":material-map-legend: Visual Charts"
-    === "CCV REA XR-Vitória"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ .md-button .md-button--primary target="_blank" }
+    <div class="ccv-viewer" data-lang="en">
+    <ul class="ccv-lista">
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf" target="_blank" rel="noopener">CCV REA XR-Vitória</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf" target="_blank" rel="noopener">REH CTR Vitória</a></li>
+    </ul>
+    </div>
 
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-xr-vitoria_rea_20240808.pdf){ target="_blank" }.
-
-    === "REH CTR Vitória"
-        [:material-open-in-new: Open in new tab](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ .md-button .md-button--primary target="_blank" }
-
-        <div class="pdf-embed"><iframe class="pdf-iframe" src="https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf#view=FitH" loading="lazy" title="PDF"></iframe></div>
-
-        Source: [AISWEB](https://aisweb.decea.mil.br/cartas/visuais/reh/ctr-vitoria_reh_20220616.pdf){ target="_blank" }.
+    Source: [AISWEB](https://aisweb.decea.mil.br/?i=cartas){ target="_blank" }.
 
 === ":material-weather-partly-cloudy: Weather"
     <div class="tma-meteo" data-lat="-20.269" data-lon="-40.282" data-zoom="8" data-lang="en"></div>
