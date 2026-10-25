@@ -231,12 +231,13 @@ def twy_labels(s):
         s.append(tag(x, yA - 1, 'A'))
         s.append(tag(x + 120, yB - 1, 'B'))
     for ref, near in (('G', (A_G[0], (yB + Y10L) / 2)),
+                      ('G', (A_G[0], (Y10L + Y10R) / 2)),
                       ('H', (node_at('H', 'B')[0], (yB + Y10L) / 2)),
                       ('L', (node_at('L', 'B')[0], (yB + Y10L) / 2)),
                       ('N', (node_at('N', 'B')[0], (yB + Y10L) / 2)),
                       ('O', (node_at('O', 'B')[0], (yB + Y10L) / 2)),
                       ('P', None), ('Q', None), ('DD', None), ('FF', None),
-                      ('BB', None), ('CC', None), ('C', None), ('D', None), ('E', None),
+                      ('BB', None), ('CC', None), ('C', (-1190, -253)), ('D', None), ('E', None),
                       ('S', None), ('T', None), ('U', None), ('K', None), ('J', None), ('I', None),
                       ('M', None), ('V', None)):
         p = pt_on(ref, 0.5, near)
@@ -326,6 +327,7 @@ def callout(s, x, y, lines_, color, anchor='middle', size=46):
     for i, l in enumerate(lines_):
         s.append(f'<text x="{rx + w/2:.0f}" y="{y + 12 + size*1.05 + i*size*1.25:.0f}" font-size="{size}" font-weight="{700 if i == 0 else 400}" '
                  f'fill="{PAL["text"]}" text-anchor="middle">{l}</text>')
+    return rx, y, w, h
 
 
 def save(name, s):
@@ -382,8 +384,9 @@ s = svg_open('SBGR: visão geral, pátios e pontos de decolagem', extra_h=0)
 base_layers(s)
 for rw, n, t, lab in TAKEOFF:
     s.append(f'<circle cx="{n[0]:.0f}" cy="{n[1]:.0f}" r="34" fill="{PAL["tora"]}" stroke="#fff" stroke-width="6"/>')
-callout(s, G_10R_N[0] + 330, G_10R_N[1] + 90, ['10R · G', 'TORA 2487 m'], PAL['tora'], size=44)
+# linhas guia antes das caixas e terminando na borda delas, para não cruzar o texto
 s.append(f'<line x1="{G_10R_N[0]:.0f}" y1="{G_10R_N[1]:.0f}" x2="{G_10R_N[0]+330:.0f}" y2="{G_10R_N[1]+90:.0f}" stroke="{PAL["tora"]}" stroke-width="4"/>')
+callout(s, G_10R_N[0] + 330, G_10R_N[1] + 90, ['10R · G', 'TORA 2487 m'], PAL['tora'], size=44)
 callout_specs = [
     (G_10L_N, -260, ['10L · G', 'TORA 3700 m']),
     (H_10L_N, 260, ['10L · H', 'TORA 3400 m']),
@@ -392,8 +395,9 @@ callout_specs = [
     (Q_10L_N, 110, ['28R · Q', 'TORA 3700 m']),
 ]
 for n, dx, ls in callout_specs:
+    h = len(ls) * 44 * 1.25 + 18
+    s.append(f'<line x1="{n[0]:.0f}" y1="{n[1]-26:.0f}" x2="{n[0]+dx:.0f}" y2="{n[1]-300+h:.0f}" stroke="{PAL["tora"]}" stroke-width="4"/>')
     callout(s, n[0] + dx, n[1] - 300, ls, PAL['tora'], size=44)
-    s.append(f'<line x1="{n[0]:.0f}" y1="{n[1]-26:.0f}" x2="{n[0]+dx:.0f}" y2="{n[1]-300+90:.0f}" stroke="{PAL["tora"]}" stroke-width="4"/>')
 north_arrow(s, X1 - 160, Y0 + 220)
 scale_bar(s, X1 - 700, Y1 - 120)
 credit(s, Y1 - 30)

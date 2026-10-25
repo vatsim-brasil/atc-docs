@@ -601,6 +601,7 @@
 <g><rect x="1477" y="-736" width="46" height="63" rx="5" fill="#1d1d1d"/><text x="1500" y="-688" font-size="46" font-weight="700" fill="#ffd400" text-anchor="middle">A</text></g>
 <g><rect x="1597" y="-646" width="46" height="63" rx="5" fill="#1d1d1d"/><text x="1620" y="-598" font-size="46" font-weight="700" fill="#ffd400" text-anchor="middle">B</text></g>
 <g><rect x="-924" y="-569" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-903" y="-528" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">G</text></g>
+<g><rect x="-924" y="-234" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-903" y="-193" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">G</text></g>
 <g><rect x="-629" y="-540" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-607" y="-499" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">H</text></g>
 <g><rect x="756" y="-526" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="777" y="-485" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">L</text></g>
 <g><rect x="1365" y="-523" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="1386" y="-482" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">N</text></g>
@@ -611,7 +612,7 @@
 <g><rect x="2018" y="-531" width="69" height="54" rx="5" fill="#1d1d1d"/><text x="2052" y="-490" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">FF</text></g>
 <g><rect x="578" y="-195" width="69" height="54" rx="5" fill="#1d1d1d"/><text x="612" y="-154" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">BB</text></g>
 <g><rect x="1194" y="-196" width="69" height="54" rx="5" fill="#1d1d1d"/><text x="1229" y="-155" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">CC</text></g>
-<g><rect x="-950" y="-274" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-929" y="-233" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">C</text></g>
+<g><rect x="-1243" y="-281" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-1222" y="-239" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">C</text></g>
 <g><rect x="-1324" y="-185" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-1303" y="-144" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">D</text></g>
 <g><rect x="-1425" y="-193" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-1404" y="-151" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">E</text></g>
 <g><rect x="-303" y="102" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-282" y="143" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">S</text></g>

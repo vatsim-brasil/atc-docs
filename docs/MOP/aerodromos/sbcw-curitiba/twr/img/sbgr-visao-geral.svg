@@ -536,6 +536,7 @@
 <g><rect x="1477" y="-736" width="46" height="63" rx="5" fill="#1d1d1d"/><text x="1500" y="-688" font-size="46" font-weight="700" fill="#ffd400" text-anchor="middle">A</text></g>
 <g><rect x="1597" y="-646" width="46" height="63" rx="5" fill="#1d1d1d"/><text x="1620" y="-598" font-size="46" font-weight="700" fill="#ffd400" text-anchor="middle">B</text></g>
 <g><rect x="-924" y="-569" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-903" y="-528" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">G</text></g>
+<g><rect x="-924" y="-234" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-903" y="-193" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">G</text></g>
 <g><rect x="-629" y="-540" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-607" y="-499" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">H</text></g>
 <g><rect x="756" y="-526" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="777" y="-485" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">L</text></g>
 <g><rect x="1365" y="-523" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="1386" y="-482" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">N</text></g>
@@ -546,7 +547,7 @@
 <g><rect x="2018" y="-531" width="69" height="54" rx="5" fill="#1d1d1d"/><text x="2052" y="-490" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">FF</text></g>
 <g><rect x="578" y="-195" width="69" height="54" rx="5" fill="#1d1d1d"/><text x="612" y="-154" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">BB</text></g>
 <g><rect x="1194" y="-196" width="69" height="54" rx="5" fill="#1d1d1d"/><text x="1229" y="-155" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">CC</text></g>
-<g><rect x="-950" y="-274" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-929" y="-233" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">C</text></g>
+<g><rect x="-1243" y="-281" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-1222" y="-239" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">C</text></g>
 <g><rect x="-1324" y="-185" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-1303" y="-144" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">D</text></g>
 <g><rect x="-1425" y="-193" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-1404" y="-151" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">E</text></g>
 <g><rect x="-303" y="102" width="42" height="54" rx="5" fill="#1d1d1d"/><text x="-282" y="143" font-size="40" font-weight="700" fill="#ffd400" text-anchor="middle">S</text></g>
@@ -578,30 +579,30 @@
 <circle cx="2565" cy="-428" r="34" fill="#7b2fbf" stroke="#fff" stroke-width="6"/>
 <circle cx="1523" cy="-427" r="34" fill="#7b2fbf" stroke="#fff" stroke-width="6"/>
 <circle cx="-953" cy="-65" r="34" fill="#7b2fbf" stroke="#fff" stroke-width="6"/>
+<line x1="-953" y1="-65" x2="-623" y2="25" stroke="#7b2fbf" stroke-width="4"/>
 <rect x="-773" y="25" width="301" height="128" rx="10" fill="#fff" stroke="#7b2fbf" stroke-width="5"/>
 <text x="-623" y="83" font-size="44" font-weight="700" fill="#1f2430" text-anchor="middle">10R · G</text>
 <text x="-623" y="138" font-size="44" font-weight="400" fill="#1f2430" text-anchor="middle">TORA 2487 m</text>
-<line x1="-953" y1="-65" x2="-623" y2="25" stroke="#7b2fbf" stroke-width="4"/>
+<line x1="-952" y1="-464" x2="-1212" y2="-610" stroke="#7b2fbf" stroke-width="4"/>
 <rect x="-1362" y="-738" width="301" height="128" rx="10" fill="#fff" stroke="#7b2fbf" stroke-width="5"/>
 <text x="-1212" y="-680" font-size="44" font-weight="700" fill="#1f2430" text-anchor="middle">10L · G</text>
 <text x="-1212" y="-625" font-size="44" font-weight="400" fill="#1f2430" text-anchor="middle">TORA 3700 m</text>
-<line x1="-952" y1="-464" x2="-1212" y2="-648" stroke="#7b2fbf" stroke-width="4"/>
+<line x1="-655" y1="-539" x2="-395" y2="-685" stroke="#7b2fbf" stroke-width="4"/>
 <rect x="-546" y="-813" width="301" height="128" rx="10" fill="#fff" stroke="#7b2fbf" stroke-width="5"/>
 <text x="-395" y="-755" font-size="44" font-weight="700" fill="#1f2430" text-anchor="middle">10L · H</text>
 <text x="-395" y="-700" font-size="44" font-weight="400" fill="#1f2430" text-anchor="middle">TORA 3400 m</text>
-<line x1="-655" y1="-539" x2="-395" y2="-723" stroke="#7b2fbf" stroke-width="4"/>
+<line x1="1523" y1="-453" x2="1293" y2="-599" stroke="#7b2fbf" stroke-width="4"/>
 <rect x="1143" y="-727" width="301" height="128" rx="10" fill="#fff" stroke="#7b2fbf" stroke-width="5"/>
 <text x="1293" y="-668" font-size="44" font-weight="700" fill="#1f2430" text-anchor="middle">28R · O</text>
 <text x="1293" y="-614" font-size="44" font-weight="400" fill="#1f2430" text-anchor="middle">TORA 2397 m</text>
-<line x1="1523" y1="-453" x2="1293" y2="-637" stroke="#7b2fbf" stroke-width="4"/>
+<line x1="2565" y1="-454" x2="2335" y2="-600" stroke="#7b2fbf" stroke-width="4"/>
 <rect x="2184" y="-728" width="301" height="128" rx="10" fill="#fff" stroke="#7b2fbf" stroke-width="5"/>
 <text x="2335" y="-670" font-size="44" font-weight="700" fill="#1f2430" text-anchor="middle">28R · P</text>
 <text x="2335" y="-615" font-size="44" font-weight="400" fill="#1f2430" text-anchor="middle">TORA 3460 m</text>
-<line x1="2565" y1="-454" x2="2335" y2="-638" stroke="#7b2fbf" stroke-width="4"/>
+<line x1="2667" y1="-457" x2="2777" y2="-603" stroke="#7b2fbf" stroke-width="4"/>
 <rect x="2626" y="-731" width="301" height="128" rx="10" fill="#fff" stroke="#7b2fbf" stroke-width="5"/>
 <text x="2777" y="-672" font-size="44" font-weight="700" fill="#1f2430" text-anchor="middle">28R · Q</text>
 <text x="2777" y="-618" font-size="44" font-weight="400" fill="#1f2430" text-anchor="middle">TORA 3700 m</text>
-<line x1="2667" y1="-457" x2="2777" y2="-641" stroke="#7b2fbf" stroke-width="4"/>
 <g transform="translate(2877,-1458) rotate(16.6)"><path d="M0,-120 L34,40 L0,14 L-34,40 z" fill="#1f2430"/><text x="0" y="-140" font-size="44" font-weight="700" text-anchor="middle" fill="#1f2430">N</text></g>
 <g fill="#1f2430"><rect x="2337.1555989038" y="236.21991933417104" width="250" height="14"/><rect x="2587.1555989038" y="236.21991933417104" width="250" height="14" fill="none" stroke="#1f2430" stroke-width="4"/><text x="2337.1555989038" y="222.21991933417104" font-size="32">0</text><text x="2837.1555989038" y="222.21991933417104" font-size="32" text-anchor="middle">500 m</text></g>
 <text x="2997" y="326" font-size="34" fill="#5b6372" text-anchor="end">Base: © OpenStreetMap contributors (ODbL) · ADC SBGR / AIP AD 2 SBGR · fora de escala para navegação</text>
