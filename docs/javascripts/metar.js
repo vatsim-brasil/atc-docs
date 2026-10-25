@@ -60,7 +60,11 @@ document$.subscribe(({ body }) => {
         for (const row of body.querySelectorAll('.md-typeset table tr')) {
             const cells = row.querySelectorAll('td');
             if (cells.length >= 2 && /altitude de transição|transition altitude/i.test(cells[0].textContent)) {
-                const n = parseInt(cells[1].textContent.replace(/\D/g, ''), 10);
+                // Ignora a nota de rodapé ("7000 pés[^ad17]" vira "7000 pés5" no HTML)
+                const celula = cells[1].cloneNode(true);
+                celula.querySelectorAll('sup').forEach(s => s.remove());
+                const m = celula.textContent.match(/\d{1,3}(?:[.,]\d{3})+|\d+/);
+                const n = m ? parseInt(m[0].replace(/\D/g, ''), 10) : 0;
                 if (n) return n;
             }
         }
