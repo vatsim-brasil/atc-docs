@@ -1541,7 +1541,20 @@
 
 .md-typeset .lv figure {
     margin: 0;
-    justify-content: flex-start;
+}
+
+/* Mapas dos setores têm largura fixa (620 px): título e mapa formam um bloco
+   centralizado no espaço à direita, com o título alinhado à borda do mapa */
+.setor-viewer .lv-painel {
+    justify-self: center;
+    width: 100%;
+    max-width: 620px;
+}
+
+.md-typeset .setor-viewer figure img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .md-typeset .lv figure[hidden] {
