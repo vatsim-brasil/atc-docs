@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Rio Control |
 | **Frequency** | **119.000** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.en.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.en.md), `SBJR`, `SBSC`, `SBAF`, `SBMI` |
+| **Aerodromes in the TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.en.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.en.md), [SBJR](../../aerodromos/sbcw-curitiba/twr/SBJR.en.md), [SBSC](../../aerodromos/sbcw-curitiba/twr/SBSC.en.md), [SBAF](../../aerodromos/sbcw-curitiba/afis/SBAF.en.md), [SBMI](../../aerodromos/sbcw-curitiba/afis/SBMI.en.md), [SBES](../../aerodromos/sbcw-curitiba/twr/SBES.en.md), [SBCB](../../aerodromos/sbcw-curitiba/afis/SBCB.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

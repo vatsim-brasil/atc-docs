@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Curitiba |
 | **Frequência** | **119.950** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | [SBCT](../../aerodromos/sbcw-curitiba/twr/SBCT.pt.md), `SBBI`, `SBJV` |
+| **Aeródromos na TMA** | [SBCT](../../aerodromos/sbcw-curitiba/twr/SBCT.pt.md), [SBBI](../../aerodromos/sbcw-curitiba/twr/SBBI.pt.md), [SBJV](../../aerodromos/sbcw-curitiba/afis/SBJV.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

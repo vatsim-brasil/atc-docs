@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Uberaba Control |
 | **Frequency** | **120.800** MHz[^pacote] |
 | **ATS surveillance** | Procedural |
-| **Aerodromes in the TMA** | `SBUR` |
+| **Aerodromes in the TMA** | [SBUR](../../aerodromos/sbbs-brasilia/twr/SBUR.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

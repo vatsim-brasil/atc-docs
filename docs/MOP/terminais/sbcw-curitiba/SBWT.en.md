@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Curitiba Control |
 | **Frequency** | **119.950** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | [SBCT](../../aerodromos/sbcw-curitiba/twr/SBCT.en.md), `SBBI`, `SBJV` |
+| **Aerodromes in the TMA** | [SBCT](../../aerodromos/sbcw-curitiba/twr/SBCT.en.md), [SBBI](../../aerodromos/sbcw-curitiba/twr/SBBI.en.md), [SBJV](../../aerodromos/sbcw-curitiba/afis/SBJV.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

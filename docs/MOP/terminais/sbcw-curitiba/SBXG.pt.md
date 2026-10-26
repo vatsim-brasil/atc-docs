@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Prudente |
 | **Frequência** | **125.450** MHz[^pacote] |
 | **Vigilância ATS** | Convencional |
-| **Aeródromos na TMA** | `SBDN` |
+| **Aeródromos na TMA** | [SBDN](../../aerodromos/sbcw-curitiba/twr/SBDN.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

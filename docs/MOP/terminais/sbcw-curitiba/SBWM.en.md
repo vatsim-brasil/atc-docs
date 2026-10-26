@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Santa Maria Control |
 | **Frequency** | **119.350** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBSM` |
+| **Aerodromes in the TMA** | [SBSM](../../aerodromos/sbcw-curitiba/twr/SBSM.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

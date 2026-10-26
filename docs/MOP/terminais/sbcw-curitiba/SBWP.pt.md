@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Palegre |
 | **Frequência** | **129.600** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBPA`, `SBCO` |
+| **Aeródromos na TMA** | [SBPA](../../aerodromos/sbcw-curitiba/twr/SBPA.pt.md), [SBCO](../../aerodromos/sbcw-curitiba/twr/SBCO.pt.md), [SBCX](../../aerodromos/sbcw-curitiba/afis/SBCX.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

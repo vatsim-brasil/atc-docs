@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Florianópolis |
 | **Frequência** | **119.650** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBFL`, `SBNF`, `SBJV` |
+| **Aeródromos na TMA** | [SBFL](../../aerodromos/sbcw-curitiba/twr/SBFL.pt.md), [SBNF](../../aerodromos/sbcw-curitiba/twr/SBNF.pt.md), [SBJV](../../aerodromos/sbcw-curitiba/afis/SBJV.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

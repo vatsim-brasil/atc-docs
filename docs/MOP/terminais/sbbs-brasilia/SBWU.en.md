@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Bauru Control |
 | **Frequency** | **121.300** MHz[^pacote] |
 | **ATS surveillance** | Procedural |
-| **Aerodromes in the TMA** | `SBBU`, [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.en.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.en.md) |
+| **Aerodromes in the TMA** | [SBBU](../../aerodromos/sbbs-brasilia/afis/SBBU.en.md), [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.en.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Rio |
 | **Frequência** | **119.000** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.pt.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.pt.md), `SBJR`, `SBSC`, `SBAF`, `SBMI` |
+| **Aeródromos na TMA** | [SBGL](../../aerodromos/sbcw-curitiba/twr/SBGL.pt.md), [SBRJ](../../aerodromos/sbcw-curitiba/twr/SBRJ.pt.md), [SBJR](../../aerodromos/sbcw-curitiba/twr/SBJR.pt.md), [SBSC](../../aerodromos/sbcw-curitiba/twr/SBSC.pt.md), [SBAF](../../aerodromos/sbcw-curitiba/afis/SBAF.pt.md), [SBMI](../../aerodromos/sbcw-curitiba/afis/SBMI.pt.md), [SBES](../../aerodromos/sbcw-curitiba/twr/SBES.pt.md), [SBCB](../../aerodromos/sbcw-curitiba/afis/SBCB.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

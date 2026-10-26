@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Florianópolis Control |
 | **Frequency** | **119.650** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBFL`, `SBNF`, `SBJV` |
+| **Aerodromes in the TMA** | [SBFL](../../aerodromos/sbcw-curitiba/twr/SBFL.en.md), [SBNF](../../aerodromos/sbcw-curitiba/twr/SBNF.en.md), [SBJV](../../aerodromos/sbcw-curitiba/afis/SBJV.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

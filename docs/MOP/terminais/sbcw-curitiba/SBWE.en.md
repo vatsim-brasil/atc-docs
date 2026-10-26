@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Macaé Control |
 | **Frequency** | **119.450** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBME`, `SBES`, `SBCB`, `SBCP`, `SBFS` |
+| **Aerodromes in the TMA** | [SBME](../../aerodromos/sbcw-curitiba/twr/SBME.en.md), [SBES](../../aerodromos/sbcw-curitiba/twr/SBES.en.md), [SBCB](../../aerodromos/sbcw-curitiba/afis/SBCB.en.md), [SBCP](../../aerodromos/sbcw-curitiba/afis/SBCP.en.md), [SBFS](../../aerodromos/sbcw-curitiba/afis/SBFS.en.md), [SBPW](../../aerodromos/sbcw-curitiba/afis/SBPW.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

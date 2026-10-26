@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Natal |
 | **Frequência** | **119.300** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | [SBSG](../../aerodromos/sbre-recife/twr/SBSG.pt.md), `SBNT` |
+| **Aeródromos na TMA** | [SBSG](../../aerodromos/sbre-recife/twr/SBSG.pt.md), [SBNT](../../aerodromos/sbre-recife/twr/SBNT.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

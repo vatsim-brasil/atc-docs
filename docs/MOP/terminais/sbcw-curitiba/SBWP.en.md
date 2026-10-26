@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Palegre Control |
 | **Frequency** | **129.600** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBPA`, `SBCO` |
+| **Aerodromes in the TMA** | [SBPA](../../aerodromos/sbcw-curitiba/twr/SBPA.en.md), [SBCO](../../aerodromos/sbcw-curitiba/twr/SBCO.en.md), [SBCX](../../aerodromos/sbcw-curitiba/afis/SBCX.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 
