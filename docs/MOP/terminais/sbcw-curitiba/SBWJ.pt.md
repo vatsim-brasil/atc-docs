@@ -72,15 +72,50 @@ As camadas **Rotas de helicópteros (REH)** (27 rotas) e **Rota de ultraleves (R
 
 ## :material-view-grid-outline: Setorização do APP
 
-O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP** no mapa para vê-los. Quando a posição de um setor está desconectada, o setor passa para a posição indicada em *Cobertura*.
+O APP é dividido em setores, cada um com posição e frequência próprias no pacote. Ligue a camada **Setores do APP** no mapa para vê-los, ou a camada de uma posição combinada para ver a área consolidada que ela assume. Quem assume um setor fechado está em [Posições combinadas](#posicoes-combinadas) e no diagrama de [cobertura](#cobertura-top-down).
 
-| Posição | Frequência | Limites | Cobertura |
-| --- | --- | --- | --- |
-| `SBWJ_S_APP` | **126.200** | 6500 FT – FL245 | `SBWJ_APP` |
-| `SBWJ_RJ_APP` | **120.750** | 1500 FT – FL120 | `SBWJ_N_APP` / `SBWJ_S_APP` |
-| `SBWJ_N_APP` | **125.950** | 6500 FT – FL245 | `SBWJ_NE_APP` |
-| `SBWJ_E_APP` | **133.300** | 6500 FT – FL245 | `SBWJ_NE_APP` |
-| `SBWJ_GL_APP` | **128.900** | 1500 FT – FL120 | `SBWJ_N_APP` |
+Escolha a área na lista: o setor total (uma posição para toda a TMA), uma posição combinada ou um setor elementar. A área está preenchida, com os limites verticais abaixo do nome; o resto da TMA aparece em cinza. Hachurado: parte do setor que, abaixo de FL120, pertence a um setor baixo (RJ ou GL).
+
+<div class="setor-viewer" data-lang="pt" markdown="block">
+<figure data-grupo="total" data-titulo="SBWJ_APP" data-info="119.000 · assume SBWJ_S_APP, SBWJ_NE_APP" markdown="span">
+  ![Posição combinada SBWJ_APP: toda a TMA](img/sbwj-comb-app.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="comb" data-titulo="SBWJ_NE_APP" data-info="120.550 · assume SBWJ_N_APP, SBWJ_E_APP" markdown="span">
+  ![Posição combinada SBWJ_NE_APP: setores N e E, ao norte e a leste, com o GL](img/sbwj-comb-ne.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="S" data-info="SBWJ_S_APP · 126.200 · 6500 FT – FL245" markdown="span">
+  ![Setor S do APP Rio, de 6500 FT – FL245](img/sbwj-setor-s.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="N" data-info="SBWJ_N_APP · 125.950 · 6500 FT – FL245" markdown="span">
+  ![Setor N do APP Rio, de 6500 FT – FL245](img/sbwj-setor-n.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="E" data-info="SBWJ_E_APP · 133.300 · 6500 FT – FL245" markdown="span">
+  ![Setor E do APP Rio, de 6500 FT – FL245](img/sbwj-setor-e.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="RJ" data-info="SBWJ_RJ_APP · 120.750 · 1500 FT – FL120" markdown="span">
+  ![Setor RJ do APP Rio, de 1500 FT – FL120](img/sbwj-setor-rj.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="GL" data-info="SBWJ_GL_APP · 128.900 · 1500 FT – FL120" markdown="span">
+  ![Setor GL do APP Rio, de 1500 FT – FL120](img/sbwj-setor-gl.svg){ loading=lazy }
+</figure>
+</div>
+
+| Setor | Posição | Frequência | Limites | Função | Cobertura |
+| :---: | --- | --- | --- | --- | --- |
+| **S** | `SBWJ_S_APP` | **126.200** | 6500 FT – FL245 | **Setor alto** ao sul e sobre o mar; também o Tubulão Sul | `SBWJ_APP` |
+| **N** | `SBWJ_N_APP` | **125.950** | 6500 FT – FL245 | **Setor alto** ao norte e a oeste; também o Tubulão Norte | `SBWJ_NE_APP` |
+| **E** | `SBWJ_E_APP` | **133.300** | 6500 FT – FL245 | **Setor alto** a leste, até a Região dos Lagos | `SBWJ_NE_APP` |
+| **RJ** | `SBWJ_RJ_APP` | **120.750** | 1500 FT – FL120 | **Setor baixo** sobre SBRJ, SBJR e SBSC | `SBWJ_N_APP` / `SBWJ_S_APP` |
+| **GL** | `SBWJ_GL_APP` | **128.900** | 1500 FT – FL120 | **Setor baixo** sobre SBGL e SBAF | `SBWJ_N_APP` |
+
+- **Setores altos (S, N, E):** dividem a TMA de 6500 pés ao FL245, onde ficam as entradas e saídas pelo ACC e o Tubulão.
+- **Setores baixos (RJ, GL):** ficam por baixo de S e N, de 1500 pés ao FL120, em volta dos aeródromos principais. Com o RJ ou o GL fechado, o setor alto de cima assume a camada baixa (ver *Cobertura*).
 
 ### Posições combinadas
 
@@ -449,6 +484,41 @@ setores.forEach(function (s, k) {
         .addTo(grupoSetores);
 });
 
+// Posições combinadas (tabela "Posições combinadas"): cada uma vira uma camada com a área consolidada
+const combinadas = {
+    "SBWJ_APP": { "freq": "119.000", "assume": ["SBWJ_S_APP", "SBWJ_NE_APP"], "cor": "#38bdf8" },
+    "SBWJ_NE_APP": { "freq": "120.550", "assume": ["SBWJ_N_APP", "SBWJ_E_APP"], "cor": "#f472b6" }
+};
+// Setores baixos cobertos por um setor alto quando fechados (diagrama de cobertura)
+const cobertura = { "SBWJ_N_APP": ["SBWJ_GL_APP"], "SBWJ_S_APP": ["SBWJ_RJ_APP"] };
+function expandir(posicao) {
+    if (!combinadas[posicao]) return [posicao].concat(cobertura[posicao] || []);
+    return combinadas[posicao].assume.reduce(function (r, p) { return r.concat(expandir(p)); }, []);
+}
+function pes(t) {
+    return t.indexOf('FL') === 0 ? 100 * parseInt(t.slice(2), 10) : parseInt(t, 10);
+}
+function nivel(ft) {
+    return ft >= 10000 ? 'FL' + String(ft / 100).padStart(3, '0') : ft + ' FT';
+}
+var gruposCombinados = {};
+Object.keys(combinadas).forEach(function (nome) {
+    var c = combinadas[nome];
+    var membros = setores.filter(function (s) { return expandir(nome).indexOf(s.posicao) >= 0; });
+    var lim = membros.map(function (s) { return s.lim.split(' – ').map(pes); });
+    var texto = nivel(Math.min.apply(null, lim.map(function (l) { return l[0]; }))) + ' – ' +
+        nivel(Math.max.apply(null, lim.map(function (l) { return l[1]; })));
+    // Polígonos opacos da mesma cor num painel próprio, com a transparência no painel: as divisas internas somem
+    var grupo = L.featureGroup();
+    membros.forEach(function (s) {
+        L.polygon(s.contorno.map(paraLatLng), { pane: 'comb-' + nome, color: c.cor, fillColor: c.cor, weight: 2, fillOpacity: 1 })
+            .bindPopup('<b>' + nome + '</b><br>' + c.freq + ' MHz<br>' + texto + '<br>Assume ' +
+                membros.map(function (m) { return m.posicao; }).join(', '))
+            .addTo(grupo);
+    });
+    gruposCombinados[nome] = grupo;
+});
+
 // Tubulão: CTA e UTA T8 do pacote SBCW, delegados pelo ACC Curitiba ao APP Rio
 const tubulao = [{"nome": "Tubulão Norte (CTA T8N)", "posicao": "SBWJ_N_APP", "freq": "125.950", "lim": "FL105 – FL245", "contorno": [[-45.605556, -23.038611], [-44.409444, -22.784444], [-44.676514, -23.030825], [-44.484227, -23.264821], [-45.4925, -23.48], [-45.539722, -23.309167], [-45.554722, -23.248056], [-45.605556, -23.038611]]}, {"nome": "Tubulão Sul (CTA T8S)", "posicao": "SBWJ_S_APP", "freq": "126.200", "lim": "FL105 – FL245", "contorno": [[-44.896944, -23.805556], [-44.178889, -23.636389], [-44.484227, -23.264821], [-45.4925, -23.48], [-45.428333, -23.712222], [-45.373333, -23.910556], [-44.896944, -23.805556]]}, {"nome": "Tubulão Norte (UTA T8N)", "posicao": "SBWJ_N_APP", "freq": "125.950", "lim": "FL245 – FL600", "contorno": [[-45.605556, -23.038611], [-44.409444, -22.784444], [-44.056944, -22.459167], [-43.730278, -22.451389], [-43.658333, -22.564167], [-43.512778, -23.0575], [-45.4925, -23.48], [-45.605556, -23.038611]]}, {"nome": "Tubulão Sul (UTA T8S)", "posicao": "SBWJ_S_APP", "freq": "126.200", "lim": "FL245 – FL600", "contorno": [[-43.512778, -23.0575], [-45.4925, -23.48], [-45.373333, -23.910556], [-44.896944, -23.805556], [-44.178889, -23.636389], [-43.645278, -23.510833], [-43.416944, -23.381944], [-43.512778, -23.0575]]}];
 var grupoTubulao = L.featureGroup();
@@ -569,11 +639,7 @@ var mapa = L.map('mapa-tma', {
 
 mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
 
-L.control.layers({
-    "Claro": tileMapaClaro,
-    "Escuro": tileMapaEscuro,
-    "Arcgis Satélite": tileMapaSatelite
-}, {
+var camadas = {
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "Limite da FIR": grupoFir,
@@ -582,7 +648,19 @@ L.control.layers({
     "Corredores visuais (REA)": grupoRea,
     "Rotas de helicópteros (REH)": grupoReh,
     "Rota de ultraleves (REUL)": grupoReul
-}).addTo(mapa);
+};
+Object.keys(gruposCombinados).forEach(function (nome) {
+    // Dentro do overlayPane, que o CSS do Leaflet protege do max-width do tema
+    var painel = mapa.createPane('comb-' + nome, mapa.getPane('overlayPane'));
+    painel.style.opacity = 0.35;
+    camadas['Combinada ' + nome] = gruposCombinados[nome];
+});
+
+L.control.layers({
+    "Claro": tileMapaClaro,
+    "Escuro": tileMapaEscuro,
+    "Arcgis Satélite": tileMapaSatelite
+}, camadas).addTo(mapa);
 
 // Rótulos dos corredores só com zoom suficiente para não embolar
 function detalheRea() {

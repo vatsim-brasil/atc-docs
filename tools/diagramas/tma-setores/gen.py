@@ -7,6 +7,8 @@ pacote de setores) e desenha dois painéis lado a lado: camada baixa
 Uso: python3 -I gen.py [pagina.md] [saida.svg]
      python3 -I gen.py <pagina.md> <saida.svg> --setor T1   (um mapa por setor)
      python3 -I gen.py <pagina.md> <saida.svg> --combinado SBXP_S_APP   (posição combinada)
+
+Os ajustes de cada TMA (aeródromos, cores, setores baixos) estão em TMAS.
 """
 import json
 import math
@@ -23,13 +25,29 @@ if COMBINADO:
 PAGE = ARGS[0] if len(ARGS) > 0 else "docs/MOP/terminais/sbcw-curitiba/SBXP.pt.md"
 OUT = ARGS[1] if len(ARGS) > 1 else "docs/MOP/terminais/sbcw-curitiba/img/sbxp-setores.svg"
 
-# Aeródromos de referência (ARP, graus decimais)
-AERODROMOS = {
-    "SBGR": (-46.4731, -23.4356),
-    "SBSP": (-46.6564, -23.6261),
-    "SBKP": (-47.1345, -23.0074),
-    "SBSJ": (-45.8615, -23.2292),
+# Por TMA (campo "id" dos volumes da página): aeródromos de referência (ARP, graus
+# decimais), nome, cores das posições combinadas, setores baixos que ficam dentro dos
+# outros (as "finais", desenhadas por cima e hachuradas) e a cobertura deles, que
+# entra na área de uma posição combinada.
+TMAS = {
+    "SBXP": {
+        "nome": "TMA São Paulo",
+        "aerodromos": {"SBGR": (-46.4731, -23.4356), "SBSP": (-46.6564, -23.6261),
+                       "SBKP": (-47.1345, -23.0074), "SBSJ": (-45.8615, -23.2292)},
+        "cores": {"S": "#60a5fa", "E": "#34d399", "N": "#f472b6", "NL": "#fb923c", "NU": "#a78bfa", "APP": "#38bdf8"},
+        "final": lambda s: s["rot"].startswith("F"),
+        "cobertura": {},
+    },
+    "SBWJ": {
+        "nome": "TMA Rio de Janeiro",
+        "aerodromos": {"SBGL": (-43.2506, -22.8100), "SBRJ": (-43.1628, -22.9104),
+                       "SBJR": (-43.3722, -22.9868), "SBSC": (-43.7191, -22.9324)},
+        "cores": {"NE": "#f472b6", "APP": "#38bdf8"},
+        "final": lambda s: s["rot"] in ("RJ", "GL"),
+        "cobertura": {"SBWJ_N_APP": ["SBWJ_GL_APP"], "SBWJ_S_APP": ["SBWJ_RJ_APP"]},
+    },
 }
+AERODROMOS = {}
 INK, MUTED, BG = "#1e293b", "#64748b", "#f8fafc"
 FONT = 'font-family="Ubuntu Sans, Ubuntu, Segoe UI, Roboto, Arial, sans-serif"'
 
@@ -46,11 +64,11 @@ def ler_combinadas(path):
     return res
 
 
-def expandir(posicao, combinadas):
-    """Posições elementares que uma posição combinada assume."""
+def expandir(posicao, combinadas, cobertura={}):
+    """Posições elementares que uma posição combinada assume (com as que ela cobre)."""
     if posicao not in combinadas:
-        return [posicao]
-    return [e for p in combinadas[posicao] for e in expandir(p, combinadas)]
+        return [posicao] + cobertura.get(posicao, [])
+    return [e for p in combinadas[posicao] for e in expandir(p, combinadas, cobertura)]
 
 
 def ler_pagina(path):
@@ -59,7 +77,7 @@ def ler_pagina(path):
     volumes = json.loads(re.search(r"const volumes = (\[.*?\]);\n", texto, re.S).group(1))
     paleta = json.loads(re.search(r"const paletaSetores = (\[.*?\]);", texto).group(1).replace("'", '"'))
     tma = next(v for v in volumes if v["tipo"] == "tma" and v["nome"].endswith("1"))
-    return setores, tma["contorno"], paleta
+    return setores, tma["contorno"], paleta, TMAS[tma["id"]]
 
 
 def rotulo(posicao):
@@ -146,13 +164,13 @@ def mapa_setor(alvo, setores, tma, proj, caminho, W):
            f'<clipPath id="clip-alvo"><path d="{caminho(alvo["contorno"], 0)}"/></clipPath></defs>']
     out.append(f'<path d="{caminho(tma, 0)}" fill="#e2e8f0"/>')
     for s in setores:
-        if s is not alvo and not s["rot"].startswith("F"):
+        if s is not alvo and not s["final"]:
             out.append(f'<path d="{caminho(s["contorno"], 0)}" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>')
     out.append(f'<path d="{caminho(alvo["contorno"], 0)}" fill="{alvo["cor"]}" fill-opacity="0.85" stroke="{INK}" stroke-width="2.2" stroke-linejoin="round"/>')
     # finais que tomam parte do setor abaixo de FL100: hachuradas, recortadas no setor
     tomadas = []
     for f in setores:
-        if f is not alvo and not alvo["rot"].startswith("F") and f["rot"].startswith("F") and f["max"] > alvo["min"]:
+        if f is not alvo and not alvo["final"] and f["final"] and f["max"] > alvo["min"]:
             poli = [proj(p, 0) for p in f["contorno"]]
             alvo_poli = [proj(p, 0) for p in alvo["contorno"]]
             comuns, total = pontos_comuns(alvo_poli, poli)
@@ -228,7 +246,7 @@ def mapa_combinado(nome, membros, setores, tma, proj, caminho, W, cor):
     """Área consolidada de uma posição combinada, sem as divisas internas."""
     out = [f'<path d="{caminho(tma, 0)}" fill="#e2e8f0"/>']
     for s in setores:
-        if s not in membros and not s["rot"].startswith("F"):
+        if s not in membros and not s["final"]:
             out.append(f'<path d="{caminho(s["contorno"], 0)}" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>')
     # todos os membros com a mesma cor e contorno da mesma cor: as divisas internas somem
     # cor opaca (equivale a 85% sobre o cinza): as divisas dos outros setores não aparecem por baixo
@@ -257,11 +275,13 @@ def mapa_combinado(nome, membros, setores, tma, proj, caminho, W, cor):
 
 
 def main():
-    setores, tma, paleta = ler_pagina(PAGE)
+    setores, tma, paleta, cfg = ler_pagina(PAGE)
+    AERODROMOS.update(cfg["aerodromos"])
     for k, s in enumerate(setores):
         s["cor"] = paleta[k % len(paleta)]
         s["rot"] = rotulo(s["posicao"])
         s["min"], s["max"] = limites(s["lim"])
+        s["final"] = cfg["final"](s)
 
     # projeção equirretangular local
     lon0 = sum(p[0] for p in tma) / len(tma)
@@ -279,8 +299,8 @@ def main():
     def caminho(poli, dx):
         return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in (proj(p, dx) for p in poli)) + " Z"
 
-    finais = [s for s in setores if s["rot"].startswith("F")]
-    baixos = [s for s in setores if s["min"] < 13500 and not s["rot"].startswith("F")]
+    finais = [s for s in setores if s["final"]]
+    baixos = [s for s in setores if s["min"] < 13500 and not s["final"]]
     altos = [s for s in setores if s["max"] > 13500]
 
     def painel(dx, titulo, base, topo=()):
@@ -305,11 +325,10 @@ def main():
 
     if COMBINADO:
         combinadas = ler_combinadas(PAGE)
-        elementares = expandir(COMBINADO, combinadas)
+        elementares = expandir(COMBINADO, combinadas, cfg["cobertura"])
         membros = [s for s in setores if s["posicao"] in elementares]
-        cores = {"S": "#60a5fa", "E": "#34d399", "N": "#f472b6", "NL": "#fb923c", "NU": "#a78bfa", "APP": "#38bdf8"}
         nome = COMBINADO.split("_")[1] if COMBINADO.count("_") == 2 else "APP"
-        corpo = mapa_combinado(COMBINADO, membros, setores, tma, proj, caminho, W, cores.get(nome, "#60a5fa"))
+        corpo = mapa_combinado(COMBINADO, membros, setores, tma, proj, caminho, W, cfg["cores"].get(nome, "#60a5fa"))
         largura = W
     elif SETOR:
         alvo = next(s for s in setores if s["rot"] == SETOR)
@@ -319,7 +338,7 @@ def main():
         corpo = painel(0, "5500 FT – FL135", baixos, finais) + painel(W + 20, "FL135 – FL245", altos)
         largura = 2 * W + 20
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {largura} {H}" width="{largura}" height="{H}" role="img" '
-           f'aria-label="TMA São Paulo: setores do APP" {FONT}>\n<title>TMA São Paulo: setores do APP</title>\n'
+           f'aria-label="{cfg["nome"]}: setores do APP" {FONT}>\n<title>{cfg["nome"]}: setores do APP</title>\n'
            f'<rect width="{largura}" height="{H}" rx="12" fill="{BG}"/>\n' + "\n".join(corpo) + "\n</svg>\n")
     open(OUT, "w", encoding="utf-8").write(svg)
 
