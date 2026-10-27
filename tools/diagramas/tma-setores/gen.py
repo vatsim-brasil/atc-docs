@@ -54,6 +54,14 @@ TMAS = {
         "final": lambda s: s["rot"] in ("05", "06", "07", "08"),
         "cobertura": {},
     },
+    # Setores da AIP (o pacote só tem SBWR_APP); 05 a 08 são o miolo, do GND a 6500 FT
+    "SBWR": {
+        "nome": "TMA Brasília",
+        "aerodromos": {"SBBR": (-47.9206, -15.8711)},
+        "cores": {"APP": "#38bdf8"},
+        "final": lambda s: False,
+        "cobertura": {},
+    },
 }
 AERODROMOS = {}
 INK, MUTED, BG = "#1e293b", "#64748b", "#f8fafc"
@@ -86,7 +94,8 @@ def ler_pagina(path):
     setores = json.loads(re.search(r"const setores = (\[.*?\]);\n", texto, re.S).group(1))
     volumes = json.loads(re.search(r"const volumes = (\[.*?\]);\n", texto, re.S).group(1))
     paleta = json.loads(re.search(r"const paletaSetores = (\[.*?\]);", texto).group(1).replace("'", '"'))
-    tma = next(v for v in volumes if v["tipo"] == "tma" and v["nome"].endswith("1"))
+    tmas = [v for v in volumes if v["tipo"] == "tma"]
+    tma = next((v for v in tmas if v["nome"].endswith("1")), tmas[0])
     return setores, tma["contorno"], paleta, TMAS[tma["id"]]
 
 
@@ -99,6 +108,8 @@ def rotulo(posicao):
 def limites(lim):
     def ft(t):
         t = t.strip()
+        if t == "GND":
+            return 0
         return int(t[2:]) * 100 if t.startswith("FL") else int(t.split()[0])
     a, b = lim.split("–")
     return ft(a), ft(b)
@@ -164,6 +175,8 @@ def pontos_comuns(a, b, n=90):
 
 
 def nivel(ft):
+    if ft == 0:
+        return "GND"
     return f"FL{ft // 100:03d}" if ft >= 10000 else f"{ft} FT"
 
 
