@@ -59,81 +59,6 @@ The **Visual corridors (REA)** layer shows the 12 corridors of the CCV REA WP ch
 | Porto Alegre 2 CTR | 1500 FT – 3500 FT | <span class="classe-badge classe-c">C</span> |
 | Caxias do Sul FIZ | GND – 5500 FT | <span class="classe-badge classe-g">G</span> |
 
-## :material-view-grid-outline: APP Sectorization
-
-The AIP splits Porto Alegre APP into ten sectors[^amdt]. **Porto Alegre 1** is their union:
-
-- **01 and 02** cover the west and east of the SBPA and SBCO area, each split into a low layer (**L**, 3500 to 7000 ft) and a high layer (**U**, 7000 ft to FL195).
-- **03** covers the north, from the Serra Gaúcha to Caxias do Sul, and **04** the south, over the Guaíba; both run from 3500 ft to FL195.
-- **05 and 06** are a narrow strip over Canoas, parallel to the SBPA runway: 05 from GND to 3000 ft and 06 from 3500 ft to FL195.
-- **07 and 08** are **flexible VFR sectors**, activated on demand inside sector 03: 07 to the west, from Montenegro to Garibaldi, and 08 to the east, from Taquara to São Francisco de Paula.
-
-Turn on the **APP sectors (AIP)** layer on the map to see them.
-
-In the package the APP **has no sectors**: `SBWP_APP` (**129.600**) covers all of them. The sectorization helps to understand the flows, not to split positions on VATSIM.
-
-Pick an area in the list: the whole TMA or an AIP sector. The area is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that also belongs to strip 06 or to a VFR sector.
-
-<div class="setor-viewer" data-lang="en" markdown="block">
-<figure data-grupo="total" data-titulo="SBWP_APP" data-info="129.600 · whole TMA" markdown="span">
-  ![SBWP_APP: the whole Porto Alegre TMA](img/sbwp-comb-app.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="01L" data-info="3500 FT – 7000 FT" markdown="span">
-  ![Porto Alegre APP sector 01L, 3500 FT – 7000 FT](img/sbwp-setor-01l.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="01U" data-info="7000 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 01U, 7000 FT – FL195](img/sbwp-setor-01u.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="02L" data-info="3500 FT – 7000 FT" markdown="span">
-  ![Porto Alegre APP sector 02L, 3500 FT – 7000 FT](img/sbwp-setor-02l.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="02U" data-info="7000 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 02U, 7000 FT – FL195](img/sbwp-setor-02u.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="03" data-info="3500 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 03, 3500 FT – FL195](img/sbwp-setor-03.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="04" data-info="3500 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 04, 3500 FT – FL195](img/sbwp-setor-04.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="05" data-info="GND – 3000 FT" markdown="span">
-  ![Porto Alegre APP sector 05, GND – 3000 FT](img/sbwp-setor-05.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="06" data-info="3500 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 06, 3500 FT – FL195](img/sbwp-setor-06.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="07" data-info="3500 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 07, 3500 FT – FL195](img/sbwp-setor-07.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="08" data-info="3500 FT – FL195" markdown="span">
-  ![Porto Alegre APP sector 08, 3500 FT – FL195](img/sbwp-setor-08.svg){ loading=lazy }
-</figure>
-
-</div>
-
-| Sector | Limits | Frequency (AIP) | Role |
-| :---: | --- | :---: | --- |
-| **01L** | 3500 FT – 7000 FT | 119.000 · 120.550 · 128.900 | **West**, low layer, over SBPA and the Jacuí delta |
-| **01U** | 7000 FT – FL195 | 119.000 · 120.550 · 128.900 | **West**, high layer |
-| **02L** | 3500 FT – 7000 FT | 119.000 · 120.550 · 128.900 | **East**, low layer, from Gravataí to Santo Antônio da Patrulha |
-| **02U** | 7000 FT – FL195 | 119.000 · 120.550 · 128.900 | **East**, high layer |
-| **03** | 3500 FT – FL195 | 119.000 · 120.550 · 128.900 | **North**, from the Serra Gaúcha to Caxias do Sul |
-| **04** | 3500 FT – FL195 | 119.000 · 120.550 · 128.900 | **South**, over the Guaíba |
-| **05** | GND – 3000 FT | 128.900 | **Canoas strip**, low layer |
-| **06** | 3500 FT – FL195 | 120.100 | **Canoas strip**, high layer |
-| **07** | 3500 FT – FL195 | 120.100 | Flexible **VFR sector** west of 03, activated on demand |
-| **08** | 3500 FT – FL195 | — | Flexible **VFR sector** east of 03, activated on demand |
-
 ## :material-headset: ATC Units
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
@@ -193,7 +118,7 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 
 - **Corridor class:** each segment takes the corridor's class, not that of the volume it crosses. The corridors near Porto Alegre and its metropolitan area are **class D**; those in the Serra, around the Caxias FIZ, are **class G** (NORTE, OESTE between VERANÓPOLIS and GARIBALDI, SÃO VENDELINO between FORQUETA and SÃO VENDELINO, and LESTE between 4 FOLHAS and CANELA).
 - **In class D**, the APP provides flight information and alerting, and pilots coordinate among themselves; on controlled segments the APP may change the altitude or clear the flight off the REAs.
-- **In the real world**, VFR traffic talks to Porto Alegre APP, whose AIP sectors **07** (120.100) and **08** are VFR sectors activated on demand; in the Caxias FIZ, to Caxias Radio (**131.600**). Air-to-air coordination uses the REA coordination frequency (FCA).
+- **In the real world**, VFR traffic talks to Porto Alegre APP; in the Caxias FIZ, to Caxias Radio (**131.600**). Air-to-air coordination uses the REA coordination frequency (FCA).
 - **In the package** there is only `SBWP_APP` (**129.600**), which handles all VFR traffic on the REAs. Pilots call the **online** position, not the real-world frequency. Without the APP, the next position in the [coverage](#top-down-coverage) takes over. Air-to-air coordination goes on **UNICOM 122.800**.
 
 ### General VFR rules
@@ -317,8 +242,7 @@ Tráfego REA LESTE, PR-MWN, CANELA, 4500 pés, proa TRÊS COROAS.
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
-- In the package, Porto Alegre APP has no sectors: `SBWP_APP` covers the whole TMA.
-- Volumes, sectors and map follow AIP AMDT AIRAC 2612A1 (26 NOV 2026). The VATSIM sector package only has the Porto Alegre 1 outline, which differs slightly.
+- Volumes and map follow AIP AMDT AIRAC 2612A1 (26 NOV 2026). The VATSIM sector package only has the Porto Alegre 1 outline, which differs slightly.
 - SBCO (Canoas) is an air base; civil aircraft require authorization from the base commander.
 
 ---
@@ -326,7 +250,6 @@ Tráfego REA LESTE, PR-MWN, CANELA, 4500 pés, proa TRÊS COROAS.
 Back to the Curitiba FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
-[^amdt]: AIP Brasil, AMDT AIRAC 2612A1 (26 NOV 2026), ENR 2.1 and ENR 2.2.
 [^aic1425]: [AIC N 14/25](https://publicacoes.decea.mil.br/publicacao/aic-n-1425){ target="_blank" }, items 3 to 5 and Annexes A and B.
 
 <!--
@@ -386,13 +309,13 @@ var grupoTma = L.featureGroup();
 var grupoCtr = L.featureGroup();
 
 // Setores do APP (só nas TMAs setorizadas), agrupados por posição
-const setores = [{"posicao": "Sector 01L", "rot": "01L", "freq": "129.600", "lim": "3500 FT – 7000 FT", "contorno": [[-51.805, -29.657778], [-51.236667, -29.714167], [-51.126389, -29.725], [-51.156667, -30.146944], [-51.831944, -30.108611]]}, {"posicao": "Sector 01U", "rot": "01U", "freq": "129.600", "lim": "7000 FT – FL195", "contorno": [[-51.805, -29.657778], [-51.236667, -29.714167], [-51.126389, -29.725], [-51.156667, -30.146944], [-51.831944, -30.108611]]}, {"posicao": "Sector 02L", "rot": "02L", "freq": "129.600", "lim": "3500 FT – 7000 FT", "contorno": [[-51.126389, -29.725], [-50.528056, -29.779722], [-50.608056, -29.858056], [-50.624722, -30.174722], [-51.156667, -30.146944]]}, {"posicao": "Sector 02U", "rot": "02U", "freq": "129.600", "lim": "7000 FT – FL195", "contorno": [[-51.126389, -29.725], [-50.528056, -29.779722], [-50.608056, -29.858056], [-50.624722, -30.174722], [-51.156667, -30.146944]]}, {"posicao": "Sector 03", "rot": "03", "freq": "129.600", "lim": "3500 FT – FL195", "contorno": [[-51.805, -29.659167], [-51.882222, -29.276667], [-51.588889, -29.026944], [-51.598889, -28.916944], [-51.277222, -28.829444], [-50.958056, -28.8], [-50.464167, -29.133333], [-50.219167, -29.475278], [-50.528056, -29.779722], [-51.126389, -29.725], [-51.236667, -29.714167]]}, {"posicao": "Sector 04", "rot": "04", "freq": "129.600", "lim": "3500 FT – FL195", "contorno": [[-51.831944, -30.108611], [-51.156667, -30.146944], [-50.624722, -30.174722], [-50.875, -30.425], [-51.191667, -30.491667], [-51.843611, -30.508889], [-51.915556, -30.452778], [-51.968333, -30.382778]]}, {"posicao": "Sector 05", "rot": "05", "freq": "129.600", "lim": "GND – 3000 FT", "contorno": [[-51.359167, -29.883611], [-51.321111, -29.789722], [-50.892222, -29.919444], [-50.931667, -30.013333]]}, {"posicao": "Sector 06", "rot": "06", "freq": "129.600", "lim": "3500 FT – FL195", "contorno": [[-51.359167, -29.883611], [-51.321111, -29.789722], [-50.892222, -29.919444], [-50.931667, -30.013333]]}, {"posicao": "Sector 07", "rot": "07", "freq": "129.600", "lim": "3500 FT – FL195", "contorno": [[-51.805, -29.659167], [-51.882222, -29.276667], [-51.588889, -29.026944], [-51.598889, -28.916944], [-51.438056, -28.873333], [-51.236667, -29.714167]]}, {"posicao": "Sector 08", "rot": "08", "freq": "129.600", "lim": "3500 FT – FL195", "contorno": [[-50.464167, -29.133333], [-50.219167, -29.475278], [-50.528056, -29.779722], [-50.891389, -29.746667]]}];
+const setores = [];
 const paletaSetores = ['#60a5fa', '#f472b6', '#a3e635', '#fb923c', '#a78bfa', '#2dd4bf', '#fbbf24', '#f87171', '#34d399', '#e879f9', '#38bdf8', '#fda4af', '#818cf8'];
 var grupoSetores = L.featureGroup();
 setores.forEach(function (s, k) {
     var cor = paletaSetores[k % paletaSetores.length];
     L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, fillOpacity: 0.2 })
-        .bindPopup('<b>' + s.posicao + '</b><br>' + s.lim + '<br>In the package: <code>SBWP_APP</code> ' + s.freq)
+        .bindPopup('<b>' + s.posicao + '</b><br>' + s.freq + ' MHz<br>' + s.lim)
         .addTo(grupoSetores);
 });
 
@@ -461,7 +384,6 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
-    "APP sectors (AIP)": grupoSetores,
     "Visual corridors (REA)": grupoRea
 }).addTo(mapa);
 

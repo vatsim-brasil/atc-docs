@@ -46,30 +46,6 @@ TMAS = {
         "final": lambda s: s["rot"] in ("RJ", "GL"),
         "cobertura": {"SBWJ_N_APP": ["SBWJ_GL_APP"], "SBWJ_S_APP": ["SBWJ_RJ_APP"]},
     },
-    # Setores da AIP (o pacote só tem SBWH_APP): rótulo no campo "rot" de cada setor
-    "SBWH": {
-        "nome": "TMA Belo Horizonte",
-        "aerodromos": {"SBCF": (-43.9719, -19.6244), "SBBH": (-43.9506, -19.8512), "SBLS": (-43.8964, -19.6616)},
-        "cores": {"APP": "#38bdf8"},
-        "final": lambda s: s["rot"] in ("05", "06", "07", "08"),
-        "cobertura": {},
-    },
-    # Setores da AIP (o pacote só tem SBWR_APP); 05 a 08 são o miolo, do GND a 6500 FT
-    "SBWR": {
-        "nome": "TMA Brasília",
-        "aerodromos": {"SBBR": (-47.9206, -15.8711)},
-        "cores": {"APP": "#38bdf8"},
-        "final": lambda s: False,
-        "cobertura": {},
-    },
-    # Setores da AIP (o pacote só tem SBWP_APP); 05/06 é a faixa de Canoas e 07/08 são os setores VFR dentro do 03
-    "SBWP": {
-        "nome": "TMA Porto Alegre",
-        "aerodromos": {"SBPA": (-51.1714, -29.9939), "SBCO": (-51.1442, -29.9459), "SBCX": (-51.1875, -29.1971)},
-        "cores": {"APP": "#38bdf8"},
-        "final": lambda s: s["rot"] in ("05", "06", "07", "08"),
-        "cobertura": {},
-    },
 }
 AERODROMOS = {}
 INK, MUTED, BG = "#1e293b", "#64748b", "#f8fafc"

@@ -57,66 +57,6 @@ The **Visual corridors (REA)** layer shows the 5 REAs of AIC N 10/17 and their g
 | Brasília CTR | GND – 6500 FT | <span class="classe-badge classe-c">C</span> |
 | Brasília ATZ | GND – 5500 FT | — |
 
-## :material-view-grid-outline: APP Sectorization
-
-The AIP splits Brasília APP into eight sectors[^amdt]. Sectors **01 to 04** form the outer ring of the TMA, from 6500 ft to FL195, one per quadrant. Sectors **05 to 08** are the core: four quadrants that meet over SBBR, published from **GND to 6500 ft**, that is, the Brasília CTR, which in the real world is also handled by the APP. Sectors 05 and 07 take the northbound departures (120.650, *TKOF NORTH*) and 06 and 08 the southbound departures (129.150, *TKOF SOUTH*). Turn on the **APP sectors (AIP)** layer on the map to see them.
-
-In the package the APP **has no sectors**: `SBWR_APP` (**119.200**) covers all of them. The sectorization helps to understand the flows, not to split positions on VATSIM.
-
-Pick an area in the list: the whole TMA or an AIP sector. The area is filled, with its vertical limits below the name; the rest of the TMA is grey.
-
-<div class="setor-viewer" data-lang="en" markdown="block">
-<figure data-grupo="total" data-titulo="SBWR_APP" data-info="119.200 · whole TMA" markdown="span">
-  ![SBWR_APP: the whole Brasília TMA](img/sbwr-comb-app.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="01" data-info="6500 FT – FL195" markdown="span">
-  ![Brasília APP sector 01, 6500 FT – FL195](img/sbwr-setor-01.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="02" data-info="6500 FT – FL195" markdown="span">
-  ![Brasília APP sector 02, 6500 FT – FL195](img/sbwr-setor-02.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="03" data-info="6500 FT – FL195" markdown="span">
-  ![Brasília APP sector 03, 6500 FT – FL195](img/sbwr-setor-03.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="04" data-info="6500 FT – FL195" markdown="span">
-  ![Brasília APP sector 04, 6500 FT – FL195](img/sbwr-setor-04.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="05" data-info="GND – 6500 FT" markdown="span">
-  ![Brasília APP sector 05, GND – 6500 FT](img/sbwr-setor-05.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="06" data-info="GND – 6500 FT" markdown="span">
-  ![Brasília APP sector 06, GND – 6500 FT](img/sbwr-setor-06.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="07" data-info="GND – 6500 FT" markdown="span">
-  ![Brasília APP sector 07, GND – 6500 FT](img/sbwr-setor-07.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="08" data-info="GND – 6500 FT" markdown="span">
-  ![Brasília APP sector 08, GND – 6500 FT](img/sbwr-setor-08.svg){ loading=lazy }
-</figure>
-
-</div>
-
-| Sector | Limits | Frequency (AIP) | Role |
-| :---: | --- | :---: | --- |
-| **01** | 6500 FT – FL195 | 120.000 | **Outer sector** west and northwest |
-| **02** | 6500 FT – FL195 | 120.300 | **Outer sector** north and northeast |
-| **03** | 6500 FT – FL195 | 119.500 | **Outer sector** east and southeast |
-| **04** | 6500 FT – FL195 | 129.600 | **Outer sector** south and southwest |
-| **05** | GND – 6500 FT | 119.200 · 120.650 | **Northwest core**, northbound departures |
-| **06** | GND – 6500 FT | 119.700 · 129.150 | **Southwest core**, southbound departures |
-| **07** | GND – 6500 FT | 119.200 · 120.650 | **Northeast core**, northbound departures |
-| **08** | GND – 6500 FT | 119.700 · 129.150 | **Southeast core**, southbound departures |
-
-The AIP also lists **121.150** as the primary VFR frequency in almost every sector.
-
 ## :material-headset: ATC Units
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
@@ -288,15 +228,13 @@ Coordenação, PR-MWN, posição TORRE 2, 4500 pés, proa TORRE 3, REA DELTA.
 - The TMA is class A between FL145 and FL195 and class C between 6500 FT and FL145.
 - In the real world, a 3 NM minimum separation applies within 40 NM of SBBR.
 - ATZs have no class published in the AIP (ENR 2.2).
-- In the package, Brasília APP has no sectors: `SBWR_APP` covers the whole TMA, and the CTR goes to `SBBR_TWR`.
-- Volumes, sectors and map follow AIP AMDT AIRAC 2612A1 (26 NOV 2026). The VATSIM sector package may carry slightly different TMA and CTR outlines.
+- Volumes and map follow AIP AMDT AIRAC 2612A1 (26 NOV 2026). The VATSIM sector package may carry slightly different TMA and CTR outlines.
 
 ---
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
-[^amdt]: AIP Brasil, AMDT AIRAC 2612A1 (26 NOV 2026), ENR 2.1 and ENR 2.2.
 [^aic1017]: [AIC N 10/17](https://publicacoes.decea.mil.br/publicacao/aic-n-1017){ target="_blank" }, items 3 to 5 and Annex A.
 
 <!--
@@ -354,13 +292,13 @@ var grupoTma = L.featureGroup();
 var grupoCtr = L.featureGroup();
 
 // Setores do APP (só nas TMAs setorizadas), agrupados por posição
-const setores = [{"posicao": "Sector 01", "rot": "01", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-48.541667, -16.099444], [-48.602222, -15.852778], [-48.936111, -15.723056], [-48.946667, -15.671389], [-48.7775, -15.333333], [-48.674722, -15.243056], [-48.401389, -15.049722], [-48.077222, -14.965], [-47.960556, -14.99], [-47.929444, -15.703889], [-48.308333, -15.73], [-48.296389, -15.893333], [-48.406667, -15.986111]]}, {"posicao": "Sector 02", "rot": "02", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-47.960556, -14.99], [-47.764722, -15.015278], [-47.446111, -15.162778], [-47.140278, -15.436389], [-47.089722, -15.811944], [-47.536111, -15.845], [-47.550278, -15.677778], [-47.929444, -15.703889]]}, {"posicao": "Sector 03", "rot": "03", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-47.089722, -15.811944], [-47.060556, -16.032222], [-47.242778, -16.388056], [-47.325, -16.486667], [-47.442222, -16.593611], [-47.542222, -16.659444], [-47.780833, -16.735833], [-47.905278, -16.037222], [-47.524444, -16.010833], [-47.536111, -15.845]]}, {"posicao": "Sector 04", "rot": "04", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-47.780833, -16.735833], [-47.931389, -16.780833], [-48.084167, -16.775556], [-48.298889, -16.742222], [-48.448333, -16.689722], [-48.476944, -16.664722], [-48.644722, -16.548611], [-48.599444, -16.235556], [-48.541667, -16.099444], [-48.406667, -15.986111], [-48.296389, -15.893333], [-48.283333, -16.063889], [-47.905278, -16.037222]]}, {"posicao": "Sector 05", "rot": "05", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-47.929444, -15.703889], [-47.9175, -15.870833], [-48.296389, -15.893333], [-48.308333, -15.73]]}, {"posicao": "Sector 06", "rot": "06", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-48.296389, -15.893333], [-48.283333, -16.063889], [-47.905278, -16.037222], [-47.9175, -15.870833]]}, {"posicao": "Sector 07", "rot": "07", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-47.536111, -15.845], [-47.550278, -15.677778], [-47.929444, -15.703889], [-47.9175, -15.870833]]}, {"posicao": "Sector 08", "rot": "08", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-47.536111, -15.845], [-47.524444, -16.010833], [-47.905278, -16.037222], [-47.9175, -15.870833]]}];
+const setores = [];
 const paletaSetores = ['#60a5fa', '#f472b6', '#a3e635', '#fb923c', '#a78bfa', '#2dd4bf', '#fbbf24', '#f87171', '#34d399', '#e879f9', '#38bdf8', '#fda4af', '#818cf8'];
 var grupoSetores = L.featureGroup();
 setores.forEach(function (s, k) {
     var cor = paletaSetores[k % paletaSetores.length];
     L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, fillOpacity: 0.2 })
-        .bindPopup('<b>' + s.posicao + '</b><br>' + s.lim + '<br>In the package: <code>SBWR_APP</code> ' + s.freq)
+        .bindPopup('<b>' + s.posicao + '</b><br>' + s.freq + ' MHz<br>' + s.lim)
         .addTo(grupoSetores);
 });
 
@@ -437,7 +375,6 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
-    "APP sectors (AIP)": grupoSetores,
     "Visual corridors (REA)": grupoRea
 }).addTo(mapa);
 

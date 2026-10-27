@@ -57,66 +57,6 @@ A camada **Corredores visuais (REA)** mostra as 5 REA da AIC N 10/17 e os portõ
 | CTR Brasília | GND – 6500 FT | <span class="classe-badge classe-c">C</span> |
 | ATZ Brasília | GND – 5500 FT | — |
 
-## :material-view-grid-outline: Setorização do APP
-
-A AIP divide o APP Brasília em oito setores[^amdt]. Os setores **01 a 04** formam o anel externo da TMA, de 6500 pés ao FL195, um por quadrante. Os setores **05 a 08** são o miolo: quatro quadrantes que se encontram sobre SBBR, publicados do **GND a 6500 pés**, ou seja, a CTR Brasília, que no mundo real também é do APP. Os setores 05 e 07 ficam com as saídas para o norte (120.650, *TKOF NORTE*) e os 06 e 08 com as saídas para o sul (129.150, *TKOF SUL*). Ligue a camada **Setores do APP (AIP)** no mapa para vê-los.
-
-No pacote, o APP **não é setorizado**: `SBWR_APP` (**119.200**) responde por todos os setores. A setorização serve para entender os fluxos, não para dividir posições na VATSIM.
-
-Escolha a área na lista: o setor total ou um setor da AIP. A área está preenchida, com os limites verticais abaixo do nome; o resto da TMA aparece em cinza.
-
-<div class="setor-viewer" data-lang="pt" markdown="block">
-<figure data-grupo="total" data-titulo="SBWR_APP" data-info="119.200 · toda a TMA" markdown="span">
-  ![SBWR_APP: toda a TMA Brasília](img/sbwr-comb-app.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="01" data-info="6500 FT – FL195" markdown="span">
-  ![Setor 01 do APP Brasília, de 6500 FT – FL195](img/sbwr-setor-01.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="02" data-info="6500 FT – FL195" markdown="span">
-  ![Setor 02 do APP Brasília, de 6500 FT – FL195](img/sbwr-setor-02.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="03" data-info="6500 FT – FL195" markdown="span">
-  ![Setor 03 do APP Brasília, de 6500 FT – FL195](img/sbwr-setor-03.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="04" data-info="6500 FT – FL195" markdown="span">
-  ![Setor 04 do APP Brasília, de 6500 FT – FL195](img/sbwr-setor-04.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="05" data-info="GND – 6500 FT" markdown="span">
-  ![Setor 05 do APP Brasília, de GND – 6500 FT](img/sbwr-setor-05.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="06" data-info="GND – 6500 FT" markdown="span">
-  ![Setor 06 do APP Brasília, de GND – 6500 FT](img/sbwr-setor-06.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="07" data-info="GND – 6500 FT" markdown="span">
-  ![Setor 07 do APP Brasília, de GND – 6500 FT](img/sbwr-setor-07.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="08" data-info="GND – 6500 FT" markdown="span">
-  ![Setor 08 do APP Brasília, de GND – 6500 FT](img/sbwr-setor-08.svg){ loading=lazy }
-</figure>
-
-</div>
-
-| Setor | Limites | Frequência (AIP) | Função |
-| :---: | --- | :---: | --- |
-| **01** | 6500 FT – FL195 | 120.000 | **Setor externo** oeste e noroeste |
-| **02** | 6500 FT – FL195 | 120.300 | **Setor externo** norte e nordeste |
-| **03** | 6500 FT – FL195 | 119.500 | **Setor externo** leste e sudeste |
-| **04** | 6500 FT – FL195 | 129.600 | **Setor externo** sul e sudoeste |
-| **05** | GND – 6500 FT | 119.200 · 120.650 | **Miolo noroeste**, saídas para o norte |
-| **06** | GND – 6500 FT | 119.700 · 129.150 | **Miolo sudoeste**, saídas para o sul |
-| **07** | GND – 6500 FT | 119.200 · 120.650 | **Miolo nordeste**, saídas para o norte |
-| **08** | GND – 6500 FT | 119.700 · 129.150 | **Miolo sudeste**, saídas para o sul |
-
-A AIP lista ainda **121.150** como frequência primária do VFR em quase todos os setores.
-
 ## :material-headset: Órgãos ATC
 
 | Código | Abrev. | Indicativo de Chamada | Frequência | Observações |
@@ -288,15 +228,13 @@ Coordenação, PR-MWN, posição TORRE 2, 4500 pés, proa TORRE 3, REA DELTA.
 - A TMA é classe A entre FL145 e FL195 e classe C entre 6500 FT e FL145.
 - No mundo real há separação mínima de 3 NM dentro de 40 NM de SBBR.
 - As ATZs não têm classe publicada na AIP (ENR 2.2).
-- No pacote, o APP Brasília não é setorizado: `SBWR_APP` cobre toda a TMA, e a CTR fica com a `SBBR_TWR`.
-- Volumes, setores e mapa seguem a AIP, AMDT AIRAC 2612A1 (26 NOV 2026). O pacote de setores da VATSIM pode trazer contornos um pouco diferentes da TMA e da CTR.
+- Volumes e mapa seguem a AIP, AMDT AIRAC 2612A1 (26 NOV 2026). O pacote de setores da VATSIM pode trazer contornos um pouco diferentes da TMA e da CTR.
 
 ---
 
 Voltar para a [visão geral das terminais](index.pt.md) da FIR Brasília.
 
 [^pacote]: Frequência no pacote de setores da VATSIM Brasil.
-[^amdt]: AIP Brasil, AMDT AIRAC 2612A1 (26 NOV 2026), ENR 2.1 e ENR 2.2.
 [^aic1017]: [AIC N 10/17](https://publicacoes.decea.mil.br/publicacao/aic-n-1017){ target="_blank" }, itens 3 a 5 e Anexo A.
 
 <!--
@@ -354,13 +292,13 @@ var grupoTma = L.featureGroup();
 var grupoCtr = L.featureGroup();
 
 // Setores do APP (só nas TMAs setorizadas), agrupados por posição
-const setores = [{"posicao": "Setor 01", "rot": "01", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-48.541667, -16.099444], [-48.602222, -15.852778], [-48.936111, -15.723056], [-48.946667, -15.671389], [-48.7775, -15.333333], [-48.674722, -15.243056], [-48.401389, -15.049722], [-48.077222, -14.965], [-47.960556, -14.99], [-47.929444, -15.703889], [-48.308333, -15.73], [-48.296389, -15.893333], [-48.406667, -15.986111]]}, {"posicao": "Setor 02", "rot": "02", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-47.960556, -14.99], [-47.764722, -15.015278], [-47.446111, -15.162778], [-47.140278, -15.436389], [-47.089722, -15.811944], [-47.536111, -15.845], [-47.550278, -15.677778], [-47.929444, -15.703889]]}, {"posicao": "Setor 03", "rot": "03", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-47.089722, -15.811944], [-47.060556, -16.032222], [-47.242778, -16.388056], [-47.325, -16.486667], [-47.442222, -16.593611], [-47.542222, -16.659444], [-47.780833, -16.735833], [-47.905278, -16.037222], [-47.524444, -16.010833], [-47.536111, -15.845]]}, {"posicao": "Setor 04", "rot": "04", "freq": "119.200", "lim": "6500 FT – FL195", "contorno": [[-47.780833, -16.735833], [-47.931389, -16.780833], [-48.084167, -16.775556], [-48.298889, -16.742222], [-48.448333, -16.689722], [-48.476944, -16.664722], [-48.644722, -16.548611], [-48.599444, -16.235556], [-48.541667, -16.099444], [-48.406667, -15.986111], [-48.296389, -15.893333], [-48.283333, -16.063889], [-47.905278, -16.037222]]}, {"posicao": "Setor 05", "rot": "05", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-47.929444, -15.703889], [-47.9175, -15.870833], [-48.296389, -15.893333], [-48.308333, -15.73]]}, {"posicao": "Setor 06", "rot": "06", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-48.296389, -15.893333], [-48.283333, -16.063889], [-47.905278, -16.037222], [-47.9175, -15.870833]]}, {"posicao": "Setor 07", "rot": "07", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-47.536111, -15.845], [-47.550278, -15.677778], [-47.929444, -15.703889], [-47.9175, -15.870833]]}, {"posicao": "Setor 08", "rot": "08", "freq": "119.200", "lim": "GND – 6500 FT", "contorno": [[-47.536111, -15.845], [-47.524444, -16.010833], [-47.905278, -16.037222], [-47.9175, -15.870833]]}];
+const setores = [];
 const paletaSetores = ['#60a5fa', '#f472b6', '#a3e635', '#fb923c', '#a78bfa', '#2dd4bf', '#fbbf24', '#f87171', '#34d399', '#e879f9', '#38bdf8', '#fda4af', '#818cf8'];
 var grupoSetores = L.featureGroup();
 setores.forEach(function (s, k) {
     var cor = paletaSetores[k % paletaSetores.length];
     L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, fillOpacity: 0.2 })
-        .bindPopup('<b>' + s.posicao + '</b><br>' + s.lim + '<br>No pacote: <code>SBWR_APP</code> ' + s.freq)
+        .bindPopup('<b>' + s.posicao + '</b><br>' + s.freq + ' MHz<br>' + s.lim)
         .addTo(grupoSetores);
 });
 
@@ -437,7 +375,6 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "Limite da FIR": grupoFir,
-    "Setores do APP (AIP)": grupoSetores,
     "Corredores visuais (REA)": grupoRea
 }).addTo(mapa);
 

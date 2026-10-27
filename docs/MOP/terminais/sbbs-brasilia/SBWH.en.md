@@ -66,69 +66,6 @@ The **Helicopter routes (REH)** layer (23 routes) is off by default. Solid lines
 | Confins ATZ | GND – 4500 FT | — |
 | Lagoa Santa ATZ | GND – 4500 FT | — |
 
-## :material-view-grid-outline: APP Sectorization
-
-With the TMA-BH Project, the AIP splits Belo Horizonte APP into nine sectors[^amdt]. **Belo Horizonte 1** is the union of high sectors 01 to 04; sectors 05 to 08 are the **finals** below them, around SBCF and SBLS (up to FL110) and SBBH (up to 9000 ft). Turn on the **APP sectors (AIP)** layer on the map to see them.
-
-In the package the APP **has no sectors**: `SBWH_APP` (**129.100**) covers all of them. The sectorization helps to understand the flows and finals, not to split positions on VATSIM.
-
-Pick an area in the list: the whole TMA or an AIP sector. The area is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below the final's ceiling.
-
-<div class="setor-viewer" data-lang="en" markdown="block">
-<figure data-grupo="total" data-titulo="SBWH_APP" data-info="129.100 · whole TMA" markdown="span">
-  ![SBWH_APP: the whole Belo Horizonte TMA](img/sbwh-comb-app.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="01" data-info="5500 FT – FL195" markdown="span">
-  ![Belo Horizonte APP sector 01, 5500 FT – FL195](img/sbwh-setor-01.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="02" data-info="5500 FT – FL195" markdown="span">
-  ![Belo Horizonte APP sector 02, 5500 FT – FL195](img/sbwh-setor-02.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="03A" data-info="5500 FT – FL195" markdown="span">
-  ![Belo Horizonte APP sector 03A, 5500 FT – FL195](img/sbwh-setor-03a.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="03B" data-info="5500 FT – FL195" markdown="span">
-  ![Belo Horizonte APP sector 03B, 5500 FT – FL195](img/sbwh-setor-03b.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="04" data-info="5500 FT – FL195" markdown="span">
-  ![Belo Horizonte APP sector 04, 5500 FT – FL195](img/sbwh-setor-04.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="05" data-info="5500 FT – FL110" markdown="span">
-  ![Belo Horizonte APP sector 05, 5500 FT – FL110](img/sbwh-setor-05.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="06" data-info="5500 FT – FL110" markdown="span">
-  ![Belo Horizonte APP sector 06, 5500 FT – FL110](img/sbwh-setor-06.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="07" data-info="5500 FT – 9000 FT" markdown="span">
-  ![Belo Horizonte APP sector 07, 5500 FT – 9000 FT](img/sbwh-setor-07.svg){ loading=lazy }
-</figure>
-
-<figure data-grupo="elem" data-titulo="08" data-info="5500 FT – 9000 FT" markdown="span">
-  ![Belo Horizonte APP sector 08, 5500 FT – 9000 FT](img/sbwh-setor-08.svg){ loading=lazy }
-</figure>
-
-</div>
-
-| Sector | Limits | Role |
-| :---: | --- | --- |
-| **01** | 5500 FT – FL195 | **High sector** west, from Pará de Minas to Itaúna |
-| **02** | 5500 FT – FL195 | **High sector** north and northwest, from Sete Lagoas to Paraopeba |
-| **03A** | 5500 FT – FL195 | **High sector** northeast, from Serra do Cipó to SBCF |
-| **03B** | 5500 FT – FL195 | **High sector** east, from Itabira to Santa Bárbara |
-| **04** | 5500 FT – FL195 | **High sector** south and over SBBH, down to the Iron Quadrangle |
-| **05** | 5500 FT – FL110 | **SBCF final to the north and northwest (RWY 16)** |
-| **06** | 5500 FT – FL110 | **SBCF final to the south and southeast (RWY 34) and SBLS** |
-| **07** | 5500 FT – 9000 FT | **SBBH final to the west and northwest (RWY 13)** |
-| **08** | 5500 FT – 9000 FT | **SBBH final to the southeast (RWY 31)** |
-
 ## :material-headset: ATC Units
 
 | Code | Abbr. | Callsign | Frequency | Remarks |
@@ -403,15 +340,13 @@ Belo Horizonte Control, PR-MWN, REH SUL, position BH SHOPPING, maintaining 4400 
 - The Belo Horizonte CTR excludes the Confins CTR.
 - SBLS is a military aerodrome (PAMALS); civil aviation requires authorization from the PAMALS director.
 - ATZs have no class published in the AIP (ENR 2.2).
-- In the package, Belo Horizonte APP has no sectors: `SBWH_APP` covers the whole TMA.
-- Volumes, sectors and map follow the TMA-BH Project ([AIC N 25/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2526){ target="_blank" }), effective with the 26 NOV 2026 AIRAC, which also revises the SIDs, STARs and IACs. The VATSIM sector package may still carry the old TMA and CTR outlines.
+- Volumes and map follow the TMA-BH Project ([AIC N 25/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2526){ target="_blank" }), effective with the 26 NOV 2026 AIRAC, which also revises the SIDs, STARs and IACs. The VATSIM sector package may still carry the old TMA and CTR outlines.
 
 ---
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
-[^amdt]: AIP Brasil, AMDT AIRAC 2612A1 (26 NOV 2026), ENR 2.1 and ENR 2.2.
 [^aic2726]: [AIC N 27/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2726){ target="_blank" }, items 2 to 5 and Annexes A and B.
 
 <!--
@@ -476,13 +411,13 @@ var grupoTma = L.featureGroup();
 var grupoCtr = L.featureGroup();
 
 // Setores do APP (só nas TMAs setorizadas), agrupados por posição
-const setores = [{"posicao": "Sector 01", "rot": "01", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.645, -19.215556], [-44.728056, -19.435556], [-44.770833, -19.5875], [-44.736111, -19.685], [-44.601111, -20.065], [-44.555556, -20.191944], [-44.471944, -20.345833], [-44.164444, -19.810556], [-43.920278, -19.727222], [-44.030278, -19.594167], [-44.075, -19.54]]}, {"posicao": "Sector 02", "rot": "02", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.645, -19.215556], [-44.075, -19.54], [-44.030278, -19.594167], [-43.536389, -18.962222], [-43.583333, -18.922778], [-43.825833, -18.893056], [-43.974444, -18.874722], [-44.121667, -18.871389], [-44.283611, -18.939167], [-44.425833, -18.998611], [-44.611389, -19.126111]]}, {"posicao": "Sector 03A", "rot": "03A", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.030278, -19.594167], [-43.920278, -19.727222], [-43.163889, -19.520556], [-43.252778, -19.279722], [-43.373333, -19.138056], [-43.455278, -19.041667], [-43.536389, -18.962222]]}, {"posicao": "Sector 03B", "rot": "03B", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-43.920278, -19.727222], [-43.705556, -19.985833], [-43.157222, -20.013889], [-43.135278, -19.974167], [-43.116944, -19.656389], [-43.163889, -19.520556]]}, {"posicao": "Sector 04", "rot": "04", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.471944, -20.345833], [-44.435556, -20.412778], [-44.335278, -20.486389], [-43.866389, -20.559444], [-43.4575, -20.496667], [-43.234722, -20.154444], [-43.157222, -20.013889], [-43.705556, -19.985833], [-43.920278, -19.727222], [-44.164444, -19.810556]]}, {"posicao": "Sector 05", "rot": "05", "freq": "129.100", "lim": "5500 FT – FL110", "contorno": [[-44.098333, -19.741944], [-44.345556, -19.4675], [-44.084722, -19.256389], [-43.8375, -19.530278]]}, {"posicao": "Sector 06", "rot": "06", "freq": "129.100", "lim": "5500 FT – FL110", "contorno": [[-43.8375, -19.530278], [-43.734167, -19.644167], [-43.533889, -19.715833], [-43.580556, -19.958333], [-44.056389, -19.788056], [-44.098333, -19.741944]]}, {"posicao": "Sector 07", "rot": "07", "freq": "129.100", "lim": "5500 FT – 9000 FT", "contorno": [[-44.381667, -19.787222], [-44.072778, -19.770278], [-44.056389, -19.788056], [-43.939722, -19.83], [-44.022778, -20.038889], [-44.079167, -20.018611], [-44.290556, -20.031389]]}, {"posicao": "Sector 08", "rot": "08", "freq": "129.100", "lim": "5500 FT – 9000 FT", "contorno": [[-43.939722, -19.83], [-43.580556, -19.958333], [-43.623333, -20.181111], [-44.022778, -20.038889]]}];
+const setores = [];
 const paletaSetores = ['#60a5fa', '#f472b6', '#a3e635', '#fb923c', '#a78bfa', '#2dd4bf', '#fbbf24', '#f87171', '#34d399', '#e879f9', '#38bdf8', '#fda4af', '#818cf8'];
 var grupoSetores = L.featureGroup();
 setores.forEach(function (s, k) {
     var cor = paletaSetores[k % paletaSetores.length];
     L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, fillOpacity: 0.2 })
-        .bindPopup('<b>' + s.posicao + '</b><br>' + s.lim + '<br>In the package: <code>SBWH_APP</code> ' + s.freq)
+        .bindPopup('<b>' + s.posicao + '</b><br>' + s.freq + ' MHz<br>' + s.lim)
         .addTo(grupoSetores);
 });
 
@@ -582,7 +517,6 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
-    "APP sectors (AIP)": grupoSetores,
     "Visual corridors (REA)": grupoRea,
     "Helicopter routes (REH)": grupoReh
 }).addTo(mapa);
