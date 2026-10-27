@@ -127,7 +127,6 @@ Leia de baixo para cima: com a posição desconectada, o espaço aéreo passa pa
 - **Classe dos corredores:** a classe de cada trecho é a do corredor. Quase todas as REA são **classe D**, com o APP. As exceções são a NORTE e a SUL, de treinamento das escolas de Bacacheri, em **classe G**, na frequência da Torre Bacacheri. Nas REH, os trechos em volta do Parque Barigui são classe G, com coordenação em FCA, e o resto é classe D.
 - **No mundo real**, as REA em volta de Curitiba usam o APP Curitiba em **119.950**, **119.700**, **129.550** ou **120.650**; as do litoral, perto de Joinville, **120.950** ou **133.150**. As REH falam com a Torre Curitiba (**118.150**), a Torre Bacacheri (**118.900**) ou o APP, conforme o trecho; nos trechos classe G, a FCA é **123.450**.
 - **No pacote**, o VFR das REA chama `SBWT_APP` (**119.950**); dentro da CTR, `SBCT_TWR` (**118.150**), e em Bacacheri e Joinville as posições dos aeródromos. O piloto chama a posição **on-line**, não a frequência do mundo real. Sem ela, quem assume é a próxima posição na [cobertura](#cobertura-top-down). A coordenação ar-ar fica na **UNICOM 122.800**.
-- **Joinville:** a AIC ainda fala em CTR Joinville (CTR-JV), mas a AIP de hoje traz as FIZ Joinville 1 e 2, classe G.
 
 ### Regras gerais para o VFR
 
@@ -191,7 +190,7 @@ O que cada corredor faz:
 
 ### Portões dos aeródromos
 
-A entrada e a saída da CTR Curitiba e da área de Joinville são **pelos portões**, salvo outra autorização do APP:
+A entrada e a saída da CTR Curitiba e da FIZ Joinville são **pelos portões**, salvo outra autorização do APP:
 
 | Aeródromo | Portões REA (aviões) | Portões REH (helicópteros) |
 | :---: | :--- | :--- |
@@ -279,7 +278,7 @@ Tráfego Barigui, PP-HMW, REH DELTA, PARQUE TINGUI, 3700 pés, proa PARQUE TANGU
 
 - Curitiba 1 é classe A entre FL145 e FL195 e classe C entre 5500 FT e FL145.
 - SBBI (Bacacheri) fica na FIZ Bacacheri (classe G), dentro da CTR Curitiba.
-- Joinville não tem CTR: a AIP traz as FIZ Joinville 1 e 2 (classe G, Rádio Joinville).
+- SBJV (Joinville) fica nas FIZ Joinville 1 e 2 (classe G, Rádio Joinville).
 - Volumes e mapa seguem a AIP, AMDT AIRAC 2612A1 (26 NOV 2026).
 
 ---

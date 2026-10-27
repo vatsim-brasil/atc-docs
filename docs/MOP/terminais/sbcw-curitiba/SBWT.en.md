@@ -127,7 +127,6 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 - **Corridor class:** each segment takes the corridor's class. Almost every REA is **class D**, with the APP. The exceptions are NORTE and SUL, the Bacacheri flight-school training corridors, in **class G** on the Bacacheri Tower frequency. On the REHs, the segments around Barigui Park are class G, with FCA coordination, and the rest are class D.
 - **In the real world**, the REAs around Curitiba use Curitiba APP on **119.950**, **119.700**, **129.550** or **120.650**; those on the coast, near Joinville, **120.950** or **133.150**. The REHs talk to Curitiba Tower (**118.150**), Bacacheri Tower (**118.900**) or the APP, depending on the segment; on class G segments the FCA is **123.450**.
 - **In the package**, VFR traffic on the REAs calls `SBWT_APP` (**119.950**); inside the CTR, `SBCT_TWR` (**118.150**), and at Bacacheri and Joinville the aerodrome positions. Pilots call the **online** position, not the real-world frequency. Without it, the next position in the [coverage](#top-down-coverage) takes over. Air-to-air coordination goes on **UNICOM 122.800**.
-- **Joinville:** the AIC still refers to a Joinville CTR (CTR-JV), but today's AIP has the Joinville 1 and 2 FIZ, class G.
 
 ### General VFR rules
 
@@ -191,7 +190,7 @@ What each corridor does:
 
 ### Aerodrome gates
 
-Entry to and exit from the Curitiba CTR and the Joinville area are **through the gates**, unless the APP clears otherwise:
+Entry to and exit from the Curitiba CTR and the Joinville FIZ are **through the gates**, unless the APP clears otherwise:
 
 | Aerodrome | REA gates (aeroplanes) | REH gates (helicopters) |
 | :---: | :--- | :--- |
@@ -279,7 +278,7 @@ Tráfego Barigui, PP-HMW, REH DELTA, PARQUE TINGUI, 3700 pés, proa PARQUE TANGU
 
 - Curitiba 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145.
 - SBBI (Bacacheri) lies in the Bacacheri FIZ (class G), inside the Curitiba CTR.
-- Joinville has no CTR: the AIP has the Joinville 1 and 2 FIZ (class G, Joinville Radio).
+- SBJV (Joinville) lies in the Joinville 1 and 2 FIZ (class G, Joinville Radio).
 - Volumes and map follow AIP AMDT AIRAC 2612A1 (26 NOV 2026).
 
 ---
