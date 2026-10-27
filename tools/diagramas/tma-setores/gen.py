@@ -46,6 +46,14 @@ TMAS = {
         "final": lambda s: s["rot"] in ("RJ", "GL"),
         "cobertura": {"SBWJ_N_APP": ["SBWJ_GL_APP"], "SBWJ_S_APP": ["SBWJ_RJ_APP"]},
     },
+    # Setores da AIP (o pacote só tem SBWH_APP): rótulo no campo "rot" de cada setor
+    "SBWH": {
+        "nome": "TMA Belo Horizonte",
+        "aerodromos": {"SBCF": (-43.9719, -19.6244), "SBBH": (-43.9506, -19.8512), "SBLS": (-43.8964, -19.6616)},
+        "cores": {"APP": "#38bdf8"},
+        "final": lambda s: s["rot"] in ("05", "06", "07", "08"),
+        "cobertura": {},
+    },
 }
 AERODROMOS = {}
 INK, MUTED, BG = "#1e293b", "#64748b", "#f8fafc"
@@ -55,6 +63,8 @@ FONT = 'font-family="Ubuntu Sans, Ubuntu, Segoe UI, Roboto, Arial, sans-serif"'
 def ler_combinadas(path):
     """Tabela "Posições combinadas" da página: posição -> posições que assume."""
     texto = open(path, encoding="utf-8").read()
+    if "### Posições combinadas" not in texto:
+        return {}
     bloco = texto.split("### Posições combinadas", 1)[1].split("\n## ", 1)[0]
     res = {}
     for linha in bloco.splitlines():
@@ -279,7 +289,7 @@ def main():
     AERODROMOS.update(cfg["aerodromos"])
     for k, s in enumerate(setores):
         s["cor"] = paleta[k % len(paleta)]
-        s["rot"] = rotulo(s["posicao"])
+        s["rot"] = s.get("rot") or rotulo(s["posicao"])
         s["min"], s["max"] = limites(s["lim"])
         s["final"] = cfg["final"](s)
 
@@ -327,6 +337,8 @@ def main():
         combinadas = ler_combinadas(PAGE)
         elementares = expandir(COMBINADO, combinadas, cfg["cobertura"])
         membros = [s for s in setores if s["posicao"] in elementares]
+        if not membros:  # TMA sem posições combinadas: a posição única assume tudo
+            membros = [s for s in setores if not s["final"]]
         nome = COMBINADO.split("_")[1] if COMBINADO.count("_") == 2 else "APP"
         corpo = mapa_combinado(COMBINADO, membros, setores, tma, proj, caminho, W, cfg["cores"].get(nome, "#60a5fa"))
         largura = W

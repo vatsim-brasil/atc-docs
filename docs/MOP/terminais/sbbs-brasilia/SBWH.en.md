@@ -29,8 +29,8 @@ tags:
 === ":material-map-legend: Visual Charts"
     <div class="ccv-viewer" data-lang="en">
     <ul class="ccv-lista">
-    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf" target="_blank" rel="noopener">CCV REA WH-Belo Horizonte</a></li>
-    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf" target="_blank" rel="noopener">CCV REH WH-Belo Horizonte</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh1-belo-horizonte_rea_20261126.pdf" target="_blank" rel="noopener">CCV REA WH1-Belo Horizonte</a></li>
+    <li><a href="https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh2-belo-horizonte_reh_20261126.pdf" target="_blank" rel="noopener">CCV REH WH2-Belo Horizonte</a></li>
     </ul>
     </div>
 
@@ -65,6 +65,69 @@ The **Helicopter routes (REH)** layer (23 routes) is off by default. Solid lines
 | Belo Horizonte ATZ (Pampulha) | GND – 4500 FT | — |
 | Confins ATZ | GND – 4500 FT | — |
 | Lagoa Santa ATZ | GND – 4500 FT | — |
+
+## :material-view-grid-outline: APP Sectorization
+
+With the TMA-BH Project, the AIP splits Belo Horizonte APP into nine sectors[^amdt]. **Belo Horizonte 1** is the union of high sectors 01 to 04; sectors 05 to 08 are the **finals** below them, around SBCF and SBLS (up to FL110) and SBBH (up to 9000 ft). Turn on the **APP sectors (AIP)** layer on the map to see them.
+
+In the package the APP **has no sectors**: `SBWH_APP` (**129.100**) covers all of them. The sectorization helps to understand the flows and finals, not to split positions on VATSIM.
+
+Pick an area in the list: the whole TMA or an AIP sector. The area is filled, with its vertical limits below the name; the rest of the TMA is grey. Hatched: the part of the sector that belongs to a final below the final's ceiling.
+
+<div class="setor-viewer" data-lang="en" markdown="block">
+<figure data-grupo="total" data-titulo="SBWH_APP" data-info="129.100 · whole TMA" markdown="span">
+  ![SBWH_APP: the whole Belo Horizonte TMA](img/sbwh-comb-app.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="01" data-info="5500 FT – FL195" markdown="span">
+  ![Belo Horizonte APP sector 01, 5500 FT – FL195](img/sbwh-setor-01.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="02" data-info="5500 FT – FL195" markdown="span">
+  ![Belo Horizonte APP sector 02, 5500 FT – FL195](img/sbwh-setor-02.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="03A" data-info="5500 FT – FL195" markdown="span">
+  ![Belo Horizonte APP sector 03A, 5500 FT – FL195](img/sbwh-setor-03a.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="03B" data-info="5500 FT – FL195" markdown="span">
+  ![Belo Horizonte APP sector 03B, 5500 FT – FL195](img/sbwh-setor-03b.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="04" data-info="5500 FT – FL195" markdown="span">
+  ![Belo Horizonte APP sector 04, 5500 FT – FL195](img/sbwh-setor-04.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="05" data-info="5500 FT – FL110" markdown="span">
+  ![Belo Horizonte APP sector 05, 5500 FT – FL110](img/sbwh-setor-05.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="06" data-info="5500 FT – FL110" markdown="span">
+  ![Belo Horizonte APP sector 06, 5500 FT – FL110](img/sbwh-setor-06.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="07" data-info="5500 FT – 9000 FT" markdown="span">
+  ![Belo Horizonte APP sector 07, 5500 FT – 9000 FT](img/sbwh-setor-07.svg){ loading=lazy }
+</figure>
+
+<figure data-grupo="elem" data-titulo="08" data-info="5500 FT – 9000 FT" markdown="span">
+  ![Belo Horizonte APP sector 08, 5500 FT – 9000 FT](img/sbwh-setor-08.svg){ loading=lazy }
+</figure>
+
+</div>
+
+| Sector | Limits | Role |
+| :---: | --- | --- |
+| **01** | 5500 FT – FL195 | **High sector** west, from Pará de Minas to Itaúna |
+| **02** | 5500 FT – FL195 | **High sector** north and northwest, from Sete Lagoas to Paraopeba |
+| **03A** | 5500 FT – FL195 | **High sector** northeast, from Serra do Cipó to SBCF |
+| **03B** | 5500 FT – FL195 | **High sector** east, from Itabira to Santa Bárbara |
+| **04** | 5500 FT – FL195 | **High sector** south and over SBBH, down to the Iron Quadrangle |
+| **05** | 5500 FT – FL110 | **SBCF final to the north and northwest (RWY 16)** |
+| **06** | 5500 FT – FL110 | **SBCF final to the south and southeast (RWY 34) and SBLS** |
+| **07** | 5500 FT – 9000 FT | **SBBH final to the west and northwest (RWY 13)** |
+| **08** | 5500 FT – 9000 FT | **SBBH final to the southeast (RWY 31)** |
 
 ## :material-headset: ATC Units
 
@@ -116,10 +179,10 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 !!! abstract "Visual navigation documents"
     - **Circular:** [AIC N 27/26 – Circulação VFR na TMA-BH](https://publicacoes.decea.mil.br/publicacao/aic-n-2726){ target="_blank" } (replaces AIC N 20/24)
     - **Circular:** [AIC N 25/26 – Projeto TMA BH: alterações no espaço aéreo da TMA-BH e procedimentos em aeroportos associados](https://publicacoes.decea.mil.br/publicacao/aic-n-2526){ target="_blank" }
-    - **Visual chart – Aircraft routes (REA):** [CCV REA WH-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh-belo-horizonte_rea_20240905.pdf){ target="_blank" }
-    - **Visual chart – Helicopter routes (REH):** [CCV REH WH-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh-belo-horizonte_reh_20240905.pdf){ target="_blank" }
+    - **Visual chart – Aircraft routes (REA):** [CCV REA WH1-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wh1-belo-horizonte_rea_20261126.pdf){ target="_blank" }
+    - **Visual chart – Helicopter routes (REH):** [CCV REH WH2-Belo Horizonte](https://aisweb.decea.mil.br/cartas/visuais/reh/ccv-reh-wh2-belo-horizonte_reh_20261126.pdf){ target="_blank" }
 
-    The charts are embedded in the **Visual Charts** tab under **Useful Information**; the ones on AISWEB are still from SEP 2024, older than AIC N 27/26. The data in this section comes from AIC N 27/26[^aic2726].
+    The charts are embedded in the **Visual Charts** tab under **Useful Information**. The data in this section comes from AIC N 27/26[^aic2726].
 
 ### TMA layers and who handles VFR
 
@@ -336,22 +399,23 @@ Belo Horizonte Control, PR-MWN, REH SUL, position BH SHOPPING, maintaining 4400 
 
 ## :material-note-text-outline: Remarks
 
-- Belo Horizonte 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145. APP sectors 05 and 06 are the SBBH and SBCF finals.
+- Belo Horizonte 1 is class A between FL145 and FL195 and class C between 5500 FT and FL145.
 - The Belo Horizonte CTR excludes the Confins CTR.
 - SBLS is a military aerodrome (PAMALS); civil aviation requires authorization from the PAMALS director.
 - ATZs have no class published in the AIP (ENR 2.2).
 - In the package, Belo Horizonte APP has no sectors: `SBWH_APP` covers the whole TMA.
-- The TMA-BH Project (AIC N 25/26) revises the TMA SIDs, STARs, IACs, REAs and REHs from the 26 NOV 2026 AIRAC. The map shows the outlines from the sector package.
+- Volumes, sectors and map follow the TMA-BH Project ([AIC N 25/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2526){ target="_blank" }), effective with the 26 NOV 2026 AIRAC, which also revises the SIDs, STARs and IACs. The VATSIM sector package may still carry the old TMA and CTR outlines.
 
 ---
 
 Back to the Brasília FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
+[^amdt]: AIP Brasil, AMDT AIRAC 2612A1 (26 NOV 2026), ENR 2.1 and ENR 2.2.
 [^aic2726]: [AIC N 27/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2726){ target="_blank" }, items 2 to 5 and Annexes A and B.
 
 <!--
-Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBBS (setores TMA_* e CTR_*), em [longitude, latitude].
+Daqui pra baixo, é o mapa. Contornos da AIP AMDT 2612A1 (ENR 2.1 e 2.2, 26 NOV 2026, Projeto TMA-BH), em [longitude, latitude]. A Belo Horizonte 1 é a união dos setores 01 a 04.
 -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -379,13 +443,13 @@ Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBBS (setores TMA_* e
 const cores = {"A": "#f87171", "C": "#fbbf24", "D": "#2dd4bf", "\u2014": "#94a3b8"};
 
 const volumes = [
-    {"tipo": "tma", "id": "SBWH", "nome": "Belo Horizonte 1", "posicao": "SBWH_APP", "freq": "129.100", "lim": "5500 FT – FL195", "classe": "A/C", "link": "", "contorno": [[-43.266908, -20.206404], [-43.4576, -20.4966], [-43.9047, -20.5654], [-43.969076, -20.54265], [-44.4974, -20.3533], [-44.6949, -19.8], [-44.7775, -19.569], [-44.6146, -19.1277], [-44.353616, -18.988162], [-44.3214, -18.9709], [-43.951268, -18.949964], [-43.692, -18.9348], [-43.1142, -19.6081], [-43.1373, -20.0084], [-43.266908, -20.206404]]},
-    {"tipo": "tma", "id": "SBWH", "nome": "Belo Horizonte 2", "posicao": "SBWH_APP", "freq": "129.100", "lim": "4100 FT – 5500 FT", "classe": "C", "link": "", "contorno": [[-44.3793, -19.2945], [-44.2396, -19.225], [-43.9432, -19.166], [-43.4868, -19.5018], [-43.5229, -19.9021], [-43.7936, -20.1036], [-43.9467, -20.0488], [-43.9806, -19.9293], [-44.3038, -19.9772], [-44.4276, -19.5236], [-44.3793, -19.2945]]},
-    {"tipo": "ctr", "id": "SBWH", "nome": "Confins CTR", "posicao": "SBCF_TWR", "freq": "118.200", "lim": "GND – 5500 FT", "classe": "D", "link": "", "contorno": [[-43.7636, -19.6104], [-43.8163, -19.7746], [-43.9881, -19.8107], [-44.1995, -19.5813], [-43.9659, -19.39], [-43.7636, -19.6104]]},
-    {"tipo": "ctr", "id": "SBWH", "nome": "Belo Horizonte CTR", "posicao": "SBBH_TWR", "freq": "118.000", "lim": "GND – 5500 FT", "classe": "C", "link": "", "contorno": [[-43.7636, -19.6104], [-43.6578, -19.7253], [-43.7524, -19.9447], [-43.8544, -19.9932], [-43.9475, -19.9796], [-43.9592, -19.9384], [-44.1801, -19.8593], [-44.1995, -19.5813], [-43.9881, -19.8107], [-43.8163, -19.7746], [-43.7636, -19.6104]]},
-    {"tipo": "ctr", "id": "SBWH", "nome": "Confins ATZ", "posicao": "SBCF_TWR", "freq": "118.200", "lim": "GND – 4500 FT", "classe": "—", "link": "", "contorno": [[-43.912222, -19.620833], [-43.935278, -19.64], [-43.939722, -19.652222], [-43.93, -19.662778], [-43.899167, -19.696389], [-43.951667, -19.738333], [-44.083056, -19.596389], [-43.973889, -19.509722], [-43.888889, -19.601667], [-43.912222, -19.620833]]},
-    {"tipo": "ctr", "id": "SBWH", "nome": "Belo Horizonte ATZ (Pampulha)", "posicao": "SBBH_TWR", "freq": "118.000", "lim": "GND – 4500 FT", "classe": "—", "link": "", "contorno": [[-43.891667, -19.813056], [-43.856944, -19.840833], [-43.881667, -19.911111], [-43.928056, -19.917778], [-44.009444, -19.892222], [-44.0425, -19.859722], [-44.017778, -19.789444], [-43.974722, -19.786944], [-43.891667, -19.813056]]},
-    {"tipo": "ctr", "id": "SBWH", "nome": "Lagoa Santa ATZ", "posicao": "SBLS_R_TWR", "freq": "122.850", "lim": "GND – 4500 FT", "classe": "—", "link": "", "contorno": [[-43.912222, -19.620833], [-43.863611, -19.632778], [-43.8575, -19.6625], [-43.863611, -19.679444], [-43.93, -19.662778], [-43.939722, -19.652222], [-43.935278, -19.64], [-43.912222, -19.620833]]}
+    {"tipo": "tma", "id": "SBWH", "nome": "Belo Horizonte 1", "posicao": "SBWH_APP", "freq": "129.100", "lim": "5500 FT – FL195", "classe": "A/C", "link": "", "contorno": [[-44.645, -19.21556], [-44.72806, -19.43556], [-44.77083, -19.5875], [-44.73611, -19.685], [-44.60111, -20.065], [-44.55556, -20.19194], [-44.47194, -20.34583], [-44.43556, -20.41278], [-44.33528, -20.48639], [-43.86639, -20.55944], [-43.4575, -20.49667], [-43.23472, -20.15444], [-43.15722, -20.01389], [-43.13528, -19.97417], [-43.11694, -19.65639], [-43.16389, -19.52056], [-43.25278, -19.27972], [-43.37333, -19.13806], [-43.45528, -19.04167], [-43.53639, -18.96222], [-43.58333, -18.92278], [-43.82583, -18.89306], [-43.97444, -18.87472], [-44.12167, -18.87139], [-44.28361, -18.93917], [-44.42583, -18.99861], [-44.61139, -19.12611]]},
+    {"tipo": "tma", "id": "SBWH", "nome": "Belo Horizonte 2", "posicao": "SBWH_APP", "freq": "129.100", "lim": "4100 FT – 5500 FT", "classe": "C", "link": "", "contorno": [[-44.320556, -19.979444], [-43.980556, -19.929167], [-43.946667, -20.048889], [-43.793611, -20.103611], [-43.522778, -19.902222], [-43.486667, -19.501944], [-43.943056, -19.166111], [-44.239444, -19.225], [-44.379444, -19.294444], [-44.414444, -19.517222], [-44.418056, -19.577222], [-44.391667, -19.6675], [-44.379722, -19.716667], [-44.355833, -19.839722], [-44.341389, -19.895556]]},
+    {"tipo": "ctr", "id": "SBWH", "nome": "Confins CTR", "posicao": "SBCF_TWR", "freq": "118.200", "lim": "GND – 5500 FT", "classe": "D", "link": "", "contorno": [[-43.965833, -19.39], [-44.199444, -19.581389], [-43.988056, -19.810833], [-43.852222, -19.793889], [-43.694167, -19.739444], [-43.657778, -19.725278]]},
+    {"tipo": "ctr", "id": "SBWH", "nome": "Belo Horizonte CTR", "posicao": "SBBH_TWR", "freq": "118.000", "lim": "GND – 5500 FT", "classe": "C", "link": "", "contorno": [[-44.199444, -19.581389], [-43.988056, -19.810833], [-43.852222, -19.793889], [-43.694167, -19.739444], [-43.657778, -19.725278], [-43.7525, -19.944722], [-43.854444, -19.993056], [-43.9475, -19.979444], [-43.959167, -19.938333], [-44.18, -19.859167]]},
+    {"tipo": "ctr", "id": "SBWH", "nome": "Confins ATZ", "posicao": "SBCF_TWR", "freq": "118.200", "lim": "GND – 4500 FT", "classe": "—", "link": "", "contorno": [[-43.973889, -19.509722], [-43.888889, -19.601667], [-43.935278, -19.64], [-43.939722, -19.652222], [-43.899167, -19.696389], [-43.951667, -19.738333], [-44.083056, -19.596389]]},
+    {"tipo": "ctr", "id": "SBWH", "nome": "Belo Horizonte ATZ (Pampulha)", "posicao": "SBBH_TWR", "freq": "118.000", "lim": "GND – 4500 FT", "classe": "—", "link": "", "contorno": [[-43.891667, -19.813056], [-43.856944, -19.840833], [-43.881667, -19.911111], [-43.928056, -19.917778], [-44.009444, -19.892222], [-44.0425, -19.859722], [-44.017778, -19.789444], [-43.974722, -19.786944]]},
+    {"tipo": "ctr", "id": "SBWH", "nome": "Lagoa Santa ATZ", "posicao": "SBLS_R_TWR", "freq": "122.850", "lim": "GND – 4500 FT", "classe": "—", "link": "", "contorno": [[-43.912222, -19.620833], [-43.863611, -19.632778], [-43.8575, -19.6625], [-43.863611, -19.679444], [-43.93, -19.662778], [-43.939722, -19.652222], [-43.935278, -19.64]]}
 ];
 
 const limiteFir = [[-50.105463, -22.08634], [-50.4579, -21.6254], [-51.3619, -20.4271], [-52.0114, -19.7046], [-52.7536, -18.9223], [-54.1235, -17.4059], [-53.1008, -16.7092], [-53.3203, -15.8089], [-53.3927, -15.4768], [-53.6267, -14.5625], [-53.5013, -12.96], [-53.051, -12.1836], [-51.672778, -11.0275], [-51.4728, -10.8474], [-51.0866, -10.5156], [-49.042249, -10.22507], [-48.991334, -10.040764], [-48.8754, -9.8531], [-48.6528, -9.6856], [-48.3677, -9.6214], [-48.1628, -9.6519], [-48.0051, -9.7238], [-47.8129, -9.9043], [-47.701, -10.1604], [-47.6882, -10.2861], [-47.3153, -10.3287], [-46.891, -12.0218], [-45.6083, -13.3218], [-45.278124, -13.796406], [-44.5772, -14.7847], [-44.3306, -15.2179], [-44.095833, -15.626499], [-42.6788, -16.4093], [-42.3377, -16.6247], [-41.8206, -16.9483], [-42.4482, -18.758], [-42.4406, -19.105], [-42.4795, -19.463], [-42.5269, -20.0033], [-42.7521, -20.4117], [-43.3928, -20.1562], [-43.965, -20.5375], [-44.7076, -21.4759], [-45.7749, -22.7993], [-45.8108, -23.0094], [-45.86, -23.2332], [-46.655, -23.6273], [-47.2173, -23.3154], [-47.573, -23.1164], [-47.726084, -23.065083], [-48.832226, -22.69952], [-49.9178, -22.3302]];
@@ -412,13 +476,13 @@ var grupoTma = L.featureGroup();
 var grupoCtr = L.featureGroup();
 
 // Setores do APP (só nas TMAs setorizadas), agrupados por posição
-const setores = [];
+const setores = [{"posicao": "Sector 01", "rot": "01", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.645, -19.215556], [-44.728056, -19.435556], [-44.770833, -19.5875], [-44.736111, -19.685], [-44.601111, -20.065], [-44.555556, -20.191944], [-44.471944, -20.345833], [-44.164444, -19.810556], [-43.920278, -19.727222], [-44.030278, -19.594167], [-44.075, -19.54]]}, {"posicao": "Sector 02", "rot": "02", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.645, -19.215556], [-44.075, -19.54], [-44.030278, -19.594167], [-43.536389, -18.962222], [-43.583333, -18.922778], [-43.825833, -18.893056], [-43.974444, -18.874722], [-44.121667, -18.871389], [-44.283611, -18.939167], [-44.425833, -18.998611], [-44.611389, -19.126111]]}, {"posicao": "Sector 03A", "rot": "03A", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.030278, -19.594167], [-43.920278, -19.727222], [-43.163889, -19.520556], [-43.252778, -19.279722], [-43.373333, -19.138056], [-43.455278, -19.041667], [-43.536389, -18.962222]]}, {"posicao": "Sector 03B", "rot": "03B", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-43.920278, -19.727222], [-43.705556, -19.985833], [-43.157222, -20.013889], [-43.135278, -19.974167], [-43.116944, -19.656389], [-43.163889, -19.520556]]}, {"posicao": "Sector 04", "rot": "04", "freq": "129.100", "lim": "5500 FT – FL195", "contorno": [[-44.471944, -20.345833], [-44.435556, -20.412778], [-44.335278, -20.486389], [-43.866389, -20.559444], [-43.4575, -20.496667], [-43.234722, -20.154444], [-43.157222, -20.013889], [-43.705556, -19.985833], [-43.920278, -19.727222], [-44.164444, -19.810556]]}, {"posicao": "Sector 05", "rot": "05", "freq": "129.100", "lim": "5500 FT – FL110", "contorno": [[-44.098333, -19.741944], [-44.345556, -19.4675], [-44.084722, -19.256389], [-43.8375, -19.530278]]}, {"posicao": "Sector 06", "rot": "06", "freq": "129.100", "lim": "5500 FT – FL110", "contorno": [[-43.8375, -19.530278], [-43.734167, -19.644167], [-43.533889, -19.715833], [-43.580556, -19.958333], [-44.056389, -19.788056], [-44.098333, -19.741944]]}, {"posicao": "Sector 07", "rot": "07", "freq": "129.100", "lim": "5500 FT – 9000 FT", "contorno": [[-44.381667, -19.787222], [-44.072778, -19.770278], [-44.056389, -19.788056], [-43.939722, -19.83], [-44.022778, -20.038889], [-44.079167, -20.018611], [-44.290556, -20.031389]]}, {"posicao": "Sector 08", "rot": "08", "freq": "129.100", "lim": "5500 FT – 9000 FT", "contorno": [[-43.939722, -19.83], [-43.580556, -19.958333], [-43.623333, -20.181111], [-44.022778, -20.038889]]}];
 const paletaSetores = ['#60a5fa', '#f472b6', '#a3e635', '#fb923c', '#a78bfa', '#2dd4bf', '#fbbf24', '#f87171', '#34d399', '#e879f9', '#38bdf8', '#fda4af', '#818cf8'];
 var grupoSetores = L.featureGroup();
 setores.forEach(function (s, k) {
     var cor = paletaSetores[k % paletaSetores.length];
     L.polygon(s.contorno.map(paraLatLng), { color: cor, fillColor: cor, weight: 2, fillOpacity: 0.2 })
-        .bindPopup('<b>' + s.posicao + '</b><br>' + s.freq + ' MHz<br>' + s.lim)
+        .bindPopup('<b>' + s.posicao + '</b><br>' + s.lim + '<br>In the package: <code>SBWH_APP</code> ' + s.freq)
         .addTo(grupoSetores);
 });
 
@@ -518,6 +582,7 @@ L.control.layers({
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
     "FIR boundary": grupoFir,
+    "APP sectors (AIP)": grupoSetores,
     "Visual corridors (REA)": grupoRea,
     "Helicopter routes (REH)": grupoReh
 }).addTo(mapa);
