@@ -62,6 +62,14 @@ TMAS = {
         "final": lambda s: False,
         "cobertura": {},
     },
+    # Setores da AIP (o pacote só tem SBWP_APP); 05/06 é a faixa de Canoas e 07/08 são os setores VFR dentro do 03
+    "SBWP": {
+        "nome": "TMA Porto Alegre",
+        "aerodromos": {"SBPA": (-51.1714, -29.9939), "SBCO": (-51.1442, -29.9459), "SBCX": (-51.1875, -29.1971)},
+        "cores": {"APP": "#38bdf8"},
+        "final": lambda s: s["rot"] in ("05", "06", "07", "08"),
+        "cobertura": {},
+    },
 }
 AERODROMOS = {}
 INK, MUTED, BG = "#1e293b", "#64748b", "#f8fafc"
