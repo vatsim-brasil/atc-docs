@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Porto Seguro Control |
 | **Frequency** | **120.900** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | [SBPS](../../aerodromos/sbre-recife/twr/SBPS.en.md) |
+| **Aerodromes in the TMA** | [SBPS](../../aerodromos/sbre-recife/twr/SBPS.en.md), [SBTV](../../aerodromos/sbre-recife/afis/SBTV.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

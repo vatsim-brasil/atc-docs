@@ -43,6 +43,8 @@ tags:
 
 Click a volume to see its limits and class. Use the layer control to change the base map and toggle the volumes.
 
+The **Visual corridors (REA)** layer shows the 10 REAs of AIC N 36/25 (class D) and the gates (yellow). Click a segment to see the tracks and the altitude band. Details in [Visual corridors (REA)](#visual-corridors-rea).
+
 <div class="fir-map-top">
     <div id="mapa-tma" class="mapa"></div>
 </div>
@@ -88,27 +90,110 @@ Read from bottom to top: when a position is offline, the airspace falls to the n
 ## :material-airplane: VFR circulation
 
 !!! abstract "Visual navigation documents"
-    - **Circular:** [AIC N 36/25 – Circulação VFR na CTR-CY e na TMA-WY](https://publicacoes.decea.mil.br/publicacao/aic-n-3625){ target="_blank" } (effective 02 OCT 2025)
-    - **Visual chart – Aircraft routes (REA):** [CCV REA WY-Cuiabá](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wy-cuiaba_rea_20251002.pdf){ target="_blank" }
+    - **Circular:** [AIC N 36/25 – Circulação VFR na CTR-CY e na TMA-WY](https://publicacoes.decea.mil.br/publicacao/aic-n-3625){ target="_blank" } (in force since 02 OCT 2025, replaces AIC N 36/21)
+    - **Visual chart – Aircraft routes (REA):** [CCV REA WY-Cuiabá](https://aisweb.decea.mil.br/cartas/visuais/rea/ccv-rea-wy-cuiaba_rea_20251002.pdf){ target="_blank" } (02 OCT 2025)
 
-    The chart is embedded in the **Visual Chart** tab under **Useful Information**.
+    The chart is embedded in the **Visual Chart** tab under **Useful Information**. The data in this section comes from AIC N 36/25[^aic3625].
+
+### TMA layers and who handles VFR
+
+| Airspace | Limits | Class | VFR |
+| --- | --- | :---: | --- |
+| **Cuiabá TMA** | 3500 FT – FL195 | <span class="classe-badge classe-c">C</span> up to FL145, <span class="classe-badge classe-a">A</span> above | With APP clearance; above FL145, class A, no VFR |
+| **Cuiabá CTR** | GND – 3500 FT | <span class="classe-badge classe-c">C</span> | Entry and exit through the CONDOMÍNIO and SÃO MATEUS gates |
+| **REA** | 1700 to 2200 FT (INDIA and JULIETT up to 3000 FT) | <span class="classe-badge classe-d">D</span> | Corridors with their own class, below the TMA and around the CTR, with APP clearance |
+
+- **Mandatory REAs:** all VFR traffic in the Cuiabá CTR **must** use the REAs, unless the APP clears otherwise. In two-way contact with the APP, and traffic and weather permitting, the flight may be cleared off them.
+- **Class D:** the corridors are **class D** throughout. Entry always needs a clearance, and two-way contact is continuous. The APP gives traffic information between IFR and VFR flights and between VFR flights (and traffic avoidance advice on request).
+- **Altitude band:** each corridor has a minimum and a maximum altitude, the same in both directions: **1700 to 2200 ft**, and **1700 to 3000 ft** on INDIA and JULIETT, to the north. Altitude changes are made from the gates, at the pilot's discretion.
+- **In the real world**, VFR traffic talks to Cuiabá APP on **119.400**, **120.350** or **128.900**, and to Cuiabá TWR on **118.100** when passing the CONDOMÍNIO or SÃO MATEUS gates.
+- **In the package**, VFR traffic calls `SBWY_APP` (**119.400**); in the CTR, `SBCY_TWR` (**118.100**). The handoff between TWR and APP happens at the **CONDOMÍNIO** and **SÃO MATEUS** gates. Pilots call the **online** position, not the real-world frequency. Without it, the next position in the [coverage](#top-down-coverage) takes over. Air-to-air coordination goes on **UNICOM 122.800**.
+
+### General VFR rules
+
+- A mode A/C **transponder** is mandatory on the REAs and in the TMA and CTR. Landing or taxi **lights** on are mandatory.
+- **Right of the centreline:** pilots fly to the **right** of the corridor centreline, with the visual references on their left.
+- **Width:** 3 NM (1.5 NM either side).
+- **QNH** from the SBCY ATIS (127.850 in the real world) or from the APP.
+- **Reporting points:** the gates are **compulsory** reporting points; pilots report their position when passing them.
+- **Flight plan:** in the remarks field, the REA to be flown. Pilots flying the REAs for the first time tell the APP.
+- **Holding:** the APP may space traffic entering the TMA or the CTR with holds.
+- **Losing visual conditions:** return and land at the departure aerodrome or the nearest one, request special VFR, or request a change to IFR.
+- **Communication failure:** arriving at SBCY, divert along the REAs to SIAQ or SWLV. On departure, follow ICA 100-12.
+
+### Visual corridors (REA)
+
+The 10 REAs of the TMA, all two-way and class D. Tracks are given as **outbound / return**; the altitude band applies in both directions.
+
+| REA | Segment | Tracks | Altitudes | Distance |
+| :---: | :--- | :---: | :---: | :---: |
+| **ALFA** | TREVO DO MANSO ⇄ GARIMPO | 143° / 323° | 1700 – 2200 | 14 NM |
+| **BRAVO** | CONDOMÍNIO ⇄ GARIMPO | 094° / 274° | 1700 – 2200 | 12 NM |
+| **CHARLIE** | GARIMPO ⇄ USINA | 213° / 033° | 1700 – 2200 | 7.9 NM |
+| **DELTA** | USINA ⇄ FAZ. SÃO BENEDITO | 202° / 022° | 1700 – 2200 | 11.8 NM |
+| **ECHO** | FAZ. SÃO BENEDITO ⇄ LAGOA | 278° / 098° | 1700 – 2200 | 14.7 NM |
+| **FOXTROT** | LAGOA ⇄ N. SRA. DO LIVRAMENTO | 323° / 143° | 1700 – 2200 | 16.2 NM |
+| **GOLF** | N. SRA. DO LIVRAMENTO ⇄ SÃO MATEUS | 076° / 256° | 1700 – 2200 | 10.5 NM |
+| **HOTEL** | N. SRA. DO LIVRAMENTO ⇄ SADIA 3 | 356° / 176° | 1700 – 2200 | 18.4 NM |
+| **INDIA** | SADIA 3 ⇄ GUIA | 078° / 258° | 1700 – 3000 | 15.5 NM |
+| **JULIETT** | GUIA ⇄ TREVO DO MANSO | 127° / 307° | 1700 – 3000 | 13.2 NM |
+
+The corridors form a ring around the CTR, with two spurs into it: BRAVO to the east and GOLF to the west. What each one does:
+
+- **ALFA** serves the north-east sector: from the TREVO DO MANSO gate (the MT-251/MT-351 junction, on the way to Chapada dos Guimarães) to the GARIMPO gate.
+- **BRAVO** serves the east sector: it links the CONDOMÍNIO gate (Condomínio Belvedere, in Cuiabá) to GARIMPO and, through it, to ALFA and CHARLIE.
+- **CHARLIE** serves the east and south-east sectors: from GARIMPO to the USINA gate (a power distribution plant).
+- **DELTA** serves the south-east and south sectors: from USINA to the FAZ. SÃO BENEDITO gate.
+- **ECHO** serves the south-east, south-west and south sectors: from FAZ. SÃO BENEDITO to the LAGOA gate (Lagoa Baía Grande, in Santo Antônio do Leverger).
+- **FOXTROT** serves the south-west and south sectors: from LAGOA to the N. SRA. DO LIVRAMENTO gate.
+- **GOLF** serves the west sector: it links N. SRA. DO LIVRAMENTO to the SÃO MATEUS gate (a district of Várzea Grande).
+- **HOTEL** serves the north-west and north sectors: from N. SRA. DO LIVRAMENTO to the SADIA 3 gate.
+- **INDIA** serves the north-west and north sectors: from SADIA 3 to the GUIA gate (the Nossa Senhora da Guia district).
+- **JULIETT** serves the north sector: from GUIA to TREVO DO MANSO, closing the ring.
+
+**Gates** (REA entry and exit): TREVO DO MANSO, GARIMPO, CONDOMÍNIO, USINA, FAZ. SÃO BENEDITO, LAGOA, N. SRA. DO LIVRAMENTO, SÃO MATEUS, SADIA 3 and GUIA. CONDOMÍNIO and SÃO MATEUS are the handoff points between TWR and APP.
+
+### Departures and arrivals
+
+- **SBCY:** departures climb to **1700 ft** and fly to the **SÃO MATEUS** gate (for FOXTROT, GOLF or HOTEL) or the **CONDOMÍNIO** gate (for ALFA, BRAVO, CHARLIE or DELTA). Arrivals call the TWR when passing one of these two gates.
+- **SIAQ:** departures keep **1700 ft** and fly to the TREVO DO MANSO gate, for ALFA or JULIETT. Between SIAQ and the gate, pilots coordinate arrivals and departures among themselves.
+- **SWLV (Santo Antônio do Leverger):** departures keep **1700 ft** and fly to the LAGOA gate, for FOXTROT or ECHO. Between SWLV and the gate, pilots coordinate among themselves. For arrivals and departures at SWLV, two-way contact with the APP on 119.400 is compulsory, whatever the sector[^aip].
+- **Other aerodromes and heliports** in the CTR, in the TMA or below the REAs: before take-off, pilots contact the APP for a transponder code and instructions to join the REAs, and use the FCA (UNICOM on VATSIM) to coordinate arrivals and departures.
+
+### Other rules
 
 - Operations by aircraft without radio or transponder are prohibited.
-- Flight plans filed in the air (AFIL) are not accepted.
+- Flight plans filed in the air (AFIL) are not accepted. Traffic departing an aerodrome without an ATS unit below the TMA or the CTR and planning to fly in them files the plan before take-off[^aip].
 - Two-way contact on 119.400 is mandatory for operations at SWLV, SSGC, SJCY, SIAQ, SWXJ and SIXM.
+- With a Z flight plan (VFR to IFR), pilots wait for APP clearance to change flight rules, staying within the limits of the corridor they are on.
+
+### Phraseology
+
+The AIC has no phraseology. On first contact, pilots give registration, corridor, position, altitude and direction, as in the other TMAs. Brazilian VFR traffic usually calls in Portuguese:
+
+```
+Controle Cuiabá, PR-MWY, REA ALFA, portão TREVO DO MANSO, 2000 pés, proa GARIMPO.
+```
+
+```
+Torre Cuiabá, PR-MWY, portão SÃO MATEUS, 1700 pés, para pouso em Marechal Rondon.
+```
 
 ## :material-note-text-outline: Remarks
 
 - The TMA is class A between FL145 and FL195 and class C between 3500 FT and FL145.
+- Volumes and map follow the AIP, AIRAC AMDT 2612A1 (26 NOV 2026), which has the same limits as the package. The TMA is the union of APP sectors 01 to 03; sector 01 is the outer edge.
 
 ---
 
 Back to the Amazônica FIR [terminals overview](index.en.md).
 
 [^pacote]: Frequency in the VATSIM Brasil sector package.
+[^aic3625]: [AIC N 36/25](https://publicacoes.decea.mil.br/publicacao/aic-n-3625){ target="_blank" }, items 4 to 6 and Annexes A and B.
+[^aip]: AIP Brasil, ENR 2.1 (Cuiabá TMA), AIRAC AMDT 2612A1.
 
 <!--
-Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBAZ (setores TMA_* e CTR_*), em [longitude, latitude].
+Daqui pra baixo, é o mapa. Contornos da AIP AMDT 2612A1 (ENR 2.1 e 2.2, 26 NOV 2026), iguais aos do pacote SBAZ, em [longitude, latitude]. A TMA é a borda do setor 01.
 -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -119,6 +204,10 @@ Daqui pra baixo, é o mapa. Contornos extraídos do pacote SBAZ (setores TMA_* e
 
 <style>
     .mapa { height: 550px }
+    .rea-rotulo { background: #0f172a; color: #fff; border: 0; font-weight: 700; font-size: 11px; padding: 0 5px; box-shadow: none }
+    .rea-rotulo::before { display: none }
+    .rea-zoom-baixo .rea-rotulo { display: none }
+    .mapa-legenda .rea-linha { display: inline-block; width: 18px; height: 0; border-top: 3px solid #2563eb; vertical-align: middle; margin-right: 6px }
 </style>
 
 <script>
@@ -187,10 +276,32 @@ volumes.forEach(function (v) {
     poligono.addTo(ctr ? grupoCtr : grupoTma);
 });
 
+// Corredores visuais (REA) e portões da AIC N 36/25 (item 5 e Anexo B); rumos de ida e volta e faixa de altitude; pontos da carta CCV REA WY
+const reaTrechos = [{"rota": "ALFA", "de": "TREVO DO MANSO", "para": "GARIMPO", "rumo": "143°", "rumoVolta": "323°", "alt": "1700–2200"}, {"rota": "BRAVO", "de": "CONDOMÍNIO", "para": "GARIMPO", "rumo": "094°", "rumoVolta": "274°", "alt": "1700–2200"}, {"rota": "CHARLIE", "de": "GARIMPO", "para": "USINA", "rumo": "213°", "rumoVolta": "033°", "alt": "1700–2200"}, {"rota": "DELTA", "de": "USINA", "para": "FAZ. SÃO BENEDITO", "rumo": "202°", "rumoVolta": "022°", "alt": "1700–2200"}, {"rota": "ECHO", "de": "FAZ. SÃO BENEDITO", "para": "LAGOA", "rumo": "278°", "rumoVolta": "098°", "alt": "1700–2200"}, {"rota": "FOXTROT", "de": "LAGOA", "para": "N. SRA. DO LIVRAMENTO", "rumo": "323°", "rumoVolta": "143°", "alt": "1700–2200"}, {"rota": "GOLF", "de": "N. SRA. DO LIVRAMENTO", "para": "SÃO MATEUS", "rumo": "076°", "rumoVolta": "256°", "alt": "1700–2200"}, {"rota": "HOTEL", "de": "N. SRA. DO LIVRAMENTO", "para": "SADIA 3", "rumo": "356°", "rumoVolta": "176°", "alt": "1700–2200"}, {"rota": "INDIA", "de": "SADIA 3", "para": "GUIA", "rumo": "078°", "rumoVolta": "258°", "alt": "1700–3000"}, {"rota": "JULIETT", "de": "GUIA", "para": "TREVO DO MANSO", "rumo": "127°", "rumoVolta": "307°", "alt": "1700–3000"}];
+const reaPontos = {"TREVO DO MANSO": [-56.020333, -15.429667], "GARIMPO": [-55.820833, -15.558333], "CONDOMÍNIO": [-56.021333, -15.61], "USINA": [-55.853833, -15.686167], "FAZ. SÃO BENEDITO": [-55.866333, -15.882167], "LAGOA": [-56.1145, -15.928], "N. SRA. DO LIVRAMENTO": [-56.345333, -15.773333], "SÃO MATEUS": [-56.192, -15.679667], "SADIA 3": [-56.466167, -15.4895], "GUIA": [-56.234667, -15.360833]};
+const portoes = {"TREVO DO MANSO": "", "GARIMPO": "", "CONDOMÍNIO": "", "USINA": "", "FAZ. SÃO BENEDITO": "", "LAGOA": "", "N. SRA. DO LIVRAMENTO": "", "SÃO MATEUS": "", "SADIA 3": "", "GUIA": ""};
+var corRea = '#2563eb';
+var grupoRea = L.featureGroup();
+reaTrechos.forEach(function (t) {
+    var a = paraLatLng(reaPontos[t.de]), b = paraLatLng(reaPontos[t.para]);
+    L.polyline([a, b], { color: corRea, weight: 4, opacity: 0.9 })
+        .bindPopup('<b>REA ' + t.rota + '</b><br>' + t.de + ' ⇄ ' + t.para +
+            '<br>Track: ' + t.rumo + ' / ' + t.rumoVolta +
+            '<br>Altitude (ft): ' + t.alt + ' (both directions)')
+        .addTo(grupoRea);
+    L.marker([(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], { opacity: 0, interactive: false, icon: L.divIcon({ className: '', iconSize: [0, 0] }) })
+        .bindTooltip(t.rota, { permanent: true, direction: 'center', className: 'rea-rotulo' })
+        .addTo(grupoRea);
+});
+Object.keys(reaPontos).forEach(function (n) {
+    L.circleMarker(paraLatLng(reaPontos[n]), { radius: 5, color: '#0f172a', weight: 2, fillColor: '#facc15', fillOpacity: 1 })
+        .bindTooltip((n in portoes ? 'Gate ' : '') + n).addTo(grupoRea);
+});
+
 var mapa = L.map('mapa-tma', {
     minZoom: 3,
     maxZoom: 13,
-    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr]
+    layers: [tileMapaClaro, grupoFir, grupoTma, grupoCtr, grupoRea]
 });
 
 mapa.fitBounds(grupoTma.getBounds().extend(grupoCtr.getBounds()), { padding: [20, 20] });
@@ -202,8 +313,16 @@ L.control.layers({
 }, {
     "TMAs": grupoTma,
     "CTRs": grupoCtr,
-    "FIR boundary": grupoFir
+    "FIR boundary": grupoFir,
+    "Visual corridors (REA)": grupoRea
 }).addTo(mapa);
+
+// Rótulos dos corredores só com zoom suficiente para não embolar
+function detalheRea() {
+    elemento.classList.toggle('rea-zoom-baixo', mapa.getZoom() < 9);
+}
+mapa.on('zoomend', detalheRea);
+detalheRea();
 
 // Legenda das classes
 var legenda = L.control({ position: 'bottomleft' });
@@ -211,7 +330,9 @@ legenda.onAdd = function () {
     var div = L.DomUtil.create('div', 'mapa-legenda');
     div.innerHTML = '<b>Class</b>' + ['A', 'C', 'D'].map(function (c) {
         return '<div><span style="background:' + cores[c] + '"></span>' + c + '</div>';
-    }).join('');
+    }).join('') +
+        '<div><span class="rea-linha"></span>REA (class D)</div>' +
+        '<div><span style="background:#facc15;border-radius:50%"></span>Gate</div>';
     return div;
 };
 legenda.addTo(mapa);

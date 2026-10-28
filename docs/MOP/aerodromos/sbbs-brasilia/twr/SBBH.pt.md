@@ -57,11 +57,11 @@ tags:
 
 - OPS de ACFT com número de RCD do AD 3 ou 4 permitida apenas em Condições Meteorológicas de Voo Visual (VMC).
 - O AD pode ser utilizado regularmente por quaisquer ACFT compatíveis com o RCD 4C ou inferior.
-- Observar o disposto na [AIC-N 43/21](https://publicacoes.decea.mil.br/publicacao/AIC-N-4321) sobre circulação visual na TMA Belo Horizonte:
--  A aeronave que decola de SBBH RWY 13, excetuando-se autorização contrária emitida pelo órgão ATC, deverá: 
-    - passar preferencialmente na vertical da UFMG, deixando o Mineirão à direita, e ingressar na REA KILO pelo Portão CEASA; ou
-    - ingressar na REA VICTOR.
-- Para ingressar no circuito de tráfego de SBBH, a aeronave deverá utilizar a REA KILO ou REA VICTOR.
+- Circulação visual na TMA Belo Horizonte conforme a [AIC N 27/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2726){ target="_blank" } (detalhes na página da [TMA SBWH](../../../terminais/sbbs-brasilia/SBWH.pt.md#circulacao-vfr)):
+    - Chegada de avião pela REA ALFA (portão INTERSEÇÃO, RWY 13) ou CHARLIE (portão PAZ, RWY 31), com autorização do APP antes de SINUOSO ou IBIRITÉ, ou pela REA DELTA (portão MINA). Na RWY 13, pela ALFA, manter a proa do Mineirinho para entrar no circuito.
+    - Decolagem da RWY 13: curva à direita para o portão PAZ, ou à esquerda na proa da posição RIO para a REA DELTA.
+    - Decolagem da RWY 31: curva à esquerda para o portão INTERSEÇÃO, ou à direita para o portão MINA, dentro da ATZ, para a REA DELTA.
+    - Helicópteros: portões REH CEASA, CIDADE ADM, ETE, MATRIZ STA LUZIA e PARQUE, com autorização do APP no portão.
 
 ### Pátios e Pistas de Taxi
 

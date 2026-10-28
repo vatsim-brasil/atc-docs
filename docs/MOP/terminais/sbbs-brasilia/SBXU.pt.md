@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Uberaba |
 | **Frequência** | **120.800** MHz[^pacote] |
 | **Vigilância ATS** | Convencional |
-| **Aeródromos na TMA** | `SBUR` |
+| **Aeródromos na TMA** | [SBUR](../../aerodromos/sbbs-brasilia/twr/SBUR.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

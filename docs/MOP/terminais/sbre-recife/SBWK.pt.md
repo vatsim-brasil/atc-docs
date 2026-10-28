@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Porto Seguro |
 | **Frequência** | **120.900** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | [SBPS](../../aerodromos/sbre-recife/twr/SBPS.pt.md) |
+| **Aeródromos na TMA** | [SBPS](../../aerodromos/sbre-recife/twr/SBPS.pt.md), [SBTV](../../aerodromos/sbre-recife/afis/SBTV.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

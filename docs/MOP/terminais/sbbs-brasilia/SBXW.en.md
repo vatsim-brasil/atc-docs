@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Uberlândia Control |
 | **Frequency** | **122.850** MHz[^pacote] |
 | **ATS surveillance** | Procedural |
-| **Aerodromes in the TMA** | `SBUL` |
+| **Aerodromes in the TMA** | [SBUL](../../aerodromos/sbbs-brasilia/twr/SBUL.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

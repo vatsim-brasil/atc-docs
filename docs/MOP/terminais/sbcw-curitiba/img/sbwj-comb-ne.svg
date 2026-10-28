@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 560" width="620" height="560" role="img" aria-label="TMA Rio de Janeiro: setores do APP" font-family="Ubuntu Sans, Ubuntu, Segoe UI, Roboto, Arial, sans-serif">
+<title>TMA Rio de Janeiro: setores do APP</title>
+<rect width="620" height="560" rx="12" fill="#f8fafc"/>
+<path d="M156.5,463.2 L24.0,288.4 L152.3,160.0 L140.5,78.4 L226.5,46.0 L299.5,100.4 L463.2,64.3 L579.8,207.5 L596.0,269.2 L416.9,321.4 L343.0,409.2 L156.5,463.2 Z" fill="#e2e8f0"/>
+<path d="M156.5,463.2 L63.8,341.0 L158.6,292.8 L251.3,243.9 L256.4,262.8 L341.5,240.3 L386.2,264.5 L406.3,274.4 L378.8,307.6 L416.9,321.4 L343.0,409.2 L156.5,463.2 Z" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<g><path d="M158.6,292.8 L63.8,341.0 L24.0,288.4 L152.3,160.0 L140.5,78.4 L226.5,46.0 L303.9,179.7 L365.0,176.0 L386.3,229.6 L386.2,264.5 L341.5,240.3 L256.4,262.8 L251.3,243.9 L158.6,292.8 Z" fill="#f184bf" stroke="#f184bf" stroke-width="3.5" stroke-linejoin="round"/><path d="M299.5,100.4 L463.2,64.3 L579.8,207.5 L596.0,269.2 L416.9,321.4 L378.8,307.6 L406.3,274.4 L386.2,264.5 L386.3,229.6 L365.0,176.0 L303.9,179.7 L226.5,46.0 L299.5,100.4 Z" fill="#f184bf" stroke="#f184bf" stroke-width="3.5" stroke-linejoin="round"/><path d="M234.9,183.6 L303.9,179.7 L365.0,176.0 L386.3,229.6 L386.2,264.5 L341.5,240.3 L256.4,262.8 L234.9,183.6 Z" fill="#f184bf" stroke="#f184bf" stroke-width="3.5" stroke-linejoin="round"/></g>
+<path d="M156.5,463.2 L24.0,288.4 L152.3,160.0 L140.5,78.4 L226.5,46.0 L299.5,100.4 L463.2,64.3 L579.8,207.5 L596.0,269.2 L416.9,321.4 L343.0,409.2 L156.5,463.2 Z" fill="none" stroke="#1e293b" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="319.3" cy="238.8" r="3.5" fill="#1e293b"/>
+<text x="325.3" y="251.8" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBGL</text>
+<circle cx="337.5" cy="261.4" r="3.5" fill="#1e293b"/>
+<text x="343.5" y="274.4" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBRJ</text>
+<circle cx="294.1" cy="278.5" r="3.5" fill="#1e293b"/>
+<text x="300.1" y="291.5" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBJR</text>
+<circle cx="222.3" cy="266.3" r="3.5" fill="#1e293b"/>
+<text x="228.3" y="279.3" font-size="10.5" fill="#64748b" font-weight="600" paint-order="stroke" stroke="#fff" stroke-width="3">SBSC</text>
+<text x="443.5" y="184.2" text-anchor="middle" font-size="24" font-weight="800" fill="#1e293b" paint-order="stroke" stroke="#fff" stroke-width="5">SBWJ_NE_APP</text>
+<text x="443.5" y="206.2" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b" paint-order="stroke" stroke="#fff" stroke-width="4">1500 FT – FL245</text>
+</svg>

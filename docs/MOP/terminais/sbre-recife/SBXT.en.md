@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Natal Control |
 | **Frequency** | **119.300** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | [SBSG](../../aerodromos/sbre-recife/twr/SBSG.en.md), `SBNT` |
+| **Aerodromes in the TMA** | [SBSG](../../aerodromos/sbre-recife/twr/SBSG.en.md), [SBNT](../../aerodromos/sbre-recife/twr/SBNT.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

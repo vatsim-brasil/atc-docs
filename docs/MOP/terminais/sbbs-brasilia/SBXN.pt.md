@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Anápolis |
 | **Frequência** | **129.450** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBAN`, [SBGO](../../aerodromos/sbbs-brasilia/twr/SBGO.pt.md) |
+| **Aeródromos na TMA** | [SBAN](../../aerodromos/sbbs-brasilia/twr/SBAN.pt.md), [SBGO](../../aerodromos/sbbs-brasilia/twr/SBGO.pt.md), [SBNV](../../aerodromos/sbbs-brasilia/afis/SBNV.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

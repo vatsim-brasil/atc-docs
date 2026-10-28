@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Ilhéus |
 | **Frequência** | **120.100** MHz[^pacote] |
 | **Vigilância ATS** | Convencional |
-| **Aeródromos na TMA** | [SBIL](../../aerodromos/sbre-recife/afis/SBIL.pt.md) |
+| **Aeródromos na TMA** | [SBIL](../../aerodromos/sbre-recife/afis/SBIL.pt.md), [SBTC](../../aerodromos/sbre-recife/afis/SBTC.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

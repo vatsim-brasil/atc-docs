@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Anápolis Control |
 | **Frequency** | **129.450** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBAN`, [SBGO](../../aerodromos/sbbs-brasilia/twr/SBGO.en.md) |
+| **Aerodromes in the TMA** | [SBAN](../../aerodromos/sbbs-brasilia/twr/SBAN.en.md), [SBGO](../../aerodromos/sbbs-brasilia/twr/SBGO.en.md), [SBNV](../../aerodromos/sbbs-brasilia/afis/SBNV.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Foz Control |
 | **Frequency** | **120.300** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBFI` |
+| **Aerodromes in the TMA** | [SBFI](../../aerodromos/sbcw-curitiba/twr/SBFI.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

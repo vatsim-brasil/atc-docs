@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Foz |
 | **Frequência** | **120.300** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBFI` |
+| **Aeródromos na TMA** | [SBFI](../../aerodromos/sbcw-curitiba/twr/SBFI.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

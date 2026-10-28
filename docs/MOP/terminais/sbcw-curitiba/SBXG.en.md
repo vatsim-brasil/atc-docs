@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Prudente Control |
 | **Frequency** | **125.450** MHz[^pacote] |
 | **ATS surveillance** | Procedural |
-| **Aerodromes in the TMA** | `SBDN` |
+| **Aerodromes in the TMA** | [SBDN](../../aerodromos/sbcw-curitiba/twr/SBDN.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Academia |
 | **Frequência** | **120.100** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBYS`, `SBRP`, [SBAQ](../../aerodromos/sbbs-brasilia/afis/SBAQ.pt.md), [SBGP](../../aerodromos/sbbs-brasilia/afis/SBGP.pt.md) |
+| **Aeródromos na TMA** | [SBYS](../../aerodromos/sbbs-brasilia/twr/SBYS.pt.md), [SBRP](../../aerodromos/sbbs-brasilia/twr/SBRP.pt.md), [SBAQ](../../aerodromos/sbbs-brasilia/afis/SBAQ.pt.md), [SBGP](../../aerodromos/sbbs-brasilia/afis/SBGP.pt.md), [SDSC](../../aerodromos/sbbs-brasilia/afis/SDSC.pt.md), [SIMK](../../aerodromos/sbbs-brasilia/afis/SIMK.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

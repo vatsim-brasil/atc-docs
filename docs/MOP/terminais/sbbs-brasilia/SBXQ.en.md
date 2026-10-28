@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Academia Control |
 | **Frequency** | **120.100** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBYS`, `SBRP`, [SBAQ](../../aerodromos/sbbs-brasilia/afis/SBAQ.en.md), [SBGP](../../aerodromos/sbbs-brasilia/afis/SBGP.en.md) |
+| **Aerodromes in the TMA** | [SBYS](../../aerodromos/sbbs-brasilia/twr/SBYS.en.md), [SBRP](../../aerodromos/sbbs-brasilia/twr/SBRP.en.md), [SBAQ](../../aerodromos/sbbs-brasilia/afis/SBAQ.en.md), [SBGP](../../aerodromos/sbbs-brasilia/afis/SBGP.en.md), [SDSC](../../aerodromos/sbbs-brasilia/afis/SDSC.en.md), [SIMK](../../aerodromos/sbbs-brasilia/afis/SIMK.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

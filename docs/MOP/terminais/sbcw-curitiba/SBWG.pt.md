@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Campo Grande |
 | **Frequência** | **119.350** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBCG` |
+| **Aeródromos na TMA** | [SBCG](../../aerodromos/sbcw-curitiba/twr/SBCG.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Campo Grande Control |
 | **Frequency** | **119.350** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBCG` |
+| **Aerodromes in the TMA** | [SBCG](../../aerodromos/sbcw-curitiba/twr/SBCG.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

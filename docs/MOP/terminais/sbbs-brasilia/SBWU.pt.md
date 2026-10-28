@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Bauru |
 | **Frequência** | **121.300** MHz[^pacote] |
 | **Vigilância ATS** | Convencional |
-| **Aeródromos na TMA** | `SBBU`, [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.pt.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.pt.md) |
+| **Aeródromos na TMA** | [SBBU](../../aerodromos/sbbs-brasilia/afis/SBBU.pt.md), [SBAE](../../aerodromos/sbbs-brasilia/afis/SBAE.pt.md), [SBML](../../aerodromos/sbbs-brasilia/afis/SBML.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

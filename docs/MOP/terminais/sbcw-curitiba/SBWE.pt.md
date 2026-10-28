@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Macaé |
 | **Frequência** | **119.450** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBME`, `SBES`, `SBCB`, `SBCP`, `SBFS` |
+| **Aeródromos na TMA** | [SBME](../../aerodromos/sbcw-curitiba/twr/SBME.pt.md), [SBES](../../aerodromos/sbcw-curitiba/twr/SBES.pt.md), [SBCB](../../aerodromos/sbcw-curitiba/afis/SBCB.pt.md), [SBCP](../../aerodromos/sbcw-curitiba/afis/SBCP.pt.md), [SBFS](../../aerodromos/sbcw-curitiba/afis/SBFS.pt.md), [SBPW](../../aerodromos/sbcw-curitiba/afis/SBPW.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

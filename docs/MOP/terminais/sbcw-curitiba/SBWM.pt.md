@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Santa Maria |
 | **Frequência** | **119.350** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBSM` |
+| **Aeródromos na TMA** | [SBSM](../../aerodromos/sbcw-curitiba/twr/SBSM.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

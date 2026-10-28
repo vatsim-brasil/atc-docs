@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Uberlândia |
 | **Frequência** | **122.850** MHz[^pacote] |
 | **Vigilância ATS** | Convencional |
-| **Aeródromos na TMA** | `SBUL` |
+| **Aeródromos na TMA** | [SBUL](../../aerodromos/sbbs-brasilia/twr/SBUL.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 

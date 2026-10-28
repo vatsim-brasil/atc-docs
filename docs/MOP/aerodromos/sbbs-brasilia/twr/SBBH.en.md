@@ -57,11 +57,11 @@ tags:
 
 - OPS of ACFT with AD RCD number 3 or 4 permitted only in Visual Meteorological Conditions (VMC).
 - The AD may be used regularly by any ACFT compatible with RCD 4C or lower.
-- Observe the provisions of [AIC-N 43/21](https://publicacoes.decea.mil.br/publicacao/AIC-N-4321) regarding visual circulation in the Belo Horizonte TMA:
--  Aircraft departing SBBH RWY 13, unless otherwise authorized by the ATC unit, shall: 
-    - preferably pass overhead UFMG, keeping Mineirão on the right, and enter REA KILO via the CEASA Gate; or
-    - enter REA VICTOR.
-- To join the SBBH traffic circuit, aircraft shall use REA KILO or REA VICTOR.
+- Visual circulation in the Belo Horizonte TMA follows [AIC N 27/26](https://publicacoes.decea.mil.br/publicacao/aic-n-2726){ target="_blank" } (details on the [SBWH TMA](../../../terminais/sbbs-brasilia/SBWH.en.md#vfr-circulation) page):
+    - Aeroplanes arrive on REA ALFA (INTERSEÇÃO gate, RWY 13) or CHARLIE (PAZ gate, RWY 31), with APP clearance before SINUOSO or IBIRITÉ, or on REA DELTA (MINA gate). On RWY 13, via ALFA, head for the Mineirinho arena to join the circuit.
+    - RWY 13 departures: turn right towards the PAZ gate, or left heading for position RIO to join REA DELTA.
+    - RWY 31 departures: turn left towards the INTERSEÇÃO gate, or right towards the MINA gate, inside the ATZ, to join REA DELTA.
+    - Helicopters: REH gates CEASA, CIDADE ADM, ETE, MATRIZ STA LUZIA and PARQUE, with APP clearance at the gate.
 
 ### Aprons and Taxiways
 

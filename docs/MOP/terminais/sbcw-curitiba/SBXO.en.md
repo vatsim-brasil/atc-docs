@@ -16,7 +16,7 @@ tags:
 | **Callsign** | Londrina Control |
 | **Frequency** | **129.700** MHz[^pacote] |
 | **ATS surveillance** | Radar |
-| **Aerodromes in the TMA** | `SBLO`, `SBMG` |
+| **Aerodromes in the TMA** | [SBLO](../../aerodromos/sbcw-curitiba/twr/SBLO.en.md), [SBMG](../../aerodromos/sbcw-curitiba/twr/SBMG.en.md) |
 
 ## :material-monitor-dashboard: Useful Information
 

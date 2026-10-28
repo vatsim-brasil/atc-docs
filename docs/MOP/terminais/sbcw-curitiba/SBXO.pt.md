@@ -16,7 +16,7 @@ tags:
 | **Indicativo** | Controle Londrina |
 | **Frequência** | **129.700** MHz[^pacote] |
 | **Vigilância ATS** | Radar |
-| **Aeródromos na TMA** | `SBLO`, `SBMG` |
+| **Aeródromos na TMA** | [SBLO](../../aerodromos/sbcw-curitiba/twr/SBLO.pt.md), [SBMG](../../aerodromos/sbcw-curitiba/twr/SBMG.pt.md) |
 
 ## :material-monitor-dashboard: Informações Úteis
 
