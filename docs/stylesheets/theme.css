@@ -1618,6 +1618,30 @@ body {
   font-size: 0.75rem;
 }
 
+/* Commits publicados em um deploy */
+[dir] .md-typeset ul.vb-commits {
+  margin-left: 0;
+  list-style: none;
+}
+
+[dir] .md-typeset ul.vb-commits > li {
+  margin: 0;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .vb-commit__escopo {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.md-typeset .vb-commit__sha {
+  margin-left: 0.3rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}
+
 /* Aviso de uso exclusivo em simulação */
 .vb-aviso {
   display: flex;

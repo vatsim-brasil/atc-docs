@@ -7,4 +7,4 @@ hide:
 
 # Novidades
 
-O que mudou no Portal ATC: manuais novos ou revisados, atualizações de MOP, cartas e demais páginas.
+O que mudou no Portal ATC a cada deploy: todos os commits publicados, agrupados por pull request.

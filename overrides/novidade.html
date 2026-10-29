@@ -1,4 +1,4 @@
-{#- Uma entrada do changelog (docs/novidades/*.md); a lista vem do hook novidades.py -#}
+{#- Um deploy do changelog, gerado pelo hook novidades.py a partir do git -#}
 {% extends "main.html" %}
 {% import "partials/vb-novidades.html" as vn with context %}
 
@@ -12,10 +12,10 @@
   </p>
 {% endif %}
 {{ page.content }}
-{% if e and e.link %}
+{% if e %}
   <p>
-    <a class="md-button md-button--primary" href="{{ e.link | url }}">
-      {{ "Open the updated page" if en else "Abrir a página atualizada" }}
+    <a class="md-button" href="{{ e.pr }}">
+      {{ "See the pull request on GitHub" if en else "Ver o pull request no GitHub" }}
     </a>
   </p>
 {% endif %}
