@@ -176,6 +176,9 @@ plugins:
       enable_creation_date: true
       type: date
       locale: pt
+      exclude:
+        - novidades/*
+        - en/novidades/*
   - minify:
       minify_html: true
 

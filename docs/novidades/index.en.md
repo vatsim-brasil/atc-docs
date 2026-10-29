@@ -7,4 +7,4 @@ hide:
 
 # What's New
 
-What changed on the ATC Portal: new or revised manuals, MOP updates, charts and other pages.
+What changed on the ATC Portal in each deploy: every published commit, grouped by pull request.
