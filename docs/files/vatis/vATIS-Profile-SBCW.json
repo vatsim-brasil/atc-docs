@@ -2,7 +2,7 @@
   "name": "FIR Curitiba (SBCW)",
   "id": "238d9115-b0e9-4d33-af79-c37fe18de8cd",
   "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBCW.json",
-  "updateSerial": 2026060301,
+  "updateSerial": 2026060401,
   "stations": [
     {
       "id": "878c9cfc-c86e-48b6-82a3-ca367ab8424a",
@@ -1972,7 +1972,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -10213,7 +10213,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -12262,7 +12262,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -14403,7 +14403,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -16455,7 +16455,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -18512,7 +18512,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -20675,7 +20675,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -22718,7 +22718,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -24761,7 +24761,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -26804,7 +26804,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -28877,7 +28877,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },

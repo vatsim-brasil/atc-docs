@@ -2,7 +2,7 @@
   "name": "FIR Amazônica (SBAZ)",
   "id": "f7e404c4-0aa0-4a2e-bd41-bda041baa7e3",
   "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBAZ.json",
-  "updateSerial": 2026060401,
+  "updateSerial": 2026071401,
   "stations": [
     {
       "id": "3f990a84-9670-4632-93a5-a73ad01ef5cc",
@@ -12284,7 +12284,7 @@
             }
           ],
           "template": {
-            "text": "TRL F0{trl}",
+            "text": "TRL F{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
@@ -14335,7 +14335,7 @@
             }
           ],
           "template": {
-            "text": "TRL F0{trl}",
+            "text": "TRL F{trl}",
             "voice": "TRANSITION LEVEL 0{trl}."
           }
         },
