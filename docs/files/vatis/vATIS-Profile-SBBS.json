@@ -2,7 +2,7 @@
   "name": "FIR Brasília (SBBS)",
   "id": "ed5cec22-4a0a-4bf8-b90b-ee4d8b5455ee",
   "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBBS.json",
-  "updateSerial": 2025080203,
+  "updateSerial": 2026060401,
   "stations": [
     {
       "id": "80b02530-c797-42e3-9d83-416c05ccf4dc",
@@ -1943,32 +1943,32 @@
             {
               "low": 959,
               "high": 976,
-              "altitude": 90
+              "altitude": 120
             },
             {
               "low": 901,
               "high": 958,
-              "altitude": 95
+              "altitude": 125
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 85
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 80
+              "altitude": 110
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 75
+              "altitude": 105
             },
             {
               "low": 1032,
               "high": 1099,
-              "altitude": 70
+              "altitude": 100
             }
           ],
           "template": {
@@ -4062,7 +4062,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -6076,32 +6076,32 @@
             {
               "low": 959,
               "high": 976,
-              "altitude": 90
+              "altitude": 120
             },
             {
               "low": 901,
               "high": 958,
-              "altitude": 95
+              "altitude": 125
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 85
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 80
+              "altitude": 110
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 75
+              "altitude": 105
             },
             {
               "low": 1032,
               "high": 1099,
-              "altitude": 70
+              "altitude": 100
             }
           ],
           "template": {
@@ -8148,7 +8148,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -10191,7 +10191,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -12205,32 +12205,32 @@
             {
               "low": 959,
               "high": 976,
-              "altitude": 80
+              "altitude": 120
             },
             {
               "low": 901,
               "high": 958,
-              "altitude": 85
+              "altitude": 125
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 75
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 70
+              "altitude": 110
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 65
+              "altitude": 105
             },
             {
               "low": 1032,
               "high": 1099,
-              "altitude": 60
+              "altitude": 100
             }
           ],
           "template": {
@@ -14277,7 +14277,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },

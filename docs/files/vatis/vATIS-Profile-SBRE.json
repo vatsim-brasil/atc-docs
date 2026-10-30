@@ -2,7 +2,7 @@
   "name": "FIR Recife (SBRE)",
   "id": "9d78554e-a7f4-4862-ad6a-8b95a61b3bec",
   "updateUrl": "https://atc.vatsim.com.br/files/vatis/vATIS-Profile-SBRE.json",
-  "updateSerial": 2025080203,
+  "updateSerial": 2026060401,
   "stations": [
     {
       "id": "204f6fe1-2cd7-4819-b583-1974ef4bc062",
@@ -1972,7 +1972,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -4015,7 +4015,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -6058,7 +6058,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -8101,7 +8101,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -10144,7 +10144,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
@@ -12188,32 +12188,32 @@
             {
               "low": 959,
               "high": 976,
-              "altitude": 90
+              "altitude": 120
             },
             {
               "low": 901,
               "high": 958,
-              "altitude": 95
+              "altitude": 125
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 85
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 80
+              "altitude": 110
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 75
+              "altitude": 105
             },
             {
               "low": 1032,
               "high": 1099,
-              "altitude": 70
+              "altitude": 100
             }
           ],
           "template": {
@@ -14261,32 +14261,32 @@
             {
               "low": 959,
               "high": 976,
-              "altitude": 60
+              "altitude": 120
             },
             {
               "low": 901,
               "high": 958,
-              "altitude": 65
+              "altitude": 125
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 55
+              "altitude": 115
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 50
+              "altitude": 110
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 45
+              "altitude": 105
             },
             {
               "low": 1032,
               "high": 1099,
-              "altitude": 40
+              "altitude": 100
             }
           ],
           "template": {
@@ -16333,7 +16333,7 @@
             }
           ],
           "template": {
-            "text": "TRL F{trl}",
+            "text": "TRL F0{trl}",
             "voice": ". TRANSITION LEVEL {trl}."
           }
         },
