@@ -13,7 +13,7 @@ tags:
 |------------------------------|---------------------------------------------|
 | **Aerodrome name**           | Marabá - João Corrêa da Rocha               |
 | **Type of Operation**        | Domestic and Public                         |
-| **Transition altitude** | 3000 ft |
+| **Transition altitude** | 10000 ft |
 | **Elevation** | 358 ft (109 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 

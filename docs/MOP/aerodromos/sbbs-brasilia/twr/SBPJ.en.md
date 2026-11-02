@@ -13,7 +13,7 @@ tags:
 |------------------------------|--------------------------------------|
 | **Aerodrome name**           | Palmas - Brigadeiro Lysias Rodrigues |
 | **Type of Operation**         | Public                               |
-| **Transition altitude** | 4000 ft |
+| **Transition altitude** | 10000 ft |
 | **Elevation** | 774 ft (236 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 

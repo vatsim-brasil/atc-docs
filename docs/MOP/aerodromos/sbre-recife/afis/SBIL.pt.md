@@ -13,7 +13,7 @@
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Ilhéus - Jorge Amado                 |
 | **Tipo de Operação**         | Público                              |
-| **Altitude de transição** | 4000 pés |
+| **Altitude de transição** | 10000 pés |
 | **Elevação** | 169 pés (52 m) |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 

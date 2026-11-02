@@ -14,7 +14,7 @@ tags:
 |------------------------------|-------------------------------------|
 | **Nome do aeródromo**        | Base Aérea de Manaus - Ponta Pelada |
 | **Tipo de Operação**         | Militar                             |
-| **Altitude de transição** | 4000 pés |
+| **Altitude de transição** | 5000 pés |
 | **Elevação** | 257 pés (78 m) |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 

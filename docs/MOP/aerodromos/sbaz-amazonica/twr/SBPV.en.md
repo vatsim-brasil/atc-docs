@@ -14,7 +14,7 @@ tags:
 |------------------------------|-----------------------------------------------------|
 | **Aerodrome name**           | Porto Velho - Governador Jorge Teixeira de Oliveira |
 | **Type of Operation**        | International, Public and Military                    |
-| **Transition altitude** | 3000 ft |
+| **Transition altitude** | 10000 ft |
 | **Elevation** | 295 ft (90 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 

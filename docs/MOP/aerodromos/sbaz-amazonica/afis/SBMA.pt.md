@@ -13,7 +13,7 @@ tags:
 |------------------------------|---------------------------------------------|
 | **Nome do aeródromo**        | Marabá - João Corrêa da Rocha               |
 | **Tipo de Operação**         | Nacional e Público                          |
-| **Altitude de transição** | 3000 pés |
+| **Altitude de transição** | 10000 pés |
 | **Elevação** | 358 pés (109 m) |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 
