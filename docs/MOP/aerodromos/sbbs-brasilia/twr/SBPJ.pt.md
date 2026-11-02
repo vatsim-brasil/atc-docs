@@ -13,7 +13,7 @@ tags:
 |------------------------------|--------------------------------------|
 | **Nome do aeródromo**        | Palmas - Brigadeiro Lysias Rodrigues |
 | **Tipo de Operação**         | Público                              |
-| **Altitude de transição** | 4000 pés |
+| **Altitude de transição** | 10000 pés |
 | **Elevação** | 774 pés (236 m) |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 

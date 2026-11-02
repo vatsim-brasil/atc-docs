@@ -14,7 +14,7 @@ tags:
 |------------------------------|-----------------------------------------------|
 | **Aerodrome name**           | Brasília - Presidente Juscelino Kubitschek    |
 | **Type of Operation**        | International, Public and Military            |
-| **Transition altitude**      | 7000 ft[^ad17]                                |
+| **Transition altitude**      | 10000 ft[^ad17]                               |
 | **Elevation**                | 3498 ft (1066 m)                              |
 | **Largest aircraft**         | Wide-bodies (code 4E)                         |
 | **Airspace**                 | Brasília CTR, class C, GND/6500 ft[^ad17]     |

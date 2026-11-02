@@ -13,7 +13,7 @@
 |------------------------------|--------------------------------------|
 | **Aerodrome name**        | Ilhéus - Jorge Amado                 |
 | **Type of Operation**         | Public                              |
-| **Transition altitude** | 4000 ft |
+| **Transition altitude** | 10000 ft |
 | **Elevation** | 169 ft (52 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 

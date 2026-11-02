@@ -14,7 +14,7 @@ tags:
 |------------------------------|-----------------------------------------------------|
 | **Nome do aeródromo**        | Porto Velho - Governador Jorge Teixeira de Oliveira |
 | **Tipo de Operação**         | Internacional, Público e Militar                    |
-| **Altitude de transição** | 3000 pés |
+| **Altitude de transição** | 10000 pés |
 | **Elevação** | 295 pés (90 m) |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 

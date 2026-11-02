@@ -14,7 +14,7 @@ tags:
 |------------------------------|-----------------------------------------------|
 | **Nome do aeródromo**        | Brasília - Presidente Juscelino Kubitschek    |
 | **Tipo de Operação**         | Internacional, Público e Militar              |
-| **Altitude de transição**    | 7000 pés[^ad17]                               |
+| **Altitude de transição**    | 10000 pés[^ad17]                              |
 | **Elevação**                 | 3498 pés (1066 m)                             |
 | **Maior aeronave**           | Wide-bodies (código 4E)                       |
 | **Espaço aéreo**             | CTR Brasília, classe C, GND/6500 pés[^ad17]   |

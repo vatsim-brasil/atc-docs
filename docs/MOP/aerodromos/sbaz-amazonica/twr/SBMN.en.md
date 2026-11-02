@@ -14,7 +14,7 @@ tags:
 |------------------------------|-------------------------------------|
 | **Aerodrome name**           | Base Aérea de Manaus - Ponta Pelada |
 | **Type of Operation**        | Military                              |
-| **Transition altitude** | 4000 ft |
+| **Transition altitude** | 5000 ft |
 | **Elevation** | 257 ft (78 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 

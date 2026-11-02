@@ -13,7 +13,7 @@ tags:
 |------------------------------|---------------------------------------------|
 | **Nome do aeródromo**        | Marília - Frank Miloye Milenkovich          |
 | **Tipo de Operação**         | Nacional e Público                          |
-| **Altitude de transição** | 6000 pés |
+| **Altitude de transição** | 10000 pés |
 | **Elevação** | 2134 pés (650 m) |
 | **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
 

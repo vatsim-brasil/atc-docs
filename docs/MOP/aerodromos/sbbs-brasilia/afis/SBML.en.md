@@ -13,7 +13,7 @@ tags:
 |------------------------------|---------------------------------------------|
 | **Aerodrome name**           | Marília - Frank Miloye Milenkovich          |
 | **Type of Operation**         | Domestic and Public                          |
-| **Transition altitude** | 6000 ft |
+| **Transition altitude** | 10000 ft |
 | **Elevation** | 2134 ft (650 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 

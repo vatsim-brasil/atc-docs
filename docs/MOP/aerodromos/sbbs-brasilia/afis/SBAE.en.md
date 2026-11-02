@@ -13,7 +13,7 @@ tags:
 |------------------------------|---------------------------------------------|
 | **Aerodrome name**           | Bauru - Arealva                             |
 | **Type of Operation**         | Domestic and Public                          |
-| **Transition altitude** | 5000 ft |
+| **Transition altitude** | 10000 ft |
 | **Elevation** | 1961 ft (598 m) |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
