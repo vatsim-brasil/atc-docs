@@ -19,7 +19,7 @@ tags:
 | **Maior aeronave**            | Wide-bodies (até código 4E) na 15/33; leves e ATR (até código 3C) na 11/29[^ad20-1] |
 | **Espaço aéreo**             | CTR Curitiba, classe D, GND/4500 pés[^ad17]   |
 | **Operação**                 | IFR e VFR                                     |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" }[^ad20-1] |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

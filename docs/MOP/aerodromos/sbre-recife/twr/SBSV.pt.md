@@ -18,7 +18,7 @@ tags:
 | **Elevação**                 | 66 pés (20 m)                                 |
 | **Maior aeronave**           | Wide-bodies (código 4E) na 10/28; código 4C na 17/35 |
 | **Espaço aéreo**             | CTR Salvador, classe C, GND/3500 pés[^ad17]   |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

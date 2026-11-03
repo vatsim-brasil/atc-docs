@@ -18,7 +18,7 @@ tags:
 | **Elevação**                 | 56 pés (17 m)                                 |
 | **Maior aeronave**           | Wide-bodies (código 4E)[^ad20-1]              |
 | **Espaço aéreo**             | CTR Belém, classe D, GND/2700 pés[^ad17]      |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

@@ -18,7 +18,7 @@ tags:
 | **Elevação**                 | 2170 pés (661 m)                              |
 | **Maior aeronave**           | Wide-bodies (código 4E); B747-8 com procedimentos especiais[^ad20-5] |
 | **Espaço aéreo**             | CTR Campinas, classe D, GND/3700 pés[^ad17]   |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

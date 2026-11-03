@@ -17,7 +17,7 @@ tags:
 | **Transition altitude**      | 4000 ft[^ad17]                                |
 | **Elevation**                | 273 ft (83 m)                                 |
 | **Largest aircraft**         | Wide-bodies (code 4E)[^ad20-1]                |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 [^ad17]: [AIP Brasil, AD 2 SBSG 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) and IAC charts.
 

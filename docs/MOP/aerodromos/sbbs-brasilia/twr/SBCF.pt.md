@@ -18,7 +18,7 @@ tags:
 | **Elevação**                 | 2721 pés (829 m)                              |
 | **Maior aeronave**           | Wide-bodies (código 4E)[^ad20-1]              |
 | **Espaço aéreo**             | CTR Confins, classe D, GND/5500 pés[^ad17]    |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

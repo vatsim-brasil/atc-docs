@@ -17,7 +17,7 @@ tags:
 | **Altitude de transição**    | 4000 pés[^ad17]                               |
 | **Elevação**                 | 273 pés (83 m)                                |
 | **Maior aeronave**           | Wide-bodies (código 4E)[^ad20-1]              |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 [^ad17]: [AIP Brasil, AD 2 SBSG 2.17](https://aisweb.decea.mil.br/?i=publicacoes&p=aip) e cartas IAC.
 
