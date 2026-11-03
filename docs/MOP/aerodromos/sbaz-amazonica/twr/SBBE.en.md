@@ -18,7 +18,7 @@ tags:
 | **Elevation**                | 56 ft (17 m)                                  |
 | **Largest aircraft**         | Wide-bodies (code 4E)[^ad20-1]                |
 | **Airspace**                 | Belém CTR, class D, GND/2700 ft[^ad17]        |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 

@@ -18,7 +18,7 @@ tags:
 | **Elevation**                | 2170 ft (661 m)                               |
 | **Largest aircraft**         | Wide-bodies (code 4E); B747-8 under special procedures[^ad20-5] |
 | **Airspace**                 | Campinas CTR, class D, GND/3700 ft[^ad17]     |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 

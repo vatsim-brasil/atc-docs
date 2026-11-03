@@ -18,7 +18,7 @@ tags:
 | **Elevation**                | 83 ft (25 m)                                  |
 | **Largest aircraft**         | Code 4E[^ad20-1]                              |
 | **Airspace**                 | Fortaleza CTR, class C, GND/3500 ft[^ad17]    |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 

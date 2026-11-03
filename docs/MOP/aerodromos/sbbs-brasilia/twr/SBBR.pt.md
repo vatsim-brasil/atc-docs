@@ -18,7 +18,7 @@ tags:
 | **Elevação**                 | 3498 pés (1066 m)                             |
 | **Maior aeronave**           | Wide-bodies (código 4E)                       |
 | **Espaço aéreo**             | CTR Brasília, classe C, GND/6500 pés[^ad17]   |
-| **Aceita A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Aceita A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Informações Úteis
 

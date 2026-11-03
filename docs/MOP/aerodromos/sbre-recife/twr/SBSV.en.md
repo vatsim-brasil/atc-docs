@@ -18,7 +18,7 @@ tags:
 | **Elevation**                | 66 ft (20 m)                                  |
 | **Largest aircraft**         | Wide-bodies (code 4E) on 10/28; code 4C on 17/35 |
 | **Airspace**                 | Salvador CTR, class C, GND/3500 ft[^ad17]     |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 

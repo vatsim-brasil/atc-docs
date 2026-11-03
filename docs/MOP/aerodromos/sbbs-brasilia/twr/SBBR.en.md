@@ -18,7 +18,7 @@ tags:
 | **Elevation**                | 3498 ft (1066 m)                              |
 | **Largest aircraft**         | Wide-bodies (code 4E)                         |
 | **Airspace**                 | Brasília CTR, class C, GND/6500 ft[^ad17]     |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 

@@ -18,7 +18,7 @@ tags:
 | **Elevation**                | 264 ft (80 m)                                 |
 | **Largest aircraft**         | Wide-bodies (code 4E); B747-8F under special procedures[^ad20-1] |
 | **Airspace**                 | Manaus 1 CTR, class C, GND/2000 ft[^ad17]     |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 

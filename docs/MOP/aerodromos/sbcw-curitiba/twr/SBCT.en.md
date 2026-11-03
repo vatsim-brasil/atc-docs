@@ -19,7 +19,7 @@ tags:
 | **Largest aircraft**         | Wide-bodies (up to code 4E) on 15/33; light aircraft and ATRs (up to code 3C) on 11/29[^ad20-1] |
 | **Airspace**                 | Curitiba CTR, class D, GND/4500 ft[^ad17]     |
 | **Operation**                | IFR and VFR                                   |
-| **Accepts A380?** | :material-close:{ style="color:#d63d3d" }[^ad20-1] |
+| **Accepts A380?** | :material-check:{ style="color:#12a150" } |
 
 ## :material-monitor-dashboard: Useful Information
 
