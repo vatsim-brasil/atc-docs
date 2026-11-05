@@ -18,6 +18,7 @@
 *[ATS]: Serviços de Tráfego Aéreo / Air Traffic Services
 *[TMA]: Área de Controle Terminal / Terminal Control Area
 *[FIR]: Região de Informação de Voo / Flight Information Region
+*[FIZ]: Zona de Informação de Voo / Flight Information Zone
 *[SSR]: Radar de Vigilância Secundário / Secondary Surveillance Radar
 *[SOPs]: Procedimentos Operacionais Padrão / Standard Operating Procedures
 *[FSS]: Estação de Serviço de Voo / Flight Service Station
