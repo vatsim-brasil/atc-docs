@@ -26,7 +26,7 @@ Pergunte na ordem e pare na primeira linha cuja condição esteja satisfeita. **
 | Mesma rota e nível, técnica do número Mach, precedente com Mach igual ou maior    | **10 minutos**              | [^7] [^8]   |
 | Mesma rota e nível, técnica do número Mach, precedente mais veloz                 | **9 a 5 minutos**, ver tabela | [^7]      |
 | Mesma rota e nível, técnica do número Mach, **seguinte** mais veloz               | **10 minutos + compensação** | [^9]       |
-| Mesma rota e sentido, distância RNAV com leituras de um ponto comum               | **80 NM**                   | [^10] [^8]  |
+| Mesma rota e sentido, distância de navegação de área com leituras de um ponto comum               | **80 NM**                   | [^10] [^8]  |
 | Mesma rota e nível, sem técnica do número Mach                                    | **15 minutos**              | [^11]       |
 | Rotas que se cruzam, mesmo nível                                                  | **15 minutos** na interseção | [^12]      |
 | Rotas opostas, sem separação lateral                                              | Vertical de **10 minutos antes até 10 depois** do cruzamento estimado | [^13] |
@@ -55,7 +55,7 @@ Para rotas que se cruzam, o ponto de separação lateral segue a especificação
 !!! warning "As mínimas reduzidas exigem PBCS"
     A ICA 100-37 prevê 23 NM condicionada a `RCP 240`, `RSP 180` e contrato de evento ADS-C[^17]. **Enquanto a AIP não publicar essas mínimas para o corredor, aplique 50 NM.**
 
-Ao receber informação de falha ou degradação de navegação, aplique outro tipo ou mínimo de separação; os mínimos baseados em distância RNAV deixam de valer[^18].
+Ao receber informação de falha ou degradação de navegação, aplique outro tipo ou mínimo de separação; os mínimos baseados em distância de navegação de área deixam de valer[^18].
 
 ## Técnica do número Mach
 
@@ -98,7 +98,7 @@ Consultar o piloto sobre ajuste de velocidade é facultado, mas não deve ser ro
 | Perdeu                     | Efeito                                             | Ação                                          |
 | -------------------------- | -------------------------------------------------- | --------------------------------------------- |
 | Aprovação RVSM             | Vertical volta a 2.000 pés                          | Reposicionar níveis antes de infringir[^3]    |
-| Precisão de navegação      | Laterais e distância RNAV deixam de valer           | Aplicar outro tipo ou mínimo[^18]             |
+| Precisão de navegação      | Laterais e por navegação de área deixam de valer    | Aplicar outro tipo ou mínimo[^18]             |
 | ADS-C                      | Sem posição automática                              | Exigir reportes e restabelecer mínimos[^24]   |
 | Número Mach atribuído      | A técnica deixa de sustentar a mínima reduzida      | Voltar a 10 ou 15 minutos                     |
 
