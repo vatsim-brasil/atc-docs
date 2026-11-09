@@ -109,7 +109,7 @@ For the RADIO, this means following each aircraft to the end: an aircraft that r
 !!! note "On the network"
     There is no ARCC on VATSIM. The practical equivalent is to ask the pilot, check whether they are still connected, and tell the approach or center that has jurisdiction around the aerodrome. Emergencies on the network follow the Code of Conduct: the pilot only declares an emergency under control, and ends the emergency if the controller asks[^4].
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Chapter III, Sections XX and XXI (Arts. 140 to 164); Chapter VIII, Section V (AFIS, Arts. 782 to 791); Chapter IX (Alerting Service). Edition in force on 27/11/2025.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Chapter III, Sections XX and XXI (Arts. 140 to 164); Chapter VIII, Section V (AFIS, Arts. 782 to 791); Chapter IX (Alerting Service). Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force on 26/11/2026.
 [^2]: [**AIP-Brasil, ENR 2.2**](https://aisweb.decea.mil.br/?i=publicacoes&p=aip): FIZ table, amendment of 01/10/2026.
-[^3]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Section VI, Aerodrome Flight Information Service – AFIS (Arts. 153 to 158). Edition approved by Portaria DECEA/DNOR1 n° 1.716, of 28/04/2025.
+[^3]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Section VI, Aerodrome Flight Information Service – AFIS (Arts. 153 to 158). Edition as amended by Portaria DECEA/DNOR1 nº 2.193, of 11/08/2026, in force on 26/11/2026.
 [^4]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item B6.

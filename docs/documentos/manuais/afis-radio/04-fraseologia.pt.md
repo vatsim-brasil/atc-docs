@@ -175,4 +175,4 @@ Na RÁDIO, as frases de controle viram frases de informação:
 | Prossiga número dois, siga o Xingu. | Tráfego é o Xingu na perna do vento, à sua frente. |
 | Suba e mantenha FL 045. | (A RÁDIO não atribui nível. Se houver autorização de outro órgão, ela é retransmitida: "autorizado pelo Centro...".) |
 
-[^1]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Art. 151 e Seção VI, Serviço de Informação de Voo de Aeródromo – AFIS (Arts. 153 a 158). Edição aprovada pela Portaria DECEA/DNOR1 n° 1.716, de 28/04/2025. A tabela "O que não dizer" é deste manual, e não do MCA.
+[^1]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Art. 151 e Seção VI, Serviço de Informação de Voo de Aeródromo – AFIS (Arts. 153 a 158). Edição com a alteração da Portaria DECEA/DNOR1 nº 2.193, de 11/08/2026, em vigor em 26/11/2026. A tabela "O que não dizer" é deste manual, e não do MCA.

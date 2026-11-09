@@ -60,8 +60,8 @@ The following are not part of this manual:
 !!! tip "Further reading"
     The boundary between informing and controlling is in the [Airspace and ATS Manual](../espaco-aereo-servicos-ats/03-servicos.en.md#informing-is-not-controlling). The pilot's point of view, on a complete flight to a RADIO aerodrome, is in the [VFR Phraseology Manual](../fraseologia-voo-visual/voo-ida.en.md). The frequency and callsign of each RADIO are on the [aerodrome](../../../MOP/aerodromos/index.en.md) pages.
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulates in Brazil the Air Traffic Services provided for in ICAO Annex 11 and Doc 4444. Edition in force on 27/11/2025.
-[^2]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): sets the air traffic phraseology standards. Edition approved by Portaria DECEA/DNOR1 n° 1.716, of 28/04/2025.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulates in Brazil the Air Traffic Services provided for in ICAO Annex 11 and Doc 4444. Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force on 26/11/2026.
+[^2]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): sets the air traffic phraseology standards. Edition as amended by Portaria DECEA/DNOR1 nº 2.193, of 11/08/2026, in force on 26/11/2026.
 [^3]: [**AIP-Brasil, ENR 2.2, Other regulated airspace**](https://aisweb.decea.mil.br/?i=publicacoes&p=aip): lists the FIZ with limits, class, unit, callsign and frequency. Amendment of 01/10/2026.
 [^4]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), version 2.0, of 15/08/2026: defines the network's control positions, the required ratings and the top-down principle.
 [^5]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct): rules of conduct for pilots and controllers on the network.

@@ -75,4 +75,4 @@ The Code of Conduct only allows voice ATIS at aerodromes that have ATIS in the r
 [^1]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), items B5, C4, C6, C7(a) and C8.
 [^2]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), version 2.0, of 15/08/2026: items 4.5(e), 4.5(j), 4.6, 6.3 and 6.6.
 [^3]: Page of the [São Paulo TMA](../../../MOP/terminais/sbcw-curitiba/SBXP.en.md), in the Terminal Areas section: "With the FIZ position disconnected, `SBXP_APP` (or the position covering it) provides the flight information service in it."
-[^4]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Chapter III, Section XXI. Edition in force on 27/11/2025.
+[^4]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Chapter III, Section XXI. Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force on 26/11/2026.

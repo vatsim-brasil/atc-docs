@@ -109,7 +109,7 @@ Para a RÁDIO, isso significa acompanhar cada aeronave até o fim: quem reportou
 !!! note "Na rede"
     Na VATSIM não há ARCC. O equivalente prático é perguntar ao piloto, verificar se ele ainda está conectado e avisar o APP ou o centro que tem jurisdição em volta. Emergências na rede seguem o Código de Conduta: o piloto só declara emergência sob controle, e encerra a emergência se o controlador pedir[^4].
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Capítulo III, Seções XX e XXI (Arts. 140 a 164); Capítulo VIII, Seção V (AFIS, Arts. 782 a 791); Capítulo IX (Serviço de Alerta). Edição em vigor em 27/11/2025.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Capítulo III, Seções XX e XXI (Arts. 140 a 164); Capítulo VIII, Seção V (AFIS, Arts. 782 a 791); Capítulo IX (Serviço de Alerta). Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
 [^2]: [**AIP-Brasil, ENR 2.2**](https://aisweb.decea.mil.br/?i=publicacoes&p=aip): tabela das FIZ, emenda de 01/10/2026.
-[^3]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Seção VI, Serviço de Informação de Voo de Aeródromo – AFIS (Arts. 153 a 158). Edição aprovada pela Portaria DECEA/DNOR1 n° 1.716, de 28/04/2025.
+[^3]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Seção VI, Serviço de Informação de Voo de Aeródromo – AFIS (Arts. 153 a 158). Edição com a alteração da Portaria DECEA/DNOR1 nº 2.193, de 11/08/2026, em vigor em 26/11/2026.
 [^4]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item B6.

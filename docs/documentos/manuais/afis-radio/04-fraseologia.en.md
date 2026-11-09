@@ -175,4 +175,4 @@ At the RADIO, control phrases become information phrases:
 | Number two, follow the Xingu. | Traffic is the Xingu on downwind leg, ahead of you. |
 | Climb and maintain FL 045. | (The RADIO does not assign levels. If there is a clearance from another unit, it is relayed: "cleared by the Center...".) |
 
-[^1]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Art. 151 and Section VI, Aerodrome Flight Information Service – AFIS (Arts. 153 to 158). Edition approved by Portaria DECEA/DNOR1 n° 1.716, of 28/04/2025. The "What not to say" table is from this manual, not from the MCA.
+[^1]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): Art. 151 and Section VI, Aerodrome Flight Information Service – AFIS (Arts. 153 to 158). Edition as amended by Portaria DECEA/DNOR1 nº 2.193, of 11/08/2026, in force on 26/11/2026. The "What not to say" table is from this manual, not from the MCA.

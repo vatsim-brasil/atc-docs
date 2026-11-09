@@ -60,8 +60,8 @@ Não fazem parte deste manual:
 !!! tip "Leitura complementar"
     A fronteira entre informar e controlar está no [Manual de Espaço Aéreo e Serviços ATS](../espaco-aereo-servicos-ats/03-servicos.pt.md#o-que-informar-nao-e-controlar). O ponto de vista do piloto, num voo completo até um aeródromo com RÁDIO, está no [Manual de Fraseologia para Voo Visual](../fraseologia-voo-visual/voo-ida.pt.md). A frequência e o indicativo de cada RÁDIO estão nas páginas dos [aeródromos](../../../MOP/aerodromos/index.pt.md).
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
-[^2]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): estabelece os padrões de fraseologia de tráfego aéreo. Edição aprovada pela Portaria DECEA/DNOR1 n° 1.716, de 28/04/2025.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
+[^2]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): estabelece os padrões de fraseologia de tráfego aéreo. Edição com a alteração da Portaria DECEA/DNOR1 nº 2.193, de 11/08/2026, em vigor em 26/11/2026.
 [^3]: [**AIP-Brasil, ENR 2.2, Outros espaços aéreos regulamentados**](https://aisweb.decea.mil.br/?i=publicacoes&p=aip): traz as FIZ com limites, classe, órgão, indicativo de chamada e frequência. Emenda de 01/10/2026.
 [^4]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), versão 2.0, de 15/08/2026: define as posições de controle da rede, os ratings exigidos e o princípio top-down.
 [^5]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct): regras de conduta de pilotos e controladores na rede.

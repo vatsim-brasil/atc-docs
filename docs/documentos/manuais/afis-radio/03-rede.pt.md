@@ -75,4 +75,4 @@ O Código de Conduta só permite ATIS de voz nos aeródromos que têm ATIS no mu
 [^1]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), itens B5, C4, C6, C7(a) e C8.
 [^2]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), versão 2.0, de 15/08/2026: itens 4.5(e), 4.5(j), 4.6, 6.3 e 6.6.
 [^3]: Página da [TMA São Paulo](../../../MOP/terminais/sbcw-curitiba/SBXP.pt.md), na seção Terminais: "Com a posição da FIZ desconectada, o `SBXP_APP` (ou a posição que o cobre) presta o serviço de informação de voo nela."
-[^4]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Capítulo III, Seção XXI. Edição em vigor em 27/11/2025.
+[^4]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Capítulo III, Seção XXI. Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
