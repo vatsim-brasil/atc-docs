@@ -26,7 +26,7 @@ Ask in order and stop at the first row whose condition is met. **When more than 
 | Same route and level, Mach number technique, preceding aircraft at equal or higher Mach | **10 minutes**        | [^7] [^8]   |
 | Same route and level, Mach number technique, preceding aircraft faster            | **9 to 5 minutes**, see table | [^7]      |
 | Same route and level, Mach number technique, **following** aircraft faster        | **10 minutes + compensation** | [^9]      |
-| Same route and direction, RNAV distance with readings from a common point         | **80 NM**                   | [^10] [^8]  |
+| Same route and direction, area navigation distance with readings from a common point         | **80 NM**                   | [^10] [^8]  |
 | Same route and level, without Mach number technique                               | **15 minutes**              | [^11]       |
 | Crossing routes, same level                                                       | **15 minutes** at the intersection | [^12] |
 | Opposite routes, without lateral separation                                       | Vertical from **10 minutes before to 10 minutes after** the estimated passing | [^13] |
@@ -55,7 +55,7 @@ For crossing routes, the lateral separation point follows the navigation specifi
 !!! warning "Reduced minima require PBCS"
     ICA 100-37 provides for 23 NM conditioned on `RCP 240`, `RSP 180` and an ADS-C event contract[^17]. **Until the AIP publishes these minima for the corridor, apply 50 NM.**
 
-On receiving information of a navigation failure or degradation, apply another type or minimum of separation; minima based on RNAV distance no longer apply[^18].
+On receiving information of a navigation failure or degradation, apply another type or minimum of separation; minima based on area navigation distance no longer apply[^18].
 
 ## Mach number technique
 
@@ -98,7 +98,7 @@ Consulting the pilot about a speed adjustment is permitted, but should not be ro
 | Lost                       | Effect                                             | Action                                        |
 | -------------------------- | -------------------------------------------------- | --------------------------------------------- |
 | RVSM approval              | Vertical returns to 2,000 ft                        | Reassign levels before the minimum is infringed[^3] |
-| Navigation accuracy        | Lateral and RNAV distance minima no longer apply    | Apply another type or minimum[^18]            |
+| Navigation accuracy        | Lateral and area navigation minima no longer apply  | Apply another type or minimum[^18]            |
 | ADS-C                      | No automatic position                               | Require reports and re-establish minima[^24]  |
 | Assigned Mach number       | The technique no longer supports the reduced minimum | Return to 10 or 15 minutes                   |
 

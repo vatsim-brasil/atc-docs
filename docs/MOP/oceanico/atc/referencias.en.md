@@ -35,14 +35,14 @@ AIRAC cycle consulted: **A 15-2026**, effective 06 Aug 2026. Checked on **19 Aug
 
 ## DECEA publications
 
-All checked on **19 Aug 2026**. Portal: <https://publicacoes.decea.mil.br/>
+All checked on **19 Aug 2026**; ICA 100-37 and MCA 100-16 on **09 Nov 2026**. Portal: <https://publicacoes.decea.mil.br/>
 
 | Publication       | Title                                                                       | Edition in force |
 | ----------------- | --------------------------------------------------------------------------- | ---------------- |
-| **ICA 100-37**    | Serviços de Tráfego Aéreo (*Air Traffic Services*)                          | 27 Nov 2025      |
+| **ICA 100-37**    | Serviços de Tráfego Aéreo (*Air Traffic Services*)                          | 26 Nov 2026      |
 | **CIRCEA 100-66** | Separação Longitudinal Mínima com a Técnica do Número Mach no Atlântico Sul (*Minimum Longitudinal Separation Using the Mach Number Technique in the South Atlantic*) | 31 Oct 2024 |
 | **MCA 100-11**    | Preenchimento dos Formulários de Plano de Voo (*Completion of Flight Plan Forms*) | 01 Dec 2020 |
-| **MCA 100-16**    | Fraseologia de Tráfego Aéreo (*Air Traffic Phraseology*)                    | 08 May 2025      |
+| **MCA 100-16**    | Fraseologia de Tráfego Aéreo (*Air Traffic Phraseology*)                    | 26 Nov 2026      |
 | **MCA 100-23**    | Procedimentos Operacionais para o Uso de CPDLC (*Operational Procedures for the Use of CPDLC*) | 02 Aug 2021 |
 
 ## VATSIM

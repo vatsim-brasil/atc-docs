@@ -291,5 +291,5 @@ That is why Art. 28 of ICA 100-37, when listing the Air Traffic Services, does n
 !!! note "Which class applies where"
     ICA 100-37 defines what each class means. **Which** class applies to each portion of Brazilian airspace is published in AIP-Brasil, section ENR 1.4, and may change with each AIRAC cycle. Always check [AISWEB](https://aisweb.decea.mil.br/) for the current data.
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37) (*Air Traffic Services*): regulates in Brazil the Air Traffic Services set out in ICAO Annex 11 and Doc 4444. Edition in force since 27 Nov 2025.
-[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*): establishes the rules applicable to the operation of aircraft in Brazilian airspace. Edition in force since 28 Nov 2024.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37) (*Air Traffic Services*): regulates in Brazil the Air Traffic Services set out in ICAO Annex 11 and Doc 4444. Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force from 26/11/2026.
+[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*): establishes the rules applicable to the operation of aircraft in Brazilian airspace. Edition with the 1st amendment (Portaria DECEA/DNOR1 nº 2.168, of 09/07/2026), in force from 26/11/2026.

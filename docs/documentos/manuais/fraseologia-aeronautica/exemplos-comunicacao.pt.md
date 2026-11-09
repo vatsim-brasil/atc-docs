@@ -383,7 +383,7 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
       Controle Brasília, **GOL UNO QUATRO UNO NOVE**, decolando pista DOIS NOVE ESQUERDA, passando CINCO MIL PÉS, saída GAXON DOIS ALFA, transição ENRUR.
     </div>
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE** Controle Brasília, contato radar após a decolagem, suba via GAXON DOIS ALFA para o nível de voo TRÊS MEIA ZERO.
+      **GOL UNO QUATRO UNO NOVE** Controle Brasília, identificado após a decolagem, suba via GAXON DOIS ALFA para o nível de voo TRÊS MEIA ZERO.
     </div>
     <div class="comms-pilot">
       Sobe via saída para o nível TRÊS MEIA ZERO, **GOL UNO QUATRO UNO NOVE**.
@@ -394,7 +394,7 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
       Brasília Control, **GOL ONE FOUR ONE NINE**, airborne runway TWO NINE LEFT, passing FIVE THOUSAND FEET, GAXON TWO ALFA departure, ENRUR transition.
     </div>
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE** Brasília Control, radar contact on departure, climb via GAXON TWO ALFA to flight level THREE SIX ZERO.
+      **GOL ONE FOUR ONE NINE** Brasília Control, identified on departure, climb via GAXON TWO ALFA to flight level THREE SIX ZERO.
     </div>
     <div class="comms-pilot">
       Climb via departure to flight level THREE SIX ZERO, **GOL ONE FOUR ONE NINE**.
@@ -413,32 +413,32 @@ A autorização para a decolagem é concedida pela Torre após o piloto informar
 
 ??? abstract "Algumas observações..."
 
-    1. Ao dizer "Suba via SID para (nível)", o controle está instruindo a aeronave a subir para o nível autorizado seguindo o perfil lateral da SID e cumprindo as restrições de nível e velocidade publicadas na carta do procedimento de saída.
+    1. Ao dizer "Suba via (SID/Saída [nome]) para (nível)", o controle está instruindo a aeronave a subir para o nível autorizado seguindo o perfil lateral da SID e cumprindo as restrições de nível e velocidade publicadas na carta do procedimento de saída.
     
     2. É possível, porém, que o Controle cancele restrições de subida existentes na carta do procedimento de saída. O controle pode cancelar restrições específicas ou liberar a subida sem restrições.
     
         1. Caso cancele **todas as restrições de altitude <u>ou</u> velocidade**, a fraseologia será:
 
-            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, contato radar após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **canceladas as restrições de altitude/velocidade**. <br/>
-            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, radar contact on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude/speed restrictions**. <br/>
+            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **canceladas as restrições de altitude/velocidade**. <br/>
+            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude/speed restrictions**. <br/>
             > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas las restricciones de altitud/velocidad**. <br/>
 
         2. Caso cancele uma restrição de altitude <u>ou</u> velocidade **em ponto(s) específico(s)**, a fraseologia será:
 
-            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, contato radar após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **cancelada a restrição de altitude/velocidade em ILMET**. <br/>
-            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, radar contact on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude/speed restriction at ILMET**. <br/>
+            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **cancelada a restrição de altitude/velocidade em ILMET**. <br/>
+            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude/speed restriction at ILMET**. <br/>
             > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas la restricción de altitud/velocidad en ILMET**. <br/>
 
         3. Caso cancele todas as restrições no procedimento inteiro, a fraseologia será:
 
-            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, contato radar após a decolagem, suba **sem restrições** para o nível de voo TRÊS MEIA ZERO. <br/>
-            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, radar contact on departure, climb **without restrictions** to flight level THREE SIX ZERO. <br/>
+            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba **sem restrições** para o nível de voo TRÊS MEIA ZERO. <br/>
+            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb **without restrictions** to flight level THREE SIX ZERO. <br/>
             > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda **sin restricciones** al nivel TRES SEIS CERO. <br/>
 
             Ou ainda:
 
-            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, contato radar após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **canceladas as restrições de altitude e velocidade**. <br/>
-            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, radar contact on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude and speed restrictions**. <br/>
+            > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **canceladas as restrições de altitude e velocidade**. <br/>
+            > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude and speed restrictions**. <br/>
             > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas las restricciones de altitud y velocidad**. <br/>
             
 

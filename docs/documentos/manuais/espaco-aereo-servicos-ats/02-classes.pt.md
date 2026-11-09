@@ -291,5 +291,5 @@ Por isso o Art. 28 da ICA 100-37, ao listar os Serviços de Tráfego Aéreo, nã
 !!! note "Qual classe vale onde"
     A ICA 100-37 define o que cada classe significa. **Qual** classe se aplica a cada porção do espaço aéreo brasileiro é publicado na AIP-Brasil, seção ENR 1.4, e pode mudar por AIRAC. Consulte sempre o [AISWEB](https://aisweb.decea.mil.br/) para o dado vigente.
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
-[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
+[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição com a 1ª alteração (Portaria DECEA/DNOR1 nº 2.168, de 09/07/2026), em vigor em 26/11/2026.

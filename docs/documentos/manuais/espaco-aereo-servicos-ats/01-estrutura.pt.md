@@ -9,7 +9,7 @@ icon: material/layers-triple
 
 ## Espaço aéreo controlado e não controlado
 
-A ICA 100-12 define espaço aéreo controlado como o "espaço aéreo de dimensões definidas, dentro do qual se presta o Serviço de Controle de Tráfego Aéreo de acordo com a classificação do espaço aéreo" — um termo genérico que reúne os espaços aéreos ATS das classes A, B, C, D e E[^2]. A ICA 100-37 chega à mesma ideia por outro caminho: as Áreas de Controle e Zonas de Controle são "as partes do espaço aéreo na FIR onde é provido o Serviço de Controle de Tráfego Aéreo para os voos IFR ou VFR, conforme a classificação do espaço aéreo"[^1].
+O MCA 100-27 (Glossário ATM) define espaço aéreo controlado como o "espaço aéreo de dimensões definidas, dentro do qual se presta o serviço de controle de tráfego aéreo de conformidade com a classificação do espaço aéreo" e acrescenta que é "um termo genérico que engloba as Classes A, B, C, D e E dos espaços aéreos ATS"[^glossario]. A ICA 100-37 chega à mesma ideia por outro caminho: as Áreas de Controle e Zonas de Controle são "as partes do espaço aéreo na FIR onde é provido o Serviço de Controle de Tráfego Aéreo para os voos IFR ou VFR, conforme a classificação do espaço aéreo"[^1].
 
 Fora dessas áreas o espaço aéreo continua existindo — segue dentro da FIR — mas o serviço muda de natureza: em vez de controle, presta-se informação de voo e alerta[^1]. Essa mudança tem uma consequência prática direta sobre quem responde pela separação entre aeronaves: sempre que o órgão ATC não tiver responsabilidade de prover separação para a classe de espaço aéreo em questão, cabe ao piloto em comando providenciar sua própria separação em relação às demais aeronaves (Art. 24)[^1].
 
@@ -17,18 +17,18 @@ O próximo capítulo detalha as classes de espaço aéreo e o que muda em cada u
 
 ### Espaço aéreo controlado não é a mesma coisa que voo controlado
 
-São dois conceitos vizinhos e fáceis de confundir, e o restante deste manual usa os dois. **Espaço aéreo controlado** é um atributo do *espaço*: as classes A, B, C, D e E, onde se presta o Serviço de Controle de Tráfego Aéreo conforme a classificação[^2]. **Voo controlado** é um atributo do *voo*: o item CI do Anexo VII da ICA 100-12 define-o como "todo voo sujeito à autorização de controle de tráfego aéreo"[^2].
+São dois conceitos vizinhos e fáceis de confundir, e o restante deste manual usa os dois. **Espaço aéreo controlado** é um atributo do *espaço*: as classes A, B, C, D e E, onde se presta o Serviço de Controle de Tráfego Aéreo conforme a classificação[^glossario]. **Voo controlado** é um atributo do *voo*: o item 779 do Anexo III do MCA 100-27 define-o como "todo voo sujeito à autorização de controle de tráfego aéreo"[^glossario].
 
 O teste é diferente em cada caso — o primeiro pergunta onde a aeronave está; o segundo, se aquele voo depende de autorização ATC. Eles quase sempre coincidem, mas não sempre:
 
 - um voo VFR em espaço aéreo **Classe E** está dentro de espaço aéreo controlado e **não** é voo controlado: o Art. 115 da ICA 100-12 diz que, nas Classes E, F e G, "os voos VFR não estão sujeitos à autorização de controle de tráfego aéreo, recebendo dos órgãos ATS tão somente os serviços de informação de voo e de alerta"[^2];
-- um voo **VFR Especial** é voo controlado por definição, porque o Anexo VII da ICA 100-12 o descreve como o "voo VFR autorizado pelo controle de tráfego aéreo" dentro de CTR ou ATZ de aeródromo controlado[^2].
+- um voo **VFR Especial** é voo controlado por definição, porque o MCA 100-27 o descreve como o "voo VFR autorizado pelo controle de tráfego aéreo" dentro de uma CTR ou de uma ATZ de aeródromo controlado situada dentro das projeções verticais dos limites laterais de uma TMA[^glossario].
 
 É essa distinção que sustenta duas frases que aparecem adiante: a de que o voo VFR em Classe D continua sendo um voo controlado, e a do Art. 77 da ICA 100-12, que exige autorização "antes de realizar um voo controlado, ou uma parte de um voo controlado"[^2].
 
 ## FIR
 
-O Art. 15 da ICA 100-37 é direto: "Regiões de Informação de Voo são as partes do espaço aéreo onde são providos os Serviços de Informação de Voo e de Alerta."[^1] A ICA 100-12 define o mesmo conceito quase palavra por palavra: "espaço aéreo de dimensões definidas, dentro do qual são proporcionados serviços de informação de voo e de alerta"[^2].
+O Art. 15 da ICA 100-37 é direto: "Regiões de Informação de Voo são as partes do espaço aéreo onde são providos os Serviços de Informação de Voo e de Alerta."[^1] O MCA 100-27 define o mesmo conceito quase palavra por palavra: "espaço aéreo de dimensões definidas, dentro do qual são proporcionados serviços de informação de voo e de alerta"[^glossario].
 
 A FIR é o recipiente das demais divisões, não uma alternativa a elas. O Art. 19, parágrafo único, é explícito: "As Áreas de Controle, as Zonas de Controle e as Zonas de Tráfego de Aeródromo localizadas dentro de uma Região de Informação de Voo fazem parte dessa Região de Informação de Voo."[^1] Ou seja, UTA, CTA, TMA, CTR e ATZ não ficam ao lado da FIR — ficam dentro dela.
 
@@ -42,11 +42,11 @@ O Art. 16 estabelece o gênero: "Áreas de Controle e Zonas de Controle são as 
 
 A fronteira entre espaço aéreo superior e inferior não é uma variável local — é nacional e fixa: o espaço aéreo superior começa no FL 245 exclusive e não tem limite vertical superior; o inferior vai do solo ou da água até o FL 245 inclusive (Art. 12 e 13)[^1]. É essa divisão que separa UTA de CTA.
 
-A TMA ganha uma descrição adicional na ICA 100-12: é a "área de controle situada geralmente na confluência de rotas ATS e nas imediações de um ou mais aeródromos"[^2] — o espaço que concentra as chegadas e saídas de um ou mais aeródromos vizinhos antes de elas se juntarem às aerovias.
+A TMA ganha uma descrição adicional no MCA 100-27: é a "área de controle situada geralmente na confluência de rotas ATS e nas vizinhanças de um ou mais aeródromos"[^glossario] — o espaço que concentra as chegadas e saídas de um ou mais aeródromos vizinhos antes de elas se juntarem às aerovias.
 
 ## CTR
 
-A ICA 100-12 define Zona de Controle como "espaço aéreo controlado que se estende do solo até um limite superior especificado"[^2]. É a mesma lógica de controle do Art. 16 — dentro da CTR presta-se o Serviço de Controle de Tráfego Aéreo para IFR ou VFR conforme a classe do espaço[^1] — mas com uma diferença de origem: enquanto a Área de Controle "se estende para cima a partir de um limite especificado sobre o terreno"[^2], a CTR começa no próprio solo. É o espaço aéreo controlado que envolve um aeródromo desde a superfície.
+O MCA 100-27 define Zona de Controle como "espaço aéreo controlado que se estende do solo até um limite superior especificado"[^glossario]. É a mesma lógica de controle do Art. 16 — dentro da CTR presta-se o Serviço de Controle de Tráfego Aéreo para IFR ou VFR conforme a classe do espaço[^1] — mas com uma diferença de origem: enquanto a Área de Controle "se estende, no espaço aéreo inferior, para cima a partir de um limite especificado acima do terreno"[^glossario], a CTR começa no próprio solo. É o espaço aéreo controlado que envolve um aeródromo desde a superfície.
 
 ## ATZ
 
@@ -156,5 +156,6 @@ Os limites laterais e verticais reais de cada FIR, TMA, CTR e ATZ são publicado
 !!! tip "Na rede (Vatbrz)"
     No EuroScope, os limites de FIR, TMA, CTR e ATZ vêm do sector file. Antes de conectar, abra o setor e localize visualmente o limite lateral e vertical da sua posição — é ele que define até onde vai a sua responsabilidade.
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
-[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
+[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição com a 1ª alteração (Portaria DECEA/DNOR1 nº 2.168, de 09/07/2026), em vigor em 26/11/2026.
+[^glossario]: [**MCA 100-27, Glossário ATM**](https://publicacoes.decea.mil.br/publicacao/mca-100-27): Anexo III, definições. Edição aprovada pela Portaria DECEA/DNOR1 nº 2.218, de 25/08/2026, em vigor em 26/11/2026. Os Arts. 7º e 8º da ICA 100-12 remetem a ele as abreviaturas e as definições, e o antigo Anexo VII (Definições) da ICA 100-12 foi revogado pela Portaria DECEA/DNOR1 nº 2.168, de 09/07/2026.

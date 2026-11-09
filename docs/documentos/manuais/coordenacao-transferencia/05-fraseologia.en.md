@@ -24,7 +24,7 @@ The messages between units appear in MCA 100-16 in Portuguese only. The English 
 | PT BBC, chame Centro Manaus 124,7. | PT BBC, contact Manaus Center 124,7. |
 | PT MMH, se não estabelecer contato, retorne nesta frequência. | PT MMH, if contact not established, return to this frequency. |
 | TAM 3305, aprovada troca de frequência. | TAM 3305, frequency change approved. |
-| GLO 1921, serviço radar terminado, chame Controle Campo Grande em 119,0. | GLO 1921, radar service terminated, contact Campo Grande Control 119,0. |
+| GLO 1921, serviço de vigilância terminado, chame Controle Campo Grande em 119,0. | GLO 1921, surveillance service terminated, contact Campo Grande Control 119,0. |
 
 Source: Arts. 91, 98, 118 and 170.
 

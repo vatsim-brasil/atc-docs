@@ -25,6 +25,7 @@ Explore the operational technical documentation through the links below:
 * [**Vectoring and Sequencing Manual**](manuais/vetoracao-sequenciamento/index.en.md): Radar vectoring, speed control and arrival sequencing in the approach phase, from aircraft identification to the handoff to the tower, based on **ICA 100-37** and **MCA 100-16**.
 * [**Coordination and Transfer Manual**](manuais/coordenacao-transferencia/index.en.md): Coordination between units and positions, transfer of control and of communications, and what is specific to the network, such as top-down coverage, based on **ICA 100-37**, **MCA 100-16** and VATSIM's **GCAP**.
 * [**Separation and Wake Turbulence Manual**](manuais/separacao-esteira/index.en.md): Who receives separation, vertical and horizontal minima with and without ATS surveillance, runway separation and the distance- and time-based wake turbulence minima, based on **ICA 100-37** and **MCA 100-16**.
+* [**AFIS (Radio) Manual**](manuais/afis-radio/index.en.md): The Aerodrome Flight Information Service provided by RADIO positions: what the RADIO reports and what it never clears, VFR and IFR arrivals and departures, and the `_R_TWR` position on the network, based on **ICA 100-37**, **MCA 100-16**, the **AIP-Brasil** and VATSIM's **GCAP**.
 
 
 ## Disclaimer

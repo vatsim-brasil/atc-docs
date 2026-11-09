@@ -1,0 +1,9 @@
+title: Manual de AFIS (Rádio)
+collapse: false
+nav:
+  - ... | glob=index*.md
+  - ... | glob=01-fundamentos*.md
+  - ... | glob=02-operacao*.md
+  - ... | glob=03-rede*.md
+  - ... | glob=04-fraseologia*.md
+  - ... | glob=05-checklist*.md

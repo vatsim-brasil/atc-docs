@@ -15,12 +15,12 @@ When there is **no** adjacent unit available to hand off the traffic to, or when
 
 === ":flag_br: Portuguese"
     <div class="comms-atc">
-        **GOL UNO QUATRO UNO NOVE**, serviço radar terminado aos **XX**. Autorizada a troca de frequência, *próxima frequência*.
+        **GOL UNO QUATRO UNO NOVE**, serviço de vigilância terminado aos **XX**. Autorizada a troca de frequência, *próxima frequência*.
     </div>
 
 === ":flag_gb: English"
     <div class="comms-atc">
-        **GOL ONE FOUR ONE NINE**, radar service terminated at **XX**. Frequency change approved, *next frequency*.
+        **GOL ONE FOUR ONE NINE**, surveillance service terminated at **XX**. Frequency change approved, *next frequency*.
     </div>
 
 === ":flag_es: Spanish"
@@ -30,7 +30,7 @@ When there is **no** adjacent unit available to hand off the traffic to, or when
 
 !!! warning "Important!"
 
-    1. In the text above, replace **XX** with the minute at which radar service was terminated, read out digit by digit (example: 15 = ONE FIVE).
+    1. In the text above, replace **XX** with the minute at which surveillance service was terminated, read out digit by digit (example: 15 = ONE FIVE).
     2. Replace *next frequency* with the correct frequency to be given to the aircraft, which will be the frequency of the procedural (non-radar) control unit or the **CTAF/UNICOM** [^1] frequency if no controller is online.
 
 [^1]: The CTAF frequency is the tower or local area frequency. The UNICOM frequency is 122.800 MHz.

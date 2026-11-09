@@ -25,6 +25,7 @@ Explore a documentação técnica operacional através dos links abaixo:
 * [**Manual de Vetoração e Sequenciamento**](manuais/vetoracao-sequenciamento/index.pt.md): Vetoração radar, ajuste de velocidade e sequenciamento das chegadas na aproximação, da identificação da aeronave até a transferência para a torre, com base na **ICA 100-37** e no **MCA 100-16**.
 * [**Manual de Coordenação e Transferência**](manuais/coordenacao-transferencia/index.pt.md): Coordenação entre órgãos e posições, transferência de controle e de comunicações, e o que é próprio da rede, como a cobertura top-down, com base na **ICA 100-37**, no **MCA 100-16** e na **GCAP** da VATSIM.
 * [**Manual de Separação e Esteira de Turbulência**](manuais/separacao-esteira/index.pt.md): Quem recebe separação, os mínimos verticais e horizontais, com e sem vigilância ATS, a separação na pista e os mínimos de esteira de turbulência por distância e por tempo, com base na **ICA 100-37** e no **MCA 100-16**.
+* [**Manual de AFIS (Rádio)**](manuais/afis-radio/index.pt.md): O Serviço de Informação de Voo de Aeródromo prestado pelas posições RÁDIO: o que a RÁDIO informa e o que não autoriza, chegadas e saídas VFR e IFR, e a posição `_R_TWR` na rede, com base na **ICA 100-37**, no **MCA 100-16**, na **AIP-Brasil** e na **GCAP** da VATSIM.
 
 
 ## Limitação de Responsabilidade

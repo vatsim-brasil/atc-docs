@@ -44,7 +44,7 @@ Deixe a aeronave operar limpa o maior tempo possível[^13]. A tripulação norma
 !!! warning "Descer e reduzir não combinam"
     Evite pedir ao mesmo tempo **alta razão de descida e redução de velocidade**. A aeronave normalmente não consegue fazer as duas coisas, e uma redução significativa durante a descida pode exigir que ela nivele temporariamente[^16]. Pela mesma razão, evite aplicar **ao mesmo tempo** ajuste de velocidade horizontal e vertical a um mesmo voo[^17].
 
-Restrições de velocidade publicadas nas SID e STAR continuam valendo, a menos que você as cancele ou altere explicitamente[^18]. Algumas delas existem por exigência de navegação RNAV, como a velocidade máxima num arco de raio fixo (RF).
+Restrições de velocidade publicadas nas SID e STAR continuam valendo, a menos que você as cancele ou altere explicitamente[^18]. Algumas delas existem para garantir o cumprimento de requisitos PBN nos procedimentos de decolagem ou chegada, como a velocidade máxima num arco de raio fixo (RF).
 
 ## Método
 

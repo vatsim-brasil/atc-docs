@@ -9,7 +9,7 @@ icon: material/layers-triple
 
 ## Controlled and uncontrolled airspace
 
-ICA 100-12 defines controlled airspace as "airspace of defined dimensions within which Air Traffic Control Service is provided in accordance with the airspace classification" — a generic term covering ATS airspace of classes A, B, C, D and E[^2]. ICA 100-37 reaches the same idea by another route: Control Areas and Control Zones are "the parts of the airspace within the FIR where Air Traffic Control Service is provided to IFR or VFR flights, in accordance with the airspace classification"[^1].
+MCA 100-27 (ATM Glossary) defines controlled airspace as "airspace of defined dimensions within which air traffic control service is provided in accordance with the airspace classification" and adds that it is "a generic term which covers Classes A, B, C, D and E of ATS airspace"[^glossario]. ICA 100-37 reaches the same idea by another route: Control Areas and Control Zones are "the parts of the airspace within the FIR where Air Traffic Control Service is provided to IFR or VFR flights, in accordance with the airspace classification"[^1].
 
 Outside these areas the airspace still exists — it remains within the FIR — but the nature of the service changes: instead of control, flight information and alerting are provided[^1]. This change has a direct practical consequence for who is responsible for separation between aircraft: whenever the ATC unit is not responsible for providing separation in the airspace class concerned, it is up to the pilot in command to provide their own separation from other aircraft (Art. 24)[^1].
 
@@ -17,18 +17,18 @@ The next chapter details the airspace classes and what changes in each one. Here
 
 ### Controlled airspace is not the same as a controlled flight
 
-These are two neighboring concepts that are easy to confuse, and the rest of this manual uses both. **Controlled airspace** is an attribute of the *airspace*: classes A, B, C, D and E, where Air Traffic Control Service is provided in accordance with the classification[^2]. **Controlled flight** is an attribute of the *flight*: item CI of Annex VII to ICA 100-12 defines it as "any flight subject to an air traffic control clearance"[^2].
+These are two neighboring concepts that are easy to confuse, and the rest of this manual uses both. **Controlled airspace** is an attribute of the *airspace*: classes A, B, C, D and E, where Air Traffic Control Service is provided in accordance with the classification[^glossario]. **Controlled flight** is an attribute of the *flight*: item 779 of Annex III to MCA 100-27 defines it as "any flight subject to an air traffic control clearance"[^glossario].
 
 The test is different in each case — the first asks where the aircraft is; the second, whether that flight depends on an ATC clearance. They almost always coincide, but not always:
 
 - a VFR flight in **Class E** airspace is inside controlled airspace and is **not** a controlled flight: Art. 115 of ICA 100-12 states that, in Classes E, F and G, "VFR flights are not subject to air traffic control clearance, receiving from ATS units only flight information and alerting services"[^2];
-- a **Special VFR** flight is a controlled flight by definition, because Annex VII to ICA 100-12 describes it as a "VFR flight cleared by air traffic control" within a CTR or the ATZ of a controlled aerodrome[^2].
+- a **Special VFR** flight is a controlled flight by definition, because MCA 100-27 describes it as a "VFR flight cleared by air traffic control" within a CTR or within the ATZ of a controlled aerodrome located within the vertical projections of the lateral limits of a TMA[^glossario].
 
 This distinction is what underpins two statements that appear later: that a VFR flight in Class D is still a controlled flight, and Art. 77 of ICA 100-12, which requires a clearance "before operating a controlled flight, or a portion of a controlled flight"[^2].
 
 ## FIR
 
-Art. 15 of ICA 100-37 is direct: "Flight Information Regions are the parts of the airspace where Flight Information and Alerting Services are provided."[^1] ICA 100-12 defines the same concept almost word for word: "airspace of defined dimensions within which flight information service and alerting service are provided"[^2].
+Art. 15 of ICA 100-37 is direct: "Flight Information Regions are the parts of the airspace where Flight Information and Alerting Services are provided."[^1] MCA 100-27 defines the same concept almost word for word: "airspace of defined dimensions within which flight information service and alerting service are provided"[^glossario].
 
 The FIR is the container for the other divisions, not an alternative to them. Art. 19, sole paragraph, is explicit: "Control Areas, Control Zones and Aerodrome Traffic Zones located within a Flight Information Region form part of that Flight Information Region."[^1] In other words, UTA, CTA, TMA, CTR and ATZ do not sit beside the FIR — they sit inside it.
 
@@ -42,11 +42,11 @@ Art. 16 establishes the general category: "Control Areas and Control Zones are t
 
 The boundary between upper and lower airspace is not a local variable — it is national and fixed: the upper airspace begins above FL 245 (exclusive) and has no upper vertical limit; the lower airspace extends from the ground or water up to and including FL 245 (Art. 12 and 13)[^1]. It is this division that separates UTA from CTA.
 
-The TMA gets an additional description in ICA 100-12: it is the "control area normally established at the confluence of ATS routes in the vicinity of one or more aerodromes"[^2] — the airspace that concentrates the arrivals and departures of one or more neighboring aerodromes before they join the airways.
+The TMA gets an additional description in MCA 100-27: it is the "control area normally established at the confluence of ATS routes in the vicinity of one or more aerodromes"[^glossario] — the airspace that concentrates the arrivals and departures of one or more neighboring aerodromes before they join the airways.
 
 ## CTR
 
-ICA 100-12 defines a Control Zone as "controlled airspace extending upwards from the surface of the earth to a specified upper limit"[^2]. It follows the same control logic as Art. 16 — within the CTR, Air Traffic Control Service is provided to IFR or VFR flights according to the airspace class[^1] — but with a difference in where it starts: while a Control Area "extends upwards from a specified limit above the earth"[^2], the CTR starts at the ground itself. It is the controlled airspace that surrounds an aerodrome from the surface up.
+MCA 100-27 defines a Control Zone as "controlled airspace extending upwards from the surface of the earth to a specified upper limit"[^glossario]. It follows the same control logic as Art. 16 — within the CTR, Air Traffic Control Service is provided to IFR or VFR flights according to the airspace class[^1] — but with a difference in where it starts: while a Control Area "extends upwards, in the lower airspace, from a specified limit above the earth"[^glossario], the CTR starts at the ground itself. It is the controlled airspace that surrounds an aerodrome from the surface up.
 
 ## ATZ { #atz }
 
@@ -156,5 +156,6 @@ The actual lateral and vertical limits of each FIR, TMA, CTR and ATZ are publish
 !!! tip "On the network (Vatbrz)"
     In EuroScope, the FIR, TMA, CTR and ATZ limits come from the sector file. Before connecting, open the sector and visually locate the lateral and vertical limits of your position — they define how far your responsibility extends.
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37) (*Air Traffic Services*): regulates in Brazil the Air Traffic Services set out in ICAO Annex 11 and Doc 4444. Edition in force since 27/11/2025.
-[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*): establishes the rules applicable to the operation of aircraft in Brazilian airspace. Edition in force since 28/11/2024.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37) (*Air Traffic Services*): regulates in Brazil the Air Traffic Services set out in ICAO Annex 11 and Doc 4444. Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force from 26/11/2026.
+[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*): establishes the rules applicable to the operation of aircraft in Brazilian airspace. Edition with the 1st amendment (Portaria DECEA/DNOR1 nº 2.168, of 09/07/2026), in force from 26/11/2026.
+[^glossario]: [**MCA 100-27, Glossário ATM**](https://publicacoes.decea.mil.br/publicacao/mca-100-27) (*ATM Glossary*): Annex III, definitions. Edition approved by Portaria DECEA/DNOR1 nº 2.218, of 25/08/2026, in force from 26/11/2026. Arts. 7 and 8 of ICA 100-12 refer abbreviations and definitions to it, and the former Annex VII (Definitions) of ICA 100-12 was revoked by Portaria DECEA/DNOR1 nº 2.168, of 09/07/2026.

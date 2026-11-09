@@ -35,14 +35,14 @@ Ciclo AIRAC consultado: **A 15-2026**, em vigor em 06/08/2026. Verificada em **1
 
 ## Publicações do DECEA
 
-Todas verificadas em **19/08/2026**. Portal: <https://publicacoes.decea.mil.br/>
+Todas verificadas em **19/08/2026**; a ICA 100-37 e o MCA 100-16, em **09/11/2026**. Portal: <https://publicacoes.decea.mil.br/>
 
 | Publicação        | Título                                                                     | Edição em vigor |
 | ----------------- | --------------------------------------------------------------------------- | --------------- |
-| **ICA 100-37**    | Serviços de Tráfego Aéreo                                                   | 27/11/2025      |
+| **ICA 100-37**    | Serviços de Tráfego Aéreo                                                   | 26/11/2026      |
 | **CIRCEA 100-66** | Separação Longitudinal Mínima com a Técnica do Número Mach no Atlântico Sul | 31/10/2024      |
 | **MCA 100-11**    | Preenchimento dos Formulários de Plano de Voo                               | 01/12/2020      |
-| **MCA 100-16**    | Fraseologia de Tráfego Aéreo                                                | 08/05/2025      |
+| **MCA 100-16**    | Fraseologia de Tráfego Aéreo                                                | 26/11/2026      |
 | **MCA 100-23**    | Procedimentos Operacionais para o Uso de CPDLC                              | 02/08/2021      |
 
 ## VATSIM

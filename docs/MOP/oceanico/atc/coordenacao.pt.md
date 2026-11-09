@@ -67,7 +67,7 @@ Proteger a separação vem **antes** de restabelecer a comunicação. Não depen
 | **Falha de voz**                 | Tentar frequências secundárias e 121.5 MHz[^6]; usar CPDLC no interim[^7]     | Ampliar separação com os afetados            |
 | **Falha de SELCAL**              | Combinar escuta permanente na frequência e seguir                             | Nenhum: é recurso de chamada                 |
 | **Perda total de comunicação**   | Esgotar 121.5 MHz, SELCAL, frequência da empresa, ar-ar 123.45 MHz e outras tripulações[^6] [^8] | Ver abaixo             |
-| **Degradação de navegação**      | Aumentar frequência dos reportes                                              | Outro tipo ou mínimo; RNAV deixa de valer[^9] |
+| **Degradação de navegação**      | Aumentar frequência dos reportes                                              | Outro tipo ou mínimo; navegação de área deixa de valer[^9] |
 | **Não mantém nível ou Mach**     | Obter o que ela consegue manter e por quanto tempo                            | Vertical volta a 2.000 pés; Mach deixa de reduzir[^10] |
 | **Desvio meteorológico urgente** | Informar tráfego conflitante, oferecer nível livre, depois tratar do lateral  | Ver [Separação](separacao.pt.md#desvios)     |
 | **Emergência declarada**         | Confirmar intenções, limpar níveis e rota, prestar toda assistência[^11]      | Separação de emergência se necessário[^12]   |

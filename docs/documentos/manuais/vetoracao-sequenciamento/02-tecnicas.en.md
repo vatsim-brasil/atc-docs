@@ -47,7 +47,7 @@ To take an aircraft to a radial, airway or course, ICA 100-37 requires a heading
 - choose an angle that leaves room for the turn: 30° to 45° is usual, and larger angles need more distance;
 - say what to do next: "after intercepting, resume own navigation direct Curitiba VOR".
 
-> **PT MBO, radar contact, 11 miles northwest of Caxias NDB. Vectors to intercept Palegre 035 radial, turn left heading 070, climb and maintain FL 370. When intercepting, resume own navigation direct Curitiba VOR.**[^2]
+> **PT MBO, identified, 11 miles northwest of Caxias NDB. Vectors to intercept Palegre 035 radial, turn left heading 070, climb and maintain FL 370. When intercepting, resume own navigation direct Curitiba VOR.**[^2]
 
 ## Vectoring to the final approach
 

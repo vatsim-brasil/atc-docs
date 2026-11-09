@@ -63,6 +63,6 @@ Não fazem parte deste manual:
 !!! tip "Leitura complementar"
     Este manual pressupõe os conceitos do [Manual de Espaço Aéreo e Serviços ATS](../espaco-aereo-servicos-ats/index.pt.md): classes de espaço aéreo, TMA, CTR, níveis e altitude de transição. Para o uso do EuroScope (etiquetas, `F1 + S`, `F1 + D`), veja [EuroScope](../../../fundamentos/softwares/euroscope/index.pt.md). Os limites e procedimentos de cada TMA estão na seção [Terminais](../../../MOP/terminais/index.pt.md).
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
-[^2]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): estabelece os padrões de fraseologia de tráfego aéreo. Edição aprovada pela Portaria DECEA/DNOR1 n° 1.716, de 28/04/2025.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
+[^2]: [**MCA 100-16, Fraseologia de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/MCA-100-16): estabelece os padrões de fraseologia de tráfego aéreo. Edição com a alteração da Portaria DECEA/DNOR1 nº 2.193, de 11/08/2026, em vigor em 26/11/2026.
 [^3]: **ICA 100-37, Arts. 1020 e 1023**: a aproximação radar de vigilância só é autorizada a pedido do piloto ou na falta de outro procedimento publicado, e a PAR é realizada no Brasil somente por aeronaves militares.

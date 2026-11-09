@@ -208,7 +208,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
       Controle Belo Horizonte, **PAPA TANGO VICTOR BRAVO ROMEO**, decolado de Pampulha, VFR para Ipatinga, passando QUATRO MIL pés, subindo para SETE MIL E QUINHENTOS pés.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, Controle Belo Horizonte, contato radar, MEIA milhas a leste de Pampulha. Mantenha VFR, subida a seu critério para SETE MIL E QUINHENTOS pés. Reporte deixando a TMA Belo Horizonte.
+      **VICTOR BRAVO ROMEO**, Controle Belo Horizonte, identificado, MEIA milhas a leste de Pampulha. Mantenha VFR, subida a seu critério para SETE MIL E QUINHENTOS pés. Reporte deixando a TMA Belo Horizonte.
     </div>
     <div class="comms-pilot">
       Mantém VFR, sobe a critério para SETE MIL E QUINHENTOS pés, reportará deixando a TMA, **VICTOR BRAVO ROMEO**.
@@ -223,7 +223,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
       **VICTOR BRAVO ROMEO**, deixando a TMA Belo Horizonte, SETE MIL E QUINHENTOS pés.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, serviço radar terminado aos DOIS OITO. Autorizada a troca de frequência, chame Informação Brasília em UNO DOIS CINCO DECIMAL TRÊS.
+      **VICTOR BRAVO ROMEO**, serviço de vigilância terminado aos DOIS OITO. Autorizada a troca de frequência, chame Informação Brasília em UNO DOIS CINCO DECIMAL TRÊS.
     </div>
     <div class="comms-pilot">
       Chamará Informação Brasília em UNO DOIS CINCO DECIMAL TRÊS, **VICTOR BRAVO ROMEO**.
@@ -234,7 +234,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
       Belo Horizonte Control, **PAPA TANGO VICTOR BRAVO ROMEO**, airborne from Pampulha, VFR to Ipatinga, passing FOUR THOUSAND feet, climbing to SEVEN THOUSAND FIVE HUNDRED feet.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, Belo Horizonte Control, radar contact, SIX miles east of Pampulha. Maintain VFR, climb at your discretion to SEVEN THOUSAND FIVE HUNDRED feet. Report leaving Belo Horizonte TMA.
+      **VICTOR BRAVO ROMEO**, Belo Horizonte Control, identified, SIX miles east of Pampulha. Maintain VFR, climb at your discretion to SEVEN THOUSAND FIVE HUNDRED feet. Report leaving Belo Horizonte TMA.
     </div>
     <div class="comms-pilot">
       Maintaining VFR, climbing at own discretion to SEVEN THOUSAND FIVE HUNDRED feet, will report leaving the TMA, **VICTOR BRAVO ROMEO**.
@@ -249,7 +249,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
       **VICTOR BRAVO ROMEO**, leaving Belo Horizonte TMA, SEVEN THOUSAND FIVE HUNDRED feet.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, radar service terminated at TWO EIGHT. Frequency change approved, contact Brasília Information on ONE TWO FIVE DECIMAL THREE.
+      **VICTOR BRAVO ROMEO**, surveillance service terminated at TWO EIGHT. Frequency change approved, contact Brasília Information on ONE TWO FIVE DECIMAL THREE.
     </div>
     <div class="comms-pilot">
       Will contact Brasília Information on ONE TWO FIVE DECIMAL THREE, **VICTOR BRAVO ROMEO**.
@@ -289,7 +289,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
         > :flag_gb: **VICTOR BRAVO ROMEO**, negative contact. <br/>
         > :flag_es: **VICTOR BRAVO ROMEO**, tráfico no a la vista. <br/>
 
-    2. Termination of radar service follows the same standard as in instrument flight, detailed in the [Important Tips](../fraseologia-aeronautica/dicas.en.md) of the Aeronautical Phraseology Manual. Replace the minute with the actual termination time, read digit by digit.
+    2. Termination of surveillance service follows the same standard as in instrument flight, detailed in the [Important Tips](../fraseologia-aeronautica/dicas.en.md) of the Aeronautical Phraseology Manual. Replace the minute with the actual termination time, read digit by digit.
 
     3. Not every visual flight leaves controlled airspace. On short flights, Control may hand the aircraft over directly to the destination Tower.
 

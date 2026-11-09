@@ -116,5 +116,5 @@ The rules in this chapter — especially the VMC minima and the correlation betw
 !!! note "Helicopters"
     Flight visibility and distance from cloud minima for helicopters are covered in a separate publication, ICA 100-4 (*Regras e Procedimentos Especiais de Tráfego Aéreo para Helicópteros* — Special Air Traffic Rules and Procedures for Helicopters), and are not included in the table above.[^2]
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37) (*Air Traffic Services*): regulates in Brazil the Air Traffic Services provided for in ICAO Annex 11 and Doc 4444. Edition in force since 27 Nov 2025.
-[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*): establishes the rules applicable to the operation of aircraft in Brazilian airspace. Edition in force since 28 Nov 2024.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37) (*Air Traffic Services*): regulates in Brazil the Air Traffic Services provided for in ICAO Annex 11 and Doc 4444. Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force from 26/11/2026.
+[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12) (*Rules of the Air*): establishes the rules applicable to the operation of aircraft in Brazilian airspace. Edition with the 1st amendment (Portaria DECEA/DNOR1 nº 2.168, of 09/07/2026), in force from 26/11/2026.

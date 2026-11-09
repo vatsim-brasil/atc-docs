@@ -20,7 +20,7 @@ All numbers shall be transmitted by pronouncing each digit separately, except in
 | 6 | <u>MEI</u> A | <u>SIKS</u> | <u>SEIS</u> |
 | 7 | <u>SE</u> TE | <u>SE</u> VEM | <u>SIE</u> TE |
 | 8 | <u>OI</u> TO | <u>EI</u> T | <u>O</u> CHO |
-| 9 | <u>NO</u> VE | <u>NAI</u> NE | <u>NUE</u> VE |
+| 9 | <u>NO</u> VE | <u>NAI</u> NER | <u>NUE</u> VE |
 | 10 | <u>DEZ</u> | <u>TEN</u> | <u>DIEZ</u> |
 | . | DE CI <u>MAL</u> | <u>DEI</u> CI MAL | DE CI <u>MAL</u> or <u>CO</u> MA |
 | 100 | <u>CEM</u> | <u>RÃ</u> DRED | <u>CIEN</u> |
