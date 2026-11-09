@@ -116,5 +116,5 @@ As regras deste capítulo — sobretudo os mínimos VMC e a correlação entre r
 !!! note "Helicópteros"
     Os mínimos de visibilidade em voo e distância de nuvens para helicópteros são tratados em publicação própria, a ICA 100-4 (Regras e Procedimentos Especiais de Tráfego Aéreo para Helicópteros), e não constam da tabela acima.[^2]
 
-[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição em vigor em 27/11/2025.
-[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição em vigor em 28/11/2024.
+[^1]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): regulamenta no Brasil os Serviços de Tráfego Aéreo previstos no Anexo 11 e no Doc 4444 da OACI. Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
+[^2]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): estabelece as regras aplicáveis à operação de aeronaves no espaço aéreo brasileiro. Edição com a 1ª alteração (Portaria DECEA/DNOR1 nº 2.168, de 09/07/2026), em vigor em 26/11/2026.

@@ -13,7 +13,7 @@ Todos os exemplos vêm do **MCA 100-16**[^1], Capítulo IV, Seções III e VII, 
 
 Proas, níveis, velocidades e códigos transponder **precisam ser cotejados** pelo piloto. Se o cotejamento vier errado, responda "negativo", seguido da instrução correta[^2].
 
-## Identificação e contato radar
+## Identificação
 
 | Português | Inglês |
 | --- | --- |
@@ -21,9 +21,9 @@ Proas, níveis, velocidades e códigos transponder **precisam ser cotejados** pe
 | ARG 7222, acione 6642. | ARG 7222, squawk 6642. |
 | TAM 3520, confirme acionado 4135. | TAM 3520, confirm squawk 4135. |
 | TAM 3501, para identificação, curva à direita proa 070. | TAM 3501, for identification, turn right heading 070. |
-| PT JRS, contato radar, 40 milhas sul de Brasília, desça para FL 070, prevista aproximação ILS Z pista 29L. | PT JRS, radar contact, 40 miles South of Brasília, descend to FL 070, expect ILS Z approach runway 29L. |
-| GLO 1208, contato radar na decolagem, suba para FL 330, saída LIPE, transição PRIMO. | GLO 1208, radar contact on departure, climb to flight level 330, LIPE departure, PRIMO transition. |
-| PT SLB, não reporte posições, serviço radar. | PT SLB, omit positions reports, radar service. |
+| PT JRS, identificado, 40 milhas sul de Brasília, desça para FL 070, prevista aproximação ILS Z pista 29L. | PT JRS, identified, 40 miles South of Brasília, descend to FL 070, expect ILS Z approach runway 29L. |
+| GLO 1208, identificado na decolagem, suba para FL 330, saída LIPE, transição PRIMO. | GLO 1208, identified on departure, climb to flight level 330, LIPE departure, PRIMO transition. |
+| PT SLB, não reporte posições, serviço de vigilância. | PT SLB, omit positions reports, surveillance service. |
 | PTN 4132, não identificado, cheque transponder. | PTN 4132, not identified, check transponder. |
 
 Fonte: Arts. 160 a 164 e 187.
@@ -42,7 +42,7 @@ Quando for preciso dizer **por que** a aeronave está sendo vetorada, use estas 
 
 | Português | Inglês |
 | --- | --- |
-| PT NLG, contato radar a 30 milhas sudoeste de Congonhas, vetoração. | PT NLG, radar contact 30 miles southwest of Congonhas, vectoring. |
+| PT NLG, identificado a 30 milhas sudoeste de Congonhas, vetoração. | PT NLG, identified 30 miles southwest of Congonhas, vectoring. |
 | TAM 3205, vetoração para final ILS. | TAM 3205, vectoring for ILS final approach. |
 | AAL 7411, vetoração para sequenciamento, curva à esquerda proa 030. | AAL 7411, vectoring for sequencing, turn left heading 030. |
 | PT MKR, vetoração para atraso em rota, mantenha presente proa. | PT MKR, vectoring for delay, maintain present heading. |
@@ -98,10 +98,10 @@ Fonte: Arts. 86, 117 e 172.
 
 | Português | Inglês |
 | --- | --- |
-| PT ASN, autorizado direto FRANC, desça via STAR para FL 030. | PT ASN, cleared direct FRANC, descend via STAR to FL 030. |
+| PT ASN, autorizado direto FRANC, desça via (STAR) para FL 030. | PT ASN, cleared direct FRANC, descend via (STAR) to FL 030. |
 | PT ASN, curva à esquerda proa 260, vetoração devido a tráfego, desça para FL 050, previsto reingressar na STAR em FRANC. | PT ASN, turn left heading 260 vectors due traffic, descend to FL 050, expect to rejoin STAR at FRANC. |
-| PT ASN, reassuma navegação, autorizado direto FRANC para reingressar na STAR, desça via STAR para FL 030. | PT ASN, resume own navigation, cleared direct FRANC to rejoin STAR, descend via STAR to FL 030. |
-| TAM 3120, desça via STAR para 7.000 pés, cancele restrições de velocidade. | TAM 3120, descend via STAR to 7.000 feet, cancel speed restrictions. |
+| PT ASN, (posição) reassuma navegação, autorizado direto FRANC para reingressar na (STAR), desça via STAR para FL 030. | PT ASN, (posição) resume own navigation, cleared direct FRANC to rejoin (STAR), descend via STAR to FL 030. |
+| TAM 3120, desça via (STAR), para 7.000 pés, cancele restrições de velocidade. | TAM 3120, descend via (STAR) to 7.000 feet, cancel speed restrictions. |
 
 Fonte: Art. 115.
 
@@ -154,8 +154,8 @@ Fonte: Art. 166.
 | --- | --- |
 | TAM 3702, 50 milhas sudeste VOR Campo Grande, reassuma navegação na proa do VOR Urubupungá. | TAM 3702, 50 miles Southeast of Campo Grande VOR, resume own navigation, heading Urubupungá VOR. |
 | PT WRT, 15 milhas de Caxias radial 060, reassuma navegação. | PT WRT, 15 miles from Caxias 060 radial, resume own navigation. |
-| GLO 1921, serviço radar terminado, chame Controle Campo Grande em 119,0. | GLO 1921, radar service terminated, contact Campo Grande Control 119,0. |
-| TAM 3232, contato radar perdido, 18 milhas nordeste de São Paulo, chame Centro Brasília 126,95. | TAM 3232, radar contact lost, 18 miles northeast of São Paulo, contact Brasília Center 126,95. |
+| GLO 1921, serviço de vigilância terminado, chame Controle Campo Grande em 119,0. | GLO 1921, surveillance service terminated, contact Campo Grande Control 119,0. |
+| TAM 3232, identificação perdida, 18 milhas nordeste de São Paulo, chame Centro Brasília 126,95. | TAM 3232, identification lost, 18 miles northeast of São Paulo, contact Brasília Center 126,95. |
 
 Fonte: Arts. 170, 187 e 188.
 

@@ -47,7 +47,7 @@ Para levar uma aeronave a uma radial, aerovia ou curso, a ICA 100-37 exige uma p
 - escolha um ângulo que deixe espaço para a curva: entre 30° e 45° é o habitual, e ângulos maiores pedem mais distância;
 - diga o que fazer depois: "ao interceptar, reassuma a navegação direto VOR Curitiba".
 
-> **PT MBO, contato radar, 11 milhas noroeste do NDB Caxias. Vetoração para interceptar radial 035 VOR Palegre, curva à esquerda proa 070, suba e mantenha FL 370. Ao interceptar, reassuma a navegação direto VOR Curitiba.**[^2]
+> **PT MBO, identificado, 11 milhas noroeste do NDB Caxias. Vetoração para interceptar radial 035 VOR Palegre, curva à esquerda proa 070, suba e mantenha FL 370. Ao interceptar, reassuma a navegação direto VOR Curitiba.**[^2]
 
 ## Vetoração para a aproximação final
 

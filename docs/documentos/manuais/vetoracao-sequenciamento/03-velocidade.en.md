@@ -44,7 +44,7 @@ Let the aircraft operate clean for as long as possible[^13]. The crew normally s
 !!! warning "Descending and slowing down do not mix"
     Avoid asking at the same time for a **high rate of descent and a speed reduction**. The aircraft is normally unable to do both, and a significant reduction during descent may require it to level off temporarily[^16]. For the same reason, avoid applying horizontal and vertical speed control **at the same time** to the same flight[^17].
 
-Speed restrictions published on SIDs and STARs remain in force unless you explicitly cancel or amend them[^18]. Some of them exist because of RNAV navigation requirements, such as the maximum speed on a radius-to-fix (RF) leg.
+Speed restrictions published on SIDs and STARs remain in force unless you explicitly cancel or amend them[^18]. Some of them exist to ensure compliance with PBN requirements in departure or arrival procedures, such as the maximum speed on a radius-to-fix (RF) leg.
 
 ## Method
 

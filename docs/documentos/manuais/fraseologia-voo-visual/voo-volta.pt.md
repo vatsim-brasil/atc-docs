@@ -262,7 +262,7 @@ O ingresso em espaço aéreo controlado depende de autorização. O piloto solic
       Transponder QUATRO DOIS ZERO TRÊS, **VICTOR BRAVO ROMEO**.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, contato radar, DOIS CINCO milhas a nordeste de Pampulha. Autorizado ingresso na TMA Belo Horizonte, mantenha VFR, desça para QUATRO MIL E QUINHENTOS pés, Q N H UNO ZERO UNO TRÊS.
+      **VICTOR BRAVO ROMEO**, identificado, DOIS CINCO milhas a nordeste de Pampulha. Autorizado ingresso na TMA Belo Horizonte, mantenha VFR, desça para QUATRO MIL E QUINHENTOS pés, Q N H UNO ZERO UNO TRÊS.
     </div>
     <div class="comms-pilot">
       Autorizado ingresso na TMA, mantém VFR, desce para QUATRO MIL E QUINHENTOS pés, Q N H UNO ZERO UNO TRÊS, **VICTOR BRAVO ROMEO**.
@@ -291,7 +291,7 @@ O ingresso em espaço aéreo controlado depende de autorização. O piloto solic
       Squawk FOUR TWO ZERO THREE, **VICTOR BRAVO ROMEO**.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, radar contact, TWO FIVE miles northeast of Pampulha. Cleared to enter Belo Horizonte TMA, maintain VFR, descend to FOUR THOUSAND FIVE HUNDRED feet, Q N H ONE ZERO ONE THREE.
+      **VICTOR BRAVO ROMEO**, identified, TWO FIVE miles northeast of Pampulha. Cleared to enter Belo Horizonte TMA, maintain VFR, descend to FOUR THOUSAND FIVE HUNDRED feet, Q N H ONE ZERO ONE THREE.
     </div>
     <div class="comms-pilot">
       Cleared to enter the TMA, maintaining VFR, descending to FOUR THOUSAND FIVE HUNDRED feet, Q N H ONE ZERO ONE THREE, **VICTOR BRAVO ROMEO**.

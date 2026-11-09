@@ -28,7 +28,7 @@ When two targets are very close together or are making similar movements, use mo
 
 When you identify the aircraft, inform its position. The exceptions are identifications made by transfer, by the pilot's own position report, by a departure observed within 1 NM of the end of the runway, or by the Mode S, ADS-B or discrete code tag, when the position on the screen is consistent with the flight plan[^6]. The position may be given in relation to a well-known point, by bearing and distance from a navigation aid or fix, or as the distance from touchdown when the aircraft is on final[^7].
 
-> **TAM 3501, radar contact, 40 miles South of Brasília, descend to FL 070, expect ILS Z approach runway 29L.**
+> **TAM 3501, identified, 40 miles South of Brasília, descend to FL 070, expect ILS Z approach runway 29L.**
 
 While the ATS surveillance service is being provided, the pilot is **exempt from reporting position** at compulsory reporting points and only reports where ATC requests[^8].
 

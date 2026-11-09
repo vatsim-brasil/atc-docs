@@ -208,7 +208,7 @@ Dentro do espaço aéreo controlado, o voo visual continua sujeito a autorizaç�
       Controle Belo Horizonte, **PAPA TANGO VICTOR BRAVO ROMEO**, decolado de Pampulha, VFR para Ipatinga, passando QUATRO MIL pés, subindo para SETE MIL E QUINHENTOS pés.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, Controle Belo Horizonte, contato radar, MEIA milhas a leste de Pampulha. Mantenha VFR, subida a seu critério para SETE MIL E QUINHENTOS pés. Reporte deixando a TMA Belo Horizonte.
+      **VICTOR BRAVO ROMEO**, Controle Belo Horizonte, identificado, MEIA milhas a leste de Pampulha. Mantenha VFR, subida a seu critério para SETE MIL E QUINHENTOS pés. Reporte deixando a TMA Belo Horizonte.
     </div>
     <div class="comms-pilot">
       Mantém VFR, sobe a critério para SETE MIL E QUINHENTOS pés, reportará deixando a TMA, **VICTOR BRAVO ROMEO**.
@@ -223,7 +223,7 @@ Dentro do espaço aéreo controlado, o voo visual continua sujeito a autorizaç�
       **VICTOR BRAVO ROMEO**, deixando a TMA Belo Horizonte, SETE MIL E QUINHENTOS pés.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, serviço radar terminado aos DOIS OITO. Autorizada a troca de frequência, chame Informação Brasília em UNO DOIS CINCO DECIMAL TRÊS.
+      **VICTOR BRAVO ROMEO**, serviço de vigilância terminado aos DOIS OITO. Autorizada a troca de frequência, chame Informação Brasília em UNO DOIS CINCO DECIMAL TRÊS.
     </div>
     <div class="comms-pilot">
       Chamará Informação Brasília em UNO DOIS CINCO DECIMAL TRÊS, **VICTOR BRAVO ROMEO**.
@@ -234,7 +234,7 @@ Dentro do espaço aéreo controlado, o voo visual continua sujeito a autorizaç�
       Belo Horizonte Control, **PAPA TANGO VICTOR BRAVO ROMEO**, airborne from Pampulha, VFR to Ipatinga, passing FOUR THOUSAND feet, climbing to SEVEN THOUSAND FIVE HUNDRED feet.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, Belo Horizonte Control, radar contact, SIX miles east of Pampulha. Maintain VFR, climb at your discretion to SEVEN THOUSAND FIVE HUNDRED feet. Report leaving Belo Horizonte TMA.
+      **VICTOR BRAVO ROMEO**, Belo Horizonte Control, identified, SIX miles east of Pampulha. Maintain VFR, climb at your discretion to SEVEN THOUSAND FIVE HUNDRED feet. Report leaving Belo Horizonte TMA.
     </div>
     <div class="comms-pilot">
       Maintaining VFR, climbing at own discretion to SEVEN THOUSAND FIVE HUNDRED feet, will report leaving the TMA, **VICTOR BRAVO ROMEO**.
@@ -249,7 +249,7 @@ Dentro do espaço aéreo controlado, o voo visual continua sujeito a autorizaç�
       **VICTOR BRAVO ROMEO**, leaving Belo Horizonte TMA, SEVEN THOUSAND FIVE HUNDRED feet.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, radar service terminated at TWO EIGHT. Frequency change approved, contact Brasília Information on ONE TWO FIVE DECIMAL THREE.
+      **VICTOR BRAVO ROMEO**, surveillance service terminated at TWO EIGHT. Frequency change approved, contact Brasília Information on ONE TWO FIVE DECIMAL THREE.
     </div>
     <div class="comms-pilot">
       Will contact Brasília Information on ONE TWO FIVE DECIMAL THREE, **VICTOR BRAVO ROMEO**.
@@ -289,7 +289,7 @@ Dentro do espaço aéreo controlado, o voo visual continua sujeito a autorizaç�
         > :flag_gb: **VICTOR BRAVO ROMEO**, negative contact. <br/>
         > :flag_es: **VICTOR BRAVO ROMEO**, tráfico no a la vista. <br/>
 
-    2. O encerramento do serviço radar segue o mesmo padrão do voo por instrumentos, detalhado nas [Dicas Importantes](../fraseologia-aeronautica/dicas.pt.md) do Manual de Fraseologia Aeronáutica. Substitua o minuto pelo horário real do encerramento, lido dígito a dígito.
+    2. O encerramento do serviço de vigilância segue o mesmo padrão do voo por instrumentos, detalhado nas [Dicas Importantes](../fraseologia-aeronautica/dicas.pt.md) do Manual de Fraseologia Aeronáutica. Substitua o minuto pelo horário real do encerramento, lido dígito a dígito.
 
     3. Nem todo voo visual sai do espaço aéreo controlado. Em voos curtos, o Controle pode transferir a aeronave diretamente para a Torre do destino.
 

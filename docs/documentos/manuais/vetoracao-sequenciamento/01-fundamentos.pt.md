@@ -28,7 +28,7 @@ Quando dois alvos estiverem muito próximos ou fizerem movimentos parecidos, use
 
 Ao identificar a aeronave, informe sua posição. A exceção são as identificações feitas por transferência, pelo informe de posição do próprio piloto, por uma decolagem observada a menos de 1 NM do fim da pista ou pela etiqueta Modo S, ADS-B ou de código discreto, quando a posição na tela estiver de acordo com o plano de voo[^6]. A posição pode ser dada em relação a um ponto conhecido, por rumo e distância de um auxílio ou fixo, ou como distância do ponto de toque, quando a aeronave estiver na final[^7].
 
-> **TAM 3501, contato radar, 40 milhas sul de Brasília, desça para FL 070, prevista aproximação ILS Z pista 29L.**
+> **TAM 3501, identificado, 40 milhas sul de Brasília, desça para FL 070, prevista aproximação ILS Z pista 29L.**
 
 Com o Serviço de Vigilância ATS em curso, o piloto fica **dispensado de reportar posição** nos pontos compulsórios e só reporta onde o controle pedir[^8].
 
