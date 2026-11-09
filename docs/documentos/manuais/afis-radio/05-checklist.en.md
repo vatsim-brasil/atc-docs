@@ -21,7 +21,7 @@ icon: material/checkbox-marked-circle-outline
 - [ ] I answered with **roger**, not with cleared
 - [ ] I gave wind, altimeter setting, temperature and aerodrome conditions
 - [ ] I gave the **known traffic**, or said there is no traffic reported
-- [ ] I requested the next report
+- [ ] I requested the next report, and on base leg or final the pilot reported the gear down and locked
 - [ ] I left the choice of runway and spacing to the pilot
 
 ## On every IFR
@@ -46,5 +46,6 @@ icon: material/checkbox-marked-circle-outline
 | FIZ airspace | Class G |
 | Area with no published FIZ | Movement area and Class G below FL 145, up to 27 NM |
 | Standard answer to a report | Roger |
-| No unit online | Designated frequency, or 122.800 |
+| Relay | "Cleared by the Center..." |
+| No unit online | Designated frequency, or 122.800 (in the real world, FCA or 123.45) |
 | Callsign | Location + Radio (Rádio Altamira in Portuguese) |

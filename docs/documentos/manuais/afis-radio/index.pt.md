@@ -21,7 +21,7 @@ Este manual é para quem vai abrir uma posição RÁDIO (`_R_TWR`) na Vatsim Bra
 
 ## Sobre este Manual
 
-A base normativa é a **ICA 100-37**[^1]: a Seção V do capítulo do Serviço de Informação de Voo (Serviço de Informação de Voo de Aeródromo – AFIS, a partir do Art. 783), a seção sobre descida por instrumentos em aeródromo provido de AFIS e a do Serviço de Alerta. A fraseologia segue a Seção VI do Capítulo IV do **MCA 100-16**[^2], dedicada ao AFIS. As zonas de informação de voo vêm da **AIP-Brasil, ENR 2.2**[^3]. O que é próprio da rede segue a **Política Global de Administração de Controladores (GCAP)**[^4] e o **Código de Conduta**[^5] da VATSIM.
+A base normativa é a **ICA 100-37**[^1]: a Seção V do Capítulo VIII (Serviço de Informação de Voo de Aeródromo – AFIS, Arts. 782 a 791), as Seções XX e XXI do Capítulo III (descida por instrumentos em aeródromo provido de AFIS e operação em aeródromo não controlado, Arts. 140 a 164) e o Capítulo IX (Serviço de Alerta). A fraseologia segue a Seção VI do **MCA 100-16**[^2], dedicada ao AFIS (Arts. 153 a 158). As zonas de informação de voo vêm da **AIP-Brasil, ENR 2.2**[^3]. O que é próprio da rede segue a **Política Global de Administração de Controladores (GCAP)**[^4] e o **Código de Conduta**[^5] da VATSIM.
 
 Quando a norma do mundo real e a prática da rede divergirem, o manual mostra as duas e diz qual vale na Vatsim Brasil. Trechos de técnica, que não são norma, aparecem marcados como boa prática.
 

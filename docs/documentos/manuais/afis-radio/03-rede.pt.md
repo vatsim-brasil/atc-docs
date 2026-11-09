@@ -36,12 +36,15 @@ Na rede, vale a posição do pacote de setores, a qualquer hora. Se o aeródromo
 
 A GCAP estabelece que as posições da VATSIM cobrem o espaço aéreo e as posições abaixo delas quando essas não estão ocupadas. É o princípio top-down. Ele vale para as posições que prestam serviço de controle, e a divisão pode estendê-lo a outras posições (GCAP 4.6 e 4.6(a))[^2]. Na Vatsim Brasil, as RÁDIOS entram na cobertura: no diagrama de cada TMA, a `_R_TWR` fica abaixo do APP, e o APP fica abaixo do centro.
 
-Com a RÁDIO desconectada, quem está acima presta o Serviço de Informação de Voo na FIZ[^3]. Isso tem um efeito que pega muita gente:
+Com a RÁDIO desconectada, quem está acima presta o Serviço de Informação de Voo na FIZ[^3]. O arranjo tem paralelo no mundo real: num aeródromo não controlado que é sede de um APP, é o próprio APP que presta o AFIS (Art. 784 da ICA 100-37)[^4]. Isso tem um efeito que pega muita gente:
 
 !!! warning "O top-down não transforma a FIZ em espaço controlado"
     O APP ou o centro que cobre um aeródromo com AFIS presta **informação** dentro da FIZ, não controle. Não há autorização de pouso nem de decolagem a dar. O controlador acima usa a fraseologia da RÁDIO no aeródromo, com o próprio indicativo, e volta a controlar quando a aeronave entra no espaço aéreo controlado.
 
 Sem ninguém conectado, nem direto nem por top-down, os pilotos usam a frequência de tráfego da rede. O Código de Conduta manda monitorar a frequência designada no espaço aéreo sem controlador, e usar 122.800 onde não houver uma frequência própria[^1].
+
+!!! note "Mundo real e rede"
+    No mundo real, fora do horário do AFIS o piloto usa a frequência do próprio órgão como frequência de coordenação entre aeronaves (FCA), e em aeródromo sem órgão ATS usa a FCA da AIP ou, se não houver, 123,45 MHz (Arts. 147 e 148 da ICA 100-37)[^4]. Na VATSIM vale o Código de Conduta: a frequência de tráfego da rede é 122.800.
 
 ## Abrindo e fechando a posição
 
@@ -72,3 +75,4 @@ O Código de Conduta só permite ATIS de voz nos aeródromos que têm ATIS no mu
 [^1]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), itens B5, C4, C6, C7(a) e C8.
 [^2]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), versão 2.0, de 15/08/2026: itens 4.5(e), 4.5(j), 4.6, 6.3 e 6.6.
 [^3]: Página da [TMA São Paulo](../../../MOP/terminais/sbcw-curitiba/SBXP.pt.md), na seção Terminais: "Com a posição da FIZ desconectada, o `SBXP_APP` (ou a posição que o cobre) presta o serviço de informação de voo nela."
+[^4]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Capítulo III, Seção XXI. Edição em vigor em 27/11/2025.

@@ -21,7 +21,7 @@ This manual is for anyone who will open a RADIO position (`_R_TWR`) at Vatsim Br
 
 ## About this Manual
 
-The regulatory basis is **ICA 100-37**[^1]: Section V of the Flight Information Service chapter (Aerodrome Flight Information Service – AFIS, from Art. 783), the section on instrument descent at an aerodrome provided with AFIS, and the Alerting Service chapter. Phraseology follows Section VI of Chapter IV of **MCA 100-16**[^2], dedicated to AFIS. The flight information zones come from **AIP-Brasil, ENR 2.2**[^3]. What is specific to the network follows the VATSIM **Global Controller Administration Policy (GCAP)**[^4] and **Code of Conduct**[^5].
+The regulatory basis is **ICA 100-37**[^1]: Section V of Chapter VIII (Aerodrome Flight Information Service – AFIS, Arts. 782 to 791), Sections XX and XXI of Chapter III (instrument descent at an aerodrome provided with AFIS and operation at an uncontrolled aerodrome, Arts. 140 to 164) and Chapter IX (Alerting Service). Phraseology follows Section VI of **MCA 100-16**[^2], dedicated to AFIS (Arts. 153 to 158). The flight information zones come from **AIP-Brasil, ENR 2.2**[^3]. What is specific to the network follows the VATSIM **Global Controller Administration Policy (GCAP)**[^4] and **Code of Conduct**[^5].
 
 When the real-world rule and network practice differ, the manual shows both and says which one applies at Vatsim Brasil. Passages on technique, which are not regulation, are marked as good practice.
 

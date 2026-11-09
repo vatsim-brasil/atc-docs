@@ -36,12 +36,15 @@ On the network, the position in the sector package applies, at any time. If the 
 
 The GCAP establishes that VATSIM positions cover the airspace and positions below them when those are not staffed. This is the top-down principle. It applies to positions providing control service, and the division may extend it to other positions (GCAP 4.6 and 4.6(a))[^2]. At Vatsim Brasil, RADIOS are part of the coverage: in each TMA's diagram, the `_R_TWR` sits below the APP, and the APP sits below the center.
 
-With the RADIO disconnected, the position above provides the Flight Information Service in the FIZ[^3]. This has an effect that catches many people out:
+With the RADIO disconnected, the position above provides the Flight Information Service in the FIZ[^3]. The arrangement has a real-world parallel: at an uncontrolled aerodrome where an APP is based, the APP itself provides AFIS (Art. 784 of ICA 100-37)[^4]. This has an effect that catches many people out:
 
 !!! warning "Top-down does not turn the FIZ into controlled airspace"
     The approach or center covering an AFIS aerodrome provides **information** within the FIZ, not control. There is no landing or take-off clearance to give. The controller above uses RADIO phraseology at the aerodrome, with their own callsign, and resumes control when the aircraft enters controlled airspace.
 
 With no one connected, either directly or top-down, pilots use the network traffic frequency. The Code of Conduct requires monitoring the designated frequency in airspace with no controller, and using 122.800 where there is no specific frequency[^1].
+
+!!! note "Real world and network"
+    In the real world, outside AFIS hours the pilot uses the unit's own frequency as the air-to-air coordination frequency (FCA), and at an aerodrome with no ATS unit uses the FCA from the AIP or, if there is none, 123.45 MHz (Arts. 147 and 148 of ICA 100-37)[^4]. On VATSIM the Code of Conduct applies: the network traffic frequency is 122.800.
 
 ## Opening and closing the position
 
@@ -72,3 +75,4 @@ The Code of Conduct only allows voice ATIS at aerodromes that have ATIS in the r
 [^1]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), items B5, C4, C6, C7(a) and C8.
 [^2]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), version 2.0, of 15/08/2026: items 4.5(e), 4.5(j), 4.6, 6.3 and 6.6.
 [^3]: Page of the [São Paulo TMA](../../../MOP/terminais/sbcw-curitiba/SBXP.en.md), in the Terminal Areas section: "With the FIZ position disconnected, `SBXP_APP` (or the position covering it) provides the flight information service in it."
+[^4]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Chapter III, Section XXI. Edition in force on 27/11/2025.

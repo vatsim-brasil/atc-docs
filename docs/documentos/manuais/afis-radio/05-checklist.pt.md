@@ -21,7 +21,7 @@ icon: material/checkbox-marked-circle-outline
 - [ ] Respondi com **ciente**, e não com autorizado
 - [ ] Dei vento, ajuste de altímetro, temperatura e condições do aeródromo
 - [ ] Dei o **tráfego conhecido**, ou disse que não há tráfego conhecido
-- [ ] Pedi o próximo reporte
+- [ ] Pedi o próximo reporte, e na perna base ou na final o piloto reportou o trem baixado e travado
 - [ ] Deixei a escolha da pista e do espaçamento com o piloto
 
 ## Em cada IFR
@@ -46,5 +46,6 @@ icon: material/checkbox-marked-circle-outline
 | Espaço aéreo da FIZ | Classe G |
 | Área sem FIZ publicada | Área de movimento e Classe G abaixo do FL 145, até 27 NM |
 | Resposta padrão a um reporte | Ciente |
-| Sem nenhum órgão on-line | Frequência designada, ou 122.800 |
+| Retransmissão | "Autorizado pelo Centro..." |
+| Sem nenhum órgão on-line | Frequência designada, ou 122.800 (no mundo real, FCA ou 123,45) |
 | Indicativo | Rádio + localidade (Altamira Radio em inglês) |
