@@ -34,7 +34,7 @@ The rules below apply on any REH. The values for each route (altitudes, points, 
 | VFR flight, in continuous visual contact with the ground | VFR circulation AIC[^2] |
 | The REH minimum altitudes do not relieve the pilot of keeping clear of obstacles | VFR circulation AIC[^2] |
 | Without visual conditions, the pilot turns back, lands elsewhere or asks ATC for clearance to continue, including changing to IFR | VFR circulation AIC[^2] |
-| The helicopter does not cross a runway centreline or IFR paths without an ATC clearance | VFR circulation AIC[^2] |
+| The helicopter does not cross a runway centreline or IFR paths without an ATC clearance | VFR circulation AIC[^2] and Art. 113 of the ICA 100-12[^6] |
 
 Some REH are **compulsory**: the helicopter leaves them only in an emergency or with an ATS clearance. Others are **recommended**, usually in class G, and entering controlled airspace still requires a clearance[^2].
 
@@ -45,7 +45,7 @@ The airspace class of each REH segment is in the publication, and may differ fro
 | Segment class | What APP does |
 | --- | --- |
 | **C or D** (controlled) | Clears the entry, controls the helicopter and provides the separation and traffic information of that class |
-| **G** (uncontrolled) | No control and no ATS surveillance service. The helicopter talks on the published coordination frequency and only gets flight information and alerting, if it asks |
+| **G** (uncontrolled) | VFR flights are not subject to ATC clearance (Art. 115 of the ICA 100-12)[^6]. No control and no ATS surveillance service. The helicopter talks on the published coordination frequency and only gets flight information and alerting, if it asks |
 
 What each class gives a VFR flight is in the [Airspace and ATS Services Manual](../espaco-aereo-servicos-ats/index.md). What matters here is not to "control" a helicopter in class G: there, it decides on its own.
 
@@ -58,7 +58,7 @@ What each class gives a VFR flight is in the [Airspace and ATS Services Manual](
 
 ### Identification and transponder
 
-The AICs for terminal areas with REH usually make the transponder mandatory throughout the area, including class G, and set a code for helicopters flying between places without an ATS unit[^2]. When the helicopter enters controlled airspace, give it its own code and identify it like any other traffic.
+Under the general rule, a transponder is mandatory in classes A to E and, in class G, only above FL 100 and 2,500 ft above ground; there are even REA published for aircraft without a transponder (Arts. 870 and 871 of the ICA 100-37)[^7]. What makes the transponder mandatory throughout the area, class G included, is the AIC of each terminal area with REH, which also sets a code for helicopters flying between places without an ATS unit[^2]. When the helicopter enters controlled airspace, give it its own code and identify it like any other traffic.
 
 ### The standard report
 
@@ -70,7 +70,7 @@ If the pilot calls with less than that, ask for what is missing before clearing 
 
 ### Entry and crossing
 
-A helicopter entering controlled airspace along an REH needs a clearance. The clearance gives the route, altitude and next reporting point. Where the REH crosses a final or an IFR departure path, the helicopter needs a clearance to cross.
+A helicopter entering controlled airspace along an REH needs a clearance: no VFR flight enters a class B, C or D TMA or CTR without an APP clearance (Art. 421 of the ICA 100-37)[^7]. The clearance gives the route, altitude and next reporting point. Where the REH crosses a final or an IFR departure path, the helicopter needs a clearance to cross.
 
 !!! note "Good practice"
     If the final is busy, have the helicopter hold over the last visual point before the crossing, and clear the crossing right after the landing or take-off. It is quicker than taking it off the route.
@@ -78,6 +78,10 @@ A helicopter entering controlled airspace along an REH needs a clearance. The cl
 ### Traffic information
 
 Two helicopters flying opposite ways on the same REH are at different altitudes and each on the right of the centreline. Even so, tell each about the other. Also tell a helicopter passing close to a final about the traffic on it, and a VFR aeroplane crossing an REH about the helicopters on it.
+
+### Priority on approach
+
+An air ambulance carrying a seriously ill or injured person or a vital organ has priority on approach too (Art. 462 of the ICA 100-37)[^7], not only at the tower. See [Special Operations](05-especiais.en.md) for what applies on the network.
 
 ### Coordination with the tower
 
@@ -90,7 +94,7 @@ APP is an **S3** position under the GCAP, with a maximum range of 150 NM[^3]. Wi
 Many helicopter pilots on the network do not know the REH. Some practical rules:
 
 - if the pilot does not have the chart, point them to the terminal page on the portal, which shows the REH on the map;
-- if they cannot follow the REH, clear a direct route to a visual point, away from finals and IFR departures, at an altitude that does not conflict with them;
+- if they cannot follow the REH, clear a direct route to a visual point, away from finals and IFR departures, at an altitude that does not conflict with them. If you must vector it, make sure it does not enter instrument conditions, and do not vector a controlled flight out of controlled airspace without reason (Arts. 929 and 1026 of the ICA 100-37)[^7];
 - in class G with no controller online, the published coordination frequency becomes the network traffic frequency: the Code of Conduct requires the designated frequency or, where there is none, 122.800 (item B5)[^4].
 
 !!! warning "Overload"
@@ -101,3 +105,5 @@ Many helicopter pilots on the network do not know the REH. Some practical rules:
 [^3]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), version 2.0, of 15/08/2026: items 4.6 and 4.6(d). Maximum ranges: [**Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item C8.
 [^4]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item B5.
 [^5]: [**Vatsim Brasil, Division Policy**](https://vatsim.com.br/documentos), item 3.6.
+[^6]: [**ICA 100-12, Rules of the Air**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): Arts. 113 and 115. Edition with the 1st amendment (Portaria DECEA/DNOR1 nº 2.168, of 09/07/2026), in force on 26/11/2026.
+[^7]: [**ICA 100-37, Air Traffic Services**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Arts. 421 (VFR entry), 462 (approach priority), 870 and 871 (transponder), 929 and 1026 (vectoring VFR). Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force on 26/11/2026.

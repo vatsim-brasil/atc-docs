@@ -25,7 +25,7 @@ Ele trata do controle habitual: o helicóptero que chega, sai ou cruza um aeród
 
 ## Sobre este Manual
 
-A base normativa é a **ICA 100-4**, Regras e Procedimentos Especiais de Tráfego Aéreo para Helicópteros[^1]. Ela traz as definições, as regras VFR do helicóptero, os procedimentos de aeródromo, as REH, a operação offshore e a fraseologia própria do helicóptero. A **ICA 100-37**[^2] completa com a esteira de turbulência, o sopro do rotor e as prioridades. O **MCA 100-16**[^3] dá a fraseologia geral; ele não tem uma seção de helicópteros, então as transmissões específicas vêm do Capítulo 7 da ICA 100-4.
+A base normativa é a **ICA 100-4**, Regras e Procedimentos Especiais de Tráfego Aéreo para Helicópteros[^1]. Ela traz as definições, as regras VFR do helicóptero, os procedimentos de aeródromo, as REH, a operação offshore e a fraseologia própria do helicóptero. A **ICA 100-37**[^2] completa com a esteira de turbulência, o sopro do rotor e as prioridades. A **ICA 100-12**, Regras do Ar, dá as regras VFR gerais, o glossário **MCA 100-27** dá as definições, e a **CIRCEA 100-111** e o **RBAC 90** da ANAC entram na parte de operações especiais. O **MCA 100-16**[^3] dá a fraseologia geral; ele não tem uma seção de helicópteros, então as transmissões específicas vêm do Capítulo 7 da ICA 100-4.
 
 O que é próprio da rede segue o **Código de Conduta**[^4], a **Política Global de Administração de Controladores (GCAP)**[^5] e a **Política de Operações Especiais**[^6] da VATSIM.
 

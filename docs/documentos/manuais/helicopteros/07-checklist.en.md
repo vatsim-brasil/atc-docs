@@ -51,6 +51,8 @@ icon: material/checkbox-marked-circle-outline
 | Rotor downwash | About 3 rotor diameters |
 | Helicopter VFR minima at the aerodrome | 600 ft ceiling, 1,500 m visibility |
 | VFR visibility in controlled airspace | 3,000 m |
+| For comparison: aeroplane VFR minima at the aerodrome | 1,500 ft ceiling, 5 km visibility |
+| Special VFR | By day only, in the CTR or ATZ, with an APP clearance |
 | Simultaneous landings | 60 m between the points and between the helicopters |
 | Circuit without a tower | 500 ft, without crossing the finals |
 | Minimum height over built-up areas | 500 ft above the highest obstacle within 600 m |

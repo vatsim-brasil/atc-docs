@@ -25,7 +25,7 @@ It covers routine control: the helicopter that arrives at, departs from or cross
 
 ## About this Manual
 
-The regulatory basis is the **ICA 100-4**, Special Air Traffic Rules and Procedures for Helicopters[^1]. It has the definitions, the helicopter VFR rules, the aerodrome procedures, the REH, offshore operations and the helicopter phraseology. The **ICA 100-37**[^2] adds wake turbulence, rotor downwash and priorities. The **MCA 100-16**[^3] gives the general phraseology; it has no helicopter section, so the specific transmissions come from chapter 7 of the ICA 100-4.
+The regulatory basis is the **ICA 100-4**, Special Air Traffic Rules and Procedures for Helicopters[^1]. It has the definitions, the helicopter VFR rules, the aerodrome procedures, the REH, offshore operations and the helicopter phraseology. The **ICA 100-37**[^2] adds wake turbulence, rotor downwash and priorities. The **ICA 100-12**, Rules of the Air, gives the general VFR rules, the **MCA 100-27** glossary gives the definitions, and the **CIRCEA 100-111** and ANAC's **RBAC 90** feed the special operations page. The **MCA 100-16**[^3] gives the general phraseology; it has no helicopter section, so the specific transmissions come from chapter 7 of the ICA 100-4.
 
 What is specific to the network follows VATSIM's **Code of Conduct**[^4], **Global Controller Administration Policy (GCAP)**[^5] and **Special Operations Policy**[^6].
 

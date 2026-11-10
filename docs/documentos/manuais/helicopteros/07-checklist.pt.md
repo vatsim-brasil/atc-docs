@@ -51,6 +51,8 @@ icon: material/checkbox-marked-circle-outline
 | Sopro do rotor | Cerca de 3 diâmetros de rotor |
 | Mínimos VFR de helicóptero no aeródromo | Teto 600 ft, visibilidade 1.500 m |
 | Visibilidade VFR em espaço controlado | 3.000 m |
+| Para comparar: mínimos VFR de avião no aeródromo | Teto 1.500 ft, visibilidade 5 km |
+| VFR especial | Só de dia, na CTR ou ATZ, com autorização do APP |
 | Pousos simultâneos | 60 m entre os pontos e entre os helicópteros |
 | Circuito sem torre | 500 ft, sem cruzar as finais |
 | Altura mínima sobre área habitada | 500 ft acima do obstáculo mais alto num raio de 600 m |

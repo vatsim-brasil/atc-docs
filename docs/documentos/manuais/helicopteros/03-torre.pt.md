@@ -66,6 +66,10 @@ A ICA 100-37 não fixa altura de circuito para helicópteros (Art. 678 trata de 
 
 O helicóptero de passagem pede para cruzar a zona de controle, muitas vezes por uma REH. A torre autoriza o cruzamento com uma altitude e um ponto de saída, e não deixa que ele cruze o alinhamento da pista em uso sem autorização. Se houver REH publicada, o helicóptero deve se manter nela e seguir as altitudes publicadas (item 5.4.2)[^1].
 
+### VFR especial
+
+Com o tempo abaixo dos mínimos VFR do helicóptero, ele só opera como VFR especial, de dia e dentro da CTR ou da ATZ. A torre só repassa a autorização de VFR especial depois de obtê-la do APP (Art. 847 da ICA 100-37), e o VFR especial recebe separação dos IFR e dos outros VFR especiais (Art. 39)[^2]. Ver a nota em [Fundamentos](01-fundamentos.pt.md#as-regras-vfr-do-helicoptero).
+
 ### Fazer esperar
 
 O helicóptero pode esperar parado. É a ferramenta mais útil da torre com helicópteros: em vez de mandar o helicóptero dar voltas, mande-o aguardar sobre um ponto conhecido, fora das trajetórias dos aviões, até a pista ficar livre para o cruzamento.
@@ -84,6 +88,6 @@ A torre é uma posição **S2** na GCAP, com alcance máximo de 50 NM[^3]. Com o
 O CoC proíbe conectar na pista e na pista de táxi (item B1)[^4], mas não fala de helipontos. Um helicóptero que aparece num heliponto dentro do aeródromo está conectado de forma regular.
 
 [^1]: [**ICA 100-4, Regras e Procedimentos Especiais de Tráfego Aéreo para Helicópteros**](https://publicacoes.decea.mil.br/publicacao/ica-100-4): capítulo 5 (procedimentos de aeródromo e REH) e capítulo 7 (fraseologia). Portaria DECEA nº 109/DGCEA, de 21/07/2021.
-[^2]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Art. 207 (esteira de helicópteros), Art. 544 (esteira na torre), Arts. 601 e 608 (prioridades) e Art. 678 (circuito). Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
+[^2]: [**ICA 100-37, Serviços de Tráfego Aéreo**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Art. 39 (separação do VFR especial), Art. 207 (esteira de helicópteros), Art. 544 (esteira na torre), Arts. 601 e 608 (prioridades) Art. 678 (circuito) e Art. 847 (VFR especial). Edição com a 2ª alteração (Portaria DECEA/DNOR1 nº 2.197, de 18/08/2026), em vigor em 26/11/2026.
 [^3]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), versão 2.0, de 15/08/2026: item 4.6 (top-down). Alcances máximos: [**Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item C8.
 [^4]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item B1.

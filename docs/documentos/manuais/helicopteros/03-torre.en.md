@@ -66,6 +66,10 @@ The ICA 100-37 sets no circuit height for helicopters (Art. 678 covers aeroplane
 
 A transiting helicopter asks to cross the control zone, often along an REH. The tower clears the crossing with an altitude and an exit point, and does not let it cross the extended centreline of the runway in use without a clearance. Where an REH is published, the helicopter should stay on it at the published altitudes (item 5.4.2)[^1].
 
+### Special VFR
+
+With the weather below the helicopter's VFR minima, it can only operate as special VFR, by day and inside the CTR or ATZ. The tower passes on a special VFR clearance only after getting it from APP (Art. 847 of the ICA 100-37), and special VFR flights are separated from IFR flights and from each other (Art. 39)[^2]. See the note in [Fundamentals](01-fundamentos.en.md#helicopter-vfr-rules).
+
 ### Making it wait
 
 A helicopter can wait stationary. It is the tower's most useful tool with helicopters: instead of sending it round in circles, have it hold over a known point, clear of the aeroplane paths, until the runway is clear for the crossing.
@@ -84,6 +88,6 @@ The tower is an **S2** position under the GCAP, with a maximum range of 50 NM[^3
 The CoC forbids connecting on a runway or taxiway (item B1)[^4], but says nothing about helipads. A helicopter that appears on a helipad inside the aerodrome has connected properly.
 
 [^1]: [**ICA 100-4, Special Air Traffic Rules and Procedures for Helicopters**](https://publicacoes.decea.mil.br/publicacao/ica-100-4): chapter 5 (aerodrome procedures and REH) and chapter 7 (phraseology). Portaria DECEA nº 109/DGCEA, of 21/07/2021.
-[^2]: [**ICA 100-37, Air Traffic Services**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Art. 207 (helicopter wake), Art. 544 (wake at the tower), Arts. 601 and 608 (priorities) and Art. 678 (circuit). Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force on 26/11/2026.
+[^2]: [**ICA 100-37, Air Traffic Services**](https://publicacoes.decea.mil.br/publicacao/ica-100-37): Art. 39 (special VFR separation), Art. 207 (helicopter wake), Art. 544 (wake at the tower), Arts. 601 and 608 (priorities) Art. 678 (circuit) and Art. 847 (special VFR). Edition with the 2nd amendment (Portaria DECEA/DNOR1 nº 2.197, of 18/08/2026), in force on 26/11/2026.
 [^3]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), version 2.0, of 15/08/2026: item 4.6 (top-down). Maximum ranges: [**Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item C8.
 [^4]: [**VATSIM, Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item B1.

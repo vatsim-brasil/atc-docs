@@ -13,7 +13,7 @@ Com o helicóptero, o GND faz o mesmo que faz com qualquer aeronave: autoriza o 
 
 ## As premissas
 
-1. **O táxi não é obrigatório.** Pela ICA 100-4, o táxi do helicóptero "não é, normalmente, obrigatório" (item 2.3.1)[^1]. Se ele pode decolar do pátio ou do heliponto, o movimento seguinte é com a torre, não com você.
+1. **O táxi não é obrigatório.** Pela ICA 100-4, o táxi do helicóptero "não é, normalmente, obrigatório" (item 2.3.1)[^1]. Se ele pode decolar do pátio ou do heliponto, o movimento seguinte é com a torre, não com você. Mas, se ele se mover na área de manobras, precisa de autorização, como qualquer aeronave (Art. 79 da ICA 100-12)[^3].
 2. **Prefira o táxi no solo.** Para helicóptero com rodas, o táxi no solo gasta menos combustível e minimiza a turbulência. O taxiamento aéreo pode ser necessário, mas sopra mais (item 5.1.2.1)[^1].
 3. **O taxiamento aéreo é pelas pistas de táxi.** Abaixo de 20 kt e no efeito solo, o helicóptero "poderá ser autorizado o taxiamento aéreo pelas pistas de táxi" (item 5.1.2.2)[^1].
 4. **O deslocamento aéreo é pelas rotas de deslocamento aéreo.** Acima de 20 kt e abaixo de 100 ft, só onde existem essas rotas (item 5.1.2.3)[^1].
@@ -60,3 +60,4 @@ Com a torre fora do ar, o GND **não** cobre a torre: o top-down vai de cima par
 
 [^1]: [**ICA 100-4, Regras e Procedimentos Especiais de Tráfego Aéreo para Helicópteros**](https://publicacoes.decea.mil.br/publicacao/ica-100-4): itens 2.3 (táxi) e 5.1.2 (movimento no aeródromo). Portaria DECEA nº 109/DGCEA, de 21/07/2021.
 [^2]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), versão 2.0, de 15/08/2026: item 4.6 (top-down). Alcances máximos: [**Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item C8.
+[^3]: [**ICA 100-12, Regras do Ar**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): Art. 79. Edição com a 1ª alteração (Portaria DECEA/DNOR1 nº 2.168, de 09/07/2026), em vigor em 26/11/2026.

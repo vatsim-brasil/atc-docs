@@ -13,7 +13,7 @@ With a helicopter, GND does what it does with any aircraft: it clears movement o
 
 ## The premises
 
-1. **Taxi is not mandatory.** Under the ICA 100-4, helicopter taxi "is not normally mandatory" (item 2.3.1)[^1]. If it can take off from the apron or helipad, the next step is with the tower, not with you.
+1. **Taxi is not mandatory.** Under the ICA 100-4, helicopter taxi "is not normally mandatory" (item 2.3.1)[^1]. If it can take off from the apron or helipad, the next step is with the tower, not with you. But if it moves on the manoeuvring area, it needs a clearance, like any aircraft (Art. 79 of the ICA 100-12)[^3].
 2. **Prefer ground taxi.** For wheeled helicopters, ground taxi uses less fuel and minimises turbulence. Air-taxi may be needed, but blows harder (item 5.1.2.1)[^1].
 3. **Air-taxi is along the taxiways.** Below 20 kt and in ground effect, a helicopter "may be cleared to air-taxi along the taxiways" (item 5.1.2.2)[^1].
 4. **Air-transit is along air-transit routes.** Above 20 kt and below 100 ft, only where such routes exist (item 5.1.2.3)[^1].
@@ -60,3 +60,4 @@ With the tower offline, GND does **not** cover the tower: top-down runs from the
 
 [^1]: [**ICA 100-4, Special Air Traffic Rules and Procedures for Helicopters**](https://publicacoes.decea.mil.br/publicacao/ica-100-4): items 2.3 (taxi) and 5.1.2 (movement on the aerodrome). Portaria DECEA nº 109/DGCEA, of 21/07/2021.
 [^2]: [**VATSIM, Global Controller Administration Policy (GCAP)**](https://cdn.vatsim.net/policy-documents/GCAP%20v2.0%20Release%2008152026r1.pdf), version 2.0, of 15/08/2026: item 4.6 (top-down). Maximum ranges: [**Code of Conduct**](https://vatsim.net/docs/policy/code-of-conduct), item C8.
+[^3]: [**ICA 100-12, Rules of the Air**](https://publicacoes.decea.mil.br/publicacao/ica-100-12): Art. 79. Edition with the 1st amendment (Portaria DECEA/DNOR1 nº 2.168, of 09/07/2026), in force on 26/11/2026.
