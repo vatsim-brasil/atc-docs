@@ -14,8 +14,11 @@ import datetime
 import html
 import logging
 import re
+import pathlib
 import subprocess
 from types import SimpleNamespace
+
+import yaml
 
 from mkdocs.plugins import event_priority
 from mkdocs.structure.files import File
@@ -75,6 +78,14 @@ TEXTOS = {
         "resumo": lambda n: f"{n} commit" if n == 1 else f"{n} commits",
     },
 }
+
+# Histórico antigo escrito em inglês, traduzido para as páginas em português
+_TRADUCOES = yaml.safe_load(
+    (pathlib.Path(__file__).with_name("novidades_pt.yml")).read_text(encoding="utf-8")
+)
+TRAD_PRS = {int(k): v for k, v in (_TRADUCOES.get("prs") or {}).items()}
+TRAD_COMMITS = {str(k): v for k, v in (_TRADUCOES.get("commits") or {}).items()}
+TRAD_ESCOPOS = _TRADUCOES.get("escopos") or {}
 
 RE_MERGE = re.compile(r"^Merge pull request #(\d+) from \S+?/(\S+)")
 RE_CONVENCIONAL = re.compile(r"^(\w+)(?:\(([^)]*)\))?!?:\s*(.+)$")
@@ -165,6 +176,12 @@ def _markdown(deploy, titulo, idioma, repo):
         tipo, escopo, texto = m.groups() if m else ("outros", None, assunto)
         if tipo not in dict(GRUPOS):
             tipo = "outros"
+        if idioma == "pt":
+            texto = TRAD_COMMITS.get(sha[:7], texto)
+            if escopo:
+                escopo = ", ".join(
+                    TRAD_ESCOPOS.get(e.strip(), e.strip()) for e in escopo.split(",")
+                )
         grupos[tipo].append((sha, escopo, texto))
 
     partes = [f"# {titulo}\n"]
@@ -193,7 +210,10 @@ def on_files(files, config):
     for deploy in _deploys():
         data = deploy["quando"].date()
         slug = f"{data.isoformat()}-pr{deploy['numero']}"
-        titulo = deploy["titulo"] or f"{TEXTOS[idioma]['titulo']} #{deploy['numero']}"
+        titulo = deploy["titulo"]
+        if idioma == "pt" and titulo:
+            titulo = TRAD_PRS.get(deploy["numero"], titulo)
+        titulo = titulo or f"{TEXTOS[idioma]['titulo']} #{deploy['numero']}"
         file = File.generated(
             config, f"{PASTA}{slug}.md",
             content=_markdown(deploy, titulo, idioma, repo),

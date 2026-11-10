@@ -1,0 +1,373 @@
+# Traduções para português dos títulos de PR e das mensagens de commit que
+# entraram no histórico em inglês. O hook novidades.py usa estas versões nas
+# páginas em português; as páginas em inglês mostram o texto original do git.
+#
+# prs: número do PR -> título (sem o prefixo convencional)
+# commits: SHA curto (7 caracteres) -> mensagem (sem o prefixo convencional;
+#          o tipo e o escopo continuam vindo do commit original)
+#
+# Commits e títulos de PR novos devem ser escritos em português; esta tabela
+# só existe para o histórico antigo.
+
+prs:
+  81: Marca o A380 como aceito nos grandes aeródromos
+  80: Atualiza as altitudes de transição a partir das cartas IAC vigentes
+  79: Atualiza os perfis brasileiros do vATIS
+  78: Atualiza os níveis de transição e o formato do TRL de SBAZ, SBBS, SBCW e SBRE
+  64: Redesenha o portal com uma identidade visual de escopo radar
+  62: Escreve o manual de vetoração e sequenciamento
+  61: Colore o mapa de aeródromos por categoria e ajusta as cartas visuais ao quadro
+  60: Incorpora as cartas visuais e liga as circulares VFR (AIC) nas páginas das TMAs
+  58: Adiciona as páginas das TMAs e os aeródromos TWR/AFIS restantes das FIRs continentais
+  57: Adiciona os mapas de setores das FIRs Amazônica, Brasília e Curitiba
+  56: Traduções em inglês de todas as páginas e mapas de base Mapbox
+  55: Adiciona o manual de espaço aéreo e serviços ATS
+  51: Adiciona a configuração de navegação da seção de documentação do EuroScope
+  50: Atualiza o workflow do MkDocs para o deploy no GitHub Pages
+  49: Atualiza o workflow do MkDocs para o deploy no GitHub Pages
+  48: Adiciona a documentação dos MOPs de aeródromos e a integração de METAR
+  47: Padroniza o layout das páginas de aeródromos AFIS/TWR
+  42: Amplia o manual de meteorologia com novo conteúdo e ajustes no site
+  41: Formatação do texto em 02-circuito-padrao-sem-vac.md e cor do hover no modo escuro
+  40: Adiciona o manual de circuito de tráfego
+  38: Atualiza imagens e referências dos manuais de FPL e meteorologia
+  36: Adiciona o manual de plano de voo
+  35: Reorganiza a estrutura do código para facilitar a leitura e a manutenção
+  34: Amplia os exemplos de fraseologia e comunicações ATC
+  33: Atualiza documentação e configuração
+  32: Adiciona o guia de treinamento ATC e atualiza a documentação
+  30: Adiciona o Manual de Fraseologia Aeronáutica
+  29: Atualiza a instalação do EuroScope
+  28: Adiciona os perfis do vATIS e configura a atualização automática
+  25: Proposta de base de conhecimento
+  13: Adiciona SBGL
+  9: Atualiza SBGR.md
+  6: Atualiza SBGR.md
+  2: Corrige a configuração e as dependências
+
+commits:
+  # PR #82
+  "75ae849": atualiza o MOP oceânico para as edições do DECEA em vigor em 26/11/2026
+  "b613ae6": atualiza os manuais para as edições do DECEA em vigor em 26/11/2026
+  "39a29c4": cita as edições da ICA 100-37 e da MCA 100-16 em vigor em 26/11/2026
+  "9c2456d": alinha o manual de AFIS com a ICA 100-37 e a MCA 100-16 de 2025
+  "b7f6f3f": escreve o manual de AFIS (Rádio)
+  # PR #81, #80, #79, #78
+  "900e076": marca o A380 como aceito nos grandes aeródromos
+  "453e106": atualiza as altitudes de transição a partir das cartas IAC vigentes
+  "9a041c5": atualiza os perfis brasileiros do vATIS
+  "a324369": atualiza os níveis de transição e o formato do TRL de SBAZ, SBBS, SBCW e SBRE
+  # PR #77
+  "ef27b3b": uma página por deploy listando todos os commits publicados
+  # PR #76
+  "bf371c8": circulação VFR e mapa de REA da TMA-BE
+  "8b4cc4d": circulação VFR e mapa de REA da TMA-CY
+  "a5c0888": circulação VFR e mapa de REA da TMA-MN
+  "45b393d": circulação VFR e mapa de REA da TMA-FZ
+  "5455cf4": circulação VFR e mapa de REA da TMA-SV
+  "91373bb": circulação VFR e mapa de REA da TMA-RF
+  "006facd": circulação VFR e mapa de REA da TMA-FL
+  "fc28734": Joinville é FIZ; remove a nota da AIC sobre a CTR-JV
+  "a08f4c4": circulação VFR e mapa de REA e REH da TMA-CT
+  "35d7876": remove por ora a setorização do APP da AIP
+  "d60ea7c": setores da AIP, circulação VFR e mapa de REA da TMA-PA
+  "b6d0119": setores da AIP, circulação VFR e mapa de REA da TMA-BR
+  "646f194": espaço aéreo do Projeto TMA-BH, setores da AIP e novas cartas visuais
+  "9c1b0f9": circulação VFR e mapa de REA e REH da AIC N 27/26
+  "6708b75": visualizador de setores e camadas de posições combinadas do APP Rio
+  "bdd9a02": liga todos os aeródromos das listas das TMAs e adiciona os que faltavam
+  "29f302e": camada de rotas de helicópteros (REH) no mapa da TMA
+  "46651e5": camada de rotas de helicópteros (REH) no mapa da TMA
+  # PR #74
+  "27ea9eb": ignora notas de rodapé ao ler a altitude de transição
+  # PR #73
+  "6abbb44": circulação VFR e mapa de REA da AIC N 30/26
+  "b813d61": circulação VFR e mapa de REA da AIC N 29/26
+  "57c6096": rótulos das TWY C/G e linhas de chamada nos diagramas de solo
+  "6709e06": inclui SDAM, SBJH e SBBP entre os aeródromos da TMA
+  "375cdb9": texto legível nas caixas de CTR agrupadas no modo escuro
+  "4c0c198": centraliza o mapa de setores no painel direito do visualizador
+  "e3fd7f1": itens em forma de botão nos dois visualizadores de duas colunas
+  "837e020": visualizador único de setores para SBXP e componente de duas colunas compartilhado
+  "b563d9c": visualizador de duas colunas para as cartas visuais no lugar de abas aninhadas
+  # PR #72
+  "64d1322": padroniza os indicativos de DEL como Clearance em SBMT e SBSC
+  "e02ef99": usa indicativos em inglês nas páginas em inglês dos MOPs
+  "bdf2717": traduz para o inglês o manual operacional da TMA São Paulo
+  "2c215d2": remove o aviso de proposta
+  "7feb895": remove as caixas de revisão
+  "c2a5f0a": define SBXP_T2_APP em 122.750 após a mudança do pacote
+  "694190d": remove os exemplos de fraseologia
+  "ad8a3bc": mostra os diretos de saída em tabela, como a das chegadas, e com mapa
+  "54ea15c": move os diretos de saída para as transferências e nomeia o setor do ACC que recebe
+  "d168bdd": lista os fixos permitidos como diretos nas saídas
+  "75d7d39": aponta as setas de transferência ao longo da primeira perna da STAR após cada fixo
+  "46784a2": adiciona pontos e níveis de transferência das chegadas com mapa, nomeando cada posição do órgão ATC
+  "2b00c66": remove a seção de fraseologia
+  "36e9edc": torna o ILS Y com operação segregada a aproximação padrão nas pistas 10R e 28L
+  "f45e981": separa setores elementares de posições combinadas no mapa interativo
+  "ad077bd": explica o critério da coluna de aproximação padrão
+  "f921282": adiciona os procedimentos de aproximação mais usados por aeródromo e pista
+  "18ecf07": remove a nota interna sobre regenerar os mapas de circulação
+  "f35ec72": adiciona mapas de circulação da TMA com pontos de potencial conflito entre chegadas e saídas
+  "bbbf11d": remove o checklist de abertura
+  "3c85ac4": remete a abertura de setores à política da VATSIM Brasil e remove a ordem de abertura
+  "541f47a": desenha as posições combinadas como áreas consolidadas
+  "b46921e": adiciona em abas os mapas das posições combinadas do APP
+  "479d4c0": substitui a coluna de cobertura pela função de cada setor
+  "bea586e": um mapa por setor do APP em abas (T1-T13 e finais)
+  "8f9067e": testa um mapa por setor do APP, começando pelo T1
+  "0a9f8db": adiciona uma imagem em duas camadas dos setores elementares do APP
+  "371531b": reserva o point merge para tráfego intenso e trata aeronaves não RNAV caso a caso
+  "6e8c2e4": explica o point merge em uma caixa recolhível com dois diagramas
+  "bbb53f4": liga SBST nos dados gerais
+  "ec2ff16": remove as tabelas de STAR e SID e mantém só as regras estáveis
+  "e378d22": remove a observação sobre SBXP_DEP
+  "260b626": adiciona as FIZs sob a TMA, remove a seção de altimetria e a questão do DEP
+  "abac3b3": propõe o manual operacional da TMA São Paulo
+  # PR #71
+  "c3d1862": decodifica METAR e TAF em um painel meteorológico operacional
+  "d61cc13": carrega METAR e TAF sem o proxy allorigins
+  # PR #70
+  "5cdc066": adiciona o gerador dos diagramas de solo de SBCY
+  "eb890d9": anuncia a nova página de SBCY
+  "24509ff": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "109c587": adiciona o gerador dos diagramas de solo de SBFI
+  "541782d": anuncia a nova página de SBFI
+  "a393aa5": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "d0ab783": adiciona o gerador dos diagramas de solo de SBNF
+  "e6b0d20": anuncia a nova página de SBNF
+  "197be8c": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "5e7b5bf": adiciona o gerador dos diagramas de solo de SBSL
+  "2be8f80": anuncia a nova página de SBSL
+  "412bbc7": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "589d766": adiciona o gerador dos diagramas de solo de SBSG
+  "341100b": anuncia a nova página de SBSG
+  "626f721": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "e147c7a": cita a emenda da AIP como AMDT 2610A1, como nas outras páginas
+  "e912386": adiciona o gerador dos diagramas de solo de SBMO
+  "daf417d": anuncia a nova página de SBMO
+  "db53a04": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "14a7f04": adiciona o gerador dos diagramas de solo de SBFZ
+  "b28e928": anuncia a nova página de SBFZ
+  "8ca4db4": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "891c6f2": adiciona o gerador dos diagramas de solo de SBGO
+  "1fc1cab": anuncia a nova página de SBGO
+  "7ca2a13": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "b08473a": adiciona as novas páginas de SBBS e SBAZ ao mapa e à tabela das FIRs
+  "3038a4b": move a página para AFIS, pois o pacote só tem posição de Rádio
+  "9dbd676": anuncia a nova página de SWGN
+  "51eab89": adiciona a página de SWGN
+  "0df6107": anuncia as novas páginas de SBBU e SDSC
+  "2a2ce10": adiciona as páginas de SBBU e SDSC
+  "0b2972b": anuncia os novos aeródromos controlados de SBBS
+  "55e0374": adiciona as páginas de SBRP, SBAN, SBUL, SBUR e SBYS
+  # PR #69
+  "c7c48d6": adiciona o gerador dos diagramas de solo de SBCG
+  "e5025d1": anuncia a nova página de SBCG
+  "cc1bebc": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "7f6f413": adiciona o gerador dos diagramas de solo de SBFL
+  "db7849e": anuncia a nova página de SBFL
+  "644425d": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "f51800d": adiciona o gerador dos diagramas de solo de SBRJ
+  "62b11ce": anuncia a nova página de SBRJ
+  "bf7e601": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "d1fb16b": registra que a AIP só prevê RRSM durante o dia
+  "021e1e3": remove as janelas de horário das novas páginas; o ATIS informa o que está ativo
+  "a681cf7": adiciona o gerador dos diagramas de solo de SBPA
+  "5600bab": anuncia a nova página de SBPA
+  "91b8f60": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "b02f4f2": adiciona o gerador dos diagramas de solo de SBSP
+  "125d8c6": anuncia a nova página de SBSP
+  "5551a5c": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "c0a329b": adiciona o gerador dos diagramas de solo de SBKP
+  "3a299a1": anuncia a nova página de SBKP
+  "427690c": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "3422bf0": adiciona o gerador dos diagramas de solo de SBCF
+  "7158d42": anuncia a nova página de SBCF
+  "ac9eeea": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "c4d836b": adiciona o gerador dos diagramas de solo de SBBR
+  "f4bfaed": anuncia a nova página de SBBR
+  "48eb3e9": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "fff345b": adiciona o gerador dos diagramas de solo de SBBE
+  "792f319": anuncia a nova página de SBBE
+  "953e041": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "ea6582e": adiciona o gerador dos diagramas de solo de SBEG
+  "c1657cd": anuncia a nova página de SBEG
+  "43e993c": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "e7fa7a2": coloca toda a TWY C sob a Torre
+  # PR #68
+  "fdea712": salva os geradores dos diagramas de solo dos aeródromos
+  "8f449f0": remove de SBCT e SBGL as regras que só valem no mundo real
+  "4ffada5": remove de SBRF, SBSV e SBVT as regras que só valem no mundo real
+  "b371e86": anuncia a nova página de SBVT
+  "64a84b5": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "7f75139": anuncia a nova página de SBSV
+  "062612f": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "2e2aaf8": anuncia a nova página de SBRF
+  "6caa43a": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "6e518e2": anuncia a nova página de SBGL
+  "1823eff": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "86a6254": fecha o contêiner de meteorologia para que as seções seguintes saiam das abas
+  "ee69dbc": anuncia a nova página de SBCT
+  "d078c68": reescreve a página a partir da AIP vigente, com diagramas de solo
+  # PR #67
+  "30bae5e": suaviza as sombras dos cartões no hover e destaca as bordas das faixas
+  "beb0381": posiciona SBML em Marília no mapa
+  "c34e2c2": refina as regras de solo e hospeda localmente os logotipos das companhias
+  "ee8802b": mostra se cada aeródromo aceita o A380
+  # PR #66
+  "b8e7035": anuncia a nova página de SBGR
+  "bb274e6": reescreve a página a partir da AIP vigente, com diagramas de solo
+  "4205d56": exibe o código no mesmo tamanho do texto ao redor
+  # PR #65
+  "c181ab7": usa títulos em texto nas páginas incorporadas e registra-as em Novidades
+  "a02b57c": substitui as imagens de banner por títulos de página em texto
+  "006195a": usa Ubuntu Mono como fonte monoespaçada
+  "af35904": centraliza o ícone do título em relação ao texto
+  "017919f": adiciona uma seção de novidades alimentada por um hook do build
+  "7447abf": escreve o manual de separação e esteira de turbulência
+  "3198788": recomenda o Sector File Manager para os arquivos de setor
+  "c9017bc": elimina os avisos de plugins do log do build
+  "17a4576": escreve o manual de instalação e uso
+  "f4a077b": escreve a página de uso com passo a passo ilustrado
+  # PR #64
+  "e8bc230": traduz os títulos das páginas no menu lateral do celular
+  "39f10b9": traduz o cabeçalho, centraliza a página e adiciona uma ilustração de radar
+  "7d280bf": mostra a página de não encontrado em inglês sob /en/
+  "7850b32": redesenha o portal com uma identidade visual de escopo radar
+  # PR #62
+  "47f3fba": escreve o manual de coordenação e transferência
+  "ea3e24a": separa diretos de vetoração e começa pelos critérios RVSM
+  "739f749": escreve o manual de vetoração e sequenciamento
+  # PR #61
+  "138c12b": ajusta as cartas visuais incorporadas à largura do quadro
+  "0db250b": troca os .pages dos MOPs por nav e traduz Atlântico como Oceanic
+  "d046529": colore os marcadores do mapa por categoria de aeródromo e adiciona legenda
+  # PR #60
+  "08e8f3e": incorpora as cartas visuais e liga as circulares VFR (AIC) nas páginas das TMAs
+  "cc4fb4e": agrupa os setores combinados nos diagramas de cobertura e remove as fontes de cada página
+  # PR #58
+  "f3009e4": mostra um mapa meteorológico do Windy e as cartas da TMA nas páginas das TMAs
+  "48abd73": documenta a delegação do Tubulão e o Aldeia Controle em SBWJ
+  "2bf96da": remove a imagem de introdução ausente
+  "82732cd": adiciona o mapa geral das TMAs e diagramas de cobertura vistos de cima
+  "1f7ad87": adiciona as páginas TWR e AFIS das FIRs Curitiba e Recife
+  "9a5e8b5": remove das páginas das TMAs os espaços aéreos de uso especial e as observações dos órgãos ATC
+  "5272d6b": adiciona a visão geral dos centros e as páginas das terminais (TMA) de todas as FIRs continentais
+  # PR #57
+  "f6acf5b": adiciona os mapas de setores das FIRs Amazônica, Brasília e Curitiba
+  # PR #55
+  "afbd739": traduz para o inglês o manual de espaço aéreo e serviços ATS
+  "d2d1ce6": traduz para o inglês o manual reescrito da FIR Atlântico
+  "784a528": atualiza o documento de passagem com a rodada de correções
+  "21a4fe4": resolve quatro detalhes da revisão no manual de espaço aéreo e serviços ATS
+  "faf7bd6": três pendências da mesma revisão e a regra final
+  "6a21cbc": retira a "divergência" da Classe F e harmoniza pelo Art. 741
+  "1440178": distingue VATSIM de VATSIM Brasil conforme o referente
+  "c3c3827": cita explicitamente a ICA 100-37 na nota de leitura do FIC
+  "4082dc2": indica onde ficou o registro da pendência de imagens
+  "967d6e0": liga os dois manuais irmãos de volta ao manual de espaço aéreo
+  "f63944f": alinha o manual às convenções do acervo
+  "fe08fa4": corrige o erro de digitação na expansão de AUTH
+  "9c4e088": oito correções de conteúdo em quatro capítulos
+  "3d12128": resolve as duas divergências do Anexo II
+  "0811ca8": registra o fundo em degradê como a escolha definitiva
+  "e25f513": adiciona os sete banners de cabeçalho do manual de espaço aéreo
+  "81d23fe": adiciona o documento de passagem para os mantenedores do manual de espaço aéreo e serviços ATS
+  "df4d7f7": impede que a nota de pendência de imagens seja publicada
+  "7e8262f": remove a expansão de UTA sem fonte e adiciona cinco siglas que faltavam
+  "f97e7cf": define "voo controlado"; corrige o contraste e o fundo dos diagramas
+  "9a03366": completa o checklist rápido
+  "b1cb289": adiciona os órgãos ATS que não prestam controle e restringe duas afirmações
+  "e8a897d": indica a mudança de ajuste do altímetro na descida ao nível de transição
+  "c12c560": corrige as afirmações sobre a cobertura dos serviços no capítulo 03
+  "ac93013": corrige o verbete TMA do glossário conforme a ICA 100-12 e adiciona OACI
+  "33b7c14": documenta as imagens de cabeçalho pendentes do manual de espaço aéreo
+  "2d504c5": adiciona o checklist rápido do manual de espaço aéreo
+  "198b1c0": corrige a citação e o sentido da altitude de transição no capítulo de regras de voo
+  "781c86d": adiciona o capítulo de regras de voo e níveis de cruzeiro
+  "eda5665": separa órgão e posição interna na tabela de órgãos ATS e limita o atalho VFR às chegadas
+  "6c100af": renderiza corretamente os diagramas SVG nos capítulos de estrutura e classes do espaço aéreo
+  "340b0d5": remove o atributo markdown das figuras SVG no plano
+  "d7e847c": adiciona o capítulo de órgãos e posições ATS
+  "6dd0d2b": adiciona o capítulo de serviços ATS
+  "98a4ca8": corrige a célula de informação de tráfego da Classe C e explicita a divergência da Classe F
+  "32f3613": adiciona o capítulo de classes de espaço aéreo
+  "18d7bd4": confere as citações de artigos com as duas fontes normativas
+  "0cbba3d": cita os Art. 96/97 da ICA 100-12 na nota da FIR Atlântico e corrige o espaçamento das notas de rodapé
+  "413ebed": exige citação no aviso da FIR Atlântico do plano
+  "83ce5f0": adiciona o capítulo de estrutura do espaço aéreo
+  "37354df": lista os quatro serviços ATS no item de escopo do manual de espaço aéreo
+  "9043b78": corrige o comando de build e a lista de abreviaturas do plano
+  "819ede2": adiciona a estrutura inicial do manual de espaço aéreo e serviços ATS
+  "6b2fd9c": ignora o cache local das fontes normativas
+  "fe409ca": ignora a pasta de trabalho do SDD
+  "f86f0a0": adiciona o plano de implementação do manual de espaço aéreo e serviços ATS
+  "c74732d": adiciona a especificação de design do manual de espaço aéreo e serviços ATS
+  # PR #56
+  "2a2c7ac": troca os mapas de base do Leaflet para Mapbox, com Stadia como reserva
+  "1ceb4e5": adiciona as traduções em inglês de todas as páginas
+  # PR #54
+  "5a7a852": alinha o manual de circuito de tráfego com o manual de fraseologia VFR
+  "e28185a": adiciona o manual de fraseologia VFR
+  # PR #53, #52, #51
+  "6e06e10": atualiza o perfil do vATIS de SBAZ e dos aeroportos da Amazônia
+  "2da1ce3": atualiza o actions/deploy-pages para a v5
+  "93371d9": adiciona a documentação de SIGMET e a estrutura dos manuais de fraseologia
+  "23158d0": inicia a estrutura da documentação com CSS próprio, GitHub Actions e as primeiras seções
+  "749f65b": adiciona a configuração de navegação da seção de documentação do EuroScope
+  # PR #50 a #47
+  "4d6e47b": atualiza o workflow do MkDocs para o deploy no GitHub Pages
+  "12ec009": atualiza o workflow do MkDocs para o deploy no GitHub Pages
+  "c484cd2": adiciona a documentação dos MOPs de aeródromos e a integração de METAR
+  "f17a6a2": padroniza o layout das páginas de aeródromos AFIS/TWR
+  # PR #42 a #28
+  "1ef9d24": adiciona conteúdo de meteorologia, imagens e ajustes no site
+  "da61b89": atualiza o readme com a nova imagem de banner
+  "d44c482": formatação do texto em 02-circuito-padrao-sem-vac.md e cor do hover no modo escuro
+  "af9a4f1": adiciona o manual de circuito de tráfego
+  "335191a": adiciona o manual de circuito de tráfego
+  "4ada45d": adiciona o manual de circuito de tráfego
+  "25be3dc": atualiza imagens e referências dos manuais de FPL e meteorologia
+  "3fc54e3": adiciona a documentação do manual de plano de voo
+  "bf7e235": reorganiza a estrutura do código para facilitar a leitura e a manutenção
+  "f355a21": amplia os exemplos de fraseologia e comunicações ATC
+  "170a57e": adiciona o Manual de Meteorologia Aeronáutica
+  "5ee2819": atualiza documentação e configuração
+  "9bb28e3": reorganiza e atualiza o manual de fraseologia aeronáutica
+  "eb0cccc": adiciona o guia de treinamento ATC e atualiza a documentação
+  "1c3f818": move e reestrutura a seção de fundamentos
+  "db6d09a": corrige problemas de alinhamento nos estilos
+  "3f6ad0f": adiciona CSS próprio e corrige a navegação entre páginas
+  "206cb70": adiciona o novo manual de fraseologia
+  "1f3fd08": remove o vídeo não usado de instalação do arquivo de setor
+  "13bcea7": atualiza as "Mudanças recentes" da página inicial
+  "b18a75b": troca a documentação do AFV pela do TrackAudio e atualiza a instalação do arquivo de setor do EuroScope
+  "ceb9c82": atualiza a GitHub Action que roda a atualização dos perfis do vATIS
+  "dedcef0": atualiza a GitHub Action que roda a atualização dos perfis do vATIS
+  "3ca4bd3": adiciona script que ajusta os perfis do vATIS com as propriedades necessárias à atualização automática, a partir do histórico de commits de cada perfil
+  "b4eb035": adiciona os perfis do vATIS
+  # PR #25 a #6
+  "ec9c606": renomeia SOP para MOP e adiciona os manuais
+  "1b53ef7": adiciona a página inicial de visão geral
+  "324412b": adapta o portal ATC para a estrutura de base de conhecimento
+  "3875cef": adapta o portal ATC para a estrutura de base de conhecimento
+  "21b0279": correções de CSS e responsividade na página inicial
+  "aea6263": atualiza SBGR.md
+  "5dda699": atualiza SBGR.md
+  "b627ac1": atualiza mkdocs.yml
+  "85c6d5f": atualiza SBGR.md
+  "3c913a8": atualiza SBGR.md
+  "c220d23": atualiza SBGR.md
+
+# Escopos convencionais em inglês -> português
+escopos:
+  theme: tema
+  tools: ferramentas
+  glossary: glossário
+  specs: especificações
+  nav: navegação
+  config: configuração
+  docs: documentação
+  tma: terminais
