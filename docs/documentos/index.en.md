@@ -26,6 +26,7 @@ Explore the operational technical documentation through the links below:
 * [**Coordination and Transfer Manual**](manuais/coordenacao-transferencia/index.en.md): Coordination between units and positions, transfer of control and of communications, and what is specific to the network, such as top-down coverage, based on **ICA 100-37**, **MCA 100-16** and VATSIM's **GCAP**.
 * [**Separation and Wake Turbulence Manual**](manuais/separacao-esteira/index.en.md): Who receives separation, vertical and horizontal minima with and without ATS surveillance, runway separation and the distance- and time-based wake turbulence minima, based on **ICA 100-37** and **MCA 100-16**.
 * [**AFIS (Radio) Manual**](manuais/afis-radio/index.en.md): The Aerodrome Flight Information Service provided by RADIO positions: what the RADIO reports and what it never clears, VFR and IFR arrivals and departures, and the `_R_TWR` position on the network, based on **ICA 100-37**, **MCA 100-16**, the **AIP-Brasil** and VATSIM's **GCAP**.
+* [**Helicopter Control Manual**](manuais/helicopteros/index.en.md): Helicopters on the ground, at the tower and on Helicopter Special Routes (REH): taxi, air-taxi and air-transit, take-offs and landings away from the runway, the approach controller's role on REH, and offshore, public safety and air ambulance operations within VATSIM's limits, based on **ICA 100-4**, **ICA 100-37** and VATSIM's **Code of Conduct**.
 
 
 ## Disclaimer
