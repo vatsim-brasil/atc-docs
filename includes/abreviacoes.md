@@ -133,3 +133,12 @@
 *[NDB]: Radiofarol Não Direcional / Non-Directional Beacon
 *[RAIM]: Monitoração Autônoma de Integridade pelo Receptor / Receiver Autonomous Integrity Monitoring
 *[TBS]: Separação Baseada em Tempo / Time-Based Separation
+*[REH]: Rota Especial de Helicópteros / Helicopter Special Route
+*[REA]: Rota Especial de Aeronaves / Aircraft Special Route
+*[SAR]: Busca e Salvamento / Search and Rescue
+*[VSOA]: Associação Virtual de Operações Especiais / Virtual Special Operations Association
+*[CCV]: Carta de Corredores Visuais / Visual Corridor Chart
+*[AIC]: Circular de Informação Aeronáutica / Aeronautical Information Circular
+*[CoC]: Código de Conduta da VATSIM / VATSIM Code of Conduct
+*[RBAC]: Regulamento Brasileiro da Aviação Civil / Brazilian Civil Aviation Regulation
+*[ANAC]: Agência Nacional de Aviação Civil / National Civil Aviation Agency

@@ -1,0 +1,11 @@
+title: Manual de Controle de Helicópteros
+collapse: false
+nav:
+  - ... | glob=index*.md
+  - ... | glob=01-fundamentos*.md
+  - ... | glob=02-solo*.md
+  - ... | glob=03-torre*.md
+  - ... | glob=04-reh-app*.md
+  - ... | glob=05-especiais*.md
+  - ... | glob=06-fraseologia*.md
+  - ... | glob=07-checklist*.md
