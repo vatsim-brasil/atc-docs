@@ -16,7 +16,7 @@ For practical purposes, below is an example of a complete flight, from the initi
 <div markdown>
 The flowchart alongside shows the sequence of ATC units involved in a typical flight. Communication begins with Clearance Delivery (**DEL**), which issues the flight plan clearance. Next, the pilot contacts Ground (**GND**) to request startup and pushback, as well as taxi to the departure runway. After that, the contact is transferred to the Tower (**TWR**), which clears the aircraft for takeoff. Once airborne, the pilot contacts Approach Control (**APP**) to receive instructions during the flight. Depending on the route, there may be a handoff to the Center (**CTR**). On approach to the destination, the pilot returns to **APP**, then to **TWR** for landing clearance, and finally to **GND** for taxi to the gate.
 
-For practical purposes, we will simulate flight **GLO1489** between Brasília (SBBR) and Guarulhos (SBGR) airports. The communications are presented in Portuguese, English and Spanish, reflecting common practice, without specific phraseology for emergencies or other non-routine situations.
+For practical purposes, we will simulate flight **GLO1419** between Brasília (SBBR) and Guarulhos (SBGR) airports. The communications are presented in Portuguese, English and Spanish, reflecting common practice, without specific phraseology for emergencies or other non-routine situations.
 
 In addition, some supplementary information is available in remarks boxes, highlighting particularities or possible variations of the most common phraseology. Don't forget to check them!
 
@@ -58,10 +58,10 @@ The pilot initiates contact with Clearance Delivery to request the flight plan c
       Tráfego Brasília, **GOL UNO QUATRO UNO NOVE**, solicita autorização ATC, informação ATIS BRAVO.
     </div>
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, autorizado para o aeroporto de Guarulhos :material-information-outline:{ title="<em>Or SBGR, read letter by letter</em>" }. Rota do plano de voo. Nível de Voo TRÊS QUATRO ZERO. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder QUATRO ZERO TRÊS CINCO. Controle Brasília em UNO DOIS NOVE DECIMAL UNO CINCO. Coteje. :material-information-outline:{ title="<em>See item 3.2 of CIRCEA 100-53/2022.</em>" }
+      **GOL UNO QUATRO UNO NOVE**, autorizado para o aeroporto de Guarulhos :material-information-outline:{ title="<em>Or SBGR, read letter by letter</em>" }. Rota do plano de voo. Nível de Voo TRÊS QUATRO ZERO. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder QUATRO ZERO TRÊS CINCO. Controle Brasília em UNO UNO NOVE DECIMAL DOIS. Coteje. :material-information-outline:{ title="<em>See item 3.2 of CIRCEA 100-53/2022.</em>" }
     </div>
     <div class="comms-pilot">
-      Autorizado até o aeroporto de Guarulhos. Rota do plano de voo. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder QUATRO ZERO TRÊS CINCO. Controle Brasília em UNO DOIS NOVE DECIMAL UNO CINCO. **GOL UNO QUATRO UNO NOVE**.
+      Autorizado até o aeroporto de Guarulhos. Rota do plano de voo. Pista em uso, DOIS NOVE ESQUERDA. Subida via saída GAXON DOIS ALFA, transição ENRUR. Transponder QUATRO ZERO TRÊS CINCO. Controle Brasília em UNO UNO NOVE DECIMAL DOIS. **GOL UNO QUATRO UNO NOVE**.
     </div>
     <div class="comms-atc">
       **GOL UNO QUATRO UNO NOVE**, cotejamento correto. Chame Solo Brasília em UNO DOIS UNO DECIMAL OITO ZERO.
@@ -81,10 +81,10 @@ The pilot initiates contact with Clearance Delivery to request the flight plan c
       Brasília Delivery, **GOL ONE FOUR ONE NINE**, request ATC clearance, information BRAVO.
     </div>
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk FOUR ZERO THREE FIVE. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. Read back.
+      **GOL ONE FOUR ONE NINE**, cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk FOUR ZERO THREE FIVE. Brasília Control on ONE ONE NINE DECIMAL TWO. Read back.
     </div>
     <div class="comms-pilot">
-      Cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk FOUR ZERO THREE FIVE. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. **GOL ONE FOUR ONE NINE**.
+      Cleared to Guarulhos Airport. Flight plan route. Runway in use, TWO NINE LEFT. Climb via GAXON TWO ALFA departure, ENRUR transition. Squawk FOUR ZERO THREE FIVE. Brasília Control on ONE ONE NINE DECIMAL TWO. **GOL ONE FOUR ONE NINE**.
     </div>
     <div class="comms-atc">
       **GOL ONE FOUR ONE NINE**, read back is correct. Call Brasília Ground on ONE TWO ONE DECIMAL EIGHT ZERO.
@@ -104,10 +104,10 @@ The pilot initiates contact with Clearance Delivery to request the flight plan c
       Brasília Autorización, **GOL UNO CUATRO UNO NUEVE**, solicita autorización ATC, información BRAVO.
     </div>
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Ascienda vía salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder CUATRO CERO TRÊS CINCO. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. Colacione.
+      **GOL UNO CUATRO UNO NUEVE**, autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Ascienda vía salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder CUATRO CERO TRÊS CINCO. Brasília Control en UNO UNO NUEVE DECIMAL DOS. Colacione.
     </div>
     <div class="comms-pilot">
-      Autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder CUATRO CERO TRÊS CINCO. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. **GOL UNO CUATRO UNO NUEVE**
+      Autorizado hasta el aeropuerto de Guarulhos. Ruta plan de vuelo. Pista en uso, DOS NUEVE IZQUIERDA. Salida normalizada GAXON DOS ALFA, transición ENRUR. Transponder CUATRO CERO TRÊS CINCO. Brasília Control en UNO UNO NUEVE DECIMAL DOS. **GOL UNO CUATRO UNO NUEVE**
     </div>
     <div class="comms-atc">
       **GOL UNO CUATRO UNO NUEVE**, colación correctal Llame Brasília Tierra en UNO DOS UNO DECIMAL OCHO CERO.
@@ -128,9 +128,9 @@ The pilot initiates contact with Clearance Delivery to request the flight plan c
 
     2. If you need to issue an **OMNI** departure, you can add initial climb instructions to the ATC clearance.
 
-        > :flag_br: PAPA SIERRA CHARLIE NOVEMBER X-RAY, autorizado para Salvador. Rota do plano de voo. Pista em uso, UNO CINCO. **Subida via saída OMNI, mantenha proa da pista até CINCO MIL pés, após voe direto KONVI.** Transponder 4035. Controle São Paulo em UNO TRÊS DOIS DECIMAL UNO. Coteje. <br/>
-        > :flag_gb: PAPA SIERRA CHARLIE NOVEMBER X-RAY, cleared to Salvador. Flight plan route. Runway in use, ONE FIVE. **Climb via OMNI departure, fly runway heading until FIVE THOUSAND feet, then fly direct KONVI.** Squawk 4035. Brasília Control on ONE TWO NINE DECIMAL ONE FIVE. Read back. <br/>
-        > :flag_es: PAPA SIERRA CHARILE NOVEMBER X-RAY, autorizado para Salvador. Ruta plan de vuelo. Pista en uso, UNO CINCO. **Ascienda vía salida OMNI, mantenga rumbo de la pista hasta CINCO MIL pies, después vuele directo KONVI.** Transponder 4035. Brasília Control en UNO DOS NUEVE DECIMAL UNO CINCO. Colacione. <br/>
+        > :flag_br: PAPA SIERRA CHARLIE NOVEMBER X-RAY, autorizado para Salvador. Rota do plano de voo. Pista em uso, UNO CINCO. **Subida via saída OMNI, mantenha proa da pista até CINCO MIL pés, após voe direto KONVI.** Transponder 4035. Controle São Paulo em UNO UNO NOVE DECIMAL MEIA. Coteje. <br/>
+        > :flag_gb: PAPA SIERRA CHARLIE NOVEMBER X-RAY, cleared to Salvador. Flight plan route. Runway in use, ONE FIVE. **Climb via OMNI departure, fly runway heading until FIVE THOUSAND feet, then fly direct KONVI.** Squawk 4035. São Paulo Control on ONE ONE NINE DECIMAL SIX. Read back. <br/>
+        > :flag_es: PAPA SIERRA CHARILE NOVEMBER X-RAY, autorizado para Salvador. Ruta plan de vuelo. Pista en uso, UNO CINCO. **Ascienda vía salida OMNI, mantenga rumbo de la pista hasta CINCO MIL pies, después vuele directo KONVI.** Transponder 4035. São Paulo Control en UNO UNO NUEVE DECIMAL SEIS. Colacione. <br/>
 
 ## :material-numeric-2-box: :flag_br: Solo / :flag_gb: Ground / :flag_es: Tierra
 
@@ -364,9 +364,9 @@ Takeoff clearance is issued by the Tower after the pilot reports at the runway h
         > :flag_gb: AZUL CONECTA FIVE TWO FIVE SEVEN, Fortaleza Tower, runway ONE THREE, cleared for takeoff, wind ONE FIVE ZERO DEGREES, FIVE KNOTS. **After takeoff, maintain runway heading climbing to SEVEN THOUSAND FEET.** <br/>
         > :flag_es: AZUL CONECTA CINCO DOS CINCO SIETE, Fortaleza Torre, pista UNO TRES, autorizado despegar, viento UNO CINCO CERO GRADOS, CINCO NUDOS. **Después del despegue, mantenga el rumbo de la pista en ascenso a SIETE MIL PIES.** <br/><br/>
 
-        > :flag_br: TAM TRÊS ZERO ZERO DOIS, Torre São Paulo, pista UNO SETE DIREITA, decolagem autorizada, vento DOIS ZERO ZERO GRAUS, UNO DOIS NÓS. **Após a decolagem, chame o Controle São Paulo em UNO DOIS MEIA DECIMAL SETE CINCO. Bom voo!** <br/>
-        > :flag_gb: TAM THREE ZERO ZERO TWO, São Paulo Tower, runway ONE SEVEN RIGHT, cleared for takeoff, wind TWO ZERO ZERO DEGREES, ONE TWO KNOTS. **After takeoff, contact São Paulo Control on ONE TWO SIX DECIMAL SEVEN FIVE. Have a good flight!** <br/>
-        > :flag_es: TAM TRES CERO CERO DOS, Torre São Paulo, pista UNO SIETE DERECHA, autorizado despegar, viento DOS CERO CERO GRADOS, UNO DOS NUDOS. **Después del despegue, llame el São Paulo Control en UNO DOS SEIS DECIMAL SIETE CINCO. ¡Buen vuelo!** <br/>
+        > :flag_br: TAM TRÊS ZERO ZERO DOIS, Torre São Paulo, pista UNO SETE DIREITA, decolagem autorizada, vento DOIS ZERO ZERO GRAUS, UNO DOIS NÓS. **Após a decolagem, chame o Controle São Paulo em UNO UNO NOVE DECIMAL MEIA. Bom voo!** <br/>
+        > :flag_gb: TAM THREE ZERO ZERO TWO, São Paulo Tower, runway ONE SEVEN RIGHT, cleared for takeoff, wind TWO ZERO ZERO DEGREES, ONE TWO KNOTS. **After takeoff, contact São Paulo Control on ONE ONE NINE DECIMAL SIX. Have a good flight!** <br/>
+        > :flag_es: TAM TRES CERO CERO DOS, Torre São Paulo, pista UNO SIETE DERECHA, autorizado despegar, viento DOS CERO CERO GRADOS, UNO DOS NUDOS. **Después del despegue, llame el São Paulo Control en UNO UNO NUEVE DECIMAL SEIS. ¡Buen vuelo!** <br/>
 
     3. Some towers will not state the takeoff time at the moment of transfer. Check the aerodrome's MOP for more details.
 
@@ -499,26 +499,26 @@ When leaving Approach Control, the pilot will be transferred to the next ATC uni
 
 === ":flag_br: Portuguese"
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, chame Centro Brasília em UNO DOIS MEIA DECIMAL SETE CINCO.
+      **GOL UNO QUATRO UNO NOVE**, chame Centro Brasília em UNO TRÊS QUATRO DECIMAL ZERO.
     </div>
     <div class="comms-pilot">
-      Chamará o Centro Brasília, UNO DOIS MEIA DECIMAL SETE CINCO, **GOL UNO QUATRO UNO NOVE**.
+      Chamará o Centro Brasília, UNO TRÊS QUATRO DECIMAL ZERO, **GOL UNO QUATRO UNO NOVE**.
     </div>
 
 === ":flag_gb: English"
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, call Brasília Center on ONE TWO SIX DECIMAL SEVEN FIVE.
+      **GOL ONE FOUR ONE NINE**, call Brasília Center on ONE THREE FOUR DECIMAL ZERO.
     </div>
     <div class="comms-pilot">
-      Call Brasília Center, ONE TWO SIX DECIMAL SEVEN FIVE, **GOL ONE FOUR ONE NINE**.
+      Call Brasília Center, ONE THREE FOUR DECIMAL ZERO, **GOL ONE FOUR ONE NINE**.
     </div>
 
 === ":flag_es: Spanish"
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, llame Centro Brasília en UNO DOS SEIS DECIMAL SIETE CINCO.
+      **GOL UNO CUATRO UNO NUEVE**, llame Centro Brasília en UNO TRES CUATRO DECIMAL CERO.
     </div>
     <div class="comms-pilot">
-      Llamará Centro Brasília en UNO DOS SEIS DECIMAL SIETE CINCO, **GOL UNO CUATRO UNO NUEVE**.
+      Llamará Centro Brasília en UNO TRES CUATRO DECIMAL CERO, **GOL UNO CUATRO UNO NUEVE**.
     </div>
 
 ## :material-numeric-5-box: :flag_br: Centro / :flag_gb: Center / :flag_es: Centro
@@ -682,26 +682,26 @@ On reaching the boundary of the Center's airspace, the pilot will be transferred
 
 === ":flag_br: Portuguese"
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, chame o Controle São Paulo em UNO DOIS NOVE DECIMAL QUATRO CINCO.
+      **GOL UNO QUATRO UNO NOVE**, chame o Controle São Paulo em UNO UNO NOVE DECIMAL MEIA.
     </div>
     <div class="comms-pilot">
-      Chamará o Controle São Paulo em UNO DOIS NOVE DECIMAL QUATRO CINCO, **GOL UNO QUATRO UNO NOVE**.
+      Chamará o Controle São Paulo em UNO UNO NOVE DECIMAL MEIA, **GOL UNO QUATRO UNO NOVE**.
     </div>
 
 === ":flag_gb: English"
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, contact São Paulo Control on ONE TWO NINE DECIMAL FOUR FIVE.
+      **GOL ONE FOUR ONE NINE**, contact São Paulo Control on ONE ONE NINE DECIMAL SIX.
     </div>
     <div class="comms-pilot">
-      Will contact São Paulo Control on ONE TWO NINE DECIMAL FOUR FIVE, **GOL ONE FOUR ONE NINE**.
+      Will contact São Paulo Control on ONE ONE NINE DECIMAL SIX, **GOL ONE FOUR ONE NINE**.
     </div>
 
 === ":flag_es: Spanish"
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, llame ahora São Paulo Control en UNO DOS NUEVE DECIMAL CUATRO CINCO.
+      **GOL UNO CUATRO UNO NUEVE**, llame ahora São Paulo Control en UNO UNO NUEVE DECIMAL SEIS.
     </div>
     <div class="comms-pilot">
-      Llamará São Paulo Control en UNO DOS NUEVE DECIMAL CUATRO CINCO, **GOL UNO CUATRO UNO NUEVE**.
+      Llamará São Paulo Control en UNO UNO NUEVE DECIMAL SEIS, **GOL UNO CUATRO UNO NUEVE**.
     </div>
 
 ??? abstract "Some remarks..."
@@ -837,10 +837,10 @@ To begin the approach, the pilot must receive clearance from Approach Control.
       Estabilizado no localizador da pista UNO ZERO DIREITA, **GOL UNO QUATRO UNO NOVE**.
     </div>
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, chame a Torre Guarulhos em UNO UNO OITO DECIMAL QUATRO. Bom pouso!
+      **GOL UNO QUATRO UNO NOVE**, chame a Torre Guarulhos em UNO TRÊS DOIS DECIMAL SETE CINCO. Bom pouso!
     </div>
     <div class="comms-pilot">
-      UNO UNO OITO DECIMAL QUATRO, obrigado, **GOL UNO QUATRO UNO NOVE**.
+      UNO TRÊS DOIS DECIMAL SETE CINCO, obrigado, **GOL UNO QUATRO UNO NOVE**.
     </div>
 
 === ":flag_gb: English"
@@ -848,10 +848,10 @@ To begin the approach, the pilot must receive clearance from Approach Control.
       Established on localizer, runway ONE ZERO RIGHT, **GOL ONE FOUR ONE NINE**.
     </div>
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, contact Guarulhos Tower on ONE ONE EIGHT DECIMAL FOUR. Have a good landing!
+      **GOL ONE FOUR ONE NINE**, contact Guarulhos Tower on ONE THREE TWO DECIMAL SEVEN FIVE. Have a good landing!
     </div>
     <div class="comms-pilot">
-      ONE ONE EIGHT DECIMAL FOUR, thank you, **GOL ONE FOUR ONE NINE**.
+      ONE THREE TWO DECIMAL SEVEN FIVE, thank you, **GOL ONE FOUR ONE NINE**.
     </div>
 
 === ":flag_es: Spanish"
@@ -859,10 +859,10 @@ To begin the approach, the pilot must receive clearance from Approach Control.
       Establecido en el localizador, pista UNO CERO DERECHA, **GOL UNO CUATRO UNO NUEVE**.
     </div>
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, llame Torre Guarulhos en UNO UNO OCHO DECIMAL CUATRO. ¡Buen aterrizaje!
+      **GOL UNO CUATRO UNO NUEVE**, llame Torre Guarulhos en UNO TRES DOS DECIMAL SIETE CINCO. ¡Buen aterrizaje!
     </div>
     <div class="comms-pilot">
-      UNO UNO OCHO DECIMAL CUATRO, gracias, **GOL UNO CUATRO UNO NUEVE**.
+      UNO TRES DOS DECIMAL SIETE CINCO, gracias, **GOL UNO CUATRO UNO NUEVE**.
     </div>
 
 ## :material-numeric-7-box: :flag_br: Torre / :flag_gb: Tower / :flag_es: Torre
@@ -944,26 +944,26 @@ To begin the approach, the pilot must receive clearance from Approach Control.
 
 === ":flag_br: Portuguese"
     <div class="comms-atc">
-      **GOL UNO QUATRO UNO NOVE**, taxie via BRAVO BRAVO, autorizado cruzamento da pista UNO ZERO ESQUERDA, ao livrar na LIMA chame o Solo Guarulhos em UNO DOIS NOVE DECIMAL SETE.
+      **GOL UNO QUATRO UNO NOVE**, taxie via BRAVO BRAVO, autorizado cruzamento da pista UNO ZERO ESQUERDA, ao livrar na LIMA chame o Solo Guarulhos em UNO DOIS UNO DECIMAL SETE.
     </div>
     <div class="comms-pilot">
-      Taxi via BRAVO BRAVO, autorizado cruzamento da pista UNO ZERO ESQUERDA, chamará o Solo Guarulhos em UNO DOIS NOVE DECIMAL SETE ao livrar na LIMA, **GOL UNO QUATRO UNO NOVE**.
+      Taxi via BRAVO BRAVO, autorizado cruzamento da pista UNO ZERO ESQUERDA, chamará o Solo Guarulhos em UNO DOIS UNO DECIMAL SETE ao livrar na LIMA, **GOL UNO QUATRO UNO NOVE**.
     </div>
 
 === ":flag_gb: English"
     <div class="comms-atc">
-      **GOL ONE FOUR ONE NINE**, taxi via BRAVO BRAVO, cleared to cross runway ONE ZERO LEFT, when vacating at LIMA contact Guarulhos Ground on ONE TWO NINE DECIMAL SEVEN.
+      **GOL ONE FOUR ONE NINE**, taxi via BRAVO BRAVO, cleared to cross runway ONE ZERO LEFT, when vacating at LIMA contact Guarulhos Ground on ONE TWO ONE DECIMAL SEVEN.
     </div>
     <div class="comms-pilot">
-      Taxi via BRAVO BRAVO, cleared to cross runway ONE ZERO LEFT, will contact Guarulhos Ground on ONE TWO NINE DECIMAL SEVEN when vacating at LIMA, **GOL ONE FOUR ONE NINE**.
+      Taxi via BRAVO BRAVO, cleared to cross runway ONE ZERO LEFT, will contact Guarulhos Ground on ONE TWO ONE DECIMAL SEVEN when vacating at LIMA, **GOL ONE FOUR ONE NINE**.
     </div>
 
 === ":flag_es: Spanish"
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, taxi vía BRAVO BRAVO, autorizado cruce de pista UNO CERO IZQUIERDA, al salir en LIMA llame a Guarulhos Tierra en UNO DOS NUEVE DECIMAL SIETE.
+      **GOL UNO CUATRO UNO NUEVE**, taxi vía BRAVO BRAVO, autorizado cruce de pista UNO CERO IZQUIERDA, al salir en LIMA llame a Guarulhos Tierra en UNO DOS UNO DECIMAL SIETE.
     </div>
     <div class="comms-pilot">
-      Taxi vía BRAVO BRAVO, autorizado cruce de pista UNO CERO IZQUIERDA, llamará a Guarulhos Tierra en UNO DOS NUEVE DECIMAL SIETE al salir en LIMA, **GOL UNO CUATRO UNO NUEVE**.
+      Taxi vía BRAVO BRAVO, autorizado cruce de pista UNO CERO IZQUIERDA, llamará a Guarulhos Tierra en UNO DOS UNO DECIMAL SIETE al salir en LIMA, **GOL UNO CUATRO UNO NUEVE**.
     </div>
 
 ## :material-numeric-8-box: :flag_br: Solo / :flag_gb: Ground / :flag_es: Tierra
