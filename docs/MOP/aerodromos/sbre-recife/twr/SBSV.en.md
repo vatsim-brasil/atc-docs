@@ -98,7 +98,7 @@ SBSV has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 | :--- | :--- |
 | **Station code** | `SBSV` |
 | **Who operates it** | SBSV_DEL. Without DEL, whichever position covers clearance top-down (GND, TWR, APP or ACC) |
-| **Controller tool** | TopSky DCL window, with your personal Hoppie ACARS code |
+| **Controller tool** | DCL window, with your personal Hoppie ACARS code |
 | **Pilot tool** | Aircraft ACARS or a Hoppie-compatible client, sending the clearance request to `SBSV` |
 
 **How it works:**
@@ -109,7 +109,7 @@ SBSV has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 4. Once the clearance is accepted, the pilot calls Ground for start-up or pushback.
 
 !!! tip "Controller setup"
-    - Log in to the TopSky DCL with the code `SBSV` before opening the position.
+    - Log in to the DCL with the code `SBSV` before opening the position.
     - Announce it in the controller information: `DCL AVBL LOGON SBSV`.
     - A request with errors (invalid plan, wrong SID, no ATIS) is answered with **REVERT TO VOICE**: the pilot calls Clearance on frequency.
     - If the pilot does not accept within a reasonable time, treat the clearance as not delivered and call by voice.

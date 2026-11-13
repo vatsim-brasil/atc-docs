@@ -106,7 +106,7 @@ O SBGR tem **DCL** (autorização de tráfego por enlace de dados). Na rede, a e
 | :--- | :--- |
 | **Código da estação** | `SBGR` |
 | **Quem opera** | SBGR_DEL. Sem DEL, a posição que assume a autorização em top-down (GND, TWR, APP ou ACC) |
-| **Ferramenta do controlador** | Janela de DCL do TopSky, com o código pessoal do Hoppie ACARS |
+| **Ferramenta do controlador** | Janela de DCL, com o código pessoal do Hoppie ACARS |
 | **Ferramenta do piloto** | ACARS da aeronave ou cliente compatível com Hoppie, enviando o pedido de autorização para `SBGR` |
 | **Prazo** | Pedido até **15 minutos antes do EOBT**[^ad20-7] |
 
@@ -118,7 +118,7 @@ O SBGR tem **DCL** (autorização de tráfego por enlace de dados). Na rede, a e
 4. Com a autorização aceita, o piloto chama o Solo direto para acionamento ou reboque.
 
 !!! tip "Configuração do controlador"
-    - Faça login no DCL do TopSky com o código `SBGR` antes de abrir a posição.
+    - Faça login no DCL com o código `SBGR` antes de abrir a posição.
     - Anuncie no *controller information*: `DCL AVBL LOGON SBGR`.
     - Pedido com erro (plano inválido, SID errada, sem ATIS) volta como **REVERT TO VOICE**: o piloto chama o Tráfego na frequência.
     - Se o piloto não aceitar em tempo razoável, considere a autorização não entregue e chame por voz.

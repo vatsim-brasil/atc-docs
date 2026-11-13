@@ -102,7 +102,7 @@ SBFL has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 | :--- | :--- |
 | **Station code** | `SBFL` |
 | **Who operates it** | SBFL_TWR. Without TWR, the position covering clearance top-down (APP or ACC) |
-| **Controller tool** | TopSky DCL window, with your personal Hoppie ACARS code |
+| **Controller tool** | DCL window, with your personal Hoppie ACARS code |
 | **Pilot tool** | Aircraft ACARS or a Hoppie-compatible client, sending the clearance request to `SBFL` |
 
 **How it works:**
@@ -113,7 +113,7 @@ SBFL has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 4. With the clearance accepted, the pilot calls Ground for start-up or pushback.
 
 !!! tip "Controller setup"
-    - Log in to the TopSky DCL with the code `SBFL` before opening the position.
+    - Log in to the DCL with the code `SBFL` before opening the position.
     - Announce it in the controller information: `DCL AVBL LOGON SBFL`.
     - A faulty request (invalid plan, wrong SID, no ATIS) goes back as **REVERT TO VOICE**: the pilot calls Tower on frequency.
     - If the pilot does not accept within a reasonable time, consider the clearance not delivered and call them by voice.

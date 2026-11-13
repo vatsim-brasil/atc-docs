@@ -37,7 +37,7 @@ Você vai controlar `SBCT_GND`. Qual perfil do EuroScope abre?
 3. `solo`
 
 <div class="vb-explica" markdown>
-O perfil **solo** é feito para `DEL`, `RMP`, `GND` e `TWR`, com o Ground Radar Plugin. O **radar** é para `APP` e `CTR`, com o TopSky.
+O perfil **solo** é feito para `DEL`, `RMP`, `GND` e `TWR`. O **radar** é para `APP` e `CTR`.
 </div>
 
 </div>

@@ -20,10 +20,10 @@ It is the first program to connect and the last to disconnect: [TrackAudio](../t
 
 Each FIR has a sector file package, published on AeroNav and installed with the [Sector File Manager](instalacao.en.md#install-the-sector-file-manager), with two profiles:
 
-| Profile | Positions | Main plugin |
+| Profile | Positions | Use |
 | --- | --- | --- |
-| `solo` | `DEL`, `RMP`, `GND` and `TWR` | **Ground Radar Plugin (GRP)**: draws the aerodrome, the stands and the ground tags |
-| `radar` | `APP` and `CTR` | **TopSky**: reproduces a real radar system, with flight plan windows, alerts and vectoring tools |
+| `solo` | `DEL`, `RMP`, `GND` and `TWR` | Shows the aerodrome, the stands and the ground tags |
+| `radar` | `APP` and `CTR` | Shows the control area, with airways, procedures and radar targets |
 
 In both profiles, the **CCAMS** plugin assigns transponder codes and avoids duplicates between controllers.
 

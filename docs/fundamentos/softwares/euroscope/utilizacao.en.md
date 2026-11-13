@@ -31,10 +31,10 @@ When EuroScope opens, choose the profile file (`.prf`) of the FIR you will contr
 
 ![Profiles available in the VATSIM Brasil folder](img/es12.png){ : style="display:block; margin:auto; border:2px solid #999" loading=lazy }
 
-| Profile | Positions | Main plugin |
+| Profile | Positions | Use |
 |---|---|---|
-| `solo` | `DEL`, `RMP`, `GND` and `TWR` | **Ground Radar Plugin (GRP)**, which draws the aerodrome, the parking stands and the ground tags. |
-| `radar` | `APP` and `CTR` | **TopSky**, which reproduces a real radar system, with flight plan windows, alerts and vectoring tools. |
+| `solo` | `DEL`, `RMP`, `GND` and `TWR` | Shows the aerodrome, the parking stands and the ground tags. |
+| `radar` | `APP` and `CTR` | Shows the control area, with airways, procedures and radar targets. |
 
 In both profiles, transponder codes are handed out by the **CCAMS** plugin, which prevents duplicate codes between controllers.
 
@@ -55,7 +55,7 @@ Once the profile is loaded, the screen has the elements below.
 3. **Lists.** Show traffic entering the sector (*Sector Inbound List*), leaving it (*Sector Exit List*) and, on ground positions, the departures (*Departure List*).
 4. **Radar view.** Shows the active sector (white outline), airways, procedures, runways and the targets with their tags.
 5. **Controller list.** Shows the connected units and their identifiers. It is used to choose the recipient of handoffs.
-6. **TopSky flight plan window.** Shows the plan of the selected traffic: type, departure/destination, cruise level, transponder code, procedure and route.
+6. **Flight plan window.** Shows the plan of the selected traffic: type, departure/destination, cruise level, transponder code, procedure and route.
 7. **Chat and command line.** Holds the message tabs (`ATC` channel, private chats and frequency) and the field where commands such as `.contactme` are typed.
 
 ### Sector menu
@@ -120,7 +120,7 @@ Clicking a tag field opens the matching menu: level, heading, speed, direct rout
 
 ### Tag states
 
-The tag color shows how the traffic relates to your sector. The colors below are the ones configured in the VATSIM Brasil TopSky.
+The tag color shows how the traffic relates to your sector. The colors below are the ones configured in the VATSIM Brasil profiles.
 
 ![Tag states (illustration)](img/es-estados.svg){ : style="display:block; margin:auto; border:2px solid #999" loading=lazy }
 
@@ -206,4 +206,3 @@ On radar positions, the **Sector Inbound List** (SIL) shows the traffic that wil
 ## Learn more
 
 - The EuroScope user guide is on the [official website](https://www.euroscope.hu), under `Documentation`.
-- The **TopSky** and **Ground Radar Plugin** documentation ships with the plugin files, in the FIR package folder.

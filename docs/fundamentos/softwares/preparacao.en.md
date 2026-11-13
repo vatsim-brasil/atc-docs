@@ -60,10 +60,10 @@ Vatsim Brasil sector files are installed and updated with the **Sector File Mana
 
 Each FIR has two profile files (`.prf`):
 
-| Profile | Positions | Main plugin |
+| Profile | Positions | Use |
 | --- | --- | --- |
-| `solo` | `DEL`, `RMP`, `GND` and `TWR` | Ground Radar Plugin, which draws the aerodrome and the ground tags |
-| `radar` | `APP` and `CTR` | TopSky, which reproduces a real radar system |
+| `solo` | `DEL`, `RMP`, `GND` and `TWR` | Shows the aerodrome and the ground tags |
+| `radar` | `APP` and `CTR` | Shows the control area and the radar targets |
 
 Open the `solo` profile of your aerodrome's FIR and explore the screen without connecting: menus, lists, zoom with `F11` and `F12`.
 
