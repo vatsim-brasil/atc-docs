@@ -114,7 +114,7 @@
     <text x="834" y="146" fill="#aaa">---&#160;OBS</text>
   </g>
 
-  <!-- flight plan window (TopSky) -->
+  <!-- flight plan window -->
   <g font-size="11">
     <rect x="828" y="400" width="164" height="110" fill="#262626" stroke="#131313"/>
     <rect x="828" y="400" width="164" height="16" fill="#3d7994"/>

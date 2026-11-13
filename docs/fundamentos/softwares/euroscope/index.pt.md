@@ -20,10 +20,10 @@ O [EuroScope](https://www.euroscope.hu) é a tela radar do controlador. É nele 
 
 Cada FIR tem um pacote de arquivos de setor, publicado no AeroNav e instalado com o [Sector File Manager](instalacao.pt.md#instale-o-sector-file-manager), com dois perfis:
 
-| Perfil | Posições | Plugin principal |
+| Perfil | Posições | Uso |
 | --- | --- | --- |
-| `solo` | `DEL`, `RMP`, `GND` e `TWR` | **Ground Radar Plugin (GRP)**: desenha o aeródromo, os estacionamentos e as etiquetas de solo |
-| `radar` | `APP` e `CTR` | **TopSky**: reproduz um sistema radar real, com janelas de plano de voo, alertas e ferramentas de vetoração |
+| `solo` | `DEL`, `RMP`, `GND` e `TWR` | Mostra o aeródromo, os estacionamentos e as etiquetas de solo |
+| `radar` | `APP` e `CTR` | Mostra a área de controle, com aerovias, procedimentos e os alvos radar |
 
 Nos dois perfis, o plugin **CCAMS** distribui os códigos transponder e evita repetições entre controladores.
 

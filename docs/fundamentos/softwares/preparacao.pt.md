@@ -60,10 +60,10 @@ Os *sectorfiles* da Vatsim Brasil são instalados e atualizados com o **Sector F
 
 Cada FIR tem dois arquivos de perfil (`.prf`):
 
-| Perfil | Posições | Plugin principal |
+| Perfil | Posições | Uso |
 | --- | --- | --- |
-| `solo` | `DEL`, `RMP`, `GND` e `TWR` | Ground Radar Plugin, que desenha o aeródromo e as etiquetas de solo |
-| `radar` | `APP` e `CTR` | TopSky, que reproduz um sistema radar real |
+| `solo` | `DEL`, `RMP`, `GND` e `TWR` | Mostra o aeródromo e as etiquetas de solo |
+| `radar` | `APP` e `CTR` | Mostra a área de controle e os alvos radar |
 
 Abra o perfil `solo` da FIR do seu aeródromo e explore a tela sem conectar: menus, listas, zoom com `F11` e `F12`.
 

@@ -48,7 +48,7 @@ Installation is described in [Fundamentals, EuroScope Installation](../../../fun
 
 The published logon address is **`SBAO`**[^8]; for split sectors, use the code from the [positions table](estrutura.en.md#posicoes-na-vatsim).
 
-In the configuration currently adopted by the division, the datalink is operated by the **TopSky** plugin that comes with the sector package, with a personal code obtained from **Hoppie ACARS**. Confirm this in the installed package before relying on it. Keep the message window visible during the session.
+In the configuration currently adopted by the division, the datalink is operated by a plugin that comes with the sector package, with a personal code obtained from **Hoppie ACARS**. Confirm this in the installed package before relying on it. Keep the message window visible during the session.
 
 <figure markdown="span">
   ![Datalink configuration window, with the login field filled in with SBAO](../img/cpdlc-logon-sbao.png){ loading=lazy }

@@ -48,7 +48,7 @@ A instalação está descrita em [Fundamentos, Instalação do EuroScope](../../
 
 O endereço de logon publicado é **`SBAO`**[^8]; para desmembramentos, use o código da [tabela de posições](estrutura.pt.md#posicoes-na-vatsim).
 
-Na configuração hoje adotada pela divisão, o enlace é operado pelo plugin **TopSky** que acompanha o pacote de setor, com código pessoal obtido no **Hoppie ACARS**. Confirme no pacote instalado antes de contar com isso. Mantenha a janela de mensagens visível durante a sessão.
+Na configuração hoje adotada pela divisão, o enlace é operado por um plugin que acompanha o pacote de setor, com código pessoal obtido no **Hoppie ACARS**. Confirme no pacote instalado antes de contar com isso. Mantenha a janela de mensagens visível durante a sessão.
 
 <figure markdown="span">
   ![Janela de configuração do enlace de dados, com o campo de login preenchido com SBAO](../img/cpdlc-logon-sbao.png){ loading=lazy }

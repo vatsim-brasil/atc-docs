@@ -31,10 +31,10 @@ Ao abrir o EuroScope, escolha o arquivo de perfil (`.prf`) da FIR em que vai con
 
 ![Perfis disponíveis na pasta da VATSIM Brasil](img/es12.png){ : style="display:block; margin:auto; border:2px solid #999" loading=lazy }
 
-| Perfil | Posições | Plugin principal |
+| Perfil | Posições | Uso |
 |---|---|---|
-| `solo` | `DEL`, `RMP`, `GND` e `TWR` | **Ground Radar Plugin (GRP)**, que desenha o aeródromo, as posições de estacionamento e as etiquetas de solo. |
-| `radar` | `APP` e `CTR` | **TopSky**, que reproduz um sistema radar real, com janelas de plano de voo, alertas e ferramentas de vetoração. |
+| `solo` | `DEL`, `RMP`, `GND` e `TWR` | Mostra o aeródromo, as posições de estacionamento e as etiquetas de solo. |
+| `radar` | `APP` e `CTR` | Mostra a área de controle, com aerovias, procedimentos e os alvos radar. |
 
 Nos dois perfis, os códigos transponder são distribuídos pelo plugin **CCAMS**, que evita códigos repetidos entre controladores.
 
@@ -55,7 +55,7 @@ Depois de carregado o perfil, a tela tem os elementos abaixo.
 3. **Listas.** Mostram tráfegos que entram no setor (*Sector Inbound List*), que saem dele (*Sector Exit List*) e, nas posições de solo, as partidas (*Departure List*).
 4. **Vista radar.** Mostra o setor ativo (contorno branco), aerovias, procedimentos, pistas e os alvos com suas etiquetas.
 5. **Lista de controladores.** Mostra os órgãos conectados e a sigla de cada um. Ela é usada para escolher o destino das transferências.
-6. **Janela de plano de voo do TopSky.** Exibe o plano do tráfego selecionado: tipo, origem/destino, nível de cruzeiro, código transponder, procedimento e rota.
+6. **Janela de plano de voo.** Exibe o plano do tráfego selecionado: tipo, origem/destino, nível de cruzeiro, código transponder, procedimento e rota.
 7. **Chat e linha de comando.** Concentra as abas de mensagens (canal `ATC`, conversas privadas e frequência) e o campo onde se digitam comandos como `.contactme`.
 
 ### Menu de setor
@@ -120,7 +120,7 @@ Clicar em um campo da etiqueta abre o menu correspondente: nível, proa, velocid
 
 ### Estados das etiquetas
 
-A cor da etiqueta indica a relação do tráfego com o seu setor. As cores abaixo são as configuradas no TopSky da VATSIM Brasil.
+A cor da etiqueta indica a relação do tráfego com o seu setor. As cores abaixo são as configuradas nos perfis da VATSIM Brasil.
 
 ![Estados das etiquetas (ilustração)](img/es-estados.svg){ : style="display:block; margin:auto; border:2px solid #999" loading=lazy }
 
@@ -209,4 +209,3 @@ Nas posições radar, a **Sector Inbound List** (SIL) mostra os tráfegos que v�
 ## Para saber mais
 
 - O manual do usuário do EuroScope está no [site oficial](https://www.euroscope.hu), em `Documentation`.
-- A documentação do **TopSky** e do **Ground Radar Plugin** acompanha os arquivos dos plugins, na pasta do pacote da FIR.

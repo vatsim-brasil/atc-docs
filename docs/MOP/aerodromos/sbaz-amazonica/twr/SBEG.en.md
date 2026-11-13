@@ -97,7 +97,7 @@ SBEG has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 | :--- | :--- |
 | **Station code** | `SBEG` |
 | **Who operates it** | SBEG_GND. Without GND, the position covering clearance top-down (TWR, APP or ACC) |
-| **Controller tool** | TopSky DCL window, with your personal Hoppie ACARS code |
+| **Controller tool** | DCL window, with your personal Hoppie ACARS code |
 | **Pilot tool** | Aircraft ACARS or a Hoppie-compatible client, sending the clearance request to `SBEG` |
 
 **How it works:**
@@ -108,7 +108,7 @@ SBEG has **DCL** (departure clearance via datalink)[^ad18]. On the network, the 
 4. With the clearance accepted, the pilot calls Ground for start-up or pushback.
 
 !!! tip "Controller setup"
-    - Log in to the TopSky DCL with the code `SBEG` before opening the position.
+    - Log in to the DCL with the code `SBEG` before opening the position.
     - Announce it in the controller information: `DCL AVBL LOGON SBEG`.
     - A faulty request (invalid plan, wrong SID, no ATIS) goes back as **REVERT TO VOICE**: the pilot calls Ground on frequency.
     - If the pilot does not accept within a reasonable time, consider the clearance not delivered and call them by voice.

@@ -107,7 +107,7 @@ O SBBE tem **DCL** (autorização de tráfego por enlace de dados)[^ad18]. Na re
 | :--- | :--- |
 | **Código da estação** | `SBBE` |
 | **Quem opera** | SBBE_GND. Sem GND, a posição que assume a autorização em top-down (TWR, APP ou ACC) |
-| **Ferramenta do controlador** | Janela de DCL do TopSky, com o código pessoal do Hoppie ACARS |
+| **Ferramenta do controlador** | Janela de DCL, com o código pessoal do Hoppie ACARS |
 | **Ferramenta do piloto** | ACARS da aeronave ou cliente compatível com Hoppie, enviando o pedido de autorização para `SBBE` |
 
 **Como funciona:**
@@ -118,7 +118,7 @@ O SBBE tem **DCL** (autorização de tráfego por enlace de dados)[^ad18]. Na re
 4. Com a autorização aceita, o piloto chama o Solo para acionamento ou pushback.
 
 !!! tip "Configuração do controlador"
-    - Faça login no DCL do TopSky com o código `SBBE` antes de abrir a posição.
+    - Faça login no DCL com o código `SBBE` antes de abrir a posição.
     - Anuncie no *controller information*: `DCL AVBL LOGON SBBE`.
     - Pedido com erro (plano inválido, SID errada, sem ATIS) volta como **REVERT TO VOICE**: o piloto chama o Solo na frequência.
     - Se o piloto não aceitar em tempo razoável, considere a autorização não entregue e chame por voz.
