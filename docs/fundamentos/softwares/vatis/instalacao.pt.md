@@ -1,5 +1,7 @@
 ---
   title: Instalação
+  description: Como instalar o vATIS, importar os perfis da Vatsim Brasil e configurar seus dados de acesso
+  icon: material/download
 ---
 
 --8<-- "includes/abreviacoes.md"

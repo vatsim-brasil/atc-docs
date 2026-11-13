@@ -1,5 +1,7 @@
 ---
   title: Guia de Comandos
+  description: Os atalhos de teclado e os comandos de linha do EuroScope, com um quiz dos principais
+  icon: material/keyboard-outline
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -132,6 +134,98 @@ Envia uma mensagem para todos os supervisores conectados.
 ```text
 .wallop MENSAGEM
 ```
+
+## Treine os atalhos
+
+Seis situações do dia a dia. Escolha o atalho certo para cada uma.
+
+<div class="vb-quiz" markdown>
+
+<div class="vb-pergunta" data-resposta="2" markdown>
+
+O piloto chamou na sua frequência e o tráfego está branco (relacionado). Qual tecla você usa para assumi-lo?
+
+1. `F4`
+2. `F3`
+3. `F9`
+
+<div class="vb-explica" markdown>
+`F3` assume o tráfego ou aceita a transferência. `F4` faz o caminho contrário: inicia ou rejeita uma transferência.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="3" markdown>
+
+Você autorizou a subida para o FL150. Como registra isso na etiqueta?
+
+1. `F5` + `150` + clique na etiqueta
+2. `.qs 150`
+3. `F8` + `150` + clique na etiqueta
+
+<div class="vb-explica" markdown>
+`F8` altera o **nível autorizado** (CFL). `F5` muda o nível final do plano de voo, que é outra coisa.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="1" markdown>
+
+Quer acompanhar a distância entre dois tráfegos que vão se cruzar. Qual comando prevê o ponto de maior aproximação?
+
+1. `F1 + S` (`.sep`)
+2. `F1 + D` (`.distance`)
+3. `F1 + F` (`.find`)
+
+<div class="vb-explica" markdown>
+`.sep` prevê a menor distância entre duas aeronaves. `.distance` mostra a distância atual até outra aeronave ou ponto.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="2" markdown>
+
+Um tráfego chamou em outra frequência por engano e você quer que ele chame na sua. O que usa?
+
+1. `.wallop`
+2. `.contactme`, atalho `HOME`
+3. `.break`
+
+<div class="vb-explica" markdown>
+`.contactme` manda ao piloto uma mensagem de texto pedindo contato na sua frequência. `.wallop` chama os supervisores.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="3" markdown>
+
+Como adicionar o METAR de SBKP à tela?
+
+1. `.metar SBKP`
+2. `F1 + M` e clique no aeródromo
+3. `F2` + `SBKP`
+
+<div class="vb-explica" markdown>
+`F2` seguido do código ICAO adiciona ou remove METARs.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="1" markdown>
+
+Precisa de alguém para render você daqui a pouco. Como avisar os outros controladores sem escrever no chat?
+
+1. `.break`
+2. `.nobreak`
+3. `.showvis`
+
+<div class="vb-explica" markdown>
+`.break` muda a cor do seu indicativo para os outros controladores. `.nobreak` desfaz o aviso.
+</div>
+
+</div>
+
+</div>
 
 ## Referência
 

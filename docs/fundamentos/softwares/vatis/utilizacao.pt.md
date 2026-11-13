@@ -1,5 +1,7 @@
 ---
   title: Utilização
+  description: Como preparar, publicar e manter o ATIS com o vATIS e os perfis da Vatsim Brasil
+  icon: material/broadcast
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -180,6 +182,31 @@ Para economizar espaço na tela, use o botão de mini-janela (item 3 da janela p
 2. Só depois desconecte a sua posição no EuroScope.
 
 Se outro controlador for assumir o aeródromo, combine com ele antes quem publica o ATIS, para não haver dois ATIS para a mesma estação.
+
+## Checklist do ATIS
+
+Para ter à mão durante a sessão. As marcações ficam salvas neste navegador.
+
+<div class="vb-checklist" data-chave="vatis-sessao" markdown>
+
+### Antes de conectar
+
+- [ ] A minha posição já está conectada no EuroScope.
+- [ ] Combinei com os outros controladores quem publica o ATIS desta estação.
+- [ ] Escolhi o *preset* da pista em uso, a mesma do EuroScope.
+- [ ] Conferi as condições do aeródromo e os NOTAMs que ficaram da sessão anterior.
+
+### Com o ATIS no ar
+
+- [ ] Confirmei a letra depois de conectar.
+- [ ] Confirmo cada atualização de METAR com um clique na letra que pisca.
+- [ ] Ao mudar pista, condições ou NOTAMs, avanço a letra e aviso os tráfegos e os órgãos adjacentes.
+
+### Ao encerrar
+
+- [ ] Desconectei o ATIS antes de desconectar a posição no EuroScope.
+
+</div>
 
 ## Para saber mais
 

@@ -1,5 +1,7 @@
 ---
   title: Usage
+  description: How to prepare, publish and maintain the ATIS with vATIS and the Vatsim Brasil profiles
+  icon: material/broadcast
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -180,6 +182,31 @@ To save screen space, use the mini-window button (item 3 of the main window). It
 2. Only then disconnect your position in EuroScope.
 
 If another controller will take over the aerodrome, agree beforehand on who publishes the ATIS, so there are never two ATIS for the same station.
+
+## ATIS checklist
+
+Keep it handy during the session. Your ticks are saved in this browser.
+
+<div class="vb-checklist" data-chave="vatis-sessao" markdown>
+
+### Before connecting
+
+- [ ] My position is already connected in EuroScope.
+- [ ] I agreed with the other controllers who publishes this station's ATIS.
+- [ ] I chose the preset for the runway in use, the same as in EuroScope.
+- [ ] I checked the aerodrome conditions and NOTAMs left from the previous session.
+
+### With the ATIS on the air
+
+- [ ] I confirmed the letter after connecting.
+- [ ] I acknowledge each METAR update by clicking the flashing letter.
+- [ ] When the runway, conditions or NOTAMs change, I advance the letter and tell the traffic and adjacent units.
+
+### When closing
+
+- [ ] I disconnected the ATIS before disconnecting the position in EuroScope.
+
+</div>
 
 ## Learn more
 

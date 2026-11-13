@@ -71,7 +71,7 @@ There is not always someone to receive the aircraft. When the next airspace has 
 | *Point out* (`F1 + P`) | Alerting a neighbour to traffic passing near the boundary without entering their airspace |
 | Private chat (`.chat` + controller callsign) | Estimates, level requests, releases, flight plan changes, everything the tag does not show |
 | `ATC` channel | Notices for all controllers, such as opening and closing a position |
-| Voice channel agreed between the controllers | Long or urgent coordination, when available |
+| Voice coordination line ([vacs](../../../fundamentos/softwares/vacs/index.en.md)) | Coordination that needs a quick answer, long or urgent |
 
 !!! tip "Short messages"
     Write in the chat as if you were speaking on the coordination line: callsign, point, time and level, in that order. "VRG2320 EST VARGA 55 FL330" is enough. The templates are in the [Phraseology](05-fraseologia.en.md#messages-between-units).

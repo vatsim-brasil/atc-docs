@@ -58,15 +58,18 @@ Antes de controlar, voe com ATC algumas vezes. Você aprende a fraseologia ouvin
 
 ### Instale os softwares do controlador
 
-Três programas formam a estação de trabalho do ATC na Vatsim Brasil:
+Quatro programas formam a estação de trabalho do ATC na Vatsim Brasil:
 
 | Software | Para que serve |
 | --- | --- |
 | [EuroScope](../softwares/euroscope/index.pt.md) | A tela radar, com os arquivos de setor da Vatsim Brasil |
 | [TrackAudio](../softwares/trackaudio/index.pt.md) | O rádio: transmite e recebe nas frequências |
 | [vATIS](../softwares/vatis/index.pt.md) | Gera a informação ATIS dos aeródromos |
+| [vacs](../softwares/vacs/index.pt.md) | A linha telefônica para coordenar por voz com os outros controladores |
 
-Os guias de cada um explicam a instalação passo a passo.
+A trilha *Monte sua estação* leva você pela instalação dos quatro, do download ao primeiro teste.
+
+[:octicons-arrow-right-24: Monte sua estação](../softwares/preparacao.pt.md){ .md-button }
 
 </div>
 

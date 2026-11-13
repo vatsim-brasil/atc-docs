@@ -79,7 +79,9 @@ This section is for newcomers. Choose your path:
 | [Who to talk to](piloto/orgaos.en.md) | Pilot | The sequence of ATC units and what to do without ATC |
 | [On frequency](piloto/radio.en.md) | Pilot | Radio simulator to practise phraseology |
 | [Joining Vatbrz](inscricao.en.md) | Future ATC | How to transfer to the division |
-| [Software](softwares/index.en.md) | ATC | Installing and using EuroScope, TrackAudio and vATIS |
+| [Software](softwares/index.en.md) | ATC | What EuroScope, TrackAudio, vATIS and vacs do and the connection order |
+| [Set up your workstation](softwares/preparacao.en.md) | ATC | Installation path for the four programs |
+| [Start up and shut down](softwares/sessao.en.md) | ATC | Connection checklist and common problems |
 
 Each side has a short quiz at the end so you can check what you learned.
 

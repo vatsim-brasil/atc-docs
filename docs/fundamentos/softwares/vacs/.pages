@@ -1,0 +1,5 @@
+title: vacs
+nav:
+   - ... | glob=index*.md
+   - ... | glob=instalacao*.md
+   - ... | glob=utilizacao*.md

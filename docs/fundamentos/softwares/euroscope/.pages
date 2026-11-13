@@ -1,4 +1,4 @@
-title: Euroscope
+title: EuroScope
 nav:
    - ... | glob=index*.md
    - ... | glob=instalacao*.md

@@ -1,43 +1,118 @@
 ---
   title: Installation
+  description: Step-by-step installation of EuroScope and the Vatsim Brasil sector files
+  icon: material/download
+  hide:
+    - toc
 ---
 
 --8<-- "includes/abreviacoes.md"
 
 # Installation
 
-## Download
+From download to your first open profile, in six steps. Mark each one when done: the portal saves your progress in this browser.
 
-!!! info "Information"
-    Euroscope is only available for *Microsoft Windows*.
+!!! info "Windows only"
+    EuroScope is only available for *Microsoft Windows*.
 
-1. Go to the [Euroscope website](https://www.euroscope.hu) and open the downloads page by clicking `Installation` on the top bar.
+<div class="vb-trilha" data-chave="euroscope-instalacao" markdown>
 
-![](img/es1.png){ : style="border:2px solid #999" }
+<div class="vb-passo" markdown>
 
-2. Click the link available in the "Download" section to download EuroScope. Once downloaded, follow the installer steps as usual.
+### Download EuroScope
 
-![](img/es2.png){ : style="border:2px solid #999" }
+Go to the [EuroScope website](https://www.euroscope.hu) and open the downloads page under `Installation`, on the top bar.
 
-!!! danger "Attention!"
-    We recommend installing version **3.2.3.2**, which can be found [at this link](https://www.euroscope.hu/wp/2024/06/09/v3-2-2-3-and-v3-2-3-2-with-token-authentication-update/).
+![EuroScope website home page](img/es1.png){ : style="border:2px solid #999" loading=lazy }
 
-!!! warning "A tip!"
-    We strongly recommend reading the Euroscope manual, which can easily be found on the website under `Documentation` > `Download User's Guide`.
+In the *Download* section, click the installer link.
 
-## *Sectorfiles* and Configuration Files
+![Download section](img/es2.png){ : style="border:2px solid #999" loading=lazy }
 
-Sector files are downloaded and installed **through [Aeronav GNG](https://files.aero-nav.com/SBXX)**. To do so, follow the steps shown in the video below:
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/odyaBXAEkhg?si=tEQH_ATFucSrw8ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="vb-passo" markdown>
 
-!!! warning "Attention!"
-    If the dialog box does not appear, you forgot to uncheck the `Auto load last profile on startup` option in the previous step. Uncheck the option and open Euroscope again.
+### Install the recommended version
 
-??? question "What is the difference between the `radar` profile and the `solo` profile?"
-    The `solo` profile contains a color scheme and tags optimized for controlling the `DEL`, `RMP`, `GND` and `TWR` positions.
+Run the installer and follow the steps as usual.
 
-    The `radar` profile, on the other hand, is optimized for the `APP` and `CTR` positions.
+!!! danger "Recommended version"
+    Install version **3.2.3.2**, available [on this page](https://www.euroscope.hu/wp/2024/06/09/v3-2-2-3-and-v3-2-3-2-with-token-authentication-update/).
 
-!!! info "An important note"
-    If you want to change position and the new one is in a different FIR, you must restart Euroscope and open the correct profile for the new position. Simply loading the new sector/ASR is not enough.
+</div>
+
+<div class="vb-passo" markdown>
+
+### Install the Sector File Manager
+
+Vatsim Brasil sector files are published on [AeroNav](https://files.aero-nav.com/SBXX) and installed with the **[Sector File Manager](https://github.com/VectorsATCGroup/euroscope-sector-file-manager)**, a free program by Vectors ATC Group that downloads, installs and updates the packages in one click.
+
+1. Download and install the **[Vectors ATC Hub](https://github.com/VectorsATCGroup/vectors-atc-releases/releases/latest/download/VectorsATCHub-Setup.exe)**, the installer for the Vectors ATC Group programs.
+2. In the Hub, install the **Sector File Manager**. The Hub also keeps the program up to date.
+
+!!! info "What you need"
+    - Windows 10 or newer, 64-bit.
+    - An AeroNav account. You sign in on AeroNav's own page, in a window of the program, which never sees your password.
+
+    It installs per user and does not ask for administrator rights.
+
+</div>
+
+<div class="vb-passo" markdown>
+
+### Install the sector files
+
+1. Open the Sector File Manager. On first run, it finds the EuroScope installation and the sector files folder on its own.
+2. Click **Authenticate** and sign in to your account on the AeroNav page. The sign-in window closes by itself when the package list shows up.
+3. The dashboard shows the five Vatsim Brasil FIRs: **SBAO**, **SBAZ**, **SBBS**, **SBCW** and **SBRE**. Click **Install** on the FIRs you will control.
+
+Before each installation, the program takes an automatic backup. If something fails midway, it rolls the operation back.
+
+!!! tip "Install every FIR"
+    With all five installed, you are ready to control in any FIR, and a last-minute switch will not catch you without the sector.
+
+</div>
+
+<div class="vb-passo" markdown>
+
+### Open the right profile
+
+Each FIR has two profiles (`.prf`):
+
+| Profile | Positions |
+| --- | --- |
+| `solo` | `DEL`, `RMP`, `GND` and `TWR`, with colours and tags designed for ground work |
+| `radar` | `APP` and `CTR` |
+
+Open EuroScope, choose the profile of the FIR you will control and explore the screen without connecting.
+
+!!! warning "The profile dialog did not show up?"
+    EuroScope opened straight into the last profile used. Untick `Auto load last profile on startup` and open the program again.
+
+!!! warning "Switching FIRs?"
+    If the new position is in another FIR, close EuroScope and open the correct profile. Loading the new sector or ASR with the program open is not enough.
+
+</div>
+
+<div class="vb-passo" markdown>
+
+### Keep the files up to date
+
+Sector files follow the AIRAC cycle. Before each session, with EuroScope closed, open the Sector File Manager: the dashboard shows, for each FIR, the installed and the available AIRAC. If **Update** shows up, click it.
+
+| The update replaces | The update keeps |
+| --- | --- |
+| Sector (`.sct` and `.ese`), ASR, NavData, alias and the package's vATIS settings | The `solo` and `radar` profiles (`.prf`) and your customisations in the `Settings/SOLO` and `Settings/RADAR` folders |
+| `login_profiles.txt`, `VoiceChannels.txt` and `AircraftPerformance.txt` | Plugins and files you created that are not part of the package |
+
+!!! warning "Edited one of those three files?"
+    Hand edits to `login_profiles.txt`, `VoiceChannels.txt` and `AircraftPerformance.txt` are lost on update. The automatic backup keeps the previous version.
+
+If the AeroNav session expires, the program asks you to sign in again and carries on with the operation.
+
+[:octicons-arrow-right-24: Usage](utilizacao.en.md){ .md-button .md-button--primary }
+
+</div>
+
+</div>
