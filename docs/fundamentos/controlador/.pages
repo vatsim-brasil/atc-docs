@@ -1,0 +1,7 @@
+title: Controlador
+nav:
+   - ... | glob=index*.md
+   - ... | glob=posicoes*.md
+   - ... | glob=ratings*.md
+   - ... | glob=primeira-sessao*.md
+   - ... | glob=quiz*.md

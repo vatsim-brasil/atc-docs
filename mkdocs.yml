@@ -112,6 +112,7 @@ extra_javascript:
   - javascripts/tma-meteo.js
   - javascripts/pdf-embed.js
   - javascripts/paineis.js
+  - javascripts/fundamentos.js
   - javascripts/home.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
@@ -121,6 +122,7 @@ extra_css:
   - stylesheets/extra.css
   # theme.css vem por último para prevalecer sobre os estilos legados
   - stylesheets/theme.css
+  - stylesheets/fundamentos.css
   - https://unpkg.com/katex@0/dist/katex.min.css
   - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 
@@ -170,9 +172,15 @@ plugins:
             Não Controlados: Uncontrolled
             Novidades: What's New
             Piloto: Pilot
+            Controlador: Controller
             Terminais: Terminals
       reconfigure_material: true
       reconfigure_search: true
+  - redirects:
+      redirect_maps:
+        # A página de treinamento virou a seção Controlador
+        fundamentos/treinamentoatc.md: https://atc.vatsim.com.br/fundamentos/controlador/ratings/
+        en/fundamentos/treinamentoatc.md: https://atc.vatsim.com.br/en/fundamentos/controlador/ratings/
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
