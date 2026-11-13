@@ -1,0 +1,679 @@
+/* ==========================================================================
+   Fundamentos: componentes interativos (javascripts/fundamentos.js)
+   Trilha de etapas, checklist, quiz, simulador de rádio e perfil de voo.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Peças comuns
+   -------------------------------------------------------------------------- */
+
+.md-typeset .vb-link-botao {
+  padding: 0.3em 0.2em;
+  border: 0;
+  background: none;
+  color: var(--md-typeset-a-color);
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.md-typeset .vb-link-botao:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+.md-typeset .vb-link-botao:disabled {
+  color: var(--md-default-fg-color--lighter);
+  cursor: default;
+}
+
+.vb-trilha-topo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.vb-progresso {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.vb-progresso-texto {
+  font-family: var(--md-code-font-family);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.vb-progresso-trilho {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--md-default-fg-color--lightest);
+  overflow: hidden;
+}
+
+.vb-progresso-cheio {
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--vb-blue), var(--vb-cyan));
+  transition: width 0.4s var(--vb-ease);
+}
+
+.vb-progresso--completo .vb-progresso-cheio {
+  background: linear-gradient(90deg, var(--vb-green), var(--vb-radar));
+}
+
+/* --------------------------------------------------------------------------
+   Trilha de etapas
+   -------------------------------------------------------------------------- */
+
+.vb-trilha.vb-pronto {
+  margin: 1.2rem 0 1.6rem;
+}
+
+.vb-trilha.vb-pronto > .vb-passo {
+  position: relative;
+  margin: 0;
+  padding-left: 2.6rem;
+}
+
+/* Linha vertical ligando as etapas */
+.vb-trilha.vb-pronto > .vb-passo::before {
+  content: "";
+  position: absolute;
+  left: 0.95rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--vb-border-strong);
+}
+
+.vb-trilha.vb-pronto > .vb-passo:first-of-type::before {
+  top: 1.4rem;
+}
+
+.vb-trilha.vb-pronto > .vb-passo:last-of-type::before {
+  bottom: auto;
+  height: 1.4rem;
+}
+
+.vb-trilha.vb-pronto > .vb-passo.vb-passo--feito::before {
+  background: var(--vb-green);
+}
+
+.md-typeset .vb-passo-cab {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.75rem 0.2rem;
+  border: 0;
+  background: none;
+  color: var(--md-typeset-color);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.vb-passo-num {
+  position: absolute;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--vb-border-strong);
+  background: var(--md-default-bg-color);
+  font-family: var(--md-code-font-family);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.vb-passo-cab[aria-expanded="true"] .vb-passo-num {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 4px var(--md-accent-fg-color--transparent);
+}
+
+.vb-passo--feito .vb-passo-num {
+  border-color: var(--vb-green);
+  background: var(--vb-green);
+  color: #fff;
+  font-size: 0;
+}
+
+.vb-passo--feito .vb-passo-num::after {
+  content: "✓";
+  font-size: 0.9rem;
+}
+
+.vb-passo-nome {
+  flex: 1;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.vb-passo-cab:hover .vb-passo-nome {
+  color: var(--md-accent-fg-color);
+}
+
+.vb-passo-estado {
+  display: none;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--vb-green) 18%, transparent);
+  color: var(--vb-green);
+  font-family: var(--md-code-font-family);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.vb-passo--feito .vb-passo-estado {
+  display: inline-block;
+}
+
+.vb-passo-cab::after {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-right: 0.3rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  opacity: 0.5;
+  transform: rotate(45deg);
+  transition: transform 0.2s var(--vb-ease);
+}
+
+.vb-passo-cab[aria-expanded="true"]::after {
+  transform: rotate(225deg);
+}
+
+.vb-passo-corpo {
+  padding: 0.1rem 0 1.1rem;
+  animation: vb-surgir 0.25s var(--vb-ease);
+}
+
+.vb-passo-corpo > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset .vb-passo-marcar {
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+}
+
+@keyframes vb-surgir {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* --------------------------------------------------------------------------
+   Checklist persistente
+   -------------------------------------------------------------------------- */
+
+.vb-checklist.vb-pronto {
+  padding: 0.9rem 1rem 0.4rem;
+  border: 1px solid var(--vb-border);
+  border-radius: var(--vb-radius);
+  background: var(--vb-surface);
+  box-shadow: var(--vb-shadow);
+}
+
+.vb-checklist.vb-pronto .task-list-item {
+  transition: opacity 0.2s;
+}
+
+.vb-checklist.vb-pronto .task-list-control {
+  cursor: pointer;
+}
+
+.vb-checklist.vb-pronto .vb-item-feito {
+  opacity: 0.6;
+}
+
+.vb-checklist.vb-pronto h3,
+.vb-checklist.vb-pronto h4 {
+  margin-top: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   Quiz
+   -------------------------------------------------------------------------- */
+
+.vb-quiz.vb-pronto > .vb-pergunta {
+  margin: 0 0 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--vb-border);
+  border-radius: var(--vb-radius);
+  background: var(--vb-surface);
+  box-shadow: var(--vb-shadow);
+  transition: border-color 0.2s;
+}
+
+.vb-quiz.vb-pronto > .vb-pergunta--certa {
+  border-color: color-mix(in srgb, var(--vb-green) 60%, transparent);
+}
+
+.vb-quiz.vb-pronto > .vb-pergunta--errada {
+  border-color: color-mix(in srgb, var(--vb-red) 60%, transparent);
+}
+
+.md-typeset .vb-pergunta-selo {
+  margin: 0 0 0.3rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.vb-pergunta > p:nth-of-type(2) {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.vb-opcoes {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.6rem 0;
+}
+
+.md-typeset .vb-opcao {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--vb-border-strong);
+  border-radius: var(--vb-radius-sm);
+  background: var(--vb-surface-2);
+  color: var(--md-typeset-color);
+  font: inherit;
+  font-size: 0.75rem;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s, transform 0.15s var(--vb-ease);
+}
+
+.md-typeset .vb-opcao:hover:not(:disabled) {
+  border-color: var(--md-accent-fg-color);
+  transform: translateX(2px);
+}
+
+.md-typeset .vb-opcao:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.md-typeset .vb-opcao.vb-opcao--certa {
+  opacity: 1;
+  border-color: var(--vb-green);
+  background: color-mix(in srgb, var(--vb-green) 16%, transparent);
+}
+
+.md-typeset .vb-opcao.vb-opcao--errada {
+  opacity: 1;
+  border-color: var(--vb-red);
+  background: color-mix(in srgb, var(--vb-red) 14%, transparent);
+}
+
+.md-typeset .vb-veredito {
+  margin: 0;
+  font-weight: 700;
+}
+
+.md-typeset .vb-veredito:empty {
+  display: none;
+}
+
+.vb-pergunta--certa .vb-veredito { color: var(--vb-green); }
+.vb-pergunta--errada .vb-veredito { color: var(--vb-red); }
+
+.md-typeset .vb-explica {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .vb-explica > :first-child { margin-top: 0; }
+.md-typeset .vb-explica > :last-child { margin-bottom: 0; }
+
+.vb-quiz-placar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.8rem 1rem;
+  border-radius: var(--vb-radius);
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .vb-quiz-placar-texto {
+  margin: 0;
+  font-family: var(--md-code-font-family);
+  font-weight: 700;
+}
+
+.vb-quiz-placar--fim {
+  background: color-mix(in srgb, var(--vb-green) 16%, transparent);
+}
+
+/* --------------------------------------------------------------------------
+   Simulador de rádio
+   -------------------------------------------------------------------------- */
+
+.vb-radio.vb-pronto {
+  margin: 1rem 0 1.6rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--vb-border);
+  border-radius: var(--vb-radius-lg);
+  background: var(--vb-surface);
+  box-shadow: var(--vb-shadow);
+}
+
+.vb-radio-modos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0.2rem;
+  border-radius: 999px;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .vb-segmento {
+  padding: 0.35rem 0.85rem;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--md-default-fg-color--light);
+  font: inherit;
+  font-size: 0.68rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.md-typeset .vb-segmento[aria-pressed="true"] {
+  background: var(--vb-surface);
+  color: var(--md-typeset-color);
+  box-shadow: var(--vb-shadow);
+}
+
+.vb-radio .vb-cena {
+  margin: 1rem 0 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border-left: 3px solid var(--vb-amber);
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+
+.vb-radio .vb-cena > :first-child { margin-top: 0; }
+.vb-radio .vb-cena > :last-child { margin-bottom: 0; }
+
+.vb-radio.vb-pronto > .comms-pilot,
+.vb-radio.vb-pronto > .comms-atc,
+.vb-radio.vb-pronto > .vb-cena {
+  animation: vb-surgir 0.3s var(--vb-ease);
+}
+
+.vb-radio .vb-encoberta {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Texto encoberto: transparente com sombra borrada (funciona também em nós de
+   texto soltos, que filter: blur nos filhos não alcançaria) */
+.vb-radio .vb-encoberta,
+.vb-radio .vb-encoberta * {
+  color: transparent !important;
+  text-shadow: 0 0 9px rgba(10, 16, 41, 0.5);
+  user-select: none;
+}
+
+.vb-radio .vb-encoberta::after {
+  content: attr(data-dica);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: inherit;
+  /* os balões de fala são claros nos dois temas */
+  background: rgba(255, 255, 255, 0.45);
+  color: #0e1430 !important;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+.vb-radio .vb-encoberta:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}
+
+.vb-radio-controles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed var(--vb-border-strong);
+}
+
+.md-typeset .vb-radio-controles .md-button {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.md-typeset .vb-radio-controles .md-button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+
+.vb-radio-contador {
+  margin-left: auto;
+  font-family: var(--md-code-font-family);
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* --------------------------------------------------------------------------
+   Perfil de voo e escada de ratings
+   -------------------------------------------------------------------------- */
+
+.vb-perfil.vb-pronto {
+  margin: 1rem 0 1.6rem;
+  border: 1px solid var(--vb-border);
+  border-radius: var(--vb-radius-lg);
+  background: var(--vb-surface);
+  box-shadow: var(--vb-shadow);
+  overflow: hidden;
+}
+
+.vb-perfil-mapa {
+  position: relative;
+  height: 11rem;
+  margin: 0;
+  padding: 0;
+  background:
+    linear-gradient(var(--md-default-fg-color--lightest) 1px, transparent 1px) 0 0 / 100% 25%,
+    var(--vb-surface-2);
+  border-bottom: 1px solid var(--vb-border);
+}
+
+.vb-perfil-mapa svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vb-perfil-linha {
+  fill: none;
+  stroke: var(--md-accent-fg-color);
+  stroke-width: 2.5;
+  stroke-dasharray: 6 5;
+  vector-effect: non-scaling-stroke;
+}
+
+.vb-perfil-chao {
+  stroke: var(--md-default-fg-color--lighter);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.md-typeset .vb-perfil-ponto {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--md-typeset-color);
+  font: inherit;
+  transform: translate(-50%, -1.1rem);
+  cursor: pointer;
+}
+
+.vb-perfil-sigla {
+  display: grid;
+  place-items: center;
+  min-width: 2.3rem;
+  height: 2.2rem;
+  padding: 0 0.35rem;
+  border: 2px solid var(--md-accent-fg-color);
+  border-radius: 999px;
+  background: var(--vb-surface);
+  font-family: var(--md-code-font-family);
+  font-size: 0.7rem;
+  font-weight: 700;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s var(--vb-ease);
+}
+
+.vb-perfil-nome {
+  max-width: 6.5rem;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+
+.vb-perfil-ponto--passado .vb-perfil-sigla {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.vb-perfil-ponto[aria-selected="true"] .vb-perfil-sigla {
+  background: var(--md-accent-fg-color);
+  color: #fff;
+  transform: scale(1.12);
+  box-shadow: 0 0 0 5px var(--md-accent-fg-color--transparent);
+}
+
+.vb-perfil-ponto[aria-selected="true"] .vb-perfil-nome {
+  color: var(--md-typeset-color);
+  font-weight: 700;
+}
+
+.vb-perfil-ponto:hover .vb-perfil-sigla {
+  transform: scale(1.08);
+}
+
+.vb-perfil-ponto:focus-visible {
+  outline: none;
+}
+
+.vb-perfil-ponto:focus-visible .vb-perfil-sigla {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}
+
+.vb-perfil-painel {
+  padding: 0.4rem 1.2rem 0.8rem;
+}
+
+.vb-perfil-painel > section {
+  animation: vb-surgir 0.25s var(--vb-ease);
+}
+
+.vb-perfil-painel > section > :first-child {
+  margin-top: 0.8rem;
+}
+
+.vb-perfil-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--vb-border-strong);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .vb-perfil-nome {
+    display: none;
+  }
+
+  .vb-perfil-sigla {
+    min-width: 2rem;
+    height: 1.9rem;
+    font-size: 0.6rem;
+  }
+
+  .vb-perfil-mapa {
+    height: 9rem;
+  }
+
+  .vb-radio-contador {
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vb-passo-corpo,
+  .vb-radio.vb-pronto > *,
+  .vb-perfil-painel > section {
+    animation: none;
+  }
+
+  .vb-progresso-cheio {
+    transition: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Cartões de caminho (página de visão geral)
+   -------------------------------------------------------------------------- */
+
+.md-typeset .vb-caminhos.grid.cards > ul > li,
+.md-typeset .vb-caminhos.grid.cards > ol > li {
+  border-radius: var(--vb-radius-lg);
+}
+
+.md-typeset .vb-caminhos .vb-caminho-kicker {
+  margin: 0;
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+}

@@ -63,3 +63,7 @@ After checking your myVATSIM profile, if you are not currently in the Americas R
 !!! info
     Regional transfers are not managed by the division and are outside our control. Please avoid messaging us about the status of your transfer, as we are not responsible for these processes.
     Remember that the VATSIM Transfer and Visiting Controller Policy applies and any approved transfers are subject to a 90-day waiting period before you can submit another transfer request.
+
+## Next step
+
+Once your transfer is complete, go back to the [controller path](controlador/index.en.md) and move on to installing the software.

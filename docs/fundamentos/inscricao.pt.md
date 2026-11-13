@@ -63,3 +63,7 @@ Depois de conferir seu perfil no myVATSIM, se você não estiver atualmente na R
 !!! info
     Transferências regionais não são gerenciadas pela divisão e estão fora do nosso controle. Por favor, evite nos enviar mensagens sobre o status de sua transferência, pois não somos responsáveis por esses processos.
     Lembre-se que a Política de Transferência e Controladores Visitantes da VATSIM se aplica e quaisquer transferências aprovadas estarão sujeitas a um período de espera de 90 dias antes que você possa enviar outra solicitação de transferência.
+
+## Próximo passo
+
+Com a transferência concluída, volte à [trilha do controlador](controlador/index.pt.md) e siga para a instalação dos softwares.

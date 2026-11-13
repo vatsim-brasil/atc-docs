@@ -1,6 +1,7 @@
 title: Fundamentos
-children:
-   - index
-   - inscricao
-   - treinamentoatc
+nav:
+   - ... | glob=index*.md
+   - controlador
+   - piloto
+   - ... | glob=inscricao*.md
    - softwares
