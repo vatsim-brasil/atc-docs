@@ -1,196 +1,153 @@
 ---
   title: Usage
+  description: How to connect TrackAudio, work the frequencies and close the voice session
+  icon: material/radio-handheld
 ---
 
 --8<-- "includes/abreviacoes.md"
 
 # Usage
 
-## Before connecting to Euroscope
+This page walks through TrackAudio in a control session: connecting, enabling the frequency, transmitting, coupling transceivers and closing. It assumes the [installation](instalacao.en.md) is already done.
 
-When you open TrackAudio without Euroscope connected, the message _"No VATSIM connection detected!"_ will be displayed.
+## Connecting
 
-![](img/image5.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+``` mermaid
+flowchart LR
+    A[EuroScope<br/>connected] --> B[Callsign shows<br/>in TrackAudio]
+    B --> C[CONNECT]
+    C --> D[Tick RX and TX<br/>on the frequency]
+    D --> E[Ready to<br/>transmit]
+```
 
-???+ warning "Attention!"
-    Make sure EuroScope is running and connected to VATSIM with your control position.
+### 1. Connect EuroScope first
 
-## After connecting to EuroScope
+Without the position connected to the network, TrackAudio shows *"No VATSIM connection detected!"*.
 
-![](img/image4.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+![TrackAudio with no VATSIM connection](img/image5.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-As soon as Euroscope is properly connected:
+Once [EuroScope](../euroscope/utilizacao.en.md#connecting-to-the-network) connects, the position callsign (in the example, `SBGO_TWR`) shows at the top and the `CONNECT` button turns green.
 
-1. Your callsign (in this example, `SBGO_TWR`) will appear at the top.
-2. The **CONNECT** button will become active in green, indicating that you can click it to connect to the VATSIM audio server.
+![Callsign detected and CONNECT button active](img/image4.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Connected to the audio server
+### 2. Connect to the voice server
 
-![](img/image8.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+Click `CONNECT`. TrackAudio connects and shows your position's frequencies.
 
-After clicking `CONNECT`, the system connects automatically and displays the **available frequencies based on your position**.
+![Position frequencies after connecting](img/image8.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-???+ warning "Important!"
-    The system **does not enable frequencies automatically**. You need to **manually select the RX and TX buttons** of the frequency you want to use.
+### 3. Enable the frequency
 
-    **Example:** frequency 118.700 MHz (`SBGO_TWR`).
+!!! warning "Important"
+    TrackAudio **does not enable** frequencies on its own. Tick `RX` and `TX` on the frequency you will use, in the example 118.700 MHz (`SBGO_TWR`).
 
-**Available buttons:**
+| Button | Green | Orange |
+| --- | --- | --- |
+| `RX` | You are listening to the frequency | Someone is transmitting on it |
+| `TX` | You are ready to transmit | You are transmitting, with the PTT pressed |
 
-* **RX (green):** you are listening to the frequency. It turns **ORANGE** when there is an active transmission.
+The `SPK` button plays the frequency on the speaker (the secondary output) instead of the headset.
 
-* **TX (green):** ready to transmit. It turns **ORANGE** while you are talking.
+## Transmitting
 
-* **SPK:** plays the frequency audio through the speaker.
+Press the PTT and talk. The frequency's `TX` turns orange while the PTT is pressed.
 
-* **XCA:** enables transceiver *cross-coupling* (explained below).
+![TX orange while transmitting](img/image7.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## During Transmission (TX)
+Your callsign also shows in orange in the list of who is talking and goes back to white when the transmission ends.
 
-![](img/image7.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+![Callsign in orange while transmitting](img/image16.png){ : style="display:block; margin:auto; border:2px solid #999;" loading=lazy }
 
-When you press the PTT (Push-To-Talk) button, the TX button of the selected frequency will turn orange, indicating that you are transmitting.
+## Coupling transceivers: XC and XCA
 
-## XCA and XC Functions
+A frequency can have several transceivers spread over the position's area. Each pilot transmits and receives through the nearest transceiver, so two pilots far apart may not hear each other. The `XCA` button solves this in two ways:
 
-🖱️ **Right**-click the XCA button:  
-- Enables cross-coupling between transceivers on the **same frequency**.
-- Allows pilots in different areas of the FIR to hear each other.
+| Click | Function | What it does |
+| --- | --- | --- |
+| **Right** | `XC` (cross-couple) | Re-transmits what reaches one transceiver on all transceivers **of the same frequency**. Pilots in your area can hear each other. |
+| **Left** | `XCA` (cross-couple across) | Joins **different frequencies**: pilots on one frequency hear those on the other, each within the range of their own transceivers. |
 
-🖱️ **Left**-click the XCA button:  
-- Enables cross-coupling between **different frequencies** (XC).  
-- Allows different frequencies to be joined, but **must be used with caution**.
+!!! tip "Tip"
+    Use `XC` whenever your position has more than one transceiver, as on APP and CTR. Use `XCA` with care, only when you control more than one frequency and want all pilots to hear each other.
 
-✅ Always use XCA when controlling with multiple active transceivers to ensure optimal voice coverage.
+## Listening to and adding frequencies
 
-## Frequency Edit Mode
+### Several frequencies at once
 
-![](img/image10.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+You can listen to more than one frequency. In the example, the controller is listening to `SBGO_TWR` (118.700) and `SBGO_ATIS` (127.675), and the ATIS `RX` is orange because there is a transmission on it.
 
-When you click the pencil icon at the top, the button will turn orange, indicating that **edit mode** is active in TrackAudio.
+![Two frequencies in reception](img/image13.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-This mode allows you to **select frequencies you want to delete** from your current list.
+This is useful to follow a neighbouring sector or check your ATIS.
 
-![](img/image9.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+### Adding a station or frequency
 
-Frequencies selected for deletion are highlighted in **light blue**. Just click the red trash can to remove them from your interface.
+Click the **+**, in the top-left corner.
 
-🔹 This function is useful for **organizing** and **clearing out frequencies that are not in use**, especially when multiple positions are loaded automatically.
+![Button to add a frequency](img/image19.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Listening to Multiple Frequencies Simultaneously
+In the window, type a station callsign (`SBGO_GND`, `SBXP_APP`, `SBRE_W_CTR`) or a frequency in the `XXX.XXX` format.
 
-![](img/image13.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+![Window to add a station](img/image20.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-Track Audio allows you to listen to multiple frequencies at the same time. In this example, the controller is listening to:
+!!! info "Station or frequency?"
+    Prefer the **callsign**. The station comes from the AFV database, with all transceivers defined by the division. A typed frequency creates **a single** transceiver at your EuroScope visibility centre, with less coverage.
 
-\- SBGO\_TWR (118.700 MHz)  
-\- SBGO\_ATIS (127.675 MHz)
+    If the station does not show up, it has not been set up yet. Let the Vatsim Brasil team know.
 
-🔸 The **RX** button of the ATIS frequency is orange, indicating that there is an active transmission on that channel.
+### Removing frequencies
 
-✅ This function is useful for controllers who need to monitor adjacent sectors or auxiliary frequencies, or who want to listen to the local ATIS during operations.
+Click the pencil in the top corner to enter **edit mode**. Select the frequencies to remove (they turn light blue) and click the red bin.
 
-## Main Volume Control
+![Frequencies selected in edit mode](img/image9.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-![](img/image11.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+### ADVISORY and Guard
 
-The slider shown above adjusts the **main volume (MAIN)** of Track Audio.
+TrackAudio has built-in support for the network advisory frequency, **ADVISORY** (122.800, called UNICOM in older versions), and the emergency frequency, **Guard** (121.500).
 
-🔊 Moving the slider to the left will proportionally reduce the volume of **all frequencies**.  
-🔊 Moving it to the right will increase the overall volume.
+## Following the frequency
 
-This function is useful for making quick adjustments without having to set the individual volume of each RX frequency.
+### Activity list (RX LIST)
 
-## Minimized Mode (Docking)
+Click the button next to the `RX:` field to open the **RX LIST**: the frequencies you listen to, with the callsign of the last aircraft that spoke on each. Orange marks who is talking now. Dashes (`--------`) mark frequencies with no recent activity.
 
-![](img/image12.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+![RX LIST](img/image21.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-By clicking the button in the top-right corner, as shown in the image above, Track Audio enters **minimized (docking)** mode.
+### Footer
 
-![](img/image14.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+The footer shows the session duration, your callsign, the active frequency and the number of transceivers in use on it. If the transceiver count looks low, check that you added the station by callsign.
 
-In this mode, TrackAudio appears as a small, unobtrusive floating window, usually placed over the EuroScope radar. It keeps working normally, displaying the active RX frequency (in this example: SBGO\_ATIS).
+![Session footer](img/image18.png){ : style="display:block; margin:auto; border:2px solid #999;" loading=lazy }
 
-✅ Ideal for keeping the interface clean while controlling, without losing track of the current frequency.
+### Main volume
 
-## Frequency Monitoring in Minimized Mode
+The **MAIN** slider adjusts the volume of all frequencies at once.
 
-![](img/image15.png){ : style="display:block; margin:auto; border:2px solid #999;" } 
+![Main volume](img/image11.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-Even in minimized mode, TrackAudio displays important information about the monitored frequencies:
+## Mini mode
 
-🔸 On the left, the configured frequencies are listed (such as SBGO\_TWR and SBGO\_ATIS).  
-🔸 On the right, the **callsigns** of the traffic that is transmitting are shown.
+The button in the top-right corner shrinks TrackAudio to a small window that can sit over the EuroScope radar.
 
-🟧 When the callsign is shown in **orange**, as in the SBGO\_ATIS example, it means that **there is an active transmission** on that frequency.  
-➖ If only dashes "------" appear, it means that **nobody has spoken** on the main frequency yet.
+![Mini mode button](img/image12.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-✅ After the transmission ends, the callsign of the last station that spoke remains visible in white, showing the recent history.
+![TrackAudio in mini mode](img/image14.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Transmission Indicators and Session Footer
+Frequencies are on the left and, on the right, the callsign of whoever spoke last. Orange means a transmission in progress, and dashes mean nobody has spoken yet.
 
-![](img/image16.png){ : style="display:block; margin:auto; border:2px solid #999;" } 
+![Frequencies in mini mode](img/image15.png){ : style="display:block; margin:auto; border:2px solid #999;" loading=lazy }
 
-When you transmit on a frequency, your **callsign** will appear in **orange**, in both the minimized and maximized views. It turns white again at the end of the transmission and remains visible as history.
+## Closing
 
-![](img/image17.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+Click `DISCONNECT`, in the top-right corner. If you disconnect EuroScope first, TrackAudio ends the voice session on its own.
 
-In the main interface, the **TX** button will also turn orange while you are talking (Push-To-Talk pressed).
+![DISCONNECT button](img/image1.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-![](img/image18.png){ : style="display:block; margin:auto; border:2px solid #999;" } 
+!!! warning "Session ended on its own"
+    If the callsign changes during the session, or if the network or internet connection drops, TrackAudio ends voice and shows a red warning such as *"Callsign changed during an active session, you have been disconnected."*. Reconnect and tick `RX` and `TX` again.
 
-In the Track Audio footer, you can see:  
-\- ⏱️ Duration of the current session  
-\- 📛 Your **callsign**  
-\- 📡 The active frequency  
-\- 📶 The number of transceivers in use on that frequency
+    ![Disconnection warning](img/image2.png){ : style="display:block; margin:auto; border:2px solid #999; height: 300px;" loading=lazy }
 
-This information helps you keep technical track of your session and check whether audio is being routed correctly.
+## Integrations
 
-## Adding Frequencies Manually
-
-![](img/image19.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-To add a new frequency to the Track Audio panel, click the **"+"** button located in the top-left corner, next to the edit and settings buttons.
-
-![](img/image20.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-The configuration window will allow you to add:  
-\- A station, such as \`SBGO\_GND\`, \`SBXP\_APP\`, \`SBRE\_W\_CTR\` etc.  
-\- Or a VHF frequency directly, in the \`XXX.XXX\` format.
-
-✅ This function is mainly useful for **APP or CTR controllers** who want to operate with more than one frequency or keep track of adjacent sectors within the same FIR.
-
-## Frequency Activity List (RX LIST)
-
-![](img/image21.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-When you click the button next to the 'RX:' field, a side panel will open displaying the **RX LIST**.
-
-This list shows all the frequencies you are monitoring, with the **callsigns** of the last stations that spoke on each of them.
-
-🔸 Frequencies with currently active calls appear in **orange**.  
-🔸 Frequencies with no recent activity are marked with dashes \`--------\`.
-
-✅ This view is useful for keeping track of multiple frequencies at the same time, especially in APP/CTR operations.
-
-## Ending your Control Session
-
-![](img/image1.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-To end your audio session in Track Audio, just click the red **DISCONNECT** button in the top-right corner of the interface.
-
-🔸 This will disconnect the controller from the VATSIM voice server and close the frequencies automatically.
-
-🧠 Alternatively, when you **disconnect from EuroScope**, Track Audio itself will detect that your position has closed and will end the session automatically.
-
-## Disconnection Warning and Session Failure
-
-![](img/image2.png){ : style="display:block; margin:auto; border:2px solid #999; height: 300px;" } 
-
-If you change your **callsign** during an active session or lose your connection to the VATSIM network, Track Audio will automatically end the voice session and display a prominent (red) error message.
-
-🔴 The example above shows the warning: \`\[HHMMZ\] Callsign changed during an active session, you have been disconnected.\`
-
-⚠️ In addition, loss of internet connection or of the EuroScope connection will also cause the session to end.  
-✅ Pay attention to the **audible alerts** emitted by the software to quickly identify any loss of connection.
+TrackAudio opens a local interface (TCP port **49080**) used by other programs. Through it, [vacs](../vacs/index.en.md) switches radio transmission on and off, and plugins such as the Stream Deck one show the state of the frequencies. For that, TrackAudio must be open and connected to voice.

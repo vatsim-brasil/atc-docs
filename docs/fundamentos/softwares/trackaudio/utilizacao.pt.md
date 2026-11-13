@@ -1,196 +1,153 @@
 ---
   title: Utilização
+  description: Como conectar o TrackAudio, operar as frequências e encerrar a sessão de voz
+  icon: material/radio-handheld
 ---
 
 --8<-- "includes/abreviacoes.md"
 
 # Utilização
 
-## Antes de conectar ao Euroscope
+Esta página mostra o TrackAudio numa sessão de controle: conectar, habilitar a frequência, transmitir, acoplar transceptores e encerrar. Ela parte do ponto em que a [instalação](instalacao.pt.md) já foi feita.
 
-Ao abrir o TrackAudio sem o Euroscope conectado, será exibida a mensagem _"No VATSIM connection detected!"_.
+## Conectando
 
-![](img/image5.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+``` mermaid
+flowchart LR
+    A[EuroScope<br/>conectado] --> B[Indicativo aparece<br/>no TrackAudio]
+    B --> C[CONNECT]
+    C --> D[Marcar RX e TX<br/>da frequência]
+    D --> E[Pronto para<br/>transmitir]
+```
 
-???+ warning "Atenção!"
-    Certifique-se de que o EuroScope esteja rodando e conectado à VATSIM com sua posição de controle.
+### 1. Conecte o EuroScope primeiro
 
-## Após conectar ao EuroScope
+Sem a posição conectada à rede, o TrackAudio mostra *"No VATSIM connection detected!"*.
 
-![](img/image4.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+![TrackAudio sem conexão à VATSIM](img/image5.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-Assim que o Euroscope estiver conectado corretamente:
+Depois que o [EuroScope](../euroscope/utilizacao.pt.md#conectando-a-rede) conecta, o indicativo da posição (no exemplo, `SBGO_TWR`) aparece no topo e o botão `CONNECT` fica verde.
 
-1. Seu indicativo de chamada (neste exemplo, `SBGO_TWR`) aparecerá no topo.
-2. O botão **CONNECT** ficará ativo em verde, indicando que você pode clicar para se conectar ao servidor de áudio da VATSIM.
+![Indicativo detectado e botão CONNECT ativo](img/image4.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Conectado ao servidor de áudio
+### 2. Conecte ao servidor de voz
 
-![](img/image8.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+Clique em `CONNECT`. O TrackAudio conecta e mostra as frequências da sua posição.
 
-Após clicar em `CONNECT`, o sistema conecta-se automaticamente e exibe as **frequências disponíveis com base na sua posição**.
+![Frequências da posição após conectar](img/image8.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-???+ warning "Importante!"
-    O sistema **não habilita automaticamente as frequências**. Você precisa **marcar manualmente os botões RX e TX** da frequência que deseja utilizar.
+### 3. Habilite a frequência
 
-    **Exemplo:** frequência 118.700 MHz (`SBGO_TWR`).
+!!! warning "Importante"
+    O TrackAudio **não habilita** as frequências sozinho. Marque `RX` e `TX` da frequência que vai usar, no exemplo 118.700 MHz (`SBGO_TWR`).
 
-**Botões disponíveis:**
+| Botão | Verde | Laranja |
+| --- | --- | --- |
+| `RX` | Você está ouvindo a frequência | Alguém está transmitindo nela |
+| `TX` | Você está pronto para transmitir | Você está transmitindo, com o PTT apertado |
 
-* **RX (verde):** você está ouvindo a frequência. Fica **LARANJA** quando há uma transmissão ativa.
+O botão `SPK` toca a frequência no alto-falante (a saída secundária) em vez do fone.
 
-* **TX (verde):** pronto para transmitir. Fica **LARANJA** enquanto você estiver falando.
+## Transmitindo
 
-* **SPK:** emite o áudio da frequência no alto-falante.
+Aperte o PTT e fale. O `TX` da frequência fica laranja enquanto o PTT estiver apertado.
 
-* **XCA:** ativa o *cross-coupling* de transceptores (explicado a seguir).
+![TX laranja durante a transmissão](img/image7.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Durante a Transmissão (TX)
+O seu indicativo também aparece em laranja na lista de quem está falando e volta a branco ao fim da transmissão.
 
-![](img/image7.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+![Indicativo em laranja durante a transmissão](img/image16.png){ : style="display:block; margin:auto; border:2px solid #999;" loading=lazy }
 
-Quando você pressiona o botão PTT (Push-To-Talk), o botão TX da frequência selecionada ficará laranja, indicando que você está transmitindo.
+## Acoplando transceptores: XC e XCA
 
-## Funções XCA e XC
+Uma frequência pode ter vários transceptores espalhados pela área da posição. Cada piloto transmite e recebe pelo transceptor mais próximo, e por isso dois pilotos distantes podem não se ouvir. O botão `XCA` resolve isso de duas formas:
 
-🖱️ Clique com o botão **direito** no botão XCA:  
-- Ativa o cross-coupling entre transceptores da **mesma frequência**.
-- Permite que pilotos em diferentes áreas da FIR consigam se ouvir.
+| Clique | Função | O que faz |
+| --- | --- | --- |
+| **Direito** | `XC` (*cross-couple*) | Retransmite o que chega a um transceptor em todos os transceptores **da mesma frequência**. Os pilotos da sua área passam a se ouvir. |
+| **Esquerdo** | `XCA` (*cross-couple across*) | Junta **frequências diferentes**: pilotos em uma frequência ouvem os da outra, cada um no alcance dos próprios transceptores. |
 
-🖱️ Clique com o botão **esquerdo** no botão XCA:  
-- Ativa o cross-coupling entre **diferentes frequências** (XC).  
-- Permite juntar frequências diferentes, mas **deve ser usado com cautela**.
+!!! tip "Dica"
+    Use o `XC` sempre que a sua posição tiver mais de um transceptor, como nos APP e CTR. Use o `XCA` com cautela, só quando você controla mais de uma frequência e quer que todos os pilotos se ouçam.
 
-✅ Utilize sempre o XCA quando estiver controlando com múltiplos transceptores ativos para garantir a cobertura ideal de voz.
+## Ouvindo e adicionando frequências
 
-## Modo de Edição de Frequências
+### Várias frequências ao mesmo tempo
 
-![](img/image10.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" }
+Você pode ouvir mais de uma frequência. No exemplo, o controlador ouve `SBGO_TWR` (118.700) e `SBGO_ATIS` (127.675), e o `RX` do ATIS está laranja porque há transmissão nele.
 
-Ao clicar no ícone do lápis no canto superior, o botão ficará laranja, indicando que o **modo de edição** está ativo no TrackAudio.
+![Duas frequências em recepção](img/image13.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-Este modo permite **selecionar frequências que você deseja excluir** da sua lista atual.
+Isso é útil para acompanhar um setor vizinho ou conferir o seu ATIS.
 
-![](img/image9.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+### Adicionando uma estação ou frequência
 
-As frequências selecionadas para exclusão ficam destacadas em **azul claro**. Basta clicar na lixeira vermelha para removê-las da sua interface.
+Clique no **+**, no canto superior esquerdo.
 
-🔹 Esta função é útil para **organizar** e **limpar frequências que não estão em uso**, especialmente quando múltiplas posições são carregadas automaticamente.
+![Botão para adicionar frequência](img/image19.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Ouvindo Múltiplas Frequências Simultaneamente
+Na janela, digite o indicativo de uma estação (`SBGO_GND`, `SBXP_APP`, `SBRE_W_CTR`) ou uma frequência no formato `XXX.XXX`.
 
-![](img/image13.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+![Janela para adicionar estação](img/image20.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-O Track Audio permite ouvir múltiplas frequências ao mesmo tempo. Neste exemplo, o controlador está ouvindo:
+!!! info "Estação ou frequência?"
+    Prefira o **indicativo**. A estação vem do banco de dados do AFV, com todos os transceptores definidos pela divisão. Uma frequência digitada cria **um único** transceptor no centro de visibilidade do seu EuroScope, com cobertura menor.
 
-\- SBGO\_TWR (118.700 MHz)  
-\- SBGO\_ATIS (127.675 MHz)
+    Se a estação não aparecer, ela ainda não foi cadastrada. Avise a equipe da Vatsim Brasil.
 
-🔸 O botão **RX** da frequência ATIS está laranja, indicando que há uma transmissão ativa naquele canal.
+### Removendo frequências
 
-✅ Essa função é útil para controladores que precisam monitorar setores adjacentes, frequências auxiliares, ou quando desejam escutar o ATIS local durante a operação.
+Clique no lápis, no canto superior, para entrar no **modo de edição**. Selecione as frequências que quer remover (ficam em azul-claro) e clique na lixeira vermelha.
 
-## Controle de Volume Principal
+![Frequências selecionadas no modo de edição](img/image9.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-![](img/image11.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+### ADVISORY e Guarda
 
-O controle deslizante indicado acima ajusta o **volume principal (MAIN)** do Track Audio.
+O TrackAudio tem suporte próprio à frequência de aviso da rede, **ADVISORY** (122.800, chamada de UNICOM nas versões antigas), e à frequência de emergência, **Guarda** (121.500).
 
-🔊 Ao mover o controle para a esquerda, o volume de **todas as frequências** será reduzido proporcionalmente.  
-🔊 Ao mover para a direita, o volume geral será aumentado.
+## Acompanhando a frequência
 
-Esta função é útil para fazer ajustes rápidos sem precisar configurar o volume individual de cada frequência RX.
+### Lista de atividade (RX LIST)
 
-## Modo Minimizado (Docking)
+Clique no botão ao lado do campo `RX:` para abrir a **RX LIST**: as frequências que você ouve, com o indicativo do último tráfego que falou em cada uma. Em laranja, quem está falando agora. Com traços (`--------`), as frequências sem atividade recente.
 
-![](img/image12.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+![RX LIST](img/image21.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-Clicando no botão no canto superior direito, conforme indicado na imagem acima, o Track Audio entra no modo **minimizado (docking)**.
+### Rodapé
 
-![](img/image14.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+O rodapé mostra a duração da sessão, o seu indicativo, a frequência ativa e o número de transceptores em uso nela. Se o número de transceptores parecer baixo, confira se você adicionou a estação pelo indicativo.
 
-Neste modo, o TrackAudio aparece como uma pequena janela flutuante discreta, normalmente posicionada sobre o radar do EuroScope. Ele continua funcionando normalmente, exibindo a frequência RX ativa (neste exemplo: SBGO\_ATIS).
+![Rodapé da sessão](img/image18.png){ : style="display:block; margin:auto; border:2px solid #999;" loading=lazy }
 
-✅ Ideal para manter a interface limpa durante o controle, sem perder o acompanhamento da frequência atual.
+### Volume geral
 
-## Monitoramento de Frequências no Modo Minimizado
+O controle deslizante **MAIN** ajusta o volume de todas as frequências de uma vez.
 
-![](img/image15.png){ : style="display:block; margin:auto; border:2px solid #999;" } 
+![Volume geral](img/image11.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-Mesmo no modo minimizado, o TrackAudio exibe informações importantes sobre as frequências monitoradas:
+## Modo minimizado
 
-🔸 À esquerda, são listadas as frequências configuradas (como SBGO\_TWR e SBGO\_ATIS).  
-🔸 À direita, são mostrados os **indicativos de chamada (callsigns)** dos tráfegos que estão transmitindo.
+O botão no canto superior direito reduz o TrackAudio a uma janela pequena, que pode ficar sobre o radar do EuroScope.
 
-🟧 Quando o callsign está em **laranja**, como no exemplo SBGO\_ATIS, significa que **há uma transmissão ativa** nesta frequência.  
-➖ Caso apareçam apenas traços "------", significa que **ninguém falou** na frequência principal ainda.
+![Botão do modo minimizado](img/image12.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-✅ Após o fim da transmissão, o callsign do último tráfego que falou permanece visível em branco, informando o histórico recente.
+![TrackAudio minimizado](img/image14.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-## Indicadores de Transmissão e Rodapé de Sessão
+À esquerda ficam as frequências e, à direita, o indicativo de quem falou por último. Laranja indica transmissão em curso, e traços indicam que ninguém falou ainda.
 
-![](img/image16.png){ : style="display:block; margin:auto; border:2px solid #999;" } 
+![Frequências no modo minimizado](img/image15.png){ : style="display:block; margin:auto; border:2px solid #999;" loading=lazy }
 
-Ao transmitir em uma frequência, seu indicativo de chamada (**callsign**) aparecerá em **laranja**, tanto na visualização minimizada quanto na maximizada. Esse indicativo volta a branco ao fim da transmissão, permanecendo visível como histórico.
+## Encerrando
 
-![](img/image17.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
+Clique em `DISCONNECT`, no canto superior direito. Se você desconectar o EuroScope antes, o TrackAudio encerra a sessão de voz sozinho.
 
-Na interface principal, o botão **TX** também ficará laranja enquanto você estiver falando (Push-To-Talk pressionado).
+![Botão DISCONNECT](img/image1.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" loading=lazy }
 
-![](img/image18.png){ : style="display:block; margin:auto; border:2px solid #999;" } 
+!!! warning "Sessão encerrada sozinha"
+    Se o indicativo mudar durante a sessão, ou se a conexão com a rede ou com a internet cair, o TrackAudio encerra a voz e mostra um aviso em vermelho, como *"Callsign changed during an active session, you have been disconnected."*. Reconecte e marque `RX` e `TX` de novo.
 
-No rodapé do Track Audio, você pode visualizar:  
-\- ⏱️ Duração da sessão atual  
-\- 📛 Seu **indicativo de chamada** (Callsign)  
-\- 📡 A frequência ativa  
-\- 📶 O número de transceivers em uso naquela frequência
+    ![Aviso de desconexão](img/image2.png){ : style="display:block; margin:auto; border:2px solid #999; height: 300px;" loading=lazy }
 
-Essas informações ajudam a manter o controle técnico da sua sessão e identificar se o áudio está sendo roteado corretamente.
+## Integrações
 
-## Adicionando Frequências Manualmente
-
-![](img/image19.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-Para adicionar uma nova frequência ao painel do Track Audio, clique no botão de **"+"** localizado no canto superior esquerdo, ao lado dos botões de edição e configurações.
-
-![](img/image20.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-A janela de configuração permitirá que você adicione:  
-\- Uma estação, como \`SBGO\_GND\`, \`SBXP\_APP\`, \`SBRE\_W\_CTR\` etc.  
-\- Ou diretamente uma frequência VHF no formato \`XXX.XXX\`.
-
-✅ Essa função é útil principalmente para **controladores de APP ou CTR**, que desejam operar com mais de uma frequência ou manter controle sobre setores adjacentes dentro da mesma FIR.
-
-## Lista de Atividade de Frequências (RX LIST)
-
-![](img/image21.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-Ao clicar no botão ao lado do campo 'RX:', uma aba lateral será aberta exibindo a **RX LIST**.
-
-Essa lista mostra todas as frequências que você está monitorando, com os respectivos **indicativos de chamada (callsigns)** dos últimos tráfegos que falaram em cada uma delas.
-
-🔸 Frequências com chamadas ativas no momento aparecem em **laranja**.  
-🔸 Frequências sem atividade recente são marcadas com traços \`--------\`.
-
-✅ Essa visualização é útil para manter o controle sobre múltiplas frequências ao mesmo tempo, especialmente em operações APP/CTR.
-
-## Encerrando sua Sessão de Controle
-
-![](img/image1.png){ : style="display:block; margin:auto; border:2px solid #999; height:300px;" } 
-
-Para encerrar sua sessão de áudio no Track Audio, basta clicar no botão vermelho **DISCONNECT** no canto superior direito da interface.
-
-🔸 Isso irá desconectar o controlador do servidor de voz da VATSIM e fechar as frequências automaticamente.
-
-🧠 Alternativamente, ao **desconectar-se do EuroScope**, o próprio Track Audio identificará o encerramento da sua posição e finalizará a sessão de forma automática.
-
-## Aviso de Desconexão e Falha de Sessão
-
-![](img/image2.png){ : style="display:block; margin:auto; border:2px solid #999; height: 300px;" } 
-
-Caso você altere seu **callsign** durante uma sessão ativa ou perca a conexão com a rede VATSIM, o Track Audio irá automaticamente encerrar a sessão de voz e exibirá uma mensagem de erro em destaque (vermelha).
-
-🔴 O exemplo acima mostra o aviso: \`\[HHMMZ\] Callsign changed during an active session, you have been disconnected.\`
-
-⚠️ Além disso, quedas de conexão com a internet ou o EuroScope também causarão o encerramento da sessão.  
-✅ Fique atento aos **avisos sonoros** emitidos pelo software para identificar rapidamente qualquer perda de conexão.
+O TrackAudio abre uma interface local (porta TCP **49080**) usada por outros programas. É por ela que o [vacs](../vacs/index.pt.md) liga e desliga a transmissão do rádio, e que plugins como o do *Stream Deck* mostram o estado das frequências. Para isso, o TrackAudio precisa estar aberto e conectado à voz.

@@ -1,5 +1,7 @@
 ---
   title: Installation
+  description: How to install vATIS, import the Vatsim Brasil profiles and set up your credentials
+  icon: material/download
 ---
 
 --8<-- "includes/abreviacoes.md"

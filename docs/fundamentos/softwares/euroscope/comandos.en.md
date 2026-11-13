@@ -1,5 +1,7 @@
 ---
   title: Command Guide
+  description: EuroScope keyboard shortcuts and command-line commands, with a quiz on the main ones
+  icon: material/keyboard-outline
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -132,6 +134,98 @@ Sends a message to all connected supervisors.
 ```text
 .wallop MESSAGE
 ```
+
+## Practise the shortcuts
+
+Six everyday situations. Pick the right shortcut for each one.
+
+<div class="vb-quiz" markdown>
+
+<div class="vb-pergunta" data-resposta="2" markdown>
+
+The pilot called on your frequency and the traffic is white (related). Which key assumes it?
+
+1. `F4`
+2. `F3`
+3. `F9`
+
+<div class="vb-explica" markdown>
+`F3` assumes the traffic or accepts the handoff. `F4` goes the other way: it starts or rejects a handoff.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="3" markdown>
+
+You cleared a climb to FL150. How do you record it on the tag?
+
+1. `F5` + `150` + click the tag
+2. `.qs 150`
+3. `F8` + `150` + click the tag
+
+<div class="vb-explica" markdown>
+`F8` changes the **cleared level** (CFL). `F5` changes the final level of the flight plan, which is something else.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="1" markdown>
+
+You want to watch the distance between two crossing aircraft. Which command predicts the point of closest approach?
+
+1. `F1 + S` (`.sep`)
+2. `F1 + D` (`.distance`)
+3. `F1 + F` (`.find`)
+
+<div class="vb-explica" markdown>
+`.sep` predicts the minimum distance between two aircraft. `.distance` shows the current distance to another aircraft or point.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="2" markdown>
+
+An aircraft called on the wrong frequency and you want it to call you. What do you use?
+
+1. `.wallop`
+2. `.contactme`, shortcut `HOME`
+3. `.break`
+
+<div class="vb-explica" markdown>
+`.contactme` sends the pilot a text message asking for contact on your frequency. `.wallop` calls the supervisors.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="3" markdown>
+
+How do you add the SBKP METAR to the screen?
+
+1. `.metar SBKP`
+2. `F1 + M` and click the aerodrome
+3. `F2` + `SBKP`
+
+<div class="vb-explica" markdown>
+`F2` followed by the ICAO code adds or removes METARs.
+</div>
+
+</div>
+
+<div class="vb-pergunta" data-resposta="1" markdown>
+
+You will need relief soon. How do you tell the other controllers without typing in the chat?
+
+1. `.break`
+2. `.nobreak`
+3. `.showvis`
+
+<div class="vb-explica" markdown>
+`.break` changes the colour of your callsign for other controllers. `.nobreak` cancels it.
+</div>
+
+</div>
+
+</div>
 
 ## Reference
 

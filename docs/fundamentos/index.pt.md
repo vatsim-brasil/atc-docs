@@ -79,7 +79,9 @@ Esta seção é para quem está chegando. Escolha o seu caminho:
 | [Com quem falar](piloto/orgaos.pt.md) | Piloto | A sequência de órgãos e o que fazer sem ATC |
 | [Na frequência](piloto/radio.pt.md) | Piloto | Simulador de rádio para praticar a fraseologia |
 | [Entrando na Vatbrz](inscricao.pt.md) | Futuro ATC | Como se transferir para a divisão |
-| [Softwares](softwares/index.pt.md) | ATC | Instalação e uso do EuroScope, TrackAudio e vATIS |
+| [Softwares](softwares/index.pt.md) | ATC | O papel do EuroScope, do TrackAudio, do vATIS e do vacs e a ordem de conexão |
+| [Monte sua estação](softwares/preparacao.pt.md) | ATC | Trilha de instalação dos quatro programas |
+| [Ligar e desligar](softwares/sessao.pt.md) | ATC | Checklist de conexão e problemas comuns |
 
 Cada lado tem um quiz curto no final para você conferir o que aprendeu.
 

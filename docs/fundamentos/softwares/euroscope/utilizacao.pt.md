@@ -1,5 +1,7 @@
 ---
   title: Utilização
+  description: Uma sessão de controle típica no EuroScope, da conexão ao encerramento
+  icon: material/monitor-eye
 ---
 
 --8<-- "includes/abreviacoes.md"
@@ -13,10 +15,15 @@ Esta página mostra o uso do **EuroScope** em uma sessão de controle típica: a
 
 ## Antes de começar
 
-- [x] EuroScope instalado, com os *sectorfiles* da FIR em que vai controlar.
-- [x] [TrackAudio](../trackaudio/index.pt.md) instalado e configurado.
-- [x] [vATIS](../vatis/index.pt.md) configurado, se a posição for responsável pelo ATIS.
-- [x] Consulta prévia ao MOP da posição ([aeródromos](../../../MOP/aerodromos/index.pt.md), [terminais](../../../MOP/terminais/index.pt.md) ou [centros](../../../MOP/centros/index.pt.md)).
+<div class="vb-checklist" data-chave="euroscope-antes" markdown>
+
+- [ ] EuroScope instalado, com os *sectorfiles* atualizados da FIR em que vai controlar.
+- [ ] [TrackAudio](../trackaudio/index.pt.md) instalado e configurado.
+- [ ] [vacs](../vacs/index.pt.md) instalado, para a coordenação por voz com os outros controladores.
+- [ ] [vATIS](../vatis/index.pt.md) configurado, se a posição for responsável pelo ATIS.
+- [ ] Consulta prévia ao MOP da posição ([aeródromos](../../../MOP/aerodromos/index.pt.md), [terminais](../../../MOP/terminais/index.pt.md) ou [centros](../../../MOP/centros/index.pt.md)).
+
+</div>
 
 ## Abrindo o perfil
 
@@ -59,14 +66,15 @@ O botão `OPEN SCT` abre o menu de arquivos de setor. Ele serve para abrir outro
 
 ## Conectando à rede
 
-O EuroScope é o primeiro programa a conectar. TrackAudio e vATIS dependem da conexão dele.
+O EuroScope é o primeiro programa a conectar. TrackAudio, vacs e vATIS dependem da conexão dele.
 
 ``` mermaid
 flowchart LR
     A[Abrir perfil<br/>no EuroScope] --> B[Conectar<br/>à VATSIM]
     B --> C[Definir frequência<br/>primária]
     C --> D[Conectar o<br/>TrackAudio]
-    D --> E[Publicar o ATIS<br/>no vATIS]
+    D --> G[Conectar o<br/>vacs]
+    G --> E[Publicar o ATIS<br/>no vATIS]
     E --> F[Posição<br/>operacional]
 ```
 
@@ -85,7 +93,8 @@ flowchart LR
 
 3. Após conectar, abra a configuração de comunicações por voz (*Voice Communications Setup*, no menu `OTHER SET`) e marque a frequência da posição como **primária** (`Prim`). Nessa janela também ficam as linhas de informação do controlador (*Controller ATIS*), exibidas aos pilotos que consultarem a sua posição.
 4. Conecte o [TrackAudio](../trackaudio/utilizacao.pt.md) e habilite `RX` e `TX` da sua frequência.
-5. Se a posição for responsável pelo ATIS, publique-o pelo [vATIS](../vatis/index.pt.md).
+5. Conecte o [vacs](../vacs/utilizacao.pt.md) para receber e fazer chamadas de coordenação.
+6. Se a posição for responsável pelo ATIS, publique-o pelo [vATIS](../vatis/index.pt.md).
 
 !!! tip "Dica"
     Antes de abrir uma posição, confira na lista de controladores (item 5 da tela) quem já está conectado. Assim você sabe com quem vai coordenar e para quem vai transferir os tráfegos.
@@ -186,14 +195,16 @@ Nas posições radar, a **Sector Inbound List** (SIL) mostra os tráfegos que v�
 - **Conversa privada.** Use `F1 + C` (`.chat`) sobre a etiqueta para conversar com o piloto, ou `.chat` seguido do indicativo para conversar com um controlador.
 - **`.contactme`** (atalho `HOME`). Pede a um piloto que chame na sua frequência.
 - **`.break`.** Sinaliza aos outros controladores que você precisa de uma pausa ou substituição.
+- **Coordenação por voz.** Para falar com outro controlador, use o [vacs](../vacs/utilizacao.pt.md), a linha telefônica entre os órgãos.
 
 ## Encerrando a sessão
 
 1. Transfira todos os tráfegos assumidos ou, se nenhum órgão assumir a área, instrua os pilotos a mudar para a frequência de monitoramento (UNICOM, 122.800 MHz).
 2. Avise no canal `ATC` que vai desconectar.
 3. Encerre o ATIS no vATIS.
-4. Desconecte o TrackAudio.
-5. Desconecte o EuroScope pelo menu de conexão (`Disconnect`).
+4. Desconecte o vacs.
+5. Desconecte o TrackAudio.
+6. Desconecte o EuroScope pelo menu de conexão (`Disconnect`).
 
 ## Para saber mais
 

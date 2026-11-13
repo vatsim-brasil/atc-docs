@@ -71,7 +71,7 @@ Nem sempre há alguém para receber a aeronave. Quando o próximo espaço aéreo
 | *Point out* (`F1 + P`) | Avisar um vizinho de um tráfego que passa perto do limite sem entrar no espaço dele |
 | Chat privado (`.chat` + indicativo do controlador) | Estimados, pedidos de nível, liberações, mudanças de plano, tudo o que a etiqueta não mostra |
 | Canal `ATC` | Avisos para todos os controladores, como abertura e fechamento de posição |
-| Canal de voz combinado entre os controladores | Coordenações longas ou urgentes, quando houver |
+| Linha de coordenação por voz ([vacs](../../../fundamentos/softwares/vacs/index.pt.md)) | Coordenações que pedem resposta rápida, longas ou urgentes |
 
 !!! tip "Mensagens curtas"
     Escreva no chat como se falasse na linha de coordenação: indicativo, ponto, hora e nível, nessa ordem. "VRG2320 ESTIMA VARGA 55 FL330" basta. Os modelos estão na [Fraseologia](05-fraseologia.pt.md#mensagens-entre-orgaos).

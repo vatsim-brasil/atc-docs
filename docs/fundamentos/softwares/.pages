@@ -1,5 +1,10 @@
 title: Softwares
 nav:
+   - ... | glob=index*.md
+   - ... | glob=preparacao*.md
+   - ... | glob=sessao*.md
    - euroscope
    - trackaudio
    - vatis
+   - vacs
+   - ... | glob=quiz*.md

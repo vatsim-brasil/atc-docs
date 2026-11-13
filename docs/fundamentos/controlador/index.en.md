@@ -58,15 +58,18 @@ Before controlling, fly with ATC a few times. You learn phraseology by listening
 
 ### Install the controller software
 
-Three programs make up the ATC workstation at Vatsim Brasil:
+Four programs make up the ATC workstation at Vatsim Brasil:
 
 | Software | What it is for |
 | --- | --- |
 | [EuroScope](../softwares/euroscope/index.en.md) | The radar screen, with the Vatsim Brasil sector files |
 | [TrackAudio](../softwares/trackaudio/index.en.md) | The radio: transmits and receives on frequencies |
 | [vATIS](../softwares/vatis/index.en.md) | Generates the aerodrome ATIS |
+| [vacs](../softwares/vacs/index.en.md) | The telephone line to coordinate by voice with other controllers |
 
-Each guide explains the installation step by step.
+The *Set up your workstation* path takes you through installing all four, from download to the first test.
+
+[:octicons-arrow-right-24: Set up your workstation](../softwares/preparacao.en.md){ .md-button }
 
 </div>
 

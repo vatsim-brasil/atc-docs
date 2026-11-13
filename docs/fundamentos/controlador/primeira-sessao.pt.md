@@ -18,7 +18,7 @@ Você acabou de receber o rating e vai conectar sozinho pela primeira vez. Use e
 
 - [ ] Escolhi uma posição permitida pelo meu rating e num horário em que consigo ficar ao menos uma hora.
 - [ ] Li a página do aeródromo ou da TMA no [MOP](../../MOP/aerodromos/index.pt.md): pistas, frequências, saídas, regras locais.
-- [ ] Atualizei os arquivos de setor do EuroScope.
+- [ ] Atualizei os arquivos de setor no [Sector File Manager](../softwares/euroscope/instalacao.pt.md#mantenha-os-arquivos-atualizados).
 - [ ] Conferi o METAR e escolhi a pista em uso pelo vento e pelas regras do MOP.
 - [ ] Vi na lista de controladores quem está on-line acima e ao lado de mim, para saber com quem vou coordenar.
 - [ ] Testei o fone e o microfone no TrackAudio.
@@ -28,6 +28,7 @@ Você acabou de receber o rating e vai conectar sozinho pela primeira vez. Use e
 - [ ] Conectei no EuroScope com o indicativo e a frequência corretos da posição.
 - [ ] Marquei a frequência como primária e preenchi as informações do controlador (*Controller ATIS*).
 - [ ] Conectei o TrackAudio com `RX` e `TX` habilitados na minha frequência.
+- [ ] Conectei o vacs, para receber e fazer as chamadas de coordenação.
 - [ ] Publiquei o ATIS no vATIS, se a posição for responsável por ele.
 - [ ] Avisei no canal `ATC` que abri a posição, e assumi os tráfegos que já estavam no solo.
 
@@ -42,7 +43,7 @@ Você acabou de receber o rating e vai conectar sozinho pela primeira vez. Use e
 
 - [ ] Avisei com antecedência os controladores vizinhos.
 - [ ] Transferi todos os tráfegos ou orientei os pilotos a monitorar a UNICOM (122.800).
-- [ ] Desconectei o vATIS, o TrackAudio e o EuroScope.
+- [ ] Desconectei o vATIS, o vacs, o TrackAudio e o EuroScope.
 - [ ] Anotei o que deu certo e o que quero melhorar na próxima vez.
 
 </div>
