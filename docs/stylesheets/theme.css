@@ -2065,3 +2065,53 @@ body {
   color: var(--md-default-fg-color--light);
   font-size: 0.75rem;
 }
+
+/* --------------------------------------------------------------------------
+   Cartas de acordo: texto oficial (artigos, parágrafos e incisos)
+   -------------------------------------------------------------------------- */
+
+.md-typeset .vb-loa-cabecalho {
+  margin: 1.2em 0 1.6em;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--md-typeset-a-color);
+  border-radius: var(--vb-radius);
+}
+
+.md-typeset .vb-loa-cabecalho > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset .vb-loa-cabecalho > :last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset .vb-loa-kicker {
+  display: block;
+  margin-bottom: 0.4em;
+  color: var(--md-default-fg-color--light);
+  font-family: var(--md-code-font-family);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .vb-loa-art {
+  margin: 1.4em 0 0.6em;
+}
+
+.md-typeset .vb-loa-par,
+.md-typeset .vb-loa-inc {
+  margin: 0.5em 0 0.5em 1.2rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .vb-loa-art > strong:first-child,
+.md-typeset .vb-loa-par > strong:first-child,
+.md-typeset .vb-loa-inc > strong:first-child {
+  margin-right: 0.3em;
+  color: var(--md-typeset-a-color);
+  font-family: var(--md-code-font-family);
+  white-space: nowrap;
+}
