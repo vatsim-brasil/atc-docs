@@ -28,6 +28,11 @@ Explore the operational technical documentation through the links below:
 * [**AFIS (Radio) Manual**](manuais/afis-radio/index.en.md): The Aerodrome Flight Information Service provided by RADIO positions: what the RADIO reports and what it never clears, VFR and IFR arrivals and departures, and the `_R_TWR` position on the network, based on **ICA 100-37**, **MCA 100-16**, the **AIP-Brasil** and VATSIM's **GCAP**.
 * [**Helicopter Control Manual**](manuais/helicopteros/index.en.md): Helicopters on the ground, at the tower and on Helicopter Special Routes (REH): taxi, air-taxi and air-transit, take-offs and landings away from the runway, the approach controller's role on REH, and offshore, public safety and air ambulance operations within VATSIM's limits, based on **ICA 100-4**, **ICA 100-37** and VATSIM's **Code of Conduct**.
 
+## Letters of Agreement
+
+The [**Letters of Agreement**](cartas-acordo-operacional/index.en.md) gather the procedures agreed between Vatsim Brasil and other organisations on the VATSIM network:
+
+* [**LOA FABv – VATBRZ**](cartas-acordo-operacional/fabv.en.md): Letter of Agreement with the Brazilian Virtual Air Force (FABv), defining military flights and operations, military control at air bases, the military controller callsign and temporary airspace closures.
 
 ## Disclaimer
 

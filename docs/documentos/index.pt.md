@@ -28,6 +28,11 @@ Explore a documentação técnica operacional através dos links abaixo:
 * [**Manual de AFIS (Rádio)**](manuais/afis-radio/index.pt.md): O Serviço de Informação de Voo de Aeródromo prestado pelas posições RÁDIO: o que a RÁDIO informa e o que não autoriza, chegadas e saídas VFR e IFR, e a posição `_R_TWR` na rede, com base na **ICA 100-37**, no **MCA 100-16**, na **AIP-Brasil** e na **GCAP** da VATSIM.
 * [**Manual de Controle de Helicópteros**](manuais/helicopteros/index.pt.md): O helicóptero no solo, na torre e nas Rotas Especiais de Helicópteros (REH): táxi, taxiamento e deslocamento aéreo, pousos e decolagens fora da pista, o papel do APP nas REH e as operações offshore, de segurança pública e aeromédicas com os limites da VATSIM, com base na **ICA 100-4**, na **ICA 100-37** e no **Código de Conduta** da VATSIM.
 
+## Cartas de Acordo Operacional
+
+As [**Cartas de Acordo Operacional**](cartas-acordo-operacional/index.pt.md) reúnem os procedimentos combinados entre a Vatsim Brasil e outras organizações da rede VATSIM:
+
+* [**LOA FABv – VATBRZ**](cartas-acordo-operacional/fabv.pt.md): Carta de Acordo com a Força Aérea Brasileira virtual (FABv), que define voos e operações militares, o controle militar nas bases aéreas, o callsign do controlador militar e o fechamento temporário do espaço aéreo.
 
 ## Limitação de Responsabilidade
 
