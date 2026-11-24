@@ -1,6 +1,6 @@
 ---
-  title: SBJR - Jacarepaguá
-  tags:
+title: SBJR - Jacarepaguá
+tags:
     - Aeródromo
     - Controlado
     - SBCW
@@ -9,12 +9,15 @@
 --8<-- "includes/abreviacoes.md"
 
 ## :material-information-outline: General Information
-|                              | Information                           |
-|------------------------------|---------------------------------------|
-| **Aerodrome name**        | Rio de Janeiro - Jacarepaguá / Roberto Marinho                 |
-| **Type of Operation**         | Domestic and Public               |
-| **Transition altitude** | 7000 ft |
-| **Elevation** | 10 ft (3 m) |
+
+|                              | Information                                   |
+|------------------------------|-----------------------------------------------|
+| **Aerodrome name**           | Rio de Janeiro - Jacarepaguá / Roberto Marinho |
+| **Type of Operation**        | Domestic and Public, VFR only[^rotaer]         |
+| **Transition altitude**      | 7000 ft[^iac]                                 |
+| **Elevation**                | 10 ft (3 m)                                   |
+| **Largest aircraft**         | Code 2 runway, PCN 10: general aviation, light business jets and helicopters[^adc] |
+| **Airspace**                 | Jacarepaguá ATZ, GND/2000 ft, below the Rio TMA[^vac] |
 | **Accepts A380?** | :material-close:{ style="color:#d63d3d" } |
 
 ## :material-monitor-dashboard: Useful Information
@@ -38,56 +41,188 @@
 === ":material-radar: VATSIM Traffic"
     [:material-radar: Traffic](https://vatsim-radar.com/?airport=SBJR){ .md-button .btn-vatsim-custom target="_blank" style="flex: 1; min-width: 150px; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 8px;align:center;" }
 
+---
+
 ## :material-routes: Runways
-| Runway | Preferred  | ILS                                         | Pattern   |
-| :---: | :--- | :---: | :---: |
-| **03** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Standard     |
-| **21** | -             | :fontawesome-solid-circle-xmark:{ .cornot } | Standard     |
+
+### Single runway, VFR only
+
+SBJR has **one runway**, **03/21** (900 × 30 m, asphalt), between Jacarepaguá Lagoon and the apron. The aerodrome is **VFR only**: there are no SIDs, STARs or IACs for fixed-wing aircraft[^rotaer].
+
+<div class="grid cards" markdown>
+
+-   :material-airplane:{ .lg .middle } **Runway `03` / `21`**
+
+    ---
+
+    900 × 30 m, code 2, PAPI at both thresholds. General aviation, light business jets and helicopters.
+
+-   :material-helicopter:{ .lg .middle } **Helicopters**
+
+    ---
+
+    Dedicated apron 2 (S1 to S12) and the **RNP 026** procedure (PinS, CAT H) for weather below fixed-wing VFR[^iac].
+
+</div>
+
+!!! warning "4% minimum gradient"
+    {==**Landing on 03 and departing from 21: 4% minimum gradient**==}[^rotaer].
+
+ROTAER sets no preferential runway: the runway in use follows the wind.
+
+### Runway data
+
+| Runway | Dimensions | TORA | LDA | Approach | Remarks |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **03** | 900 × 30 m | 900 m | 900 m | Visual (PAPI 3.0°) | Landing: 4% minimum gradient |
+| **21** | 900 × 30 m | 900 m | 900 m | Visual (PAPI 3.0°) | Departure: 4% minimum gradient |
+
+---
 
 ## :material-headset: ATC Units
-| Code     | Abbr. | Callsign | Frequency | Remarks |
-| ---------- | ------ | --------------------- | ---------- | ----------- |
-| **SBJR_GND** | `GJR` | Jacarepaguá Ground | **121.600** |  |
-| **SBJR_TWR** | `TJR` | Jacarepaguá Tower | **118.400** |  |
 
-## :material-airplane-takeoff: Operations
+| Code | Abbr. | Callsign | Frequency | Remarks |
+| :--- | :---: | :--- | :---: | :--- |
+| **SBJR_ATIS** | `AJR` | Jacarepaguá ATIS | **135.950** | D-ATIS |
+| **SBJR_GND** | `GJR` | Jacarepaguá Ground | **121.600** | Also issues the ATC clearance |
+| **SBJR_TWR** | `TJR` | Jacarepaguá Tower | **118.400** | |
 
-### Departures
+- SBJR has no Delivery (DEL) and no DCL. **Ground** issues the clearance or, without Ground, the position covering it top-down.
+- Aircraft intending to operate in the **Jacarepaguá ATZ** call the Tower **before entering**[^vac].
 
-- MNM DEP gradient RWY 21: 4%.
+---
 
-### Approaches and Landings
+## :material-map-marker-radius: Areas of responsibility
 
-- MNM ARR gradient RWY 03: 4%.
+<figure markdown="span">
+  ![SBJR map with the runway and the links up to the holding points in yellow, under the Tower, and the aprons and TWY A in blue, under Ground](img/sbjr-responsabilidade.svg){ loading=lazy }
+  <figcaption>Yellow strip: Tower (runway and links inside the holding points). Rest: Ground. The red marks are the holding points.</figcaption>
+</figure>
 
-### Aerodrome Regulations
+| Position | Responsible for |
+| :--- | :--- |
+| **GND** | Aprons 1 and 2 and TWY **A**, up to each link's **holding point** |
+| **TWR** | Runway 03/21 and links **B**, **C**, **D** and **E** inside the holding points |
 
-- VFR-only AD.
-- OBS VAC for DEP and ARR.
-- For contingency procedures and low-altitude VMC circulation in the vicinity of the AD, observe the obstacles published on the VAC.
-- Training FLT, TGL, ANAC CHECK and hover flights only with prior COOR with the AD OPR and AUTH from the ATS unit.
-- Filing of PLN via RTF is not AUTH, EXC for MEDEVAC departing the AD or HEL departing the AD operating in the Santos Basin and Pre-Salt Area, in urgent situations.
-- U-control model aircraft OPS within the ATZ are PRB.
-- OBS ACFT and GLD on training FLT near the AD.
-- OBS ultralight OPS in the W SECT of the AD.
+- SBJR has **no Apron** position: Ground handles both aprons.
+- **Departure:** Ground hands the aircraft to the Tower at the **B** (runway 03) or **E** (runway 21) holding point.
+- **Arrival:** the aircraft vacates the runway, passes the holding point and is handed to Ground.
 
-### Aprons and Taxiways
+---
 
-- Taxiing along the taxi line (YELLOW LINE) is compulsory for entering and leaving the PSN.
-- Boarding and disembarking of passengers with the engine running without prior COOR with the AD OPR is PRB.
-- Turning on PSN S1 to S12 simultaneously with fixed-wing ACFT TFC on the adjacent TWYs is PRB.
-- Turning on PSN S1 to S12 is permitted exclusively for ACFT with a "D" dimension of less than 15.65M.
-- ACFT with a rotating rotor diameter greater than 10.98M: access to Apron 2, PSN S1 to S12, must be made exclusively by ground taxi.
-- Rotary-wing ACFT turning on their own axis on Apron 1 is PRB, except at PSN L1 and L2. Movement must be made along the taxi line (YELLOW LINE).
-- Starting and moving ACFT with ENG running inside the hangar access areas is PRB; towing is compulsory.
-- Moving ACFT with engines running at the hangar access entrances without the presence and escort of the apron marshal is PRB.
+## :material-transit-connection-variant: Ground flow
 
-### Additional Information
+!!! abstract "General rule"
+    - **A** is the only parallel taxiway: it runs between the runway and the aprons, from **B** (threshold 03) to **E** (threshold 21).
+    - **B** and **E** link A to the thresholds. **C** and **D** are angled exits mid-runway: **D** serves landings on 03 and **C** landings on 21.
+    - Taxi in and out of the stands **always along the yellow line**[^rotaer].
 
-- OBS concentration of birds and balloons in the TFC circuit.
+=== "Runway 03"
 
-## :material-sign-direction: Parking Stands
-| Apron     | Stands  | Classification             |
-| :---: | :---: | :--- |
-| **1** | ANY       | General and Business Aviation / Helicopters |
-| **2** | S1-S12       | Helicopters |
+    <figure markdown="span">
+      ![Ground flow on runway 03: departures via A and B to threshold 03; landings vacating via D and back along A; those past D roll to the end and vacate via E](img/sbjr-fluxo-03.svg){ loading=lazy }
+      <figcaption>Green: departures. Blue: landings. Dashed orange: long landing to the end of the runway.</figcaption>
+    </figure>
+
+    - **Departures:** **A** southbound and **B** to threshold 03.
+    - **Landings:** vacate via **D** (~490 m) and back along **A** to the apron. Aircraft past D roll to the end and vacate via **E**.
+
+    Example: `PR-ABC, taxi to holding point runway 03 via A and B.`
+
+=== "Runway 21"
+
+    <figure markdown="span">
+      ![Ground flow on runway 21: departures via A and E to threshold 21; landings vacating via C and back along A; those past C roll to the end and vacate via B](img/sbjr-fluxo-21.svg){ loading=lazy }
+      <figcaption>Green: departures. Blue: landings. Dashed orange: long landing to the end of the runway.</figcaption>
+    </figure>
+
+    - **Departures:** **A** northbound and **E** to threshold 21.
+    - **Landings:** vacate via **C** (~490 m) and back along **A** to the apron. Aircraft past C roll to the end and vacate via **B**.
+
+    Example: `PR-ABC, taxi to holding point runway 21 via A and E.`
+
+### Runway exits
+
+| Runway | Exits |
+| :---: | :--- |
+| **03** | **D** (~490 m) or **E** (end) |
+| **21** | **C** (~490 m) or **B** (end) |
+
+<small>Approximate distance from the threshold to the exit, measured on the diagram. C (on 03) and D (on 21) are angled against the landing direction and need a sharp turn.</small>
+
+### Ground restrictions
+
+| Restriction | Where |
+| :--- | :--- |
+| **HS1** | Where apron 1 meets apron 2, on A: heavy crossing of aircraft and vehicles[^adc] |
+| **Turns on apron 1** | Helicopters don't turn on their own axis, except at stands **L1** and **L2**; move along the yellow line[^rotaer] |
+| **Turns at S1 to S12** | Only for aircraft with a "D" dimension under 15.65 m, and never while fixed-wing traffic is on the adjacent TWYs[^rotaer] |
+| **Rotor over 10.98 m** | Enters apron 2 (S1 to S12) by **ground taxi** only[^rotaer] |
+
+---
+
+## :material-airplane-takeoff: Takeoff points
+
+<figure markdown="span">
+  ![SBJR overview with aprons 1 and 2, hotspot HS1 and the takeoff points at the thresholds](img/sbjr-visao-geral.svg){ loading=lazy }
+  <figcaption>Takeoff points (purple) with the available TORA. Circled numbers: aprons. Red circle: HS1.</figcaption>
+</figure>
+
+| Runway | Point | TORA | Used by |
+| :---: | :---: | :---: | :--- |
+| **03** | **B** (threshold) | 900 m | All |
+| **21** | **E** (threshold) | 900 m | All |
+
+- ROTAER publishes no intersection departures: with 900 m of runway, every departure is from the threshold.
+
+---
+
+## :material-sign-direction: Aprons
+
+Stands as shown on the PDC chart[^adc]. SBJR has no scheduled flights: the aprons serve general aviation, business aviation and air taxi.
+
+<div class="patios">
+<section class="patio patio--largo">
+<header class="patio__cab"><span class="patio__num" title="Apron 1"><small>Apron</small>1</span><span class="patio__info"><strong>General and business aviation</strong><span>In front of the terminal, along A</span><span class="patio__pos">Stands A1 to J3, L1 to M3 and N (three per row)</span></span></header>
+<div class="patio__cias"><p class="patio__nota">Aeroplanes and helicopters. Helicopters only turn on their own axis at L1 and L2.</p></div>
+</section>
+<section class="patio">
+<header class="patio__cab"><span class="patio__num" title="Apron 2"><small>Apron</small>2</span><span class="patio__info"><strong>Helicopters</strong><span>Southern end, by threshold 03</span><span class="patio__pos">Stands S1 to S12</span></span></header>
+<div class="patio__cias"><p class="patio__nota">Helicopters only. Rotors over 10.98 m enter by ground taxi.</p></div>
+</section>
+</div>
+
+---
+
+## :material-clipboard-text-outline: Other procedures
+
+### Traffic pattern
+
+- Pattern **on the east side** of the runway only[^vac].
+- Minimum pattern altitude: **1300 ft** for categories A and B and **1500 ft** for C[^vac].
+- Special VFR: minimum ceiling **1300 ft**[^vac].
+- Watch for traffic crossing the **Praia REH**, south of the aerodrome[^vac].
+
+### Arrivals and departures (fixed-wing)
+
+| | Runway 03 | Runway 21 |
+| :--- | :--- | :--- |
+| **Departure** | Turn after **1000 ft** and fly direct to **Barra** or **Curicica** | Direct to **Marapendi** |
+| **Arrival** | **Marapendi** gate via **Senna**, crossing the Praia REH above **750 ft** | **Barra** gate via **Tijucas** or **Curicica** gate via **Pontal** |
+
+<small>Source: VAC SBJR RWY 03/21 (CAT A, B, C)[^vac]. The reporting points are on the chart.</small>
+
+### Helicopters
+
+- **Departing 21:** cross **Américas** at 500 ft or above and turn only after **Orla**[^vac].
+- **Arriving on 21:** base leg at 700 ft or above, crossing **Abelardo** at 500 ft or above[^vac].
+- **Single-engine:** pattern along Av. Ayrton Senna, bounded by Av. Abelardo Bueno (runway 21) and Av. das Américas (runway 03). Departing 03, turn after 700 ft; departing 21, left turn to the northeast sector, bounded by Av. das Américas[^vac].
+- **Twin-engine:** departing 03, turn after 1000 ft. With a ceiling of 1500 ft or more, downwind at **1500 ft** (between Praia and Península for 21, between Través Morro Panela and Praia for 03). On 03, the final starts at **Orla** at 1000 ft or above[^vac].
+- **RNP 026 (PinS):** helicopters only, and only with weather below fixed-wing VFR. Requires **Rio APP** clearance and a **Y** flight plan, changing to VFR at **JR012**[^iac].
+
+[^rotaer]: [ROTAER SBJR](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBJR).
+[^adc]: SBJR ADC and PDC charts ([AISWEB](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBJR)).
+[^vac]: SBJR VAC charts RWY 03/21, CAT A, B, C and CAT H ([AISWEB](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBJR)).
+[^iac]: SBJR IAC RNP 026 chart ([AISWEB](https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBJR)).
+
+<small>Diagrams drawn by VATSIM Brasil over [OpenStreetMap](https://www.openstreetmap.org/copyright) geometry (ODbL), checked against the SBJR ADC and PDC charts. Not for real-world navigation. Normative sources: ROTAER SBJR, ADC AMDT 2609A1, PDC and VAC AMDT 2606A1.</small>
