@@ -9,7 +9,7 @@ icon: material/lightbulb-on
 
 ## Tips for Controllers
 
-### Termination of Radar Service
+### Termination of Surveillance Service
 
 When there is **no** adjacent unit available to hand off the traffic to, or when the adjacent unit provides ATC service procedurally (non-radar), say:
 
@@ -25,7 +25,7 @@ When there is **no** adjacent unit available to hand off the traffic to, or when
 
 === ":flag_es: Spanish"
     <div class="comms-atc">
-        **GOL UNO CUATRO UNO NUEVE**, servicio radar terminado a las **XX**. Autorizado el cambio de frecuencia, *próxima frecuencia*.
+        **GOL UNO CUATRO UNO NUEVE**, servicio de vigilancia terminado a las **XX**. Autorizado el cambio de frecuencia, *próxima frecuencia*.
     </div>
 
 !!! warning "Important!"

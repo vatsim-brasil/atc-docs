@@ -9,7 +9,7 @@ icon: material/lightbulb-on
 
 ## Dicas para Controladores
 
-### Encerramento de Serviço Radar
+### Encerramento do Serviço de Vigilância
 
 Quando **não houver** órgão adjacente disponível para transferência do tráfego ou quando o órgão adjacente prestar o serviço ATC de maneira convencional (não-radar), diga:
 
@@ -25,7 +25,7 @@ Quando **não houver** órgão adjacente disponível para transferência do trá
 
 === ":flag_es: Espanhol"
     <div class="comms-atc">
-        **GOL UNO CUATRO UNO NUEVE**, servicio radar terminado a las **XX**. Autorizado el cambio de frecuencia, *próxima frecuencia*.
+        **GOL UNO CUATRO UNO NUEVE**, servicio de vigilancia terminado a las **XX**. Autorizado el cambio de frecuencia, *próxima frecuencia*.
     </div>
 
 !!! warning "Importante!"

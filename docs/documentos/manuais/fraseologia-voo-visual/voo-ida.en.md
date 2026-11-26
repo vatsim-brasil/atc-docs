@@ -260,7 +260,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
       Belo Horizonte Control, **PAPA TANGO VICTOR BRAVO ROMEO**, despegado de Pampulha, VFR para Ipatinga, pasando CUATRO MIL pies, ascendiendo a SIETE MIL QUINIENTOS pies.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, Belo Horizonte Control, contacto radar, SEIS millas al este de Pampulha. Mantenga VFR, ascenso a su discreción a SIETE MIL QUINIENTOS pies. Reporte abandonando la TMA Belo Horizonte.
+      **VICTOR BRAVO ROMEO**, Belo Horizonte Control, identificado, SEIS millas al este de Pampulha. Mantenga VFR, ascenso a su discreción a SIETE MIL QUINIENTOS pies. Reporte abandonando la TMA Belo Horizonte.
     </div>
     <div class="comms-pilot">
       Mantiene VFR, asciende a discreción a SIETE MIL QUINIENTOS pies, reportará abandonando la TMA, **VICTOR BRAVO ROMEO**.
@@ -275,7 +275,7 @@ Within controlled airspace, visual flight remains subject to clearance. Control 
       **VICTOR BRAVO ROMEO**, abandonando la TMA Belo Horizonte, SIETE MIL QUINIENTOS pies.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, servicio radar terminado a los DOS OCHO. Autorizado el cambio de frecuencia, llame Brasília Información en UNO DOS CINCO DECIMAL TRES.
+      **VICTOR BRAVO ROMEO**, servicio de vigilancia terminado a los DOS OCHO. Autorizado el cambio de frecuencia, llame Brasília Información en UNO DOS CINCO DECIMAL TRES.
     </div>
     <div class="comms-pilot">
       Llamará Brasília Información en UNO DOS CINCO DECIMAL TRES, **VICTOR BRAVO ROMEO**.

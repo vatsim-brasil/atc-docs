@@ -17,6 +17,7 @@ This manual was written with a focus on clarity and objectivity, presenting the 
 | Revision | Date       | Description                    | Reviewer            |
 | -------- | ---------- | ------------------------------ | ------------------- |
 | 12/2025  | 17/12/2025 | Adaptation to the ATC Portal   | 930847              |
+| 11/2026  | 25/11/2026 | Update to MCA 100-16 (Portaria nº 2.193) | 930847 |
 
 ## About this Manual
 

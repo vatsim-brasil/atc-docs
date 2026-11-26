@@ -405,7 +405,7 @@ Takeoff clearance is issued by the Tower after the pilot reports at the runway h
       Brasília Control, **GOL UNO CUATRO UNO NUEVE**, despegado de la pista DOS NUEVE IZQUIERDA, pasando CINCO MIL PIES, salida normalizada GAXON DOS ALFA, transición ENRUR.
     </div>
     <div class="comms-atc">
-      **GOL UNO CUATRO UNO NUEVE**, Brasília Control, contacto radar en el despegue, ascienda vía GAXON DOS ALFA a nivel TRES SEIS CERO.
+      **GOL UNO CUATRO UNO NUEVE**, Brasília Control, identificado en el despegue, ascienda vía GAXON DOS ALFA a nivel TRES SEIS CERO.
     </div>
     <div class="comms-pilot">
       Asciende vía salida a nivel TRES SEIS CERO, **GOL UNO CUATRO UNO NUEVE**.
@@ -421,25 +421,25 @@ Takeoff clearance is issued by the Tower after the pilot reports at the runway h
 
             > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **canceladas as restrições de altitude/velocidade**. <br/>
             > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude/speed restrictions**. <br/>
-            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas las restricciones de altitud/velocidad**. <br/>
+            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, identificado en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas las restricciones de altitud/velocidad**. <br/>
 
         2. If an altitude <u>or</u> speed restriction **at specific point(s)** is cancelled, the phraseology will be:
 
             > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **cancelada a restrição de altitude/velocidade em ILMET**. <br/>
             > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude/speed restriction at ILMET**. <br/>
-            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas la restricción de altitud/velocidad en ILMET**. <br/>
+            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, identificado en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas la restricción de altitud/velocidad en ILMET**. <br/>
 
         3. If all restrictions on the entire procedure are cancelled, the phraseology will be:
 
             > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba **sem restrições** para o nível de voo TRÊS MEIA ZERO. <br/>
             > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb **without restrictions** to flight level THREE SIX ZERO. <br/>
-            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda **sin restricciones** al nivel TRES SEIS CERO. <br/>
+            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, identificado en el despegue, ascienda **sin restricciones** al nivel TRES SEIS CERO. <br/>
 
             Or alternatively:
 
             > :flag_br: SURINAM DOIS QUATRO DOIS, Controle Belém, identificado após a decolagem, suba via saída ILMET UNO para o nível de voo TRÊS MEIA ZERO, **canceladas as restrições de altitude e velocidade**. <br/>
             > :flag_gb: SURINAM TWO FOUR TWO, Belém Control, identified on departure, climb via ILMET ONE departure to flight level THREE SIX ZERO, **Cancel altitude and speed restrictions**. <br/>
-            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, contacto radar en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas las restricciones de altitud y velocidad**. <br/>
+            > :flag_es: SURINAM DOS CUATRO DOS,  Belém Control, identificado en el despegue, ascienda vía salida ILMET UNO al nivel TRES SEIS CERO, **canceladas las restricciones de altitud y velocidad**. <br/>
             
 
 ### Flow control during climb
@@ -601,7 +601,7 @@ When leaving Approach Control, the pilot will be transferred to the next ATC uni
 
 ??? abstract "Some remarks..."
 
-    Even when the pilot is under radar surveillance service, regulations require the pilot to report to ATC upon reaching the cleared cruise level.
+    Even when the pilot is under surveillance service, regulations require the pilot to report to ATC upon reaching the cleared cruise level.
 
 ### Descent Procedure Instruction
 
