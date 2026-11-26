@@ -16,6 +16,7 @@ While the **Aeronautical Phraseology Manual** covers instrument flight, this man
 | Revision | Date       | Description                    | Reviewer            |
 | -------- | ---------- | ------------------------------ | ------------------- |
 | 08/2026  | 07/08/2026 | Manual created                 | 930847              |
+| 11/2026  | 25/11/2026 | Update to MCA 100-16 (Portaria nº 2.193) | 930847 |
 
 ## About this Manual
 

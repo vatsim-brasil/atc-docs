@@ -17,6 +17,7 @@ Este manual foi elaborado com foco na clareza e objetividade, apresentando os pa
 | Revisão | Data       | Descrição                      | Revisor             |
 | ------- | ---------- | ------------------------------ | ------------------- |
 | 12/2025 | 17/12/2025 | Adaptação ao Portal ATC        | 930847              |
+| 11/2026 | 25/11/2026 | Adequação à MCA 100-16 (Portaria nº 2.193) | 930847 |
 
 ## Sobre este Manual
 

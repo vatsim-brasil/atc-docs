@@ -16,6 +16,7 @@ Enquanto o **Manual de Fraseologia Aeronáutica** trata do voo por instrumentos,
 | Revisão | Data       | Descrição                      | Revisor             |
 | ------- | ---------- | ------------------------------ | ------------------- |
 | 08/2026 | 07/08/2026 | Criação do Manual              | 930847              |
+| 11/2026 | 25/11/2026 | Adequação à MCA 100-16 (Portaria nº 2.193) | 930847 |
 
 ## Sobre este Manual
 

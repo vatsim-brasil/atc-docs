@@ -320,7 +320,7 @@ Entering controlled airspace requires a clearance. The pilot requests it, statin
       Transponder CUATRO DOS CERO TRES, **VICTOR BRAVO ROMEO**.
     </div>
     <div class="comms-atc">
-      **VICTOR BRAVO ROMEO**, contacto radar, DOS CINCO millas al noreste de Pampulha. Autorizado el ingreso a la TMA Belo Horizonte, mantenga VFR, descienda a CUATRO MIL QUINIENTOS pies, Q N H UNO CERO UNO TRES.
+      **VICTOR BRAVO ROMEO**, identificado, DOS CINCO millas al noreste de Pampulha. Autorizado el ingreso a la TMA Belo Horizonte, mantenga VFR, descienda a CUATRO MIL QUINIENTOS pies, Q N H UNO CERO UNO TRES.
     </div>
     <div class="comms-pilot">
       Autorizado el ingreso a la TMA, mantiene VFR, desciende a CUATRO MIL QUINIENTOS pies, Q N H UNO CERO UNO TRES, **VICTOR BRAVO ROMEO**.
