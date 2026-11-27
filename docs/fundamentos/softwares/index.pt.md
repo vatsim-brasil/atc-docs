@@ -136,6 +136,7 @@ Para encerrar, desça a escada na **ordem inversa**: transfira os tráfegos, des
 | [Monte sua estação](preparacao.pt.md) | Trilha de instalação dos quatro programas, com marcação do seu progresso |
 | [Ligar e desligar](sessao.pt.md) | Checklist da conexão e soluções para os problemas mais comuns |
 | [EuroScope](euroscope/index.pt.md) | Instalação, utilização e guia de comandos |
+| [Sector File Manager](sector-file-manager/index.pt.md) | Instalação e atualização dos arquivos de setor no EuroScope, a cada AIRAC |
 | [TrackAudio](trackaudio/index.pt.md) | Instalação e utilização |
 | [vATIS](vatis/index.pt.md) | Instalação, perfis da Vatsim Brasil e utilização |
 | [vacs](vacs/index.pt.md) | Instalação, chamadas de coordenação e integração com o TrackAudio |

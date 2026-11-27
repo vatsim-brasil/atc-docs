@@ -4,6 +4,7 @@ nav:
    - ... | glob=preparacao*.md
    - ... | glob=sessao*.md
    - euroscope
+   - sector-file-manager
    - trackaudio
    - vatis
    - vacs

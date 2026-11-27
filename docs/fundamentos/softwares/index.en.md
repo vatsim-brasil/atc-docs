@@ -136,6 +136,7 @@ To close, go down the steps in **reverse order**: hand off the traffic, disconne
 | [Set up your workstation](preparacao.en.md) | Installation path for the four programs, with progress tracking |
 | [Start up and shut down](sessao.en.md) | Connection checklist and fixes for the most common problems |
 | [EuroScope](euroscope/index.en.md) | Installation, usage and command guide |
+| [Sector File Manager](sector-file-manager/index.en.md) | Installing and updating the sector files in EuroScope, every AIRAC |
 | [TrackAudio](trackaudio/index.en.md) | Installation and usage |
 | [vATIS](vatis/index.en.md) | Installation, Vatsim Brasil profiles and usage |
 | [vacs](vacs/index.en.md) | Installation, coordination calls and TrackAudio integration |

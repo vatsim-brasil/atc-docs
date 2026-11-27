@@ -111,6 +111,8 @@ Os arquivos de setor acompanham o ciclo AIRAC. Antes de cada sessão, com o Euro
 
 Se a sessão do AeroNav expirar, o programa pede um novo login e continua a operação.
 
+[:octicons-arrow-right-24: Manual do Sector File Manager](../sector-file-manager/index.pt.md){ .md-button }
+
 [:octicons-arrow-right-24: Utilização](utilizacao.pt.md){ .md-button .md-button--primary }
 
 </div>
