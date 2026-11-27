@@ -1,0 +1,15 @@
+{#- Um ciclo AIRAC: as mudanças nos arquivos de setor de cada FIR -#}
+{% extends "main.html" %}
+
+{% block content %}
+{% set en = config.theme.language.startswith("en") %}
+{% set v = page.meta.vigencia %}
+<p class="vb-entrada__meta vb-strip--airac">
+  <span class="vb-entrada__tipo">AIRAC</span>
+  {% if v %}<time datetime="{{ v.isoformat() }}">{{ ("Effective " if en else "Vigência ") ~ v.strftime("%d/%m/%Y") }}</time>{% endif %}
+</p>
+{{ page.content }}
+<p class="vb-entrada__voltar">
+  <a href="{{ (('en/' if en else '') ~ 'novidades/airac/') | url }}">← {{ "All AIRAC updates" if en else "Todas as atualizações de AIRAC" }}</a>
+</p>
+{% endblock %}

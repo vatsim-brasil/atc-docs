@@ -18,3 +18,17 @@
   {% endfor %}
 </ol>
 {% endmacro %}
+
+{#- Abas que alternam entre as novidades do portal e as atualizações de AIRAC -#}
+{% macro abas(atual) %}
+{% set en = config.theme.language.startswith("en") %}
+{% set base = "en/" if en else "" %}
+<nav class="vb-abas" aria-label="{{ 'Updates' if en else 'Novidades' }}">
+  <a class="vb-abas__item{% if atual == 'portal' %} vb-abas__item--ativa{% endif %}" href="{{ (base ~ 'novidades/') | url }}"{% if atual == 'portal' %} aria-current="page"{% endif %}>
+    {{ "Portal updates" if en else "Novidades do Portal" }}
+  </a>
+  <a class="vb-abas__item{% if atual == 'airac' %} vb-abas__item--ativa{% endif %}" href="{{ (base ~ 'novidades/airac/') | url }}"{% if atual == 'airac' %} aria-current="page"{% endif %}>
+    {{ "AIRAC updates" if en else "Atualizações de AIRAC" }}
+  </a>
+</nav>
+{% endmacro %}

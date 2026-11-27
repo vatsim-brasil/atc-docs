@@ -3,6 +3,7 @@
 {% import "partials/vb-novidades.html" as vn with context %}
 
 {% block content %}
+{{ vn.abas("portal") }}
 {{ page.content }}
 {% for mes, itens in novidades_por_mes %}
   <h2 class="vb-novidades__mes">{{ mes }}</h2>

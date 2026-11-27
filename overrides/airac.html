@@ -1,0 +1,26 @@
+{#- Listagem das atualizações de AIRAC: uma página por ciclo em novidades/airac/ -#}
+{% extends "main.html" %}
+{% import "partials/vb-novidades.html" as vn with context %}
+
+{% block content %}
+{% set en = config.theme.language.startswith("en") %}
+{{ vn.abas("airac") }}
+{{ page.content }}
+{% set meses = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"] if en else ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"] %}
+{% set ciclos = [] %}
+{% for p in (page.parent.children if page.parent else []) %}
+  {% if p.is_page and p.meta.ciclo %}
+    {% set v = p.meta.vigencia %}
+    {% set _ = ciclos.append({
+      "ciclo": p.meta.ciclo | string,
+      "titulo": p.title,
+      "resumo": p.meta.resumo,
+      "tipo": "airac",
+      "rotulo": "AIRAC",
+      "data_curta": ("%02d %s" % (v.day, meses[v.month - 1]) if v else ""),
+      "url": p.url,
+    }) %}
+  {% endif %}
+{% endfor %}
+{{ vn.strips(ciclos | sort(attribute="ciclo", reverse=true)) }}
+{% endblock %}

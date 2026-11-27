@@ -1529,6 +1529,7 @@ body {
 .vb-strip--oca { --vb-strip: var(--vb-blue); }
 .vb-strip--fundamentos { --vb-strip: var(--vb-indigo); }
 .vb-strip--portal { --vb-strip: var(--md-default-fg-color--light); }
+.vb-strip--airac { --vb-strip: var(--vb-red); }
 
 [data-md-color-scheme="slate"] .vb-strip--fundamentos { --vb-strip: #8c9cff; }
 
@@ -1616,6 +1617,38 @@ body {
 .md-typeset .vb-entrada__voltar {
   margin-top: 2rem;
   font-size: 0.75rem;
+}
+
+/* Abas da seção Novidades: portal e AIRAC */
+.md-typeset .vb-abas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 0 0 1.2rem;
+  padding: 0.25rem;
+  border: 1px solid var(--vb-border);
+  border-radius: var(--vb-radius);
+  background: var(--vb-surface-2);
+}
+
+.md-typeset .vb-abas__item {
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--vb-radius-sm);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.md-typeset .vb-abas__item:hover {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .vb-abas__item--ativa,
+.md-typeset .vb-abas__item--ativa:hover {
+  background: var(--vb-surface);
+  color: var(--vb-heading-accent);
+  box-shadow: var(--vb-shadow);
 }
 
 /* Commits publicados em um deploy */
