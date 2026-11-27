@@ -111,6 +111,8 @@ Sector files follow the AIRAC cycle. Before each session, with EuroScope closed,
 
 If the AeroNav session expires, the program asks you to sign in again and carries on with the operation.
 
+[:octicons-arrow-right-24: Sector File Manager guide](../sector-file-manager/index.en.md){ .md-button }
+
 [:octicons-arrow-right-24: Usage](utilizacao.en.md){ .md-button .md-button--primary }
 
 </div>
