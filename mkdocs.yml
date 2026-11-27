@@ -153,6 +153,7 @@ plugins:
           site_name: ATC Portal
           nav_translations:
             Aeródromos: Aerodromes
+            Atualizações de AIRAC: AIRAC Updates
             Atlântico: Oceanic
             Cartas de Acordo Operacional: Letters of Agreement
             Centros: Centers

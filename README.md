@@ -71,7 +71,7 @@ O projeto é organizado da seguinte forma:
   * 📁 `MOP/`: Manual de Operações Padrão.
   * 📁 `documentos/`: Tratados, regimentos e resoluções.
   * 📁 `fundamentos/`: Conceitos e guias de softwares (como o EuroScope).
-  * 📁 `novidades/`: Changelog do portal (veja [Publicando uma novidade](#-publicando-uma-novidade)).
+  * 📁 `novidades/`: Changelog do portal e atualizações de AIRAC (veja [Novidades](#-novidades)).
 * 📁 **[includes/](./includes)**: Snippets de texto reutilizáveis e lista global de abreviações.
 * 📁 **[hooks/](./hooks)**: Hooks do MkDocs (ex.: `novidades.py`, que monta a lista de novidades).
 * 📁 **[overrides/](./overrides)**: Customizações do tema MkDocs Material (HTML/JS/CSS adicionais).
@@ -79,26 +79,37 @@ O projeto é organizado da seguinte forma:
 
 ---
 
-## 📰 Publicando uma novidade
+## 📰 Novidades
 
-Sempre que uma alteração relevante entrar no portal (manual novo, MOP revisado, cartas etc.), registre-a em `docs/novidades/`. As entradas aparecem na página **Novidades** e as quatro mais recentes aparecem na home.
+A seção **Novidades** tem duas partes:
 
-Crie `docs/novidades/AAAA-MM-DD-slug.pt.md` (o `.en.md` é opcional; sem ele, a versão em inglês do site mostra o texto em português):
+* **Novidades do Portal** (`docs/novidades/index.*.md`): gerada sozinha pelo hook `hooks/novidades.py` a partir do histórico do git. Cada merge de pull request no `master` vira uma entrada com todos os commits que ele publicou; as quatro mais recentes aparecem na home. Escreva títulos de PR e mensagens de commit claros, em português.
+* **Atualizações de AIRAC** (`docs/novidades/airac/`): uma página por ciclo, escrita à mão quando os pacotes dos arquivos de setor são publicados no [AeroNav](https://files.aero-nav.com/SBXX).
+
+### Publicando um ciclo AIRAC
+
+Crie `docs/novidades/airac/AAMM.pt.md` (ex.: `2612.pt.md`) e, se possível, o `.en.md` correspondente. A listagem é montada a partir do front matter:
 
 ```markdown
 ---
-date: 2026-10-08
-tipo: manual   # manual, ad, tma, fir, oca, fundamentos ou portal
-link: documentos/manuais/vetoracao-sequenciamento/   # página alterada, a partir da raiz do site
-resumo: Uma linha que aparece na lista e na home.
+template: airac-ciclo.html
+ciclo: 2612
+vigencia: 2026-11-26   # data de efetivação do ciclo
+resumo: Uma linha com os destaques, que aparece na listagem.
+hide:
+  - navigation
+  - toc
 ---
 
-# Manual de Vetoração e Sequenciamento
+# AIRAC 2612
 
-Descrição curta do que mudou.
+## SBAO · FIR Atlântico {#sbao}
+
+### Dados de navegação
+...
 ```
 
-O `tipo` define o rótulo e a cor da faixa. O `link` vira o botão "Abrir a página atualizada" (no build em inglês, recebe o prefixo `en/` automaticamente).
+Agrupe as mudanças por FIR (`##`) e por tipo (`###`: Dados de navegação, Procedimentos, Setores, Diagramas de solo, ASR, Plugin VectorsProcsMap). Use [`2612.pt.md`](./docs/novidades/airac/2612.pt.md) como modelo.
 
 ---
 

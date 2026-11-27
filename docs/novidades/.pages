@@ -1,1 +1,5 @@
 title: Novidades
+nav:
+  - ... | glob=index*.md
+  - airac
+  - ...
